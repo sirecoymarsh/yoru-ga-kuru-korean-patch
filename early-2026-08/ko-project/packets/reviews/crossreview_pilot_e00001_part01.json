@@ -1,0 +1,1849 @@
+﻿{
+    "schema":  "contextual-game-localization.translation-packet.v1",
+    "packet_id":  "pilot_e00001_part01",
+    "source_asset":  "NightRemaster.ain",
+    "semantic_source_language":  "ja-JP",
+    "target_language":  "ko-KR",
+    "translation_provider":  "Codex internal model",
+    "intermediate_language":  null,
+    "function":  "ＥＶ／元／E00001",
+    "requested_numeric_range":  {
+                                    "first":  2211,
+                                    "last":  2305
+                                },
+    "actual_numeric_range":  {
+                                 "first":  2211,
+                                 "last":  2305
+                             },
+    "entry_count":  95,
+    "translatable_count":  88,
+    "glossary":  {
+                     "path":  "glossary.tsv",
+                     "sha256":  "fcc68e498ade44ff9d5409bc2b3af6b128172dfa5f90aad5ca8c675b57b9e580"
+                 },
+    "rules":  [
+                  "Translate directly from Japanese into natural Korean.",
+                  "Do not use an intermediate language or external translation API.",
+                  "Preserve every stable_id, source, source_sha256, protected token, and entry order.",
+                  "Speaker labels are translated according to the locked glossary.",
+                  "Write split lines as one coherent thought while retaining the original field count.",
+                  "Do not translate numeric voice IDs, lookup keys, control codes, or asset names."
+              ],
+    "entries":  [
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2211]",
+                        "kind":  "message",
+                        "numeric_id":  2211,
+                        "source_sha256":  "556130f63d8b141e0edd86c2beb85cac755de1a4f96282510399e9f213d8c153",
+                        "source":  "この夜がおわったあとで",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  null,
+                        "next_source":  "どうか。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "이 밤이 끝난 뒤",
+                        "translator_notes":  "2211~2214를 하나의 기원문으로 재구성해 자연스럽게 분할함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2212]",
+                        "kind":  "message",
+                        "numeric_id":  2212,
+                        "source_sha256":  "7cd9cfac91a0c862cf6a5c73d9592466fdae78b12f0539fbb904cc9e5d634d51",
+                        "source":  "どうか。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "この夜がおわったあとで",
+                        "next_source":  "ふたたび君が夢みることを",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "부디,",
+                        "translator_notes":  "2211~2214를 하나의 기원문으로 재구성하고 단독 마침표를 쉼표로 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2213]",
+                        "kind":  "message",
+                        "numeric_id":  2213,
+                        "source_sha256":  "bbe840b121dae3e66a8831d439b84731241eaa4ce6238ef3a66cc9dc5c65bcd4",
+                        "source":  "ふたたび君が夢みることを",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "どうか。",
+                        "next_source":  "ねがいますように……",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "네가 다시 꿈을 꿀 수",
+                        "translator_notes":  "2211~2214의 의미를 합쳐 어색한 사역 표현을 바로잡음.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2214]",
+                        "kind":  "message",
+                        "numeric_id":  2214,
+                        "source_sha256":  "584e08973c7deb5fc22fe6af71b5f550b74b1a574971cc32c49adb0d208b1d24",
+                        "source":  "ねがいますように……",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "ふたたび君が夢みることを",
+                        "next_source":  "",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "있기를……",
+                        "translator_notes":  "2211~2214를 자연스러운 기원형 종결로 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2215]",
+                        "kind":  "message",
+                        "numeric_id":  2215,
+                        "source_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "source":  "",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "blank",
+                        "speaker":  null,
+                        "previous_source":  "ねがいますように……",
+                        "next_source":  "・・・・・・・・・・・・・・・・・・・・・・・・",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  false,
+                        "target":  "",
+                        "translator_notes":  "",
+                        "review_status":  "not_applicable"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2216]",
+                        "kind":  "message",
+                        "numeric_id":  2216,
+                        "source_sha256":  "61e0ad3b5126bdb9d9f05da635b3d851799162c03b08145b8598a6481baaace4",
+                        "source":  "・・・・・・・・・・・・・・・・・・・・・・・・",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "pause_or_effect",
+                        "speaker":  null,
+                        "previous_source":  "",
+                        "next_source":  "",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  false,
+                        "target":  "・・・・・・・・・・・・・・・・・・・・・・・・",
+                        "translator_notes":  "",
+                        "review_status":  "not_applicable"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2217]",
+                        "kind":  "message",
+                        "numeric_id":  2217,
+                        "source_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "source":  "",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "blank",
+                        "speaker":  null,
+                        "previous_source":  "・・・・・・・・・・・・・・・・・・・・・・・・",
+                        "next_source":  "・・・・・・・・・・・・・・・・",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  false,
+                        "target":  "",
+                        "translator_notes":  "",
+                        "review_status":  "not_applicable"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2218]",
+                        "kind":  "message",
+                        "numeric_id":  2218,
+                        "source_sha256":  "e098cdfd7ea5ec40c248c7bbb2e119880cfe3d2510d4588b0236ffbc1d40a09e",
+                        "source":  "・・・・・・・・・・・・・・・・",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "pause_or_effect",
+                        "speaker":  null,
+                        "previous_source":  "",
+                        "next_source":  "",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  false,
+                        "target":  "・・・・・・・・・・・・・・・・",
+                        "translator_notes":  "",
+                        "review_status":  "not_applicable"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2219]",
+                        "kind":  "message",
+                        "numeric_id":  2219,
+                        "source_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "source":  "",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "blank",
+                        "speaker":  null,
+                        "previous_source":  "・・・・・・・・・・・・・・・・",
+                        "next_source":  "・・・・・・・・",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  false,
+                        "target":  "",
+                        "translator_notes":  "",
+                        "review_status":  "not_applicable"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2220]",
+                        "kind":  "message",
+                        "numeric_id":  2220,
+                        "source_sha256":  "01df67e1d7cdbc51809b3a90688de6c6f9f4568cf270f141f3169e5f01fee77a",
+                        "source":  "・・・・・・・・",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "pause_or_effect",
+                        "speaker":  null,
+                        "previous_source":  "",
+                        "next_source":  "ハッ…ハッ…",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  false,
+                        "target":  "・・・・・・・・",
+                        "translator_notes":  "",
+                        "review_status":  "not_applicable"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2221]",
+                        "kind":  "message",
+                        "numeric_id":  2221,
+                        "source_sha256":  "9cdad1a998887810d78c9ecbb6ecdb0aa9c1a8ed8903dc9edb15be9c89d581cb",
+                        "source":  "ハッ…ハッ…",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "・・・・・・・・",
+                        "next_source":  "ハッ……ハッ……ハッ！",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "헉…… 헉……",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2222]",
+                        "kind":  "message",
+                        "numeric_id":  2222,
+                        "source_sha256":  "e81a0bf3fbd90401a1e401a13414b468bac3530b71032652933e34b0bfcd9b64",
+                        "source":  "ハッ……ハッ……ハッ！",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "ハッ…ハッ…",
+                        "next_source":  "夜の街を俺は全力で走っていた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "헉…… 헉…… 헉！",
+                        "translator_notes":  "원문 감탄부호와 프로젝트 전각 문장부호를 일치시킴.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2223]",
+                        "kind":  "message",
+                        "numeric_id":  2223,
+                        "source_sha256":  "619cf9838286f5204b32c0c7c778e348cfaa5935d701fab490b7db20c1eb63a3",
+                        "source":  "夜の街を俺は全力で走っていた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "ハッ……ハッ……ハッ！",
+                        "next_source":  "吐き出す息が辛い。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "나는 밤거리를 온 힘을 다해 달리고 있었다.",
+                        "translator_notes":  "번역투인 전력으로를 자연스러운 한국어로 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2224]",
+                        "kind":  "message",
+                        "numeric_id":  2224,
+                        "source_sha256":  "5e9339c197597ee5b351f7de0405236ed8a1658dc2c92c3cb7507f2eb52eeef8",
+                        "source":  "吐き出す息が辛い。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "夜の街を俺は全力で走っていた。",
+                        "next_source":  "横腹が猛烈に痛い。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "내쉬는 숨조차 괴롭다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2225]",
+                        "kind":  "message",
+                        "numeric_id":  2225,
+                        "source_sha256":  "a9b8bd5b0ae64475ec13e6d7e1afa719fb06cd4a596834d58be4c8510ced7c3f",
+                        "source":  "横腹が猛烈に痛い。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "吐き出す息が辛い。",
+                        "next_source":  "けれど止まるわけにはいかない。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "옆구리가 미친 듯이 아프다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2226]",
+                        "kind":  "message",
+                        "numeric_id":  2226,
+                        "source_sha256":  "6ae2b8b3c8de458930a887833390aa9cd6610441ece40f66f54d8e18354910f1",
+                        "source":  "けれど止まるわけにはいかない。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "横腹が猛烈に痛い。",
+                        "next_source":  "奴はまだ、俺を追っている……",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그래도 멈출 수는 없다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2227]",
+                        "kind":  "message",
+                        "numeric_id":  2227,
+                        "source_sha256":  "d6b07394570a7f35659dcd726c08405dd6b6d0896a1fbbb4f44ba72ccf74338a",
+                        "source":  "奴はまだ、俺を追っている……",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "けれど止まるわけにはいかない。",
+                        "next_source":  "肩越しに背後を振り返ると、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그놈은 아직도 나를 쫓고 있다……",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2228]",
+                        "kind":  "message",
+                        "numeric_id":  2228,
+                        "source_sha256":  "d4d4cdac26da4b4a119e3dc979c5317f5b96123b867629bf99fd62e26bb05ac0",
+                        "source":  "肩越しに背後を振り返ると、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "奴はまだ、俺を追っている……",
+                        "next_source":  "十メートル程後ろに走る男の影が見えた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "어깨너머로 뒤를 돌아보니,",
+                        "translator_notes":  "뒤 장면을 발견하는 연결에 맞게 종결을 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2229]",
+                        "kind":  "message",
+                        "numeric_id":  2229,
+                        "source_sha256":  "45fb0acd2fb33e2fc015d4b112d367711f147b721db3bc9bc1c4147850291a67",
+                        "source":  "十メートル程後ろに走る男の影が見えた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "肩越しに背後を振り返ると、",
+                        "next_source":  "さっきから俺を追いかけてきている。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "10미터쯤 뒤에서 달리는 남자의 그림자가 보였다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2230]",
+                        "kind":  "message",
+                        "numeric_id":  2230,
+                        "source_sha256":  "9bd2d1ae31cf326888dc558165c0a5337899d1137f24a9d7f8454c3c646b1728",
+                        "source":  "さっきから俺を追いかけてきている。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "十メートル程後ろに走る男の影が見えた。",
+                        "next_source":  "たっぷり五分は走ってるのに、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "아까부터 나를 뒤쫓고 있다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2231]",
+                        "kind":  "message",
+                        "numeric_id":  2231,
+                        "source_sha256":  "773a0efd4ea845288baeb53d6c603492c42a12a591c670c0926b75f4b7f0a9d4",
+                        "source":  "たっぷり五分は走ってるのに、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "さっきから俺を追いかけてきている。",
+                        "next_source":  "ヤツの足音は一向に離れる気配がない。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "벌써 5분은 달렸는데도,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2232]",
+                        "kind":  "message",
+                        "numeric_id":  2232,
+                        "source_sha256":  "62a73a16b8d06251c1c98a908efdf6652c25f6ea4deb047f6a22a48781b61a21",
+                        "source":  "ヤツの足音は一向に離れる気配がない。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "たっぷり五分は走ってるのに、",
+                        "next_source":  "（ちくしょ…どこまで追ってくる気だ…）",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "놈의 발소리는 도무지 멀어질 기미가 없다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2233]",
+                        "kind":  "message",
+                        "numeric_id":  2233,
+                        "source_sha256":  "fd4ba949afae03c6ce5891bc8fdbb61dd568314e6386400ce90f11e14eb47670",
+                        "source":  "（ちくしょ…どこまで追ってくる気だ…）",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "inner_monologue",
+                        "speaker":  null,
+                        "previous_source":  "ヤツの足音は一向に離れる気配がない。",
+                        "next_source":  "ジュースを買おうとアパートから出、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "（젠장…… 어디까지 쫓아올 셈이야……）",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2234]",
+                        "kind":  "message",
+                        "numeric_id":  2234,
+                        "source_sha256":  "80745343e912479cff04cb60fbe3fce5c69b5a36afab22944f5ae53b1eac451e",
+                        "source":  "ジュースを買おうとアパートから出、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "（ちくしょ…どこまで追ってくる気だ…）",
+                        "next_source":  "自販機にコインを入れた時、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "주스를 사려고 아파트를 나와,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2235]",
+                        "kind":  "message",
+                        "numeric_id":  2235,
+                        "source_sha256":  "11899dd0bf9b1f5877c5fa9b1be7b97af49de47d8626f9d6d71578c2bc2f99a9",
+                        "source":  "自販機にコインを入れた時、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "ジュースを買おうとアパートから出、",
+                        "next_source":  "奴は背後から現れた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "자판기에 동전을 넣었을 때,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2236]",
+                        "kind":  "message",
+                        "numeric_id":  2236,
+                        "source_sha256":  "8730a4aa3ddbe50d98d824182199e1ada62879a7af79d222ecfff9a05660a61c",
+                        "source":  "奴は背後から現れた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "自販機にコインを入れた時、",
+                        "next_source":  "振りかえった俺の前で声を出さずに叫ぶと、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "놈은 등 뒤에서 나타났다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2237]",
+                        "kind":  "message",
+                        "numeric_id":  2237,
+                        "source_sha256":  "23a87c2f06b35ea95248a6b5157766c0b8972ae043b77a4bcb953c3a6aec9bfc",
+                        "source":  "振りかえった俺の前で声を出さずに叫ぶと、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "奴は背後から現れた。",
+                        "next_source":  "そいつはナイフを閃かせた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "뒤돌아본 내 앞에서 소리 없는 비명을 지르더니,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2238]",
+                        "kind":  "message",
+                        "numeric_id":  2238,
+                        "source_sha256":  "c1fc48fd3a588625c8b195c2eab37db1d9fb962f4fdcb5773022a29ab87d1630",
+                        "source":  "そいつはナイフを閃かせた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "振りかえった俺の前で声を出さずに叫ぶと、",
+                        "next_source":  "その一振りをすんでのところでかわし、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "녀석은 칼을 번뜩였다.",
+                        "translator_notes":  "원문의 칼이 동작의 대상임을 분명히 하면서 자연스럽게 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2239]",
+                        "kind":  "message",
+                        "numeric_id":  2239,
+                        "source_sha256":  "087f3913a4951f41a5cf8d7f1e296bb0ca034dac7022c0b1c7ac502435419584",
+                        "source":  "その一振りをすんでのところでかわし、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "そいつはナイフを閃かせた。",
+                        "next_source":  "俺は背を向け走り出していた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그 일격을 간발의 차로 피하고,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2240]",
+                        "kind":  "message",
+                        "numeric_id":  2240,
+                        "source_sha256":  "a4b02a90fa030fa5bc80d2ba27a45d59296dc59d79de234f9bb5dc62f14374a8",
+                        "source":  "俺は背を向け走り出していた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "その一振りをすんでのところでかわし、",
+                        "next_source":  "走りぬける一瞬に男の顔が見えた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "나는 등을 돌려 달리기 시작했다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2241]",
+                        "kind":  "message",
+                        "numeric_id":  2241,
+                        "source_sha256":  "af16dc63759a23a8ba28e81cddad903166a1d683e6f502032de9b7a8262242f4",
+                        "source":  "走りぬける一瞬に男の顔が見えた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "俺は背を向け走り出していた。",
+                        "next_source":  "やせ細ったしろいほほ、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "스쳐 지나가는 순간 남자의 얼굴이 보였다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2242]",
+                        "kind":  "message",
+                        "numeric_id":  2242,
+                        "source_sha256":  "3979cea02d19a37d035c2bb71da104c6468b04702ca5db955dc1b90c5ab15807",
+                        "source":  "やせ細ったしろいほほ、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "走りぬける一瞬に男の顔が見えた。",
+                        "next_source":  "落ちくぼんだ目元。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "야위고 새하얀 뺨,",
+                        "translator_notes":  "야윈 상태와 흰 뺨의 병렬 묘사 및 색감을 복원함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2243]",
+                        "kind":  "message",
+                        "numeric_id":  2243,
+                        "source_sha256":  "ced51a84661998dc635d6761c470ff1b9e7a39c006d06d0c7c895fbf72dcf15c",
+                        "source":  "落ちくぼんだ目元。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "やせ細ったしろいほほ、",
+                        "next_source":  "そして理性の光の消えた瞳……。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "푹 팬 눈가.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2244]",
+                        "kind":  "message",
+                        "numeric_id":  2244,
+                        "source_sha256":  "0f4f2f9e9108dec9ffadf118f56297ce6426d4876fa0036d7bc70789247bf3e6",
+                        "source":  "そして理性の光の消えた瞳……。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  null,
+                        "previous_source":  "落ちくぼんだ目元。",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그리고 이성의 빛이 사라진 눈동자……",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2245]",
+                        "kind":  "message",
+                        "numeric_id":  2245,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "そして理性の光の消えた瞳……。",
+                        "next_source":  "「…っく………うぅ…」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2246]",
+                        "kind":  "message",
+                        "numeric_id":  2246,
+                        "source_sha256":  "f8f0981786614e1334d8a9d884ce8acf104c1093b6c557b5a7086df9e8e9e433",
+                        "source":  "「…っく………うぅ…」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "普段の数倍以上の馬力を強要されて、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「……윽…… 으으……」",
+                        "translator_notes":  "신음의 호흡과 말줄임표를 자연스럽게 정리함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2247]",
+                        "kind":  "message",
+                        "numeric_id":  2247,
+                        "source_sha256":  "d3310e2410d13074becda37a771575a256336c1089f1baf3401d7bc171cbbdfb",
+                        "source":  "普段の数倍以上の馬力を強要されて、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「…っく………うぅ…」",
+                        "next_source":  "俺の意志に関係なく両のヒザが折れ曲がろうとする。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "평소의 몇 배가 넘는 힘을 내도록 내몰려,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2248]",
+                        "kind":  "message",
+                        "numeric_id":  2248,
+                        "source_sha256":  "4904d7c8a040d52d46981388d2c4662666f45de9faef95748db372826946fbe6",
+                        "source":  "俺の意志に関係なく両のヒザが折れ曲がろうとする。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "普段の数倍以上の馬力を強要されて、",
+                        "next_source":  "走りながら助けを求める声に応える者もなく、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "내 의지와는 상관없이 두 무릎이 꺾이려 한다.",
+                        "translator_notes":  "양 무릎이라는 번역투를 자연스러운 수 표현으로 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2249]",
+                        "kind":  "message",
+                        "numeric_id":  2249,
+                        "source_sha256":  "26dd3526f8fa3a3bb1bcf549997923e5d577f00edf510cd3a921b9817b2e8370",
+                        "source":  "走りながら助けを求める声に応える者もなく、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "俺の意志に関係なく両のヒザが折れ曲がろうとする。",
+                        "next_source":  "恐怖と緊張とで疲労は限界に来ていた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "달리며 도움을 청해도 대답하는 이는 없었고,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2250]",
+                        "kind":  "message",
+                        "numeric_id":  2250,
+                        "source_sha256":  "1599d0f69b5c8e5a73df971188f43cd1f491f73e852ce2e2d6d73bfd096f2e5a",
+                        "source":  "恐怖と緊張とで疲労は限界に来ていた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "走りながら助けを求める声に応える者もなく、",
+                        "next_source":  "ひとたび止まれば、また動く事は難しい",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "공포와 긴장으로 피로는 한계에 이르렀다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2251]",
+                        "kind":  "message",
+                        "numeric_id":  2251,
+                        "source_sha256":  "57562478e76ab637e128b787a1717ec778d65011dae542f89fdba6d32b911280",
+                        "source":  "ひとたび止まれば、また動く事は難しい",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "恐怖と緊張とで疲労は限界に来ていた。",
+                        "next_source":  "だろう。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "한번 멈추면 다시 움직이기는",
+                        "translator_notes":  "2251~2252의 문법적으로 끊긴 분할을 재조정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2252]",
+                        "kind":  "message",
+                        "numeric_id":  2252,
+                        "source_sha256":  "345a7d1cc1c5a54fe6d459b66a4c82a960e6b139c0ecc80f9177f565818902f2",
+                        "source":  "だろう。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "ひとたび止まれば、また動く事は難しい",
+                        "next_source":  "そして、限界はすぐそこまで来ていた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "어려울 것이다.",
+                        "translator_notes":  "2251~2252를 완전한 문장으로 이어지도록 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2253]",
+                        "kind":  "message",
+                        "numeric_id":  2253,
+                        "source_sha256":  "8d8b646822ff4805ef21dcc1f8cecc2e08acbb556a44786f133569fdd21aa13e",
+                        "source":  "そして、限界はすぐそこまで来ていた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "だろう。",
+                        "next_source":  "（ダメだ………もう、やばい……）",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그리고 한계는 바로 눈앞까지 다가와 있었다.",
+                        "translator_notes":  "한계가 임박한 상황을 자연스러운 한국어로 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2254]",
+                        "kind":  "message",
+                        "numeric_id":  2254,
+                        "source_sha256":  "955d68a4fe530b26435622c6df06abf93fbe4a3436522f50f644a2d03bdc9db5",
+                        "source":  "（ダメだ………もう、やばい……）",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "inner_monologue",
+                        "speaker":  "亮",
+                        "previous_source":  "そして、限界はすぐそこまで来ていた。",
+                        "next_source":  "（……………………………………）",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "（안 돼…… 이제 정말 못 버티겠어……）",
+                        "translator_notes":  "료의 짧고 거친 독백에 맞추고 말줄임표를 통일함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2255]",
+                        "kind":  "message",
+                        "numeric_id":  2255,
+                        "source_sha256":  "8419c014a3ccacad965c554406f6863b084dd1668d2013679444ae6bb3bad218",
+                        "source":  "（……………………………………）",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "inner_monologue",
+                        "speaker":  "亮",
+                        "previous_source":  "（ダメだ………もう、やばい……）",
+                        "next_source":  "（………………………………ん？）",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "（……………………………………）",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2256]",
+                        "kind":  "message",
+                        "numeric_id":  2256,
+                        "source_sha256":  "4f69084b92dd432866c554cacb36d694e2a8e84b652a4ca9319a575d44bc6cc6",
+                        "source":  "（………………………………ん？）",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "inner_monologue",
+                        "speaker":  "亮",
+                        "previous_source":  "（……………………………………）",
+                        "next_source":  "心といっしょにヒザが折れかけたとき、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "（………………………………응？）",
+                        "translator_notes":  "원문의 의문부호 형식을 프로젝트 문장부호와 일치시킴.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2257]",
+                        "kind":  "message",
+                        "numeric_id":  2257,
+                        "source_sha256":  "2d59968bb9e458baf9933e81d3f53deef23cc5a526c9f53f944744c486b7a7c9",
+                        "source":  "心といっしょにヒザが折れかけたとき、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "（………………………………ん？）",
+                        "next_source":  "視界の先に人影が飛びこんだ。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "의지와 함께 무릎이 꺾이려던 순간,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2258]",
+                        "kind":  "message",
+                        "numeric_id":  2258,
+                        "source_sha256":  "2e2e14d61d913fb02ed9a0887f0638d17fdf103559f097008f8a473e99dfb98c",
+                        "source":  "視界の先に人影が飛びこんだ。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "心といっしょにヒザが折れかけたとき、",
+                        "next_source":  "路の先に、人がひとり立っていた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "시야 끝에 사람의 형체가 들어왔다.",
+                        "translator_notes":  "사람의 형체가 실제로 뛰어든 것처럼 읽히는 동작 오역을 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2259]",
+                        "kind":  "message",
+                        "numeric_id":  2259,
+                        "source_sha256":  "833bb568e979a5af6b7183fafbb5530ab026f490280fd1a3ab322eb176591288",
+                        "source":  "路の先に、人がひとり立っていた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "視界の先に人影が飛びこんだ。",
+                        "next_source":  "隆起した胸元に、足首までの長いスカート。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "길 앞쪽에 누군가 혼자 서 있었다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2260]",
+                        "kind":  "message",
+                        "numeric_id":  2260,
+                        "source_sha256":  "6afe9830a212e941071760219647d8034c88ed486d24627df429f653d8c00a6a",
+                        "source":  "隆起した胸元に、足首までの長いスカート。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "路の先に、人がひとり立っていた。",
+                        "next_source":  "暗くて顔は良く見えないが女のシルエットに",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "봉긋 솟은 가슴과 발목까지 내려오는 긴 치마.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2261]",
+                        "kind":  "message",
+                        "numeric_id":  2261,
+                        "source_sha256":  "6c2b9577b1ff1b9225c9d5b7e689d324a4492c5311c5d3983097377f99ee7e5f",
+                        "source":  "暗くて顔は良く見えないが女のシルエットに",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "隆起した胸元に、足首までの長いスカート。",
+                        "next_source":  "間違いない。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "어두워서 얼굴은 잘 보이지 않지만 여자의 실루엣인 것만은",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2262]",
+                        "kind":  "message",
+                        "numeric_id":  2262,
+                        "source_sha256":  "95910ecd0bf161c7246926c0038006ffb10f19f0bafcb89c4acc0c8881687b6e",
+                        "source":  "間違いない。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "暗くて顔は良く見えないが女のシルエットに",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "틀림없었다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2263]",
+                        "kind":  "message",
+                        "numeric_id":  2263,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "間違いない。",
+                        "next_source":  "「く………に、逃げろ！」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2264]",
+                        "kind":  "message",
+                        "numeric_id":  2264,
+                        "source_sha256":  "2a239df2c3c73afaec1951f1c3ea3fd2e6d0a0c29b7aa8b5792b20fa36834c7b",
+                        "source":  "「く………に、逃げろ！」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "今にも前に崩れそうな不恰好な姿勢のまま、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「크…… 도, 도망쳐！」",
+                        "translator_notes":  "달리다 지친 신음과 원문의 감탄부호를 자연스럽게 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2265]",
+                        "kind":  "message",
+                        "numeric_id":  2265,
+                        "source_sha256":  "e91cd67ac7dbb510e6c15066c8f16ec25e8dea885ba6eea779730a6b5c0db877",
+                        "source":  "今にも前に崩れそうな不恰好な姿勢のまま、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「く………に、逃げろ！」",
+                        "next_source":  "俺は声をはりあげた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "당장이라도 앞으로 고꾸라질 듯 엉거주춤한 자세로,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2266]",
+                        "kind":  "message",
+                        "numeric_id":  2266,
+                        "source_sha256":  "90fbedd9d005da5088a7cc8a544340beb64a00e732328c30b84512d0a165b568",
+                        "source":  "俺は声をはりあげた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "今にも前に崩れそうな不恰好な姿勢のまま、",
+                        "next_source":  "【人影】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "나는 목청껏 소리쳤다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2267]",
+                        "kind":  "message",
+                        "numeric_id":  2267,
+                        "source_sha256":  "f2b35bd58db47875ede9ffa2432803c038863cc4e5e9200f5c5287d859049af2",
+                        "source":  "【人影】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "人影",
+                        "previous_source":  "俺は声をはりあげた。",
+                        "next_source":  "『………………』",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【인영】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2268]",
+                        "kind":  "message",
+                        "numeric_id":  2268,
+                        "source_sha256":  "bb414b2287d0d3b86cdd0be6a0252f082345d83ecdb716a150bbba86da89f82a",
+                        "source":  "『………………』",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "人影",
+                        "previous_source":  "【人影】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "『………………』",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2269]",
+                        "kind":  "message",
+                        "numeric_id":  2269,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "『………………』",
+                        "next_source":  "「逃げろ！　人殺しだ…逃げろ！」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2270]",
+                        "kind":  "message",
+                        "numeric_id":  2270,
+                        "source_sha256":  "a95735fe70ae9e3dfea843f6aea2c53c680d2c529993dc9868f694d8bd2b7015",
+                        "source":  "「逃げろ！　人殺しだ…逃げろ！」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "俺の叫びに応える様子も見せず、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「도망쳐！ 저놈은 살인자야…… 도망치라고！」",
+                        "translator_notes":  "상대 여성을 살인자라 부르는 듯한 중의성을 없애고 추격자를 명시함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2271]",
+                        "kind":  "message",
+                        "numeric_id":  2271,
+                        "source_sha256":  "649ae51e01cd1aeffee9aa8ff87b05b2a848cb6db21786510fa2841aa0581438",
+                        "source":  "俺の叫びに応える様子も見せず、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「逃げろ！　人殺しだ…逃げろ！」",
+                        "next_source":  "彼女は同じ姿勢でまっすぐにその場に立っていた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "내 외침에 대답할 기색조차 없이,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2272]",
+                        "kind":  "message",
+                        "numeric_id":  2272,
+                        "source_sha256":  "b2f88225cd771b299e7ab2b477b43aeec67676c2278f3b296b4f83cead8b64c0",
+                        "source":  "彼女は同じ姿勢でまっすぐにその場に立っていた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "俺の叫びに応える様子も見せず、",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그녀는 자세 하나 바꾸지 않고 꼿꼿이 그 자리에 서 있었다.",
+                        "translator_notes":  "같은 자세라는 의미를 살리고 중복된 한국어 어순을 다듬음.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2273]",
+                        "kind":  "message",
+                        "numeric_id":  2273,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "彼女は同じ姿勢でまっすぐにその場に立っていた。",
+                        "next_source":  "「何やってる！　早く逃げろ…逃げるんだ！」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2274]",
+                        "kind":  "message",
+                        "numeric_id":  2274,
+                        "source_sha256":  "520b032cc8ada194df50047c71c42e533741702cc32306e200617ba359c489e0",
+                        "source":  "「何やってる！　早く逃げろ…逃げるんだ！」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "【人影】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「뭐 하는 거야！ 빨리 도망쳐…… 도망치라고！」",
+                        "translator_notes":  "긴박한 대사의 감탄부호 형식을 통일함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2275]",
+                        "kind":  "message",
+                        "numeric_id":  2275,
+                        "source_sha256":  "f2b35bd58db47875ede9ffa2432803c038863cc4e5e9200f5c5287d859049af2",
+                        "source":  "【人影】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "人影",
+                        "previous_source":  "「何やってる！　早く逃げろ…逃げるんだ！」",
+                        "next_source":  "「………………………」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【인영】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2276]",
+                        "kind":  "message",
+                        "numeric_id":  2276,
+                        "source_sha256":  "ff88f3347edc5a91ae67c46953f6db25308d2bbf0e382e07c94cb707964dce2b",
+                        "source":  "「………………………」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "人影",
+                        "previous_source":  "【人影】",
+                        "next_source":  "渇き、ひっぱつく喉から必死で声を絞り出す。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「………………………」",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2277]",
+                        "kind":  "message",
+                        "numeric_id":  2277,
+                        "source_sha256":  "104ccfe1bec867a6bd30127ee476232382561bd568c059b42925b1f71adb9ed7",
+                        "source":  "渇き、ひっぱつく喉から必死で声を絞り出す。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "人影",
+                        "previous_source":  "「………………………」",
+                        "next_source":  "けれど、それでも彼女は動かない！",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "바싹 말라붙은 목구멍에서 필사적으로 목소리를 짜낸다.",
+                        "translator_notes":  "메말라 달라붙는 목구멍의 상태를 자연스럽고 정확하게 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2278]",
+                        "kind":  "message",
+                        "numeric_id":  2278,
+                        "source_sha256":  "b5cfde39c02cc480be79f07c08c100bfb4c7091ff7f325669dfe4e17f8bc52a8",
+                        "source":  "けれど、それでも彼女は動かない！",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "人影",
+                        "previous_source":  "渇き、ひっぱつく喉から必死で声を絞り出す。",
+                        "next_source":  "２０……………１５……１０メートル。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그런데도 그녀는 움직이지 않는다！",
+                        "translator_notes":  "원문의 강한 감탄을 전각 문장부호로 보존함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2279]",
+                        "kind":  "message",
+                        "numeric_id":  2279,
+                        "source_sha256":  "f2417674351eefed355584ce3c4c7fe701089009bb202deea36bf6764c85ce23",
+                        "source":  "２０……………１５……１０メートル。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "人影",
+                        "previous_source":  "けれど、それでも彼女は動かない！",
+                        "next_source":  "彼女との距離が縮まり、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "２０……………１５……１０미터.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2280]",
+                        "kind":  "message",
+                        "numeric_id":  2280,
+                        "source_sha256":  "4677fb7a4242b3e789175c63b20765659a06f9b2abf7587c7ac98f8ed0f6944e",
+                        "source":  "彼女との距離が縮まり、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "人影",
+                        "previous_source":  "２０……………１５……１０メートル。",
+                        "next_source":  "もう少しでぶつかろうかという瞬間。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그녀와의 거리가 좁혀지고,",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2281]",
+                        "kind":  "message",
+                        "numeric_id":  2281,
+                        "source_sha256":  "14466878e925307862b96ebd780f09937007d1ced8caf67fe5303e37a1287c57",
+                        "source":  "もう少しでぶつかろうかという瞬間。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "人影",
+                        "previous_source":  "彼女との距離が縮まり、",
+                        "next_source":  "わずかに体をひねり彼女が地を蹴った。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "이제 곧 부딪칠 듯한 순간.",
+                        "translator_notes":  "부딪히려는 순간이라는 부자연스러운 능동 표현을 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2282]",
+                        "kind":  "message",
+                        "numeric_id":  2282,
+                        "source_sha256":  "6d961a584136e8688985e5c29d4e485ba2634646911a8b722e4e6ca7b94ed206",
+                        "source":  "わずかに体をひねり彼女が地を蹴った。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "人影",
+                        "previous_source":  "もう少しでぶつかろうかという瞬間。",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그녀는 살짝 몸을 틀어 땅을 박찼다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2283]",
+                        "kind":  "message",
+                        "numeric_id":  2283,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "わずかに体をひねり彼女が地を蹴った。",
+                        "next_source":  "「あ……」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2284]",
+                        "kind":  "message",
+                        "numeric_id":  2284,
+                        "source_sha256":  "957df08e6d2d224d4a983c5aec4d4fada68ef6749f724e2264b24cfa4b622342",
+                        "source":  "「あ……」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "すれちがいざま風に散った髪の向こうに",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「아……」",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2285]",
+                        "kind":  "message",
+                        "numeric_id":  2285,
+                        "source_sha256":  "bd62ba262a05884690fdd9a0c6e572464681485a27cfd7d7aa5e095985c86099",
+                        "source":  "すれちがいざま風に散った髪の向こうに",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「あ……」",
+                        "next_source":  "一瞬彼女の瞳がかいま見える。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "스쳐 지나갈 때 바람에 흩날린 머리카락 너머로",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2286]",
+                        "kind":  "message",
+                        "numeric_id":  2286,
+                        "source_sha256":  "20dc5e181332eb892fcd4d7b7e22c5b4b462e877ca1a5bb3ef4bd8b2577cc298",
+                        "source":  "一瞬彼女の瞳がかいま見える。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "すれちがいざま風に散った髪の向こうに",
+                        "next_source":  "ふたつの月光に照らし出されたそれは。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "순간 그녀의 눈동자가 언뜻 보였다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2287]",
+                        "kind":  "message",
+                        "numeric_id":  2287,
+                        "source_sha256":  "a998a2e53c732a2e522e9566d66b87f8b9b65855e3ad72cc03c9e59a7dfe3d38",
+                        "source":  "ふたつの月光に照らし出されたそれは。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "一瞬彼女の瞳がかいま見える。",
+                        "next_source":  "それは………",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "두 개의 달이 비춰 낸 그것은.",
+                        "translator_notes":  "두 줄기 달빛을 두 달이 비추는 장면으로 명확하고 자연스럽게 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2288]",
+                        "kind":  "message",
+                        "numeric_id":  2288,
+                        "source_sha256":  "66800b7578fa54b2d43ea7a0a492b1821e7fe8dd00abef7e35174b85b129c062",
+                        "source":  "それは………",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "ふたつの月光に照らし出されたそれは。",
+                        "next_source":  "……",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그것은……",
+                        "translator_notes":  "프로젝트 기본 말줄임표 형식으로 통일함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2289]",
+                        "kind":  "message",
+                        "numeric_id":  2289,
+                        "source_sha256":  "a7f878b8ced1a7957c560d573e30ddbbc1696e38c370513aacbbf4bff12e7f43",
+                        "source":  "……",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "pause_or_effect",
+                        "speaker":  "亮",
+                        "previous_source":  "それは………",
+                        "next_source":  "う…………",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  false,
+                        "target":  "……",
+                        "translator_notes":  "",
+                        "review_status":  "not_applicable"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2290]",
+                        "kind":  "message",
+                        "numeric_id":  2290,
+                        "source_sha256":  "baef2ad974e72750ab657def6981e42db225b7b034ec91b63002d9cbb30523b9",
+                        "source":  "う…………",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "……",
+                        "next_source":  "う………まぶしい……",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "으…………",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2291]",
+                        "kind":  "message",
+                        "numeric_id":  2291,
+                        "source_sha256":  "6cbae71226261aef2f249d161d9f714b39bf0c8bea43e71ea99b5b76ff153015",
+                        "source":  "う………まぶしい……",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "う…………",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "으…… 눈부셔……",
+                        "translator_notes":  "신음 뒤 말줄임표를 기본 형식으로 통일함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2292]",
+                        "kind":  "message",
+                        "numeric_id":  2292,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "う………まぶしい……",
+                        "next_source":  "「…………………」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2293]",
+                        "kind":  "message",
+                        "numeric_id":  2293,
+                        "source_sha256":  "44dc9921696d9d49346fea6c485bef5639d7bd3e7b93d2b66b0c5a44d9f04796",
+                        "source":  "「…………………」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "光に目が慣れるにつれ、真っ青な春の空が",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「…………………」",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2294]",
+                        "kind":  "message",
+                        "numeric_id":  2294,
+                        "source_sha256":  "c5b38eaa7a9af70edbe47a403054f971a37eda1488151b04e9c8f3f03fd30345",
+                        "source":  "光に目が慣れるにつれ、真っ青な春の空が",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「…………………」",
+                        "next_source":  "視界に浮かび上がる。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "빛에 눈이 익숙해지면서 새파란 봄 하늘이",
+                        "translator_notes":  "2294~2295를 자연스러운 진행 문장으로 재구성함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2295]",
+                        "kind":  "message",
+                        "numeric_id":  2295,
+                        "source_sha256":  "494e5400a1956bf0b9ff7ad6f6a3af9c7aeb3c11ac4affcadb902b961cf75173",
+                        "source":  "視界に浮かび上がる。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "光に目が慣れるにつれ、真っ青な春の空が",
+                        "next_source":  "（あれ………俺…ねてたのか…）",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "시야에 모습을 드러낸다.",
+                        "translator_notes":  "2294~2295의 어색한 떠오른다를 장면에 맞게 교정함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2296]",
+                        "kind":  "message",
+                        "numeric_id":  2296,
+                        "source_sha256":  "8bc8b2c32b0abf07ed992c02434ed812ab7ef3d3f381b454a6750e62a5394568",
+                        "source":  "（あれ………俺…ねてたのか…）",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "inner_monologue",
+                        "speaker":  "亮",
+                        "previous_source":  "視界に浮かび上がる。",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "（어라…… 나…… 자고 있었나……）",
+                        "translator_notes":  "료의 잠에서 깬 독백과 말줄임표를 자연스럽게 정리함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2297]",
+                        "kind":  "message",
+                        "numeric_id":  2297,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "（あれ………俺…ねてたのか…）",
+                        "next_source":  "「ふあ…」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2298]",
+                        "kind":  "message",
+                        "numeric_id":  2298,
+                        "source_sha256":  "043d57f2867a734002ce0ab88f3590c5ae536f76303333cdb5eb966e86349a5f",
+                        "source":  "「ふあ…」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "身を起こしてアクビをひとつする。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「흐아……」",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2299]",
+                        "kind":  "message",
+                        "numeric_id":  2299,
+                        "source_sha256":  "6ff4b2d2606fb8658894d7b220a83b2f5a1ec6fd7ac37dc6d2082100d999d266",
+                        "source":  "身を起こしてアクビをひとつする。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「ふあ…」",
+                        "next_source":  "（てことは、さっき必死で走ってたのは夢か…）",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "몸을 일으켜 하품을 한 번 한다.",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2300]",
+                        "kind":  "message",
+                        "numeric_id":  2300,
+                        "source_sha256":  "e7906f9536df805df2213c4d76e479ba8a2b74b592926b9c21e58421776f9abd",
+                        "source":  "（てことは、さっき必死で走ってたのは夢か…）",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "inner_monologue",
+                        "speaker":  "亮",
+                        "previous_source":  "身を起こしてアクビをひとつする。",
+                        "next_source":  "（夢か……昨夜の…夢……）",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "（그럼, 아까 필사적으로 달리던 건 꿈이었나……）",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2301]",
+                        "kind":  "message",
+                        "numeric_id":  2301,
+                        "source_sha256":  "f636728da2a4aa0693ceccb7c024ffbdfe4cf0266b81929eb0ada0435e42e09e",
+                        "source":  "（夢か……昨夜の…夢……）",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "inner_monologue",
+                        "speaker":  "亮",
+                        "previous_source":  "（てことは、さっき必死で走ってたのは夢か…）",
+                        "next_source":  "（よかった……夢で…）",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "（꿈인가…… 어젯밤의…… 꿈……）",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2302]",
+                        "kind":  "message",
+                        "numeric_id":  2302,
+                        "source_sha256":  "bd913af6c4eb5074ea11b55ae231cc1626e2bb38a697e093f53717d8504a0323",
+                        "source":  "（よかった……夢で…）",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "inner_monologue",
+                        "speaker":  "亮",
+                        "previous_source":  "（夢か……昨夜の…夢……）",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "（다행이다…… 꿈이라서……）",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2303]",
+                        "kind":  "message",
+                        "numeric_id":  2303,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "（よかった……夢で…）",
+                        "next_source":  "「ん〜〜っ！」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2304]",
+                        "kind":  "message",
+                        "numeric_id":  2304,
+                        "source_sha256":  "16be0ef1915b78c8a048bbf80d588b81d5e3b74c02956c911328e018e9f527f9",
+                        "source":  "「ん〜〜っ！」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「으으――읏！」",
+                        "translator_notes":  "원문의 감탄을 보존하고 전각 문장부호를 통일함.",
+                        "review_status":  "reviewed"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2305]",
+                        "kind":  "message",
+                        "numeric_id":  2305,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「ん〜〜っ！」",
+                        "next_source":  null,
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "reviewed"
+                    }
+                ],
+    "review_summary":  {
+                           "reviewer":  "Codex independent pass",
+                           "corrections_count":  30,
+                           "findings":  [
+                                            "분할 문장 2211~2214, 2251~2252, 2294~2295를 전체 의미 기준으로 재구성함.",
+                                            "2270의 화자 대상이 뒤바뀌어 보이는 중의성을 제거하고 추격자를 명시함.",
+                                            "2258의 동작 해석, 2277의 신체 묘사, 2287~2288의 두 달 묘사를 교정함.",
+                                            "료의 위기 독백, 말줄임표와 감탄·의문부호, 번역투 어순을 일관되게 다듬음."
+                                        ]
+                       }
+}

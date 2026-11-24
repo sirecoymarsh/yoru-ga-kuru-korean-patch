@@ -1,0 +1,6 @@
+{
+  "KR_ChestRead": "\t.LOCALREF part\n\tPUSH 1\n\tCALLHLL PartsEngine GetTextPartsText 0\n\tRETURN\n",
+  "KR_ChestWrite": "\t.LOCALREF part\n\t.LOCALREF text\n\tA_REF\n\tPUSH 1\n\tCALLHLL PartsEngine Parts_SetText 0\n\tPOP\n\tRETURN\n",
+  "KR_ChestVisible": "\t.LOCALREF part\n\t.LOCALREF visible\n\tCALLHLL PartsEngine SetComponentShow 0\n\tRETURN\n",
+  "KR_ChestAlpha": "\t.LOCALREF part\n\t.LOCALREF alpha\n\tCALLHLL PartsEngine SetComponentAlpha 0\n\tRETURN\n"
+}

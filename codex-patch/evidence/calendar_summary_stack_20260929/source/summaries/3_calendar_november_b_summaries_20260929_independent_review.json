@@ -1,0 +1,441 @@
+{
+ "status": "independent_qa_complete",
+ "checked_at": "2026-09-29T21:46:16.480188+09:00",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code - independent reviewer, a different agent from the author; no subagents",
+ "summaries_author": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "brief": "staging/summary_authoring_brief_20260929.md sections 3-4 (the 료 ban covers only the name 료; 동료/치료 allowed)",
+ "independence": "All 47 packets were read and first-pass verdicts formed before evidence/semantic_qa.json was opened; the author record was read only afterwards, to compare (no overlap with its 6 fixes). No external MT, no other model, no subagent.",
+ "scope": "November team B: design/assignment.json (batch indexes 2,4,6,8,10,12): 47 summaries + 6 excluded",
+ "reviewed_events": 47,
+ "reviewed_event_ids": [
+  651,
+  652,
+  653,
+  654,
+  657,
+  658,
+  901,
+  903,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  981,
+  982,
+  984,
+  985,
+  991,
+  992,
+  993,
+  994,
+  995,
+  999,
+  5023,
+  10202,
+  10203,
+  10521,
+  10522,
+  20101,
+  20181,
+  20201,
+  20501,
+  20521,
+  20522,
+  30041,
+  30101,
+  30102,
+  30501,
+  30521,
+  30522,
+  40161,
+  40501,
+  40521,
+  40522,
+  50009
+ ],
+ "reviewed_japanese_messages": 11972,
+ "excluded_confirmed": {
+  "ids": [
+   996,
+   10523,
+   20523,
+   30523,
+   40523,
+   50007
+  ],
+  "check": "source/packets/E?????.txt has no message line and source/scenarios.json lines == [] for all six; exclusion is correct. The notes about trigger names and chains_to were not re-verified."
+ },
+ "method": [
+  "work/independent_qa/view.py printed each packet (JP and installed KR, speaker tags merged) from the first to the last message.",
+  "For six adult scenes (E10203, E20501, E30501, E30101, E40161, E40501) the first print of the middle section hid the narration and cut long dialogue lines. Five first-pass fixes were applied; then the hidden narration and the full dialogue lines were printed and read (JP). That read showed the E30501 candidate had support in the text, so design/summaries.json was restored from the pre-review backup and only four fixes were re-applied. This record was written after that read.",
+  "Variant pairs compared with work/independent_qa/diff.py (JP line diff), then each summary checked to speak only of its own scene.",
+  "Fixes are word-level only (work/independent_qa/fixes.py), applied by work/independent_qa/apply_review.py (idempotent)."
+ ],
+ "checks": [
+  "(a) no fact, reaction, place, feeling or guess that is not in the scene",
+  "(b) actor and counterpart not swapped",
+  "(c) no other scene, branch or variant mixed in",
+  "(d) no ending, route confirmation or later event implied",
+  "(e) 주인공 for the protagonist; installed Korean names",
+  "(f) present tense, 1-2 sentences, <=100 chars",
+  "(g) no explicit sexual description"
+ ],
+ "source_sha256": "79ea0d9bc1e4f3e3961298e37523e12ecedf15dd981f521413e8394837051f78",
+ "summaries_sha256_before": "03205c3a73090d4b18f48494616124dbb3d641a76cb63f0cd268b600aa0fa700",
+ "summaries_sha256_after": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8",
+ "verdicts": {
+  "pass_unchanged": 43,
+  "fixed": 4,
+  "excluded_confirmed": 6
+ },
+ "findings": [
+  {
+   "no": 654,
+   "e": "E00654",
+   "message_id": 32437,
+   "severity": "P3",
+   "type": "wording",
+   "source": "励ましの言葉もかけられず、俺は力無くうなずくしかなかった。",
+   "before": "위로도",
+   "after": "격려도",
+   "why": "원문은 励まし(격려)이고 설치 한국어도 격려; 위로는 다른 낱말",
+   "summary_before": "깨어난 주인공은 마나미에게서 신카이가 적에게 조종당해 사라졌고 키라라도 붙잡혔었다는 소식을 듣는다. 휘둘리기만 했다며 앞날을 걱정하는 마나미에게 주인공은 위로도 건네지 못한다.",
+   "summary_after": "깨어난 주인공은 마나미에게서 신카이가 적에게 조종당해 사라졌고 키라라도 붙잡혔었다는 소식을 듣는다. 휘둘리기만 했다며 앞날을 걱정하는 마나미에게 주인공은 격려도 건네지 못한다.",
+   "status": "fixed (word-level, independent reviewer)"
+  },
+  {
+   "no": 908,
+   "e": "E00908",
+   "message_id": 34279,
+   "severity": "P3",
+   "type": "actor",
+   "source": "「私たちがヒーローにならなくちゃね」",
+   "before": "영웅이 되겠다고",
+   "after": "영웅이 되자고",
+   "why": "원문 주어는 私たち(우리); 되겠다고는 마나미 혼자의 결심으로 좁힘. 같은 대사를 쓴 E00909·E00911 요약도 되자며",
+   "summary_before": "결전 전야, 겁에 질린 마나미에게 모모세가 이야기의 뒷부분은 날이 밝으면 듣겠다며 힘을 준다. 저마다 밤이 끝난 뒤를 이야기하는 가운데 마나미는 영웅이 되겠다고 다짐한다.",
+   "summary_after": "결전 전야, 겁에 질린 마나미에게 모모세가 이야기의 뒷부분은 날이 밝으면 듣겠다며 힘을 준다. 저마다 밤이 끝난 뒤를 이야기하는 가운데 마나미는 영웅이 되자고 다짐한다.",
+   "status": "fixed (word-level, independent reviewer)"
+  },
+  {
+   "no": 20181,
+   "e": "E20181",
+   "message_id": 49443,
+   "severity": "P2",
+   "type": "actor",
+   "source": "「やだ新田よ。新田希美子…、前の学校で一緒のクラスだった」",
+   "before": "옛 동급생이",
+   "after": "쿄카의 동창이",
+   "why": "닛타는 쿄카의 전 학교 같은 반; 주인공 앞에 옛 동급생은 주인공의 동급생으로 읽힘",
+   "summary_before": "쿄카와 사귀면서도 위화감을 느끼던 주인공 앞에 옛 동급생이 나타나 쿄카가 따돌림당했었다고 밝힌다. 이튿날 쿄카는 사귄 계기를 답하지 못하는 주인공에게 당분간 만나지 말자고 한다.",
+   "summary_after": "쿄카와 사귀면서도 위화감을 느끼던 주인공 앞에 쿄카의 동창이 나타나 쿄카가 따돌림당했었다고 밝힌다. 이튿날 쿄카는 사귄 계기를 답하지 못하는 주인공에게 당분간 만나지 말자고 한다.",
+   "status": "fixed (word-level, independent reviewer)"
+  },
+  {
+   "no": 20522,
+   "e": "E20522",
+   "message_id": 1274,
+   "severity": "P3",
+   "type": "fact",
+   "source": "「ああ。美里さんが三年ぶりに病院から、出てくるからって…」",
+   "before": "3년 만에 퇴원한 미사토와 신사의 축제에",
+   "after": "3년 만에 병원을 나선 미사토와 신사 축제에",
+   "why": "원문은 3년 만에 병원에서 나온다(出てくる)일 뿐 퇴원인지 외출인지 말하지 않음; 100자 한도 때문에 신사의→신사",
+   "summary_before": "결전 반년 뒤 여름, 주인공은 쿄카, 3년 만에 퇴원한 미사토와 신사의 축제에 간다. 불꽃을 보던 미사토가 옛 꿈을 떠올리며 까닭 모를 눈물을 흘리자 쿄카는 언니를 안고 운다.",
+   "summary_after": "결전 반년 뒤 여름, 주인공은 쿄카, 3년 만에 병원을 나선 미사토와 신사 축제에 간다. 불꽃을 보던 미사토가 옛 꿈을 떠올리며 까닭 모를 눈물을 흘리자 쿄카는 언니를 안고 운다.",
+   "status": "fixed (word-level, independent reviewer)"
+  }
+ ],
+ "withdrawn": [
+  {
+   "no": 30501,
+   "e": "E30501",
+   "candidate": "drop the word 연인인 (relationship not stated / reads like a route label)",
+   "reason": "message 60365 (narration inside the dream) says the two have been a couple for some time; the author wording is supported, so it stays. Found only on the full read of the middle narration."
+  }
+ ],
+ "observations_not_fixed": [
+  {
+   "no": 40521,
+   "note": "오츠나시 담당으로 남은 마코토와 키라라: 담당 is Makoto only (both stayed in the city). Readable as intended; left."
+  },
+  {
+   "no": 40522,
+   "note": "세 사람은 함께 달려 나간다: Kirara runs first, the two follow hand in hand. Close enough; left."
+  },
+  {
+   "no": 999,
+   "note": "나타난 주인공과 이즈미: several people appear, these two speak. Not wrong; left."
+  },
+  {
+   "no": 982,
+   "note": "돌팔매로 물리친: the stone knocks the enemy away before it lands. 물리치다 covers driving off; left."
+  },
+  {
+   "no": 20501,
+   "note": "신카이가 부실에 두고 간 물통 (also E30501, E40501): the protagonist only guesses it is Shinkai's; the scene supports it (Shinkai just left, bottle on his desk). Left."
+  }
+ ],
+ "variant_pairs": [
+  {
+   "pair": [
+    985,
+    992
+   ],
+   "jp_diff": "Shinkai present/absent (one line given to Kyoka instead, call list with/without Shinkai)",
+   "verdict": "both summaries use only the common content; no mixing"
+  },
+  {
+   "pair": [
+    994,
+    993
+   ],
+   "jp_diff": "Shinkai line present/absent, minor wording",
+   "verdict": "common content only; no mixing"
+  },
+  {
+   "pair": [
+    10521,
+    10522
+   ],
+   "jp_diff": "Shinkai missing (10521) / training overseas (10522), minor wording",
+   "verdict": "10521 names its own difference (Shinkai missing); 10522 names none; no mixing"
+  },
+  {
+   "pair": [
+    20521,
+    20522
+   ],
+   "jp_diff": "Shinkai missing (20521) / overseas (20522)",
+   "verdict": "neither names the difference; no mixing"
+  },
+  {
+   "pair": [
+    30521,
+    30522
+   ],
+   "jp_diff": "Shinkai missing (30521) / overseas (30522), one narration line",
+   "verdict": "30521 names its own difference; 30522 names none; no mixing"
+  },
+  {
+   "pair": [
+    40521,
+    40522
+   ],
+   "jp_diff": "Shinkai missing (40521) / overseas (40522)",
+   "verdict": "neither names the difference; no mixing"
+  },
+  {
+   "set": [
+    908,
+    909,
+    910,
+    911,
+    984
+   ],
+   "jp_diff": "shared eve-of-battle segments (Sakaki/Hoshikawa, Kyoka/Makoto, Manami/Momose) plus one scene-specific segment each",
+   "verdict": "each summary leads with its own segment; shared parts only in-scene"
+  },
+  {
+   "set": [
+    652,
+    653,
+    654
+   ],
+   "jp_diff": "same wake-up scene with Izumi / Kyoka / Manami",
+   "verdict": "each names its own companion"
+  }
+ ],
+ "unresolved_for_human": [
+  {
+   "ids": [
+    658,
+    10203,
+    20501,
+    30101,
+    30501,
+    40161,
+    40501
+   ],
+   "type": "tone",
+   "judgment": "All seven are non-explicit (checked against the full text). E40501 uses 능욕 (the source word), the strongest term of the seven; whether a calendar wants it softened is a human call."
+  },
+  {
+   "ids": [
+    5023,
+    10202,
+    995,
+    999,
+    10521,
+    10522
+   ],
+   "type": "unnamed speakers",
+   "judgment": "Agree with leaving them unnamed. In 999/10521/10522 the girl and the man are nameless passers-by. In 5023, 10202 and 995 the identity is inferable from context (card title, dialogue) but the scene itself withholds it; naming would add a fact the scene does not state and can spoil. Row notes added."
+  },
+  {
+   "ids": [
+    901,
+    905
+   ],
+   "type": "term",
+   "judgment": "참된 밤 is the installed default and a switchable term (staging/calendar_term_free_20260929/tf29common.py lists it with 진야/신야; its design/term_sites.json already holds these two rows, captured 21:33 at the author sha 03205c3a). Not changed here to avoid a concurrent edit; the term batch or a human decides."
+  },
+  {
+   "ids": [
+    996,
+    10523,
+    20523,
+    30523,
+    40523,
+    50007
+   ],
+   "type": "UI",
+   "judgment": "How excluded rows show on the board (blank / neutral text / hidden) is for the layer build."
+  }
+ ],
+ "gates": {
+  "after_review": {
+   "script": "verify_november_summaries_static_after_review.py",
+   "evidence": "evidence/static_gates_after_review.json",
+   "passed": true,
+   "failures": 0,
+   "stats": {
+    "count": 47,
+    "min": 41,
+    "median": 96,
+    "max": 100,
+    "sentences": {
+     "1": 4,
+     "2": 43
+    },
+    "status": {
+     "draft": 0,
+     "source_qa_pass": 0,
+     "independent_qa_pass": 47,
+     "excluded": 6
+    }
+   }
+  },
+  "copy_still_fires": {
+   "bad_status": {
+    "passed": false,
+    "gates_fired": [
+     "status_value"
+    ]
+   },
+   "too_long": {
+    "passed": false,
+    "gates_fired": [
+     "length_25_100"
+    ]
+   },
+   "ryo_name": {
+    "passed": false,
+    "gates_fired": [
+     "extra_ryo_word_initial",
+     "present_ending_da",
+     "sentence_punctuation"
+    ]
+   },
+   "past_tense": {
+    "passed": false,
+    "gates_fired": [
+     "present_tense_final_verb"
+    ]
+   },
+   "route_word": {
+    "passed": false,
+    "gates_fired": [
+     "extra_banned"
+    ]
+   }
+  },
+  "author_gate_on_reviewed_file": {
+   "passed": false,
+   "gates": [
+    "status_value"
+   ],
+   "failures": 47,
+   "note": "expected: the author gate does not know independent_qa_pass; its evidence file was not rewritten"
+  }
+ },
+ "author_record_comparison": "Author semantic_qa.json: 6 fixes (651, 901, 910, 20201, 30101, 40161), unresolved 0. The six fixed texts were re-checked here and hold. None of the 4 fixes here overlaps with them.",
+ "warnings": [
+  "work/save_summaries.py rebuilds design/summaries.json from work/drafts and would drop these fixes, statuses and notes; if it is ever re-run, run work/independent_qa/apply_review.py again (idempotent).",
+  "work/merge_check.py and evidence/merge_check_with_team_a.json count source_qa_pass; re-run expectations must allow independent_qa_pass. Not re-run here (it would overwrite the author evidence).",
+  "staging/calendar_term_free_20260929/design/term_sites.json recorded this file at sha 03205c3a (21:33); the sha is now different. The two term rows (901, 905) are unchanged in text."
+ ],
+ "files": {
+  "summaries": "design/summaries.json",
+  "backup_before": "work/independent_qa/summaries_before_independent_qa.json",
+  "tools": "work/independent_qa/{view.py,diff.py,fixes.py,apply_review.py,make_gate_copy.py,gate_copy_check.py,build_review_record.py}",
+  "gate_copy": "verify_november_summaries_static_after_review.py"
+ },
+ "summary_sha256_before": "03205c3a73090d4b18f48494616124dbb3d641a76cb63f0cd268b600aa0fa700",
+ "summary_sha256_after": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8",
+ "unresolved": [
+  {
+   "ids": [
+    658,
+    10203,
+    20501,
+    30101,
+    30501,
+    40161,
+    40501
+   ],
+   "type": "tone",
+   "judgment": "All seven are non-explicit (checked against the full text). E40501 uses 능욕 (the source word), the strongest term of the seven; whether a calendar wants it softened is a human call."
+  },
+  {
+   "ids": [
+    5023,
+    10202,
+    995,
+    999,
+    10521,
+    10522
+   ],
+   "type": "unnamed speakers",
+   "judgment": "Agree with leaving them unnamed. In 999/10521/10522 the girl and the man are nameless passers-by. In 5023, 10202 and 995 the identity is inferable from context (card title, dialogue) but the scene itself withholds it; naming would add a fact the scene does not state and can spoil. Row notes added."
+  },
+  {
+   "ids": [
+    901,
+    905
+   ],
+   "type": "term",
+   "judgment": "참된 밤 is the installed default and a switchable term (staging/calendar_term_free_20260929/tf29common.py lists it with 진야/신야; its design/term_sites.json already holds these two rows, captured 21:33 at the author sha 03205c3a). Not changed here to avoid a concurrent edit; the term batch or a human decides."
+  },
+  {
+   "ids": [
+    996,
+    10523,
+    20523,
+    30523,
+    40523,
+    50007
+   ],
+   "type": "UI",
+   "judgment": "How excluded rows show on the board (blank / neutral text / hidden) is for the layer build."
+  }
+ ],
+ "adjudication": {
+  "adjudicator": "Claude Opus 5.5 (claude-opus-5-5), adjudicator",
+  "time": "2026-09-29T23:16:10.895826+09:00",
+  "finding": "summaries.json was not changed after the independent review: its current sha256 equals the review's summaries_sha256_after (file written 21:43, review record 21:46). The gate reads summary_sha256_after / unresolved; this record used summaries_sha256_after / unresolved_for_human, so verify_summary_layer found no record covering the file.",
+  "correction": "aliases added with identical values: summary_sha256_before, summary_sha256_after, unresolved (= unresolved_for_human, 4 groups). No summary text, status or note changed; the original keys stay.",
+  "summaries_sha256_now": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8",
+  "static_gates_after_review": {
+   "evidence": "evidence/static_gates_after_review.json",
+   "passed": true,
+   "summaries_sha256": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8"
+  },
+  "unresolved_accepted_in": "calendar_summary_layer_tools_20260929/layers/final_stack/15_TF29/design/qa_acceptance.json",
+  "backup": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\work\\adjudication\\backups\\november_b_independent_review_before_adjudication.json"
+ }
+}

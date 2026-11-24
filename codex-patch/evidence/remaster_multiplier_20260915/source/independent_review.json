@@ -1,0 +1,19 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "reviewer": "/root/casual_multiplier_review",
+  "review_mode": "Independent read-only code and PACT review",
+  "files": {
+    "NightRemaster.ain": "cf249bab7f5db4db247a0cfff43b8a73fda5a9616bd1ddf12639daeca4debe6d",
+    "NightRemasterPact.afa": "a03e4bf91605e625c49483ff2228186ba390ba8db7606b72f0de4e8cf923d549"
+  },
+  "findings": [],
+  "scope": [
+    "compiled callback bindings and native float delegate signatures",
+    "unique native slider part names and child order",
+    "four reward globals and actual Calc consumers",
+    "signed-int saturation branches and stack balance",
+    "existing function signatures, globals and structures"
+  ],
+  "native_verified": false,
+  "save_file_roundtrip_verified": false
+}

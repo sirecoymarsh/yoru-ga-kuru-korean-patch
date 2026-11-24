@@ -1,0 +1,23 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "9d8fee1e3e4914ed0ba0f2898b0c30ab55e4cdda5ddc1f9bf8f4d09bf8e165e3",
+    "NightRemasterPact.afa": "84c49f09c48e2249fd64fbdffebb4b938f8f07caa48cc5e4541560a8259e80f3"
+  },
+  "reviewer": "/root/dungeon_reward_review",
+  "mode": "read-only review of final compiled JAM, metadata, native ABI and PACT",
+  "time": "2026-09-17T06:21:58.095955+09:00",
+  "critical_findings": [],
+  "checks": [
+    "IActivity slot7 native532 and IParts slot31 native13990 verified",
+    "Owned IParts wrapper autoRelease=false and balanced release verified",
+    "GetActiveScene owned outer and borrowed scene/view lifetimes balanced",
+    "No wait/yield or frame pump in chest notification",
+    "27194 preserves SweepActive/debug suppression and native payout functions untouched",
+    "Latest KR_ResolveJosa called before text display",
+    "Immediate Parts_SetText/GetTextPartsText avoids ADV delayed text state",
+    "PACT161 subtree hidden and clickthrough, life=-1; recent3 messages and clear/fade reset verified"
+  ],
+  "native_verified": false,
+  "remaining": "Native display and held/auto movement verification pending"
+}

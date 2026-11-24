@@ -1,0 +1,146 @@
+[
+ {
+  "image": "prev_real/2",
+  "panel": [
+   131,
+   410
+  ],
+  "first_text": 165,
+  "last_title_text": 410,
+  "top_margin": 34,
+  "bottom_margin": 0,
+  "text_crossing_edge": true
+ },
+ {
+  "image": "prev_real/3",
+  "panel": [
+   179,
+   458
+  ],
+  "first_text": 213,
+  "last_title_text": 458,
+  "top_margin": 34,
+  "bottom_margin": 0,
+  "text_crossing_edge": true
+ },
+ {
+  "image": "prev_real/5",
+  "panel": [
+   179,
+   458
+  ],
+  "first_text": 213,
+  "last_title_text": 458,
+  "top_margin": 34,
+  "bottom_margin": 0,
+  "text_crossing_edge": true
+ },
+ {
+  "image": "r2_real/2",
+  "panel": [
+   112,
+   430
+  ],
+  "first_text": 146,
+  "last_title_text": 403,
+  "top_margin": 34,
+  "bottom_margin": 27,
+  "text_crossing_edge": false
+ },
+ {
+  "image": "r2_real/3",
+  "panel": [
+   160,
+   478
+  ],
+  "first_text": 194,
+  "last_title_text": 453,
+  "top_margin": 34,
+  "bottom_margin": 25,
+  "text_crossing_edge": false
+ },
+ {
+  "image": "r2_real/5",
+  "panel": [
+   160,
+   478
+  ],
+  "first_text": 194,
+  "last_title_text": 453,
+  "top_margin": 34,
+  "bottom_margin": 25,
+  "text_crossing_edge": false
+ },
+ {
+  "image": "r2_zero/2",
+  "panel": [
+   112,
+   430
+  ],
+  "first_text": 146,
+  "last_title_text": 403,
+  "top_margin": 34,
+  "bottom_margin": 27,
+  "text_crossing_edge": false
+ },
+ {
+  "image": "r2_zero/3",
+  "panel": [
+   160,
+   478
+  ],
+  "first_text": 194,
+  "last_title_text": 453,
+  "top_margin": 34,
+  "bottom_margin": 25,
+  "text_crossing_edge": false
+ },
+ {
+  "image": "r2_zero/5",
+  "panel": [
+   160,
+   478
+  ],
+  "first_text": 194,
+  "last_title_text": 453,
+  "top_margin": 34,
+  "bottom_margin": 25,
+  "text_crossing_edge": false
+ },
+ {
+  "image": "r2_full/2",
+  "panel": [
+   112,
+   430
+  ],
+  "first_text": 146,
+  "last_title_text": 404,
+  "top_margin": 34,
+  "bottom_margin": 26,
+  "text_crossing_edge": false
+ },
+ {
+  "image": "r2_full/3",
+  "panel": [
+   160,
+   478
+  ],
+  "first_text": 194,
+  "last_title_text": 453,
+  "top_margin": 34,
+  "bottom_margin": 25,
+  "text_crossing_edge": false
+ },
+ {
+  "image": "r2_full/5",
+  "panel": [
+   160,
+   478
+  ],
+  "first_text": 194,
+  "last_title_text": 453,
+  "top_margin": 34,
+  "bottom_margin": 25,
+  "text_crossing_edge": false
+ }
+]

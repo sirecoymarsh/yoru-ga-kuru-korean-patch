@@ -1,0 +1,86 @@
+{
+  "prev_real": {
+    "pid": 13180,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "9fb665ad822ee1dd137a4f82ab3606bff47eea7989cbd689a4fa850797e0a678",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "BEGIN",
+      "SHOT 0",
+      "SHOT 1",
+      "SHOT 2",
+      "SHOT 3",
+      "SHOT 4",
+      "SHOT 5",
+      "END"
+    ],
+    "source_sha256": "78cf272dd209822995246e5aeba82107a04622685372bb7c17a225d1e4a9ec3a",
+    "variant": "real",
+    "user_saves_unchanged": true,
+    "installed_files_unchanged": true
+  },
+  "r2_real": {
+    "pid": 18092,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "0413fd238bbad3fc8bf5f8d662e4674935807ce2c5a1f3fda7435ca8279d9ea7",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "BEGIN",
+      "SHOT 0",
+      "SHOT 1",
+      "SHOT 2",
+      "SHOT 3",
+      "SHOT 4",
+      "SHOT 5",
+      "END"
+    ],
+    "source_sha256": "a156a887bc937d6bc29674847e09ac0754e0a6b63d8f3b7c6a8b49af3d104ffc",
+    "variant": "real",
+    "user_saves_unchanged": true,
+    "installed_files_unchanged": true
+  },
+  "r2_zero": {
+    "pid": 61800,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "6468ebc1ba75bb1dcab9b569269f01b451f132a6241a2a37778b6414bd2fbdcd",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "BEGIN",
+      "SHOT 0",
+      "SHOT 1",
+      "SHOT 2",
+      "SHOT 3",
+      "SHOT 4",
+      "SHOT 5",
+      "END"
+    ],
+    "source_sha256": "a156a887bc937d6bc29674847e09ac0754e0a6b63d8f3b7c6a8b49af3d104ffc",
+    "variant": "zero",
+    "user_saves_unchanged": true,
+    "installed_files_unchanged": true
+  },
+  "r2_full": {
+    "pid": 17864,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "ea794ad4aa010af69aa0a27a72896c08360423407091c85763769401c99a46af",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "BEGIN",
+      "SHOT 0",
+      "SHOT 1",
+      "SHOT 2",
+      "SHOT 3",
+      "SHOT 4",
+      "SHOT 5",
+      "END"
+    ],
+    "source_sha256": "a156a887bc937d6bc29674847e09ac0754e0a6b63d8f3b7c6a8b49af3d104ffc",
+    "variant": "full",
+    "user_saves_unchanged": true,
+    "installed_files_unchanged": true
+  }
+}

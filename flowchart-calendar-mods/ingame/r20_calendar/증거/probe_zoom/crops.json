@@ -1,0 +1,102 @@
+{
+ "zoom_status_event_a.png": {
+  "source": "cal_status_event_a.png",
+  "box": [
+   180,
+   20,
+   560,
+   520
+  ],
+  "sha256": "594c3b5449e1375c748ee5eff955df39a74afac2592a74d33135d3a6e84b8474"
+ },
+ "zoom_status_event_b.png": {
+  "source": "cal_status_event_b.png",
+  "box": [
+   180,
+   20,
+   560,
+   520
+  ],
+  "sha256": "469cb426bfe08ac7a23b0c6d4ea849fdb33f5a0d3e357e94052e82e784c0b52e"
+ },
+ "zoom_status_event_c.png": {
+  "source": "cal_status_event_c.png",
+  "box": [
+   180,
+   20,
+   560,
+   520
+  ],
+  "sha256": "a71d76af51e6f00dfeb9edc60a80b818930155036ef81a646fda38c00a2c1b2e"
+ },
+ "zoom_status_event_dungeon.png": {
+  "source": "cal_status_event_dungeon.png",
+  "box": [
+   180,
+   20,
+   560,
+   520
+  ],
+  "sha256": "59839df8818f34598dce2e48bd8258ef8044e65846e4e85e3cb09ddeab7af3fd"
+ },
+ "zoom_partner_nohover.png": {
+  "source": "cal_partner_nohover.png",
+  "box": [
+   170,
+   480,
+   990,
+   720
+  ],
+  "sha256": "dca4fbb01fd194e8c2bc66bcf7414c005f58e9ed3f5b504ac55ac790adc26744"
+ },
+ "zoom_partner_hover_a.png": {
+  "source": "cal_partner_hover_a.png",
+  "box": [
+   170,
+   480,
+   990,
+   720
+  ],
+  "sha256": "6959f6c30957fffc3b6cae0fc66b0c59b8989335071a5722abdf454513b828b2"
+ },
+ "zoom_partner_hover_b.png": {
+  "source": "cal_partner_hover_b.png",
+  "box": [
+   170,
+   480,
+   990,
+   720
+  ],
+  "sha256": "a33c104bea4747ed574073167c05c6fcb9113336fd9444f86d833ebbdd9a6c3e"
+ },
+ "zoom_partner_again.png": {
+  "source": "cal_partner_again.png",
+  "box": [
+   170,
+   480,
+   990,
+   720
+  ],
+  "sha256": "a33c104bea4747ed574073167c05c6fcb9113336fd9444f86d833ebbdd9a6c3e"
+ },
+ "zoom_home_before_panel.png": {
+  "source": "cal_home_before.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ },
+ "zoom_home_after_panel.png": {
+  "source": "cal_home_after.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ }
+}

@@ -1,0 +1,438 @@
+==================== ; ＥＶ／元／E00611 FUNC 30366
+; ＥＶ／元／E00611
+; VAR  0: res : int
+; RETURN: void
+FUNC 30366
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC ●ト書き
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7815 ; ""
+	CALLFUNC R
+	MSG 0x7816 ; "・・・・・・・・・・・・・・・・・・・・・・・・"
+	CALLFUNC A
+	MSG 0x7817 ; ""
+	CALLFUNC R
+	MSG 0x7818 ; "・・・・・・・・・・・・・・・・"
+	CALLFUNC A
+	MSG 0x7819 ; ""
+	CALLFUNC R
+	MSG 0x781a ; "・・・・・・・・"
+	CALLFUNC A
+	PUSH 1
+	PUSH 200
+	CALLFUNC ■枠消し
+	PUSH 1
+	CALLFUNC ■表示反映
+	PUSH 3
+	PUSH 0
+	CALLFUNC ■音楽再生
+	PUSH 2045
+	CALLFUNC ■準備壁紙#1
+	PUSH 1501
+	CALLFUNC ■準備背景#1
+	PUSH 0
+	CALLFUNC ■準備カレンダー
+	PUSH 108
+	CALLFUNC ■表示反映
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC ●ト書き
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x781b ; "―午後―"
+	CALLFUNC A
+	PUSH 104
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x781c ; "【いずみ】"
+	CALLFUNC R
+	MSG 0x781d ; "「午前中はなかなか盛況だったね、"
+	CALLFUNC R
+	MSG 0x781e ; "　お客さんいっぱい来たし」"
+	CALLFUNC A
+	PUSH 254
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x781f ; "【真言美】"
+	CALLFUNC R
+	MSG 0x7820 ; "「ケーキの味もなかなか好評で"
+	CALLFUNC R
+	MSG 0x7821 ; "　嬉しかったですよ」"
+	CALLFUNC A
+	PUSH 204
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7822 ; "【鏡花】"
+	CALLFUNC R
+	MSG 0x7823 ; "「とりあえず前半戦は"
+	CALLFUNC R
+	MSG 0x7824 ; "　大成功って感じね」"
+	CALLFUNC A
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC ●ト書き
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7825 ; "【亮　　　　】"
+	CALLFUNC R
+	MSG 0x7826 ; "「………………」"
+	CALLFUNC A
+	PUSH 301
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7827 ; "【マコト】"
+	CALLFUNC R
+	MSG 0x7828 ; "「どうした羽村、浮かぬ顔をして」"
+	CALLFUNC A
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC ●ト書き
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7829 ; "【亮　　　　】"
+	CALLFUNC R
+	MSG 0x782a ; "「人生最大の汚点だ……」"
+	CALLFUNC A
+	PUSH 301
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x782b ; "【マコト】"
+	CALLFUNC R
+	MSG 0x782c ; "「何の話だ？」"
+	CALLFUNC A
+	PUSH 201
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x782d ; "【鏡花】"
+	CALLFUNC R
+	MSG 0x782e ; "「ホラ、彼ってば"
+	CALLFUNC R
+	MSG 0x782f ; "　さっきいいカッコウしてたでしょ」"
+	CALLFUNC A
+	PUSH 301
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7830 ; "【マコト】"
+	CALLFUNC R
+	MSG 0x7831 ; "「ああ、仮装の話か」"
+	CALLFUNC A
+	MSG 0x7832 ; "【マコト】"
+	CALLFUNC R
+	MSG 0x7833 ; "「たしかにあの看護婦姿は"
+	CALLFUNC R
+	MSG 0x7834 ; "　なかなかに奇抜だった」"
+	CALLFUNC A
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC ●ト書き
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7835 ; "【亮　　　　】"
+	CALLFUNC R
+	MSG 0x7836 ; "「死にたい…」"
+	CALLFUNC A
+	PUSH 254
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7837 ; "【真言美】"
+	CALLFUNC R
+	MSG 0x7838 ; "「そんなに落ちこまなくても…、"
+	CALLFUNC R
+	MSG 0x7839 ; "　すっごく似合ってましたよ♪」"
+	CALLFUNC A
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC ●ト書き
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x783a ; "【亮　　　　】"
+	CALLFUNC R
+	MSG 0x783b ; "「そんなこと言われてもなあ……」"
+	CALLFUNC A
+	PUSH 451
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x783c ; "【百瀬】"
+	CALLFUNC R
+	MSG 0x783d ; "「なんだよ、"
+	CALLFUNC R
+	MSG 0x783e ; "　女の子の言う『可愛い』ってのは、"
+	CALLFUNC R
+	MSG 0x783f ; "　最大級の褒め言葉なんだろ？」"
+	CALLFUNC A
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC ●ト書き
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7840 ; "【亮　　　　】"
+	CALLFUNC R
+	MSG 0x7841 ; "「く…よくもそんな昔の台詞を覚えて"
+	CALLFUNC R
+	MSG 0x7842 ; "　いやがったな…」"
+	CALLFUNC A
+	PUSH 456
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7843 ; "【百瀬】"
+	CALLFUNC R
+	MSG 0x7844 ; "「はん。因果応報てやつだ」"
+	CALLFUNC A
+	PUSH 110
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7845 ; "【いずみ】"
+	CALLFUNC R
+	MSG 0x7846 ; "「でも午後からどうしよう…」"
+	CALLFUNC A
+	PUSH 358
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7847 ; "【新開】"
+	CALLFUNC R
+	MSG 0x7848 ; "「午後はスライドの上映じゃ、"
+	CALLFUNC R
+	MSG 0x7849 ; "　なかったのか？」"
+	CALLFUNC A
+	PUSH 110
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x784a ; "【いずみ】"
+	CALLFUNC R
+	MSG 0x784b ; "「そうなんだけどね…、"
+	CALLFUNC R
+	MSG 0x784c ; "　実を言うと上映の台本が"
+	CALLFUNC R
+	MSG 0x784d ; "　まとまらなくて…」"
+	CALLFUNC A
+	MSG 0x784e ; "【いずみ】"
+	CALLFUNC R
+	MSG 0x784f ; "「だいたいの項目は、"
+	CALLFUNC R
+	MSG 0x7850 ; "　書きだしてあるんだけど…」"
+	CALLFUNC A
+	PUSH 401
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7851 ; "【星川】"
+	CALLFUNC R
+	MSG 0x7852 ; "「てことは、"
+	CALLFUNC R
+	MSG 0x7853 ; "　ほぼ即興で解説しなきゃ"
+	CALLFUNC R
+	MSG 0x7854 ; "　いけないってことかい？」"
+	CALLFUNC A
+	PUSH 110
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7855 ; "【いずみ】"
+	CALLFUNC R
+	MSG 0x7856 ; "「うん。そうなるね」"
+	CALLFUNC A
+	PUSH 355
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7857 ; "【新開】"
+	CALLFUNC R
+	MSG 0x7858 ; "「手伝ってやりたいのは"
+	CALLFUNC R
+	MSG 0x7859 ; "　やまやまだが俺も文章読むのなんて"
+	CALLFUNC R
+	MSG 0x785a ; "　慣れてないしな…」"
+	CALLFUNC A
+	PUSH 358
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x785b ; "【新開】"
+	CALLFUNC R
+	MSG 0x785c ; "「ホシ、お前そういうの"
+	CALLFUNC R
+	MSG 0x785d ; "　向いてるんじゃないのか？」"
+	CALLFUNC A
+	PUSH 405
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x785e ; "【星川】"
+	CALLFUNC R
+	MSG 0x785f ; "「んー……"
+	CALLFUNC R
+	MSG 0x7860 ; "　ボク午後から校内巡回しなきゃ"
+	CALLFUNC R
+	MSG 0x7861 ; "　いけないんだよね」"
+	CALLFUNC A
+	PUSH 204
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7862 ; "【鏡花】"
+	CALLFUNC R
+	MSG 0x7863 ; "「じゃあ私！"
+	CALLFUNC R
+	MSG 0x7864 ; "　私、やろうか？」"
+	CALLFUNC A
+	PUSH 455
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7865 ; "【百瀬】"
+	CALLFUNC R
+	MSG 0x7866 ; "「ええ？"
+	CALLFUNC R
+	MSG 0x7867 ; "　姉ちゃんがやるのかよ」"
+	CALLFUNC A
+	PUSH 209
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7868 ; "【鏡花】"
+	CALLFUNC R
+	MSG 0x7869 ; "「何よ壮一…、"
+	CALLFUNC R
+	MSG 0x786a ; "　アタシじゃヘン？」"
+	CALLFUNC A
+	PUSH 453
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x786b ; "【百瀬】"
+	CALLFUNC R
+	MSG 0x786c ; "「そりゃ姉ちゃんなら、"
+	CALLFUNC R
+	MSG 0x786d ; "　物怖じしねーだろうけど」"
+	CALLFUNC A
+	MSG 0x786e ; "【百瀬】"
+	CALLFUNC R
+	MSG 0x786f ; "「三輪坂とかのが、"
+	CALLFUNC R
+	MSG 0x7870 ; "　喋りとかには向いてねーか？」"
+	CALLFUNC A
+	PUSH 257
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7871 ; "【真言美】"
+	CALLFUNC R
+	MSG 0x7872 ; "「ええっ！　ダ、ダメだよ…"
+	CALLFUNC R
+	MSG 0x7873 ; "　私セリフ喋るの専門だし」"
+	CALLFUNC A
+	MSG 0x7874 ; "【真言美】"
+	CALLFUNC R
+	MSG 0x7875 ; "「やっぱりこういうのは、"
+	CALLFUNC R
+	MSG 0x7876 ; "　専門の知識がある部長の方が…」"
+	CALLFUNC A
+	PUSH 106
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7877 ; "【いずみ】"
+	CALLFUNC R
+	MSG 0x7878 ; "「えっ…」"
+	CALLFUNC A
+	PUSH 110
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x7879 ; "【いずみ】"
+	CALLFUNC R
+	MSG 0x787a ; "「私も……人前で喋るのって…"
+	CALLFUNC R
+	MSG 0x787b ; "　ちょっと…」"
+	CALLFUNC A
+	PUSH 201
+	CALLFUNC OCmd_SET_FC
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x787c ; "【鏡花】"
+	CALLFUNC R
+	MSG 0x787d ; "「ねえ亮　　　　、"
+	CALLFUNC R
+	MSG 0x787e ; "　あなたは誰が良いと思う？」"
+	CALLFUNC A
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC ●ト書き
+	PUSH 1
+	CALLFUNC ■表示反映
+	MSG 0x787f ; "【亮　　　　】"
+	CALLFUNC R
+	MSG 0x7880 ; "「俺か…？"
+	CALLFUNC R
+	MSG 0x7881 ; "　ええっと、そうだなあ…」"
+	CALLFUNC A
+	PUSH 1
+	S_PUSH "『「星のことなら」の、いずみ』"
+	S_PUSH ""
+	CALLFUNC ■選択メッセージ／選択肢追加
+	PUSH 2
+	S_PUSH "『「度胸はイチバン」の、鏡花』"
+	S_PUSH ""
+	CALLFUNC ■選択メッセージ／選択肢追加
+	PUSH 3
+	S_PUSH "『「ナレーションなら」の、真言美』"
+	S_PUSH ""
+	CALLFUNC ■選択メッセージ／選択肢追加
+	PUSH 4
+	S_PUSH "『「大穴」で、マコト』"
+	S_PUSH ""
+	CALLFUNC ■選択メッセージ／選択肢追加
+	PUSHLOCALPAGE
+	PUSH 0
+	PUSH 0
+	PUSH 200
+	CALLFUNC ■選択メッセージ／実行
+	X_ASSIGN 1
+	POP
+	.LOCALREF res
+	PUSH 1
+	EQUALE
+	IFNZ 0x76ffc2
+	JUMP 0x76ffde
+0x76ffc2:
+	.GLOBALASSIGN g_EvResult 612
+	JUMP 0x770070
+0x76ffde:
+	.LOCALREF res
+	PUSH 2
+	EQUALE
+	IFNZ 0x770000
+	JUMP 0x77001c
+0x770000:
+	.GLOBALASSIGN g_EvResult 613
+	JUMP 0x770070
+0x77001c:
+	.LOCALREF res
+	PUSH 3
+	EQUALE
+	IFNZ 0x77003e
+	JUMP 0x77005a
+0x77003e:
+	.GLOBALASSIGN g_EvResult 614
+	JUMP 0x770070
+0x77005a:
+	.GLOBALASSIGN g_EvResult 615
+0x770070:
+	RETURN
+ENDFUNC ＥＶ／元／E00611
+

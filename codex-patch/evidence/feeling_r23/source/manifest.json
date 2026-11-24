@@ -1,0 +1,403 @@
+{
+ "schema": "yoru-feeling-r23.candidate.v1",
+ "status": "FEELING_R23_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-09-28T12:44:56",
+ "seconds": 64,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "6c97c5f2266e5ddac09a4dec554a839dde1b60d3c5205aa960e0b76cce003a23",
+  "status": "MOD_MENU_R2_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "af1026bb5ea14a2ae3daf048f118d5b3f63728af54ca2c0852bdc8ae7e07bddd",
+  "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "winmm_sha256": "a72b1b9d386107bb6370f4ff3f0ff9bd857fbf6223e7d0b1f5399604cd64e199",
+  "chart_sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+  "r22_installed": true,
+  "hook_r2_installed": true,
+  "checked_at_start_and_end": true
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "b5ec7f01ce25704c505f9f5eabb3f2873ab9aa1fda0d2a1b10b95102346713d3",
+   "size": 3905098
+  }
+ },
+ "pact_changed": false,
+ "ex_changed": false,
+ "fnl_changed": false,
+ "chart_changed": false,
+ "winmm_changed": false,
+ "data": {
+  "schedule_sha256": "f9669421f182976b230732e668bd30d1a9821039ca2c8133592a5227ae49ae16",
+  "r19_tables_sha256": "221e6c0bbdf1c5ae525335449028c94ecf2dde0f6dd2c10a1af4299f288b33a2",
+  "feeling_gates": 28,
+  "gate_ops": {
+   ">=": 20,
+   "highest": 4,
+   "<": 4
+  },
+  "widest_name_line_px": 301,
+  "name_line_budget_px": 318,
+  "metrics_px": {
+   "18": {
+    "full": 14,
+    "digit": 9,
+    "space": 5,
+    "other": 6
+   },
+   "20": {
+    "full": 16,
+    "digit": 10,
+    "space": 5,
+    "other": 7
+   },
+   "22": {
+    "full": 17,
+    "digit": 11,
+    "space": 6,
+    "other": 7
+   },
+   "24": {
+    "full": 19,
+    "digit": 12,
+    "space": 6,
+    "other": 8
+   }
+  }
+ },
+ "game_code": {
+  "per_moon": 60,
+  "moons": 2,
+  "maximum": 120,
+  "moon_phase_from_val": [
+   59,
+   48,
+   36,
+   24,
+   12,
+   0
+  ],
+  "rank_upper_bounds": [
+   15,
+   30,
+   45,
+   60
+  ],
+  "rank_display": "GetFeelingRank_5 + 1 of 5",
+  "rank_table": [
+   {
+    "rank": 1,
+    "feeling": "<= 15"
+   },
+   {
+    "rank": 2,
+    "feeling": "16-30"
+   },
+   {
+    "rank": 3,
+    "feeling": "31-45"
+   },
+   {
+    "rank": 4,
+    "feeling": "46-60"
+   },
+   {
+    "rank": 5,
+    "feeling": ">= 61"
+   }
+  ],
+  "rates": {
+   "2": 420,
+   "3": 420,
+   "4": 370,
+   "5": 290,
+   "6": 540,
+   "7": 500,
+   "8": 420
+  },
+  "rate_default": 420,
+  "value": "C_Ability@GetFeeling = m_nFeeling / GetFeelingRate (integer division)",
+  "enabled": "C_FeelingView@Enabled: false when Flags.GameMode == Classic (1) or the person is outside 2..5",
+  "moons_at": {
+   "box": [
+    374.0,
+    66.0
+   ],
+   "label": [
+    374.0,
+    96.0
+   ],
+   "z": [
+    200,
+    250
+   ],
+   "parent": "the status activity root (ルートパーツ)"
+  },
+  "shown_on_pages": "C_HomeStatusView@IsShowFeelingPage: NowPage 0 (the hover preview) or 1"
+ },
+ "display": {
+  "moon_text": "「<GetFeeling> / 120」 + 「단계 <GetFeelingRank_5 + 1>/5」 (18 / 16 px, white with a black edge 2.0)",
+  "moon_text_part": 2026092330,
+  "moon_text_at": {
+   "parent": "status root",
+   "x": 374.0,
+   "y": 114.0,
+   "z": 260
+  },
+  "shown_when": "C_HomeStatusView@IsShowFeelingPage() and m_FeelingView.Enabled(m_FeelingView.m_CharaNo) (the same test the moons use)",
+  "event_page": "the r20 「이벤트」 page of a person with moons: right under the title 「친밀도 v (r/5) · 다음 조건 n」 + the gate name (18 px, indented) + 「루트: 네 명 중 가장 높으면」 + name when that scene is not seen; the panel grows by the lines",
+  "next_condition": "the smallest >= threshold above the value among the person's gates whose scene is not registered in this save and whose last day (KR_T23GateLast) is not past (ties: the lower event number); none -> 「없음」; the 「highest」 gate (E10501 family, 11/1) gets its own 「루트」 line while unseen and not past"
+ },
+ "added_functions": {
+  "KR_T23GateN": 32698,
+  "KR_T23GateEv": 32699,
+  "KR_T23GatePerson": 32700,
+  "KR_T23GateOp": 32701,
+  "KR_T23GateValue": 32702,
+  "KR_T23GateLast": 32703,
+  "KR_T23MoonPart": 32704,
+  "KR_T23MoonMax": 32705,
+  "KR_T23Feel": 32706,
+  "KR_T23Rank": 32707,
+  "KR_T23Today": 32708,
+  "KR_T23Next": 32709,
+  "KR_T23Route": 32710,
+  "KR_T23MoonText": 32711,
+  "KR_T23Small": 32712,
+  "KR_T23FeelBlock": 32713,
+  "KR_T23FeelExtra": 32714,
+  "KR_T23StText": 32715,
+  "KR_T23StDraw": 32716,
+  "KR_T23MoonClear": 32717,
+  "KR_T23MoonDraw": 32718,
+  "KR_T23FeelShowOf": 32719,
+  "KR_T23FvChara": 32720,
+  "KR_T23FeelShow": 32721,
+  "KR_T23FvGone": 32722
+ },
+ "jam_bodies": [
+  "KR_T23FeelShow",
+  "KR_T23FvGone",
+  "KR_T23FvChara"
+ ],
+ "forwarded_functions": {},
+ "r18_forwarders_kept": [
+  "KR_T9CardPage",
+  "KR_T9CardRow",
+  "KR_T9ChipRow",
+  "KR_T9EventPage",
+  "KR_T9LaneTitle",
+  "KR_T9MemPage",
+  "KR_T9MonthChips",
+  "KR_T9MonthPage"
+ ],
+ "r19_forwarders_kept": [
+  "KR_T18CardRow",
+  "KR_T18CardTitle",
+  "KR_T18EventTitle",
+  "KR_T9ChipPage",
+  "KR_T9StagePage"
+ ],
+ "r22_forwarders_kept": [
+  "KR_MDo",
+  "KR_T18CardPage",
+  "KR_T18EventPage",
+  "KR_T9Legend",
+  "KR_T9Seen",
+  "KR_T9State"
+ ],
+ "same_length_sites": [
+  {
+   "function": "C_HomeStatusView@SetActivePage",
+   "fid": 28433,
+   "function_address": 6140718,
+   "site": 6142586,
+   "site_offset": 1868,
+   "kind": "CALLMETHOD target (PUSH operand)",
+   "original": "C_HomeStatusView@IsShowFeelingPage",
+   "original_fid": 28429,
+   "replacement": "KR_T23FeelShow",
+   "replacement_fid": 32721,
+   "before": "00000d6f0000",
+   "after": "0000d17f0000",
+   "operand_bytes": [
+    6142588,
+    6142592
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1,
+   "owner_is_original": true
+  },
+  {
+   "function": "C_FeelingView@1",
+   "fid": 28377,
+   "function_address": 6113852,
+   "site": 6113854,
+   "site_offset": 2,
+   "kind": "CALLMETHOD target (PUSH operand)",
+   "original": "C_FeelingView@DeleteMarks",
+   "original_fid": 28383,
+   "replacement": "KR_T23FvGone",
+   "replacement_fid": 32722,
+   "before": "0000df6e0000",
+   "after": "0000d27f0000",
+   "operand_bytes": [
+    6113856,
+    6113860
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1,
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_T20StActiveOf",
+   "fid": 32586,
+   "function_address": 12726550,
+   "site": 12726678,
+   "site_offset": 128,
+   "kind": "CALLFUNC",
+   "original": "KR_T20StDraw",
+   "original_fid": 32585,
+   "replacement": "KR_T23StDraw",
+   "replacement_fid": 32716,
+   "before": "3000497f0000",
+   "after": "3000cc7f0000",
+   "operand_bytes": [
+    12726680,
+    12726684
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1,
+   "owner_is_original": false
+  }
+ ],
+ "earlier_same_length_sites_kept": 21,
+ "relocated_original_functions": [],
+ "pinned_functions": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "code_bytes": 232,
+   "bytes_differing": 0
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "code_bytes": 298,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "code_bytes": 550,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "code_bytes": 1104,
+   "bytes_differing": 0
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "code_bytes": 1292,
+   "bytes_differing": 0
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890,
+   "code_bytes": 440,
+   "bytes_differing": 0
+  }
+ },
+ "invariance": {
+  "original_function_entries_identical": true,
+  "forwarded": [],
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 5,
+  "old_code_changes_only_at_swapped_operands": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 6,
+  "functions_added": 25,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 232,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 298,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 550,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1104,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1292,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 440,
+    "bytes_differing": 0
+   }
+  },
+  "earlier_same_length_sites_kept": 21,
+  "forwarders_kept": {
+   "r18": 8,
+   "r19": 5,
+   "r22": 6
+  }
+ },
+ "parts": {
+  "moon_text": 2026092330,
+  "event_page_panel_and_text": "r20 2026092001 / 2026092002"
+ },
+ "native_opcode_audit": {
+  "active_functions": 30836,
+  "instruction_sites": 2129015,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "session_variables_new": [],
+ "new_globals": 0,
+ "new_struct_members": 0,
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "15222f8b758aaa8462d5eb357fd01af492851d4206a2df5ae7ef1d9f0b8daf61",
+ "build_script_sha256": "cc0ad4e3365fba709a3194d07d05520a8fef98c7e6f1f84cb68413f2b75df9b3"
+}

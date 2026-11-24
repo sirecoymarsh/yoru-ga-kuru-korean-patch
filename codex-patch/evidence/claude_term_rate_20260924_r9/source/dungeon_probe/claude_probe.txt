@@ -1,0 +1,8 @@
+resume loading
+SHOT dungeon_probe_0.bmp
+monsters=çà,é§çûé§çû,æ¾çÙçö,çºåFêçR æâ,ã÷ç³ä™,ã¡è@ ã÷ç³ä™,çˆênèãgèƒå–,çgç ä\,ã÷ê‘
+line3=${font r=208 g=150 b=255}å–åNçªéc èèåê êƒè^éU${/font}
+SHOT dungeon_probe_1.bmp
+SHOT dungeon_probe_2.bmp
+records after report: []
+SHOT dungeon_probe_3.bmp

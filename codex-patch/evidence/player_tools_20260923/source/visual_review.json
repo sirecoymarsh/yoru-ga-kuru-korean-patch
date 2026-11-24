@@ -1,0 +1,45 @@
+{
+  "status": "STATIC_FONT_GEOMETRY_PASS",
+  "files": {
+    "NightRemaster.ain": "769d461aa51037eae34d48f7b15125ba6e8a4ae83126b17fb7b848ab41f9184c",
+    "NightRemasterPact.afa": "ff1a16663d65b4de95c72063709851f9615484ab610dac9787f6c1a098c7e30d"
+  },
+  "button": [
+    797,
+    622,
+    192,
+    30
+  ],
+  "label": {
+    "text": "플레이 정보",
+    "x": 849.25,
+    "y": 627.0,
+    "width": 87.5,
+    "height": 20.0
+  },
+  "original_blue_chrome": true,
+  "yellow_color": [
+    255,
+    230,
+    80
+  ],
+  "original_button_properties_exact_except_name_and_position": true,
+  "atlas_size": [
+    192,
+    42
+  ],
+  "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+  "native_capture": false,
+  "modal": [
+    {
+      "width": 1054,
+      "height": 506,
+      "title_lines": 9
+    },
+    {
+      "width": 1054,
+      "height": 506,
+      "title_lines": 9
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "translator_model": "Codex internal",
+  "status": "FROZEN_IMPLEMENTED",
+  "time_unit": "native L_Calendar raw exploration units, not wall-clock minutes",
+  "day_budget": 1000,
+  "assumptions": {
+    "shared_budget_block": 200,
+    "battles_per_block": 5,
+    "chests_per_block": 1,
+    "effective_battle_interval": 40,
+    "explanation": "Gameplay-balancing assumption, not measured encounter duration. Current floor only. floor(R/40) native encounters, one native ordinary chest after each fifth encounter. The block budget includes movement/encounter/chest time; no double-use of remaining time."
+  },
+  "rounding": "floor; R<40 gives no payout, no minimum grant",
+  "maximum": {
+    "battles": 25,
+    "chests": 5
+  },
+  "payout": "Native placement26995, KR_LootMonsterById, silent Settle26258 and chest27183. Existing per-item rates apply once in native routines. Native ceilings preserved. No guaranteed equal rewards to exploring an infinite dungeon.",
+  "rollback": "Copy of all native reward scalar targets before payout; controlled false return restores, clears temporary incomes and resets private RNG. Fatal VM/process errors are not catchable; no disk saves during transaction.",
+  "transition": "AdvanceRemainTime28650 to zero, original28637 exit block, fixed income once, normal Sunday/day-end to NextDate27741; no direct date increment",
+  "story": "Strict hash-bound whitelist82 regular floors including infinite repeats1201 and2601. All IDs<1000, unlisted IDs and live event contexts rejected.",
+  "scope_revision": "2026-09-16 user correction: self-next and rank0 do not identify a story/special floor"
+}

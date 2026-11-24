@@ -1,0 +1,30 @@
+{
+  "translator_model": "Codex internal",
+  "provenance": "Current Codex task /root; no external translation service",
+  "labels": [
+    {
+      "id": "KR_CheatSpeed",
+      "text": "전투 속도 (1~5배)"
+    },
+    {
+      "id": "KR_CheatHeading",
+      "text": "치트 / 편의 기능"
+    },
+    {
+      "id": "KR_CheatTrap",
+      "text": "함정 즉시 해체"
+    },
+    {
+      "id": "KR_CheatQuick",
+      "text": "자동 전투 결과만 보기"
+    },
+    {
+      "id": "KR_CheatRoute",
+      "text": "다음 층 경로 표시"
+    },
+    {
+      "id": "KR_CheatHint",
+      "text": "일반 전투만 / 우클릭으로 연출 복귀"
+    }
+  ]
+}

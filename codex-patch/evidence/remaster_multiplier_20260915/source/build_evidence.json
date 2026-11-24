@@ -1,0 +1,76 @@
+{
+  "status": "STAGED_REVIEW_PENDING",
+  "time": "2026-09-15T16:54:01.071203+09:00",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "4306d67b6056a05143c2ab750b115d4d5d09559c0a3c6063fa7c624aa955b5b8",
+    "status": "ENEMY_SPECIES_SCOPE_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "translator_model": "Codex internal",
+  "request": "Four independent integer1..20 reward sliders",
+  "PACT": {
+    "changed_entries": [
+      125
+    ],
+    "unmodified_entries": 184,
+    "owned_subtree": "レイアウト_リマスター/レイアウト_カジュアル",
+    "outside_owned_subtree_byte_exact": true,
+    "new_native_sliders": 4,
+    "new_labels": 9,
+    "source_bar_assets": "Native sound-page bar/cursor, unchanged raster bytes",
+    "range": [
+      1,
+      20
+    ],
+    "integer_step": 1
+  },
+  "AIN": {
+    "patched_existing_function_ids": [
+      26361,
+      26362,
+      26363,
+      26364,
+      29817,
+      29818
+    ],
+    "added_function_ids": {
+      "KR_MultiplierGetEX": 31827,
+      "KR_MultiplierSetEX": 31828,
+      "KR_MultiplierGetTraining": 31829,
+      "KR_MultiplierSetTraining": 31830,
+      "KR_MultiplierGetMoney": 31831,
+      "KR_MultiplierSetMoney": 31832,
+      "KR_MultiplierGetPairTraining": 31833,
+      "KR_MultiplierSetPairTraining": 31834,
+      "KR_MultiplierCalc": 31835
+    },
+    "existing_function_signatures_exact": true,
+    "all331_globals_and804_structures_exact": true,
+    "original_CODE_prefix_exact": true,
+    "original_STR0_entries_exact": true,
+    "MSG1_all_100944_exact": true,
+    "unrelated_metadata_exact": true,
+    "added_STR0_entries": 9,
+    "range": [
+      1,
+      20
+    ],
+    "step": 1,
+    "stored_percentages": [
+      100,
+      2000
+    ],
+    "save_structure_unchanged": true,
+    "legacy_bool_callbacks_unchanged_and_not_bound_to_new_sliders": true,
+    "scalar_math": "Integer1..20 multiply directly with signed-int saturation; legacy noninteger/out-of-range percent math unchanged."
+  },
+  "files": {
+    "NightRemaster.ain": "cf249bab7f5db4db247a0cfff43b8a73fda5a9616bd1ddf12639daeca4debe6d",
+    "NightRemasterPact.afa": "a03e4bf91605e625c49483ff2228186ba390ba8db7606b72f0de4e8cf923d549"
+  },
+  "no_game_or_save_modified": true,
+  "native_verified": false
+}

@@ -1,0 +1,650 @@
+{
+ "schema": "yoru-home-panel.candidate.v1",
+ "status": "HOME_PANEL_20261017_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-10-17T14:33:12",
+ "seconds": 66,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "0cfa5e0799c1f42a781680bee99a96b48b4d2caacb43177835c742fcfda4469d",
+  "status": "BATTLE_PACE_20261016_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+  "pact_sha256": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "winmm_sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+  "checked_at_start_and_end": true
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "99461f9c4d023e6869f2719695923c5ed057d4b67631687268f0a9b4be06b4cc",
+   "size": 4425920
+  },
+  "NightRemasterPact.afa": {
+   "sha256": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+   "size": 834104
+  }
+ },
+ "pact_changed": true,
+ "pact_changed_entries": [
+  177
+ ],
+ "pact_new_parts": [
+  "KR_HR_SecSave",
+  "KR_HR_EvLabel",
+  "KR_HR_EvValue",
+  "KR_HR_Story",
+  "KR_HR_SecAll",
+  "KR_HR_Name2",
+  "KR_HR_Pct2",
+  "KR_HR_Name3",
+  "KR_HR_Pct3",
+  "KR_HR_Name4",
+  "KR_HR_Pct4",
+  "KR_HR_Name5",
+  "KR_HR_Pct5",
+  "KR_HR_Name6",
+  "KR_HR_Pct6",
+  "KR_HR_Name7",
+  "KR_HR_Pct7",
+  "KR_HR_Name8",
+  "KR_HR_Pct8",
+  "KR_HR_AllName0",
+  "KR_HR_AllValue0",
+  "KR_HR_AllName1",
+  "KR_HR_AllValue1",
+  "KR_HR_AllName2",
+  "KR_HR_AllValue2",
+  "KR_HR_AllName3",
+  "KR_HR_AllValue3",
+  "KR_HR_CalText",
+  "KR_HR_EvBar",
+  "KR_HR_CalBox",
+  "KR_HR_Box2",
+  "KR_HR_Face2",
+  "KR_HR_Bar2",
+  "KR_HR_Box3",
+  "KR_HR_Face3",
+  "KR_HR_Bar3",
+  "KR_HR_Box4",
+  "KR_HR_Face4",
+  "KR_HR_Bar4",
+  "KR_HR_Box5",
+  "KR_HR_Face5",
+  "KR_HR_Bar5",
+  "KR_HR_Box6",
+  "KR_HR_Face6",
+  "KR_HR_Bar6",
+  "KR_HR_Box7",
+  "KR_HR_Face7",
+  "KR_HR_Bar7",
+  "KR_HR_Box8",
+  "KR_HR_Face8",
+  "KR_HR_Bar8",
+  "KR_HR_AllBar0",
+  "KR_HR_AllBar1",
+  "KR_HR_AllBar2",
+  "KR_HR_AllBar3"
+ ],
+ "ex_changed": false,
+ "fnl_changed": false,
+ "winmm_changed": false,
+ "added_functions": {
+  "KR_HVGet": 33094,
+  "KR_HVPut": 33095,
+  "KR_HVNum": 33096,
+  "KR_HVText": 33097,
+  "KR_HVName": 33098,
+  "KR_HVUp": 33099,
+  "KR_HVMove": 33100,
+  "KR_HVShow": 33101,
+  "KR_HVPart": 33102,
+  "KR_HVSetT": 33103,
+  "KR_HVPaintBox": 33104,
+  "KR_HVPaintBar": 33105,
+  "KR_HVApply": 33106,
+  "KR_HVSetText": 33107,
+  "KR_HVBoxPart": 33108,
+  "KR_HVClickable": 33109,
+  "KR_HVRow": 33110,
+  "KR_HVPick": 33111
+ },
+ "jam_bodies": [],
+ "same_length_sites": [
+  {
+   "function": "KR_RateRender",
+   "fid": 32485,
+   "function_address": 12245180,
+   "site": 12245958,
+   "site_offset": 778,
+   "kind": "CALLFUNC",
+   "original": "KR_RateText",
+   "original_fid": 32484,
+   "replacement": "KR_HVText",
+   "replacement_fid": 33097,
+   "before": "3000e47e0000",
+   "after": "300049810000",
+   "operand_bytes": [
+    12245960,
+    12245964
+   ],
+   "note": "panel values -> session variables, change key for the hidden body",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_RateRender",
+   "fid": 32485,
+   "function_address": 12245180,
+   "site": 12246268,
+   "site_offset": 1088,
+   "kind": "CALLFUNC",
+   "original": "Ｐ＿テキスト設定",
+   "original_fid": 8111,
+   "replacement": "KR_HVSetText",
+   "replacement_fid": 33107,
+   "before": "3000af1f0000",
+   "after": "300053810000",
+   "operand_bytes": [
+    12246270,
+    12246274
+   ],
+   "note": "body takes the key, then the owning AddArea instance is painted",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_T8HomeMenuOpen",
+   "fid": 32346,
+   "function_address": 11511734,
+   "site": 11511792,
+   "site_offset": 58,
+   "kind": "CALLFUNC",
+   "original": "KR_T8HomeClickable",
+   "original_fid": 32345,
+   "replacement": "KR_HVClickable",
+   "replacement_fid": 33109,
+   "before": "3000597e0000",
+   "after": "300055810000",
+   "operand_bytes": [
+    11511794,
+    11511798
+   ],
+   "note": "buttons take clicks while the home top menu waits",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_T8HomeMenuClose",
+   "fid": 32347,
+   "function_address": 11511814,
+   "site": 11511846,
+   "site_offset": 32,
+   "kind": "CALLFUNC",
+   "original": "KR_T8HomeClickable",
+   "original_fid": 32345,
+   "replacement": "KR_HVClickable",
+   "replacement_fid": 33109,
+   "before": "3000597e0000",
+   "after": "300055810000",
+   "operand_bytes": [
+    11511848,
+    11511852
+   ],
+   "note": "buttons stop taking clicks",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_T8HomeClick",
+   "fid": 32343,
+   "function_address": 11510998,
+   "site": 11511062,
+   "site_offset": 64,
+   "kind": "CALLFUNC",
+   "original": "KR_T8HomeRow",
+   "original_fid": 32342,
+   "replacement": "KR_HVRow",
+   "replacement_fid": 33110,
+   "before": "3000567e0000",
+   "after": "300056810000",
+   "operand_bytes": [
+    11511064,
+    11511068
+   ],
+   "note": "screen y -> character row / calendar button",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_T8HomeMenuClose",
+   "fid": 32347,
+   "function_address": 11511814,
+   "site": 11512160,
+   "site_offset": 346,
+   "kind": "CALLFUNC",
+   "original": "KR_T8CharMissingPage",
+   "original_fid": 32325,
+   "replacement": "KR_HVPick",
+   "replacement_fid": 33111,
+   "before": "3000457e0000",
+   "after": "300057810000",
+   "operand_bytes": [
+    11512162,
+    11512166
+   ],
+   "note": "calendar button -> KR_CDoHome(\"chart\"); rows -> the old window",
+   "owner_is_original": true
+  }
+ ],
+ "relocated_original_functions": [],
+ "pinned_functions": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "code_bytes": 232,
+   "bytes_differing": 0
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "code_bytes": 298,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "code_bytes": 550,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "code_bytes": 1104,
+   "bytes_differing": 0
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "code_bytes": 1292,
+   "bytes_differing": 0
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890,
+   "code_bytes": 440,
+   "bytes_differing": 0
+  },
+  "KR_CReplayRun": {
+   "index": 32690,
+   "address": 13167576,
+   "code_bytes": 494,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00058": {
+   "index": 33021,
+   "address": 15276938,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00063": {
+   "index": 33022,
+   "address": 15277000,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00069": {
+   "index": 33023,
+   "address": 15277062,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00104": {
+   "index": 33024,
+   "address": 15277124,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00258": {
+   "index": 33025,
+   "address": 15277186,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00260": {
+   "index": 33026,
+   "address": 15277248,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00322": {
+   "index": 33027,
+   "address": 15277310,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00611": {
+   "index": 33028,
+   "address": 15277372,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E10021": {
+   "index": 33029,
+   "address": 15277434,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20041": {
+   "index": 33030,
+   "address": 15277496,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20081": {
+   "index": 33031,
+   "address": 15277558,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20164": {
+   "index": 33032,
+   "address": 15277620,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30001": {
+   "index": 33033,
+   "address": 15277682,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30021": {
+   "index": 33034,
+   "address": 15277744,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30152": {
+   "index": 33035,
+   "address": 15277806,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40021": {
+   "index": 33036,
+   "address": 15277868,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40041": {
+   "index": 33037,
+   "address": 15277930,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40043": {
+   "index": 33038,
+   "address": 15277992,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40061": {
+   "index": 33039,
+   "address": 15278054,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_ANSelect": {
+   "index": 33063,
+   "address": 15281812,
+   "code_bytes": 448,
+   "bytes_differing": 0
+  },
+  "KR_ANSelFrame": {
+   "index": 33066,
+   "address": 15283614,
+   "code_bytes": 34,
+   "bytes_differing": 0
+  },
+  "KR_ANTrainConfirm": {
+   "index": 33072,
+   "address": 15284948,
+   "code_bytes": 126,
+   "bytes_differing": 0
+  },
+  "KR_ANOpeningQ": {
+   "index": 33083,
+   "address": 15287974,
+   "code_bytes": 34,
+   "bytes_differing": 0
+  },
+  "KR_ANNewGame": {
+   "index": 33082,
+   "address": 15287640,
+   "code_bytes": 334,
+   "bytes_differing": 0
+  }
+ },
+ "invariance": {
+  "original_function_entries_identical": true,
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 11,
+  "old_code_changes_only_at_swapped_operands": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 34,
+  "functions_added": 18,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 232,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 298,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 550,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1104,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1292,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 440,
+    "bytes_differing": 0
+   },
+   "KR_CReplayRun": {
+    "index": 32690,
+    "address": 13167576,
+    "code_bytes": 494,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00058": {
+    "index": 33021,
+    "address": 15276938,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00063": {
+    "index": 33022,
+    "address": 15277000,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00069": {
+    "index": 33023,
+    "address": 15277062,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00104": {
+    "index": 33024,
+    "address": 15277124,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00258": {
+    "index": 33025,
+    "address": 15277186,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00260": {
+    "index": 33026,
+    "address": 15277248,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00322": {
+    "index": 33027,
+    "address": 15277310,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00611": {
+    "index": 33028,
+    "address": 15277372,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E10021": {
+    "index": 33029,
+    "address": 15277434,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20041": {
+    "index": 33030,
+    "address": 15277496,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20081": {
+    "index": 33031,
+    "address": 15277558,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20164": {
+    "index": 33032,
+    "address": 15277620,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30001": {
+    "index": 33033,
+    "address": 15277682,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30021": {
+    "index": 33034,
+    "address": 15277744,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30152": {
+    "index": 33035,
+    "address": 15277806,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40021": {
+    "index": 33036,
+    "address": 15277868,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40041": {
+    "index": 33037,
+    "address": 15277930,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40043": {
+    "index": 33038,
+    "address": 15277992,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40061": {
+    "index": 33039,
+    "address": 15278054,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_ANSelect": {
+    "index": 33063,
+    "address": 15281812,
+    "code_bytes": 448,
+    "bytes_differing": 0
+   },
+   "KR_ANSelFrame": {
+    "index": 33066,
+    "address": 15283614,
+    "code_bytes": 34,
+    "bytes_differing": 0
+   },
+   "KR_ANTrainConfirm": {
+    "index": 33072,
+    "address": 15284948,
+    "code_bytes": 126,
+    "bytes_differing": 0
+   },
+   "KR_ANOpeningQ": {
+    "index": 33083,
+    "address": 15287974,
+    "code_bytes": 34,
+    "bytes_differing": 0
+   },
+   "KR_ANNewGame": {
+    "index": 33082,
+    "address": 15287640,
+    "code_bytes": 334,
+    "bytes_differing": 0
+   }
+  }
+ },
+ "native_opcode_audit": {
+  "active_functions": 31225,
+  "instruction_sites": 2272303,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "new_globals": 0,
+ "new_struct_members": 0,
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "4afcfcd20de7565443522a406dacf51e1720a2f1796144ffb59fd5bdbf4cb234",
+ "build_script_sha256": "498756066441a80857532105c517d44264ecb8afd6d62d44d63095c361a7b653",
+ "pact_build_script_sha256": "d6b85874c9bdb50ac2351d1e8aacf7a1a8a0ea10a5c14740d933d8741955fc5e"
+}

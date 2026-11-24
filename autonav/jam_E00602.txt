@@ -1,0 +1,195 @@
+==================== ; L_EventCall::E00602 FUNC 26408
+; L_EventCall::E00602
+; VAR  0: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; VAR  1: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; VAR  2: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; VAR  3: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; RETURN: bool
+FUNC 26408
+	.GLOBALREF L_EventCall::m_nMonth
+	PUSH 11
+	NOTE
+	IFNZ 0x53c002
+	JUMP 0x53c00a
+0x53c002:
+	PUSH 0
+	RETURN
+0x53c00a:
+	.GLOBALREF L_EventCall::m_nDay
+	PUSH 11
+	NOTE
+	IFNZ 0x53c02c
+	JUMP 0x53c034
+0x53c02c:
+	PUSH 0
+	RETURN
+0x53c034:
+	.GLOBALREF L_EventCall::m_nTimeID
+	PUSH 1
+	NOTE
+	IFNZ 0x53c056
+	JUMP 0x53c05e
+0x53c056:
+	PUSH 0
+	RETURN
+0x53c05e:
+	PUSH 602
+	CALLFUNC L_EventCall::Call
+	POP
+	PUSH 2
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 0
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53c0d6
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53c0e4
+0x53c0d6:
+	POP
+	PUSH -1
+	PUSH 1
+0x53c0e4:
+	PUSH 1
+	GTE
+	IFZ 0x53c0fa
+	POP
+	PUSH 0
+0x53c0fa:
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+	IFNZ 0x53c14e
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+	JUMP 0x53c180
+0x53c14e:
+	PUSH 10161
+	CALLFUNC L_EventCall::Call
+	POP
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+0x53c180:
+	PUSH 3
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 1
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53c1ea
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53c1f8
+0x53c1ea:
+	POP
+	PUSH -1
+	PUSH 1
+0x53c1f8:
+	PUSH 1
+	GTE
+	IFZ 0x53c20e
+	POP
+	PUSH 0
+0x53c20e:
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#1"
+	IFNZ 0x53c262
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#1"
+	JUMP 0x53c294
+0x53c262:
+	PUSH 20141    ; stageeditor::detail::CLightArrowInstance@IsShownScatteringLine::get
+	CALLFUNC L_EventCall::Call
+	POP
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#1"
+0x53c294:
+	PUSH 4
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>#2"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 2
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53c2fe
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53c30c
+0x53c2fe:
+	POP
+	PUSH -1
+	PUSH 1
+0x53c30c:
+	PUSH 1
+	GTE
+	IFZ 0x53c322
+	POP
+	PUSH 0
+0x53c322:
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#2"
+	IFNZ 0x53c376
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#2"
+	JUMP 0x53c3a8
+0x53c376:
+	PUSH 30041    ; NS_AStar::GridInfo@2
+	CALLFUNC L_EventCall::Call
+	POP
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#2"
+0x53c3a8:
+	PUSH 5
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>#3"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 3
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53c412
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53c420
+0x53c412:
+	POP
+	PUSH -1
+	PUSH 1
+0x53c420:
+	PUSH 1
+	GTE
+	IFZ 0x53c436
+	POP
+	PUSH 0
+0x53c436:
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#3"
+	IFNZ 0x53c48a
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#3"
+	JUMP 0x53c4bc
+0x53c48a:
+	PUSH 40143
+	CALLFUNC L_EventCall::Call
+	POP
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#3"
+0x53c4bc:
+	PUSH 1
+	RETURN
+	PUSH 0
+	RETURN
+

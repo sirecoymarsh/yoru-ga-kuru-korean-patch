@@ -1,0 +1,30 @@
+{
+  "status": "AUTONAV_20261015_STATIC_VM_NATIVE_PASS_NOT_INSTALLED",
+  "candidate": {
+    "NightRemaster.ain": "1e96d3e797184a7a13236208988fe6ca3d37cf55f9e553f0ccc5ad7ed7659188",
+    "NightRemasterPact.afa": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce"
+  },
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "base": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "fcfb8a49c6910889c2f49f50ed796210c2a04211f6e194d0ad992cd796ecd1ea",
+    "status": "CLAUDE_TEXT_20261001_INSTALLED_VM_PASS",
+    "ain_sha256": "3afdd2b1e11a107defa4b91465f97241e7ddc70fb681f0561e8b67fd897aa8f9",
+    "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+    "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+    "winmm_sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+    "checked_at_start_and_end": true
+  },
+  "issues": [],
+  "game_running": false,
+  "contracts_now": 91,
+  "recovery_runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\itemenemy_9301f9bcc853\\runtime",
+  "recovery_has": [
+    "NightRemaster.ain",
+    "NightRemasterPact.afa"
+  ],
+  "install_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\publish_autonav.py\" --install",
+  "restore_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\publish_autonav.py\" --restore",
+  "checked": "2026-10-15T22:31:32.430691+09:00"
+}

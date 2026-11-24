@@ -1,0 +1,1 @@
+Codex-authored wording: 我は王なり → 나는 왕이다. Generate five vertically stacked Korean brush syllables 나 / 는 / 왕 / 이 / 다, dark charcoal #17252a, transparent background, no paper/frame/extra text; match the casual calligraphic astronomy-room sign. Built-in image_gen; frozen output retained as korean_brush_generated.png.

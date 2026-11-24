@@ -1,0 +1,439 @@
+{
+ "schema": "yoru-calendar-r20.candidate.v1",
+ "status": "CALENDAR_R20_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-09-28T01:40:08",
+ "seconds": 470,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "13280ac23d670946fff46f9a9be5d38fcab0f421aab865ba48b5f67eda4fa21f",
+  "status": "CALENDAR_R19_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "1d6081e94cbba5a1e33a12cfad2e542bfa7b689b89373f5386475675c53a1948",
+  "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "chart_sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+  "r19_installed": true,
+  "checked_at_start_and_end": true
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "9dfac62ac240370f98362624f39e515a4b730fa463c46955ac26d5fdd6791108",
+   "size": 3799874
+  }
+ },
+ "pact_changed": false,
+ "ex_changed": false,
+ "fnl_changed": false,
+ "chart_changed": false,
+ "chart_inputs": {
+  "published_chart_sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+  "builder_sha256": "3823f32a34a789b4f0029fbc43a699a562acca8845778f316eb5d87ebc4b383c",
+  "schedule_sha256": "f9669421f182976b230732e668bd30d1a9821039ca2c8133592a5227ae49ae16"
+ },
+ "tables": {
+  "walk_scenes": 242,
+  "walk_drawers": 15,
+  "pairs": {
+   "2-3": 9,
+   "2-6": 7,
+   "2-7": 7,
+   "2-0": 6,
+   "3-6": 9,
+   "3-7": 14,
+   "3-0": 6,
+   "6-7": 8,
+   "6-0": 6,
+   "7-0": 6,
+   "1-0": 1,
+   "2-4": 11,
+   "3-4": 10,
+   "4-6": 12,
+   "4-7": 8,
+   "4-0": 5,
+   "2-5": 9,
+   "2-8": 8,
+   "3-5": 8,
+   "3-8": 12,
+   "4-5": 12,
+   "4-8": 10,
+   "5-6": 8,
+   "5-7": 8,
+   "5-8": 10,
+   "5-0": 5,
+   "6-8": 10,
+   "7-8": 10,
+   "8-0": 7
+  },
+  "join": {
+   "4": 519,
+   "5": 630,
+   "8": 616
+  }
+ },
+ "parts": {
+  "status_panel": 2026092001,
+  "status_text": 2026092002,
+  "training_labels": [
+   2026092012,
+   2026092013,
+   2026092014,
+   2026092015,
+   2026092016,
+   2026092017,
+   2026092018
+  ],
+  "training_boxes": [
+   2026092022,
+   2026092023,
+   2026092024,
+   2026092025,
+   2026092026,
+   2026092027,
+   2026092028
+  ],
+  "z_relative": {
+   "status_panel": 40,
+   "status_text": 41,
+   "training_box": 20,
+   "training_label": 21
+  }
+ },
+ "added_functions": {
+  "KR_T20WalkPair": 32566,
+  "KR_T20JoinDay": 32567,
+  "KR_T20StPanel": 32568,
+  "KR_T20StTextPart": 32569,
+  "KR_T20TrPart": 32570,
+  "KR_T20TrBox": 32571,
+  "KR_T20Gray": 32572,
+  "KR_T20Val": 32573,
+  "KR_T20Digit": 32574,
+  "KR_T20Joined": 32575,
+  "KR_T20TalkSeen": 32576,
+  "KR_T20TrainLeft": 32577,
+  "KR_T20WalkLeft": 32578,
+  "KR_T20Partner": 32579,
+  "KR_T20StText": 32580,
+  "KR_T20SvPage": 32581,
+  "KR_T20SvAct": 32582,
+  "KR_T20StRoot": 32583,
+  "KR_T20StClear": 32584,
+  "KR_T20StDraw": 32585,
+  "KR_T20StActiveOf": 32586,
+  "KR_T20StNextOf": 32587,
+  "KR_T20StPrevOf": 32588,
+  "KR_T20StNext": 32589,
+  "KR_T20StPrev": 32590,
+  "KR_T20StActive": 32591,
+  "KR_T20StEnd": 32592,
+  "KR_T20TrText": 32593,
+  "KR_T20AllyAct": 32594,
+  "KR_T20TrMark": 32595,
+  "KR_T20TrClear": 32596,
+  "KR_T20TrEnsure": 32597,
+  "KR_T20TrKeyDel": 32598,
+  "KR_T20TrAlly": 32599,
+  "KR_T20TrAppear": 32600
+ },
+ "jam_bodies": [
+  "KR_T20SvPage",
+  "KR_T20SvAct",
+  "KR_T20AllyAct",
+  "KR_T20StNext",
+  "KR_T20StPrev",
+  "KR_T20StActive",
+  "KR_T20StEnd",
+  "KR_T20TrAlly",
+  "KR_T20TrAppear"
+ ],
+ "forwarded_functions": {},
+ "r18_forwarders_kept": [
+  "KR_T9CardPage",
+  "KR_T9CardRow",
+  "KR_T9ChipRow",
+  "KR_T9EventPage",
+  "KR_T9LaneTitle",
+  "KR_T9MemPage",
+  "KR_T9MonthChips",
+  "KR_T9MonthPage"
+ ],
+ "r19_forwarders_kept": [
+  "KR_T18CardRow",
+  "KR_T18CardTitle",
+  "KR_T18EventTitle",
+  "KR_T9ChipPage",
+  "KR_T9StagePage"
+ ],
+ "same_length_sites": [
+  {
+   "function": "C_Status::RunStatus",
+   "fid": 28003,
+   "function_address": 9968902,
+   "site": 9969466,
+   "site_offset": 564,
+   "kind": "CALLMETHOD target (PUSH operand)",
+   "original": "C_HomeStatusView@PrevPage",
+   "original_fid": 28434,
+   "replacement": "KR_T20StPrev",
+   "replacement_fid": 32590,
+   "before": "0000126f0000",
+   "after": "00004e7f0000",
+   "operand_bytes": [
+    9969468,
+    9969472
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_Status::RunStatus",
+   "fid": 28003,
+   "function_address": 9968902,
+   "site": 9969532,
+   "site_offset": 630,
+   "kind": "CALLMETHOD target (PUSH operand)",
+   "original": "C_HomeStatusView@NextPage",
+   "original_fid": 28435,
+   "replacement": "KR_T20StNext",
+   "replacement_fid": 32589,
+   "before": "0000136f0000",
+   "after": "00004d7f0000",
+   "operand_bytes": [
+    9969534,
+    9969538
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_Status::RunStatus",
+   "fid": 28003,
+   "function_address": 9968902,
+   "site": 9970824,
+   "site_offset": 1922,
+   "kind": "CALLFUNC",
+   "original": "AFL_Parts_EraseWholeMouseWheelEvent",
+   "original_fid": 7754,
+   "replacement": "KR_T20StEnd",
+   "replacement_fid": 32592,
+   "before": "30004a1e0000",
+   "after": "3000507f0000",
+   "operand_bytes": [
+    9970826,
+    9970830
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_HomeStatusView@SetInfo",
+   "fid": 28432,
+   "function_address": 6140126,
+   "site": 6140684,
+   "site_offset": 558,
+   "kind": "CALLMETHOD target (PUSH operand)",
+   "original": "C_HomeStatusView@SetActivePage",
+   "original_fid": 28433,
+   "replacement": "KR_T20StActive",
+   "replacement_fid": 32591,
+   "before": "0000116f0000",
+   "after": "00004f7f0000",
+   "operand_bytes": [
+    6140686,
+    6140690
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_SceneTraining@RunSelectPartner",
+   "fid": 28305,
+   "function_address": 6064432,
+   "site": 6065430,
+   "site_offset": 998,
+   "kind": "CALLMETHOD target (PUSH operand)",
+   "original": "C_SceneTrainingView@SelectAlly::get",
+   "original_fid": 28318,
+   "replacement": "KR_T20TrAlly",
+   "replacement_fid": 32599,
+   "before": "00009e6e0000",
+   "after": "0000577f0000",
+   "operand_bytes": [
+    6065432,
+    6065436
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_SceneTraining@RunSelectPartner",
+   "fid": 28305,
+   "function_address": 6064432,
+   "site": 6066228,
+   "site_offset": 1796,
+   "kind": "CALLFUNC",
+   "original": "■方向キー処理／削除",
+   "original_fid": 27780,
+   "replacement": "KR_T20TrKeyDel",
+   "replacement_fid": 32598,
+   "before": "3000846c0000",
+   "after": "3000567f0000",
+   "operand_bytes": [
+    6066230,
+    6066234
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_SceneTraining@_UpdateInputPartner",
+   "fid": 28306,
+   "function_address": 6066986,
+   "site": 6067126,
+   "site_offset": 140,
+   "kind": "CALLMETHOD target (PUSH operand)",
+   "original": "C_SceneTrainingView@AppearStandChara",
+   "original_fid": 28369,
+   "replacement": "KR_T20TrAppear",
+   "replacement_fid": 32600,
+   "before": "0000d16e0000",
+   "after": "0000587f0000",
+   "operand_bytes": [
+    6067128,
+    6067132
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  }
+ ],
+ "earlier_same_length_sites_kept": 10,
+ "relocated_original_functions": [],
+ "pinned_functions": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "code_bytes": 232,
+   "bytes_differing": 0
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "code_bytes": 298,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "code_bytes": 550,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "code_bytes": 1104,
+   "bytes_differing": 0
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "code_bytes": 1292,
+   "bytes_differing": 0
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890,
+   "code_bytes": 440,
+   "bytes_differing": 0
+  }
+ },
+ "invariance": {
+  "original_function_entries_identical": true,
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 14,
+  "old_code_changes_only_at_swapped_operands": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 11,
+  "functions_added": 35,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 232,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 298,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 550,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1104,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1292,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 440,
+    "bytes_differing": 0
+   }
+  },
+  "earlier_same_length_sites_kept": 10
+ },
+ "native_opcode_audit": {
+  "active_functions": 30714,
+  "instruction_sites": 2080623,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "session_variables": [
+  "YoruKR.T9.Ctx",
+  "YoruKR.T9.Req",
+  "YoruKR.T9.Play",
+  "YoruKR.T9.Playing",
+  "YoruKR.T9.Unwind",
+  "YoruKR.T9.Open",
+  "YoruKR.T9.Lane",
+  "YoruKR.T18.PrevSet",
+  "YoruKR.T18.PrevFn",
+  "YoruKR.T18.PrevSys"
+ ],
+ "new_session_variables": [],
+ "new_globals": 0,
+ "new_struct_members": 0,
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "e39e1b080ce78a35c2df6392f691946ee70a0460b81ac185145fa5ffa8b1b039",
+ "build_script_sha256": "4c289233a4a1654ed4642e6dd2722ecc68cea565ee43ff6e1c2a9f7c2e93cad2"
+}

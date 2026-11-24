@@ -1,0 +1,84 @@
+{
+ "checked": "2026-09-27T06:16:17.110799+09:00",
+ "base_at_start": {
+  "ain": "cbed62c2aa3bd33c8471a098cc1f6a3e7f83c60c32d02b2cbf2b0dd63bc24a9f",
+  "pact": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "manifest": "1f6caca554e07dc36838e6e2c36c4e88b7be96320dfe654d50811f721b1e6561",
+  "status": "STORY_EXPLORE_INSTALLED_NATIVE_PASS"
+ },
+ "runtime_at_end": {
+  "NightRemaster.ain": "cbed62c2aa3bd33c8471a098cc1f6a3e7f83c60c32d02b2cbf2b0dd63bc24a9f",
+  "NightRemasterPact.afa": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "NightRemasterEX.ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "manifest": "1f6caca554e07dc36838e6e2c36c4e88b7be96320dfe654d50811f721b1e6561",
+  "status": "STORY_EXPLORE_INSTALLED_NATIVE_PASS",
+  "current_json_sha256": "b0f57fe52850467990796dc326c9f8b17bc5487646c7c9df6d0b67168dfbba81"
+ },
+ "runtime_unchanged": true,
+ "r15_candidate": {
+  "ain": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963",
+  "same_as_file": true
+ },
+ "candidate": {
+  "ain": "4056429f9e9999c8bec64ed244cf0393285529e74c6693b2768176cf8439b2fc",
+  "ain_size": 3682128,
+  "manifest": "a8b72097df5c66c434d7463084ba2468b05261b70340cae35e6e67ea05d6bd8b"
+ },
+ "contract_draft": "55a6ae2b384a6778215b9a67768d4ea33a5a9e87b2f8d61c0e7d8208312f861a",
+ "scripts": {
+  "build_calendar_r16.py": "0f533ea79c09cdc51aa8e8e7b958c484b2ca8569811b7c787a0c00c6612d2eb7",
+  "claude_calendar_r16.jaf": "c6ab15a685c8bc92262d92fa3e926cc955bd3179129a90e978eb9905e9d08a63",
+  "probe_calendar_r16.py": "27d0a442e4f5bd752edee6a8b4e09f1d830993fee625d389d17c4ec3f4f67a6d",
+  "publish_calendar_r16.py": "fdf88594368c69aaaa0316814cafb6d808f850b3daf2d008785257559a03e97c",
+  "r16lib.py": "92043114a88cafa100226b277ccc265da10ef5a480f05a8f8b0390f6333404a0",
+  "required_calendar_r16.json": "55a6ae2b384a6778215b9a67768d4ea33a5a9e87b2f8d61c0e7d8208312f861a",
+  "scan_calendar_r16.ps1": "d60aaf5f9ed0af8c075a093b994084a5989190f945d9f796dc919695126f7d1c",
+  "verify_calendar_r16.py": "4f84e8656fd421d2b7b42feb6349dab08accc3266078c032d2d39ae6093f4970",
+  "인계_r16.md": "9733430b551ee1854906cf575ae6fbffe38926b8b6210195aa5da43b31375101"
+ },
+ "work_scripts": {
+  "finalize_evidence_r16.py": "09d0c3db27931a3780f8a89101beb5551463bb55eaaf50fee6281495d163e35c",
+  "page_stats_r16.py": "7acc4de5939d1d4600e8d357577e1697f783e96470823a1ce7730ddd55f65b5f",
+  "savecopy_r16.py": "acb94774a00276d8e7d1394b7f7e8e27ab54724afc1f851c57c78b6ac69fc909",
+  "snapshot_base_r16.py": "e18d060b573b210be1310f78706f129ad9d2ea76d95e18114ed53322f2bff2f4",
+  "study.py": "a037508f5093aa5e3951c6a72105cf91ed48efe1b6e696c371548fc21a3ff1ea",
+  "study_data_r16.py": "0a01c7087b172360c8a0f569c1f1b4452c95702fe60b6f513d4ae19961dd3c38"
+ },
+ "screenshots": {
+  "cal_card.png": "f4e75814437b28089803dd543ecdb9bea04d9a81fc38ab257d3c79e8dccbd52d",
+  "cal_charwin.png": "0e6ac21e8cc6c22403364da0c68a9fb3578e5fce617c0f5856932f7980e09cb5",
+  "cal_home_after.png": "cb98c1f7d75eda112516e5349b186b12bbc852d6ffa06c89e2b103804b922862",
+  "cal_home_before.png": "cb98c1f7d75eda112516e5349b186b12bbc852d6ffa06c89e2b103804b922862",
+  "cal_lane.png": "bbe959a96f3975334634fb832c3bb313275ec7e97f6c4fb96013cbb1191c5405",
+  "cal_lane_oct_manami_p1.png": "ec7751be598217fbc17aa0874c1047de068447cc458f6087810884ec59a06dfe",
+  "cal_lane_oct_manami_p2.png": "0932b1b30a721e05dcb96d7bdf58a3c53b4b7584f96f1b7511160d16b4ac5f3c",
+  "cal_month.png": "0a1e6fedd0391a720f62f193a024736b013c7d4fa2330abeec7b21c25e772a2d",
+  "cal_month_sep_3col.png": "580928479f37bad6e29f5785340d12f9ffa6a5af74967901f6e8a368d757acf0",
+  "cal_spoiler_replay_msg_1.png": "9e57386d4d18a47b81313fff8620826ec883b3457d30901cc0e0fe30a0acbfa5",
+  "cal_spoiler_replay_msg_2.png": "bbf3970e2f57ccf3b4b802dff5e6461781fe5b2ba6ea0702784310d858a1a64e",
+  "cal_summary.png": "bc73a20c2c9c912e5b8ea4f5fc9535985b3d3f511d31d12291953c51011b52fa"
+ },
+ "evidence_files": [
+  "baked_tables_r16.json",
+  "base_moved_check_0515.json",
+  "base_snapshot.json",
+  "candidate_manifest.json",
+  "contract_draft_required_calendar_r16.json",
+  "native_compare.json",
+  "native_opcode_audit.json",
+  "page_stats.json",
+  "probe",
+  "probe_regs.json",
+  "probe_result.json",
+  "probe_zoom",
+  "r16_요구_원문_0511.md",
+  "readiness.json",
+  "savecopy_manifest.json",
+  "scan_report.json",
+  "study_data.json",
+  "transaction_verification.json",
+  "vm_verification.json",
+  "vm_verification_selftest.json"
+ ]
+}

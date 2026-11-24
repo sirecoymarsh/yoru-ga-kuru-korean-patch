@@ -1,0 +1,26 @@
+{
+  "status": "COMPILED_FIXTURES_PASS",
+  "results": {
+    "option_scope": true,
+    "deep_copy_arrays": 3,
+    "four_profiles_equip": true,
+    "gear_cancel_lock_fixed_rollback_stale_empty": true,
+    "swap_and_redundant_utility": true,
+    "stone_profiles_normal_cancel_early": 12,
+    "partial_reservation_cancel_apply": true,
+    "negative_stone_conditions": 4,
+    "native_99_cap_rejections": 2
+  },
+  "files": {
+    "NightRemaster.ain": "16025aab9b654a3a1470fa58cd0459165b26d64cdabd7f76c2d9a69c26a12f07",
+    "NightRemasterPact.afa": "4ed2e66c779aa884ec5786a52319be8d01e1d7638a89a0683d1b06f9fe85ff58"
+  },
+  "native_boundary_fixtures": [
+    "GUI selection",
+    "native derived ability/query formulas",
+    "native craft confirmation",
+    "read-only snapshot"
+  ],
+  "native_equip_26781_executed": true,
+  "native_gameplay_verified": false
+}

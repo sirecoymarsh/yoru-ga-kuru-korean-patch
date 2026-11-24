@@ -1,0 +1,35 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "reviewer": "/root/translation_revision_review",
+  "review_mode": "Independent read-only persisted AIN/EX consumer and save-schema review",
+  "files": {
+    "NightRemaster.ain": "fd2920d8252b6e973b321b35aa654e6e14c9787721e172f6e1412b7c34dc3365"
+  },
+  "findings": [],
+  "patched_function_ids": [
+    26155,
+    26156,
+    26756,
+    26757,
+    26786,
+    26787,
+    26789,
+    26790,
+    26792,
+    26793,
+    26795,
+    26796,
+    26798,
+    26799,
+    26810,
+    26811,
+    29556
+  ],
+  "fresh_disassembly_matches_all17": true,
+  "stack_and_actual_native_EX_signatures_pass": true,
+  "original_LoadEX_id_and_field_mapping_pass": true,
+  "inventory_stat_known_weapon_initialization_not_called": true,
+  "existing_comment_array_requirement": "Original normal-game save schema has1000 entries; only string values updated by existing LoadComment.",
+  "native_verified": false,
+  "save_file_reloaded_in_native_engine": false
+}

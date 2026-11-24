@@ -1,0 +1,27 @@
+{
+ "schema": "yoru-ingame-base.v1",
+ "taken": "2026-09-23T01:01:24",
+ "source_runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+ "source_pointer": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "8659c20e6566ec24b4576ab09932999e09d30f59a516e47bc0394c7daa86d06d",
+  "status": "AUTO_WALK_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+  "runtime_verified": false,
+  "whole_ui_complete": false
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "91b827804c22b1a2390312391d0ad4f7178ae8228250354f27f8fbc5de1b3169",
+   "size": 3213819
+  },
+  "NightRemasterPact.afa": {
+   "sha256": "92ffc2f9b8f07f32b16cc78af265e395b92772af8a940bec8b7d00097fdabc3c",
+   "size": 818212
+  },
+  "NightRemasterEX.ex": {
+   "sha256": "83304ebe454b756c46778de9d3e746b2cce59adad2943b96fb0a48015416072a",
+   "size": 58707
+  }
+ }
+}

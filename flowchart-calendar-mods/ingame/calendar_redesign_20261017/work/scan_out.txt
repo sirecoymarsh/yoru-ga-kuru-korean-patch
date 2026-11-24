@@ -1,0 +1,22 @@
+{
+    "status":  "SCANNED_NO_TARGET_DETECTIONS",
+    "started":  "2026-10-17T14:38:40.8328344+09:00",
+    "ended":  "2026-10-17T14:38:42.6416573+09:00",
+    "target":  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\work\\scan_payload_20261017_143840",
+    "files":  {
+                  "NightRemaster.ain":  "99461f9c4d023e6869f2719695923c5ed057d4b67631687268f0a9b4be06b4cc",
+                  "NightRemasterPact.afa":  "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109"
+              },
+    "engine":  "1.1.26090.9",
+    "platform":  "4.18.26090.9",
+    "signatures":  "1.461.64.0",
+    "antivirusEnabled":  true,
+    "before":  [
+
+               ],
+    "after":  [
+
+              ]
+}
+ 
+{'status': 'SCANNED_NO_TARGET_DETECTIONS', 'started': '2026-10-17T14:38:40.8328344+09:00', 'ended': '2026-10-17T14:38:42.6416573+09:00', 'target': 'P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\work\\scan_payload_20261017_143840', 'files': {'NightRemaster.ain': '99461f9c4d023e6869f2719695923c5ed057d4b67631687268f0a9b4be06b4cc', 'NightRemasterPact.afa': '580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109'}, 'engine': '1.1.26090.9', 'platform': '4.18.26090.9', 'signatures': '1.461.64.0', 'antivirusEnabled': True, 'before': [], 'after': []}

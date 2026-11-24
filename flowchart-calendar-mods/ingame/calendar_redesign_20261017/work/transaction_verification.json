@@ -1,0 +1,40 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\work\\복구 검증 mhnzssvc",
+  "payload": {
+    "NightRemaster.ain": "99461f9c4d023e6869f2719695923c5ed057d4b67631687268f0a9b4be06b4cc",
+    "NightRemasterPact.afa": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "hard_link_not_written_through": true,
+  "runtime_scratch_folder_ignored": true,
+  "injected_failure_rollback": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "whole_transaction": {
+    "committed": true,
+    "recovery_hashed": [
+      "NightRemaster.ain"
+    ],
+    "recovery_lacks": [
+      "NightRemasterPact.afa"
+    ],
+    "restored_exact": true,
+    "restore_idempotent": true,
+    "scratch_folder_ignored": true,
+    "rolled_back_after_files": true,
+    "rolled_back_after_contracts": true,
+    "rolled_back_recovery_changed": true,
+    "interrupted_restore_resumable": true
+  },
+  "no_incoming_residue": true,
+  "files": [
+    "NightRemaster.ain",
+    "NightRemasterPact.afa"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "ROUTE_PERFORMANCE_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "ad7c28de09c8d48de52433343036ae7a88a0c9918e4482b9e2d97c3fa0babcb5",
+    "status": "CHEAT_NATIVE_OPCODE_FIX_STATIC_PASS_RUNTIME_RETEST_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "537a684b60828bdf3b19252e3e6b32c3ebffb8812de70b323805b479fea05e2a"
+  },
+  "files": {
+    "NightRemaster.ain": "39c55a8c8c5fadb77a235116a80c10798482313e72bfda50df5ea07d3766bf0e"
+  },
+  "patched_function_ids": [
+    27007,
+    27010,
+    27025,
+    27031,
+    28669,
+    31850,
+    31856,
+    31860
+  ],
+  "changes": [
+    "cache route and no-route at same x/y",
+    "invalidate on map binding/rebuild, topology setters, settings change and load",
+    "fresh search per exit candidate",
+    "copy best path once, remove final repeated search"
+  ],
+  "reused_unused_int_slots": [
+    85,
+    86
+  ],
+  "serialized_schemas_and_all_other_metadata_exact": true,
+  "all_existing_CODE_prefix_MSG1_STR0_exact": true,
+  "UI_and_gameplay_inputs_unchanged": true,
+  "native_performance_measured": false
+}

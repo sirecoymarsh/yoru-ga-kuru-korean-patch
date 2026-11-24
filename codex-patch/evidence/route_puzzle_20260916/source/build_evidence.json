@@ -1,0 +1,46 @@
+{
+  "status": "PUZZLE_ROUTE_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "9b1824dda50a9cda257f8c2f6e7003ca31c5722735ed95a76f5dc4a2f8672fb2",
+    "status": "ROUTE_LINEAR_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "0130135eff6c1b156a76f2fa9505addae18d5b2bdbaedc27ab711a54e368ad39"
+  },
+  "files": {
+    "NightRemaster.ain": "75d721bc318296fa1e2f4d1e4a86bd220c5d1c7977d753473bf12962b4711b07"
+  },
+  "patched_function_ids": [
+    29176,
+    31860
+  ],
+  "added_functions": {
+    "KR_PuzzleReadState": 31910,
+    "KR_PuzzleCell": 31911,
+    "KR_PuzzleRefresh": 31912,
+    "KR_DrawPuzzleRoute": 31913
+  },
+  "unchanged_files": {
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+    "NightRemaster.exe": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e",
+    "NightRemasterFont.fnl": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf"
+  },
+  "serialized_metadata_exact": true,
+  "old_CODE_MSG1_STR0_exact": true,
+  "scope": [
+    401,
+    403,
+    405
+  ],
+  "ordinary_maps_402_404_unchanged": true,
+  "native_state_read_only": true,
+  "forced_events_or_puzzle_completion": false,
+  "per_frame_full_scan": false,
+  "native_gameplay_verified": false,
+  "native_performance_measured": false
+}

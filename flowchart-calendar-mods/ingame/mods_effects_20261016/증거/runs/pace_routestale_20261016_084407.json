@@ -1,0 +1,167 @@
+{
+ "pid": 49524,
+ "ain_sha256": "ae31e13afde096bd9d928ea2f18370d8d782d9b9beb6dd8094faeec4d5261f1f",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 8.9,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\probe\\run\\SaveData_Effects_pace_routestale_20261016_084407",
+  "STAGE resume gf=0 ms=2090",
+  "RESUME NightR36.asd scenario=routestale",
+  "TICK first map=2009 x=21 y=6 remain=25 battleResult=-1 battleTime=0",
+  "STAGE step0 gf=0 ms=3237",
+  "DUMP routestale_start dungeon=2009 mapNo=2009 map=2009 x=21 y=6 remain=25 battleResult=-1 battleTime=0 autoMoves=0 walk=67",
+  "SETTINGS routestale_start rateEX=2000 rateTraining=2000 rateMoney=2000 ratePair=2000 speed=5 trap=0 quick=0 route=0 loot=0 sweep=1 smart=1 items=1 itemsMain=130 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "PARTY routestale_start persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS routestale_start stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE routestale_start flag85=-1 flag86=-1 flag88=0 flag89=0 sweepOK=1",
+  "SHOT pe_routestale_start.bmp",
+  "STAGE step1 gf=7 ms=3712",
+  "WALK first from 21,6 to 22,6 len=1 target 22,6 obj=0 sub=0 removed=0 show=1 seen=1 stepped=0",
+  "ARRIVED first map=2009 x=22 y=6 remain=24 battleResult=-1 battleTime=0",
+  "STAGE step2 gf=28 ms=4070",
+  "DUMP routestale_step dungeon=2009 mapNo=2009 map=2009 x=22 y=6 remain=24 battleResult=-1 battleTime=0 autoMoves=0 walk=68",
+  "SETTINGS routestale_step rateEX=2000 rateTraining=2000 rateMoney=2000 ratePair=2000 speed=5 trap=0 quick=0 route=0 loot=0 sweep=1 smart=1 items=1 itemsMain=130 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "PARTY routestale_step persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS routestale_step stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE routestale_step flag85=-1 flag86=-1 flag88=0 flag89=0 sweepOK=1",
+  "SHOT pe_routestale_step.bmp",
+  "STAGE step3 gf=36 ms=4218",
+  "WALK second from 22,6 to 23,6 len=1 target 23,6 obj=0 sub=0 removed=0 show=1 seen=1 stepped=0",
+  "ARRIVED second map=2009 x=23 y=6 remain=23 battleResult=-1 battleTime=0",
+  "STAGE step4 gf=57 ms=4576",
+  "DUMP routestale_step2 dungeon=2009 mapNo=2009 map=2009 x=23 y=6 remain=23 battleResult=-1 battleTime=0 autoMoves=0 walk=69",
+  "SETTINGS routestale_step2 rateEX=2000 rateTraining=2000 rateMoney=2000 ratePair=2000 speed=5 trap=0 quick=0 route=0 loot=0 sweep=1 smart=1 items=1 itemsMain=130 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "PARTY routestale_step2 persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS routestale_step2 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE routestale_step2 flag85=-1 flag86=-1 flag88=0 flag89=0 sweepOK=1",
+  "SHOT pe_routestale_step2.bmp",
+  "STAGE step5 gf=65 ms=4725",
+  "FAILS 0",
+  "END code=0"
+ ],
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\pace_routestale_20261016_084407\\pe_routestale_start.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\pace_routestale_20261016_084407\\pe_routestale_step.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\pace_routestale_20261016_084407\\pe_routestale_step2.png"
+ ],
+ "scenario": "routestale",
+ "save": "NightR36.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\probe\\run\\SaveData_Effects_pace_routestale_20261016_084407",
+ "probe": {
+  "scenario": "routestale",
+  "sites": [
+   {
+    "owner": "C_SceneBattle@Run",
+    "old": "KR_BeginQuick",
+    "new": "KR_PBBegin",
+    "sites": 1
+   },
+   {
+    "owner": "C_SceneBattle@Run",
+    "old": "KR_EndQuick",
+    "new": "KR_PBEnd",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleProgress@SetFriendActionAuto",
+    "old": "KR_SmartRun",
+    "new": "KR_PBSmart",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleProgress@CheckAction",
+    "old": "KR_ItemsTry",
+    "new": "KR_PBItems",
+    "sites": 2
+   },
+   {
+    "owner": "KR_NoticeInstant",
+    "old": "KR_NoticeShow",
+    "new": "KR_PBNoticeShow",
+    "sites": 1
+   },
+   {
+    "owner": "KR_T8NoticeInstant",
+    "old": "KR_T8TrapNotice",
+    "new": "KR_PBTrapNotice",
+    "sites": 1
+   },
+   {
+    "owner": "C_SceneDungeon@StepedOnCell",
+    "old": "■シンプルダイアログ",
+    "new": "KR_PBSimple",
+    "sites": 2
+   },
+   {
+    "owner": "C_SceneDungeon@Run",
+    "old": "KR_SweepExecute",
+    "new": "KR_PBSweep",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleResultView@Run",
+    "old": "KR_ExploreResultEnter",
+    "new": "KR_PBResultEnter",
+    "sites": 1
+   },
+   {
+    "owner": "C_MessageDialog@Run",
+    "old": "KR_ExploreLevelEnter",
+    "new": "KR_PBMsgDlgEnter",
+    "sites": 1
+   },
+   {
+    "owner": "L_BattleIncome::Settle",
+    "old": "L_CasualMode::CalcExp",
+    "new": "KR_PBCalcExp",
+    "sites": 1
+   },
+   {
+    "owner": "L_BattleIncome::Settle",
+    "old": "L_CasualMode::CalcTrainging",
+    "new": "KR_PBCalcTr",
+    "sites": 1
+   },
+   {
+    "owner": "L_BattleIncome::Settle",
+    "old": "L_CasualMode::CalcMoney",
+    "new": "KR_PBCalcMoney",
+    "sites": 1
+   }
+  ],
+  "waits": 29,
+  "probe_sha256": "ae31e13afde096bd9d928ea2f18370d8d782d9b9beb6dd8094faeec4d5261f1f",
+  "ids": {
+   "DUNGEON_ID": 28622,
+   "MAP_NO": 27042,
+   "CELL_AT": 27082,
+   "AB_ID": 27332,
+   "AB_LV": 27335,
+   "AB_HP": 27336,
+   "AB_MHP": 27338,
+   "AB_EXP": 27333,
+   "AB_TR": 27339,
+   "AB_MONEY": 27340,
+   "FL_MAPID": 26556,
+   "FL_X": 26559,
+   "FL_Y": 26562,
+   "C_OBJ": 27005,
+   "C_SUB": 27008,
+   "C_REMOVED": 27023,
+   "C_SHOW": 27020,
+   "C_SEEN": 27017,
+   "C_EV": 27029,
+   "C_WALK": 27039,
+   "C_STEPPED": 27014,
+   "FL_BRESULT": 26603,
+   "FL_BTIME": 26606
+  }
+ },
+ "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+ "candidate_pact": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+ "layer": "pace",
+ "fails": [],
+ "oks": 0,
+ "user_save_folder_unchanged": true
+}

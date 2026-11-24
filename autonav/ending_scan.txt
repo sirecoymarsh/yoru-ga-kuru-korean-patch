@@ -1,0 +1,188 @@
+E00059 main p None [5, -1] msgs 110 aff [] chains [60]
+     {"kind": "chained", "from": 801, "via_choice": null, "source": "ＥＶ／元／E00801", "guards": []}
+     {"kind": "chained", "from": 802, "via_choice": null, "source": "ＥＶ／元／E00802", "guards": []}
+E00064 main p None [5, -1] msgs 514 aff [] chains []
+     {"kind": "chained", "from": 803, "via_choice": null, "source": "ＥＶ／元／E00803", "guards": []}
+     {"kind": "chained", "from": 804, "via_choice": null, "source": "ＥＶ／元／E00804", "guards": []}
+     {"kind": "chained", "from": 60004, "via_choice": null, "source": "ＥＶ／元／E60004", "guards": []}
+E00070 main p None [6, -1] msgs 35 aff [] chains []
+     {"kind": "conditional", "condition_expr": "time_id==2 and date>=6/7 and date<=6/7 and seen(806) and not seen(70)", "requires_events": [806], "guards": [], "source": "L_EventCall::Check"}
+E00111 main p None [6, -1] msgs 128 aff [] chains []
+     {"kind": "chained", "from": 109, "via_choice": null, "source": "ＥＶ／元／E00109", "guards": []}
+     {"kind": "chained", "from": 110, "via_choice": null, "source": "ＥＶ／元／E00110", "guards": []}
+E00328 main p None [10, -1] msgs 285 aff [] chains []
+     {"kind": "chained", "from": 323, "via_choice": null, "source": "ＥＶ／元／E00323", "guards": []}
+     {"kind": "chained", "from": 324, "via_choice": null, "source": "ＥＶ／元／E00324", "guards": []}
+     {"kind": "chained", "from": 325, "via_choice": null, "source": "ＥＶ／元／E00325", "guards": []}
+     {"kind": "chained", "from": 326, "via_choice": null, "source": "ＥＶ／元／E00326", "guards": []}
+E00616 main p None [11, -1] msgs 173 aff [] chains []
+     {"kind": "chained", "from": 612, "via_choice": null, "source": "ＥＶ／元／E00612", "guards": []}
+     {"kind": "chained", "from": 613, "via_choice": null, "source": "ＥＶ／元／E00613", "guards": []}
+     {"kind": "chained", "from": 614, "via_choice": null, "source": "ＥＶ／元／E00614", "guards": []}
+     {"kind": "chained", "from": 615, "via_choice": null, "source": "ＥＶ／元／E00615", "guards": []}
+E10061 after_training_priority p 2 [8, -1] msgs 277 aff [(2, 1)] chains []
+     {"kind": "chained", "from": 50103, "via_choice": null, "source": "ＥＶ／元／E50103", "guards": []}
+     {"kind": "after_training_priority", "condition_expr": "((((LEventFlag::GetOnce(\"E10022\") && L_Calendar::IsTodayOrAfter(8, 4)) && L_Calendar::IsTodayOrBefore(8, 24)) && (pa->C_Ability@GetFeeling() >= 20)) && !(LEventFlag::GetOnce(\"E10061\")))", "source": "L_RandomScenario::GetAfterTrainingEvent", "guards": []}
+E10201 main p None [11, -1] msgs 401 aff [] chains []
+     {"kind": "scheduled_special", "source": "L_EventCall::E00658", "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)", "guards": []}
+     {"kind": "chained", "from": 50109, "via_choice": null, "source": "ＥＶ／元／E50109", "guards": []}
+E10202 main p None [11, -1] msgs 240 aff [] chains []
+     {"kind": "scheduled_special", "source": "L_EventCall::E00658", "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)", "guards": []}
+     {"kind": "chained", "from": 50110, "via_choice": null, "source": "ＥＶ／元／E50110", "guards": []}
+E10501 main p None [11, -1] msgs 315 aff [] chains []
+     {"kind": "scheduled_special", "source": "L_EventCall::D1101", "condition_expr": "date==11/1 and time_id==2 (D1101 안의 갈래)", "guards": []}
+     {"kind": "scheduled_special", "source": "L_EventCall::E10501", "condition_expr": "date==11/1 and time_id==1 (E10501 안의 갈래)", "guards": []}
+     {"kind": "chained", "from": 50108, "via_choice": null, "source": "ＥＶ／元／E50108", "guards": []}
+E20501 main p None [11, -1] msgs 411 aff [] chains []
+     {"kind": "scheduled_special", "source": "L_EventCall::D1101", "condition_expr": "date==11/1 and time_id==2 (D1101 안의 갈래)", "guards": []}
+     {"kind": "scheduled_special", "source": "L_EventCall::E10501", "condition_expr": "date==11/1 and time_id==1 (E10501 안의 갈래)", "guards": []}
+     {"kind": "chained", "from": 50208, "via_choice": null, "source": "ＥＶ／元／E50208", "guards": []}
+E30024 after_training_priority p 4 [6, 9] msgs 206 aff [] chains []
+     {"kind": "chained", "from": 30022, "via_choice": null, "source": "ＥＶ／元／E30022", "guards": []}
+     {"kind": "chained", "from": 30023, "via_choice": null, "source": "ＥＶ／元／E30023", "guards": []}
+E30501 main p None [11, -1] msgs 470 aff [] chains []
+     {"kind": "scheduled_special", "source": "L_EventCall::D1101", "condition_expr": "date==11/1 and time_id==2 (D1101 안의 갈래)", "guards": []}
+     {"kind": "scheduled_special", "source": "L_EventCall::E10501", "condition_expr": "date==11/1 and time_id==1 (E10501 안의 갈래)", "guards": []}
+     {"kind": "chained", "from": 50305, "via_choice": null, "source": "ＥＶ／元／E50305", "guards": []}
+E40041 after_training_priority p 5 [8, 9] msgs 13 aff [] chains [40042, 40043]
+     {"kind": "after_training_priority", "condition_expr": "((((LEventFlag::GetOnce(\"E40022\") && L_Calendar::IsTodayOrAfter(8, 4)) && L_Calendar::IsTodayOrBefore(9, 15)) && (pa->C_Ability@GetFeeling() >= 20)) && !(LEventFlag::GetOnce(\"E40041\")))", "source": "L_RandomScenario::GetAfterTrainingEvent", "guards": []}
+E40044 after_training_priority p 5 [8, 9] msgs 322 aff [(5, 2)] chains []
+     {"kind": "chained", "from": 40043, "via_choice": 1, "source": "ＥＶ／元／E40043", "guards": []}
+E40045 after_training_priority p 5 [8, 9] msgs 9 aff [] chains []
+     {"kind": "chained", "from": 40043, "via_choice": 2, "source": "ＥＶ／元／E40043", "guards": []}
+E40061 main p None [8, 9] msgs 12 aff [] chains [40062, 40063]
+     {"kind": "conditional", "condition_expr": "time_id==2 and date>=8/11 and date<=9/15 and feeling(5)>=30 and seen(40044) and not seen(40061)", "requires_events": [40044], "guards": [], "source": "L_EventCall::Check"}
+E40501 main p None [11, -1] msgs 361 aff [] chains []
+     {"kind": "scheduled_special", "source": "L_EventCall::D1101", "condition_expr": "date==11/1 and time_id==2 (D1101 안의 갈래)", "guards": []}
+     {"kind": "scheduled_special", "source": "L_EventCall::E10501", "condition_expr": "date==11/1 and time_id==1 (E10501 안의 갈래)", "guards": []}
+     {"kind": "chained", "from": 50407, "via_choice": null, "source": "ＥＶ／元／E50407", "guards": []}
+E50001 main p None [11, -1] msgs 6 aff [] chains []
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingSchool", "guards": []}
+E50002 main p None [11, -1] msgs 5 aff [] chains []
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingCenterBuilding", "guards": []}
+E50003 main p None [11, -1] msgs 3 aff [] chains []
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingNewTown", "guards": []}
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingNewTown", "guards": []}
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingNewTown", "guards": []}
+E50005 main p None [11, -1] msgs 1 aff [] chains []
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingNewTown", "guards": []}
+E50006 main p None [11, -1] msgs 1 aff [] chains []
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingNewTown", "guards": []}
+E50007 main p None [11, -1] msgs 0 aff [] chains [982]
+     {"kind": "dungeon", "source": "C_EventDungeon0700@RunEventB", "guards": []}
+E50008 main p None [11, -1] msgs 24 aff [] chains []
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingCenterBuilding", "guards": []}
+E50009 main p None [11, -1] msgs 18 aff [] chains []
+     {"kind": "dungeon", "source": "C_EventDungeon0900@RunEventEntrance", "guards": []}
+E50010 main p None [11, -1] msgs 14 aff [] chains []
+     {"kind": "dungeon", "source": "L_DungeonManager::RunEventDungeonEndingCenterBuilding", "guards": []}
+E50101 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10001]
+     {"kind": "memory_replay", "requires_events": [10001], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50102 memory_replay p 2 [4, -1] msgs 433 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [10022], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50103 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10061]
+     {"kind": "memory_replay", "requires_events": [10061], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50104 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10041]
+     {"kind": "memory_replay", "requires_events": [10041], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50105 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10081]
+     {"kind": "memory_replay", "requires_events": [10081], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50106 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10101]
+     {"kind": "memory_replay", "requires_events": [10101], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50107 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10121]
+     {"kind": "memory_replay", "requires_events": [10121], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50108 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10501]
+     {"kind": "memory_replay", "requires_events": [10501], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50109 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10201]
+     {"kind": "memory_replay", "requires_events": [10201], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50110 memory_replay p 2 [4, -1] msgs 0 aff [] chains [10202]
+     {"kind": "memory_replay", "requires_events": [10202], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50111 memory_replay p 2 [4, -1] msgs 867 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [10203], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50112 memory_replay p 2 [4, -1] msgs 233 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [10523], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50201 memory_replay p 3 [4, -1] msgs 0 aff [] chains [20021]
+     {"kind": "memory_replay", "requires_events": [20021], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50202 memory_replay p 3 [4, -1] msgs 358 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [20043], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50203 memory_replay p 3 [4, -1] msgs 289 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [20061], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50204 memory_replay p 3 [4, -1] msgs 622 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [20170], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50205 memory_replay p 3 [4, -1] msgs 384 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [20083], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50206 memory_replay p 3 [4, -1] msgs 0 aff [] chains [20121]
+     {"kind": "memory_replay", "requires_events": [20121], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50207 memory_replay p 3 [4, -1] msgs 0 aff [] chains [20101]
+     {"kind": "memory_replay", "requires_events": [20101], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50208 memory_replay p 3 [4, -1] msgs 0 aff [] chains [20501]
+     {"kind": "memory_replay", "requires_events": [20501], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50209 memory_replay p 3 [4, -1] msgs 0 aff [] chains [20141]
+     {"kind": "memory_replay", "requires_events": [20141], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50210 memory_replay p 3 [4, -1] msgs 0 aff [] chains [20181]
+     {"kind": "memory_replay", "requires_events": [20181], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50211 memory_replay p 3 [4, -1] msgs 273 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [20201], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50212 memory_replay p 3 [4, -1] msgs 386 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [20523], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50301 memory_replay p 4 [4, -1] msgs 329 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [30002], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50302 memory_replay p 4 [4, -1] msgs 368 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [30023], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50304 memory_replay p 4 [4, -1] msgs 0 aff [] chains [30121]
+     {"kind": "memory_replay", "requires_events": [30121], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50305 memory_replay p 4 [4, -1] msgs 0 aff [] chains [30501]
+     {"kind": "memory_replay", "requires_events": [30501], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50306 memory_replay p 4 [4, -1] msgs 0 aff [] chains [30081]
+     {"kind": "memory_replay", "requires_events": [30081], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50307 memory_replay p 4 [4, -1] msgs 0 aff [] chains [30041]
+     {"kind": "memory_replay", "requires_events": [30041], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50308 memory_replay p 4 [4, -1] msgs 0 aff [] chains [30101]
+     {"kind": "memory_replay", "requires_events": [30101], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50309 memory_replay p 4 [4, -1] msgs 176 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [30102], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50310 memory_replay p 4 [4, -1] msgs 229 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [30523], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50401 memory_replay p 5 [4, -1] msgs 455 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [40044], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50402 memory_replay p 5 [4, -1] msgs 291 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [40062], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50403 memory_replay p 5 [4, -1] msgs 0 aff [] chains [40101]
+     {"kind": "memory_replay", "requires_events": [40101], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50404 memory_replay p 5 [4, -1] msgs 0 aff [] chains [516]
+     {"kind": "memory_replay", "requires_events": [516], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50405 memory_replay p 5 [4, -1] msgs 0 aff [] chains [40121]
+     {"kind": "memory_replay", "requires_events": [40121], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50406 memory_replay p 5 [4, -1] msgs 0 aff [] chains [40081]
+     {"kind": "memory_replay", "requires_events": [40081], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50407 memory_replay p 5 [4, -1] msgs 0 aff [] chains [40501]
+     {"kind": "memory_replay", "requires_events": [40501], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50408 memory_replay p 5 [4, -1] msgs 946 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [40144], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50409 memory_replay p 5 [4, -1] msgs 580 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [40161], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50410 memory_replay p 5 [4, -1] msgs 115 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [40523], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50501 memory_replay p None [4, -1] msgs 150 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [2], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50502 memory_replay p None [4, -1] msgs 227 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [97], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50503 memory_replay p None [4, -1] msgs 186 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [262], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50504 memory_replay p None [4, -1] msgs 605 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [10203], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50505 memory_replay p None [4, -1] msgs 240 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [10501], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50506 memory_replay p None [4, -1] msgs 713 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [20141], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50507 memory_replay p None [4, -1] msgs 336 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [20501], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50508 memory_replay p None [4, -1] msgs 643 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [30081], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50509 memory_replay p None [4, -1] msgs 434 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [30101], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50510 memory_replay p None [4, -1] msgs 395 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [30501], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50511 memory_replay p None [4, -1] msgs 348 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [40161], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E50512 memory_replay p None [4, -1] msgs 292 aff [] chains []
+     {"kind": "memory_replay", "requires_events": [40501], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}

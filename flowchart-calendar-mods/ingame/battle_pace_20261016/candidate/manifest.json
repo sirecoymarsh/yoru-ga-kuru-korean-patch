@@ -1,0 +1,983 @@
+{
+ "schema": "yoru-battle-pace.candidate.v1",
+ "status": "BATTLE_PACE_20261016_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-10-16T08:39:31",
+ "seconds": 92,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "85982cd74e70feaf4f66b3490567e984e12e154e2d2b5ac6b83d46703076aa10",
+  "status": "MODS_TAB_20261015_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+  "pact_sha256": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "winmm_sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+  "checked_at_start_and_end": true
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+   "size": 4421456
+  }
+ },
+ "pact_changed": false,
+ "ex_changed": false,
+ "fnl_changed": false,
+ "winmm_changed": false,
+ "added_functions": {
+  "KR_BPZen": 33090,
+  "KR_BPRouteDirty": 33091,
+  "KR_BPAfterLoad": 33092,
+  "KR_BPFloorFade": 33093
+ },
+ "jam_bodies": [],
+ "same_length_sites": [
+  {
+   "function": "C_Transition::StartBattle",
+   "fid": 27629,
+   "function_address": 5803416,
+   "site": 5803490,
+   "site_offset": 74,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    5803492,
+    5803496
+   ],
+   "note": "battle transition 1000 ms, effect 34",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_Transition::StartBattle",
+   "fid": 27629,
+   "function_address": 5803416,
+   "site": 5803532,
+   "site_offset": 116,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    5803534,
+    5803538
+   ],
+   "note": "battle transition 100 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_Transition::EndBattleOut",
+   "fid": 27630,
+   "function_address": 5803546,
+   "site": 5803604,
+   "site_offset": 58,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    5803606,
+    5803610
+   ],
+   "note": "battle transition 250 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_Transition::EndBattleIn",
+   "fid": 27631,
+   "function_address": 5803618,
+   "site": 5803654,
+   "site_offset": 36,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    5803656,
+    5803660
+   ],
+   "note": "battle transition 250 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleEffect::RunAdvantage",
+   "fid": 29194,
+   "function_address": 6538118,
+   "site": 6542410,
+   "site_offset": 4292,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6542412,
+    6542416
+   ],
+   "note": "battle transition 500 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_EnemySetView@AppearEffect",
+   "fid": 29366,
+   "function_address": 6700674,
+   "site": 6703246,
+   "site_offset": 2572,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6703248,
+    6703252
+   ],
+   "note": "battle transition 200 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@CheckBattleEnd",
+   "fid": 29222,
+   "function_address": 10093346,
+   "site": 10097286,
+   "site_offset": 3940,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    10097288,
+    10097292
+   ],
+   "note": "battle transition 1000 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@NextPhase",
+   "fid": 29223,
+   "function_address": 6570250,
+   "site": 6571202,
+   "site_offset": 952,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6571204,
+    6571208
+   ],
+   "note": "battle transition 1000 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@NextPhase",
+   "fid": 29223,
+   "function_address": 6570250,
+   "site": 6572786,
+   "site_offset": 2536,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6572788,
+    6572792
+   ],
+   "note": "battle transition 1000 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@ExecuteFriendActionAttack",
+   "fid": 29225,
+   "function_address": 6573184,
+   "site": 6578084,
+   "site_offset": 4900,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6578086,
+    6578090
+   ],
+   "note": "battle transition 1000 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@ExecuteFriendActionEx",
+   "fid": 29226,
+   "function_address": 6578554,
+   "site": 6584966,
+   "site_offset": 6412,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6584968,
+    6584972
+   ],
+   "note": "battle transition 1000 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@AdvanceEnemy",
+   "fid": 29250,
+   "function_address": 6610092,
+   "site": 6613266,
+   "site_offset": 3174,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6613268,
+    6613272
+   ],
+   "note": "battle transition 200 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@ExecuteEnemyAction",
+   "fid": 29257,
+   "function_address": 6620534,
+   "site": 6621684,
+   "site_offset": 1150,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6621686,
+    6621690
+   ],
+   "note": "battle transition 500 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@ExecuteDefeatEffectInEventBattle",
+   "fid": 29261,
+   "function_address": 6630308,
+   "site": 6630508,
+   "site_offset": 200,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6630510,
+    6630514
+   ],
+   "note": "battle transition 200 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleProgress@ExecuteDefeatEffectInEventBattle",
+   "fid": 29261,
+   "function_address": 6630308,
+   "site": 6630606,
+   "site_offset": 298,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6630608,
+    6630612
+   ],
+   "note": "battle transition 200 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_BattleTimerView@Pass",
+   "fid": 29313,
+   "function_address": 6671942,
+   "site": 6672494,
+   "site_offset": 552,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6672496,
+    6672500
+   ],
+   "note": "battle transition 1000 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_SceneBattle@DispEffect",
+   "fid": 29392,
+   "function_address": 6724830,
+   "site": 6724996,
+   "site_offset": 166,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6724998,
+    6725002
+   ],
+   "note": "battle transition 500 ms, effect 48",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_SceneBattle@DispEffect",
+   "fid": 29392,
+   "function_address": 6724830,
+   "site": 6726114,
+   "site_offset": 1284,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6726116,
+    6726120
+   ],
+   "note": "battle transition 200 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_SceneBattle@DispEffect",
+   "fid": 29392,
+   "function_address": 6724830,
+   "site": 6726344,
+   "site_offset": 1514,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    6726346,
+    6726350
+   ],
+   "note": "battle transition 200 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_SceneBattle@Run",
+   "fid": 29387,
+   "function_address": 9762684,
+   "site": 9765170,
+   "site_offset": 2486,
+   "kind": "CALLFUNC",
+   "original": "Ａ＿全表示",
+   "original_fid": 21012,
+   "replacement": "KR_BPZen",
+   "replacement_fid": 33090,
+   "before": "300014520000",
+   "after": "300042810000",
+   "operand_bytes": [
+    9765172,
+    9765176
+   ],
+   "note": "battle transition 1500 ms, effect 1",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_SceneSaveLoad@ExecAfterLoad",
+   "fid": 29556,
+   "function_address": 10705396,
+   "site": 10705422,
+   "site_offset": 26,
+   "kind": "CALLFUNC",
+   "original": "KR_RateAfterLoad",
+   "original_fid": 32482,
+   "replacement": "KR_BPAfterLoad",
+   "replacement_fid": 33092,
+   "before": "3000e27e0000",
+   "after": "300044810000",
+   "operand_bytes": [
+    10705424,
+    10705428
+   ],
+   "note": "route line dirty mark",
+   "owner_is_original": true
+  },
+  {
+   "function": "C_SceneDungeon@SetMapId",
+   "fid": 28639,
+   "function_address": 6356380,
+   "site": 6363936,
+   "site_offset": 7556,
+   "kind": "CALLFUNC",
+   "original": "N_Map::FadeDefault",
+   "original_fid": 28796,
+   "replacement": "KR_BPFloorFade",
+   "replacement_fid": 33093,
+   "before": "30007c700000",
+   "after": "300045810000",
+   "operand_bytes": [
+    6363938,
+    6363942
+   ],
+   "note": "route line dirty mark",
+   "owner_is_original": true
+  }
+ ],
+ "message_box_sites": [],
+ "zen_calls_left_alone": {
+  "activity::detail::CActivity@ViewTransition": 1,
+  "Ｐ＿アクティビティエディタ実行": 1,
+  "Ａ＿３Ｄエフェクトエディタ実行": 1,
+  "Ａ＿モデルビューア実行": 1,
+  "Ａ＿音声加工エディタ実行": 1,
+  "Ａ＿ステージエディタ実行": 1,
+  "■表示反映": 9,
+  "■ＡＤＶ消し": 1,
+  "■立ち絵": 1,
+  "■左立ち絵": 1,
+  "■右立ち絵": 1,
+  "■立ち絵消し": 1,
+  "■左立ち絵消し": 1,
+  "■右立ち絵消し": 1,
+  "■全立ち絵消し": 1,
+  "■イベント": 1,
+  "■イベント消し": 1,
+  "■背景": 1,
+  "■背景消し": 1,
+  "■背景色初期化": 1,
+  "■背景加算色設定": 1,
+  "■背景乗算色設定": 1,
+  "■壁紙": 1,
+  "■壁紙消し": 1,
+  "■壁紙色初期化": 1,
+  "■壁紙加算色設定": 1,
+  "■壁紙乗算色設定": 1,
+  "■カレンダー": 1,
+  "■カレンダー消し": 1,
+  "OCmd_DRAW": 1,
+  "■枠消し": 1,
+  "■イベント戦闘実行": 1,
+  "L_DungeonManager::BeginEventBattle": 1,
+  "L_Trap::Execute05": 2,
+  "L_Rest::RunGround": 1,
+  "C_Transition::DungeonOut": 1,
+  "C_Transition::DungeonIn": 1,
+  "C_Transition::DungeonFloor": 1,
+  "C_Calendar@NextDate": 1,
+  "C_Calendar@EffectChangeDay": 4,
+  "C_Dialog@Run": 2,
+  "C_MessageDialog@Run": 2,
+  "C_MessageDialog@RunTime": 2,
+  "C_MessageWindow@Show": 1,
+  "C_SelectDialog@Run": 2,
+  "C_SelectMessage@Run": 2,
+  "C_Status::RunStatusInDungeon": 2,
+  "C_SceneManager@SetActiveScene": 1,
+  "C_SceneTitle@<lambda : C_SceneTitle@Init()(92, 26)>": 1,
+  "C_SceneTitle@ExecLogo": 4,
+  "C_SceneTraining@RunSelect": 1,
+  "C_SceneTraining@RunSelectPartner": 1,
+  "C_SceneHomebase@RunHome": 1,
+  "C_SceneHomebase@RunMapSelect": 1,
+  "C_SceneSubWeapon@Run": 1,
+  "C_SceneDungeon@CheckEventOnEnter": 1,
+  "C_SceneDungeon@Trap": 2,
+  "C_SceneDungeon@SteppedOnEnemy": 1,
+  "N_Map::FadeDefault": 1,
+  "C_EventDungeon0401@InspectAtEventB": 1,
+  "C_EventDungeon0401@RunEventB5": 1,
+  "C_EventDungeon0403@RunEventB": 1,
+  "C_EventDungeon0403@Rock": 1,
+  "C_EventDungeon0900@RunEventR": 3,
+  "C_InnerEventDungeon@BeginEventBattle": 1,
+  "C_InnerEventDungeon@SetEventMode": 1,
+  "C_BattleProgress@CheckBattleEnd": 1,
+  "C_BattleTimerView@Pass": 1,
+  "C_SceneSaveLoad@RunCommon": 2,
+  "C_SceneStartData@RunCommon": 2,
+  "C_SceneModeCG@Run": 2,
+  "C_SceneModeCG@Exec": 2,
+  "C_SceneModeScene@Run": 1,
+  "C_SceneModeScene@RunTop": 1,
+  "C_SceneModeScene@RunSelect": 3,
+  "C_SceneModeSound@Run": 2,
+  "C_ConfigView@EventConfEnd": 1,
+  "C_TestBattle@<lambda : C_TestBattle@Run()(45, 20)>": 1,
+  "TestGeneral": 1,
+  "C_TestSound@ExecVoice1": 1,
+  "ＥＶ／元／E05000": 1,
+  "ＥＶ／元／E05001": 1,
+  "ＥＶ／元／E05002": 1,
+  "ＥＶ／元／E05003": 1,
+  "ＥＶ／元／E05004": 1,
+  "KR_SweepTimedRun": 2,
+  "KR_T8TalkEnd": 1,
+  "KR_CReplay": 1
+ },
+ "zen_calls_left_alone_total": 120,
+ "relocated_original_functions": [],
+ "pinned_functions": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "code_bytes": 232,
+   "bytes_differing": 0
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "code_bytes": 298,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "code_bytes": 550,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "code_bytes": 1104,
+   "bytes_differing": 0
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "code_bytes": 1292,
+   "bytes_differing": 0
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890,
+   "code_bytes": 440,
+   "bytes_differing": 0
+  },
+  "KR_CReplayRun": {
+   "index": 32690,
+   "address": 13167576,
+   "code_bytes": 494,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00058": {
+   "index": 33021,
+   "address": 15276938,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00063": {
+   "index": 33022,
+   "address": 15277000,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00069": {
+   "index": 33023,
+   "address": 15277062,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00104": {
+   "index": 33024,
+   "address": 15277124,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00258": {
+   "index": 33025,
+   "address": 15277186,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00260": {
+   "index": 33026,
+   "address": 15277248,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00322": {
+   "index": 33027,
+   "address": 15277310,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00611": {
+   "index": 33028,
+   "address": 15277372,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E10021": {
+   "index": 33029,
+   "address": 15277434,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20041": {
+   "index": 33030,
+   "address": 15277496,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20081": {
+   "index": 33031,
+   "address": 15277558,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20164": {
+   "index": 33032,
+   "address": 15277620,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30001": {
+   "index": 33033,
+   "address": 15277682,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30021": {
+   "index": 33034,
+   "address": 15277744,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30152": {
+   "index": 33035,
+   "address": 15277806,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40021": {
+   "index": 33036,
+   "address": 15277868,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40041": {
+   "index": 33037,
+   "address": 15277930,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40043": {
+   "index": 33038,
+   "address": 15277992,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40061": {
+   "index": 33039,
+   "address": 15278054,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_ANSelect": {
+   "index": 33063,
+   "address": 15281812,
+   "code_bytes": 448,
+   "bytes_differing": 0
+  },
+  "KR_ANSelFrame": {
+   "index": 33066,
+   "address": 15283614,
+   "code_bytes": 34,
+   "bytes_differing": 0
+  },
+  "KR_ANTrainConfirm": {
+   "index": 33072,
+   "address": 15284948,
+   "code_bytes": 126,
+   "bytes_differing": 0
+  },
+  "KR_ANOpeningQ": {
+   "index": 33083,
+   "address": 15287974,
+   "code_bytes": 34,
+   "bytes_differing": 0
+  },
+  "KR_ANNewGame": {
+   "index": 33082,
+   "address": 15287640,
+   "code_bytes": 334,
+   "bytes_differing": 0
+  }
+ },
+ "invariance": {
+  "original_function_entries_identical": true,
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 44,
+  "old_code_changes_only_at_swapped_operands": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 0,
+  "functions_added": 4,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 232,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 298,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 550,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1104,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1292,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 440,
+    "bytes_differing": 0
+   },
+   "KR_CReplayRun": {
+    "index": 32690,
+    "address": 13167576,
+    "code_bytes": 494,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00058": {
+    "index": 33021,
+    "address": 15276938,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00063": {
+    "index": 33022,
+    "address": 15277000,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00069": {
+    "index": 33023,
+    "address": 15277062,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00104": {
+    "index": 33024,
+    "address": 15277124,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00258": {
+    "index": 33025,
+    "address": 15277186,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00260": {
+    "index": 33026,
+    "address": 15277248,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00322": {
+    "index": 33027,
+    "address": 15277310,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00611": {
+    "index": 33028,
+    "address": 15277372,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E10021": {
+    "index": 33029,
+    "address": 15277434,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20041": {
+    "index": 33030,
+    "address": 15277496,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20081": {
+    "index": 33031,
+    "address": 15277558,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20164": {
+    "index": 33032,
+    "address": 15277620,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30001": {
+    "index": 33033,
+    "address": 15277682,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30021": {
+    "index": 33034,
+    "address": 15277744,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30152": {
+    "index": 33035,
+    "address": 15277806,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40021": {
+    "index": 33036,
+    "address": 15277868,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40041": {
+    "index": 33037,
+    "address": 15277930,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40043": {
+    "index": 33038,
+    "address": 15277992,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40061": {
+    "index": 33039,
+    "address": 15278054,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_ANSelect": {
+    "index": 33063,
+    "address": 15281812,
+    "code_bytes": 448,
+    "bytes_differing": 0
+   },
+   "KR_ANSelFrame": {
+    "index": 33066,
+    "address": 15283614,
+    "code_bytes": 34,
+    "bytes_differing": 0
+   },
+   "KR_ANTrainConfirm": {
+    "index": 33072,
+    "address": 15284948,
+    "code_bytes": 126,
+    "bytes_differing": 0
+   },
+   "KR_ANOpeningQ": {
+    "index": 33083,
+    "address": 15287974,
+    "code_bytes": 34,
+    "bytes_differing": 0
+   },
+   "KR_ANNewGame": {
+    "index": 33082,
+    "address": 15287640,
+    "code_bytes": 334,
+    "bytes_differing": 0
+   }
+  }
+ },
+ "native_opcode_audit": {
+  "active_functions": 31207,
+  "instruction_sites": 2270345,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "new_globals": 0,
+ "new_struct_members": 0,
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "7d8ee945d8d1dbb48b57a7131c4b85fb683e3290e8e5709cd68d7d98c3b6f122",
+ "build_script_sha256": "2153e5fa4ff55f79d627c7685a7d667b3874de913ba9658a291438969a3511ff"
+}

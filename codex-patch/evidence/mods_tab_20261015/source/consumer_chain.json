@@ -1,0 +1,233 @@
+{
+ "함정 즉시 해체": {
+  "L_Dungeon::RelieveTrap": [
+   "(original game function)"
+  ],
+  "C_SceneDungeon@StepedOnCell": [
+   "(original game function)"
+  ],
+  "KR_AutoUtility": [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+   "C_Status::RunStatus"
+  ],
+  "KR_T8NoticeInstant": [
+   "C_SceneDungeon@StepedOnCell"
+  ]
+ },
+ "전투 이펙트 보지 않기": {
+  "KR_BeginQuick": [
+   "C_SceneBattle@Run"
+  ],
+  "KR_QuickWatch": [
+   "C_SceneBattle@_Update",
+   "view::detail::View_Update"
+  ]
+ },
+ "다음 층 경로 표시": {
+  "C_SceneDungeon@ToNextFloor": [
+   "(original game function)"
+  ],
+  "C_SceneDungeonMiniMapView@DrawAutoMoveLines": [
+   "(original game function)"
+  ],
+  "C_SceneDungeonView@UpdateAll": [
+   "(original game function)"
+  ],
+  "KR_DrawRoute": [
+   "C_InnerEventDungeon@SteppedOnEvent",
+   "C_SceneDungeon@ToNextFloor",
+   "C_SceneDungeonMiniMapView@UpdatePlayer",
+   "C_SceneDungeonView@UpdateAll"
+  ],
+  "KR_DrawRouteLinear": [
+   "C_InnerEventDungeon@SteppedOnEvent",
+   "C_SceneDungeon@ToNextFloor",
+   "C_SceneDungeonMiniMapView@UpdatePlayer",
+   "C_SceneDungeonView@UpdateAll"
+  ],
+  "KR_PuzzleRefresh": [
+   "C_InnerEventDungeon@SteppedOnEvent"
+  ],
+  "KR_DrawPuzzleRoute": [
+   "C_InnerEventDungeon@SteppedOnEvent",
+   "C_SceneDungeon@ToNextFloor",
+   "C_SceneDungeonMiniMapView@UpdatePlayer",
+   "C_SceneDungeonView@UpdateAll"
+  ],
+  "KR_AutoUtility": [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+   "C_Status::RunStatus"
+  ],
+  "KR_ExplorePlan": [
+   "C_SceneDungeon@ExecMoveDungeon",
+   "C_SceneDungeon@Run"
+  ],
+  "KR_ExploreStart": [
+   "C_SceneDungeon@ExecMoveDungeon",
+   "C_SceneDungeon@Run"
+  ],
+  "KR_ExploreGuard": [
+   "C_SceneDungeon@ExecMoveDungeon"
+  ]
+ },
+ "일반 적 즉시 처치": {
+  "KR_LootEligible": [
+   "C_SceneDungeon@StepedOnCell"
+  ],
+  "KR_NoticeTick": [
+   "C_ConfigView@EventConfBegin",
+   "C_SceneDungeon@Run",
+   "C_SceneDungeonView@1",
+   "C_SceneDungeonView@Hide",
+   "C_SceneDungeonView@SetMapInfo",
+   "L_TreasureBox::ShowGetDialog"
+  ]
+ },
+ "소탕 버튼 표시": {
+  "KR_SweepSceneOK": [
+   "C_SceneDungeon@ExecMoveDungeon",
+   "C_SceneDungeon@Run"
+  ]
+ },
+ "자동 장착·요소석 추천": {
+  "C_Status::RunStatus": [
+   "(original game function)"
+  ],
+  "C_SceneSubWeapon@RunCustomWeapon": [
+   "(original game function)"
+  ],
+  "KR_AutoGearRun": [
+   "C_Status::RunStatus"
+  ],
+  "KR_AutoStoneRun": [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>"
+  ]
+ },
+ "강화 자동 전투": {
+  "KR_SmartRun": [
+   "C_BattleProgress@SetFriendActionAuto"
+  ]
+ },
+ "전투 속도": {
+  "KR_BattleRate": [
+   "C_SceneBattle@_Update"
+  ]
+ },
+ "달성률 항상 표시": {
+  "KR_T8HomeEnter": [
+   "C_SceneHomebaseView@BeginTop"
+  ],
+  "KR_RateRender": [
+   "C_SceneHomebaseView@BeginTop",
+   "C_SceneHomebaseView@EndTop",
+   "view::detail::View_Update"
+  ]
+ },
+ "자동 회복(아이템)": {
+  "KR_ItemsTry": [
+   "C_BattleProgress@CheckAction"
+  ]
+ },
+ "보상 배율 계산": {
+  "L_CasualMode::CalcExp": [
+   "(original game function)"
+  ],
+  "L_CasualMode::CalcMoney": [
+   "(original game function)"
+  ],
+  "L_CasualMode::CalcTrainging": [
+   "(original game function)"
+  ],
+  "L_CasualMode::CalcPairTraining": [
+   "(original game function)"
+  ]
+ },
+ "경험치 배율": {
+  "L_CasualMode::Init": [
+   "(original game function)"
+  ],
+  "L_CasualMode::GetRateEX": [
+   "(original game function)"
+  ],
+  "L_CasualMode::SetRateEX": [
+   "(original game function)"
+  ],
+  "L_CasualMode::CalcExp": [
+   "(original game function)"
+  ],
+  "0": [
+   "(original game function)"
+  ],
+  "KR_SweepState": [
+   "C_SceneDungeon@Run",
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+   "C_Status::RunStatus"
+  ]
+ },
+ "월편 배율": {
+  "L_CasualMode::Init": [
+   "(original game function)"
+  ],
+  "L_CasualMode::GetRateMoney": [
+   "(original game function)"
+  ],
+  "L_CasualMode::SetRateMoney": [
+   "(original game function)"
+  ],
+  "L_CasualMode::CalcMoney": [
+   "(original game function)"
+  ],
+  "0": [
+   "(original game function)"
+  ],
+  "KR_SweepState": [
+   "C_SceneDungeon@Run",
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+   "C_Status::RunStatus"
+  ]
+ },
+ "훈련치 배율": {
+  "L_CasualMode::Init": [
+   "(original game function)"
+  ],
+  "L_CasualMode::GetRateTrainging": [
+   "(original game function)"
+  ],
+  "L_CasualMode::SetRateTrainging": [
+   "(original game function)"
+  ],
+  "L_CasualMode::CalcTrainging": [
+   "(original game function)"
+  ],
+  "0": [
+   "(original game function)"
+  ],
+  "KR_SweepState": [
+   "C_SceneDungeon@Run",
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+   "C_Status::RunStatus"
+  ]
+ },
+ "동료 특훈치 배율": {
+  "L_CasualMode::Init": [
+   "(original game function)"
+  ],
+  "L_CasualMode::GetRatePairTraining": [
+   "(original game function)"
+  ],
+  "L_CasualMode::SetRatePairTraining": [
+   "(original game function)"
+  ],
+  "L_CasualMode::CalcPairTraining": [
+   "(original game function)"
+  ],
+  "0": [
+   "(original game function)"
+  ],
+  "KR_SweepState": [
+   "C_SceneDungeon@Run",
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+   "C_Status::RunStatus"
+  ]
+ }
+}

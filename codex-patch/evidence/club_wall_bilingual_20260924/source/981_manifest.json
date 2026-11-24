@@ -1,0 +1,60 @@
+{
+  "id": 981,
+  "archive_name": "CG4013.pcf",
+  "canvas": [
+    760,
+    261
+  ],
+  "original_sha256": "51e6d46acb3a236f6f94f962f8158356cbaa36b2103266fc9ec48fea9a7f4a03",
+  "installed_before_sha256": "9a8dd9b2b60aa6d3551f193efaa34e2100472a0d099a83884385535c0268a802",
+  "payload": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\981.payload",
+  "payload_sha256": "c9ce42f9a7fe7dd9216645f46f6da4d6ea61bae3fb7952c5057a32025d8601fe",
+  "source_png_sha256": "52eb4831855282935b49fd40670bc9c118e9e477ea9324d13bf9c5c7b9e80fc6",
+  "final_png_sha256": "3b87b8f08fb31cc513a788f16a930bf364a653c3a343534af00f6ec39a8952a5",
+  "roundtrip": "PASS",
+  "protected_pixel_changes": 0,
+  "erase_bounds": [
+    24,
+    0,
+    734,
+    261
+  ],
+  "target_ink_bounds": [
+    49,
+    1,
+    709,
+    195
+  ],
+  "translator_model": "Codex internal",
+  "task": "/root",
+  "source": "不意打ち",
+  "target": "기습 공격",
+  "english": "Back Attack",
+  "english_near_face_pixel_identity": true,
+  "english_exact_pixels": 11451,
+  "split_y": 173,
+  "mask_method": "Erase complete Japanese glyph system. Reconstruct shared halo using original distance profile; original English faces, AA and near halo copied byte-exact, not retypeset.",
+  "target_slot": [
+    0,
+    0,
+    760,
+    261
+  ],
+  "artifacts": {
+    "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\981_source.png",
+    "clean": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\981_clean.png",
+    "final": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\981_final.png",
+    "erase": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\981_erase.png",
+    "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\981_target.png",
+    "protected": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\981_protected.png"
+  },
+  "status": "GRAPHICS_STATIC_DETERMINISTIC_ENGINE_PASS",
+  "source_canvas": [
+    760,
+    261
+  ],
+  "runtime_verified": true,
+  "runtime_scope": "Isolated engine CG renderer; not gameplay",
+  "source_glyph_erasure": "VISUALLY_REVIEWED",
+  "state_family": "two-line status banner"
+}

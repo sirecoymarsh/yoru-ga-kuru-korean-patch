@@ -1,0 +1,83 @@
+{
+ "status": "reviewed",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code (read-only second pass: each packet reopened; facts, actors, scene/branch mixing)",
+ "checked_at": "2026-09-29T21:21:49.390359+09:00",
+ "team": "B",
+ "reviewed_events": 25,
+ "reviewed_japanese_messages": 13222,
+ "copy_of_rows_checked": [
+  60004,
+  60007,
+  60010,
+  60011,
+  60019
+ ],
+ "source_sha256": "b5f52815c979cbbeb5b489ffff7a8f05b9eac21046546e9cceb92ccbfab4076a",
+ "summary_sha256": "f597118a609d11b086a219c7463ba253f186879068f99f15b5c9fa76ab026b56",
+ "assignment_sha256": "efc19f3de4f076d94337f8e1e4970c4cc86b7592ff3fa7e8a0d6ae260546edf5",
+ "checks": [
+  "(a) only facts present in the scene",
+  "(b) actor / speaker not swapped",
+  "(c) no other scene or branch mixed in",
+  "no ending, route or later event hinted",
+  "copy_of target = graph/memory.json play->need with non-zero lines"
+ ],
+ "findings": [
+  {
+   "no": 60002,
+   "message_id": 75632,
+   "severity": "minor",
+   "before": "마나미가 쿄카의 아역 시절 출연작을 알아보며 두 사람은 옛 만화영화 이야기로 가까워진다",
+   "after": "마나미가 쿄카를 옛 만화영화의 아역 성우로 알아보며 두 사람은 금세 가까워진다",
+   "reason": "Manami recognises Kyoka as the child voice of a character (75632/75645), not the work itself",
+   "status": "fixed"
+  },
+  {
+   "no": 60005,
+   "message_id": 78025,
+   "severity": "minor",
+   "before": "스스로 나이프를 버리겠다고 하고",
+   "after": "스스로 나이프를 안 들겠다고 하고",
+   "reason": "持たない = will not carry the knife (78020/78025); \"throw away\" was not said",
+   "status": "fixed"
+  },
+  {
+   "no": 60013,
+   "message_id": 82958,
+   "severity": "minor",
+   "before": "몰래 두 사람을 지켜보는 가운데,",
+   "after": "몰래 두 사람을 지켜보고,",
+   "reason": "the tailing (82737-) and Mizuki telling her past (82958-) are separate moments; \"while\" merged them",
+   "status": "fixed"
+  },
+  {
+   "no": 60203,
+   "message_id": 84992,
+   "severity": "minor",
+   "before": "빛이 전과 다르다며 고개를 갸웃한다",
+   "after": "빛이 전과 다르다며 의아해한다",
+   "reason": "head tilt is not in the source; the line only voices doubt (84992)",
+   "status": "fixed"
+  },
+  {
+   "no": 60205,
+   "message_id": 85335,
+   "severity": "minor",
+   "before": "호시카와를 두고 다투던 중 하늘이",
+   "after": "호시카와를 두고 언쟁한 뒤 하늘이",
+   "reason": "the flash (85335) comes after the argument and Makoto sensing something (85318), not during the argument",
+   "status": "fixed"
+  },
+  {
+   "no": 65004,
+   "message_id": 86784,
+   "severity": "major",
+   "before": "해설에 나서 어릴 적 묻어 준",
+   "after": "해설에 나서 수행 중에 묻어 준",
+   "reason": "the rabbits were buried during training (修業の最中, 86784); childhood (86778) is only the belief about stars",
+   "status": "fixed"
+  }
+ ],
+ "unresolved": []
+}

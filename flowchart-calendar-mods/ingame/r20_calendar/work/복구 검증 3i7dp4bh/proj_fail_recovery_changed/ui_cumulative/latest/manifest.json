@@ -1,0 +1,28 @@
+{
+  "status": "BASE",
+  "files": [
+    {
+      "path": "NightRemaster.ain",
+      "size": 25,
+      "sha256": "50b91fc0379ce6e2a8706e2cddeac78bbd9b46d56de143d95351c752a8fe531d"
+    },
+    {
+      "path": "Manual/chart/yoru_flowchart_v2.html",
+      "size": 43,
+      "sha256": "67c7b112e2d5fc2e9d327bbf075397fc31fa36f89565504a659b6b1a6269ead4"
+    },
+    {
+      "path": "NightRemaster.exe",
+      "size": 25,
+      "sha256": "eef64d738c6ca3c3477ea933ae2648cd23cf3a84cba78a945fba5099f7a82cfd"
+    },
+    {
+      "path": "Data/Shader.slk",
+      "size": 23,
+      "sha256": "77d8072871982f0708a766e4beb24a220215239bd54d620ab9b6f853a2c21402"
+    }
+  ],
+  "ain": {
+    "status": "BASE"
+  }
+}

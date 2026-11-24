@@ -1,0 +1,58 @@
+{
+ "home": {
+  "pid": 71088,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "f1335edd29ba38551d4598277e776108b9860c3af3ae106fa16cc7a06dab0215",
+  "events": [],
+  "parked_windows": [
+   1117256,
+   2233470,
+   3546592
+  ],
+  "exit_code": 0,
+  "seconds": 16.5,
+  "log": [
+   "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_fixes_20260928\\probe_save\\run\\SaveData_R24ChartProbe_20260928_223647",
+   "MODE home",
+   "NORMAL SAVE 88 PRESENT",
+   "PASS normal native auto-save and load through guarded method; END"
+  ],
+  "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_fixes_20260928\\probe_save\\run\\SaveData_R24ChartProbe_20260928_223647",
+  "settings_unchanged": {
+   "AFConfig.asd": true,
+   "MouseCursorSetting.sav": true,
+   "ShowDPSetting.sav": true,
+   "3DConfig.vsf": true,
+   "YoruKR_Terms.dat": true,
+   "YoruKR_Terms.backup": true
+  },
+  "changed_files": [
+   "Backup/2026_09_28_22_37_30/AFConfig.asd",
+   "Backup/2026_09_28_22_37_30/NightRAFBGMMode.asd",
+   "Backup/2026_09_28_22_37_30/NightRAFCGMode.asd",
+   "Backup/2026_09_28_22_37_30/NightRAFCommon.asd",
+   "Backup/2026_09_28_22_37_30/NightRAFInfo.asd",
+   "Backup/2026_09_28_22_37_30/NightRAFMemMode.asd",
+   "CommonSystemData.sav",
+   "NightR88.asd",
+   "NightR88.vsf",
+   "NightRAFCommon.asd",
+   "Volume.sav",
+   "WindowSetting.sav"
+  ],
+  "probe": {
+   "waits": 28,
+   "live": [
+    "C_SceneTitle@Run",
+    "C_SelectDialog@Run",
+    "KR_C24WaitRaw"
+   ],
+   "probe_sha256": "f1335edd29ba38551d4598277e776108b9860c3af3ae106fa16cc7a06dab0215",
+   "mode": "home",
+   "target": 0
+  },
+  "candidate_sha256": "1af260f5adff8b79ccebf27a44401790dff1a7dce555d87985b8b090cbca99f6",
+  "shots": [],
+  "time": "20260928_223647"
+ }
+}

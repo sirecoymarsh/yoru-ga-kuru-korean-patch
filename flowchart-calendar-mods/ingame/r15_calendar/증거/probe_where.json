@@ -1,0 +1,189 @@
+{
+ "pid": 64424,
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "ain_sha256": "018bbcc0becefe0baf469f684dff809f3f4e1914e97c0bccc0f4598b22531aed",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 4.5,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\probe\\run\\SaveData_R15CalendarProbe_20260927_012753",
+  "END"
+ ],
+ "save": "NightR47.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\probe\\run\\SaveData_R15CalendarProbe_20260927_012753",
+ "waits": [
+  [
+   "menu::detail::CMenuView@_Loop",
+   "exit"
+  ],
+  [
+   "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>",
+   "message click-through"
+  ],
+  [
+   "sealtool::detail::CModelSelectDialog@<lambda : sealtool::detail::CModelSelectDialog@ShowDialog()(98, 32)>",
+   "exit"
+  ],
+  [
+   "L_StatusFace::Select",
+   "exit"
+  ],
+  [
+   "C_Dialog@Run",
+   "exit"
+  ],
+  [
+   "C_SelectDialog@Run",
+   "live"
+  ],
+  [
+   "C_SelectMessage@Run",
+   "exit"
+  ],
+  [
+   "C_Status::RunStatus",
+   "exit"
+  ],
+  [
+   "C_SceneTitle@Run",
+   "exit"
+  ],
+  [
+   "C_SceneHomebase@RunMapSelect",
+   "exit"
+  ],
+  [
+   "C_SceneDungeon@Run",
+   "exit"
+  ],
+  [
+   "C_BattleSelectEnemy@Run",
+   "exit"
+  ],
+  [
+   "C_BattleSelectView@Run",
+   "exit"
+  ],
+  [
+   "C_SceneSaveLoad@RunCommon",
+   "exit"
+  ],
+  [
+   "C_SceneStartData@RunCommon",
+   "exit"
+  ],
+  [
+   "C_SceneModeCG@Run",
+   "exit"
+  ],
+  [
+   "C_SceneModeScene@RunTop",
+   "exit"
+  ],
+  [
+   "C_SceneModeScene@RunSelect",
+   "exit"
+  ],
+  [
+   "C_SceneModeSound@Run",
+   "exit"
+  ],
+  [
+   "C_DebugCasualView@<lambda : C_DebugCasualView@Run()(66, 45)>",
+   "exit"
+  ],
+  [
+   "C_DebugParamView@<lambda : C_DebugParamView@Run()(74, 45)>",
+   "exit"
+  ],
+  [
+   "C_SceneTraining@<lambda : C_SceneTraining@RunSelect()(114, 40)>",
+   "exit"
+  ],
+  [
+   "C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>",
+   "exit"
+  ],
+  [
+   "C_SceneHomebase@<lambda : C_SceneHomebase@RunMember()(233, 52)>",
+   "exit"
+  ],
+  [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+   "exit"
+  ],
+  [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCombineStone()(402, 52)>",
+   "exit"
+  ],
+  [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunMemory(bool)(487, 52)>",
+   "exit"
+  ]
+ ],
+ "targets": {
+  "4": [
+   0,
+   3,
+   2601,
+   41
+  ],
+  "6": [
+   0,
+   2,
+   70,
+   35
+  ],
+  "7": [
+   0,
+   5,
+   183,
+   42
+  ],
+  "8": [
+   8,
+   0,
+   20167,
+   10
+  ],
+  "9": [
+   0,
+   0,
+   251,
+   12
+  ],
+  "10": [
+   3,
+   1,
+   30157,
+   33
+  ],
+  "11": [
+   1,
+   4,
+   10183,
+   21
+  ]
+ },
+ "probe_sha256": "018bbcc0becefe0baf469f684dff809f3f4e1914e97c0bccc0f4598b22531aed",
+ "candidate_sha256": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963",
+ "user_save_folder_unchanged": true,
+ "user_save_files": 397,
+ "c_drive_alicesoft_changes": [],
+ "probe_save_folder_files": [
+  "CommonSystemData.sav",
+  "MouseCursorSetting.sav",
+  "NightRMsgSkip.msk",
+  "ShowDPSetting.sav",
+  "Volume.sav",
+  "WindowSetting.sav"
+ ],
+ "run_folder_new_dirs": [
+  "Data",
+  "InstallInfo",
+  "Movie",
+  "SaveData_R15CalendarProbe_20260927_012753",
+  "Screenshot"
+ ],
+ "screenshots": []
+}

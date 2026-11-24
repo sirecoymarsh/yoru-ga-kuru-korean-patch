@@ -1,0 +1,125 @@
+{
+  "status": "ROUTE_MAP_REFRESH_COMPILED_PASS",
+  "files": {
+    "NightRemaster.ain": "552332f5dc6da24c07dd2f4a00531de2b3c0fb1fc1f39c8995baa464f61848f1"
+  },
+  "compiled_inserted_regions_tested": [
+    {
+      "function": 28638,
+      "enabled": false,
+      "map_present": false,
+      "exit_exists": false
+    },
+    {
+      "function": 28638,
+      "enabled": false,
+      "map_present": false,
+      "exit_exists": true
+    },
+    {
+      "function": 28638,
+      "enabled": false,
+      "map_present": true,
+      "exit_exists": false
+    },
+    {
+      "function": 28638,
+      "enabled": false,
+      "map_present": true,
+      "exit_exists": true
+    },
+    {
+      "function": 28638,
+      "enabled": true,
+      "map_present": false,
+      "exit_exists": false
+    },
+    {
+      "function": 28638,
+      "enabled": true,
+      "map_present": false,
+      "exit_exists": true
+    },
+    {
+      "function": 28638,
+      "enabled": true,
+      "map_present": true,
+      "exit_exists": false
+    },
+    {
+      "function": 28638,
+      "enabled": true,
+      "map_present": true,
+      "exit_exists": true
+    },
+    {
+      "function": 28754,
+      "enabled": false,
+      "map_present": false,
+      "exit_exists": false
+    },
+    {
+      "function": 28754,
+      "enabled": false,
+      "map_present": false,
+      "exit_exists": true
+    },
+    {
+      "function": 28754,
+      "enabled": false,
+      "map_present": true,
+      "exit_exists": false
+    },
+    {
+      "function": 28754,
+      "enabled": false,
+      "map_present": true,
+      "exit_exists": true
+    },
+    {
+      "function": 28754,
+      "enabled": true,
+      "map_present": false,
+      "exit_exists": false
+    },
+    {
+      "function": 28754,
+      "enabled": true,
+      "map_present": false,
+      "exit_exists": true
+    },
+    {
+      "function": 28754,
+      "enabled": true,
+      "map_present": true,
+      "exit_exists": false
+    },
+    {
+      "function": 28754,
+      "enabled": true,
+      "map_present": true,
+      "exit_exists": true
+    }
+  ],
+  "current_post_event_coordinates": true,
+  "same_tile_cache_preserved": true,
+  "VM": {
+    "compiled_VM_calls": 7207,
+    "slider_steps": 5,
+    "slider_roundtrips": 500,
+    "quick_entry_exit_cases": 24,
+    "watchdog_and_cancel": true,
+    "int32_clock_wrap": true,
+    "trap_compiled_hook_cases": 72,
+    "route_compiled_helper_fixtures": 6,
+    "unknown_slot_bounds": true,
+    "original_system_flags_preserved": true,
+    "route_native_AStar_engine_itself_tested": false
+  },
+  "native_active_functions": 29974,
+  "native_instruction_sites": 1803667,
+  "all_active_native_opcodes_supported": true,
+  "native_gameplay_verified": false,
+  "root_cause_status": "Rebuild lifecycle gap demonstrated statically; exact user next-floor symptom not reproduced in native runtime",
+  "verification_scope": "Actual compiled inserted regions and unchanged route helper with native-method fixtures; native map transition NOT executed"
+}

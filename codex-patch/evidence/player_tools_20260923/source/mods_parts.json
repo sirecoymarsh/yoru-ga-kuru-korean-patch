@@ -1,0 +1,130 @@
+[
+  {
+    "name": "背景",
+    "coords": [
+      0.0,
+      0.0,
+      1
+    ]
+  },
+  {
+    "name": "背景_星",
+    "coords": [
+      320.0,
+      0.0,
+      2
+    ]
+  },
+  {
+    "name": "タブ／ボタン類",
+    "coords": [
+      0.0,
+      0.0,
+      3
+    ]
+  },
+  {
+    "name": "レイアウト_タブテキスト",
+    "coords": [
+      115.0,
+      39.0,
+      16
+    ]
+  },
+  {
+    "name": "KR_ModHeader",
+    "coords": [
+      363.0,
+      40.0,
+      40
+    ]
+  },
+  {
+    "name": "KR_ModRewards",
+    "coords": [
+      363.0,
+      122.0,
+      40
+    ]
+  },
+  {
+    "name": "KR_ModBattle",
+    "coords": [
+      363.0,
+      400.0,
+      40
+    ]
+  },
+  {
+    "name": "KR_ModDungeon",
+    "coords": [
+      783.0,
+      396.0,
+      40
+    ]
+  },
+  {
+    "name": "KR_ModQuickHint",
+    "coords": [
+      363.0,
+      544.0,
+      40
+    ]
+  },
+  {
+    "name": "KR_ModQuickCancel",
+    "coords": [
+      363.0,
+      568.0,
+      40
+    ]
+  },
+  {
+    "name": "KR_AutoEquipToggle",
+    "coords": [
+      363.0,
+      590.0,
+      250
+    ]
+  },
+  {
+    "name": "KR_SmartAutoToggle",
+    "coords": [
+      783.0,
+      590.0,
+      251
+    ]
+  },
+  {
+    "name": "KR_ItemConfigButton",
+    "coords": [
+      363.0,
+      622.0,
+      260
+    ]
+  },
+  {
+    "name": "KR_ItemConfigLabel",
+    "coords": [
+      404.5,
+      627.0,
+      261
+    ]
+  },
+  {
+    "name": "KR_TermConfigButton",
+    "coords": [
+      580.0,
+      622.0,
+      260
+    ]
+  },
+  {
+    "name": "KR_TermConfigLabel",
+    "coords": [
+      621.5,
+      627.0,
+      261
+    ]
+  }
+]

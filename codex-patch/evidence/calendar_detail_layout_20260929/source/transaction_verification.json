@@ -1,0 +1,41 @@
+{
+ "status": "TRANSACTION_FIXTURE_PASS",
+ "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_detail_layout_20260929\\work\\복구 검증 84taulvz",
+ "payload": {
+  "NightRemaster.ain": "acb3e7abefcd37d58dbc8ac7d6bc38c01c5bec7b5ee244580c2f62ce989cdb3c",
+  "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+ },
+ "install_restore": true,
+ "idempotent_restore": true,
+ "runtime_scratch_folder_ignored": true,
+ "injected_failure_rollback": true,
+ "known_mixed_and_interruption_restore": true,
+ "partial_incoming_copy_recovered": true,
+ "tampered_payload_baseline_backup_rejected": true,
+ "exact_process_path_filter": true,
+ "unicode_spaces_path": true,
+ "interrupted_metadata_restoration_resumable": true,
+ "install_with_recovery_lacking_payload_file": {
+  "old_check_on_missing_recovery_file": "fails: FileNotFoundError",
+  "committed": true,
+  "recovery_hashed": [
+   "NightRemaster.ain"
+  ],
+  "recovery_lacks": [
+   "Manual/chart/yoru_flowchart_v2.html"
+  ],
+  "restored_exact": true,
+  "restore_idempotent": true,
+  "scratch_folder_ignored": true,
+  "single_file_payload_committed_and_restored": true,
+  "rolled_back_after_files": true,
+  "rolled_back_after_contracts": true,
+  "rolled_back_recovery_changed": true,
+  "interrupted_restore_resumable": true
+ },
+ "no_incoming_residue": true,
+ "files": [
+  "NightRemaster.ain",
+  "winmm.dll"
+ ]
+}

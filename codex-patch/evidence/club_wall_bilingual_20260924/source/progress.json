@@ -1,0 +1,14 @@
+{
+  "status": "PREPARING",
+  "source_phrase": "我は王なり",
+  "target_phrase": "나는 왕이다",
+  "translator_model": "Codex internal",
+  "generated_tool": "built-in image_gen",
+  "generated_source": "P:\\AI\\Codex\\generated_images\\01a07e30-6ebc-7ee3-b99e-a40a5c786912\\exec-b48150b5-0cd2-4a73-9d16-ba6745d303b2.png",
+  "english_preservation": [
+    "First Attack",
+    "Back Attack",
+    "resting"
+  ],
+  "last_review": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\reviews\\claude_term_rate_20260924_r6_codex\\README.md"
+}

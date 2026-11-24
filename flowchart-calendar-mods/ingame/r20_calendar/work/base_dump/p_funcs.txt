@@ -1,0 +1,883 @@
+3 AFL_Parts_AddConstructProcess [('partsNumber', 10), ('process', 21), ('state', 10)] 0
+4 AFL_Parts_AddProcessList [('partsNumber', 10), ('process', 80), ('state', 10)] 0
+5 AFL_Parts_SetProcessList [('partsNumber', 10), ('process', 80), ('state', 10)] 0
+499 Ｐ＿アクティビティ実行 [('\udc83A\udc83N\udc83e\udc83B\udc83r\udc83e\udc83B\udc96\udcbc', 12), ('dgLoadedObject', 63), ('dgReleasingObject', 63), ('dgLoadedGameObject', 63), ('createSpotEvent', 63)] 0
+778 Ｐ＿アクティビティエディタ実行 [('\udc83A\udc83N\udc83e\udc83B\udc83r\udc83e\udc83B\udc96\udcbc', 12)] 0
+7751 AFL_Parts_AddWholeMouseMoveEvent [('delegateObject', 63)] 0
+7752 AFL_Parts_EraseWholeMouseMoveEvent [('delegateObject', 63)] 0
+7753 AFL_Parts_AddWholeMouseWheelEvent [('delegateObject', 63)] 0
+7754 AFL_Parts_EraseWholeMouseWheelEvent [('delegateObject', 63)] 0
+7755 AFL_Parts_AddWholeMouseLClickEvent [('delegateObject', 63)] 0
+7756 AFL_Parts_EraseWholeMouseLClickEvent [('delegateObject', 63)] 0
+7757 AFL_Parts_AddWholeMouseRClickEvent [('delegateObject', 63)] 0
+7758 AFL_Parts_EraseWholeMouseRClickEvent [('delegateObject', 63)] 0
+7759 AFL_Parts_AddWholeMouseMClickEvent [('delegateObject', 63)] 0
+7760 AFL_Parts_EraseWholeMouseMClickEvent [('delegateObject', 63)] 0
+7761 AFL_Parts_AddWholeMouseDoubleClickEvent [('delegateObject', 63)] 0
+7762 AFL_Parts_EraseWholeMouseDoubleClickEvent [('delegateObject', 63)] 0
+7763 AFL_Parts_AddWholeKeyTriggerEvent [('delegateObject', 63)] 0
+7764 AFL_Parts_EraseWholeKeyTriggerEvent [('delegateObject', 63)] 0
+7765 AFL_Parts_AddWholeKeyDownEvent [('delegateObject', 63)] 0
+7766 AFL_Parts_EraseWholeKeyDownEvent [('delegateObject', 63)] 0
+7767 AFL_Parts_AddWholeKeyPressEvent [('delegateObject', 63)] 0
+7768 AFL_Parts_EraseWholeKeyPressEvent [('delegateObject', 63)] 0
+7769 AFL_Parts_AddWholeKeyUpEvent [('delegateObject', 63)] 0
+7770 AFL_Parts_EraseWholeKeyUpEvent [('delegateObject', 63)] 0
+7771 AFL_Parts_AddMouseEnterEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7772 AFL_Parts_EraseMouseEnterEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7773 AFL_Parts_AddMouseMoveEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7774 AFL_Parts_EraseMouseMoveEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7775 AFL_Parts_AddMouseLeaveEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7776 AFL_Parts_EraseMouseLeaveEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7777 AFL_Parts_AddMouseWheelEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7778 AFL_Parts_EraseMouseWheelEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7779 AFL_Parts_AddMouseLClickEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7780 AFL_Parts_EraseMouseLClickEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7781 AFL_Parts_AddMouseRClickEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7782 AFL_Parts_EraseMouseRClickEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7783 AFL_Parts_AddMouseMClickEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7784 AFL_Parts_EraseMouseMClickEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7785 AFL_Parts_AddMouseDoubleClickEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7786 AFL_Parts_EraseMouseDoubleClickEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7787 AFL_Parts_AddMouseOnEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7788 AFL_Parts_EraseMouseOnEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7789 AFL_Parts_AddKeyTriggerEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7790 AFL_Parts_EraseKeyTriggerEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7791 AFL_Parts_AddKeyDownEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7792 AFL_Parts_EraseKeyDownEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7793 AFL_Parts_AddKeyPressEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7794 AFL_Parts_EraseKeyPressEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7795 AFL_Parts_AddKeyUpEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7796 AFL_Parts_EraseKeyUpEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7797 AFL_Parts_AddDragBeginEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7798 AFL_Parts_EraseDragBeginEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7799 AFL_Parts_AddDragingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7800 AFL_Parts_EraseDragingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7801 AFL_Parts_AddDragEndEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7802 AFL_Parts_EraseDragEndEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7803 AFL_Parts_AddRDragBeginEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7804 AFL_Parts_EraseRDragBeginEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7805 AFL_Parts_AddRDragingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7806 AFL_Parts_EraseRDragingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7807 AFL_Parts_AddRDragEndEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7808 AFL_Parts_EraseRDragEndEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7809 AFL_Parts_AddMDragBeginEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7810 AFL_Parts_EraseMDragBeginEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7811 AFL_Parts_AddMDragingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7812 AFL_Parts_EraseMDragingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7813 AFL_Parts_AddMDragEndEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7814 AFL_Parts_EraseMDragEndEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7815 AFL_Parts_AddDropEnterEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7816 AFL_Parts_EraseDropEnterEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7817 AFL_Parts_AddDropOnEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7818 AFL_Parts_EraseDropOnEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7819 AFL_Parts_AddDroppedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7820 AFL_Parts_EraseDroppedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7821 AFL_Parts_AddDropLeaveEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7822 AFL_Parts_EraseDropLeaveEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7823 AFL_Parts_AddSwipeBeginEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7824 AFL_Parts_EraseSwipeBeginEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7825 AFL_Parts_AddSwipingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7826 AFL_Parts_EraseSwipingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7827 AFL_Parts_AddSwipeEndEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7828 AFL_Parts_EraseSwipeEndEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7829 AFL_Parts_AddFocusEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7830 AFL_Parts_EraseFocusEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7831 AFL_Parts_AddLostFocusEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7832 AFL_Parts_EraseLostFocusEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7833 AFL_Parts_AddScrollEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7834 AFL_Parts_EraseScrollEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7835 AFL_Parts_AddCreatedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7836 AFL_Parts_EraseCreatedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7837 AFL_Parts_AddDeletedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7838 AFL_Parts_EraseDeletedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7839 AFL_Parts_AddSelectedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7840 AFL_Parts_EraseSelectedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7841 AFL_Parts_AddChangedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7842 AFL_Parts_EraseChangedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7843 AFL_Parts_AddChangedFlgEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7844 AFL_Parts_EraseChangedFlgEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7845 AFL_Parts_AddFixedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7846 AFL_Parts_EraseFixedEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7847 AFL_Parts_AddClosingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7848 AFL_Parts_EraseClosingEvent [('partsNumber', 10), ('delegateObject', 63)] 0
+7849 AFL_Parts_AddErasingLayerEvent [('delegateObject', 63)] 0
+7850 AFL_Parts_EraseErasingLayerEvent [('delegateObject', 63)] 0
+7851 AFL_Parts_AddChangedActiveLayerEvent [('delegateObject', 63)] 0
+7852 AFL_Parts_EraseChangedActiveLayerEvent [('delegateObject', 63)] 0
+7853 AFL_Parts_AddBeginUpdateEvent [('delegateObject', 63)] 0
+7854 AFL_Parts_EraseBeginUpdateEvent [('delegateObject', 63)] 0
+7855 AFL_Parts_AddEndUpdateEvent [('delegateObject', 63)] 0
+7856 AFL_Parts_EraseEndUpdateEvent [('delegateObject', 63)] 0
+7857 AFL_Parts_SetPartsFlatAndStop [('partsNumber', 10), ('pIFlatFileName', 12), ('state', 10)] 47
+7858 AFL_Parts_StopPartsFlat [('partsNumber', 10), ('state', 10)] 47
+7859 AFL_Parts_StartPartsFlat [('partsNumber', 10), ('state', 10)] 47
+7860 AFL_Parts_IsStopPartsFlat [('partsNumber', 10), ('state', 10)] 47
+7861 AFL_Parts_GoFramePartsFlat [('partsNumber', 10), ('frameNumber', 10), ('state', 10)] 47
+7862 AFL_Parts_GetFlatFrame [('number', 10), ('labelName', 12), ('state', 10)] 10
+7863 AFL_Parts_GoLabelPartsFlat [('partsNumber', 10), ('label', 12), ('state', 10)] 0
+7864 AFL_Parts_GetPartsFlatEndFrameNumber [('partsNumber', 10), ('state', 10)] 10
+7865 AFL_Parts_GetPartsFlatCurrentFrameNumber [('partsNumber', 10), ('state', 10)] 10
+7866 AFL_Parts_SetFlatUpdateSpeedRate [('partsNumber', 10), ('rate', 11), ('state', 10)] 0
+7867 AFL_Parts_GetFlatUpdateSpeedRate [('partsNumber', 10), ('state', 10)] 11
+7868 AFL_Parts_GetFlatFPS [('partsNumber', 10), ('state', 10)] 10
+7869 AFL_Parts_SetFlatEnableLayer [('partsNumber', 10), ('layerName', 12), ('enable', 47), ('state', 10)] 0
+7870 AFL_Parts_IsFlatEnableLayer [('partsNumber', 10), ('layerName', 12), ('state', 10)] 47
+7871 AFL_Parts_Update [] 0
+7872 AFL_Parts_GetUpperLeftPos [('partsNumber', 10), ('posX', 19), ('posY', 19), ('state', 10)] 0
+7873 AFL_Parts_GetUpperLeftPosX [('partsNumber', 10), ('state', 10)] 11
+7874 AFL_Parts_GetUpperLeftPosY [('partsNumber', 10), ('state', 10)] 11
+7875 AFL_Parts_GetSize [('partsNumber', 10), ('width', 18), ('height', 18), ('state', 10)] 0
+7876 AFL_Parts_GetWidth [('partsNumber', 10), ('state', 10)] 10
+7877 AFL_Parts_GetHeight [('partsNumber', 10), ('state', 10)] 10
+7878 AFL_Parts_WaitForClick [('func', 63), ('\udc83L\udc81[\udc83L\udc83\udc83\udc83\udc93\udc83Z\udc83\udc8b', 47)] 10
+7879 AFL_Parts_EndWaitForClick [('partsNumber', 10)] 0
+7880 AFL_Parts_SetStatus [('partsNumber', 10), ('state', 10)] 0
+7881 AFL_Parts_GetStatus [('partsNumber', 10)] 10
+7882 AFL_Parts_SetLockInputState [('partsNumber', 10), ('lock', 47)] 0
+7883 AFL_Parts_IsLockInputState [('partsNumber', 10)] 47
+7884 AFL_Parts_PlaySound [('partsNumber', 10), ('state', 10)] 0
+7885 AFL_Parts_PlayOnCursorSound [('partsNumber', 10)] 0
+7886 AFL_Parts_PlayClickSound [('partsNumber', 10)] 0
+7887 AFL_Parts_IsPointIn [('partsNumber', 10), ('x', 10), ('y', 10), ('state', 10)] 47
+7888 AFL_Parts_GetType [('number', 10), ('state', 10)] 10
+7889 AFL_Parts_GetPartsListByType [('partsList', 82), ('number', 10), ('partsType', 10)] 0
+7890 AFL_Parts_IsInputPartsActive [] 47
+7891 AFL_Parts_SetEnableInput [('enable', 47)] 0
+7892 AFL_Parts_IsEnableInput [] 47
+7893 AFL_Parts_SetEnableInputProcess [('partsNumber', 10), ('enable', 47)] 0
+7894 AFL_Parts_IsEnableInputProcess [('partsNumber', 10)] 47
+7895 AFL_Parts_SetWantSaveBackScene [('partsNumber', 10), ('enable', 47)] 0
+7896 AFL_Parts_IsWantSaveBackScene [('partsNumber', 10)] 47
+7897 AFL_Parts_SuspendTexture [('partsNumber', 10)] 0
+7898 AFL_Parts_ResumeTexture [('partsNumber', 10)] 0
+7899 AFL_Parts_Wrap [('partsNumber', 10), ('comment', 86)] 82
+7900 AFL_Parts_WrapButton [('partsNumber', 10), ('comment', 86)] 82
+7901 AFL_Parts_CreateButton [('partsNumber', 10), ('comment', 86)] 82
+7902 AFL_Parts_CreateButton [('comment', 12)] 82
+7903 AFL_Parts_WrapCheckBox [('partsNumber', 10), ('comment', 86)] 82
+7904 AFL_Parts_CreateCheckBox [('partsNumber', 10), ('comment', 86)] 82
+7905 AFL_Parts_CreateCheckBox [('comment', 12)] 82
+7906 AFL_Parts_WrapVScrollBar [('partsNumber', 10), ('comment', 86)] 82
+7907 AFL_Parts_CreateVScrollBar [('partsNumber', 10), ('comment', 86)] 82
+7908 AFL_Parts_CreateVScrollBar [('comment', 12)] 82
+7909 AFL_Parts_WrapHScrollBar [('partsNumber', 10), ('comment', 86)] 82
+7910 AFL_Parts_CreateHScrollBar [('partsNumber', 10), ('comment', 86)] 82
+7911 AFL_Parts_CreateHScrollBar [('comment', 12)] 82
+7912 AFL_Parts_WrapTextBox [('partsNumber', 10), ('comment', 86)] 82
+7913 AFL_Parts_CreateTextBox [('partsNumber', 10), ('comment', 86)] 82
+7914 AFL_Parts_CreateTextBox [('comment', 12)] 82
+7915 AFL_Parts_WrapListBox [('partsNumber', 10), ('comment', 86)] 82
+7916 AFL_Parts_CreateListBox [('partsNumber', 10), ('comment', 86)] 82
+7917 AFL_Parts_CreateListBox [('comment', 12)] 82
+7918 AFL_Parts_WrapComboBox [('partsNumber', 10), ('comment', 86)] 82
+7919 AFL_Parts_CreateComboBox [('partsNumber', 10), ('comment', 86)] 82
+7920 AFL_Parts_CreateComboBox [('comment', 12)] 82
+7921 AFL_Parts_WrapMLTextBox [('partsNumber', 10), ('comment', 86)] 82
+7922 AFL_Parts_CreateMLTextBox [('partsNumber', 10), ('comment', 86)] 82
+7923 AFL_Parts_CreateMLTextBox [('comment', 12)] 82
+7924 AFL_Parts_WrapLayoutBox [('partsNumber', 10), ('comment', 86)] 82
+7925 AFL_Parts_CreateLayoutBox [('partsNumber', 10), ('comment', 86)] 82
+7926 AFL_Parts_CreateLayoutBox [('comment', 12)] 82
+7927 AFL_Parts_WrapRadioButtonBox [('partsNumber', 10), ('comment', 86)] 82
+7928 AFL_Parts_CreateRadioButtonBox [('partsNumber', 10), ('comment', 86)] 82
+7929 AFL_Parts_CreateRadioButtonBox [('comment', 12)] 82
+7930 AFL_Parts_WrapMessageWindow [('partsNumber', 10), ('comment', 86)] 82
+7931 AFL_Parts_CreateMessageWindow [('partsNumber', 10), ('comment', 86)] 82
+7932 AFL_Parts_CreateMessageWindow [('comment', 12)] 82
+7933 AFL_Parts_WrapSpinBox [('partsNumber', 10), ('comment', 86)] 82
+7934 AFL_Parts_CreateSpinBox [('partsNumber', 10), ('comment', 86)] 82
+7935 AFL_Parts_CreateSpinBox [('comment', 12)] 82
+7936 AFL_Parts_WrapVSliderBar [('partsNumber', 10), ('comment', 86)] 82
+7937 AFL_Parts_CreateVSliderBar [('partsNumber', 10), ('comment', 86)] 82
+7938 AFL_Parts_CreateVSliderBar [('comment', 12)] 82
+7939 AFL_Parts_WrapHSliderBar [('partsNumber', 10), ('comment', 86)] 82
+7940 AFL_Parts_CreateHSliderBar [('partsNumber', 10), ('comment', 86)] 82
+7941 AFL_Parts_CreateHSliderBar [('comment', 12)] 82
+7942 AFL_Parts_WrapPanel [('partsNumber', 10), ('comment', 86)] 82
+7943 AFL_Parts_CreatePanel [('partsNumber', 10), ('comment', 86)] 82
+7944 AFL_Parts_CreatePanel [('comment', 12)] 82
+7945 AFL_Parts_WrapForm [('partsNumber', 10), ('comment', 86)] 82
+7946 AFL_Parts_CreateForm [('partsNumber', 10), ('comment', 86)] 82
+7947 AFL_Parts_CreateForm [('comment', 12)] 82
+7948 AFL_Parts_WrapFormGroup [('partsNumber', 10), ('comment', 86)] 82
+7949 AFL_Parts_CreateFormGroup [('partsNumber', 10), ('comment', 86)] 82
+7950 AFL_Parts_CreateFormGroup [('comment', 12)] 82
+7951 AFL_Parts_WrapUserComponent [('partsNumber', 10), ('comment', 86)] 82
+7952 AFL_Parts_CreateUserComponent [('partsNumber', 10), ('comment', 86)] 82
+7953 AFL_Parts_CreateUserComponent [('comment', 12)] 82
+7954 AFL_Parts_WrapSprite [('partsNumber', 10), ('comment', 86)] 82
+7955 AFL_Parts_CreateSprite [('partsNumber', 10), ('comment', 86)] 82
+7956 AFL_Parts_CreateSprite [('comment', 12)] 82
+7957 AFL_Parts_WrapCG [('partsNumber', 10), ('comment', 86)] 82
+7958 AFL_Parts_CreateCG [('partsNumber', 10), ('comment', 86)] 82
+7959 AFL_Parts_CreateCG [('comment', 12)] 82
+7960 AFL_Parts_WrapLoopCG [('partsNumber', 10), ('comment', 86)] 82
+7961 AFL_Parts_CreateLoopCG [('partsNumber', 10), ('comment', 86)] 82
+7962 AFL_Parts_CreateLoopCG [('comment', 12)] 82
+7963 AFL_Parts_WrapText [('partsNumber', 10), ('comment', 86)] 82
+7964 AFL_Parts_CreateText [('partsNumber', 10), ('comment', 86)] 82
+7965 AFL_Parts_CreateText [('comment', 12)] 82
+7966 AFL_Parts_WrapFlat [('partsNumber', 10), ('comment', 86)] 82
+7967 AFL_Parts_CreateFlat [('partsNumber', 10), ('comment', 86)] 82
+7968 AFL_Parts_CreateFlat [('comment', 12)] 82
+7969 AFL_Parts_WrapConstruction [('partsNumber', 10), ('comment', 86)] 82
+7970 AFL_Parts_CreateConstruction [('partsNumber', 10), ('comment', 86)] 82
+7971 AFL_Parts_CreateConstruction [('comment', 12)] 82
+7972 AFL_Parts_WrapRect [('partsNumber', 10), ('comment', 86)] 82
+7973 AFL_Parts_CreateRect [('partsNumber', 10), ('comment', 86)] 82
+7974 AFL_Parts_CreateRect [('comment', 12)] 82
+7975 AFL_Parts_WrapCGDetection [('partsNumber', 10), ('comment', 86)] 82
+7976 AFL_Parts_CreateCGDetection [('partsNumber', 10), ('comment', 86)] 82
+7977 AFL_Parts_CreateCGDetection [('comment', 12)] 82
+7978 AFL_Parts_WrapNumeral [('partsNumber', 10), ('comment', 86)] 82
+7979 AFL_Parts_CreateNumeral [('partsNumber', 10), ('comment', 86)] 82
+7980 AFL_Parts_CreateNumeral [('comment', 12)] 82
+7981 AFL_Parts_WrapHGauge [('partsNumber', 10), ('comment', 86)] 82
+7982 AFL_Parts_CreateHGauge [('partsNumber', 10), ('comment', 86)] 82
+7983 AFL_Parts_CreateHGauge [('comment', 12)] 82
+7984 AFL_Parts_WrapVGauge [('partsNumber', 10), ('comment', 86)] 82
+7985 AFL_Parts_CreateVGauge [('partsNumber', 10), ('comment', 86)] 82
+7986 AFL_Parts_CreateVGauge [('comment', 12)] 82
+7987 AFL_Parts_AddLayer [('id', 10)] 10
+7988 AFL_Parts_AddTopLayer [] 10
+7989 AFL_Parts_EraseLayer [('id', 10)] 0
+7990 AFL_Parts_SetActiveLayer [('id', 10)] 10
+7991 AFL_Parts_GetActiveLayer [] 10
+7992 AFL_Parts_GetActiveLayerBeforeUpdateEvent [] 10
+7993 AFL_Parts_MoveLayer [('id', 10), ('index', 10)] 0
+7994 AFL_Parts_GetLayerIndex [('id', 10)] 10
+7995 AFL_Parts_GetLayerID [('index', 10)] 10
+7996 AFL_Parts_NumofLayer [] 10
+7997 AFL_Parts_GetLayerIDByParts [('number', 10)] 10
+7998 AFL_Parts_StandIn [('\udc83\udc82\udc81[\udc83h', 10), ('\udc83p\udc81[\udc83c\udc94ԍ\udc86\udc88ꗗ', 82), ('\udc8a\ue3c0\udc88ʒu', 10), ('\udc8a\ue3c0\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 47
+8010 Ｐ＿コンボボックス＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8011 Ｐ＿コンボボックス＿マージン設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8012 Ｐ＿コンボボックス＿マージン幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8013 Ｐ＿コンボボックス＿マージン高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8014 Ｐ＿コンボボックス＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8015 Ｐ＿コンボボックス＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8016 Ｐ＿コンボボックス＿テキスト設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8017 Ｐ＿コンボボックス＿テキスト取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8018 Ｐ＿コンボボックス＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11)] 0
+8019 Ｐ＿コンボボックス＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82)] 0
+8020 Ｐ＿コンボボックス＿文字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8021 Ｐ＿コンボボックス＿文字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8022 Ｐ＿コンボボックス＿リスト高さ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8023 Ｐ＿コンボボックス＿リスト高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8024 Ｐ＿コンボボックス＿リスト行高さ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8025 Ｐ＿コンボボックス＿リスト行高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8026 Ｐ＿コンボボックス＿リスト行マージン設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8027 Ｐ＿コンボボックス＿リスト行マージン幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8028 Ｐ＿コンボボックス＿リスト行マージン高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8029 Ｐ＿コンボボックス＿リストスクロール位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10)] 0
+8030 Ｐ＿コンボボックス＿リストスクロール位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8031 Ｐ＿コンボボックス＿リストアイテム追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8032 Ｐ＿コンボボックス＿リストアイテムリスト追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g\udc83\udc8a\udc83X\udc83g', 82)] 0
+8033 Ｐ＿コンボボックス＿リストアイテム挿入 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8034 Ｐ＿コンボボックス＿リストアイテム設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8035 Ｐ＿コンボボックス＿リストアイテム数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8036 Ｐ＿コンボボックス＿リストアイテム取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10)] 12
+8037 Ｐ＿コンボボックス＿リストアイテム全取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g\udc83\udc8a\udc83X\udc83g', 82)] 0
+8038 Ｐ＿コンボボックス＿リストアイテム削除 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10)] 0
+8039 Ｐ＿コンボボックス＿リストアイテム全削除 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8040 Ｐ＿コンボボックス＿リストフォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11)] 0
+8041 Ｐ＿コンボボックス＿リストフォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82)] 0
+8042 Ｐ＿コンボボックス＿リスト選択位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10)] 0
+8043 Ｐ＿コンボボックス＿リスト選択位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8044 Ｐ＿コンボボックス＿リスト文字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8045 Ｐ＿コンボボックス＿リスト文字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8046 Ｐ＿スピンボックス＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8047 Ｐ＿スピンボックス＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11)] 0
+8048 Ｐ＿スピンボックス＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82)] 0
+8049 Ｐ＿スピンボックス＿読み取り専用設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc93ǂݎ\udce6\udc82\udce8', 47)] 0
+8050 Ｐ＿スピンボックス＿読み取り専用確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8051 Ｐ＿スピンボックス＿値設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc92l', 11)] 0
+8052 Ｐ＿スピンボックス＿値取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8053 Ｐ＿スピンボックス＿デフォルト値設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83f\udc83t\udc83H\udc83\udc8b\udc83g\udc92l', 11)] 0
+8054 Ｐ＿スピンボックス＿デフォルト値取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8055 Ｐ＿スピンボックス＿最大値設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8dő\udce5\udc92l', 11)] 0
+8056 Ｐ＿スピンボックス＿最大値取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8057 Ｐ＿スピンボックス＿最小値設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8dŏ\udcac\udc92l', 11)] 0
+8058 Ｐ＿スピンボックス＿最小値取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8059 Ｐ＿スピンボックス＿増分値設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc91\udc9d\udc95\udcaa\udc92l', 11)] 0
+8060 Ｐ＿スピンボックス＿増分値取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8061 Ｐ＿スピンボックス＿小数桁設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8c\udc85\udc90\udc94', 10)] 0
+8062 Ｐ＿スピンボックス＿小数桁取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8063 Ｐ＿スピンボックス＿背景色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8064 Ｐ＿スピンボックス＿背景色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8065 Ｐ＿スピンボックス＿背景色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8066 Ｐ＿スピンボックス＿背景色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8067 Ｐ＿スピンボックス＿読み取り専用背景色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8068 Ｐ＿スピンボックス＿読み取り専用背景色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8069 Ｐ＿スピンボックス＿読み取り専用背景色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8070 Ｐ＿スピンボックス＿読み取り専用背景色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8071 Ｐ＿スピンボックス＿枠色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8072 Ｐ＿スピンボックス＿枠色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8073 Ｐ＿スピンボックス＿枠色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8074 Ｐ＿スピンボックス＿枠色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8075 Ｐ＿スピンボックス＿選択色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8076 Ｐ＿スピンボックス＿選択色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8077 Ｐ＿スピンボックス＿選択色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8078 Ｐ＿スピンボックス＿選択色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8079 Ｐ＿スピンボックス＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8080 Ｐ＿スピンボックス＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8081 Ｐ＿スピンボックス＿文字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8082 Ｐ＿スピンボックス＿文字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8083 Ｐ＿スピンボックス＿全選択 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8084 Ｐ＿チェックボックス＿ボタンサイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8085 Ｐ＿チェックボックス＿ボタン幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8086 Ｐ＿チェックボックス＿ボタン高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8087 Ｐ＿チェックボックス＿有効状態設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8088 Ｐ＿チェックボックス＿有効状態取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8089 Ｐ＿チェックボックス＿チェック状態設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83`\udc83F\udc83b\udc83N', 47)] 0
+8090 Ｐ＿チェックボックス＿チェック状態取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8091 Ｐ＿チェックボックス＿色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8092 Ｐ＿チェックボックス＿赤色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8093 Ｐ＿チェックボックス＿緑色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8094 Ｐ＿チェックボックス＿青色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8095 Ｐ＿チェックボックス＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11)] 0
+8096 Ｐ＿チェックボックス＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82)] 0
+8097 Ｐ＿チェックボックス＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8098 Ｐ＿チェックボックス＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8099 Ｐ＿チェックボックス＿フラット名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc96\udcbc', 12)] 0
+8100 Ｐ＿チェックボックス＿フラット名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8101 Ｐ＿チェックボックス＿テキスト設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8102 Ｐ＿チェックボックス＿テキスト取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8103 Ｐ＿チェックボックス＿テキスト位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10)] 0
+8104 Ｐ＿チェックボックス＿テキスト位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8105 Ｐ＿チェックボックス＿ボタンモード設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83I\udc83\udc93', 47)] 0
+8106 Ｐ＿チェックボックス＿ボタンモード設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8107 Ｐ＿チェックボックス＿文字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8108 Ｐ＿チェックボックス＿文字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8109 Ｐ＿チェックボックス＿行間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8110 Ｐ＿チェックボックス＿行間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8111 Ｐ＿テキスト設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8112 Ｐ＿テキスト追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8113 Ｐ＿テキスト取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8114 Ｐ＿テキスト追加表示 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc8e\udc9e\udc8a\udcd4', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8115 Ｐ＿テキスト先頭行削除 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8116 Ｐ＿テキスト表示範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8117 Ｐ＿テキスト表示範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 82), ('\udc82x', 82), ('\udc95\udc9d', 82), ('\udc8d\udc82\udc82\udcb3', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8118 Ｐ＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82q', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82f', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82a', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8119 Ｐ＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83H\udc83\udc93\udc83g', 21), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8120 Ｐ＿フォント種類設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8121 Ｐ＿フォントサイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8122 Ｐ＿フォント色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8123 Ｐ＿フォント太字幅設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8124 Ｐ＿フォント縁取り色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8125 Ｐ＿フォント縁取り幅設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8126 Ｐ＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc82q', 82), ('\udc82f', 82), ('\udc82a', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82q', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82f', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82a', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8127 Ｐ＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 13
+8128 Ｐ＿テキスト字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('_\udc8e\udc9a\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8129 Ｐ＿テキスト字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8130 Ｐ＿テキスト行間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('_\udc8ds\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8131 Ｐ＿テキスト行間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8132 Ｐ＿テキスト表示時間設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udc9e\udc8a\udcd4', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8133 Ｐ＿テキスト表示時間取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8134 Ｐ＿テキスト位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8135 Ｐ＿テキスト位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8136 Ｐ＿テキストタグ有効設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8137 Ｐ＿テキストタグ有効設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8138 Ｐ＿テキストルビフォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82q', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82f', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82a', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8139 Ｐ＿テキストルビフォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc82q', 82), ('\udc82f', 82), ('\udc82a', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82q', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82f', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82a', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8140 Ｐ＿テキストルビ字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('_\udc8e\udc9a\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8141 Ｐ＿テキストルビ字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8142 Ｐ＿テキスト設定＿幅指定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc8dő啝', 10), ('\udc83t\udc83H\udc83\udc93\udc83g', 21), ('\udc95\udcb6\udc8e\udc9a\udc8aԊu', 10), ('\udc8ds\udc8aԊu', 10)] 0
+8143 Ｐ＿テキストボックス＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8144 Ｐ＿テキストボックス＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11)] 0
+8145 Ｐ＿テキストボックス＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82)] 0
+8146 Ｐ＿テキストボックス＿読み取り専用設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc93ǂݎ\udce6\udc82\udce8', 47)] 0
+8147 Ｐ＿テキストボックス＿読み取り専用確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8148 Ｐ＿テキストボックス＿テキスト設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8149 Ｐ＿テキストボックス＿テキスト取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8150 Ｐ＿テキストボックス＿最大文字数設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8dő啶\udc8e\udc9a\udc90\udc94', 10)] 0
+8151 Ｐ＿テキストボックス＿最大文字数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8152 Ｐ＿テキストボックス＿背景色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8153 Ｐ＿テキストボックス＿背景色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8154 Ｐ＿テキストボックス＿背景色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8155 Ｐ＿テキストボックス＿背景色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8156 Ｐ＿テキストボックス＿読み取り専用背景色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8157 Ｐ＿テキストボックス＿読み取り専用背景色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8158 Ｐ＿テキストボックス＿読み取り専用背景色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8159 Ｐ＿テキストボックス＿読み取り専用背景色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8160 Ｐ＿テキストボックス＿枠色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8161 Ｐ＿テキストボックス＿枠色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8162 Ｐ＿テキストボックス＿枠色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8163 Ｐ＿テキストボックス＿枠色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8164 Ｐ＿テキストボックス＿選択色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8165 Ｐ＿テキストボックス＿選択色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8166 Ｐ＿テキストボックス＿選択色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8167 Ｐ＿テキストボックス＿選択色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8168 Ｐ＿テキストボックス＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8169 Ｐ＿テキストボックス＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8170 Ｐ＿テキストボックス＿文字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8171 Ｐ＿テキストボックス＿文字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8172 Ｐ＿テキストボックス＿全角入力 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8173 Ｐ＿テキストボックス＿半角入力 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8174 Ｐ＿テキストボックス＿全角入力設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8175 Ｐ＿テキストボックス＿全角入力確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8176 Ｐ＿テキストボックス＿全選択 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8177 Ｐ＿パネル＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8178 Ｐ＿パネル＿色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@', 10)] 0
+8179 Ｐ＿パネル＿赤色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8180 Ｐ＿パネル＿緑色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8181 Ｐ＿パネル＿青色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8182 Ｐ＿パネル＿アルファ色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8183 Ｐ＿パネル＿上グラデーション設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('size', 10)] 0
+8184 Ｐ＿パネル＿下グラデーション設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('size', 10)] 0
+8185 Ｐ＿パネル＿左グラデーション設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('size', 10)] 0
+8186 Ｐ＿パネル＿右グラデーション設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('size', 10)] 0
+8187 Ｐ＿パネル＿上グラデーション取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8188 Ｐ＿パネル＿下グラデーション取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8189 Ｐ＿パネル＿左グラデーション取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8190 Ｐ＿パネル＿右グラデーション取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8191 Ｐ＿フォーム＿クローズ [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8192 Ｐ＿フォーム＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8193 Ｐ＿フォーム＿最小サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8194 Ｐ＿フォーム＿最小幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8195 Ｐ＿フォーム＿最小高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8196 Ｐ＿フォーム＿最大サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8197 Ｐ＿フォーム＿最大幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8198 Ｐ＿フォーム＿最大高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8199 Ｐ＿フォーム＿リサイズ許可設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8b\udc96\udc89\udcc2', 47)] 0
+8200 Ｐ＿フォーム＿リサイズ許可設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8201 Ｐ＿フォーム＿キャプション下マージン設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8202 Ｐ＿フォーム＿キャプション下マージン取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8203 Ｐ＿フォーム＿アイコン設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8204 Ｐ＿フォーム＿アイコン取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8205 Ｐ＿フォーム＿タイトル設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('title', 12)] 0
+8206 Ｐ＿フォーム＿タイトル取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8207 Ｐ＿フォーム＿キャプション色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8208 Ｐ＿フォーム＿キャプション赤色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8209 Ｐ＿フォーム＿キャプション緑色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8210 Ｐ＿フォーム＿キャプション青色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8211 Ｐ＿フォーム＿クライアント色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8212 Ｐ＿フォーム＿クライアント赤色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8213 Ｐ＿フォーム＿クライアント緑色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8214 Ｐ＿フォーム＿クライアント青色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8215 Ｐ＿フォーム＿折りたたみ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90܂肽\udc82\udcbd\udc82\udcdd', 47)] 0
+8216 Ｐ＿フォーム＿折りたたみ設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8217 Ｐ＿フォーム＿閉じるボタン有効設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8218 Ｐ＿フォーム＿閉じるボタン有効設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8219 Ｐ＿フォーム＿縦スクロール位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10)] 0
+8220 Ｐ＿フォーム＿縦スクロール位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8221 Ｐ＿フォーム＿縦スクロール全体量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8222 Ｐ＿フォーム＿縦スクロール表示量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8223 Ｐ＿フォーム＿横スクロール位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10)] 0
+8224 Ｐ＿フォーム＿横スクロール位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8225 Ｐ＿フォーム＿横スクロール全体量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8226 Ｐ＿フォーム＿横スクロール表示量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8227 Ｐ＿フォームグループ＿テーブル数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8228 Ｐ＿フォームグループ＿画面スナップ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc81[\udc83u\udc83\udc8b\udc94ԍ\udc86', 10), ('\udc8f\udce3\udc83X\udc83i\udc83b\udc83v', 82), ('\udc89\udcba\udc83X\udc83i\udc83b\udc83v', 82), ('\udc8d\udcb6\udc83X\udc83i\udc83b\udc83v', 82), ('\udc89E\udc83X\udc83i\udc83b\udc83v', 82)] 0
+8229 Ｐ＿フォームグループ＿列数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc81[\udc83u\udc83\udc8b\udc94ԍ\udc86', 10)] 10
+8230 Ｐ＿フォームグループ＿行数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc81[\udc83u\udc83\udc8b\udc94ԍ\udc86', 10), ('\udc97\udcf1\udc94ԍ\udc86', 10)] 10
+8231 Ｐ＿フォームグループ＿フォーム取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc81[\udc83u\udc83\udc8b\udc94ԍ\udc86', 10), ('\udc97\udcf1\udc94ԍ\udc86', 10), ('\udc8ds\udc94ԍ\udc86', 10)] 10
+8232 Ｐ＿フォームグループ＿テーブル追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8233 Ｐ＿フォームグループ＿画面スナップ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc81[\udc83u\udc83\udc8b\udc94ԍ\udc86', 10), ('\udc8f\udce3\udc83X\udc83i\udc83b\udc83v', 47), ('\udc89\udcba\udc83X\udc83i\udc83b\udc83v', 47), ('\udc8d\udcb6\udc83X\udc83i\udc83b\udc83v', 47), ('\udc89E\udc83X\udc83i\udc83b\udc83v', 47)] 0
+8234 Ｐ＿フォームグループ＿列追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc81[\udc83u\udc83\udc8b\udc94ԍ\udc86', 10)] 0
+8235 Ｐ＿フォームグループ＿フォーム追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc81[\udc83u\udc83\udc8b\udc94ԍ\udc86', 10), ('\udc97\udcf1\udc94ԍ\udc86', 10), ('\udc83t\udc83H\udc81[\udc83\udc80\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8236 Ｐ＿フラット設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83@\udc83C\udc83\udc8b\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8237 Ｐ＿フラット非同期設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83@\udc83C\udc83\udc8b\udc96\udcbc', 12), ('dgCompleted', 63), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8238 Ｐ＿フラット名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8239 Ｐ＿フラット終了確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8240 Ｐ＿フラット開始フレーム移動 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8241 Ｐ＿フラット最終フレームステップ [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8242 Ｐ＿フラットＣＧ名リスト取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83\udc8a\udc83X\udc83g', 80), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8243 Ｐ＿フラットＣＧ変更 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc93\udce0\udc82b\udc82f\udc96\udcbc', 12), ('\udc91\udce3\udc91ւb\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8244 Ｐ＿フラット代替ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc93\udce0\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8245 Ｐ＿フラットＣＧ変更一部キャンセル [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc93\udce0\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8246 Ｐ＿フラットＣＧ変更キャンセル [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8247 Ｐ＿フラットサウンド名リスト取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83\udc8a\udc83X\udc83g', 80), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8248 Ｐ＿フラットサウンド変更 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc93\udce0\udc83T\udc83E\udc83\udc93\udc83h\udc96\udcbc', 12), ('\udc91\udce3\udc91փT\udc83E\udc83\udc93\udc83h\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8249 Ｐ＿フラット代替サウンド取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc93\udce0\udc83T\udc83E\udc83\udc93\udc83h\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8250 Ｐ＿フラットサウンド変更一部キャンセル [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc93\udce0\udc83T\udc83E\udc83\udc93\udc83h\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8251 Ｐ＿フラットサウンド変更キャンセル [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8252 Ｐ＿ボタン＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8253 Ｐ＿ボタン＿有効設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8254 Ｐ＿ボタン＿有効設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8255 Ｐ＿ボタン＿色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8256 Ｐ＿ボタン＿赤色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8257 Ｐ＿ボタン＿緑色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8258 Ｐ＿ボタン＿青色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8259 Ｐ＿ボタン＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11)] 0
+8260 Ｐ＿ボタン＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82)] 0
+8261 Ｐ＿ボタン＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8262 Ｐ＿ボタン＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8263 Ｐ＿ボタン＿フラット名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc96\udcbc', 12)] 0
+8264 Ｐ＿ボタン＿フラット名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8265 Ｐ＿ボタン＿テキスト設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8266 Ｐ＿ボタン＿テキスト取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8267 Ｐ＿ボタン＿テキスト位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10)] 0
+8268 Ｐ＿ボタン＿テキスト位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8269 Ｐ＿ボタン＿文字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8270 Ｐ＿ボタン＿文字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8271 Ｐ＿ボタン＿行間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8272 Ｐ＿ボタン＿行間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8273 Ｐ＿ＭＬテキストボックス＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8274 Ｐ＿ＭＬテキストボックス＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11)] 0
+8275 Ｐ＿ＭＬテキストボックス＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82)] 0
+8276 Ｐ＿ＭＬテキストボックス＿読み取り専用設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc93ǂݎ\udce6\udc82\udce8', 47)] 0
+8277 Ｐ＿ＭＬテキストボックス＿読み取り専用確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8278 Ｐ＿ＭＬテキストボックス＿テキスト設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8279 Ｐ＿ＭＬテキストボックス＿テキスト取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8280 Ｐ＿ＭＬテキストボックス＿最大文字数設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8dő啶\udc8e\udc9a\udc90\udc94', 10)] 0
+8281 Ｐ＿ＭＬテキストボックス＿最大文字数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8282 Ｐ＿ＭＬテキストボックス＿背景色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8283 Ｐ＿ＭＬテキストボックス＿背景色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8284 Ｐ＿ＭＬテキストボックス＿背景色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8285 Ｐ＿ＭＬテキストボックス＿背景色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8286 Ｐ＿ＭＬテキストボックス＿読み取り専用背景色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8287 Ｐ＿ＭＬテキストボックス＿読み取り専用背景色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8288 Ｐ＿ＭＬテキストボックス＿読み取り専用背景色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8289 Ｐ＿ＭＬテキストボックス＿読み取り専用背景色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8290 Ｐ＿ＭＬテキストボックス＿枠色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8291 Ｐ＿ＭＬテキストボックス＿枠色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8292 Ｐ＿ＭＬテキストボックス＿枠色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8293 Ｐ＿ＭＬテキストボックス＿枠色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8294 Ｐ＿ＭＬテキストボックス＿選択色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8295 Ｐ＿ＭＬテキストボックス＿選択色赤取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8296 Ｐ＿ＭＬテキストボックス＿選択色緑取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8297 Ｐ＿ＭＬテキストボックス＿選択色青取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8298 Ｐ＿ＭＬテキストボックス＿縦スクロールバー表示設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc83t\udc83\udc89\udc83O', 47)] 0
+8299 Ｐ＿ＭＬテキストボックス＿横スクロールバー表示設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc83t\udc83\udc89\udc83O', 47)] 0
+8300 Ｐ＿ＭＬテキストボックス＿縦スクロールバー表示設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8301 Ｐ＿ＭＬテキストボックス＿横スクロールバー表示設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8302 Ｐ＿ＭＬテキストボックス＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8303 Ｐ＿ＭＬテキストボックス＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8304 Ｐ＿ＭＬテキストボックス＿文字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8305 Ｐ＿ＭＬテキストボックス＿文字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8306 Ｐ＿ＭＬテキストボックス＿行間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8307 Ｐ＿ＭＬテキストボックス＿行間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8308 Ｐ＿ＭＬテキストボックス＿パディング設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udce3\udc83p\udc83f\udc83B\udc83\udc93\udc83O', 10), ('\udc89\udcba\udc83p\udc83f\udc83B\udc83\udc93\udc83O', 10), ('\udc8d\udcb6\udc83p\udc83f\udc83B\udc83\udc93\udc83O', 10), ('\udc89E\udc83p\udc83f\udc83B\udc83\udc93\udc83O', 10)] 0
+8309 Ｐ＿ＭＬテキストボックス＿上パディング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8310 Ｐ＿ＭＬテキストボックス＿下パディング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8311 Ｐ＿ＭＬテキストボックス＿左パディング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8312 Ｐ＿ＭＬテキストボックス＿右パディング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8313 Ｐ＿ＭＬテキストボックス＿モード設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83\udc82\udc81[\udc83h', 10)] 0
+8314 Ｐ＿ＭＬテキストボックス＿モード取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8315 Ｐ＿削除 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8316 Ｐ＿存在確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8317 Ｐ＿クリックミス効果音設定 [('\udc8c\udcf8\udc89ʉ\udcb9\udc96\udcbc', 12)] 0
+8318 Ｐ＿フォーカス設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8319 Ｐ＿フォーカス確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8320 Ｐ＿座標設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 11), ('\udc82x', 11)] 0
+8321 Ｐ＿Ｚ座標設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82y', 10)] 0
+8322 Ｐ＿Ｘ座標取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8323 Ｐ＿Ｙ座標取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8324 Ｐ＿Ｚ座標取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8325 Ｐ＿原点座標設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8c\udcb4\udc93_\udc8d\udcc0\udc95W', 10)] 0
+8326 Ｐ＿原点座標取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8327 Ｐ＿表示設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc83t\udc83\udc89\udc83O', 47)] 0
+8328 Ｐ＿表示設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8329 Ｐ＿アルファ値設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc92l', 10)] 0
+8330 Ｐ＿アルファ値取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8331 Ｐ＿加算色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8332 Ｐ＿加算色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82)] 0
+8333 Ｐ＿乗算色設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10)] 0
+8334 Ｐ＿乗算色取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82)] 0
+8335 Ｐ＿描画フィルタ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95`\udc89\udce6\udc83t\udc83B\udc83\udc8b\udc83^', 10)] 0
+8336 Ｐ＿描画フィルタ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8337 Ｐ＿Ｘ拡大率設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w\udc8ag\udc91嗦', 11)] 0
+8338 Ｐ＿Ｙ拡大率設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82x\udc8ag\udc91嗦', 11)] 0
+8339 Ｐ＿Ｘ拡大率取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8340 Ｐ＿Ｙ拡大率取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8341 Ｐ＿Ｘ回転角度設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w\udc89\udcf1\udc93]\udc8ap\udc93x', 11)] 0
+8342 Ｐ＿Ｙ回転角度設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82x\udc89\udcf1\udc93]\udc8ap\udc93x', 11)] 0
+8343 Ｐ＿Ｚ回転角度設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82y\udc89\udcf1\udc93]\udc8ap\udc93x', 11)] 0
+8344 Ｐ＿Ｘ回転角度取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8345 Ｐ＿Ｙ回転角度取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8346 Ｐ＿Ｚ回転角度取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8347 Ｐ＿矩形クリップ有効設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8348 Ｐ＿矩形クリップ有効確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8349 Ｐ＿矩形クリップ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8350 Ｐ＿矩形クリップＸ座標取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8351 Ｐ＿矩形クリップＹ座標取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8352 Ｐ＿矩形クリップ幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8353 Ｐ＿矩形クリップ高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8354 Ｐ＿左右反転設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94\udcbd\udc93]', 47)] 0
+8355 Ｐ＿上下反転設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94\udcbd\udc93]', 47)] 0
+8356 Ｐ＿左右反転設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8357 Ｐ＿上下反転設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8358 Ｐ＿マージン設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udce3\udc83}\udc81[\udc83W\udc83\udc93', 10), ('\udc89\udcba\udc83}\udc81[\udc83W\udc83\udc93', 10), ('\udc8d\udcb6\udc83}\udc81[\udc83W\udc83\udc93', 10), ('\udc89E\udc83}\udc81[\udc83W\udc83\udc93', 10)] 0
+8359 Ｐ＿上マージン取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8360 Ｐ＿下マージン取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8361 Ｐ＿左マージン取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8362 Ｐ＿右マージン取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8363 Ｐ＿アルファクリッパー設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc83N\udc83\udc8a\udc83b\udc83p\udc81[\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8364 Ｐ＿アルファクリッパー取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8365 Ｐ＿テクスチャフィルタ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10)] 0
+8366 Ｐ＿テクスチャフィルタ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8367 Ｐ＿テクスチャアドレッシング設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10)] 0
+8368 Ｐ＿テクスチャアドレッシング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8369 Ｐ＿ミップマップ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83~\udc83b\udc83v\udc83}\udc83b\udc83v', 47)] 0
+8370 Ｐ＿ミップマップ設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8371 Ｐ＿ピクセル判定設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83s\udc83N\udc83Z\udc83\udc8b\udc94\udcbb\udc92\udce8', 47)] 0
+8372 Ｐ＿ピクセル判定設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8373 Ｐ＿座標レート設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83\udc8c\udc81[\udc83g\udc90ݒ\udce8', 47)] 0
+8374 Ｐ＿座標レート設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8375 Ｐ＿ドラッグ可能設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc89\x94\\', 47)] 0
+8376 Ｐ＿ドラッグ可能設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8377 Ｐ＿スワイプタイプ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10)] 0
+8378 Ｐ＿スワイプタイプ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8379 Ｐ＿スワイプ停止 [] 0
+8380 Ｐ＿注視点変更設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95ύX', 47)] 0
+8381 Ｐ＿注視点変更設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8382 Ｐ＿アンカー上設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8383 Ｐ＿アンカー下設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8384 Ｐ＿アンカー左設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8385 Ｐ＿アンカー右設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc97L\udc8c\udcf8', 47)] 0
+8386 Ｐ＿アンカー上設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8387 Ｐ＿アンカー下設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8388 Ｐ＿アンカー左設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8389 Ｐ＿アンカー右設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8390 Ｐ＿オンカーソル効果音設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8c\udcf8\udc89ʉ\udcb9\udc96\udcbc', 12)] 0
+8391 Ｐ＿オンカーソル効果音取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8392 Ｐ＿クリック効果音設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8c\udcf8\udc89ʉ\udcb9\udc96\udcbc', 12)] 0
+8393 Ｐ＿クリック効果音取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8394 Ｐ＿クリック可能設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc91I\udc91\udcf0\udc89\x94\\', 47)] 0
+8395 Ｐ＿クリック可能設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8396 Ｐ＿オンカーソル透過設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc93\udca7\udc89ߋ\udc96\udc89\udcc2', 47)] 0
+8397 Ｐ＿オンカーソル透過設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8398 Ｐ＿クリック実行 [('\udc83L\udc81[\udc83L\udc83\udc83\udc83\udc93\udc83Z\udc83\udc8b', 47)] 10
+8399 Ｐ＿オンカーソル判定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8400 Ｐ＿モーション再生 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83\udc82\udc81[\udc83V\udc83\udc87\udc83\udc93\udc96\udcbc', 12), ('\udc82e\udc82o\udc82r', 10)] 0
+8401 Ｐ＿モーション設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83\udc82\udc81[\udc83V\udc83\udc87\udc83\udc93\udc96\udcbc', 12), ('\udc8co\udc89ߎ\udc9e\udc8a\udcd4', 10), ('\udc82e\udc82o\udc82r', 10)] 0
+8402 Ｐ＿モーション開始時間取得 [('\udc83\udc82\udc81[\udc83V\udc83\udc87\udc83\udc93\udc96\udcbc', 12), ('\udc82e\udc82o\udc82r', 10)] 10
+8403 Ｐ＿モーション終了時間取得 [('\udc83\udc82\udc81[\udc83V\udc83\udc87\udc83\udc93\udc96\udcbc', 12), ('\udc82e\udc82o\udc82r', 10)] 10
+8404 Ｐ＿非同期完了確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8405 Ｐ＿ラジオボタンボックス＿存在確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94ԍ\udc86', 10)] 47
+8406 Ｐ＿ラジオボタンボックス＿解放 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8407 Ｐ＿ラジオボタンボックス＿追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94ԍ\udc86', 10)] 0
+8408 Ｐ＿ラジオボタンボックス＿削除 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94ԍ\udc86', 10)] 0
+8409 Ｐ＿ラジオボタンボックス＿個数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8410 Ｐ＿ラジオボタンボックス＿番号取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10)] 10
+8411 Ｐ＿リストボックス＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8412 Ｐ＿リストボックス＿行高さ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8413 Ｐ＿リストボックス＿行高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8414 Ｐ＿リストボックス＿行マージン設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8415 Ｐ＿リストボックス＿行マージン幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8416 Ｐ＿リストボックス＿行マージン高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8417 Ｐ＿リストボックス＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8418 Ｐ＿リストボックス＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8419 Ｐ＿リストボックス＿スクロール位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10)] 0
+8420 Ｐ＿リストボックス＿スクロール位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8421 Ｐ＿リストボックス＿アイテム追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8422 Ｐ＿リストボックス＿アイテムリスト追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g\udc83\udc8a\udc83X\udc83g', 82)] 0
+8423 Ｐ＿リストボックス＿アイテム挿入 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8424 Ｐ＿リストボックス＿アイテム設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10), ('\udc83e\udc83L\udc83X\udc83g', 12)] 0
+8425 Ｐ＿リストボックス＿アイテム数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8426 Ｐ＿リストボックス＿アイテム取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10)] 12
+8427 Ｐ＿リストボックス＿アイテム全取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g\udc83\udc8a\udc83X\udc83g', 82)] 0
+8428 Ｐ＿リストボックス＿アイテム削除 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10)] 0
+8429 Ｐ＿リストボックス＿アイテム全削除 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8430 Ｐ＿リストボックス＿オンカーソルアイテムインデックス取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8431 Ｐ＿リストボックス＿オンカーソルアイテム取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8432 Ｐ＿リストボックス＿フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc90\udcd4', 10), ('\udc97\udcce', 10), ('\udc90\udcc2', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11)] 0
+8433 Ｐ＿リストボックス＿フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc90\udcd4', 82), ('\udc97\udcce', 82), ('\udc90\udcc2', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcd4', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc97\udcce', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc90\udcc2', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82)] 0
+8434 Ｐ＿リストボックス＿選択位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ʒu', 10)] 0
+8435 Ｐ＿リストボックス＿選択位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8436 Ｐ＿リストボックス＿文字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8aԊu', 10)] 0
+8437 Ｐ＿リストボックス＿文字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8438 Ｐ＿ループＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8a\udcee\udc96{\udc82b\udc82f\udc96\udcbc', 12), ('\udc8aJ\udc8en\udc94ԍ\udc86', 10), ('\udc96\udc87\udc90\udc94', 10), ('\udc8e\udc9e\udc8a\udcd4', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8439 Ｐ＿ループＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8440 Ｐ＿ループＣＧ開始番号取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8441 Ｐ＿ループＣＧ枚数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8442 Ｐ＿ループＣＧ切り替え時間取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8443 Ｐ＿ループＣＧ表示範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8444 Ｐ＿ループＣＧ表示範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 82), ('\udc82x', 82), ('\udc95\udc9d', 82), ('\udc8d\udc82\udc82\udcb3', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8445 Ｐ＿レイアウトボックス＿レイアウトタイプ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10)] 0
+8446 Ｐ＿レイアウトボックス＿レイアウトタイプ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8447 Ｐ＿レイアウトボックス＿折り返し設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8b\udc96\udc89\udcc2', 47), ('\udc83T\udc83C\udc83Y', 11)] 0
+8448 Ｐ＿レイアウトボックス＿折り返し設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8449 Ｐ＿レイアウトボックス＿折り返しサイズ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8450 Ｐ＿レイアウトボックス＿折り返しサイズレート設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8b\udc96\udc89\udcc2', 47)] 0
+8451 Ｐ＿レイアウトボックス＿折り返しサイズレート設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8452 Ｐ＿レイアウトボックス＿配置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94z\udc92u\udc8e\udced\udc97\udcde', 10)] 0
+8453 Ｐ＿レイアウトボックス＿配置設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8454 Ｐ＿レイアウトボックス＿存在確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94ԍ\udc86', 10)] 47
+8455 Ｐ＿レイアウトボックス＿全解放 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8456 Ｐ＿レイアウトボックス＿追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94ԍ\udc86', 10)] 0
+8457 Ｐ＿レイアウトボックス＿挿入 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10), ('\udc94ԍ\udc86', 10)] 0
+8458 Ｐ＿レイアウトボックス＿解放 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc94ԍ\udc86', 10)] 0
+8459 Ｐ＿レイアウトボックス＿個数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8460 Ｐ＿レイアウトボックス＿番号取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10)] 10
+8461 Ｐ＿レイアウトボックス＿パディング設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udce3\udc83p\udc83f\udc83B\udc83\udc93\udc83O', 10), ('\udc89\udcba\udc83p\udc83f\udc83B\udc83\udc93\udc83O', 10), ('\udc8d\udcb6\udc83p\udc83f\udc83B\udc83\udc93\udc83O', 10), ('\udc89E\udc83p\udc83f\udc83B\udc83\udc93\udc83O', 10)] 0
+8462 Ｐ＿レイアウトボックス＿上パディング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8463 Ｐ＿レイアウトボックス＿下パディング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8464 Ｐ＿レイアウトボックス＿左パディング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8465 Ｐ＿レイアウトボックス＿右パディング取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8466 Ｐ＿数字ＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8467 Ｐ＿数字ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8468 Ｐ＿数字連結ＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc95\udc9d\udc82O', 10), ('\udc95\udc9d\udc82P', 10), ('\udc95\udc9d\udc82Q', 10), ('\udc95\udc9d\udc82R', 10), ('\udc95\udc9d\udc82S', 10), ('\udc95\udc9d\udc82T', 10), ('\udc95\udc9d\udc82U', 10), ('\udc95\udc9d\udc82V', 10), ('\udc95\udc9d\udc82W', 10), ('\udc95\udc9d\udc82X', 10), ('\udc95\udc9d\udc83}\udc83C\udc83i\udc83X', 10), ('\udc95\udc9d\udc83R\udc83\udc93\udc83}', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8469 Ｐ＿数字連結幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d\udc82O', 82), ('\udc95\udc9d\udc82P', 82), ('\udc95\udc9d\udc82Q', 82), ('\udc95\udc9d\udc82R', 82), ('\udc95\udc9d\udc82S', 82), ('\udc95\udc9d\udc82T', 82), ('\udc95\udc9d\udc82U', 82), ('\udc95\udc9d\udc82V', 82), ('\udc95\udc9d\udc82W', 82), ('\udc95\udc9d\udc82X', 82), ('\udc95\udc9d\udc83}\udc83C\udc83i\udc83X', 82), ('\udc95\udc9d\udc83R\udc83\udc93\udc83}', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8470 Ｐ＿数字半角フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82q', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82f', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82a', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8471 Ｐ＿数字全角フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82q', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82f', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82a', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8472 Ｐ＿数字フォント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc83T\udc83C\udc83Y', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 11), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82q', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82f', 10), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82a', 10), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8473 Ｐ＿数字フォント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 82), ('\udc83T\udc83C\udc83Y', 82), ('\udc82q', 82), ('\udc82f', 82), ('\udc82a', 82), ('\udc91\udcbe\udc8e\udc9a\udc95\udc9d', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82q', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82f', 82), ('\udc89\udc8f\udc8e\udce6\udc82\udce8\udc82a', 82), ('\udc89\udc8f\udc8e\udce6\udc82蕝', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8474 Ｐ＿数字フォント全角設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc91S\udc8ap', 47), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8475 Ｐ＿数字フォント全角設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8476 Ｐ＿数字設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90\udc94', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8477 Ｐ＿数字取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8478 Ｐ＿数字コンマ表示設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc83t\udc83\udc89\udc83O', 47), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8479 Ｐ＿数字コンマ表示設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8480 Ｐ＿数字字間隔設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('_\udc8e\udc9a\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8481 Ｐ＿数字字間隔取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8482 Ｐ＿数字桁設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8c\udc85\udc90\udc94', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8483 Ｐ＿数字桁取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8484 Ｐ＿数字表示範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8485 Ｐ＿数字表示範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 82), ('\udc82x', 82), ('\udc95\udc9d', 82), ('\udc8d\udc82\udc82\udcb3', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8486 Ｐ＿数字表示タイプ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udced\udc97\udcde', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8487 Ｐ＿数字表示タイプ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 10
+8488 Ｐ＿数字パディング表示設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc83t\udc83\udc89\udc83O', 47), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8489 Ｐ＿数字パディング表示設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8490 Ｐ＿構築手順＿作成 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8491 Ｐ＿構築手順＿ピクセル作成 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8492 Ｐ＿構築手順＿ＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8493 Ｐ＿構築手順＿色塗り全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8494 Ｐ＿構築手順＿色塗り [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8495 Ｐ＿構築手順＿アルファ塗り全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8496 Ｐ＿構築手順＿アルファ塗り [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8497 Ｐ＿構築手順＿ブレンド塗り全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8498 Ｐ＿構築手順＿ブレンド塗り [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8499 Ｐ＿構築手順＿グラデーション全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udce3\udc82q', 10), ('\udc8f\udce3\udc82f', 10), ('\udc8f\udce3\udc82a', 10), ('\udc89\udcba\udc82q', 10), ('\udc89\udcba\udc82f', 10), ('\udc89\udcba\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8500 Ｐ＿構築手順＿グラデーション [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udce3\udc82q', 10), ('\udc8f\udce3\udc82f', 10), ('\udc8f\udce3\udc82a', 10), ('\udc89\udcba\udc82q', 10), ('\udc89\udcba\udc82f', 10), ('\udc89\udcba\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8501 Ｐ＿構築手順＿アルファ水平グラデーション全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc8f\udce3', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc89\udcba', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8502 Ｐ＿構築手順＿アルファ水平グラデーション [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc8f\udce3', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc89\udcba', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8503 Ｐ＿構築手順＿アルファ垂直グラデーション全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc8d\udcb6', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc89E', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8504 Ｐ＿構築手順＿アルファ垂直グラデーション [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc8d\udcb6', 10), ('\udc83A\udc83\udc8b\udc83t\udc83@\udc89E', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8505 Ｐ＿構築手順＿テキストブレンド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc83t\udc83H\udc83\udc93\udc83g', 13), ('\udc95\udcb6\udc8e\udc9a\udc8aԊu', 10), ('\udc8ds\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8506 Ｐ＿構築手順＿テキストコピー [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc83t\udc83H\udc83\udc93\udc83g', 13), ('\udc95\udcb6\udc8e\udc9a\udc8aԊu', 10), ('\udc8ds\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8507 Ｐ＿構築手順＿テキストアルファブレンド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc83t\udc83H\udc83\udc93\udc83g', 13), ('\udc95\udcb6\udc8e\udc9a\udc8aԊu', 10), ('\udc8ds\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8508 Ｐ＿構築手順＿テキストアルファ塗り [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc83t\udc83H\udc83\udc93\udc83g', 13), ('\udc95\udcb6\udc8e\udc9a\udc8aԊu', 10), ('\udc8ds\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8509 Ｐ＿構築手順＿矩形 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8510 Ｐ＿構築手順＿ＣＧブレンド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8511 Ｐ＿構築手順＿ＣＧ部分ブレンド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82w', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8512 Ｐ＿構築手順＿ＣＧ部分コピー [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82w', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8513 Ｐ＿構築手順＿ＣＧ部分拡大縮小ブレンド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90敝', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90捂\udc82\udcb3', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82w', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82x', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc95\udc9d', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc8d\udc82\udc82\udcb3', 10), ('\udc95\udce2\udc8aԕ\udcfb\udc96@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8514 Ｐ＿構築手順＿ＣＧ部分拡大縮小コピー [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90敝', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90捂\udc82\udcb3', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82w', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82x', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc95\udc9d', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc8d\udc82\udc82\udcb3', 10), ('\udc95\udce2\udc8aԕ\udcfb\udc96@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8515 Ｐ＿構築手順＿白黒フィルタ [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8516 Ｐ＿構築手順＿白黒フィルタ全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8517 Ｐ＿構築手順＿加算フィルタ [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8518 Ｐ＿構築手順＿加算フィルタ全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8519 Ｐ＿構築手順＿乗算フィルタ [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8520 Ｐ＿構築手順＿乗算フィルタ全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8521 Ｐ＿構築手順＿横ブラー [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc83u\udc83\udc89\udc81[\udc92l', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8522 Ｐ＿構築手順＿横ブラー全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83u\udc83\udc89\udc81[\udc92l', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8523 Ｐ＿構築手順＿縦ブラー [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc83u\udc83\udc89\udc81[\udc92l', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8524 Ｐ＿構築手順＿縦ブラー全 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83u\udc83\udc89\udc81[\udc92l', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8525 Ｐ＿構築手順＿線 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w\udc82P', 10), ('\udc82x\udc82P', 10), ('\udc82w\udc82Q', 10), ('\udc82x\udc82Q', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc82`', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8526 Ｐ＿構築手順＿ＣＧ部分アルファブレンド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82w', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8527 Ｐ＿構築手順＿ＣＧ部分拡大縮小アルファブレンド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90敝', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90捂\udc82\udcb3', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82w', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82x', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc95\udc9d', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc8d\udc82\udc82\udcb3', 10), ('\udc95\udce2\udc8aԕ\udcfb\udc96@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8528 Ｐ＿構築手順＿ＣＧ部分アルファ塗り [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82w', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8529 Ｐ＿構築手順＿ＣＧ部分拡大縮小アルファ塗り [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82w', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90\udce6\udc82x', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90敝', 10), ('\udc93\\\udc82\udce8\udc95t\udc82\udcaf\udc90捂\udc82\udcb3', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82w', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc82x', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc95\udc9d', 10), ('\udc90\u0602\udce8\udc8e\udce6\udc82茳\udc8d\udc82\udc82\udcb3', 10), ('\udc95\udce2\udc8aԕ\udcfb\udc96@', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8530 Ｐ＿構築手順＿初期化 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8531 Ｐ＿構築ビルド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8532 Ｐ＿構築非同期ビルド [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('dgCompleted', 63), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8533 Ｐ＿構築表示範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8534 Ｐ＿構築表示範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 82), ('\udc82x', 82), ('\udc95\udc9d', 82), ('\udc8d\udc82\udc82\udcb3', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8535 Ｐ＿矩形構築 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc82q', 10), ('\udc82f', 10), ('\udc82a', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8536 Ｐ＿テキスト構築 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83e\udc83L\udc83X\udc83g', 12), ('\udc83t\udc83H\udc83\udc93\udc83g', 13), ('\udc95\udcb6\udc8e\udc9a\udc8aԊu', 10), ('\udc8ds\udc8aԊu', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8537 Ｐ＿横ゲージＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8538 Ｐ＿横ゲージＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8539 Ｐ＿横ゲージ率設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udcaa\udc8eq', 11), ('\udc95\udcaa\udc95\udcea', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8540 Ｐ＿横ゲージ分子取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 11
+8541 Ｐ＿横ゲージ分母取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 11
+8542 Ｐ＿横ゲージ表示範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8543 Ｐ＿横ゲージ表示範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 82), ('\udc82x', 82), ('\udc95\udc9d', 82), ('\udc8d\udc82\udc82\udcb3', 82), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8544 Ｐ＿横スクロールバー＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8545 Ｐ＿横スクロールバー＿左ボタン幅設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10)] 0
+8546 Ｐ＿横スクロールバー＿右ボタン幅設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10)] 0
+8547 Ｐ＿横スクロールバー＿左ボタン幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8548 Ｐ＿横スクロールバー＿右ボタン幅取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8549 Ｐ＿横スクロールバー＿全体量設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc91S\udc91̗\udcca', 10)] 0
+8550 Ｐ＿横スクロールバー＿表示量設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc97\udcca', 10)] 0
+8551 Ｐ＿横スクロールバー＿スクロール位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc88ʒu', 10)] 0
+8552 Ｐ＿横スクロールバー＿スクロールレート設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83\udc8c\udc81[\udc83g', 11)] 0
+8553 Ｐ＿横スクロールバー＿ボタンクリック移動量設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ړ\udcae\udc97\udcca', 10)] 0
+8554 Ｐ＿横スクロールバー＿全体量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8555 Ｐ＿横スクロールバー＿表示量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8556 Ｐ＿横スクロールバー＿スクロール位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8557 Ｐ＿横スクロールバー＿スクロールレート取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8558 Ｐ＿横スクロールバー＿ボタンクリック移動量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8559 Ｐ＿横スクロールバー＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8560 Ｐ＿横スクロールバー＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8561 Ｐ＿横スクロールバー＿フラット名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc96\udcbc', 12)] 0
+8562 Ｐ＿横スクロールバー＿フラット名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8563 Ｐ＿横スクロールバー＿全体量サイズ連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eQ\udc8fƃp\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8564 Ｐ＿横スクロールバー＿表示量サイズ連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eQ\udc8fƃp\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8565 Ｐ＿横スクロールバー＿全体量サイズ連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8566 Ｐ＿横スクロールバー＿表示量サイズ連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8567 Ｐ＿矩形判定設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8568 Ｐ＿矩形判定ポイント設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w\udc82P', 10), ('\udc82x\udc82P', 10), ('\udc82w\udc82Q', 10), ('\udc82x\udc82Q', 10), ('\udc82w\udc82R', 10), ('\udc82x\udc82R', 10), ('\udc82w\udc82S', 10), ('\udc82x\udc82S', 10)] 0
+8569 Ｐ＿矩形判定ポイント取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w\udc82P', 82), ('\udc82x\udc82P', 82), ('\udc82w\udc82Q', 82), ('\udc82x\udc82Q', 82), ('\udc82w\udc82R', 82), ('\udc82x\udc82R', 82), ('\udc82w\udc82S', 82), ('\udc82x\udc82S', 82)] 0
+8570 Ｐ＿矩形判定範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8571 Ｐ＿矩形判定範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 82), ('\udc82x', 82), ('\udc95\udc9d', 82), ('\udc8d\udc82\udc82\udcb3', 82)] 0
+8572 Ｐ＿縦ゲージＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8573 Ｐ＿縦ゲージＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8574 Ｐ＿縦ゲージ率設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udcaa\udc8eq', 11), ('\udc95\udcaa\udc95\udcea', 11), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8575 Ｐ＿縦ゲージ分子取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 11
+8576 Ｐ＿縦ゲージ分母取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 11
+8577 Ｐ＿縦ゲージ表示範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8578 Ｐ＿縦ゲージ表示範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8579 Ｐ＿縦スクロールバー＿サイズ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8580 Ｐ＿縦スクロールバー＿上ボタン高さ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8581 Ｐ＿縦スクロールバー＿下ボタン高さ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8582 Ｐ＿縦スクロールバー＿上ボタン高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8583 Ｐ＿縦スクロールバー＿下ボタン高さ取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8584 Ｐ＿縦スクロールバー＿全体量設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc91S\udc91̗\udcca', 10)] 0
+8585 Ｐ＿縦スクロールバー＿表示量設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc97\udcca', 10)] 0
+8586 Ｐ＿縦スクロールバー＿スクロール位置設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc88ʒu', 10)] 0
+8587 Ｐ＿縦スクロールバー＿スクロールレート設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83\udc8c\udc81[\udc83g', 11)] 0
+8588 Ｐ＿縦スクロールバー＿ボタンクリック移動量設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc88ړ\udcae\udc97\udcca', 10)] 0
+8589 Ｐ＿縦スクロールバー＿全体量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8590 Ｐ＿縦スクロールバー＿表示量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8591 Ｐ＿縦スクロールバー＿スクロール位置取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8592 Ｐ＿縦スクロールバー＿スクロールレート取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 11
+8593 Ｐ＿縦スクロールバー＿ボタンクリック移動量取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8594 Ｐ＿縦スクロールバー＿ＣＧ名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8595 Ｐ＿縦スクロールバー＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8596 Ｐ＿縦スクロールバー＿フラット名設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83t\udc83\udc89\udc83b\udc83g\udc96\udcbc', 12)] 0
+8597 Ｐ＿縦スクロールバー＿フラット名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8598 Ｐ＿縦スクロールバー＿全体量サイズ連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eQ\udc8fƃp\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8599 Ｐ＿縦スクロールバー＿表示量サイズ連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eQ\udc8fƃp\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8600 Ｐ＿縦スクロールバー＿全体量サイズ連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8601 Ｐ＿縦スクロールバー＿表示量サイズ連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8602 Ｐ＿親設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc90e\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8603 Ｐ＿親設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8604 Ｐ＿親解放 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8605 Ｐ＿子存在確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eq\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8606 Ｐ＿子全解放 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8607 Ｐ＿子追加 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eq\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8608 Ｐ＿子挿入 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10), ('\udc8eq\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8609 Ｐ＿子解放 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eq\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8610 Ｐ＿子数取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8611 Ｐ＿子インデックス取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eq\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8612 Ｐ＿子取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83C\udc83\udc93\udc83f\udc83b\udc83N\udc83X', 10)] 10
+8613 Ｐ＿オンカーソル表示連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eQ\udc8fƃp\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8614 Ｐ＿オンカーソル表示連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8615 Ｐ＿スクロールＸ座標連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eQ\udc8fƃp\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8616 Ｐ＿スクロールＹ座標連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eQ\udc8fƃp\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8617 Ｐ＿スクロールＸ座標連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8618 Ｐ＿スクロールＹ座標連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8619 Ｐ＿スクロールアルファ連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8eQ\udc8fƃp\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8620 Ｐ＿スクロールアルファ連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8621 Ｐ＿チェックボックス表示連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc83`\udc83F\udc83b\udc83N\udc83{\udc83b\udc83N\udc83X\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 0
+8622 Ｐ＿チェックボックス表示連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 10
+8623 Ｐ＿メッセージウィンドウ表示連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc95\\\udc8e\udca6\udc98A\udc93\udcae\udc90ݒ\udce8', 47)] 0
+8624 Ｐ＿メッセージウィンドウ表示連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8625 Ｐ＿メッセージウィンドウ視覚効果連動設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8e\udc8b\udc8ao\udc8c\udcf8\udc89ʘA\udc93\udcae\udc90ݒ\udce8', 47)] 0
+8626 Ｐ＿メッセージウィンドウ視覚効果連動設定取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 47
+8627 Ｐ＿ＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8628 Ｐ＿左右反転ＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8629 Ｐ＿上下反転ＣＧ設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8630 Ｐ＿ＣＧ非同期設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82b\udc82f\udc96\udcbc', 12), ('dgCompleted', 63), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8631 Ｐ＿ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 12
+8632 Ｐ＿左右反転確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8633 Ｐ＿上下反転確認 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 47
+8634 Ｐ＿ＣＧ表示範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8635 Ｐ＿ＣＧ表示範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 18), ('\udc82x', 18), ('\udc95\udc9d', 18), ('\udc8d\udc82\udc82\udcb3', 18), ('\udc8f\udcf3\udc91\udcd4', 10)] 0
+8636 Ｐ＿ＣＧ判定設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc82b\udc82f\udc96\udcbc', 12)] 0
+8637 Ｐ＿ＣＧ判定ＣＧ名取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10)] 12
+8638 Ｐ＿ＣＧ判定範囲設定 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 10), ('\udc82x', 10), ('\udc95\udc9d', 10), ('\udc8d\udc82\udc82\udcb3', 10)] 0
+8639 Ｐ＿ＣＧ判定範囲取得 [('\udc83p\udc81[\udc83c\udc94ԍ\udc86', 10), ('\udc82w', 18), ('\udc82x', 18), ('\udc95\udc9d', 18), ('\udc8d\udc82\udc82\udcb3', 18)] 0

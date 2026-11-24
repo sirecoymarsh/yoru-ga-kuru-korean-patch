@@ -1,0 +1,1347 @@
+{
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-30T01:39:55+09:00",
+ "static": {
+  "files": {
+   "NightRemaster.ain": "fae56fb70c8d9c0c8a6bc23c22ef4b76f6e569a7adbd304e4f2d3b639e8353d8",
+   "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+  },
+  "old_code_bytes_changed": 19,
+  "sites": {
+   "A": {
+    "function": "N_ModeScene::CheckEnabelScenario",
+    "site": "0x6940ce",
+    "before": "5a00000000000600000000000000",
+    "after": "30009a8000000000000000000100",
+    "decoded": [
+     "0x6940ce CALLFUNC 0x809a",
+     "0x6940d4 PUSH 0x0",
+     "0x6940da POP"
+    ]
+   },
+   "B": {
+    "function": "N_ModeScene::CheckEnabelScenario",
+    "site": "0x6940e2",
+    "before": "04000000340100000c0101000000",
+    "after": "0000010000000000000000000100",
+    "decoded": [
+     "0x6940e2 PUSH 0x1",
+     "0x6940e8 PUSH 0x0",
+     "0x6940ee POP"
+    ]
+   },
+   "C": {
+    "function": "KR_CGlobal",
+    "site": "0xc8bd4a",
+    "before": "30003b740000",
+    "after": "300098800000",
+    "decoded": [
+     "0xc8bd4a CALLFUNC 0x8098"
+    ]
+   },
+   "D": {
+    "function": "S_ModeCGCellInfo@UpdateEnableCG",
+    "site": "0x690830",
+    "before": "300001180000",
+    "after": "30009b800000",
+    "decoded": [
+     "0x690830 CALLFUNC 0x809b"
+    ]
+   },
+   "E": {
+    "function": "KR_CDo",
+    "site": "0xc8f72e",
+    "before": "4100aa510000",
+    "after": "4100305d0000",
+    "decoded": [
+     "0xc8f72e S_PUSH 0x5d30"
+    ]
+   }
+  },
+  "str0_added": [
+   "YoruKR.G25.All",
+   "〓모드 메뉴\n†전체 개방: 안 본 이벤트·회상·CG도 열람·재생됩니다"
+  ],
+  "msg1_exact": true,
+  "str0_prefix_exact": true,
+  "metadata_changed": [
+   "KR_MSetUnlock"
+  ],
+  "appended": [
+   "KR_G25SceneBase",
+   "KR_G25SetUnlockBase",
+   "KR_G25All",
+   "KR_G25Exist",
+   "KR_G25SetUnlock",
+   "KR_G25NoteText"
+  ],
+  "pinned_bytes": {
+   "KR_T9HomeCasual": 226,
+   "KR_T9HomeConfig": 292,
+   "C_SceneHomebase@CheckGameSysButtons": 544,
+   "C_SceneHomebase@Run": 1098,
+   "LSys3xScript::RunEvent": 1286,
+   "KR_T18RunSandboxed": 434
+  },
+  "music": {
+   "C_SceneModeSoundView@IsEnableSound": {
+    "constant_true_at": "0x69ab24",
+    "ops_before": 22,
+    "debug_path": null
+   },
+   "S_SoundModeCellInfo@IsEnable": {
+    "constant_true_at": "0x69ac7a",
+    "ops_before": 13,
+    "debug_path": "IsDebugMode && N_ModeSound::DbgEnableAll"
+   }
+  },
+  "saved_frames": 1256,
+  "saved_frame_files": [
+   "NightR01.asd",
+   "NightR02.asd",
+   "NightR03.asd",
+   "NightR04.asd",
+   "NightR05.asd",
+   "NightR06.asd",
+   "NightR07.asd",
+   "NightR08.asd",
+   "NightR09.asd",
+   "NightR10.asd",
+   "NightR11.asd",
+   "NightR12.asd",
+   "NightR13.asd",
+   "NightR14.asd",
+   "NightR15.asd",
+   "NightR16.asd",
+   "NightR17.asd",
+   "NightR18.asd",
+   "NightR19.asd",
+   "NightR20.asd",
+   "NightR21.asd",
+   "NightR22.asd",
+   "NightR23.asd",
+   "NightR24.asd",
+   "NightR25.asd",
+   "NightR26.asd",
+   "NightR27.asd",
+   "NightR28.asd",
+   "NightR29.asd",
+   "NightR30.asd",
+   "NightR31.asd",
+   "NightR32.asd",
+   "NightR33.asd",
+   "NightR34.asd",
+   "NightR35.asd",
+   "NightR36.asd",
+   "NightR37.asd",
+   "NightR38.asd",
+   "NightR39.asd",
+   "NightR40.asd",
+   "NightR41.asd",
+   "NightR42.asd",
+   "NightR43.asd",
+   "NightR44.asd",
+   "NightR45.asd",
+   "NightR46.asd",
+   "NightR47.asd",
+   "NightR48.asd",
+   "NightR49.asd",
+   "NightR998.asd",
+   "NightR999.asd"
+  ],
+  "saved_frames_in_edited_functions": 0
+ },
+ "world": {
+  "ex": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\ex_runtime.x",
+  "ex_sha256": "9890f845d8b0bde63eea2501f0b887554cc225df4b6f092d174b6763f8b4b486",
+  "memory_slots": 76,
+  "cg_cells": 60,
+  "cg_names": 90,
+  "music_rows": 18,
+  "events": 1164,
+  "states": {
+   "none": {
+    "labels": 0,
+    "cg": 0,
+    "msgskip": 0
+   },
+   "pattern": {
+    "labels": 33,
+    "cg": 30,
+    "msgskip": 376
+   },
+   "all": {
+    "labels": 66,
+    "cg": 90,
+    "msgskip": 1128
+   }
+  }
+ },
+ "V1": [
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 0,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 0,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 0,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 0,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 0,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 0,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 0,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 0,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 37,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 37,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 37,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 37,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 37,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 37,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 37,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 37,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "closed",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open_no_root",
+   "slots": 76,
+   "installed_open": 76,
+   "candidate_open": 76,
+   "flag_file_reads": 1
+  }
+ ],
+ "V2": [
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 0,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 0,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 0,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 0,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 0,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 0,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 0,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 0,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 0,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 0,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 0,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 0,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 0,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 0,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 0,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 0,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 28,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 30,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 28,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 30,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 28,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 30,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 28,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 30,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 28,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 30,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 28,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 30,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 28,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 30,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 28,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 30,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "closed",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open_no_root",
+   "cells": 60,
+   "installed_open_cells": 60,
+   "candidate_open_cells": 60,
+   "installed_enabled_cgs": 90,
+   "candidate_enabled_cgs": 90,
+   "flag_file_reads": 1
+  }
+ ],
+ "V3": [
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": null,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 0,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": null,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 431,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": null,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "closed",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open_no_root",
+   "events": 1164,
+   "global_read_installed": 1162,
+   "differing": 0
+  }
+ ],
+ "V3_scope": {
+  "cells": 915,
+  "events": 1164,
+  "memory_cell_events": 151
+ },
+ "V4": {
+  "a_flag1_50_calls_reads": 1,
+  "notices": {
+   "candidate_unlock_all": [
+    "〓모드 메뉴\n†전체 개방: 안 본 이벤트·회상·CG도 열람·재생됩니다"
+   ],
+   "candidate_unlock_revert": [
+    "〓모드 메뉴\n†전체 개방 되돌리기: 읽은 이벤트만 열람·재생됩니다"
+   ],
+   "installed_unlock_all": [
+    "〓모드 메뉴\n†전체 개방: 안 본 이벤트도 열람·재생됩니다"
+   ],
+   "installed_unlock_revert": [
+    "〓모드 메뉴\n†전체 개방 되돌리기: 읽은 이벤트만 열람·재생됩니다"
+   ]
+  },
+  "calendar_open_closed_open": [
+   0,
+   1,
+   0
+  ]
+ },
+ "V6": [
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "none",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "pattern",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 0,
+   "chart": "closed",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "closed",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvShort",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvHead",
+   "events": 1164,
+   "differing": 0
+  },
+  {
+   "state": "all",
+   "flag": 1,
+   "chart": "open",
+   "getter": "KR_T19EvWhen",
+   "events": 1164,
+   "differing": 0
+  }
+ ],
+ "failures": [],
+ "planted_defects": {
+  "D1 calendar gate removed (KR_G25All ignores KR_CActive)": {
+   "caught": true,
+   "failures": 232,
+   "first": [
+    "V1 none flag=1 chart=open slot=(0,0) cand=1 want=0 base=0",
+    "V1 none flag=1 chart=open slot=(0,1) cand=1 want=0 base=0",
+    "V1 none flag=1 chart=open slot=(0,2) cand=1 want=0 base=0"
+   ],
+   "error": null,
+   "V3_differing": [],
+   "V6_differing": []
+  },
+  "D2 cache not refreshed by KR_MSetUnlock": {
+   "caught": true,
+   "failures": 5,
+   "first": [
+    "V4b set 0: ret 1 cache '1' all 1 extra reads 0",
+    "V4e failed write, no file: ret 0 cache None",
+    "V4g KR_CDo unlock_all: notices ['〓모드 메뉴\\n†전체 개방: 안 본 이벤트·회상·CG도 열람·재생됩니다'] cache None"
+   ],
+   "error": null,
+   "V3_differing": [],
+   "V6_differing": []
+  },
+  "D3 CG judgment not rerouted (UpdateEnableCG keeps the game check)": {
+   "caught": true,
+   "failures": 208,
+   "first": [
+    "V2 none flag=1 chart=closed cell 0 open=0 enabled=0/1",
+    "V2 none flag=1 chart=closed cell 1 open=0 enabled=0/4",
+    "V2 none flag=1 chart=closed cell 2 open=0 enabled=0/2"
+   ],
+   "error": null,
+   "V3_differing": [],
+   "V6_differing": []
+  },
+  "D4 flag 0 but open (cache initialised without reading the file)": {
+   "caught": true,
+   "failures": 927,
+   "first": [
+    "V1 none flag=None chart=closed slot=(0,0) cand=1 want=0 base=0",
+    "V1 none flag=None chart=closed slot=(0,1) cand=1 want=0 base=0",
+    "V1 none flag=None chart=closed slot=(0,2) cand=1 want=0 base=0"
+   ],
+   "error": null,
+   "V3_differing": [],
+   "V6_differing": []
+  },
+  "D5 KR_CGlobal on the flagged judgment (the brief placement)": {
+   "caught": true,
+   "failures": 30,
+   "first": [
+    "V3 none flag=1 chart=closed event 2: KR_CGlobal cand=1 installed=0",
+    "V3 none flag=1 chart=closed event 7: KR_CGlobal cand=1 installed=0",
+    "V3 none flag=1 chart=closed event 8: KR_CGlobal cand=1 installed=0"
+   ],
+   "error": null,
+   "V3_differing": [
+    {
+     "state": "none",
+     "flag": 1,
+     "chart": "closed",
+     "events": 1164,
+     "global_read_installed": 0,
+     "differing": 151
+    },
+    {
+     "state": "none",
+     "flag": 1,
+     "chart": "open_no_root",
+     "events": 1164,
+     "global_read_installed": 0,
+     "differing": 151
+    },
+    {
+     "state": "pattern",
+     "flag": 1,
+     "chart": "closed",
+     "events": 1164,
+     "global_read_installed": 431,
+     "differing": 61
+    },
+    {
+     "state": "pattern",
+     "flag": 1,
+     "chart": "open_no_root",
+     "events": 1164,
+     "global_read_installed": 431,
+     "differing": 61
+    }
+   ],
+   "V6_differing": [
+    {
+     "state": "none",
+     "flag": 1,
+     "chart": "closed",
+     "getter": "KR_T19EvShort",
+     "events": 1164,
+     "differing": 15
+    },
+    {
+     "state": "none",
+     "flag": 1,
+     "chart": "closed",
+     "getter": "KR_T19EvHead",
+     "events": 1164,
+     "differing": 15
+    },
+    {
+     "state": "none",
+     "flag": 1,
+     "chart": "closed",
+     "getter": "KR_T19EvWhen",
+     "events": 1164,
+     "differing": 17
+    },
+    {
+     "state": "pattern",
+     "flag": 1,
+     "chart": "closed",
+     "getter": "KR_T19EvShort",
+     "events": 1164,
+     "differing": 4
+    },
+    {
+     "state": "pattern",
+     "flag": 1,
+     "chart": "closed",
+     "getter": "KR_T19EvHead",
+     "events": 1164,
+     "differing": 4
+    },
+    {
+     "state": "pattern",
+     "flag": 1,
+     "chart": "closed",
+     "getter": "KR_T19EvWhen",
+     "events": 1164,
+     "differing": 4
+    }
+   ]
+  },
+  "D6 DbgEnableAll gate kept (edit B missing)": {
+   "caught": true,
+   "failures": 254,
+   "first": [
+    "V1 none flag=1 chart=closed slot=(0,0) cand=0 want=1 base=0",
+    "V1 none flag=1 chart=closed slot=(0,1) cand=0 want=1 base=0",
+    "V1 none flag=1 chart=closed slot=(0,2) cand=0 want=1 base=0"
+   ],
+   "error": null,
+   "V3_differing": [],
+   "V6_differing": []
+  }
+ },
+ "seconds": 244.7,
+ "status": "GALLERY_UNLOCK_VM_PASS",
+ "candidate_sha256": "fae56fb70c8d9c0c8a6bc23c22ef4b76f6e569a7adbd304e4f2d3b639e8353d8"
+}

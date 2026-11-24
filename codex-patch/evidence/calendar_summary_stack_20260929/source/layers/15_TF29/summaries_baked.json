@@ -1,0 +1,700 @@
+{
+ "tag": "ME",
+ "key": "calendar_ME_summaries_20260929",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:28:59.301107+09:00",
+ "dry_run": false,
+ "events": [
+  {
+   "no": 50101,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10001
+  },
+  {
+   "no": 50102,
+   "tab": 8,
+   "kind": "text",
+   "summary": "이즈미가 주인공을 위해 싸 온 도시락을 함께 먹다가 주인공이 갈수록 매워지는 반찬에 쓰러진다. 이즈미는 다음엔 맵지 않게 만들겠다며 대신 주인공의 요리를 먹고 싶다고 한다."
+  },
+  {
+   "no": 50103,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10061
+  },
+  {
+   "no": 50104,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10041
+  },
+  {
+   "no": 50105,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10081
+  },
+  {
+   "no": 50106,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10101
+  },
+  {
+   "no": 50107,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10121
+  },
+  {
+   "no": 50108,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10501
+  },
+  {
+   "no": 50109,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10201
+  },
+  {
+   "no": 50110,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 10202
+  },
+  {
+   "no": 50111,
+   "tab": 8,
+   "kind": "text",
+   "summary": "결전을 앞둔 밤, 이즈미가 주인공의 방을 찾아와 홀로 싸우며 분노에 휩싸였던 날들을 털어놓는다. 주인공은 지키고 싶은 건 이즈미라고 고백하고, 두 사람은 밤을 함께 보낸다."
+  },
+  {
+   "no": 50112,
+   "tab": 8,
+   "kind": "text",
+   "summary": "반년 뒤 교복 차림의 주인공이 진학한 이즈미와 데이트하며 부원들의 근황을 나눈다. 그날 밤 일행은 소녀를 쫓던 남자에게 씐 히카리를 쓰러뜨리고 소녀를 구한다."
+  },
+  {
+   "no": 50201,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 20021
+  },
+  {
+   "no": 50202,
+   "tab": 8,
+   "kind": "text",
+   "summary": "여름옷 쇼핑에 따라간 주인공이 속마음이 보이기에 솔직하게 말한다는 쿄카의 생각을 듣는다. 비명에 탈의실로 뛰어든 주인공은 옷을 갈아입던 쿄카를 보고 말아 규동을 사 주기로 한다."
+  },
+  {
+   "no": 50203,
+   "tab": 8,
+   "kind": "text",
+   "summary": "밤늦은 학교에서 쿄카와 불꽃놀이를 하던 주인공이 입원 중인 언니 이야기를 듣는다. 남의 생각이 저절로 들리는 능력이 성가시다던 쿄카는 솔직한 주인공의 마음이 좋다고 말한다."
+  },
+  {
+   "no": 50204,
+   "tab": 8,
+   "kind": "text",
+   "summary": "쿄카가 주운 새끼 고양이와 치로가 공원에서 사라져 주인공이 함께 찾다가 애완동물을 노리던 히카리를 쓰러뜨린다. 쿄카는 위험을 걱정해 고양이를 남에게 맡기고 주인공에게 고마워한다."
+  },
+  {
+   "no": 50205,
+   "tab": 8,
+   "kind": "text",
+   "summary": "주인공과 보러 간 영화가 슬픈 연애물임을 알고 나가려던 쿄카는 결국 펑펑 운다. 마음이 읽히지 않는 영화에는 그대로 빠져든다고 말한 쿄카는 다음엔 울지 않는 영화를 보자고 한다."
+  },
+  {
+   "no": 50206,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 20121
+  },
+  {
+   "no": 50207,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 20101
+  },
+  {
+   "no": 50208,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 20501
+  },
+  {
+   "no": 50209,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 20141
+  },
+  {
+   "no": 50210,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 20181
+  },
+  {
+   "no": 50211,
+   "tab": 8,
+   "kind": "text",
+   "summary": "결전 전야, 이즈미의 방에서 울며 뛰쳐나온 쿄카를 찾아간 주인공이 되살아난 과거의 기억과 죄책감을 듣는다. 주인공은 쿄카의 편이 되겠다며 진짜 쿄카를 함께 되찾자고 끌어안는다."
+  },
+  {
+   "no": 50212,
+   "tab": 8,
+   "kind": "text",
+   "summary": "반년 뒤 여름 축제에서 주인공이 쿄카, 병원을 나온 언니 미사토와 노점을 돈다. 불꽃놀이를 보던 미사토가 꿈속의 누군가를 떠올리며 눈물을 흘리자 쿄카는 언니를 끌어안고 운다."
+  },
+  {
+   "no": 50301,
+   "tab": 8,
+   "kind": "text",
+   "summary": "라디오 드라마 출연을 앞둔 마나미를 놀렸다가 토라지게 한 주인공이 사과로 대본 연습 상대를 맡는다. 서툰 탐정 연기에도 맞추기 편하다는 마나미와 몇 시간이나 연습한다."
+  },
+  {
+   "no": 50302,
+   "tab": 8,
+   "kind": "text",
+   "summary": "특훈 뒤 마나미와 쇼핑에 나선 주인공이 서로 티셔츠를 골라 준다. 사은품 인형을 아끼는 게 유치하냐며 풀 죽은 마나미를 달래자, 마나미는 다음에도 옷 가게를 안내하겠다고 한다."
+  },
+  {
+   "no": 50304,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 30121
+  },
+  {
+   "no": 50305,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 30501
+  },
+  {
+   "no": 50306,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 30081
+  },
+  {
+   "no": 50307,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 30041
+  },
+  {
+   "no": 50308,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 30101
+  },
+  {
+   "no": 50309,
+   "tab": 8,
+   "kind": "text",
+   "summary": "결전 전야, 잠 못 들던 주인공이 마나미의 권유로 한밤의 상점가 데이트에 나선다. 자신을 위해 이 밤을 끝내겠다는 마나미에게 주인공은 좋아한다고 고백하고 꼭 이기자고 다짐한다."
+  },
+  {
+   "no": 50310,
+   "tab": 8,
+   "kind": "text",
+   "summary": "미뤄 온 데이트 날, 주인공은 마나미와 영화를 보고 놀이공원의 히어로 쇼를 구경한다. 배우 양성소에 다니겠다는 마나미의 꿈을 들은 주인공은 응원을 약속하고 함께 목청껏 소리친다."
+  },
+  {
+   "no": 50401,
+   "tab": 8,
+   "kind": "text",
+   "summary": "특훈 뒤 마코토의 집에서 밥을 얻어먹게 된 주인공이 장작 패듯 채소를 써는 마코토를 말린다. 요리를 도맡아 지치지만 기뻐하던 키라라와 살짝 웃던 마코토를 떠올리며 흐뭇해한다."
+  },
+  {
+   "no": 50402,
+   "tab": 8,
+   "kind": "text",
+   "summary": "재료를 얻으러 간 주인공이 키라라가 좋아할 거라는 마코토의 부탁으로 카레를 만든다. 식사 뒤 싸움밖에 몰라 키라라를 웃게 하지 못한다던 마코토는 둘의 관계를 묻자 말을 끊는다."
+  },
+  {
+   "no": 50403,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 40101
+  },
+  {
+   "no": 50404,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 516
+  },
+  {
+   "no": 50405,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 40121
+  },
+  {
+   "no": 50406,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 40081
+  },
+  {
+   "no": 50407,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 40501
+  },
+  {
+   "no": 50408,
+   "tab": 8,
+   "kind": "text",
+   "summary": "키라라의 생일을 준비하던 주인공과 마코토 앞에서 키라라가 마코토를 어머니의 원수라 부르며 사라진다. 이튿날 밤 코이치가 넋 나간 키라라를 데리고 나타나 자신의 정체를 드러낸다."
+  },
+  {
+   "no": 50409,
+   "tab": 8,
+   "kind": "text",
+   "summary": "결전 전야, 자책하며 벽을 치는 마코토를 말린 주인공이 모든 아픔을 받아 주겠다고 한다. 주인공에게 손을 치료받은 마코토는 안아 달라고 청하고, 두 사람은 밤을 함께 보낸다."
+  },
+  {
+   "no": 50410,
+   "tab": 8,
+   "kind": "text",
+   "summary": "몇 달 뒤 새 학교에 입학한 키라라와 함께 주인공과 마코토가 놀이공원에 간다. 마코토가 주인공을 계속 좋아하겠다고 당당히 말하자 키라라는 두 사람의 손을 잡게 하고 달려간다."
+  },
+  {
+   "no": 50501,
+   "tab": 8,
+   "kind": "text",
+   "summary": "푸른 달 아래 주인공은 이즈미와 함께 벌레 모양의 적에게 홀려 꿈에 빠진 반 친구 에미를 지켜본다. 사람의 마음을 빨아먹는 적에게 분노한 주인공은 자신이 싸울 수 있기를 바란다."
+  },
+  {
+   "no": 50502,
+   "tab": 8,
+   "kind": "text",
+   "summary": "공원에서 소녀를 짓밟던 하이지가 자신이 붙여 둔 히카리가 금세 쓰러진 것을 알고 사냥꾼의 존재를 눈치챈다. 손대지 말라는 전화 지시에도 하이지는 사냥꾼들을 찾아 죽이겠다고 벼른다."
+  },
+  {
+   "no": 50503,
+   "tab": 8,
+   "kind": "text",
+   "summary": "어두운 차고에서 미즈키가 남자 셋을 상대하며 넋이 나갈 때까지 쾌락에 빠뜨린다. 멍해진 남자들에게 모든 것을 쾌락으로 바꿔 주겠다고 웃는 미즈키의 눈에 붉은빛이 어린다."
+  },
+  {
+   "no": 50504,
+   "tab": 8,
+   "kind": "text",
+   "summary": "입맞춤을 나눈 주인공과 이즈미가 처음으로 서로를 안는다. 옛일로 몸이 떨리면서도 마음에 후회를 남기기 싫다는 이즈미를 품에 안고 주인공은 밤을 끝내겠다고 다짐한다."
+  },
+  {
+   "no": 50505,
+   "tab": 8,
+   "kind": "text",
+   "summary": "노을 진 부실에서 주인공은 호시카와와 모모세에게 몸을 내맡긴 이즈미와 마주친다. 싸움의 대가라는 말에 휩쓸려 이즈미를 안은 주인공은 눈물을 흘리며 의식을 잃어 간다."
+  },
+  {
+   "no": 50506,
+   "tab": 8,
+   "kind": "text",
+   "summary": "밤의 옥상에서 드레스 차림의 쿄카와 첫 키스를 나눈 주인공은 그대로 쿄카를 안는다. 스타킹을 더럽혔다며 주인공을 때린 쿄카는 내일부터 태도를 바꾸지 말라고 못 박는다."
+  },
+  {
+   "no": 50507,
+   "tab": 8,
+   "kind": "text",
+   "summary": "아침에 잠옷 차림으로 찾아온 쿄카가 주인공을 수갑으로 침대에 묶고 짓궂게 몰아붙인다. 함께 싸운다던 것도 이게 목적이었냐는 쿄카에게 굴복한 주인공의 의식은 하얀 어둠에 삼켜진다."
+  },
+  {
+   "no": 50508,
+   "tab": 8,
+   "kind": "text",
+   "summary": "천둥 치는 밤, 놀라서 매달린 마나미와 주인공이 첫 키스를 나눈다. 불을 꺼 달라며 오늘이 처음이라고 털어놓은 마나미는 아파하면서도 멈추지 말라며 주인공을 받아들인다."
+  },
+  {
+   "no": 50509,
+   "tab": 8,
+   "kind": "text",
+   "summary": "키스가 늘었다는 말에 연습했음을 넌지시 인정하는 마나미와 주인공이 사랑을 나눈다. 서두르다 마나미를 울린 주인공이 사과하자, 마나미는 이번엔 자기가 하겠다며 먼저 나선다."
+  },
+  {
+   "no": 50510,
+   "tab": 8,
+   "kind": "text",
+   "summary": "수업 중 빠져나온 주인공이 체육복 차림의 마나미와 화장실에서 밀회하며 짓궂게 몰아붙인다. 끝난 뒤 기분 좋았냐고 묻는 마나미의 달래는 듯한 목소리에 주인공은 눈시울이 뜨거워진다."
+  },
+  {
+   "no": 50511,
+   "tab": 8,
+   "kind": "text",
+   "summary": "안아 달라는 마코토와 주인공이 서로의 마음을 고백하고 몸을 겹친다. 처음이 아니라며 사과하는 마코토에게 사랑받는 건 처음 아니냐고 답한 주인공은 밤을 끝내겠다고 다짐한다."
+  },
+  {
+   "no": 50512,
+   "tab": 8,
+   "kind": "text",
+   "summary": "마나미를 구하러 간 저택 지하실에 붙잡힌 주인공은 하이지에게 짓밟혀 변해 가는 마코토를 지켜본다. 하이지가 마코토를 넘겨주려 하자 속죄하듯 버티던 주인공은 그만두라고 절규한다."
+  },
+  {
+   "no": 60001,
+   "tab": 8,
+   "kind": "text",
+   "summary": "쿄카와 하교하며 망설이던 주인공이 이즈미를 따라간 밤의 공원에서 적에게 홀린 에미를 목격한다. 펜던트를 검으로 바꿔 동료들과 적을 물리친 주인공은 함께 싸우자는 부탁에 응한다."
+  },
+  {
+   "no": 60002,
+   "tab": 8,
+   "kind": "text",
+   "summary": "쿄카의 쓰레기봉투를 대신 든 주인공이 체육관 뒤에서 혼자 연극을 연습하는 마나미를 만난다. 마나미가 쿄카를 옛 만화영화의 아역 성우로 알아보며 두 사람은 금세 가까워진다."
+  },
+  {
+   "no": 60003,
+   "tab": 8,
+   "kind": "text",
+   "summary": "방화범을 쫓던 첫 실전에서 겁에 질린 마나미가 싸울 자신이 없다며 물러난다. 백화점이 표적이 된 밤 홀로 현장에 온 마나미는 주인공에게 다시 한번 싸울 기회를 원한다고 털어놓는다."
+  },
+  {
+   "no": 60004,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 64
+  },
+  {
+   "no": 60005,
+   "tab": 8,
+   "kind": "text",
+   "summary": "불량배와 맞선 후배 모모세를 말리던 이즈미가 나이프 칼날을 붙잡다 손을 벤다. 부실에서 깨어난 모모세는 이즈미의 부탁에 스스로 나이프를 안 들겠다고 하고, 못생겼다던 말도 거둔다."
+  },
+  {
+   "no": 60006,
+   "tab": 8,
+   "kind": "text",
+   "summary": "우메다에게 크게 다친 모모세를 이즈미가 밤새 치료하고, 적에게 홀린 우메다와의 싸움에 모모세도 가세한다. 이즈미는 도망치라는 말에 꼭 따른다는 조건으로 모모세의 입부를 허락한다."
+  },
+  {
+   "no": 60007,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 101
+  },
+  {
+   "no": 60008,
+   "tab": 8,
+   "kind": "text",
+   "summary": "이즈미의 김치 요리를 먹던 부실에 키라라와 마코토가 나타나고, 마코토는 이 학원으로 전학 온다고 밝힌다. 마코토와 대련하고 지친 주인공의 옆방에서는 이즈미와 마코토 일행이 나온다."
+  },
+  {
+   "no": 60009,
+   "tab": 8,
+   "kind": "text",
+   "summary": "노점에서 받은 CD의 노래에 모모세 등 학생들이 날뛰자, 일행은 CD에 적힌 주소로 찾아가 하이지를 몰아붙인다. 달아난 하이지는 코우야에게 도움을 청하다 목을 짓눌린다."
+  },
+  {
+   "no": 60010,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 185
+  },
+  {
+   "no": 60011,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 201
+  },
+  {
+   "no": 60012,
+   "tab": 8,
+   "kind": "text",
+   "summary": "신카이의 제안으로 부원들이 뙤약볕 아래 운동장 마라톤을 한다. 꼴찌를 면하려는 주인공과 모모세가 막판 경쟁을 벌이고, 이즈미의 응원에 속도를 올린 모모세는 곧 지쳐 뒤처진다."
+  },
+  {
+   "no": 60013,
+   "tab": 8,
+   "kind": "text",
+   "summary": "고백을 거절한 호시카와에게 미즈키가 다가와 데이트를 청한다. 주인공과 쿄카가 몰래 두 사람을 지켜보고, 미즈키는 호시카와에게 따돌림당하던 과거와 기묘한 소원을 털어놓는다."
+  },
+  {
+   "no": 60014,
+   "tab": 8,
+   "kind": "text",
+   "summary": "실종 사건을 쫓던 주인공 일행은 사카키와 맞붙은 끝에 미즈키에게 손대지 말라는 부탁을 받는다. 쿄카에게 미즈키의 정체를 들은 호시카와는 싸움을 그만두고 미즈키 곁에 남기로 한다."
+  },
+  {
+   "no": 60015,
+   "tab": 8,
+   "kind": "text",
+   "summary": "밤 옥상에 모인 일행이 쌀쌀한 날씨와 맑은 하늘을 이야기하며 삭월 밤 촬영을 준비한다. 이즈미가 촬영을 시작하자고 하자 주인공은 누구와 함께 찍을지 고민한다."
+  },
+  {
+   "no": 60016,
+   "tab": 8,
+   "kind": "text",
+   "summary": "언령 능력자를 찾던 사카키가 장을 보던 마나미를 납치하고, 호시카와는 미즈키를 추궁해 저택의 위치를 알아낸다. 홀로 남은 미즈키는 자신이 있을 곳은 꿈속뿐이라며 체념한다."
+  },
+  {
+   "no": 60017,
+   "tab": 8,
+   "kind": "text",
+   "summary": "축제에 늦은 주인공이 쿄카가 고른 의상 차림의 부원들을 만나고 자신도 간호사복을 입게 된다. 오후 슬라이드 상영의 해설자를 정하지 못하자 쿄카가 주인공에게 누가 좋을지 묻는다."
+  },
+  {
+   "no": 60018,
+   "tab": 8,
+   "kind": "text",
+   "summary": "모모세가 주인공을 몰라보게 된 날, 이즈미는 처음 함께 싸운 공원에서 앞으로 혼자 싸우겠다고 말한다. 주인공이 울며 붙잡지만 이즈미는 모모세에게 한 것처럼 주인공의 기억도 지운다."
+  },
+  {
+   "no": 60019,
+   "tab": 8,
+   "kind": "copy_of",
+   "copy_of": 901
+  },
+  {
+   "no": 60020,
+   "tab": 8,
+   "kind": "text",
+   "summary": "몇 달 뒤의 밤, 남자에게 쫓기던 소녀 앞에서 보이지 않는 누군가가 남자를 쓰러뜨린다. 푸른 빛이 걷히며 나타난 주인공과 이즈미 일행은 자신들이 푸른 밤을 끝내는 자라고 밝힌다."
+  },
+  {
+   "no": 60025,
+   "tab": 8,
+   "kind": "text",
+   "summary": "교내를 순찰하던 호시카와가 미즈키를 본 것 같아 뒤쫓지만 아무도 없다. 밤에 부실에서 축제 성공을 축하하는데, 쿄카가 준비한 술을 말리던 주인공도 결국 함께 마신다."
+  },
+  {
+   "no": 60201,
+   "tab": 8,
+   "kind": "text",
+   "summary": "모모세의 끼어들기를 이즈미가 거절하고 주인공은 이즈미와 함께 천체를 촬영한다. 태양광 패널과 통합 센터 이야기를 듣던 주인공은 평소와 다르게 빛나는 빌딩을 보고 몸을 떤다."
+  },
+  {
+   "no": 60202,
+   "tab": 8,
+   "kind": "text",
+   "summary": "주인공이 성도를 읽어 주며 쿄카와 천체를 촬영하고, 쿄카가 좋아하는 셔터 개방 촬영도 한다. 쿄카는 태양광 실험 도시와 통합 센터를 설명하다가 빌딩의 빛이 이상하다고 말한다."
+  },
+  {
+   "no": 60203,
+   "tab": 8,
+   "kind": "text",
+   "summary": "마나미가 의사와 간호사 같다며 즐거워하는 가운데 주인공과 함께 천체를 촬영한다. 도시의 태양광 패널을 설명하던 마나미는 통합 센터 빌딩의 빛이 전과 다르다며 의아해한다."
+  },
+  {
+   "no": 60204,
+   "tab": 8,
+   "kind": "text",
+   "summary": "찍는 법을 모른다며 사양하는 마코토를 주인공이 적도의 앞에 세워 함께 천체를 찍는다. 도시의 낯선 빛에 대해 쿄카가 통합 센터를 설명하자 마코토는 불길한 빛이라고 말한다."
+  },
+  {
+   "no": 60205,
+   "tab": 8,
+   "kind": "text",
+   "summary": "옥상의 일행이 활동에 빠지는 호시카와를 두고 언쟁한 뒤 하늘이 푸르게 번쩍인다. 호시카와 곁의 미즈키는 급히 떠나고, 강림에 실패한 코우야는 언령 능력자를 찾으라고 명한다."
+  },
+  {
+   "no": 65001,
+   "tab": 8,
+   "kind": "text",
+   "summary": "주인공의 추천으로 이즈미가 상영회 해설을 맡아 은하수와 칠석의 두 별 이야기를 들려준다. 딱딱하지 않았을까 걱정하는 이즈미에게 부원들은 이해하기 쉬웠다고 말해 준다."
+  },
+  {
+   "no": 65002,
+   "tab": 8,
+   "kind": "text",
+   "summary": "주인공의 추천으로 쿄카가 상영회 해설을 맡아 당당하게 입을 연다. 별 이야기가 전철에서 본 중년 커플 험담으로 새어 나가자 주인공이 끼어들어 해설을 중단시킨다."
+  },
+  {
+   "no": 65003,
+   "tab": 8,
+   "kind": "text",
+   "summary": "주인공과 이즈미의 부탁에 마나미가 상영회 해설을 맡아 칠석의 두 별을 차분히 소개한다. 이야기가 전날 읽은 소설 속 행성 간 전쟁으로 흘러가자 주인공이 입을 막아 멈춘다."
+  },
+  {
+   "no": 65004,
+   "tab": 8,
+   "kind": "text",
+   "summary": "주인공의 추천을 받은 마코토가 상영회 해설에 나서 수행 중에 묻어 준 어미와 새끼 토끼, 붉은 별 이야기를 한다. 단련법 설명으로 번지며 손님이 빠지자 주인공이 조명을 켜 멈춘다."
+  }
+ ],
+ "excluded": [],
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_a_summaries_20260929\\design\\summaries.json",
+   "sha256": "108aaa9ed5e1ca2307419808248ee1aa3623a20fe1ace43723c054203dc0b7f1",
+   "scenarios": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_a_summaries_20260929\\source\\scenarios.json",
+   "scenarios_sha256": "b5f52815c979cbbeb5b489ffff7a8f05b9eac21046546e9cceb92ccbfab4076a",
+   "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+   "author": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+   "events": 55,
+   "baked": 30,
+   "copies": 25,
+   "excluded": 0,
+   "drafts": 0
+  },
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_b_summaries_20260929\\design\\summaries.json",
+   "sha256": "7a9229c41fe346df78b1401c40a2c809938bd2720a39b3aaff5125c0186f099f",
+   "scenarios": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_b_summaries_20260929\\source\\scenarios.json",
+   "scenarios_sha256": "b5f52815c979cbbeb5b489ffff7a8f05b9eac21046546e9cceb92ccbfab4076a",
+   "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+   "author": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+   "events": 30,
+   "baked": 25,
+   "copies": 5,
+   "excluded": 0,
+   "drafts": 0
+  }
+ ],
+ "copy_resolution": {
+  "50101": {
+   "copy_of": 10001,
+   "text_in": "April KR_AS29Story (or the April term-patch layer)",
+   "tab": 0
+  },
+  "50103": {
+   "copy_of": 10061,
+   "text_in": "layer of calendar_jul_aug_summaries_20260929\\august (must be stacked below)",
+   "tab": 4
+  },
+  "50104": {
+   "copy_of": 10041,
+   "text_in": "layer of calendar_sep_other_summaries_20260929\\september (must be stacked below)",
+   "tab": 5
+  },
+  "50105": {
+   "copy_of": 10081,
+   "text_in": "layer of calendar_jul_aug_summaries_20260929\\august (must be stacked below)",
+   "tab": 4
+  },
+  "50106": {
+   "copy_of": 10101,
+   "text_in": "layer of calendar_october_summaries_20260929 (must be stacked below)",
+   "tab": 6
+  },
+  "50107": {
+   "copy_of": 10121,
+   "text_in": "layer of calendar_october_summaries_20260929 (must be stacked below)",
+   "tab": 6
+  },
+  "50108": {
+   "copy_of": 10501,
+   "text_in": "layer of calendar_november_a_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50109": {
+   "copy_of": 10201,
+   "text_in": "layer of calendar_november_a_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50110": {
+   "copy_of": 10202,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50201": {
+   "copy_of": 20021,
+   "text_in": "layer of calendar_may_summaries_20260929 (must be stacked below)",
+   "tab": 1
+  },
+  "50206": {
+   "copy_of": 20121,
+   "text_in": "layer of calendar_october_summaries_20260929 (must be stacked below)",
+   "tab": 6
+  },
+  "50207": {
+   "copy_of": 20101,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50208": {
+   "copy_of": 20501,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50209": {
+   "copy_of": 20141,
+   "text_in": "layer of calendar_november_a_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50210": {
+   "copy_of": 20181,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50304": {
+   "copy_of": 30121,
+   "text_in": "layer of calendar_october_summaries_20260929 (must be stacked below)",
+   "tab": 6
+  },
+  "50305": {
+   "copy_of": 30501,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50306": {
+   "copy_of": 30081,
+   "text_in": "layer of calendar_november_a_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50307": {
+   "copy_of": 30041,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50308": {
+   "copy_of": 30101,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50403": {
+   "copy_of": 40101,
+   "text_in": "layer of calendar_october_summaries_20260929 (must be stacked below)",
+   "tab": 6
+  },
+  "50404": {
+   "copy_of": 516,
+   "text_in": "layer of calendar_october_summaries_20260929 (must be stacked below)",
+   "tab": 6
+  },
+  "50405": {
+   "copy_of": 40121,
+   "text_in": "layer of calendar_october_summaries_20260929 (must be stacked below)",
+   "tab": 6
+  },
+  "50406": {
+   "copy_of": 40081,
+   "text_in": "layer of calendar_november_a_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "50407": {
+   "copy_of": 40501,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  },
+  "60004": {
+   "copy_of": 64,
+   "text_in": "layer of calendar_may_summaries_20260929 (must be stacked below)",
+   "tab": 1
+  },
+  "60007": {
+   "copy_of": 101,
+   "text_in": "layer of calendar_june_summaries_20260929 (must be stacked below)",
+   "tab": 2
+  },
+  "60010": {
+   "copy_of": 185,
+   "text_in": "layer of calendar_jul_aug_summaries_20260929\\july (must be stacked below)",
+   "tab": 3
+  },
+  "60011": {
+   "copy_of": 201,
+   "text_in": "layer of calendar_jul_aug_summaries_20260929\\august (must be stacked below)",
+   "tab": 4
+  },
+  "60019": {
+   "copy_of": 901,
+   "text_in": "layer of calendar_november_b_summaries_20260929 (must be stacked below)",
+   "tab": 7
+  }
+ }
+}

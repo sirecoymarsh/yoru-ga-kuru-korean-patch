@@ -1,0 +1,2400 @@
+{
+  "status": "MODS_PACT185_187_STAGED_NOT_INSTALLED",
+  "builder": "Claude Opus 5.5",
+  "source": {
+    "pointer": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\current.json",
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "pact_sha256": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce"
+  },
+  "outputs": {
+    "original_pact_185.pactex": "edbfa86d5d3f2bca3fe4a6930f768c09517640e66fdb6142adc9652505403203",
+    "pact_185_mods.pactex": "9956b438fa9d39770071cda34206badc9bb1a430b441f5b39b97fa8c58eaeb18",
+    "original_pact_187.pactex": "4d8446321200bb01105fe741066aeee51c0b5806440349097a14c1e6095db9e4",
+    "pact_187_items.pactex": "5b2d2361b46e6a4b5471b45ffdea74ce3d778bf6733582ddfb796e58450abdfc",
+    "NightRemasterPact.afa": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac"
+  },
+  "archive": {
+    "source_sha256": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce",
+    "candidate_sha256": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+    "original_entries_preserved": 190,
+    "replaced_ids": [
+      185,
+      187
+    ],
+    "appended": [],
+    "wrapper": "AFA3",
+    "metadata_identity": "PASS (names/order/unknown fields)",
+    "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+    "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_tab_20261015\\NightRemasterPact.afa"
+  },
+  "changed_entries": [
+    185,
+    187
+  ],
+  "round_trip_exact": true,
+  "alice_ex_dump_parsed": true,
+  "made": [
+    "KR_MD_TagNav",
+    "KR_MD_HeadBattle",
+    "KR_MD_TagBattle",
+    "KR_MD_Tick1",
+    "KR_MD_Tick2",
+    "KR_MD_Tick3",
+    "KR_MD_Tick4",
+    "KR_MD_Tick5",
+    "KR_MD_HeadDungeon",
+    "KR_MD_TagDungeon",
+    "KR_MD_HeadEtc",
+    "KR_MD_TagEtc",
+    "KR_MD_TrackEX",
+    "KR_MD_FillEX",
+    "KR_MD_TrackTraining",
+    "KR_MD_FillTraining",
+    "KR_MD_TrackMoney",
+    "KR_MD_FillMoney",
+    "KR_MD_TrackPairTraining",
+    "KR_MD_FillPairTraining",
+    "KR_MD_TrackSpeed",
+    "KR_MD_FillSpeed"
+  ],
+  "hidden": [
+    "KR_ModTitle",
+    "KR_ModRewardHint",
+    "KR_ModSpeedHint"
+  ],
+  "items_page": {
+    "made": [
+      "KR_MD_TrackThreshold",
+      "KR_MD_FillThreshold",
+      "KR_MD_TrackReserve1",
+      "KR_MD_FillReserve1",
+      "KR_MD_TrackReserve2",
+      "KR_MD_FillReserve2",
+      "KR_MD_TrackReserve3",
+      "KR_MD_FillReserve3",
+      "KR_MD_TrackReserve4",
+      "KR_MD_FillReserve4",
+      "KR_MD_TrackReserve5",
+      "KR_MD_FillReserve5"
+    ],
+    "notes": {
+      "gauges": [
+        {
+          "slider": "KR_ItemsThreshold",
+          "track": "KR_MD_TrackThreshold",
+          "fill": "KR_MD_FillThreshold",
+          "x": 712,
+          "y": 137,
+          "width": 276
+        },
+        {
+          "slider": "KR_ItemsReserve1",
+          "track": "KR_MD_TrackReserve1",
+          "fill": "KR_MD_FillReserve1",
+          "x": 712,
+          "y": 225,
+          "width": 276
+        },
+        {
+          "slider": "KR_ItemsReserve2",
+          "track": "KR_MD_TrackReserve2",
+          "fill": "KR_MD_FillReserve2",
+          "x": 712,
+          "y": 289,
+          "width": 276
+        },
+        {
+          "slider": "KR_ItemsReserve3",
+          "track": "KR_MD_TrackReserve3",
+          "fill": "KR_MD_FillReserve3",
+          "x": 712,
+          "y": 353,
+          "width": 276
+        },
+        {
+          "slider": "KR_ItemsReserve4",
+          "track": "KR_MD_TrackReserve4",
+          "fill": "KR_MD_FillReserve4",
+          "x": 712,
+          "y": 417,
+          "width": 276
+        },
+        {
+          "slider": "KR_ItemsReserve5",
+          "track": "KR_MD_TrackReserve5",
+          "fill": "KR_MD_FillReserve5",
+          "x": 712,
+          "y": 481,
+          "width": 276
+        }
+      ],
+      "sparkles": [
+        [
+          333,
+          33
+        ]
+      ]
+    },
+    "used_by_code_kept": [
+      "KR_ItemsEnabled",
+      "KR_ItemsThreshold",
+      "KR_ItemsThresholdValue",
+      "KR_ModTab",
+      "SYS_ゲームを終了する",
+      "SYS_タイトル画面に戻る",
+      "SYS_ゲームに戻る",
+      "KR_ItemsAllow1",
+      "KR_ItemsAllow2",
+      "KR_ItemsAllow3",
+      "KR_ItemsAllow4",
+      "KR_ItemsAllow5",
+      "KR_ItemsReserve1",
+      "KR_ItemsReserve2",
+      "KR_ItemsReserve3",
+      "KR_ItemsReserve4",
+      "KR_ItemsReserve5",
+      "KR_ItemsReserveValue1",
+      "KR_ItemsReserveValue2",
+      "KR_ItemsReserveValue3",
+      "KR_ItemsReserveValue4",
+      "KR_ItemsReserveValue5"
+    ],
+    "boxes": [
+      {
+        "name": "メッセージ速度ボタン",
+        "kind": "button",
+        "rect": [
+          110.0,
+          30.0,
+          302.0,
+          72.0
+        ]
+      },
+      {
+        "name": "メッセージボタン",
+        "kind": "button",
+        "rect": [
+          110.0,
+          90.0,
+          302.0,
+          132.0
+        ]
+      },
+      {
+        "name": "メッセージウィンドウボタン",
+        "kind": "button",
+        "rect": [
+          110.0,
+          150.0,
+          302.0,
+          192.0
+        ]
+      },
+      {
+        "name": "サウンドボタン",
+        "kind": "button",
+        "rect": [
+          110.0,
+          210.0,
+          302.0,
+          252.0
+        ]
+      },
+      {
+        "name": "入力ボタン",
+        "kind": "button",
+        "rect": [
+          110.0,
+          270.0,
+          302.0,
+          312.0
+        ]
+      },
+      {
+        "name": "ウィンドウボタン",
+        "kind": "button",
+        "rect": [
+          110.0,
+          330.0,
+          302.0,
+          372.0
+        ]
+      },
+      {
+        "name": "ネットワークボタン",
+        "kind": "button",
+        "rect": [
+          110.0,
+          390.0,
+          302.0,
+          432.0
+        ]
+      },
+      {
+        "name": "３Ｄボタン",
+        "kind": "button",
+        "rect": [
+          110.0,
+          450.0,
+          302.0,
+          492.0
+        ]
+      },
+      {
+        "name": "SYS_ゲームを終了する",
+        "kind": "button",
+        "rect": [
+          605.0,
+          656.0,
+          755.0,
+          696.0
+        ]
+      },
+      {
+        "name": "SYS_タイトル画面に戻る",
+        "kind": "button",
+        "rect": [
+          765.0,
+          656.0,
+          915.0,
+          696.0
+        ]
+      },
+      {
+        "name": "SYS_ゲームに戻る",
+        "kind": "button",
+        "rect": [
+          925.0,
+          656.0,
+          1075.0,
+          696.0
+        ]
+      },
+      {
+        "name": "KR_ModTab",
+        "kind": "button",
+        "rect": [
+          110.0,
+          510.0,
+          302.0,
+          552.0
+        ]
+      },
+      {
+        "name": "テキスト_メッセージ速度",
+        "kind": "text",
+        "rect": [
+          159.8,
+          39.0,
+          252.2,
+          63.0
+        ]
+      },
+      {
+        "name": "テキスト_メッセージ",
+        "kind": "text",
+        "rect": [
+          176.5,
+          99.0,
+          235.5,
+          123.0
+        ]
+      },
+      {
+        "name": "テキスト_メッセージウィンドウ",
+        "kind": "text",
+        "rect": [
+          168.7,
+          159.0,
+          243.3,
+          183.0
+        ]
+      },
+      {
+        "name": "テキスト_サウンド",
+        "kind": "text",
+        "rect": [
+          176.5,
+          219.0,
+          235.5,
+          243.0
+        ]
+      },
+      {
+        "name": "テキスト_入力",
+        "kind": "text",
+        "rect": [
+          186.3,
+          279.0,
+          225.7,
+          303.0
+        ]
+      },
+      {
+        "name": "テキスト_ウィンドウ",
+        "kind": "text",
+        "rect": [
+          186.3,
+          339.0,
+          225.7,
+          363.0
+        ]
+      },
+      {
+        "name": "テキスト_ゲーム設定",
+        "kind": "text",
+        "rect": [
+          163.7,
+          399.0,
+          248.3,
+          423.0
+        ]
+      },
+      {
+        "name": "テキスト_リマスター",
+        "kind": "text",
+        "rect": [
+          166.7,
+          459.0,
+          245.3,
+          483.0
+        ]
+      },
+      {
+        "name": "KR_ModTabLabel",
+        "kind": "text",
+        "rect": [
+          186.3,
+          519.0,
+          225.7,
+          543.0
+        ]
+      },
+      {
+        "name": "KR_ItemsTitle",
+        "kind": "text",
+        "rect": [
+          377.0,
+          40.0,
+          507.0,
+          64.0
+        ]
+      },
+      {
+        "name": "KR_ItemsScope",
+        "kind": "text",
+        "rect": [
+          523.0,
+          45.5,
+          736.5,
+          60.5
+        ]
+      },
+      {
+        "name": "KR_ItemsEnabled",
+        "kind": "checkbox",
+        "rect": [
+          377.0,
+          84.0,
+          582.5,
+          116.0
+        ]
+      },
+      {
+        "name": "KR_ItemsThresholdLabel",
+        "kind": "text",
+        "rect": [
+          377.0,
+          133.0,
+          486.0,
+          153.0
+        ]
+      },
+      {
+        "name": "KR_ItemsThresholdValue",
+        "kind": "text",
+        "rect": [
+          1008.0,
+          133.0,
+          1083.0,
+          153.0
+        ]
+      },
+      {
+        "name": "KR_ItemsThreshold",
+        "kind": "slider",
+        "rect": [
+          700.0,
+          134.0,
+          1000.0,
+          161.1
+        ]
+      },
+      {
+        "name": "KR_ItemsAllowHeader",
+        "kind": "text",
+        "rect": [
+          377.0,
+          186.0,
+          517.2,
+          202.0
+        ]
+      },
+      {
+        "name": "KR_ItemsReserveHeader",
+        "kind": "text",
+        "rect": [
+          700.0,
+          186.0,
+          846.2,
+          202.0
+        ]
+      },
+      {
+        "name": "KR_ItemsAllow1",
+        "kind": "checkbox",
+        "rect": [
+          377.0,
+          222.0,
+          490.0,
+          254.0
+        ]
+      },
+      {
+        "name": "KR_ItemsEffect1",
+        "kind": "text",
+        "rect": [
+          419.0,
+          256.0,
+          494.9,
+          271.0
+        ]
+      },
+      {
+        "name": "KR_ItemsReserve1",
+        "kind": "slider",
+        "rect": [
+          700.0,
+          222.0,
+          1000.0,
+          249.1
+        ]
+      },
+      {
+        "name": "KR_ItemsReserveValue1",
+        "kind": "text",
+        "rect": [
+          1008.0,
+          221.0,
+          1034.8,
+          241.0
+        ]
+      },
+      {
+        "name": "KR_ItemsAllow2",
+        "kind": "checkbox",
+        "rect": [
+          377.0,
+          286.0,
+          506.5,
+          318.0
+        ]
+      },
+      {
+        "name": "KR_ItemsEffect2",
+        "kind": "text",
+        "rect": [
+          419.0,
+          320.0,
+          456.0,
+          335.0
+        ]
+      },
+      {
+        "name": "KR_ItemsReserve2",
+        "kind": "slider",
+        "rect": [
+          700.0,
+          286.0,
+          1000.0,
+          313.1
+        ]
+      },
+      {
+        "name": "KR_ItemsReserveValue2",
+        "kind": "text",
+        "rect": [
+          1008.0,
+          285.0,
+          1034.8,
+          305.0
+        ]
+      },
+      {
+        "name": "KR_ItemsAllow3",
+        "kind": "checkbox",
+        "rect": [
+          377.0,
+          350.0,
+          490.0,
+          382.0
+        ]
+      },
+      {
+        "name": "KR_ItemsEffect3",
+        "kind": "text",
+        "rect": [
+          419.0,
+          384.0,
+          467.4,
+          399.0
+        ]
+      },
+      {
+        "name": "KR_ItemsReserve3",
+        "kind": "slider",
+        "rect": [
+          700.0,
+          350.0,
+          1000.0,
+          377.1
+        ]
+      },
+      {
+        "name": "KR_ItemsReserveValue3",
+        "kind": "text",
+        "rect": [
+          1008.0,
+          349.0,
+          1034.8,
+          369.0
+        ]
+      },
+      {
+        "name": "KR_ItemsAllow4",
+        "kind": "checkbox",
+        "rect": [
+          377.0,
+          414.0,
+          506.5,
+          446.0
+        ]
+      },
+      {
+        "name": "KR_ItemsEffect4",
+        "kind": "text",
+        "rect": [
+          419.0,
+          448.0,
+          493.0,
+          463.0
+        ]
+      },
+      {
+        "name": "KR_ItemsReserve4",
+        "kind": "slider",
+        "rect": [
+          700.0,
+          414.0,
+          1000.0,
+          441.1
+        ]
+      },
+      {
+        "name": "KR_ItemsReserveValue4",
+        "kind": "text",
+        "rect": [
+          1008.0,
+          413.0,
+          1034.8,
+          433.0
+        ]
+      },
+      {
+        "name": "KR_ItemsAllow5",
+        "kind": "checkbox",
+        "rect": [
+          377.0,
+          478.0,
+          506.5,
+          510.0
+        ]
+      },
+      {
+        "name": "KR_ItemsEffect5",
+        "kind": "text",
+        "rect": [
+          419.0,
+          512.0,
+          534.8,
+          527.0
+        ]
+      },
+      {
+        "name": "KR_ItemsReserve5",
+        "kind": "slider",
+        "rect": [
+          700.0,
+          478.0,
+          1000.0,
+          505.1
+        ]
+      },
+      {
+        "name": "KR_ItemsReserveValue5",
+        "kind": "text",
+        "rect": [
+          1008.0,
+          477.0,
+          1034.8,
+          497.0
+        ]
+      },
+      {
+        "name": "KR_ItemsHint",
+        "kind": "text",
+        "rect": [
+          377.0,
+          560.0,
+          775.5,
+          575.0
+        ]
+      }
+    ]
+  },
+  "used_by_code_kept": [
+    "KR_HomeRateToggle",
+    "KR_SmartAutoToggle",
+    "KR_AutoEquipToggle",
+    "KR_CheatSweep",
+    "KR_CheatLoot",
+    "KR_CheatQuick",
+    "KR_CheatTrap",
+    "KR_CheatRoute",
+    "KR_CheatSpeed",
+    "KR_CheatSpeedValue",
+    "KR_Multiplier_EX",
+    "KR_Multiplier_Training",
+    "KR_Multiplier_Money",
+    "KR_Multiplier_PairTraining",
+    "KR_Multiplier_Value_EX",
+    "KR_Multiplier_Value_Training",
+    "KR_Multiplier_Value_Money",
+    "KR_Multiplier_Value_PairTraining",
+    "KR_SaveStyleButton",
+    "KR_PlayerInfoButton",
+    "KR_TermConfigButton",
+    "KR_ItemConfigButton",
+    "KR_ModTab",
+    "KR_NavOff",
+    "KR_NavIzumi",
+    "KR_NavKyouka",
+    "KR_NavManami",
+    "KR_NavMakoto",
+    "SYS_ゲームを終了する",
+    "SYS_タイトル画面に戻る",
+    "SYS_ゲームに戻る"
+  ],
+  "characters": [
+    {
+      "char": " ",
+      "kind": "cp932",
+      "bytes": "20"
+    },
+    {
+      "char": "(",
+      "kind": "cp932",
+      "bytes": "28"
+    },
+    {
+      "char": ")",
+      "kind": "cp932",
+      "bytes": "29"
+    },
+    {
+      "char": ".",
+      "kind": "cp932",
+      "bytes": "2e"
+    },
+    {
+      "char": "/",
+      "kind": "cp932",
+      "bytes": "2f"
+    },
+    {
+      "char": "0",
+      "kind": "cp932",
+      "bytes": "30"
+    },
+    {
+      "char": "1",
+      "kind": "cp932",
+      "bytes": "31"
+    },
+    {
+      "char": "2",
+      "kind": "cp932",
+      "bytes": "32"
+    },
+    {
+      "char": "3",
+      "kind": "cp932",
+      "bytes": "33"
+    },
+    {
+      "char": "4",
+      "kind": "cp932",
+      "bytes": "34"
+    },
+    {
+      "char": "5",
+      "kind": "cp932",
+      "bytes": "35"
+    },
+    {
+      "char": "9",
+      "kind": "cp932",
+      "bytes": "39"
+    },
+    {
+      "char": ":",
+      "kind": "cp932",
+      "bytes": "3a"
+    },
+    {
+      "char": "~",
+      "kind": "cp932",
+      "bytes": "7e"
+    },
+    {
+      "char": "·",
+      "kind": "proxy",
+      "bytes": "eaa4"
+    },
+    {
+      "char": "가",
+      "kind": "proxy",
+      "bytes": "eaa0"
+    },
+    {
+      "char": "간",
+      "kind": "proxy",
+      "bytes": "ea9e"
+    },
+    {
+      "char": "갈",
+      "kind": "proxy",
+      "bytes": "ea9c"
+    },
+    {
+      "char": "강",
+      "kind": "proxy",
+      "bytes": "ea96"
+    },
+    {
+      "char": "개",
+      "kind": "proxy",
+      "bytes": "ea91"
+    },
+    {
+      "char": "게",
+      "kind": "proxy",
+      "bytes": "ea7d"
+    },
+    {
+      "char": "경",
+      "kind": "proxy",
+      "bytes": "ea71"
+    },
+    {
+      "char": "고",
+      "kind": "proxy",
+      "bytes": "ea6e"
+    },
+    {
+      "char": "골",
+      "kind": "proxy",
+      "bytes": "ea6a"
+    },
+    {
+      "char": "공",
+      "kind": "proxy",
+      "bytes": "ea65"
+    },
+    {
+      "char": "과",
+      "kind": "proxy",
+      "bytes": "ea64"
+    },
+    {
+      "char": "규",
+      "kind": "proxy",
+      "bytes": "ea46"
+    },
+    {
+      "char": "기",
+      "kind": "proxy",
+      "bytes": "e9f7"
+    },
+    {
+      "char": "꾸",
+      "kind": "proxy",
+      "bytes": "e9c8"
+    },
+    {
+      "char": "꿀",
+      "kind": "proxy",
+      "bytes": "e9c5"
+    },
+    {
+      "char": "뀝",
+      "kind": "proxy",
+      "bytes": "e1c3"
+    },
+    {
+      "char": "나",
+      "kind": "proxy",
+      "bytes": "e9ab"
+    },
+    {
+      "char": "날",
+      "kind": "proxy",
+      "bytes": "e9a7"
+    },
+    {
+      "char": "남",
+      "kind": "proxy",
+      "bytes": "e9a5"
+    },
+    {
+      "char": "내",
+      "kind": "proxy",
+      "bytes": "e99c"
+    },
+    {
+      "char": "는",
+      "kind": "proxy",
+      "bytes": "e963"
+    },
+    {
+      "char": "니",
+      "kind": "proxy",
+      "bytes": "e95d"
+    },
+    {
+      "char": "다",
+      "kind": "proxy",
+      "bytes": "e955"
+    },
+    {
+      "char": "달",
+      "kind": "proxy",
+      "bytes": "e950"
+    },
+    {
+      "char": "답",
+      "kind": "proxy",
+      "bytes": "e94b"
+    },
+    {
+      "char": "대",
+      "kind": "proxy",
+      "bytes": "e947"
+    },
+    {
+      "char": "던",
+      "kind": "proxy",
+      "bytes": "e8fa"
+    },
+    {
+      "char": "도",
+      "kind": "proxy",
+      "bytes": "e8e9"
+    },
+    {
+      "char": "돌",
+      "kind": "proxy",
+      "bytes": "e8e5"
+    },
+    {
+      "char": "동",
+      "kind": "proxy",
+      "bytes": "e8e1"
+    },
+    {
+      "char": "뒤",
+      "kind": "proxy",
+      "bytes": "e8d0"
+    },
+    {
+      "char": "드",
+      "kind": "proxy",
+      "bytes": "e8cc"
+    },
+    {
+      "char": "든",
+      "kind": "proxy",
+      "bytes": "e8ca"
+    },
+    {
+      "char": "따",
+      "kind": "proxy",
+      "bytes": "e8bb"
+    },
+    {
+      "char": "때",
+      "kind": "proxy",
+      "bytes": "e8b3"
+    },
+    {
+      "char": "띄",
+      "kind": "proxy",
+      "bytes": "e892"
+    },
+    {
+      "char": "라",
+      "kind": "proxy",
+      "bytes": "e88d"
+    },
+    {
+      "char": "란",
+      "kind": "proxy",
+      "bytes": "e88b"
+    },
+    {
+      "char": "래",
+      "kind": "proxy",
+      "bytes": "e881"
+    },
+    {
+      "char": "량",
+      "kind": "proxy",
+      "bytes": "e875"
+    },
+    {
+      "char": "력",
+      "kind": "proxy",
+      "bytes": "e864"
+    },
+    {
+      "char": "로",
+      "kind": "proxy",
+      "bytes": "e85b"
+    },
+    {
+      "char": "률",
+      "kind": "proxy",
+      "bytes": "e845"
+    },
+    {
+      "char": "른",
+      "kind": "proxy",
+      "bytes": "e840"
+    },
+    {
+      "char": "를",
+      "kind": "proxy",
+      "bytes": "e7fc"
+    },
+    {
+      "char": "릅",
+      "kind": "proxy",
+      "bytes": "e7fa"
+    },
+    {
+      "char": "리",
+      "kind": "proxy",
+      "bytes": "e7f6"
+    },
+    {
+      "char": "마",
+      "kind": "proxy",
+      "bytes": "e7ee"
+    },
+    {
+      "char": "만",
+      "kind": "proxy",
+      "bytes": "e7ec"
+    },
+    {
+      "char": "많",
+      "kind": "proxy",
+      "bytes": "e7eb"
+    },
+    {
+      "char": "면",
+      "kind": "proxy",
+      "bytes": "e7c9"
+    },
+    {
+      "char": "모",
+      "kind": "proxy",
+      "bytes": "e7c4"
+    },
+    {
+      "char": "물",
+      "kind": "proxy",
+      "bytes": "e7b5"
+    },
+    {
+      "char": "미",
+      "kind": "proxy",
+      "bytes": "e7aa"
+    },
+    {
+      "char": "밀",
+      "kind": "proxy",
+      "bytes": "e7a6"
+    },
+    {
+      "char": "바",
+      "kind": "proxy",
+      "bytes": "e7a0"
+    },
+    {
+      "char": "밖",
+      "kind": "proxy",
+      "bytes": "e79e"
+    },
+    {
+      "char": "반",
+      "kind": "proxy",
+      "bytes": "e79d"
+    },
+    {
+      "char": "배",
+      "kind": "proxy",
+      "bytes": "e794"
+    },
+    {
+      "char": "버",
+      "kind": "proxy",
+      "bytes": "e78c"
+    },
+    {
+      "char": "보",
+      "kind": "proxy",
+      "bytes": "e776"
+    },
+    {
+      "char": "복",
+      "kind": "proxy",
+      "bytes": "e775"
+    },
+    {
+      "char": "본",
+      "kind": "proxy",
+      "bytes": "e773"
+    },
+    {
+      "char": "브",
+      "kind": "proxy",
+      "bytes": "e75e"
+    },
+    {
+      "char": "비",
+      "kind": "proxy",
+      "bytes": "e75b"
+    },
+    {
+      "char": "사",
+      "kind": "proxy",
+      "bytes": "e6ec"
+    },
+    {
+      "char": "산",
+      "kind": "proxy",
+      "bytes": "e6ea"
+    },
+    {
+      "char": "상",
+      "kind": "proxy",
+      "bytes": "e6e3"
+    },
+    {
+      "char": "석",
+      "kind": "proxy",
+      "bytes": "e6d6"
+    },
+    {
+      "char": "설",
+      "kind": "proxy",
+      "bytes": "e6d3"
+    },
+    {
+      "char": "성",
+      "kind": "proxy",
+      "bytes": "e6cc"
+    },
+    {
+      "char": "세",
+      "kind": "proxy",
+      "bytes": "e6ca"
+    },
+    {
+      "char": "션",
+      "kind": "proxy",
+      "bytes": "e6c2"
+    },
+    {
+      "char": "소",
+      "kind": "proxy",
+      "bytes": "e6be"
+    },
+    {
+      "char": "속",
+      "kind": "proxy",
+      "bytes": "e6bd"
+    },
+    {
+      "char": "수",
+      "kind": "proxy",
+      "bytes": "e6b0"
+    },
+    {
+      "char": "스",
+      "kind": "proxy",
+      "bytes": "e69d"
+    },
+    {
+      "char": "습",
+      "kind": "proxy",
+      "bytes": "e698"
+    },
+    {
+      "char": "시",
+      "kind": "proxy",
+      "bytes": "e695"
+    },
+    {
+      "char": "쓰",
+      "kind": "proxy",
+      "bytes": "e66b"
+    },
+    {
+      "char": "아",
+      "kind": "proxy",
+      "bytes": "e65b"
+    },
+    {
+      "char": "안",
+      "kind": "proxy",
+      "bytes": "e659"
+    },
+    {
+      "char": "않",
+      "kind": "proxy",
+      "bytes": "e657"
+    },
+    {
+      "char": "야",
+      "kind": "proxy",
+      "bytes": "e648"
+    },
+    {
+      "char": "에",
+      "kind": "proxy",
+      "bytes": "e5ea"
+    },
+    {
+      "char": "엔",
+      "kind": "proxy",
+      "bytes": "e5e8"
+    },
+    {
+      "char": "영",
+      "kind": "proxy",
+      "bytes": "e5d9"
+    },
+    {
+      "char": "오",
+      "kind": "proxy",
+      "bytes": "e5d2"
+    },
+    {
+      "char": "요",
+      "kind": "proxy",
+      "bytes": "e5bc"
+    },
+    {
+      "char": "용",
+      "kind": "proxy",
+      "bytes": "e5ba"
+    },
+    {
+      "char": "웁",
+      "kind": "proxy",
+      "bytes": "e5b4"
+    },
+    {
+      "char": "워",
+      "kind": "proxy",
+      "bytes": "e5b1"
+    },
+    {
+      "char": "원",
+      "kind": "proxy",
+      "bytes": "e5b0"
+    },
+    {
+      "char": "유",
+      "kind": "proxy",
+      "bytes": "e5a4"
+    },
+    {
+      "char": "율",
+      "kind": "proxy",
+      "bytes": "e5a1"
+    },
+    {
+      "char": "으",
+      "kind": "proxy",
+      "bytes": "e59f"
+    },
+    {
+      "char": "은",
+      "kind": "proxy",
+      "bytes": "e59d"
+    },
+    {
+      "char": "을",
+      "kind": "proxy",
+      "bytes": "e59c"
+    },
+    {
+      "char": "음",
+      "kind": "proxy",
+      "bytes": "e59b"
+    },
+    {
+      "char": "의",
+      "kind": "proxy",
+      "bytes": "e597"
+    },
+    {
+      "char": "이",
+      "kind": "proxy",
+      "bytes": "e596"
+    },
+    {
+      "char": "인",
+      "kind": "proxy",
+      "bytes": "e594"
+    },
+    {
+      "char": "일",
+      "kind": "proxy",
+      "bytes": "e593"
+    },
+    {
+      "char": "임",
+      "kind": "proxy",
+      "bytes": "e590"
+    },
+    {
+      "char": "있",
+      "kind": "proxy",
+      "bytes": "e58d"
+    },
+    {
+      "char": "자",
+      "kind": "proxy",
+      "bytes": "e589"
+    },
+    {
+      "char": "장",
+      "kind": "proxy",
+      "bytes": "e57e"
+    },
+    {
+      "char": "적",
+      "kind": "proxy",
+      "bytes": "e575"
+    },
+    {
+      "char": "전",
+      "kind": "proxy",
+      "bytes": "e574"
+    },
+    {
+      "char": "정",
+      "kind": "proxy",
+      "bytes": "e56e"
+    },
+    {
+      "char": "준",
+      "kind": "proxy",
+      "bytes": "e558"
+    },
+    {
+      "char": "줍",
+      "kind": "proxy",
+      "bytes": "e555"
+    },
+    {
+      "char": "중",
+      "kind": "proxy",
+      "bytes": "e554"
+    },
+    {
+      "char": "즈",
+      "kind": "proxy",
+      "bytes": "e54e"
+    },
+    {
+      "char": "즉",
+      "kind": "proxy",
+      "bytes": "e54d"
+    },
+    {
+      "char": "지",
+      "kind": "proxy",
+      "bytes": "e546"
+    },
+    {
+      "char": "집",
+      "kind": "proxy",
+      "bytes": "e540"
+    },
+    {
+      "char": "짝",
+      "kind": "proxy",
+      "bytes": "e4f6"
+    },
+    {
+      "char": "쪽",
+      "kind": "proxy",
+      "bytes": "e4e5"
+    },
+    {
+      "char": "착",
+      "kind": "proxy",
+      "bytes": "e4d1"
+    },
+    {
+      "char": "채",
+      "kind": "proxy",
+      "bytes": "e4c7"
+    },
+    {
+      "char": "처",
+      "kind": "proxy",
+      "bytes": "e4c0"
+    },
+    {
+      "char": "천",
+      "kind": "proxy",
+      "bytes": "e4bd"
+    },
+    {
+      "char": "체",
+      "kind": "proxy",
+      "bytes": "e4b7"
+    },
+    {
+      "char": "초",
+      "kind": "proxy",
+      "bytes": "e4b3"
+    },
+    {
+      "char": "최",
+      "kind": "proxy",
+      "bytes": "e4ab"
+    },
+    {
+      "char": "추",
+      "kind": "proxy",
+      "bytes": "e4a9"
+    },
+    {
+      "char": "층",
+      "kind": "proxy",
+      "bytes": "e49a"
+    },
+    {
+      "char": "치",
+      "kind": "proxy",
+      "bytes": "e499"
+    },
+    {
+      "char": "칙",
+      "kind": "proxy",
+      "bytes": "e498"
+    },
+    {
+      "char": "친",
+      "kind": "proxy",
+      "bytes": "e497"
+    },
+    {
+      "char": "카",
+      "kind": "proxy",
+      "bytes": "e490"
+    },
+    {
+      "char": "코",
+      "kind": "proxy",
+      "bytes": "e46f"
+    },
+    {
+      "char": "쿄",
+      "kind": "proxy",
+      "bytes": "e464"
+    },
+    {
+      "char": "크",
+      "kind": "proxy",
+      "bytes": "e458"
+    },
+    {
+      "char": "탕",
+      "kind": "proxy",
+      "bytes": "e442"
+    },
+    {
+      "char": "탭",
+      "kind": "proxy",
+      "bytes": "e3fc"
+    },
+    {
+      "char": "터",
+      "kind": "proxy",
+      "bytes": "e3fa"
+    },
+    {
+      "char": "템",
+      "kind": "proxy",
+      "bytes": "e3ef"
+    },
+    {
+      "char": "토",
+      "kind": "proxy",
+      "bytes": "e3ed"
+    },
+    {
+      "char": "통",
+      "kind": "proxy",
+      "bytes": "e3e6"
+    },
+    {
+      "char": "투",
+      "kind": "proxy",
+      "bytes": "e3e4"
+    },
+    {
+      "char": "트",
+      "kind": "proxy",
+      "bytes": "e3d9"
+    },
+    {
+      "char": "특",
+      "kind": "proxy",
+      "bytes": "e3d8"
+    },
+    {
+      "char": "튼",
+      "kind": "proxy",
+      "bytes": "e3d7"
+    },
+    {
+      "char": "펙",
+      "kind": "proxy",
+      "bytes": "e3b4"
+    },
+    {
+      "char": "편",
+      "kind": "proxy",
+      "bytes": "e3af"
+    },
+    {
+      "char": "표",
+      "kind": "proxy",
+      "bytes": "e3a2"
+    },
+    {
+      "char": "하",
+      "kind": "proxy",
+      "bytes": "e38e"
+    },
+    {
+      "char": "함",
+      "kind": "proxy",
+      "bytes": "e389"
+    },
+    {
+      "char": "합",
+      "kind": "proxy",
+      "bytes": "e388"
+    },
+    {
+      "char": "항",
+      "kind": "proxy",
+      "bytes": "e386"
+    },
+    {
+      "char": "해",
+      "kind": "proxy",
+      "bytes": "e385"
+    },
+    {
+      "char": "허",
+      "kind": "proxy",
+      "bytes": "e37b"
+    },
+    {
+      "char": "화",
+      "kind": "proxy",
+      "bytes": "e360"
+    },
+    {
+      "char": "회",
+      "kind": "proxy",
+      "bytes": "e358"
+    },
+    {
+      "char": "효",
+      "kind": "proxy",
+      "bytes": "e355"
+    },
+    {
+      "char": "훈",
+      "kind": "proxy",
+      "bytes": "e353"
+    }
+  ],
+  "glyphs": {
+    "faces": 17,
+    "chars": 173,
+    "nonblank": 172,
+    "equal_to_map_font": 159,
+    "compared": true
+  },
+  "notes": {
+    "sparkles": [
+      [
+        333,
+        65
+      ],
+      [
+        333,
+        205
+      ],
+      [
+        333,
+        329
+      ],
+      [
+        701,
+        329
+      ],
+      [
+        701,
+        521
+      ]
+    ],
+    "gauges": [
+      {
+        "slider": "KR_Multiplier_EX",
+        "track": "KR_MD_TrackEX",
+        "fill": "KR_MD_FillEX",
+        "x": 493,
+        "y": 111,
+        "width": 172
+      },
+      {
+        "slider": "KR_Multiplier_Training",
+        "track": "KR_MD_TrackTraining",
+        "fill": "KR_MD_FillTraining",
+        "x": 861,
+        "y": 111,
+        "width": 172
+      },
+      {
+        "slider": "KR_Multiplier_Money",
+        "track": "KR_MD_TrackMoney",
+        "fill": "KR_MD_FillMoney",
+        "x": 493,
+        "y": 155,
+        "width": 172
+      },
+      {
+        "slider": "KR_Multiplier_PairTraining",
+        "track": "KR_MD_TrackPairTraining",
+        "fill": "KR_MD_FillPairTraining",
+        "x": 861,
+        "y": 155,
+        "width": 172
+      },
+      {
+        "slider": "KR_CheatSpeed",
+        "track": "KR_MD_TrackSpeed",
+        "fill": "KR_MD_FillSpeed",
+        "x": 493,
+        "y": 375,
+        "width": 172
+      }
+    ]
+  },
+  "boxes": [
+    {
+      "name": "メッセージ速度ボタン",
+      "kind": "button",
+      "rect": [
+        110.0,
+        30.0,
+        302.0,
+        72.0
+      ]
+    },
+    {
+      "name": "メッセージボタン",
+      "kind": "button",
+      "rect": [
+        110.0,
+        90.0,
+        302.0,
+        132.0
+      ]
+    },
+    {
+      "name": "メッセージウィンドウボタン",
+      "kind": "button",
+      "rect": [
+        110.0,
+        150.0,
+        302.0,
+        192.0
+      ]
+    },
+    {
+      "name": "サウンドボタン",
+      "kind": "button",
+      "rect": [
+        110.0,
+        210.0,
+        302.0,
+        252.0
+      ]
+    },
+    {
+      "name": "入力ボタン",
+      "kind": "button",
+      "rect": [
+        110.0,
+        270.0,
+        302.0,
+        312.0
+      ]
+    },
+    {
+      "name": "ウィンドウボタン",
+      "kind": "button",
+      "rect": [
+        110.0,
+        330.0,
+        302.0,
+        372.0
+      ]
+    },
+    {
+      "name": "ネットワークボタン",
+      "kind": "button",
+      "rect": [
+        110.0,
+        390.0,
+        302.0,
+        432.0
+      ]
+    },
+    {
+      "name": "３Ｄボタン",
+      "kind": "button",
+      "rect": [
+        110.0,
+        450.0,
+        302.0,
+        492.0
+      ]
+    },
+    {
+      "name": "SYS_ゲームを終了する",
+      "kind": "button",
+      "rect": [
+        605.0,
+        656.0,
+        755.0,
+        696.0
+      ]
+    },
+    {
+      "name": "SYS_タイトル画面に戻る",
+      "kind": "button",
+      "rect": [
+        765.0,
+        656.0,
+        915.0,
+        696.0
+      ]
+    },
+    {
+      "name": "SYS_ゲームに戻る",
+      "kind": "button",
+      "rect": [
+        925.0,
+        656.0,
+        1075.0,
+        696.0
+      ]
+    },
+    {
+      "name": "KR_ModTab",
+      "kind": "button",
+      "rect": [
+        110.0,
+        510.0,
+        302.0,
+        552.0
+      ]
+    },
+    {
+      "name": "テキスト_メッセージ速度",
+      "kind": "text",
+      "rect": [
+        159.8,
+        39.0,
+        252.2,
+        63.0
+      ]
+    },
+    {
+      "name": "テキスト_メッセージ",
+      "kind": "text",
+      "rect": [
+        176.5,
+        99.0,
+        235.5,
+        123.0
+      ]
+    },
+    {
+      "name": "テキスト_メッセージウィンドウ",
+      "kind": "text",
+      "rect": [
+        168.7,
+        159.0,
+        243.3,
+        183.0
+      ]
+    },
+    {
+      "name": "テキスト_サウンド",
+      "kind": "text",
+      "rect": [
+        176.5,
+        219.0,
+        235.5,
+        243.0
+      ]
+    },
+    {
+      "name": "テキスト_入力",
+      "kind": "text",
+      "rect": [
+        186.3,
+        279.0,
+        225.7,
+        303.0
+      ]
+    },
+    {
+      "name": "テキスト_ウィンドウ",
+      "kind": "text",
+      "rect": [
+        186.3,
+        339.0,
+        225.7,
+        363.0
+      ]
+    },
+    {
+      "name": "テキスト_ゲーム設定",
+      "kind": "text",
+      "rect": [
+        163.7,
+        399.0,
+        248.3,
+        423.0
+      ]
+    },
+    {
+      "name": "テキスト_リマスター",
+      "kind": "text",
+      "rect": [
+        166.7,
+        459.0,
+        245.3,
+        483.0
+      ]
+    },
+    {
+      "name": "KR_ModTabLabel",
+      "kind": "text",
+      "rect": [
+        186.3,
+        519.0,
+        225.7,
+        543.0
+      ]
+    },
+    {
+      "name": "KR_ModScope",
+      "kind": "text",
+      "rect": [
+        477.7,
+        77.5,
+        830.5,
+        92.5
+      ]
+    },
+    {
+      "name": "KR_ModRewardsTitle",
+      "kind": "text",
+      "rect": [
+        377.0,
+        72.0,
+        461.7,
+        96.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Label_EX",
+      "kind": "text",
+      "rect": [
+        377.0,
+        107.0,
+        426.5,
+        127.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Value_EX",
+      "kind": "text",
+      "rect": [
+        685.0,
+        107.0,
+        711.8,
+        127.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_EX",
+      "kind": "slider",
+      "rect": [
+        481.0,
+        108.0,
+        677.0,
+        150.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Label_Training",
+      "kind": "text",
+      "rect": [
+        745.0,
+        107.0,
+        794.5,
+        127.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Value_Training",
+      "kind": "text",
+      "rect": [
+        1053.0,
+        107.0,
+        1079.8,
+        127.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Training",
+      "kind": "slider",
+      "rect": [
+        849.0,
+        108.0,
+        1045.0,
+        150.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Label_Money",
+      "kind": "text",
+      "rect": [
+        377.0,
+        151.0,
+        410.0,
+        171.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Value_Money",
+      "kind": "text",
+      "rect": [
+        685.0,
+        151.0,
+        711.8,
+        171.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Money",
+      "kind": "slider",
+      "rect": [
+        481.0,
+        152.0,
+        677.0,
+        194.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Label_PairTraining",
+      "kind": "text",
+      "rect": [
+        745.0,
+        151.0,
+        832.5,
+        171.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_Value_PairTraining",
+      "kind": "text",
+      "rect": [
+        1053.0,
+        151.0,
+        1079.8,
+        171.0
+      ]
+    },
+    {
+      "name": "KR_Multiplier_PairTraining",
+      "kind": "slider",
+      "rect": [
+        849.0,
+        152.0,
+        1045.0,
+        194.0
+      ]
+    },
+    {
+      "name": "KR_ModSpeedTitle",
+      "kind": "text",
+      "rect": [
+        377.0,
+        371.0,
+        448.0,
+        391.0
+      ]
+    },
+    {
+      "name": "KR_CheatSpeedValue",
+      "kind": "text",
+      "rect": [
+        685.0,
+        371.0,
+        718.0,
+        391.0
+      ]
+    },
+    {
+      "name": "KR_CheatSpeed",
+      "kind": "slider",
+      "rect": [
+        481.0,
+        372.0,
+        677.0,
+        410.0
+      ]
+    },
+    {
+      "name": "KR_ModSpeedDefaultHint",
+      "kind": "text",
+      "rect": [
+        377.0,
+        436.0,
+        579.1,
+        451.0
+      ]
+    },
+    {
+      "name": "KR_CheatTrap",
+      "kind": "checkbox",
+      "rect": [
+        745.0,
+        370.0,
+        896.0,
+        402.0
+      ]
+    },
+    {
+      "name": "KR_CheatQuick",
+      "kind": "checkbox",
+      "rect": [
+        377.0,
+        460.0,
+        582.5,
+        492.0
+      ]
+    },
+    {
+      "name": "KR_CheatRoute",
+      "kind": "checkbox",
+      "rect": [
+        745.0,
+        406.0,
+        917.5,
+        438.0
+      ]
+    },
+    {
+      "name": "KR_CheatLoot",
+      "kind": "checkbox",
+      "rect": [
+        377.0,
+        496.0,
+        549.5,
+        528.0
+      ]
+    },
+    {
+      "name": "KR_CheatSweep",
+      "kind": "checkbox",
+      "rect": [
+        745.0,
+        442.0,
+        896.0,
+        474.0
+      ]
+    },
+    {
+      "name": "KR_ModQuickHint",
+      "kind": "text",
+      "rect": [
+        783.0,
+        480.0,
+        956.6,
+        495.0
+      ]
+    },
+    {
+      "name": "KR_ModQuickCancel",
+      "kind": "text",
+      "rect": [
+        783.0,
+        498.0,
+        990.8,
+        513.0
+      ]
+    },
+    {
+      "name": "KR_AutoEquipToggle",
+      "kind": "checkbox",
+      "rect": [
+        745.0,
+        564.0,
+        962.0,
+        596.0
+      ]
+    },
+    {
+      "name": "KR_SmartAutoToggle",
+      "kind": "checkbox",
+      "rect": [
+        377.0,
+        532.0,
+        528.0,
+        564.0
+      ]
+    },
+    {
+      "name": "KR_ItemConfigButton",
+      "kind": "button",
+      "rect": [
+        557.0,
+        24.0,
+        707.0,
+        54.0
+      ]
+    },
+    {
+      "name": "KR_ItemConfigLabel",
+      "kind": "text",
+      "rect": [
+        569.5,
+        29.0,
+        694.5,
+        49.0
+      ]
+    },
+    {
+      "name": "KR_TermConfigButton",
+      "kind": "button",
+      "rect": [
+        737.0,
+        24.0,
+        887.0,
+        54.0
+      ]
+    },
+    {
+      "name": "KR_TermConfigLabel",
+      "kind": "text",
+      "rect": [
+        749.5,
+        29.0,
+        874.5,
+        49.0
+      ]
+    },
+    {
+      "name": "KR_PlayerInfoButton",
+      "kind": "button",
+      "rect": [
+        917.0,
+        24.0,
+        1067.0,
+        54.0
+      ]
+    },
+    {
+      "name": "KR_PlayerInfoLabel",
+      "kind": "text",
+      "rect": [
+        942.2,
+        29.0,
+        1041.8,
+        49.0
+      ]
+    },
+    {
+      "name": "KR_HomeRateToggle",
+      "kind": "checkbox",
+      "rect": [
+        745.0,
+        600.0,
+        912.5,
+        632.0
+      ]
+    },
+    {
+      "name": "KR_SaveStyleButton",
+      "kind": "button",
+      "rect": [
+        377.0,
+        24.0,
+        527.0,
+        54.0
+      ]
+    },
+    {
+      "name": "KR_SaveStyleLabel",
+      "kind": "text",
+      "rect": [
+        389.5,
+        29.0,
+        514.5,
+        49.0
+      ]
+    },
+    {
+      "name": "KR_NavTitle",
+      "kind": "text",
+      "rect": [
+        377.0,
+        212.0,
+        520.7,
+        236.0
+      ]
+    },
+    {
+      "name": "KR_NavOff",
+      "kind": "checkbox",
+      "rect": [
+        377.0,
+        246.0,
+        490.0,
+        278.0
+      ]
+    },
+    {
+      "name": "KR_NavIzumi",
+      "kind": "checkbox",
+      "rect": [
+        516.0,
+        246.0,
+        607.5,
+        278.0
+      ]
+    },
+    {
+      "name": "KR_NavKyouka",
+      "kind": "checkbox",
+      "rect": [
+        633.5,
+        246.0,
+        708.5,
+        278.0
+      ]
+    },
+    {
+      "name": "KR_NavManami",
+      "kind": "checkbox",
+      "rect": [
+        734.5,
+        246.0,
+        826.0,
+        278.0
+      ]
+    },
+    {
+      "name": "KR_NavMakoto",
+      "kind": "checkbox",
+      "rect": [
+        852.0,
+        246.0,
+        943.5,
+        278.0
+      ]
+    },
+    {
+      "name": "KR_NavNote",
+      "kind": "text",
+      "rect": [
+        377.0,
+        286.0,
+        914.0,
+        320.0
+      ]
+    },
+    {
+      "name": "KR_MD_TagNav",
+      "kind": "text",
+      "rect": [
+        536.7,
+        217.5,
+        735.9,
+        232.5
+      ]
+    },
+    {
+      "name": "KR_MD_HeadBattle",
+      "kind": "text",
+      "rect": [
+        377.0,
+        336.0,
+        416.3,
+        360.0
+      ]
+    },
+    {
+      "name": "KR_MD_TagBattle",
+      "kind": "text",
+      "rect": [
+        432.3,
+        341.5,
+        517.7,
+        356.5
+      ]
+    },
+    {
+      "name": "KR_MD_Tick1",
+      "kind": "text",
+      "rect": [
+        482.0,
+        416.0,
+        505.0,
+        430.0
+      ]
+    },
+    {
+      "name": "KR_MD_Tick2",
+      "kind": "text",
+      "rect": [
+        526.9,
+        416.0,
+        545.6,
+        430.0
+      ]
+    },
+    {
+      "name": "KR_MD_Tick3",
+      "kind": "text",
+      "rect": [
+        569.7,
+        416.0,
+        588.3,
+        430.0
+      ]
+    },
+    {
+      "name": "KR_MD_Tick4",
+      "kind": "text",
+      "rect": [
+        612.4,
+        416.0,
+        631.1,
+        430.0
+      ]
+    },
+    {
+      "name": "KR_MD_Tick5",
+      "kind": "text",
+      "rect": [
+        655.2,
+        416.0,
+        673.8,
+        430.0
+      ]
+    },
+    {
+      "name": "KR_MD_HeadDungeon",
+      "kind": "text",
+      "rect": [
+        745.0,
+        336.0,
+        784.3,
+        360.0
+      ]
+    },
+    {
+      "name": "KR_MD_TagDungeon",
+      "kind": "text",
+      "rect": [
+        800.3,
+        341.5,
+        885.7,
+        356.5
+      ]
+    },
+    {
+      "name": "KR_MD_HeadEtc",
+      "kind": "text",
+      "rect": [
+        745.0,
+        528.0,
+        784.3,
+        552.0
+      ]
+    },
+    {
+      "name": "KR_MD_TagEtc",
+      "kind": "text",
+      "rect": [
+        800.3,
+        533.5,
+        885.7,
+        548.5
+      ]
+    }
+  ]
+}

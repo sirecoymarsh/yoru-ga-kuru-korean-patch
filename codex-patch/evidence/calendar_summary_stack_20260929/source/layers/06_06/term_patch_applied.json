@@ -1,0 +1,58 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "term_folder": "june",
+   "file_sha_now": "069c23623b529339115a8877339ea95e46ff130becd715c9e9ba603fbdc5816b",
+   "file_sha_at_audit": "069c23623b529339115a8877339ea95e46ff130becd715c9e9ba603fbdc5816b"
+  }
+ ],
+ "events": [
+  {
+   "no": 88,
+   "folder": "june",
+   "proposals": 1,
+   "eligible": 1,
+   "skipped": [],
+   "sha256_before": "d5837dd8f24b3f658b4e131e4494f49237fe0e5b9c1f2d99249cef7bc8f58c25",
+   "sha256_after": "2d42253333cc962c4e7332f55cf79e9a7e007839073c454230e629af9f8048b3",
+   "summary_after": "마나미가 안을 엿본 뒤 시청각실 문을 열자 이즈미가 모모세의 원수를 몰아넣었다고 말한다. 거울에 모인 참된 달의 빛에 이즈미가 메스꺼워하는 사이 우메다가 갑옷 같은 모습으로 변한다.",
+   "gate_problems": [
+    "longer than 100 (101)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (101)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "참된 달빛에",
+     "after": "참된 달의 빛에",
+     "type": "term_boundary",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  }
+ ],
+ "applied": 0,
+ "skipped_proposals": 1,
+ "skipped_summaries": 0,
+ "below_threshold": 4,
+ "changed_ids": [],
+ "gate_skipped": [
+  {
+   "no": 88,
+   "problems": [
+    "longer than 100 (101)"
+   ],
+   "proposals": 1
+  }
+ ],
+ "tag": "06",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T22:29:03.092556+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

@@ -1,0 +1,635 @@
+{
+ "schema": "yoru-calendar-title.candidate.v1",
+ "status": "CALENDAR_TITLE_20261018_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-10-18T20:38:54",
+ "seconds": 106,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "1ccbab7f0557497968c29f0f56148bc1817817cbb4c5fc1bb01696eadbd45d39",
+  "status": "CALENDAR_LIST_20261018_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "fe4b6db8a7e59813f14901feda812d9ab4451f6c4493bfb1877b75a57bc4a855",
+  "pact_sha256": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "winmm_sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+  "checked_at_start_and_end": true
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "9be1a952441336b80be40cd5300addec04620a80da17885e47e3e4daf2553729",
+   "size": 4468548
+  }
+ },
+ "pact_changed": false,
+ "ex_changed": false,
+ "fnl_changed": false,
+ "winmm_changed": false,
+ "added_functions": {
+  "KR_LTStart": 33170,
+  "KR_LTRead": 33171,
+  "KR_LTTitle": 33172,
+  "KR_LTNote": 33173,
+  "KR_LTPreview": 33174,
+  "KR_LTLine": 33175,
+  "KR_LTMonth": 33176,
+  "KR_LTBoardExtras": 33177
+ },
+ "jam_bodies": [],
+ "same_length_sites": [
+  {
+   "function": "KR_XVRows",
+   "fid": 33127,
+   "function_address": 15452522,
+   "site": 15452800,
+   "site_offset": 278,
+   "kind": "CALLFUNC",
+   "original": "KR_XVMet",
+   "original_fid": 33119,
+   "replacement": "KR_LTStart",
+   "replacement_fid": 33170,
+   "before": "30005f810000",
+   "after": "300092810000",
+   "operand_bytes": [
+    15452802,
+    15452806
+   ],
+   "note": "title board rows: 본편, the companions present from the start, 던전 동행",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_LVLanes",
+   "fid": 33143,
+   "function_address": 15495478,
+   "site": 15495730,
+   "site_offset": 252,
+   "kind": "CALLFUNC",
+   "original": "KR_XVMet",
+   "original_fid": 33119,
+   "replacement": "KR_LTStart",
+   "replacement_fid": 33170,
+   "before": "30005f810000",
+   "after": "300092810000",
+   "operand_bytes": [
+    15495732,
+    15495736
+   ],
+   "note": "title list rows and chips: the same rows",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_LVReveal",
+   "fid": 33147,
+   "function_address": 15496472,
+   "site": 15496574,
+   "site_offset": 102,
+   "kind": "CALLFUNC",
+   "original": "KR_P29Read",
+   "original_fid": 32764,
+   "replacement": "KR_LTRead",
+   "replacement_fid": 33171,
+   "before": "3000fc7f0000",
+   "after": "300093810000",
+   "operand_bytes": [
+    15496576,
+    15496580
+   ],
+   "note": "the title branch reveals no cast / summary / replay / detail (전체 개방 is checked first)",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_LVRow",
+   "fid": 33161,
+   "function_address": 15501070,
+   "site": 15502688,
+   "site_offset": 1618,
+   "kind": "CALLFUNC",
+   "original": "KR_LVNote",
+   "original_fid": 33151,
+   "replacement": "KR_LTNote",
+   "replacement_fid": 33173,
+   "before": "30007f810000",
+   "after": "300095810000",
+   "operand_bytes": [
+    15502690,
+    15502694
+   ],
+   "note": "title row note: 「타이틀에서는 줄거리를 닫아 둡니다」",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_LVDraw",
+   "fid": 33163,
+   "function_address": 15508192,
+   "site": 15512734,
+   "site_offset": 4542,
+   "kind": "CALLFUNC",
+   "original": "KR_LVPreview",
+   "original_fid": 33162,
+   "replacement": "KR_LTPreview",
+   "replacement_fid": 33174,
+   "before": "30008a810000",
+   "after": "300096810000",
+   "operand_bytes": [
+    15512736,
+    15512740
+   ],
+   "note": "title preview: the cast, replay line and summary say they are closed",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_LVDraw",
+   "fid": 33163,
+   "function_address": 15508192,
+   "site": 15511090,
+   "site_offset": 2898,
+   "kind": "CALLFUNC",
+   "original": "KR_LVLine",
+   "original_fid": 33157,
+   "replacement": "KR_LTLine",
+   "replacement_fid": 33175,
+   "before": "300085810000",
+   "after": "300097810000",
+   "operand_bytes": [
+    15511092,
+    15511096
+   ],
+   "note": "title list: 「달 화면으로」 drawn off",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_LVChart",
+   "fid": 33168,
+   "function_address": 15519364,
+   "site": 15519548,
+   "site_offset": 184,
+   "kind": "CALLFUNC",
+   "original": "KR_LVBoardExtras",
+   "original_fid": 33166,
+   "replacement": "KR_LTBoardExtras",
+   "replacement_fid": 33177,
+   "before": "30008e810000",
+   "after": "300099810000",
+   "operand_bytes": [
+    15519550,
+    15519554
+   ],
+   "note": "title board: 회상 · 그 밖 covered and off, the hint",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_LVChart",
+   "fid": 33168,
+   "function_address": 15519364,
+   "site": 15520338,
+   "site_offset": 974,
+   "kind": "CALLFUNC",
+   "original": "KR_CChart",
+   "original_fid": 32692,
+   "replacement": "KR_LTMonth",
+   "replacement_fid": 33176,
+   "before": "3000b47f0000",
+   "after": "300098810000",
+   "operand_bytes": [
+    15520340,
+    15520344
+   ],
+   "note": "no month view from the title board",
+   "owner_is_original": true
+  },
+  {
+   "function": "KR_LVRun",
+   "fid": 33165,
+   "function_address": 15513762,
+   "site": 15517384,
+   "site_offset": 3622,
+   "kind": "CALLFUNC",
+   "original": "KR_CChart",
+   "original_fid": 32692,
+   "replacement": "KR_LTMonth",
+   "replacement_fid": 33176,
+   "before": "3000b47f0000",
+   "after": "300098810000",
+   "operand_bytes": [
+    15517386,
+    15517390
+   ],
+   "note": "no month view from the title list",
+   "owner_is_original": true
+  }
+ ],
+ "relocated_original_functions": [],
+ "pinned_functions": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "code_bytes": 232,
+   "bytes_differing": 0
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "code_bytes": 298,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "code_bytes": 550,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "code_bytes": 1104,
+   "bytes_differing": 0
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "code_bytes": 1292,
+   "bytes_differing": 0
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890,
+   "code_bytes": 440,
+   "bytes_differing": 0
+  },
+  "KR_CReplayRun": {
+   "index": 32690,
+   "address": 13167576,
+   "code_bytes": 494,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00058": {
+   "index": 33021,
+   "address": 15276938,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00063": {
+   "index": 33022,
+   "address": 15277000,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00069": {
+   "index": 33023,
+   "address": 15277062,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00104": {
+   "index": 33024,
+   "address": 15277124,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00258": {
+   "index": 33025,
+   "address": 15277186,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00260": {
+   "index": 33026,
+   "address": 15277248,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00322": {
+   "index": 33027,
+   "address": 15277310,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E00611": {
+   "index": 33028,
+   "address": 15277372,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E10021": {
+   "index": 33029,
+   "address": 15277434,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20041": {
+   "index": 33030,
+   "address": 15277496,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20081": {
+   "index": 33031,
+   "address": 15277558,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E20164": {
+   "index": 33032,
+   "address": 15277620,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30001": {
+   "index": 33033,
+   "address": 15277682,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30021": {
+   "index": 33034,
+   "address": 15277744,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E30152": {
+   "index": 33035,
+   "address": 15277806,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40021": {
+   "index": 33036,
+   "address": 15277868,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40041": {
+   "index": 33037,
+   "address": 15277930,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40043": {
+   "index": 33038,
+   "address": 15277992,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_AN_E40061": {
+   "index": 33039,
+   "address": 15278054,
+   "code_bytes": 62,
+   "bytes_differing": 0
+  },
+  "KR_ANSelect": {
+   "index": 33063,
+   "address": 15281812,
+   "code_bytes": 448,
+   "bytes_differing": 0
+  },
+  "KR_ANSelFrame": {
+   "index": 33066,
+   "address": 15283614,
+   "code_bytes": 34,
+   "bytes_differing": 0
+  },
+  "KR_ANTrainConfirm": {
+   "index": 33072,
+   "address": 15284948,
+   "code_bytes": 126,
+   "bytes_differing": 0
+  },
+  "KR_ANOpeningQ": {
+   "index": 33083,
+   "address": 15287974,
+   "code_bytes": 34,
+   "bytes_differing": 0
+  },
+  "KR_ANNewGame": {
+   "index": 33082,
+   "address": 15287640,
+   "code_bytes": 334,
+   "bytes_differing": 0
+  }
+ },
+ "invariance": {
+  "original_function_entries_identical": true,
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 12,
+  "old_code_changes_only_at_swapped_operands": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 6,
+  "functions_added": 8,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 232,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 298,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 550,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1104,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1292,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 440,
+    "bytes_differing": 0
+   },
+   "KR_CReplayRun": {
+    "index": 32690,
+    "address": 13167576,
+    "code_bytes": 494,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00058": {
+    "index": 33021,
+    "address": 15276938,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00063": {
+    "index": 33022,
+    "address": 15277000,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00069": {
+    "index": 33023,
+    "address": 15277062,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00104": {
+    "index": 33024,
+    "address": 15277124,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00258": {
+    "index": 33025,
+    "address": 15277186,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00260": {
+    "index": 33026,
+    "address": 15277248,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00322": {
+    "index": 33027,
+    "address": 15277310,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E00611": {
+    "index": 33028,
+    "address": 15277372,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E10021": {
+    "index": 33029,
+    "address": 15277434,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20041": {
+    "index": 33030,
+    "address": 15277496,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20081": {
+    "index": 33031,
+    "address": 15277558,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E20164": {
+    "index": 33032,
+    "address": 15277620,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30001": {
+    "index": 33033,
+    "address": 15277682,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30021": {
+    "index": 33034,
+    "address": 15277744,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E30152": {
+    "index": 33035,
+    "address": 15277806,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40021": {
+    "index": 33036,
+    "address": 15277868,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40041": {
+    "index": 33037,
+    "address": 15277930,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40043": {
+    "index": 33038,
+    "address": 15277992,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_AN_E40061": {
+    "index": 33039,
+    "address": 15278054,
+    "code_bytes": 62,
+    "bytes_differing": 0
+   },
+   "KR_ANSelect": {
+    "index": 33063,
+    "address": 15281812,
+    "code_bytes": 448,
+    "bytes_differing": 0
+   },
+   "KR_ANSelFrame": {
+    "index": 33066,
+    "address": 15283614,
+    "code_bytes": 34,
+    "bytes_differing": 0
+   },
+   "KR_ANTrainConfirm": {
+    "index": 33072,
+    "address": 15284948,
+    "code_bytes": 126,
+    "bytes_differing": 0
+   },
+   "KR_ANOpeningQ": {
+    "index": 33083,
+    "address": 15287974,
+    "code_bytes": 34,
+    "bytes_differing": 0
+   },
+   "KR_ANNewGame": {
+    "index": 33082,
+    "address": 15287640,
+    "code_bytes": 334,
+    "bytes_differing": 0
+   }
+  }
+ },
+ "native_opcode_audit": {
+  "active_functions": 31291,
+  "instruction_sites": 2294794,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "new_globals": 0,
+ "new_struct_members": 0,
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "a811aee142354d15ff192e9311aba79f22e191aea838affb3b9c22fe9e53bc45",
+ "build_script_sha256": "519a14a7d514b9b50957b86bb4a2599602412c96e577d2ebd1f325ef44fe7d33"
+}

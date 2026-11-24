@@ -1,0 +1,20 @@
+{
+  "pid": 55788,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "a26e0eeed6d53b98f3e04f591eb8df3d83926f830c46290092cf4144633b18ea",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "resume loading NightR45.asd",
+    "RESUMED at 1,14 map=605 floor=5 flag=0 queue=0 pending=0 time=999 loot=1 trap=1",
+    "SHOT floor_probe_0.bmp",
+    "START ok=1 at 1,14 map=605 floor=5 flag=2026092203 queue=2 pending=0 time=999",
+    "STEP walk 1 at 1,15 map=605 floor=5 flag=2026092203 queue=1 pending=0 time=999",
+    "NATIVE STORY at 1,16 own=0",
+    "SHOT native_story_boundary.bmp",
+    "PASS native movement reached original story; no dialogue/party choice answered",
+    "END"
+  ],
+  "save": "NightR45.asd",
+  "real_saves_unchanged": true
+}

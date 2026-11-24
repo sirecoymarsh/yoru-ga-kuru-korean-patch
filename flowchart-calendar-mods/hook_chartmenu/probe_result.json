@@ -1,0 +1,15 @@
+﻿{
+    "time":  "2026-09-27T17:51:38",
+    "diagnostic_sha256":  "5a118f499355e7beb3e1da842a0a0f0d8101b84df575aa8d1ee8a360e1df1a50",
+    "release_sha256":  "378a78345dc8a8a625d351ca622aa35ee8a3b6d6d1023b922d88d7e7bc511fda",
+    "probe_folder":  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_chartmenu\\probe\\run",
+    "iat_hooks_installed":  true,
+    "menu_item_added":  true,
+    "menu_items":  4,
+    "menu_text":  "이벤트 플로우 차트(\u0026E)",
+    "command_id":  "0x7E10",
+    "chart_opened":  true,
+    "shellexecute_result":  "42",
+    "browser_window_title":  "밤이 온다! 이벤트 차트 v2 - Chrome",
+    "note":  "diagnostic profile probed (logging); release differs only by IME_HOOK_DIAGNOSTICS=0"
+}

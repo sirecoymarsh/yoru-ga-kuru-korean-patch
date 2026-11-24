@@ -1,0 +1,16 @@
+{
+  "completed": true,
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "started": "2026-09-17T04:11:54.4875589+09:00",
+  "ended": "2026-09-17T04:11:57.4009686+09:00",
+  "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\translation_polish_20260917\\page_lineflow_v2\\scan_copy",
+  "files": {
+    "NightRemaster.ain": "e775f61d6caf2fdec00623d69cd3241f3034881488981bc07744253d108602ed"
+  },
+  "engine": "1.1.26080.3",
+  "platform": "4.18.26080.3",
+  "signatures": "1.459.226.0",
+  "antivirusEnabled": true,
+  "before": [],
+  "after": []
+}

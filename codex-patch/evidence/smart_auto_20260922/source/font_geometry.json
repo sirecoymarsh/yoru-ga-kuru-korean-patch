@@ -1,0 +1,146 @@
+{
+  "status": "FONT_GEOMETRY_PASS",
+  "files": {
+    "NightRemaster.ain": "f331f7303175e9d7c9fbbcd3e032973717654e223d2ab2f9969638900b08022c",
+    "NightRemasterPact.afa": "9159e5a340e6d436f7932d094ce966a66b48c36dc9ed3885109b690bceee3404"
+  },
+  "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+  "measurement": {
+    "line_count": 1,
+    "max_width_px": 130.0,
+    "line_widths_px": [
+      130.0
+    ],
+    "lines": [
+      {
+        "line_index": 0,
+        "text": "    강화 자동 전투",
+        "character_count": 12,
+        "measured_glyph_count": 12,
+        "explicit_proxy_glyph_count": 6,
+        "fnl_width_units": 462,
+        "glyph_advance_px": 154.0,
+        "font_spacing_px": -24.0,
+        "edge_spacing_px": 0.0,
+        "constant_advance_per_glyph_px": -2.0,
+        "width_px": 130.0,
+        "glyphs": [
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "glyph_index": 0,
+            "fnl_width_units": 18,
+            "glyph_advance_px": 6.0,
+            "render_advance_px": 4.0,
+            "explicit_proxy": false
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "glyph_index": 0,
+            "fnl_width_units": 18,
+            "glyph_advance_px": 6.0,
+            "render_advance_px": 4.0,
+            "explicit_proxy": false
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "glyph_index": 0,
+            "fnl_width_units": 18,
+            "glyph_advance_px": 6.0,
+            "render_advance_px": 4.0,
+            "explicit_proxy": false
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "glyph_index": 0,
+            "fnl_width_units": 18,
+            "glyph_advance_px": 6.0,
+            "render_advance_px": 4.0,
+            "explicit_proxy": false
+          },
+          {
+            "character": "강",
+            "codepoint": "U+AC15",
+            "glyph_index": 7951,
+            "fnl_width_units": 59,
+            "glyph_advance_px": 19.666667,
+            "render_advance_px": 17.666667,
+            "explicit_proxy": true
+          },
+          {
+            "character": "화",
+            "codepoint": "U+D654",
+            "glyph_index": 6582,
+            "fnl_width_units": 59,
+            "glyph_advance_px": 19.666667,
+            "render_advance_px": 17.666667,
+            "explicit_proxy": true
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "glyph_index": 0,
+            "fnl_width_units": 18,
+            "glyph_advance_px": 6.0,
+            "render_advance_px": 4.0,
+            "explicit_proxy": false
+          },
+          {
+            "character": "자",
+            "codepoint": "U+C790",
+            "glyph_index": 6998,
+            "fnl_width_units": 59,
+            "glyph_advance_px": 19.666667,
+            "render_advance_px": 17.666667,
+            "explicit_proxy": true
+          },
+          {
+            "character": "동",
+            "codepoint": "U+B3D9",
+            "glyph_index": 7650,
+            "fnl_width_units": 59,
+            "glyph_advance_px": 19.666667,
+            "render_advance_px": 17.666667,
+            "explicit_proxy": true
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "glyph_index": 0,
+            "fnl_width_units": 18,
+            "glyph_advance_px": 6.0,
+            "render_advance_px": 4.0,
+            "explicit_proxy": false
+          },
+          {
+            "character": "전",
+            "codepoint": "U+C804",
+            "glyph_index": 6978,
+            "fnl_width_units": 59,
+            "glyph_advance_px": 19.666667,
+            "render_advance_px": 17.666667,
+            "explicit_proxy": true
+          },
+          {
+            "character": "투",
+            "codepoint": "U+D22C",
+            "glyph_index": 6713,
+            "fnl_width_units": 59,
+            "glyph_advance_px": 19.666667,
+            "render_advance_px": 17.666667,
+            "explicit_proxy": true
+          }
+        ]
+      }
+    ],
+    "unmeasured_controls": []
+  },
+  "toggle_y": 590,
+  "toggle_height": 32,
+  "footer_y": 656,
+  "minimum_existing_row_gap": 6,
+  "native_render_verified": false
+}

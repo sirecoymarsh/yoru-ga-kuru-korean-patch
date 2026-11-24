@@ -1,0 +1,50 @@
+{
+ "pid": 37324,
+ "ain_sha256": "e7de740608ecbb912d7e5f1076bc6e79058b54cc8bd6845759c6be255ab0f003",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 15.3,
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_board_all.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_board_back.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_board_save.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_home_after.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_month_jun.png"
+ ],
+ "save": "NightR47.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\probe\\run\\SaveData_OverviewProbe_20261018_183349",
+ "candidate_ain": "db38f46be72fee77300df36aa8ef4e1f4330a677fd058665ca6f466aa4d9f975",
+ "candidate_pact": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+ "fails": [],
+ "oks": 7,
+ "ended": true,
+ "user_save_folder_unchanged": true
+}
+SAVEFOLDER P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\calendar_overview_20261018\probe\run\SaveData_OverviewProbe_20261018_183349
+HOMERATE ON 1
+RESUME NightR47.asd stage=home0
+HOME panel=1 date=11/4
+OK home panel shown with the calendar button
+STAGE ov1
+CLICK calendar button
+BOARD open=1 month=
+OK the calendar opens on the overview board
+ROWS 0 2 3 4 5 6 7 8 9 
+OK rows: 본편, joined companions in order, 던전 동행
+COUNT izumi 4월 save=60014 all=70014
+SHOT xv_board_save.bmp
+STAGE ov2
+OK still on the board after 모든 세이브
+SHOT xv_board_all.bmp
+STAGE month
+CLICK 6월 head
+OK the month view is open (board parts released)
+SHOT xv_month_jun.bmp
+STAGE back
+OK closing the month view returns to the board
+SHOT xv_board_back.bmp
+STAGE after_overview
+OK home panel back after the calendar
+SHOT xv_home_after.bmp
+FAILS 0
+END

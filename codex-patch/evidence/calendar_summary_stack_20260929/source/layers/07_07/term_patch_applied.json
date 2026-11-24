@@ -1,0 +1,68 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\july\\design\\summaries.json",
+   "term_folder": "july",
+   "file_sha_now": "d3e3db0e22b947f2fed06f313bf02ff4464dd0313556677aa3587247b1181a2f",
+   "file_sha_at_audit": "d3e3db0e22b947f2fed06f313bf02ff4464dd0313556677aa3587247b1181a2f"
+  }
+ ],
+ "events": [
+  {
+   "no": 155,
+   "folder": "july",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "봉인된 적도 다르고",
+     "after": "봉인된 히카리도 다르고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "00be25779d2d1b1a31879be25c73d2367bb8ee9d39212253535feedc047edaf2",
+   "sha256_after": "e806af2104e6be6178c92493024d15993a0ebfe857a6294154b6974e9d505775",
+   "summary_after": "마나미가 이 틈새는 색이 다르다고 하자 이즈미는 봉인된 히카리도 다르고 새로 만들어진 것 같다고 말한다. 무언가 짐작하던 이즈미는 사과하며 서두르자고 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 183,
+   "folder": "july",
+   "proposals": 2,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "더 강한 적이 있는 틈새도",
+     "after": "더 강한 히카리가 있는 틈새도",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "2568d18442409265c1d01bf170532236c3947193077fd996eb1a187b9386535f",
+   "sha256_after": "9d7059fabab1cd6ba2acaa00a844bf2b25a2255972a9223251de335ef08ba419",
+   "summary_after": "이즈미가 하이지처럼 인간에서 히카리가 된 적에 대비해 더 강한 히카리가 있는 틈새도 쓰자고 한다. 마코토가 봉인된 틈새의 위치를 알려 줬다는 말에 주인공도 가 보겠다고 답한다.",
+   "gate_problems": []
+  }
+ ],
+ "applied": 2,
+ "skipped_proposals": 0,
+ "skipped_summaries": 0,
+ "below_threshold": 1,
+ "changed_ids": [
+  155,
+  183
+ ],
+ "gate_skipped": [],
+ "tag": "07",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T22:30:01.396057+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

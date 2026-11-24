@@ -1,0 +1,96 @@
+{
+  "status": "CHANGED_PROPOSALS_REVIEWED",
+  "files": {
+    "NightRemaster.ain": "baef6ec000683bc9fdb3660ebbca2a5a841b3f487c05780febeb3efe90fcacf4"
+  },
+  "scope": "The 1777-row merged change proposal and follow-up corrections, not entire unchanged game corpus",
+  "input_external_rows": 1774,
+  "combined_proposal_rows": 1777,
+  "read_only_reviews": [
+    {
+      "reviewer": "handoff_semantic_low",
+      "range": "m_id < 61889",
+      "rows": 888
+    },
+    {
+      "reviewer": "handoff_semantic_high",
+      "range": "m_id >= 61889",
+      "rows": 889
+    }
+  ],
+  "primary_author_and_final_reviewer": "Codex internal",
+  "external_provenance": "User-supplied Claude/Fable/Opus proposals; exact external model identifier unrecorded; not relabeled Codex-authored",
+  "codex_authored_ids": [
+    3549,
+    5123,
+    5717,
+    10446,
+    19005,
+    25883,
+    25884,
+    32678,
+    33019,
+    33021,
+    33022,
+    33084,
+    33085,
+    33093,
+    33094,
+    43804,
+    43805,
+    44156,
+    44157,
+    44740,
+    44741,
+    47187,
+    58240,
+    58389,
+    58390,
+    62912,
+    65344,
+    72313,
+    72314,
+    75078,
+    78574,
+    87176,
+    87177,
+    92177,
+    93312,
+    93313,
+    93314
+  ],
+  "retained_baseline_ids": [
+    12670,
+    12671,
+    19060,
+    43330,
+    46565,
+    64100,
+    77928,
+    77929,
+    80246,
+    82933,
+    100595,
+    100596
+  ],
+  "fixed_issues": [
+    "moving-worker quotation speech level",
+    "mistaking Izumi for a teacher and polite apology",
+    "deliberately sarcastic polite speech in both routes",
+    "situational polite speech in banana joke",
+    "phonetic name-reading parentheses kept in both routes",
+    "broken demonstrative/ne pronoun",
+    "disconnected split sentence",
+    "particle errors and typo",
+    "overflow by longer approved terms",
+    "same affected source pages across routes"
+  ],
+  "repeated_page_decisions": "Matched complete original Japanese pages for all explicit overrides/retentions; equal-context duplicate fixes propagated. Quoted joke at13516/78573 depends on wording of preceding utterance and is not globally replaced.",
+  "unidentified_real_names_preserved": [
+    "마루칫포☆우니크/우니크",
+    "TV 오츠나",
+    "밋치/고유키",
+    "THE 바다크"
+  ],
+  "native_tested": false
+}

@@ -1,0 +1,9 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_term_rate_20260924_r13\\NightRemaster.ain",
+  "source_sha256": "2e4e3dff57fccd621158f0d48dbc84fe53cad1abdc0738ab9421a32091752688",
+  "probe_sha256": "69189929128192124f3edb321fc595d3a8364432201ec5f9865499d551329655",
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "input": "Resume of a copied NightR39.asd; A/B/C title draws for 쿄카 place/cond/party, then the menu in colour ([3, 1, 1, 0, 0, 2, 0, 0, 0]).",
+  "save_folder": "SaveData_KR_ClaudeColorProbe_20260924_214516",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

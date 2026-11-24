@@ -1,0 +1,40 @@
+{
+  "status": "LOOT_NOTICE_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "f3a82e856b75cbb10b455cf3575f10964c0a7218ef86c1a601c3da66404fd538",
+    "NightRemasterPact.afa": "298e436ad8f4bd8eefc2bdc740dae2daa440daa6648dc052b0183706b66159b3"
+  },
+  "compiled": {
+    "total_exp_cases": 297,
+    "compiled_receipt_scenarios": 120,
+    "failure_cases": 7,
+    "rapid_replace_cases": 300,
+    "balanced_getter_references": true,
+    "no_per_frame_text_rebuild": true,
+    "native_reward_execution": "external fixture; original native payout byte identity checked"
+  },
+  "structure": {
+    "inverse_original_instruction_counts": {
+      "28664": 701,
+      "28736": 96,
+      "28739": 35,
+      "28751": 178,
+      "29813": 11
+    },
+    "native_payout_and_prior_mod_functions_unchanged": true,
+    "old_PACT_entries_identical": 186,
+    "click_through_parts": 5
+  },
+  "font": {
+    "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+    "actual_face": 3,
+    "checked_glyph_size_pairs": 39,
+    "max_width": 360.25,
+    "width_budget": 542,
+    "body_lines_max": 6,
+    "native_gameplay_verified": false
+  },
+  "native_gameplay_verified": false,
+  "actual_save_reload_verified": false,
+  "translator_model": "Codex internal"
+}

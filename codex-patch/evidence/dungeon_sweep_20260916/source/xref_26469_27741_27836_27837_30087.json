@@ -1,0 +1,202 @@
+[
+  {
+    "caller": 26468,
+    "name": "C_GameDate@Set",
+    "target": 26469,
+    "op": "PUSH",
+    "line": 1207026,
+    "context": [
+      "0x0053FC1C:\t\tPUSH 0x6767",
+      "0x0053FC22:\t\tPUSHLOCALPAGE",
+      "0x0053FC24:\t\tPUSH 0x3",
+      "0x0053FC2A:\t\tX_REF 0x1",
+      "0x0053FC30:\t\tPUSH 0x0",
+      "0x0053FC36:\t\tCALLMETHOD 0x2",
+      "0x0053FC3C:\t\tNOT",
+      "0x0053FC3E:\t\tIFZ 0x53fc6a",
+      "0x0053FC44:\t\tPUSHLOCALPAGE",
+      "0x0053FC46:\t\tPUSH 0x3",
+      "0x0053FC4C:\t\tX_REF 0x1",
+      "0x0053FC52:\t\tPUSH 0x6765"
+    ]
+  },
+  {
+    "caller": 27491,
+    "name": "L_Calendar::NextDay",
+    "target": 27741,
+    "op": "PUSH",
+    "line": 1264900,
+    "context": [
+      "0x0057E02C:\t\tIFNZ 0x57e084",
+      "0x0057E032:\t\tPUSH 0x6e1a",
+      "0x0057E038:\t\tCALLMETHOD 0x0",
+      "0x0057E03E:\t\tPUSHLOCALPAGE",
+      "0x0057E040:\t\tPUSH 0x3",
+      "0x0057E046:\t\tX_REF 0x1",
+      "0x0057E04C:\t\tDELETE",
+      "0x0057E04E:\t\tPUSHLOCALPAGE",
+      "0x0057E050:\t\tPUSH 0x3",
+      "0x0057E056:\t\tX_MOV 0x3 0x2",
+      "0x0057E060:\t\tX_ASSIGN 0x1",
+      "0x0057E066:\t\tPUSH 0x6c5d"
+    ]
+  },
+  {
+    "caller": 27741,
+    "name": "C_Calendar@NextDate",
+    "target": 26469,
+    "op": "PUSH",
+    "line": 1279562,
+    "context": [
+      "0x0058E164:\t\tPUSHSTRUCTPAGE",
+      "0x0058E166:\t\tPUSH 0x6c61",
+      "0x0058E16C:\t\tPUSHSTRUCTPAGE",
+      "0x0058E16E:\t\tPUSH 0x2",
+      "0x0058E174:\t\tX_REF 0x1",
+      "0x0058E17A:\t\tPUSH 0x6758",
+      "0x0058E180:\t\tCALLMETHOD 0x0",
+      "0x0058E186:\t\tCALLMETHOD 0x1",
+      "0x0058E18C:\t\tPUSHSTRUCTPAGE",
+      "0x0058E18E:\t\tPUSH 0x2",
+      "0x0058E194:\t\tX_REF 0x1",
+      "0x0058E19A:\t\tPUSH 0x6765"
+    ]
+  },
+  {
+    "caller": 27832,
+    "name": "C_MovieObject@IsAlreadyShow",
+    "target": 27836,
+    "op": "PUSH",
+    "line": 1289117,
+    "context": [
+      "0x0059940A:\t\tPUSHSTRUCTPAGE",
+      "0x0059940C:\t\tPUSH 0x6cbc"
+    ]
+  },
+  {
+    "caller": 27833,
+    "name": "C_MovieObject@Play",
+    "target": 27836,
+    "op": "PUSH",
+    "line": 1289183,
+    "context": [
+      "0x005994EE:\t\tPUSH 0x6cbe",
+      "0x005994F4:\t\tPUSHLOCALPAGE",
+      "0x005994F6:\t\tPUSH 0x0",
+      "0x005994FC:\t\tX_REF 0x1",
+      "0x00599502:\t\tA_REF",
+      "0x00599504:\t\tCALLMETHOD 0x1",
+      "0x0059950A:\t\tPUSHLOCALPAGE",
+      "0x0059950C:\t\tPUSH 0x1",
+      "0x00599512:\t\tX_REF 0x1",
+      "0x00599518:\t\tA_REF",
+      "0x0059951A:\t\tPUSHSTRUCTPAGE",
+      "0x0059951C:\t\tPUSH 0x6cbc"
+    ]
+  },
+  {
+    "caller": 27833,
+    "name": "C_MovieObject@Play",
+    "target": 27837,
+    "op": "PUSH",
+    "line": 1289194,
+    "context": [
+      "0x0059951C:\t\tPUSH 0x6cbc",
+      "0x00599522:\t\tPUSHLOCALPAGE",
+      "0x00599524:\t\tPUSH 0x0",
+      "0x0059952A:\t\tX_REF 0x1",
+      "0x00599530:\t\tA_REF",
+      "0x00599532:\t\tCALLMETHOD 0x1",
+      "0x00599538:\t\tPUSH 0x0",
+      "0x0059953E:\t\tPUSH 0x0",
+      "0x00599544:\t\tPUSH 0x0",
+      "0x0059954A:\t\tCALLFUNC 0x1e21",
+      "0x00599550:\t\tPUSHSTRUCTPAGE",
+      "0x00599552:\t\tPUSH 0x6cbd"
+    ]
+  },
+  {
+    "caller": 28172,
+    "name": "C_SceneGame@Run",
+    "target": 30087,
+    "op": "CALLFUNC",
+    "line": 1322720,
+    "context": [
+      "0x005C0B02:\t\tX_REF 0x1",
+      "0x005C0B08:\t\tPUSH 0x676f",
+      "0x005C0B0E:\t\tCALLMETHOD 0x0",
+      "0x005C0B14:\t\tPUSHLOCALPAGE",
+      "0x005C0B16:\t\tPUSH 0x1",
+      "0x005C0B1C:\t\tX_REF 0x1",
+      "0x005C0B22:\t\tDELETE",
+      "0x005C0B24:\t\tPUSHLOCALPAGE",
+      "0x005C0B26:\t\tPUSH 0x1",
+      "0x005C0B2C:\t\tX_MOV 0x3 0x2",
+      "0x005C0B36:\t\tX_ASSIGN 0x1",
+      "0x005C0B3C:\t\tCALLFUNC 0x7587"
+    ]
+  },
+  {
+    "caller": 28172,
+    "name": "C_SceneGame@Run",
+    "target": 27741,
+    "op": "PUSH",
+    "line": 1322765,
+    "context": [
+      "0x005C0BDC:\t\tX_REF 0x1",
+      "0x005C0BE2:\t\tPUSH 0x6e1a",
+      "0x005C0BE8:\t\tCALLMETHOD 0x0",
+      "0x005C0BEE:\t\tPUSHLOCALPAGE",
+      "0x005C0BF0:\t\tPUSH 0x2",
+      "0x005C0BF6:\t\tX_REF 0x1",
+      "0x005C0BFC:\t\tDELETE",
+      "0x005C0BFE:\t\tPUSHLOCALPAGE",
+      "0x005C0C00:\t\tPUSH 0x2",
+      "0x005C0C06:\t\tX_MOV 0x3 0x2",
+      "0x005C0C10:\t\tX_ASSIGN 0x1",
+      "0x005C0C16:\t\tPUSH 0x6c5d"
+    ]
+  },
+  {
+    "caller": 28173,
+    "name": "C_SceneGame@RunTest",
+    "target": 27741,
+    "op": "PUSH",
+    "line": 1322877,
+    "context": [
+      "0x005C0DEE:\t\tX_REF 0x1",
+      "0x005C0DF4:\t\tPUSH 0x6e1a",
+      "0x005C0DFA:\t\tCALLMETHOD 0x0",
+      "0x005C0E00:\t\tPUSHLOCALPAGE",
+      "0x005C0E02:\t\tPUSH 0x3",
+      "0x005C0E08:\t\tX_REF 0x1",
+      "0x005C0E0E:\t\tDELETE",
+      "0x005C0E10:\t\tPUSHLOCALPAGE",
+      "0x005C0E12:\t\tPUSH 0x3",
+      "0x005C0E18:\t\tX_MOV 0x3 0x2",
+      "0x005C0E22:\t\tX_ASSIGN 0x1",
+      "0x005C0E28:\t\tPUSH 0x6c5d"
+    ]
+  },
+  {
+    "caller": 29916,
+    "name": "TestGeneral",
+    "target": 27741,
+    "op": "PUSH",
+    "line": 1517131,
+    "context": [
+      "0x006A434A:\t\tIFNZ 0x6a43a2",
+      "0x006A4350:\t\tPUSH 0x6e1a",
+      "0x006A4356:\t\tCALLMETHOD 0x0",
+      "0x006A435C:\t\tPUSHLOCALPAGE",
+      "0x006A435E:\t\tPUSH 0x8",
+      "0x006A4364:\t\tX_REF 0x1",
+      "0x006A436A:\t\tDELETE",
+      "0x006A436C:\t\tPUSHLOCALPAGE",
+      "0x006A436E:\t\tPUSH 0x8",
+      "0x006A4374:\t\tX_MOV 0x3 0x2",
+      "0x006A437E:\t\tX_ASSIGN 0x1",
+      "0x006A4384:\t\tPUSH 0x6c5d"
+    ]
+  }
+]

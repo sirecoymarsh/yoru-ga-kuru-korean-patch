@@ -1,0 +1,169 @@
+{
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "r1_candidate": "3808a9c408375c78a7e3fe078fa36d9dd13d5e40ef2356cf7e69c5ba66ddb4b7",
+ "r2_candidate": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "shots": 64,
+ "identical": [
+  "chart_title_before",
+  "w29_achievement_k21",
+  "w29_achievement_k6",
+  "w29_achievement_k81",
+  "w29_detail_april_e00001",
+  "w29_detail_cast12_e00097",
+  "w29_detail_choice_read_e00323",
+  "w29_detail_choice_unread_e00323",
+  "w29_detail_choice_unread_locked_e00323",
+  "w29_detail_e00011_summary",
+  "w29_detail_group21_mixed",
+  "w29_detail_group81_mixed",
+  "w29_detail_join_e00328",
+  "w29_detail_memory_e50205",
+  "w29_detail_other_e00055",
+  "w29_detail_when_mark_cleaned_april_e10001",
+  "w29_detail_when_mark_cleaned_e10021",
+  "w29_flow_card_board",
+  "w29_flow_detail_wait",
+  "w29_flow_list_after_card",
+  "w29_flow_list_before_card",
+  "w29_flow_stage_detail",
+  "w29_list_jun_twoline_p16_mixed",
+  "w29_list_memory_p5_all",
+  "w29_list_nov_cg_group_a_p1_all",
+  "w29_list_nov_cg_group_a_p1_locked",
+  "w29_list_nov_cg_group_b_p2_all",
+  "w29_list_nov_cg_group_b_p2_locked",
+  "w29_list_t0_apr_mixed",
+  "w29_list_t1_may_mixed",
+  "w29_list_t2_jun_mixed",
+  "w29_list_t3_jul_mixed",
+  "w29_list_t4_aug_mixed",
+  "w29_list_t5_sep_mixed",
+  "w29_list_t6_oct_mixed",
+  "w29_list_t7_nov_mixed",
+  "w29_list_t8_memory_mixed",
+  "w29_list_t9_other_locked",
+  "w29_list_t9_other_mixed",
+  "w29_picker_mixed_k115_p1",
+  "w29_picker_mixed_k6_p1",
+  "w29_title_after"
+ ],
+ "changed": {
+  "w29_flow_card_picker": [
+   572,
+   150,
+   719,
+   177
+  ],
+  "w29_flow_card_picker_again": [
+   572,
+   150,
+   719,
+   177
+  ],
+  "w29_flow_list_after_detail": [
+   413,
+   209,
+   1070,
+   220
+  ],
+  "w29_flow_list_before_detail": [
+   413,
+   209,
+   1070,
+   220
+  ],
+  "w29_list_jun_twoline_p16_all": [
+   1023,
+   209,
+   1086,
+   220
+  ],
+  "w29_list_may_twoline_p2_all": [
+   413,
+   209,
+   1070,
+   220
+  ],
+  "w29_list_may_twoline_p2_locked": [
+   413,
+   209,
+   1070,
+   220
+  ],
+  "w29_list_may_twoline_p2_mixed": [
+   413,
+   209,
+   1070,
+   220
+  ],
+  "w29_list_oct_twoline_p4_all": [
+   104,
+   209,
+   771,
+   220
+  ],
+  "w29_list_oct_twoline_p4_mixed": [
+   104,
+   209,
+   422,
+   220
+  ],
+  "w29_picker_locked_k49_p1": [
+   53,
+   22,
+   1215,
+   688
+  ],
+  "w29_picker_locked_k49_p2": [
+   53,
+   22,
+   1215,
+   688
+  ],
+  "w29_picker_locked_k49_p7": "new in r2",
+  "w29_picker_locked_k81_p1": [
+   572,
+   150,
+   719,
+   177
+  ],
+  "w29_picker_mixed_k101_p1": [
+   173,
+   142,
+   1095,
+   568
+  ],
+  "w29_picker_mixed_k151_p1": [
+   599,
+   54,
+   766,
+   81
+  ],
+  "w29_picker_mixed_k151_p2": [
+   599,
+   54,
+   766,
+   81
+  ],
+  "w29_picker_mixed_k151_p5": "new in r2",
+  "w29_picker_mixed_k49_p1": [
+   53,
+   22,
+   1215,
+   688
+  ],
+  "w29_picker_mixed_k49_p2": [
+   53,
+   22,
+   1215,
+   688
+  ],
+  "w29_picker_mixed_k49_p7": "new in r2",
+  "w29_picker_mixed_k81_p1": [
+   572,
+   150,
+   719,
+   177
+  ]
+ }
+}

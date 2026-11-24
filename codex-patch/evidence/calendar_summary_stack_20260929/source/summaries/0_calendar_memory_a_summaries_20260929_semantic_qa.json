@@ -1,0 +1,500 @@
+{
+ "status": "pass_after_fixes",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) (read-only second pass, same session as the author)",
+ "reviewed_at": "2026-09-29T21:23:30.879162+09:00",
+ "scope": "team A authored scenes (30); copy_of scenes (25) have no summary text and were checked by the static gate only",
+ "method": "each packet re-opened; every claim of the summary matched to a source message id (JP = meaning, installed KR = name spelling); checked (a) only facts in the source, (b) actors not swapped, (c) no other scene/branch mixed in",
+ "reviewed_events": [
+  50102,
+  50111,
+  50112,
+  50202,
+  50203,
+  50204,
+  50205,
+  50211,
+  50212,
+  50301,
+  50302,
+  50309,
+  50310,
+  50401,
+  50402,
+  50408,
+  50409,
+  50410,
+  50501,
+  50502,
+  50503,
+  50504,
+  50505,
+  50506,
+  50507,
+  50508,
+  50509,
+  50510,
+  50511,
+  50512
+ ],
+ "reviewed_japanese_messages": 11903,
+ "source_sha256": "b5f52815c979cbbeb5b489ffff7a8f05b9eac21046546e9cceb92ccbfab4076a",
+ "summary_sha256": "7e11232d49e9d5b185f8b949a26ae01bdc7405079c32cf51d93f90fcadafdb06",
+ "findings": [
+  {
+   "no": 50211,
+   "message_id": 65842,
+   "severity": "minor",
+   "before": "함께 진실을 찾아가자고",
+   "after": "진짜 쿄카를 함께 되찾자고",
+   "status": "fixed",
+   "note": "(a) 원문 두 줄(65829-65831 진실은 도달해야 안다 / 65842 진짜 쿄카를 함께 되찾으러 가자)을 한 구로 섞어 원문에 없는 말이 됨 → 65842 에 맞춤"
+  },
+  {
+   "no": 50212,
+   "message_id": 66008,
+   "severity": "minor",
+   "before": "퇴원한 언니 미사토와 함께 노점을 돈다",
+   "after": "병원을 나온 언니 미사토와 노점을 돈다",
+   "status": "fixed",
+   "note": "(a) 원문은 3년 만에 병원에서 나온다(出てくる)는 것뿐, 퇴원 확정은 원문에 없음; 글자 수 때문에 「함께」 삭제"
+  },
+  {
+   "no": 50401,
+   "message_id": 67795,
+   "severity": "minor",
+   "before": "결국 요리를 도맡아 녹초가 되지만 맛있게 먹던 마코토와 키라라를",
+   "after": "요리를 도맡아 지치지만 기뻐하던 키라라와 살짝 웃던 마코토를",
+   "status": "fixed",
+   "note": "(a) 원문(67795-67801)은 키라라가 싱글벙글 먹고 마코토는 말없이 먹다 조금 웃었던가 하는 정도 — 「맛있게 먹던 마코토」는 원문 밖; 100자 한도 때문에 「결국」 삭제·「녹초가 되지만」→「지치지만」"
+  },
+  {
+   "no": 50503,
+   "message_id": 70128,
+   "severity": "minor",
+   "before": "남자 셋을 유혹해",
+   "after": "남자 셋을 상대하며",
+   "status": "fixed",
+   "note": "(a) 장면이 행위 도중에서 시작해 유혹하는 과정은 원문에 없음"
+  }
+ ],
+ "checks": [
+  {
+   "no": 50102,
+   "evidence_message_ids": [
+    62470,
+    62520,
+    62666,
+    62730,
+    62767,
+    62793,
+    62805
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50111,
+   "evidence_message_ids": [
+    62841,
+    62879,
+    62944,
+    62977,
+    63026,
+    63035,
+    63112
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50112,
+   "evidence_message_ids": [
+    63703,
+    63714,
+    63755,
+    63780,
+    63850,
+    63890,
+    63919
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50202,
+   "evidence_message_ids": [
+    63949,
+    64017,
+    64024,
+    64133,
+    64138,
+    64225,
+    64236
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50203,
+   "evidence_message_ids": [
+    64297,
+    64353,
+    64368,
+    64393,
+    64493,
+    64500,
+    64558
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50204,
+   "evidence_message_ids": [
+    64691,
+    64706,
+    64895,
+    64996,
+    65001,
+    65022,
+    65105,
+    65156,
+    65182
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50205,
+   "evidence_message_ids": [
+    65302,
+    65308,
+    65318,
+    65416,
+    65527,
+    65531,
+    65564
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50211,
+   "evidence_message_ids": [
+    65594,
+    65631,
+    65639,
+    65700,
+    65731,
+    65781,
+    65840,
+    65842,
+    65855
+   ],
+   "result": "pass_after_fix"
+  },
+  {
+   "no": 50212,
+   "evidence_message_ids": [
+    65862,
+    65967,
+    65999,
+    66008,
+    66030,
+    66162,
+    66185,
+    66199
+   ],
+   "result": "pass_after_fix"
+  },
+  {
+   "no": 50301,
+   "evidence_message_ids": [
+    66273,
+    66349,
+    66358,
+    66366,
+    66404,
+    66489,
+    66498,
+    66541
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50302,
+   "evidence_message_ids": [
+    66578,
+    66610,
+    66679,
+    66708,
+    66783,
+    66826,
+    66835,
+    66905,
+    66915
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50309,
+   "evidence_message_ids": [
+    66950,
+    66986,
+    67001,
+    67083,
+    67085,
+    67097,
+    67105
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50310,
+   "evidence_message_ids": [
+    67125,
+    67138,
+    67172,
+    67217,
+    67236,
+    67246,
+    67272,
+    67343
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50401,
+   "evidence_message_ids": [
+    67359,
+    67451,
+    67622,
+    67637,
+    67687,
+    67766,
+    67792,
+    67795,
+    67801
+   ],
+   "result": "pass_after_fix"
+  },
+  {
+   "no": 50402,
+   "evidence_message_ids": [
+    67859,
+    67894,
+    67899,
+    68035,
+    68039,
+    68072,
+    68084
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50408,
+   "evidence_message_ids": [
+    68118,
+    68200,
+    68321,
+    68416,
+    68447,
+    68461,
+    68574,
+    68697,
+    68700,
+    68831,
+    68841
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50409,
+   "evidence_message_ids": [
+    69047,
+    69146,
+    69166,
+    69212,
+    69275,
+    69297,
+    69323,
+    69361
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50410,
+   "evidence_message_ids": [
+    69622,
+    69629,
+    69637,
+    69687,
+    69703
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50501,
+   "evidence_message_ids": [
+    69739,
+    69752,
+    69760,
+    69775,
+    69804,
+    69857,
+    69862,
+    69874
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50502,
+   "evidence_message_ids": [
+    69893,
+    69901,
+    70007,
+    70009,
+    70069,
+    70104
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50503,
+   "evidence_message_ids": [
+    70126,
+    70128,
+    70287,
+    70296,
+    70299
+   ],
+   "result": "pass_after_fix"
+  },
+  {
+   "no": 50504,
+   "evidence_message_ids": [
+    70314,
+    70720,
+    70733,
+    70828,
+    70856,
+    70903
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50505,
+   "evidence_message_ids": [
+    70925,
+    70926,
+    70996,
+    71022,
+    71098,
+    71138
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50506,
+   "evidence_message_ids": [
+    71200,
+    71249,
+    71364,
+    71378,
+    71783,
+    71789,
+    71851
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50507,
+   "evidence_message_ids": [
+    71911,
+    71932,
+    71999,
+    72153,
+    72187
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50508,
+   "evidence_message_ids": [
+    72195,
+    72200,
+    72297,
+    72447,
+    72451,
+    72453,
+    72718,
+    72728,
+    72731
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50509,
+   "evidence_message_ids": [
+    72850,
+    72859,
+    72955,
+    72974,
+    72976,
+    72994
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50510,
+   "evidence_message_ids": [
+    73287,
+    73299,
+    73317,
+    73319,
+    73347,
+    73654,
+    73659
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50511,
+   "evidence_message_ids": [
+    73689,
+    73715,
+    73723,
+    73852,
+    73866,
+    73871,
+    74012
+   ],
+   "result": "pass"
+  },
+  {
+   "no": 50512,
+   "evidence_message_ids": [
+    74089,
+    74090,
+    74096,
+    74099,
+    74228,
+    74257,
+    74275,
+    74299
+   ],
+   "result": "pass"
+  }
+ ],
+ "unresolved": [
+  {
+   "no": 50506,
+   "message_id": 71783,
+   "item": "「걷어찬」: 원문은 의성어 げしっ 뿐(설치 한국어는 「퍽!!」). 발로 찬 소리로 읽었으나 손으로 때린 것일 수도 있음 — 사람이 화면으로 확인하면 좋음(뜻이 크게 달라지지는 않음)"
+  },
+  {
+   "no": null,
+   "message_id": null,
+   "item": "copy_of 25장면(50101·50103~50110·50201·50206~50210·50304~50308·50403~50407)은 요약 문장 없음: 빌드가 원본 이벤트 요약을 재사용해야 함(원본 요약이 아직 없는 달이면 그 달 배치가 끝나야 채워짐)"
+  },
+  {
+   "no": null,
+   "message_id": null,
+   "item": "E50505·E50507·E50510·E50512(원본 11/1 밤 계열)는 장면 안에서 꿈/환각이라고 밝히지 않으므로 요약도 사건을 그대로 적음(꿈이라고 단정하지 않음)"
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "status": "independent_review_done",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, independent reviewer (not the author), 2026-09-29",
+ "reviewed_at": "2026-09-29T21:21:06.994896+09:00",
+ "author_of_summaries": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "reviewed_events": 232,
+ "reviewed_messages": 11999,
+ "reading_method": "Own reading view built directly from source/packets/E?????.txt by work/independent_review/build_stream.py (not the author's work/views); every scene read start to end, then compared with its summary. Messages absent from packets were checked mechanically against source/scenarios.json (work/independent_review/check_missing.py): all are empty lines or dot-only pause lines.",
+ "messages_not_in_packets": {
+  "total": 115,
+  "empty": 88,
+  "dot_only": 27
+ },
+ "author_semantic_qa_opened": "only after all 232 verdicts were fixed, to list overlap; no overlap with the author's 18 fixes",
+ "criteria": {
+  "a": "fact/reaction/place/feeling/guess not in the source",
+  "b": "actor or counterpart swapped",
+  "c": "other scene or branch mixed in",
+  "d": "hint of ending, route or later events",
+  "e": "protagonist always 주인공; names as installed Korean",
+  "f": "natural present tense, 1-2 sentences, <=100 chars",
+  "g": "multi-stage card scene covers only its own file"
+ },
+ "rules_source": "staging/summary_authoring_brief_20260929.md sections 3-4 (료 ban = the name only)",
+ "counts": {
+  "fixed": 5,
+  "by_type": {
+   "b": 2,
+   "a": 3
+  },
+  "by_severity": {
+   "P3": 5
+  },
+  "types_c_d_e_g_found": 0
+ },
+ "findings": [
+  {
+   "no": 102,
+   "e": "E00102",
+   "위치": {
+    "sentence": 1,
+    "source_message_ids": [
+     18377,
+     18380,
+     18383,
+     18385
+    ]
+   },
+   "type": "b",
+   "severity": "P3",
+   "before": "부실에서 쿄카와 마나미가 만화에 영향을 받아 장기를 둔다. 첫날부터 의욕을 낼 줄 알았던 모모세가 볼일이 있다며 먼저 돌아갔다는 말에 주인공이 의아해한다.",
+   "after": "부실에서 만화에 영향을 받은 쿄카가 마나미와 장기를 둔다. 첫날부터 의욕을 낼 줄 알았던 모모세가 볼일이 있다며 먼저 돌아갔다는 말에 주인공이 의아해한다.",
+   "fragment_before": "쿄카와 마나미가 만화에 영향을 받아",
+   "fragment_after": "만화에 영향을 받은 쿄카가 마나미와",
+   "len_before": 86,
+   "len_after": 86,
+   "reason": "Only Kyoka is the one influenced by the manga (borrowed from Manami); the summary gave the influence to both.",
+   "status": "fixed"
+  },
+  {
+   "no": 1315,
+   "e": "E01315",
+   "위치": {
+    "sentence": 1,
+    "source_message_ids": [
+     93460
+    ]
+   },
+   "type": "b",
+   "severity": "P3",
+   "before": "주인공이 같은 반인 마나미에게 요즘 모모세가 어떤지 묻는다. 머리색을 되돌린 뒤 의외로 인기가 많고 정갈한 차림 탓에 마마보이일지 모른다는 이야기에 주인공이 웃는다.",
+   "after": "주인공이 마나미에게 같은 반인 모모세가 요즘 어떤지 묻는다. 머리색을 되돌린 뒤 의외로 인기가 많고 정갈한 차림 탓에 마마보이일지 모른다는 이야기에 주인공이 웃는다.",
+   "fragment_before": "같은 반인 마나미에게 요즘 모모세가",
+   "fragment_after": "마나미에게 같은 반인 모모세가 요즘",
+   "len_before": 92,
+   "len_after": 92,
+   "reason": "Manami is Momose's classmate, not the protagonist's; the modifier sat on the wrong person.",
+   "status": "fixed"
+  },
+  {
+   "no": 2141,
+   "e": "E02141",
+   "위치": {
+    "sentence": 2,
+    "source_message_ids": [
+     96456
+    ]
+   },
+   "type": "a",
+   "severity": "P3",
+   "before": "쿄카가 키 큰 마코토에게 차이나드레스가 어울릴 거라며 입혀 보고 싶어 한다. 상상해 본 주인공까지 맞장구치자 마코토는 말없이 앞장선다.",
+   "after": "쿄카가 키 큰 마코토에게 차이나드레스가 어울릴 거라며 입혀 보고 싶어 한다. 상상해 본 주인공까지 맞장구치자 마코토는 대꾸 없이 앞장선다.",
+   "fragment_before": "마코토는 말없이 앞장선다",
+   "fragment_after": "마코토는 대꾸 없이 앞장선다",
+   "len_before": 75,
+   "len_after": 77,
+   "reason": "Makoto does speak (a short let's-go line); she just does not answer the topic.",
+   "status": "fixed"
+  },
+  {
+   "no": 2227,
+   "e": "E02227",
+   "위치": {
+    "sentence": 2,
+    "source_message_ids": [
+     97480,
+     97482
+    ]
+   },
+   "type": "a",
+   "severity": "P3",
+   "before": "마나미가 주인공의 겹치기 능력과 검이 멋있다며 부러워한다. 귀중한 법술사라는 주인공의 말에도 부러워하자 마코토가 말없이 앞장선다.",
+   "after": "마나미가 주인공의 겹치기 능력과 검이 멋있다며 부러워한다. 귀중한 법술사라는 주인공의 말에도 부러워하자 마코토가 대꾸 없이 앞장선다.",
+   "fragment_before": "마코토가 말없이 앞장선다",
+   "fragment_after": "마코토가 대꾸 없이 앞장선다",
+   "len_before": 72,
+   "len_after": 74,
+   "reason": "Same as 2141: a pause, then a short let's-go line, no reply to the topic.",
+   "status": "fixed"
+  },
+  {
+   "no": 2349,
+   "e": "E02349",
+   "위치": {
+    "sentence": 1,
+    "source_message_ids": [
+     98685
+    ]
+   },
+   "type": "a",
+   "severity": "P3",
+   "before": "키가 큰 모모세를 보고 주인공이 키높이 구두를 신은 줄 알았다며 놀린다. 키높이 구두가 뭐냐고 묻는 마코토에게 설명하려 하자 모모세가 필사적으로 막는다.",
+   "after": "키가 자란 모모세를 보고 주인공이 키높이 구두를 신은 줄 알았다며 놀린다. 키높이 구두가 뭐냐고 묻는 마코토에게 설명하려 하자 모모세가 필사적으로 막는다.",
+   "fragment_before": "키가 큰 모모세를",
+   "fragment_after": "키가 자란 모모세를",
+   "len_before": 85,
+   "len_after": 86,
+   "reason": "Source says Momose has grown taller; the ambiguous adnominal reads as tall, which contradicts the short-Momose gag in this scene.",
+   "status": "fixed"
+  }
+ ],
+ "considered_not_changed": [
+  {
+   "no": 97,
+   "why": "Group support generalised to everyone; one member defers rather than supports, nobody objects. Acceptable."
+  },
+  {
+   "no": 104,
+   "why": "Club room not named in the scene, but the arrival greeting and stage 3 of the same card place it there."
+  },
+  {
+   "no": 1524,
+   "why": "Running home is implied by the recording he must catch; left as a reasonable reading."
+  },
+  {
+   "no": 2232,
+   "why": "Almost-laughing rests on the other character's question; the second sentence carries the real point. Left."
+  }
+ ],
+ "unresolved": [
+  {
+   "e": "E00070",
+   "topic": "attribution",
+   "reviewer_judgment": "keep",
+   "why": "Branch 1 (E00805) has Momose paying Izumi the same compliment directly; in branch 2 Izumi was alone with him. Installed Korean uses the same word as the summary."
+  },
+  {
+   "e": "E00097",
+   "topic": "content choice",
+   "reviewer_judgment": "human, optional",
+   "why": "Leaving out the explicit passage is right. The villains' closing oath is story-relevant; adding it means shortening the two existing sentences. Current text is not a defect under a-g."
+  },
+  {
+   "e": "E30021",
+   "topic": "wording",
+   "reviewer_judgment": "keep",
+   "why": "Payday is Manami's own word, and she uses it again in E00101; the allowance idea is only the protagonist's inner guess."
+  }
+ ],
+ "status_change": {
+  "from": "source_qa_pass",
+  "to": "independent_qa_pass",
+  "rows": 232
+ },
+ "notes_added": [
+  70,
+  97,
+  30021
+ ],
+ "summary_sha256_before": "3704b0eee9fe8b9c4a3584511b21866d76a03d48ec261ffbec606caa75931988",
+ "summary_sha256_after": "069c23623b529339115a8877339ea95e46ff130becd715c9e9ba603fbdc5816b",
+ "unchanged_files": [
+  "source/*",
+  "design/events.json",
+  "design/batches.json",
+  "design/progress.json"
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "SAVE_SCREEN_MODE_STATIC_NATIVE_PASS",
+  "files": {
+    "NightRemaster.ain": "963c7db0cccf13a670a237cacb60ec29bc364e873795eefa6f0fa38c321f7517",
+    "NightRemasterPact.afa": "a71410488777ea2e9189f959065334215b51972fc6915eb0ab21d7b46e6372c4"
+  },
+  "native_probes": {
+    "candidate": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\save_screen_mode_20260926\\native_probe_20260926_233518\\result.json"
+  },
+  "existing_resume_saves": 51,
+  "saved_return_frames": 1255,
+  "save_schema_equal": true,
+  "old_CODE_allowlist_exact": true,
+  "changed_PACT": [
+    185
+  ],
+  "appended_original_assets": 2,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "real_saves_unchanged": true,
+  "OS_mouse_hit_test": false,
+  "native_views": 50,
+  "native_settings_dispatch": true,
+  "cancel_noop": true,
+  "restart_preference": true,
+  "shared_save47_resumed": true,
+  "latest_manual_page_preserved": true,
+  "original_mode": "Five original stat cards; daily999/manual1..49",
+  "alternative_mode": "Fixed daily999/weekly998 above manual1..49",
+  "default_mode": "alternative"
+}

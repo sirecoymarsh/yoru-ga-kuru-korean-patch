@@ -1,0 +1,473 @@
+{
+  "status": "RESUME_COMPAT_STATIC_PASS",
+  "files": {
+    "NightRemaster.ain": "f39c448723a1139673ae443da3cc10a27ccec5422df5fe0fa3258d580f09b635"
+  },
+  "existing_resume_saves": 37,
+  "saved_return_frames": 950,
+  "redirected_frames": 32,
+  "shim_entry_count": 9,
+  "gameplay_body_byte_proofs": [
+    {
+      "fid": 21031,
+      "bytes_verified": 846,
+      "branches_relocated": 23,
+      "normal_entry_jump": true,
+      "body_offset": 824,
+      "return_aliases": 2
+    },
+    {
+      "fid": 28637,
+      "bytes_verified": 2948,
+      "branches_relocated": 121,
+      "normal_entry_jump": true,
+      "body_offset": 2536,
+      "return_aliases": 3
+    },
+    {
+      "fid": 28642,
+      "bytes_verified": 2626,
+      "branches_relocated": 51,
+      "normal_entry_jump": true,
+      "body_offset": 1902,
+      "return_aliases": 2
+    },
+    {
+      "fid": 28664,
+      "bytes_verified": 4994,
+      "branches_relocated": 78,
+      "normal_entry_jump": true,
+      "body_offset": 4304,
+      "return_aliases": 2
+    }
+  ],
+  "resume_redirects": [
+    {
+      "save": "NightR01.asd",
+      "fid": 21031,
+      "saved_offset": 800,
+      "loaded_alias": 10850528,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR02.asd",
+      "fid": 21031,
+      "saved_offset": 800,
+      "loaded_alias": 10850528,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR03.asd",
+      "fid": 21031,
+      "saved_offset": 800,
+      "loaded_alias": 10850528,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR04.asd",
+      "fid": 21031,
+      "saved_offset": 800,
+      "loaded_alias": 10850528,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR05.asd",
+      "fid": 28637,
+      "saved_offset": 2468,
+      "loaded_alias": 10853872,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR06.asd",
+      "fid": 21031,
+      "saved_offset": 800,
+      "loaded_alias": 10850528,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR09.asd",
+      "fid": 21031,
+      "saved_offset": 800,
+      "loaded_alias": 10850528,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR10.asd",
+      "fid": 28637,
+      "saved_offset": 2468,
+      "loaded_alias": 10853872,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR11.asd",
+      "fid": 21031,
+      "saved_offset": 800,
+      "loaded_alias": 10850528,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR13.asd",
+      "fid": 28637,
+      "saved_offset": 2468,
+      "loaded_alias": 10853872,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR14.asd",
+      "fid": 28637,
+      "saved_offset": 2468,
+      "loaded_alias": 10853872,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR15.asd",
+      "fid": 28637,
+      "saved_offset": 334,
+      "loaded_alias": 10851738,
+      "resume_destination": 10854288,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "save": "NightR15.asd",
+      "fid": 28642,
+      "saved_offset": 1880,
+      "loaded_alias": 10858774,
+      "resume_destination": 10860716,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "save": "NightR15.asd",
+      "fid": 28664,
+      "saved_offset": 4298,
+      "loaded_alias": 10865726,
+      "resume_destination": 10870152,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "save": "NightR15.asd",
+      "fid": 21031,
+      "saved_offset": 818,
+      "loaded_alias": 10850546,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR17.asd",
+      "fid": 28637,
+      "saved_offset": 2468,
+      "loaded_alias": 10853872,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR19.asd",
+      "fid": 28637,
+      "saved_offset": 2468,
+      "loaded_alias": 10853872,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR20.asd",
+      "fid": 28637,
+      "saved_offset": 2468,
+      "loaded_alias": 10853872,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR21.asd",
+      "fid": 28637,
+      "saved_offset": 2468,
+      "loaded_alias": 10853872,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR22.asd",
+      "fid": 21031,
+      "saved_offset": 818,
+      "loaded_alias": 10850546,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR25.asd",
+      "fid": 28637,
+      "saved_offset": 334,
+      "loaded_alias": 10851738,
+      "resume_destination": 10854288,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "save": "NightR25.asd",
+      "fid": 28642,
+      "saved_offset": 1896,
+      "loaded_alias": 10858790,
+      "resume_destination": 10860716,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "save": "NightR25.asd",
+      "fid": 28664,
+      "saved_offset": 4104,
+      "loaded_alias": 10865532,
+      "resume_destination": 10869844,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "save": "NightR25.asd",
+      "fid": 21031,
+      "saved_offset": 818,
+      "loaded_alias": 10850546,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR27.asd",
+      "fid": 28637,
+      "saved_offset": 2530,
+      "loaded_alias": 10853934,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    },
+    {
+      "save": "NightR28.asd",
+      "fid": 21031,
+      "saved_offset": 818,
+      "loaded_alias": 10850546,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR29.asd",
+      "fid": 28637,
+      "saved_offset": 334,
+      "loaded_alias": 10851738,
+      "resume_destination": 10854288,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "save": "NightR29.asd",
+      "fid": 28642,
+      "saved_offset": 1896,
+      "loaded_alias": 10858790,
+      "resume_destination": 10860716,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "save": "NightR29.asd",
+      "fid": 28664,
+      "saved_offset": 4104,
+      "loaded_alias": 10865532,
+      "resume_destination": 10869844,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "save": "NightR29.asd",
+      "fid": 21031,
+      "saved_offset": 818,
+      "loaded_alias": 10850546,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR30.asd",
+      "fid": 21031,
+      "saved_offset": 818,
+      "loaded_alias": 10850546,
+      "resume_destination": 10851370,
+      "opcode": "CALLFUNC 0x507d"
+    },
+    {
+      "save": "NightR36.asd",
+      "fid": 28637,
+      "saved_offset": 2530,
+      "loaded_alias": 10853934,
+      "resume_destination": 10856548,
+      "opcode": "POP"
+    }
+  ],
+  "future_relative_returns": [
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 28637,
+      "local_offset": 2884,
+      "target": 10854288
+    },
+    {
+      "fid": 28642,
+      "local_offset": 3822,
+      "target": 10860716
+    },
+    {
+      "fid": 28664,
+      "local_offset": 8724,
+      "target": 10870152
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 28637,
+      "local_offset": 2884,
+      "target": 10854288
+    },
+    {
+      "fid": 28642,
+      "local_offset": 3822,
+      "target": 10860716
+    },
+    {
+      "fid": 28664,
+      "local_offset": 8416,
+      "target": 10869844
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 28637,
+      "local_offset": 2884,
+      "target": 10854288
+    },
+    {
+      "fid": 28642,
+      "local_offset": 3822,
+      "target": 10860716
+    },
+    {
+      "fid": 28664,
+      "local_offset": 8416,
+      "target": 10869844
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 21031,
+      "local_offset": 1642,
+      "target": 10851370
+    },
+    {
+      "fid": 28637,
+      "local_offset": 5144,
+      "target": 10856548
+    }
+  ],
+  "cause": {
+    "save": "NightR36.asd",
+    "before_wrong_instruction": "PUSH 0x6fec",
+    "after_correct_instruction": "POP",
+    "failed_method": "C_SceneDungeon@SetMotionWaitInForceStop()"
+  },
+  "save_files_unchanged": 294,
+  "MSG1_STR0_exact": true,
+  "native_verified": false
+}

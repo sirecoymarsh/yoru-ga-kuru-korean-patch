@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "created_at": "2026-09-29T19:38:42.893613+09:00",
+  "game_unchanged": true,
+  "pointer_unchanged": true,
+  "total_cells": 915,
+  "total_events": 1164,
+  "remaining_summaries": 1017,
+  "copied_source_files": 19,
+  "paths_checked": [
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\CLAUDE-CALENDAR-REMAINING-20260929.md",
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_label_particles_20260929_r2\\work\\build\\candidate_meta.json",
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_label_particles_20260929_r2\\work\\build\\candidate_raw_code.jam",
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\graph\\schedule.json",
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\graph\\groups.json",
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\graph\\inputs.json"
+  ],
+  "absolute_references_exist": true,
+  "documents": {
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\CLAUDE-CALENDAR-REMAINING-20260929.md": "7ad1fd875b9823e1c6e1292dc59cada0c3759d852b9c171efaca903ed6a88d45",
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\WI-009-codex-instruction.md": "66681dd0c6018816b03c894a1528a13b4b708f953b620c1c5e65962d8c241fd4",
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\WI-010-codex-instruction.md": "b459eac847e011dc900de853a7342182a5926773caa93b1ae80c76045192b2bd"
+  }
+}

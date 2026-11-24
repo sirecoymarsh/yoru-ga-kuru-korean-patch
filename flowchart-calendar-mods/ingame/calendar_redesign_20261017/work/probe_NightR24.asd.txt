@@ -1,0 +1,23 @@
+{
+ "pid": 51392,
+ "ain_sha256": "8536ebbc3fba2741c9d1d50cbc1ebd3ae6427b457b1c8faf07e22d97291524e6",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 8.0,
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\증거\\probe\\hv_wait.png"
+ ],
+ "save": "NightR24.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\probe\\run\\SaveData_HomeProbe_20261017_143629",
+ "candidate_ain": "99461f9c4d023e6869f2719695923c5ed057d4b67631687268f0a9b4be06b4cc",
+ "candidate_pact": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+ "fails": [],
+ "oks": 0,
+ "ended": false,
+ "user_save_folder_unchanged": true
+}
+SAVEFOLDER P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\calendar_redesign_20261017\probe\run\SaveData_HomeProbe_20261017_143629
+HOMERATE ON 1
+RESUME NightR24.asd stage=home0
+UNEXPECTED WAIT stage=home0
+SHOT hv_wait.bmp

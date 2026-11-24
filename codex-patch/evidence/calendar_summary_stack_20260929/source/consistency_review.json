@@ -1,0 +1,513 @@
+{
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5), adjudicator",
+ "time": "2026-09-29T23:20:42.269978+09:00",
+ "checked_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\checks\\consistency_20260929_225857.json",
+ "checked_file_sha256": "ab9c60543b2e7db9b601ff0a791670a4dca3939d1b878cec1ca1cfd8f84e7cea",
+ "method": "오류마다 그 장면 packets 파일 전체(JP·설치 KR·화자 힌트)를 읽고, 요약의 이름이 장면 안에서 다른 표면형(성·별명·호칭)으로 나오는지 대조. 별명·호칭의 지시 대상은 다른 장면의 대사로 한 번 더 확인.",
+ "totals": {
+  "errors": 43,
+  "name_not_in_scene_false_positive": 25,
+  "april_self_duplicate_false_positive": 17,
+  "approved_april_pronoun_accepted": 1,
+  "defect_fixed": 0,
+  "held": 0,
+  "warnings_reviewed": 7
+ },
+ "stack_mode": {
+  "folders": 12,
+  "baked_ids": 1027,
+  "errors_of_baked_ids": 43,
+  "note": "verify --stack 과 같은 폴더 목록(04_04 의 4월 원천 포함)으로 검사기를 돌린 결과. 25건 + 4월 18건 = 43건."
+ },
+ "waivers": [
+  {
+   "no": 19,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_may_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 7847 三輪坂さん(설치 한국어 미와사카 양)·7857 あの子 = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 7847 三輪坂さん(설치 한국어 미와사카 양)·7857 あの子 = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1512,
+   "type": "name_not_in_scene",
+   "token": "이즈미",
+   "folder": "calendar_may_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 100051 火倉(카구라) = 이즈미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 100051 火倉(카구라) = 이즈미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 2122,
+   "type": "name_not_in_scene",
+   "token": "호시카와",
+   "folder": "calendar_may_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "별명",
+   "evidence": "msg 96178·96202 ヨク(요쿠) = 호시카와",
+   "reason": "별명: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 96178·96202 ヨク(요쿠) = 호시카와). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 2122,
+   "type": "name_not_in_scene",
+   "token": "신카이",
+   "folder": "calendar_may_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "호칭",
+   "evidence": "msg 96188 新さん(신 선배) = 신카이",
+   "reason": "호칭: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 96188 新さん(신 선배) = 신카이). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 105,
+   "type": "name_not_in_scene",
+   "token": "모모세",
+   "folder": "calendar_june_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "별명",
+   "evidence": "msg 18847·18849·18854·18897 モモ(모모) = 모모세",
+   "reason": "별명: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 18847·18849·18854·18897 モモ(모모) = 모모세). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1521,
+   "type": "name_not_in_scene",
+   "token": "호시카와",
+   "folder": "calendar_june_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "별명",
+   "evidence": "msg 100160 ホシ(호시) = 호시카와",
+   "reason": "별명: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 100160 ホシ(호시) = 호시카와). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1702,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_june_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 94274 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 94274 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 2206,
+   "type": "name_not_in_scene",
+   "token": "신카이",
+   "folder": "calendar_june_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "별명",
+   "evidence": "msg 97214 ゴリポン(고리퐁) = 신카이; 같은 별명이 E00530 msg 30187 에서 신카이의 대사 직후 신카이를 부름",
+   "reason": "별명: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 97214 ゴリポン(고리퐁) = 신카이; 같은 별명이 E00530 msg 30187 에서 신카이의 대사 직후 신카이를 부름). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 2303,
+   "type": "name_not_in_scene",
+   "token": "이즈미",
+   "folder": "calendar_june_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "호칭",
+   "evidence": "msg 98266·98272 嬢(아가씨) = 마코토가 이즈미를 부르는 호칭(msg 95555 등에서 이즈미가 대답)",
+   "reason": "호칭: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 98266·98272 嬢(아가씨) = 마코토가 이즈미를 부르는 호칭(msg 95555 등에서 이즈미가 대답)). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1143,
+   "type": "name_not_in_scene",
+   "token": "마코토",
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 90590 祁答院(케도인) = 마코토",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 90590 祁答院(케도인) = 마코토). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1545,
+   "type": "name_not_in_scene",
+   "token": "쿄카",
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 100524 七荻(나나오기) = 쿄카",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 100524 七荻(나나오기) = 쿄카). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1545,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 100524 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 100524 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 113,
+   "type": "name_not_in_scene",
+   "token": "마코토",
+   "folder": "calendar_jul_aug_summaries_20260929/july",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 19428 祁答院(케도인) = 마코토",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 19428 祁答院(케도인) = 마코토). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 173,
+   "type": "name_not_in_scene",
+   "token": "이즈미",
+   "folder": "calendar_jul_aug_summaries_20260929/july",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 20927 火倉(카구라) = 이즈미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 20927 火倉(카구라) = 이즈미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 526,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_october_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 30081 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 30081 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 527,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_october_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 30108 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 30108 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 528,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_october_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 30136 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 30136 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 529,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_october_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 30163 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 30163 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 530,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_october_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 30207 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 30207 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1435,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_october_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 92905 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 92905 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 30156,
+   "type": "name_not_in_scene",
+   "token": "마코토",
+   "folder": "calendar_october_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 56757 祁答院(케도인) = 마코토 (선택 갈래 한 줄 장면; 고르는 대상의 틀은 같은 카드 1단계 E30152 의 선택 질문)",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 56757 祁答院(케도인) = 마코토 (선택 갈래 한 줄 장면; 고르는 대상의 틀은 같은 카드 1단계 E30152 의 선택 질문)). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 937,
+   "type": "name_not_in_scene",
+   "token": "이즈미",
+   "folder": "calendar_november_a_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 38853 火倉たち(카구라 일행) = 이즈미 쪽",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 38853 火倉たち(카구라 일행) = 이즈미 쪽). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 963,
+   "type": "name_not_in_scene",
+   "token": "소지",
+   "folder": "calendar_november_a_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "호칭",
+   "evidence": "msg 39199 アニキ(설치 한국어 형) = 소지; 같은 지칭을 msg 29612-29618·36630 에서 확인",
+   "reason": "호칭: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 39199 アニキ(설치 한국어 형) = 소지; 같은 지칭을 msg 29612-29618·36630 에서 확인). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1442,
+   "type": "name_not_in_scene",
+   "token": "마나미",
+   "folder": "calendar_november_a_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "성/이름 차이",
+   "evidence": "msg 92941 三輪坂(미와사카) = 마나미",
+   "reason": "성/이름 차이: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 92941 三輪坂(미와사카) = 마나미). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 1675,
+   "type": "name_not_in_scene",
+   "token": "이즈미",
+   "folder": "calendar_november_a_summaries_20260929",
+   "verdict": "오탐, 수락",
+   "category": "호칭",
+   "evidence": "msg 89573 部長(부장님) = 이즈미; 부장이 이즈미임은 msg 74510·30887 에서 확인",
+   "reason": "호칭: 그 장면 원문(JP+KR 전체, 화자 힌트)에 같은 인물이 다른 표면형으로 나온다(msg 89573 部長(부장님) = 이즈미; 부장이 이즈미임은 msg 74510·30887 에서 확인). 요약 표기는 설치 한국어 기본 이름. 장면에 없는 인물 아님."
+  },
+  {
+   "no": 2189,
+   "type": "pronoun_geu",
+   "token": "그의",
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "수락(승인본, 후속 권고)",
+   "category": "승인된 4월 문장의 3인칭 지시어",
+   "evidence": "E02189 는 4월 승인·설치본 문장(calendar_april_summary_20260929/source/calendar_april_summaries_20260929.py 98행). 04_04 층은 이 행의 용어만 바꾼다(term_alignment 제안 1건, 감사 해시 고정).",
+   "reason": "사실·행위자 오류가 아니라 문체 규칙(월별 집필 지침 4절) 적중이다. 지시 대상은 첫 문장의 같은 인물 하나라 모호하지 않다. 사용자 규칙은 그/그녀 금지를 대사에 두고 지문은 예외로 둔다. 이 스택이 새로 들이는 문장이 아니고 설치본에 이미 같은 문장이 있다. 고치려면 4월 원천·4월 검수 기록·term_alignment 의 이 행 감사 해시를 함께 바꿔야 하므로(아니면 용어 패치가 건너뛰어져 이 행이 층에서 빠진다) 판정자 범위 밖. 후속: 4월 원천에서 지시어를 인물 이름으로 바꾸고 그 행 용어 감사를 다시 하는 별도 작업 권고."
+  },
+  {
+   "no": 2,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 2] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 4,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 4] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 5,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 5] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 6,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 6] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 7,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 7] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 121,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 121] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 2003,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 2003] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 2065,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 2065] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 2085,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 2085] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 2161,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 2161] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 2165,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 2165] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 2189,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 2189] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 2367,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 2367] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 5001,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 5001] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 5002,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 5002] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 5003,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 5003] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  },
+  {
+   "no": 5004,
+   "type": "duplicate_summary",
+   "token": null,
+   "folder": "calendar_april_summary_20260929",
+   "verdict": "오탐, 수락",
+   "category": "검사기 자기 비교",
+   "evidence": "others = [calendar_april_summary_20260929 (approved) no 5004] (같은 파일의 같은 행)",
+   "reason": "4월 승인 폴더가 04_04 층의 원천이라 --stack 에서 원천 폴더로도 읽히고, 검사기가 같은 폴더를 승인 4월 참조로도 읽어 같은 행끼리 겹친다고 낸 것. 다른 장면과의 중복 아님."
+  }
+ ],
+ "warnings_reviewed": [
+  {
+   "no": 1031,
+   "type": "name_only_in_metadata",
+   "token": "마코토",
+   "folder": "calendar_june_summaries_20260929",
+   "verdict": "확인, 결함 아님",
+   "reason": "msg 87778 祁答院(케도인) = 마코토. 오탐."
+  },
+  {
+   "no": 1061,
+   "type": "name_only_in_metadata",
+   "token": "모모세",
+   "folder": "calendar_june_summaries_20260929",
+   "verdict": "확인, 결함 아님",
+   "reason": "msg 87998 モモ(모모) = 모모세. 오탐."
+  },
+  {
+   "no": 40061,
+   "type": "name_only_in_metadata",
+   "token": "마코토",
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "verdict": "확인, 결함 아님",
+   "reason": "msg 51821 祁答院(케도인) = 마코토. 오탐."
+  },
+  {
+   "no": 40063,
+   "type": "name_only_in_metadata",
+   "token": "마코토",
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "verdict": "확인, 결함 아님",
+   "reason": "선택 갈래 장면의 상대(msg 52101 相手) = 같은 카드 1단계의 그 인물(카드 메타 이름). 오탐."
+  },
+  {
+   "no": 173,
+   "type": "name_from_neighbor_scene",
+   "token": "이즈미",
+   "folder": "calendar_jul_aug_summaries_20260929/july",
+   "verdict": "확인, 결함 아님",
+   "reason": "위 error 와 같은 원인(성 표기). 이웃 장면 이름이 아님."
+  },
+  {
+   "no": 937,
+   "type": "name_from_neighbor_scene",
+   "token": "이즈미",
+   "folder": "calendar_november_a_summaries_20260929",
+   "verdict": "확인, 결함 아님",
+   "reason": "위 error 와 같은 원인(성 표기). 이웃 장면 이름이 아님."
+  },
+  {
+   "no": 963,
+   "type": "name_from_neighbor_scene",
+   "token": "소지",
+   "folder": "calendar_november_a_summaries_20260929",
+   "verdict": "확인, 결함 아님",
+   "reason": "위 error 와 같은 원인(호칭). 이웃 장면 이름이 아님."
+  }
+ ],
+ "note": "waiver 는 (no, type, token) 으로 맞춘다. 달 폴더만 읽은 판정 뒤 재실행(work/adjudication/checks)에서도 같은 25건만 나왔다. 4월 18건은 --stack 폴더 목록에서만 나온다."
+}

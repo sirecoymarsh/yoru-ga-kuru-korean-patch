@@ -1,0 +1,20 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "0cefd6c20f120903773f71469aa6669fb1b3a5b5b5b6e3f0da9423b5778a7295"
+  },
+  "reviewer": "/root/notice_failure_review",
+  "exact_six_push_operands": true,
+  "unpacked_changed_bytes": 12,
+  "reverse_unpacked_exact": true,
+  "unchanged_offsets_and_metadata": true,
+  "direct_candidate_dump_exact_except_six_values": true,
+  "durations_ms": {
+    "chest": 2000,
+    "loot": 3000,
+    "fade": 500
+  },
+  "publisher_one_file_scope": true,
+  "translation_entries_unchanged": true,
+  "native_verified": false
+}

@@ -1,0 +1,43 @@
+{
+  "EX": [
+    {
+      "stable_id": "EX:7:58:name",
+      "path": [
+        "block",
+        7,
+        "value",
+        "child",
+        57,
+        "leaf_value",
+        "item",
+        2,
+        "value"
+      ],
+      "source": "ライトアームズ",
+      "before": "경무장",
+      "target": "경화기",
+      "category": "enemy_name"
+    },
+    {
+      "stable_id": "EX:7:59:name",
+      "path": [
+        "block",
+        7,
+        "value",
+        "child",
+        58,
+        "leaf_value",
+        "item",
+        2,
+        "value"
+      ],
+      "source": "ヘビーアームズ",
+      "before": "중무장",
+      "target": "중화기",
+      "category": "enemy_name"
+    }
+  ],
+  "PACT": [],
+  "AIN": [],
+  "translator_model": "Codex internal"
+}

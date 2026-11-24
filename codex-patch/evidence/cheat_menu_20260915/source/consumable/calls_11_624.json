@@ -1,0 +1,12 @@
+[
+  {
+    "function_id": 31454,
+    "name": "<lambda : L_ConsumeItem::SelectItemMenu(bool)(174, 44)>",
+    "snippet": "SH 0\n\tJUMP 0x5442a4\n0x544290:\n\tPOP\n\tPUSH -1\n\tPUSH -1\n\tPUSH 1\n0x5442a4:\n\tPUSH 1\n\tGTE\n\tIFZ 0x5442c2\n\tPOP\n\tPOP\n\tS_PUSH \"\"\n\tJUMP 0x5442d0\n0x5442c2:\n\tPOP\n\tPUSH 26680\n\tCALLMETHOD 0\n0x5442d0:\n\tCALLMETHOD 1\n\t.LOCALDELETE \"<dummy : L_ConsumeItem::Atの戻り値>\"\n\t.LOCALDELETE \"<dummy : L_ConsumeItem::Atの戻り値>\"\n\tJUMP 0x54439c\n0x544324:\n\t.LOCALREF id\n\tPUSH 10\n\tGTE\n\tIFZ 0x54436"
+  },
+  {
+    "function_id": 31481,
+    "name": "<lambda : C_CustomItem::Run(bool)(33, 48)>",
+    "snippet": "SH 0\n\tJUMP 0x58f920\n0x58f90c:\n\tPOP\n\tPUSH -1\n\tPUSH -1\n\tPUSH 1\n0x58f920:\n\tPUSH 1\n\tGTE\n\tIFZ 0x58f93e\n\tPOP\n\tPOP\n\tS_PUSH \"\"\n\tJUMP 0x58f94c\n0x58f93e:\n\tPOP\n\tPUSH 26680\n\tCALLMETHOD 0\n0x58f94c:\n\tCALLMETHOD 1\n\t.LOCALDELETE \"<dummy : L_ConsumeItem::Atの戻り値>\"\n\t.LOCALDELETE \"<dummy : L_ConsumeItem::Atの戻り値>\"\n\tJUMP 0x58fa18\n0x58f9a0:\n\t.LOCALREF id\n\tPUSH 10\n\tGTE\n\tIFZ 0x58f9e"
+  }
+]

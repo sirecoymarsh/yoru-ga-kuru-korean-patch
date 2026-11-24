@@ -1,0 +1,15 @@
+{
+  "status": "READ_ONLY_REVIEW_PASS",
+  "reviewer": "/root/quick_battle_feasibility_review",
+  "publisher_sha256": "66ae7a24c485c4843c8d59d32f033af2db20ea318160345171695daaa47eab7f",
+  "files": {
+    "NightRemaster.ain": "e103f27fed0474d830842a017718d0b3aa60955b3880013332654aa0e07eff68",
+    "NightRemasterPact.afa": "f59299bccb9cc69c06262b5276033ca8e49ac1aa241892b6a3999e87c7369ee9"
+  },
+  "findings": [],
+  "resolved": [
+    "resumable RESTORING metadata journal",
+    "quarantine exact interrupted incoming copy paths"
+  ],
+  "no_save_or_recovery_build_writes": true
+}

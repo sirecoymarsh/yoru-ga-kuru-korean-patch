@@ -1,0 +1,23 @@
+{
+  "user_reports": [
+    "enemy and chest notifications absent",
+    "sweep confirmation rendering corrupted",
+    "pink sweep button and cyan label outline",
+    "sweep button contact followed by crash"
+  ],
+  "windows_event": {
+    "exception": "c0000005",
+    "module": "NightRemaster.exe",
+    "offset": "00091b56",
+    "instruction": "movdqu xmm0, xmmword ptr [esi]",
+    "context": "row/pixel copy loop",
+    "time": "2026-09-17T17:12:38+09:00"
+  },
+  "root_causes": {
+    "chest": "panel in161 but searched actual160",
+    "enemy": "conditional delayed lifetime write races immediate expiry read; separate activity eliminated",
+    "button": "wrong original magenta config-tab asset and cyan outline left over",
+    "crash": "partial graphics copying is implicated by native crash location and corrupted drawing; full causal stack unavailable"
+  },
+  "native_retest_pending": true
+}

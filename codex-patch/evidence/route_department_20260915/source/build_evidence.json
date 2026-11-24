@@ -1,0 +1,41 @@
+{
+  "status": "DEPARTMENT_EVENT_ROUTE_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "137ef5f4ea57f1501bd72e4e2cd7dad6aaeb8f418058699c0d186b447d059e65",
+    "status": "ROUTE_MAP_REFRESH_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "552332f5dc6da24c07dd2f4a00531de2b3c0fb1fc1f39c8995baa464f61848f1"
+  },
+  "files": {
+    "NightRemaster.ain": "532f09ba127c2bdb8dbca3b41d6eb9615806a98ef326766f1d950c79d04f3ad0"
+  },
+  "patched_function_ids": [
+    31860
+  ],
+  "source_ex_sha256": "fbca7f090e72ac190469d2e04b658b6a213b2d364bee11a0709e8b0eae3c20de",
+  "target_rules": {
+    "default": "stair ObjectId2 SubId1 unchanged",
+    "202": "unremoved event ObjectId7 SubId0",
+    "203": "smallest unremoved SubId0..3 for ObjectId7, then nearest in that group",
+    "204": "unremoved escape event ObjectId7 SubId0"
+  },
+  "source_function_evidence": [
+    27070,
+    28865,
+    28879,
+    28880,
+    28881,
+    28882,
+    28896,
+    29171
+  ],
+  "old_CODE_MSG1_STR0_and_other_metadata_exact": true,
+  "UI_gameplay_events_save_schemas_unchanged": true,
+  "cache_and_post_transition_hooks_preserved": true,
+  "native_gameplay_verified": false
+}

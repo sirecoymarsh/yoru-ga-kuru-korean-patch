@@ -1,0 +1,22 @@
+{
+  "time": "2026-09-15T21:20:46.005260+09:00",
+  "files": {
+    "NightRemaster.ain": "28b837397fc79edb89de826819cd8e9a8de077e1c21a7513b748be13fe5a7412",
+    "NightRemasterPact.afa": "fc0f8664cfd41fcac8405d7d009f9327f86b26e805936e321ad48ce90cef5308",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4"
+  },
+  "native_gameplay_verified": false,
+  "actual_save_reload_verified": false,
+  "status": "STATIC_FONT_GEOMETRY_VISUAL_PASS",
+  "reviewer": "primary Codex internal",
+  "proof": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\mod_tab_20260915\\font_layout_proof.png",
+  "proof_sha256": "e17013480af1dd9a1ff6421c294124b05de0717671094519c707eb68c141fc47",
+  "scope": "Inspected shipped FNL bitmap glyph proof and native part geometry, including all three checkbox labels. This is not a game capture and does not verify native chrome or presentation.",
+  "checks": [
+    "All nine sidebar labels visible, Mods below Remaster",
+    "Four reward sliders and labels fit two columns",
+    "Battle speed and three toggles fit and remain clear of footer",
+    "No visible glyph omission, text clipping or overlap in proof"
+  ],
+  "native_visual_verified": false
+}

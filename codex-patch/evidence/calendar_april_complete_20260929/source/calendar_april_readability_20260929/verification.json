@@ -1,0 +1,44 @@
+{
+ "status": "APRIL_READABILITY_NATIVE_PREVIEW_PASS_NOT_INSTALLED",
+ "candidate_sha256": "442c7eea651c605ce76e51b7efe24584da0059efb96d919fb85b74a0fc0df22d",
+ "april_list_cells": 143,
+ "list_fixture_states": [
+  "all read",
+  "none read",
+  "mixed"
+ ],
+ "detail_events": 146,
+ "detail_fixture_states": [
+  "read",
+  "unread"
+ ],
+ "explicit_read_status": true,
+ "replay_access_separate": true,
+ "unlock_not_counted_as_read": true,
+ "park_group_partial": "전체 4개 중 2개 감상",
+ "scene_picker_native_cancel": true,
+ "event_identifiers_preserved": true,
+ "protagonist_retained": true,
+ "names_centered": true,
+ "aligned_columns": true,
+ "unread_portraits_and_names_hidden": true,
+ "may_pixel_exact": true,
+ "april_may_transition_clean": true,
+ "title_return_pixel_exact": true,
+ "original_code_and_strings_prefix_preserved": true,
+ "scenario_messages_unchanged": true,
+ "save_schema_unchanged": true,
+ "dll_unchanged": true,
+ "live_build_unchanged": true,
+ "user_files_changed": [],
+ "pid": 39308,
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "translator_model": "Codex internal",
+ "author": "/root",
+ "limitations": [
+  "April-only private native preview; not installed.",
+  "Seen/unseen states are controlled test fixtures, not the user completion rate.",
+  "Scenario replay execution is unchanged and was not replayed end-to-end in this UI test.",
+  "Only existing E00011 has a summary; no new summaries authored."
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\복구 검증 uga7d0fh",
+  "payload": {
+    "NightRemaster.ain": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "injected_failure_rollback": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "no_incoming_residue": true
+}

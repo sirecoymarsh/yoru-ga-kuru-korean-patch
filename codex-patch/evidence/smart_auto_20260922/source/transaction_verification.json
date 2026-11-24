@@ -1,0 +1,19 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\smart_auto_20260922\\복구 검증 4nq8u8er",
+  "payload": {
+    "NightRemaster.ain": "f331f7303175e9d7c9fbbcd3e032973717654e223d2ab2f9969638900b08022c",
+    "NightRemasterPact.afa": "9159e5a340e6d436f7932d094ce966a66b48c36dc9ed3885109b690bceee3404"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "nth_replacement_rollback": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "no_incoming_residue": true,
+  "zip": "not applicable: live data-only installation; no archive emitted"
+}

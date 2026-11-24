@@ -1,0 +1,198 @@
+{
+ "pid": 79048,
+ "ain_sha256": "25745da780e962c132ba4e2eb02a46c7f37d66ddc979997e300cbd9bcf01e2e1",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 10.8,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\probe\\run\\SaveData_Effects_pace_routetoggle_20261016_090012",
+  "STAGE resume gf=0 ms=2118",
+  "RESUME NightR36.asd scenario=routetoggle",
+  "TICK first map=2009 x=21 y=6 remain=25 battleResult=-1 battleTime=0",
+  "STAGE step0 gf=0 ms=3266",
+  "SETUP rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=1 trap=0 quick=0 route=1 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "STAGE step1 gf=2 ms=3718",
+  "WALK r1 from 21,6 to 22,6 len=1 target 22,6 obj=0 sub=0 removed=0 show=1 seen=1 stepped=0",
+  "ARRIVED r1 map=2009 x=22 y=6 remain=399 battleResult=-1 battleTime=0",
+  "STAGE step2 gf=23 ms=4087",
+  "DUMP rt_on_1 dungeon=2009 mapNo=2009 map=2009 x=22 y=6 remain=399 battleResult=-1 battleTime=0 autoMoves=0 walk=68",
+  "SETTINGS rt_on_1 rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=1 trap=0 quick=0 route=1 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "PARTY rt_on_1 persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS rt_on_1 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE rt_on_1 flag85=22 flag86=6 flag88=0 flag89=1 sweepOK=0",
+  "SHOT pe_rt_on_1.bmp",
+  "STAGE step3 gf=31 ms=4231",
+  "WALK r2 from 22,6 to 23,6 len=1 target 23,6 obj=0 sub=0 removed=0 show=1 seen=1 stepped=0",
+  "ARRIVED r2 map=2009 x=23 y=6 remain=398 battleResult=-1 battleTime=0",
+  "STAGE step4 gf=52 ms=4603",
+  "DUMP rt_on_2 dungeon=2009 mapNo=2009 map=2009 x=23 y=6 remain=398 battleResult=-1 battleTime=0 autoMoves=0 walk=69",
+  "SETTINGS rt_on_2 rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=1 trap=0 quick=0 route=1 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "PARTY rt_on_2 persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS rt_on_2 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE rt_on_2 flag85=23 flag86=6 flag88=0 flag89=1 sweepOK=0",
+  "SHOT pe_rt_on_2.bmp",
+  "STAGE step5 gf=60 ms=4749",
+  "CODE route_off rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=1 trap=0 quick=0 route=0 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "STAGE step6 gf=63 ms=4799",
+  "WALK r3 from 23,6 to 22,6 len=1 target 22,6 obj=0 sub=0 removed=0 show=1 seen=1 stepped=1",
+  "ARRIVED r3 map=2009 x=22 y=6 remain=397 battleResult=-1 battleTime=0",
+  "STAGE step7 gf=84 ms=5164",
+  "DUMP rt_off_1 dungeon=2009 mapNo=2009 map=2009 x=22 y=6 remain=397 battleResult=-1 battleTime=0 autoMoves=0 walk=70",
+  "SETTINGS rt_off_1 rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=1 trap=0 quick=0 route=0 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "PARTY rt_off_1 persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS rt_off_1 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE rt_off_1 flag85=-1 flag86=-1 flag88=0 flag89=0 sweepOK=0",
+  "SHOT pe_rt_off_1.bmp",
+  "STAGE step8 gf=92 ms=5321",
+  "WALK r4 from 22,6 to 21,6 len=1 target 21,6 obj=3 sub=0 removed=1 show=1 seen=1 stepped=1",
+  "ARRIVED r4 map=2009 x=21 y=6 remain=396 battleResult=-1 battleTime=0",
+  "STAGE step9 gf=113 ms=5674",
+  "DUMP rt_off_2 dungeon=2009 mapNo=2009 map=2009 x=21 y=6 remain=396 battleResult=-1 battleTime=0 autoMoves=0 walk=71",
+  "SETTINGS rt_off_2 rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=1 trap=0 quick=0 route=0 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "PARTY rt_off_2 persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS rt_off_2 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE rt_off_2 flag85=-1 flag86=-1 flag88=0 flag89=0 sweepOK=0",
+  "SHOT pe_rt_off_2.bmp",
+  "STAGE step10 gf=121 ms=5820",
+  "CODE route_on_again rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=1 trap=0 quick=0 route=1 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "STAGE step11 gf=124 ms=5874",
+  "WALK r5 from 21,6 to 22,6 len=1 target 22,6 obj=0 sub=0 removed=0 show=1 seen=1 stepped=1",
+  "ARRIVED r5 map=2009 x=22 y=6 remain=395 battleResult=-1 battleTime=0",
+  "STAGE step12 gf=145 ms=6246",
+  "DUMP rt_on_3 dungeon=2009 mapNo=2009 map=2009 x=22 y=6 remain=395 battleResult=-1 battleTime=0 autoMoves=0 walk=72",
+  "SETTINGS rt_on_3 rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=1 trap=0 quick=0 route=1 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 nativeSpeedUp=1 recoverAfterBattle=0",
+  "PARTY rt_on_3 persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS rt_on_3 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE rt_on_3 flag85=22 flag86=6 flag88=0 flag89=1 sweepOK=0",
+  "SHOT pe_rt_on_3.bmp",
+  "STAGE step13 gf=153 ms=6396",
+  "FAILS 0",
+  "END code=0"
+ ],
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\pace_routetoggle_20261016_090012\\pe_rt_off_1.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\pace_routetoggle_20261016_090012\\pe_rt_off_2.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\pace_routetoggle_20261016_090012\\pe_rt_on_1.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\pace_routetoggle_20261016_090012\\pe_rt_on_2.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\pace_routetoggle_20261016_090012\\pe_rt_on_3.png"
+ ],
+ "scenario": "routetoggle",
+ "save": "NightR36.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\probe\\run\\SaveData_Effects_pace_routetoggle_20261016_090012",
+ "probe": {
+  "scenario": "routetoggle",
+  "sites": [
+   {
+    "owner": "C_SceneBattle@Run",
+    "old": "KR_BeginQuick",
+    "new": "KR_PBBegin",
+    "sites": 1
+   },
+   {
+    "owner": "C_SceneBattle@Run",
+    "old": "KR_EndQuick",
+    "new": "KR_PBEnd",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleProgress@SetFriendActionAuto",
+    "old": "KR_SmartRun",
+    "new": "KR_PBSmart",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleProgress@CheckAction",
+    "old": "KR_ItemsTry",
+    "new": "KR_PBItems",
+    "sites": 2
+   },
+   {
+    "owner": "KR_NoticeInstant",
+    "old": "KR_NoticeShow",
+    "new": "KR_PBNoticeShow",
+    "sites": 1
+   },
+   {
+    "owner": "KR_T8NoticeInstant",
+    "old": "KR_T8TrapNotice",
+    "new": "KR_PBTrapNotice",
+    "sites": 1
+   },
+   {
+    "owner": "C_SceneDungeon@StepedOnCell",
+    "old": "■シンプルダイアログ",
+    "new": "KR_PBSimple",
+    "sites": 2
+   },
+   {
+    "owner": "C_SceneDungeon@Run",
+    "old": "KR_SweepExecute",
+    "new": "KR_PBSweep",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleResultView@Run",
+    "old": "KR_ExploreResultEnter",
+    "new": "KR_PBResultEnter",
+    "sites": 1
+   },
+   {
+    "owner": "C_MessageDialog@Run",
+    "old": "KR_ExploreLevelEnter",
+    "new": "KR_PBMsgDlgEnter",
+    "sites": 1
+   },
+   {
+    "owner": "L_BattleIncome::Settle",
+    "old": "L_CasualMode::CalcExp",
+    "new": "KR_PBCalcExp",
+    "sites": 1
+   },
+   {
+    "owner": "L_BattleIncome::Settle",
+    "old": "L_CasualMode::CalcTrainging",
+    "new": "KR_PBCalcTr",
+    "sites": 1
+   },
+   {
+    "owner": "L_BattleIncome::Settle",
+    "old": "L_CasualMode::CalcMoney",
+    "new": "KR_PBCalcMoney",
+    "sites": 1
+   }
+  ],
+  "waits": 29,
+  "probe_sha256": "25745da780e962c132ba4e2eb02a46c7f37d66ddc979997e300cbd9bcf01e2e1",
+  "ids": {
+   "DUNGEON_ID": 28622,
+   "MAP_NO": 27042,
+   "CELL_AT": 27082,
+   "AB_ID": 27332,
+   "AB_LV": 27335,
+   "AB_HP": 27336,
+   "AB_MHP": 27338,
+   "AB_EXP": 27333,
+   "AB_TR": 27339,
+   "AB_MONEY": 27340,
+   "FL_MAPID": 26556,
+   "FL_X": 26559,
+   "FL_Y": 26562,
+   "C_OBJ": 27005,
+   "C_SUB": 27008,
+   "C_REMOVED": 27023,
+   "C_SHOW": 27020,
+   "C_SEEN": 27017,
+   "C_EV": 27029,
+   "C_WALK": 27039,
+   "C_STEPPED": 27014,
+   "FL_BRESULT": 26603,
+   "FL_BTIME": 26606
+  }
+ },
+ "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+ "candidate_pact": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+ "layer": "pace",
+ "fails": [],
+ "oks": 0,
+ "user_save_folder_unchanged": true
+}

@@ -1,0 +1,203 @@
+{
+  "status": "NATIVE_MOD_BUTTON_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "a42c1e26b48ffa9c322ea7e9f1cf965fa10f8e91d678850aeceadaf34b886b5a",
+    "status": "NOTICE_REPAIR_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemasterPact.afa": "39d0915ee3475441f6526a023b4a64989a4388190f07e2e62d5cbf8e8cbc5bc8",
+    "NightRemasterCG.afa": "8d8d865f294b695894f25b1656b9c22ed033f72a07560e19fa356fb5d5b71af6"
+  },
+  "files": {
+    "NightRemasterPact.afa": "335e063313527913d0a7b5197e66e6a3ef31b9a2ab508a21d3a8b062e084be92",
+    "NightRemasterCG.afa": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e"
+  },
+  "patched_existing": [],
+  "added_functions": {},
+  "PACT": {
+    "archive": {
+      "source_sha256": "39d0915ee3475441f6526a023b4a64989a4388190f07e2e62d5cbf8e8cbc5bc8",
+      "candidate_sha256": "335e063313527913d0a7b5197e66e6a3ef31b9a2ab508a21d3a8b062e084be92",
+      "original_entries_preserved": 187,
+      "replaced_ids": [
+        153,
+        154,
+        161
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\native_mod_button_20260917\\NightRemasterPact.afa"
+    },
+    "buttons": [
+      {
+        "entry": 153,
+        "root": "KR_AutoEquipRoot",
+        "button": "KR_AutoEquipButton",
+        "text": "자동 장착",
+        "canvas": [
+          192.0,
+          42
+        ],
+        "scale": [
+          1.6551724137931034,
+          0.7636363636363637
+        ],
+        "text_xy": [
+          58.5625,
+          10.5
+        ],
+        "font_size": 21,
+        "click_id_unchanged": true
+      },
+      {
+        "entry": 154,
+        "root": "KR_AutoStoneRoot",
+        "button": "KR_AutoStoneButton",
+        "text": "요소석 추천",
+        "canvas": [
+          138.0,
+          42
+        ],
+        "scale": [
+          1.1896551724137931,
+          0.7636363636363637
+        ],
+        "text_xy": [
+          22.875,
+          10.5
+        ],
+        "font_size": 21,
+        "click_id_unchanged": true
+      },
+      {
+        "entry": 161,
+        "root": "KR_SweepRoot",
+        "button": "KR_SweepButton",
+        "text": "자동 소탕",
+        "canvas": [
+          116,
+          55
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "text_xy": [
+          15.666666499999998,
+          15.5
+        ],
+        "font_size": 24,
+        "click_id_unchanged": true
+      }
+    ]
+  },
+  "CG": {
+    "source_sha256": "8d8d865f294b695894f25b1656b9c22ed033f72a07560e19fa356fb5d5b71af6",
+    "candidate_sha256": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e",
+    "original_entries_preserved": 2820,
+    "replaced_ids": [],
+    "appended": [
+      {
+        "id": 2820,
+        "name": "シス／探索／ボタン／休憩／休憩／通常.qnt",
+        "sha256": "99b89b17a4a3c4e2eacd744accdd61e294e678d119916189145304c6f6c9fb24"
+      },
+      {
+        "id": 2821,
+        "name": "シス／探索／ボタン／休憩／休憩／オン.qnt",
+        "sha256": "47ce100e76c1e4a7d8e1612eb67193defc04c039f8f923c3645c61145dfafdb4"
+      },
+      {
+        "id": 2822,
+        "name": "シス／探索／ボタン／休憩／休憩／ダウン.qnt",
+        "sha256": "80aa95c2e460f68a8f63fe17f3123407c8d0ff06f070d20604b884a5347444e0"
+      },
+      {
+        "id": 2823,
+        "name": "シス／探索／ボタン／休憩／休憩／無効.qnt",
+        "sha256": "6a9d8f959aa0b0e843cdf3fc74d304c55f25b7c427c1b4544c368f151d3f47dd"
+      }
+    ],
+    "wrapper": "AFA3",
+    "metadata_identity": "PASS (names/order/unknown fields)",
+    "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+    "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\native_mod_button_20260917\\NightRemasterCG.afa"
+  },
+  "assets": [
+    {
+      "id": 1671,
+      "state": "通常",
+      "name": "シス／探索／ボタン／休憩／休憩／通常.qnt",
+      "source_sha256": "4509bdcaa2f6bd7b5c0bd3a73b070021594132e4d8ae03c07ee3fb1acd684604",
+      "clean_sha256": "507b056f674c1c6d5f7193c348e5e40ee1d813b463533af7f9b092d3106422c0",
+      "payload_sha256": "99b89b17a4a3c4e2eacd744accdd61e294e678d119916189145304c6f6c9fb24",
+      "canvas": [
+        116,
+        55
+      ],
+      "protected_diff": 0,
+      "unchanged_clean_plate": true,
+      "source": "P:\\AI\\Codex\\game_localization\\YoruGaKuru_Remastered_KO_Project\\extracted\\images\\NightRemasterCG_png\\シス／探索／ボタン／休憩／通常.qnt.png",
+      "clean_plate": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_adjacent_repair\\1671_clean.png"
+    },
+    {
+      "id": 1668,
+      "state": "オン",
+      "name": "シス／探索／ボタン／休憩／休憩／オン.qnt",
+      "source_sha256": "9d9e68c64032bae0f1928bf23f72df218404f52c3e59907870e69edcf1b53535",
+      "clean_sha256": "5c216d6e39c5c4db9b6b67208354cf816f724a2a18a8d1db3100940b4c093ad4",
+      "payload_sha256": "47ce100e76c1e4a7d8e1612eb67193defc04c039f8f923c3645c61145dfafdb4",
+      "canvas": [
+        116,
+        55
+      ],
+      "protected_diff": 0,
+      "unchanged_clean_plate": true,
+      "source": "P:\\AI\\Codex\\game_localization\\YoruGaKuru_Remastered_KO_Project\\extracted\\images\\NightRemasterCG_png\\シス／探索／ボタン／休憩／オン.qnt.png",
+      "clean_plate": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_adjacent_repair\\1668_clean.png"
+    },
+    {
+      "id": 1669,
+      "state": "ダウン",
+      "name": "シス／探索／ボタン／休憩／休憩／ダウン.qnt",
+      "source_sha256": "314aa28293f05b132f015478aca70eb6d7b4e7adf2e1cf77ff349b242b59331c",
+      "clean_sha256": "4f980bad9b87b37b8a3f27492a32020be72f7f6f27a410e8a3aaffb126e661fc",
+      "payload_sha256": "80aa95c2e460f68a8f63fe17f3123407c8d0ff06f070d20604b884a5347444e0",
+      "canvas": [
+        116,
+        55
+      ],
+      "protected_diff": 0,
+      "unchanged_clean_plate": true,
+      "source": "P:\\AI\\Codex\\game_localization\\YoruGaKuru_Remastered_KO_Project\\extracted\\images\\NightRemasterCG_png\\シス／探索／ボタン／休憩／ダウン.qnt.png",
+      "clean_plate": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_adjacent_repair\\1669_clean.png"
+    },
+    {
+      "id": 1670,
+      "state": "無効",
+      "name": "シス／探索／ボタン／休憩／休憩／無効.qnt",
+      "source_sha256": "bed7f79ab1ea2f884289c4886f823ae801ded62bb1590ba5fb75c3d38e606358",
+      "clean_sha256": "6a6517ebd4142335d36935675e5f9fab3c3f30a027c282a37b26119a4d2feed7",
+      "payload_sha256": "6a9d8f959aa0b0e843cdf3fc74d304c55f25b7c427c1b4544c368f151d3f47dd",
+      "canvas": [
+        116,
+        55
+      ],
+      "protected_diff": 0,
+      "unchanged_clean_plate": true,
+      "source": "P:\\AI\\Codex\\game_localization\\YoruGaKuru_Remastered_KO_Project\\extracted\\images\\NightRemasterCG_png\\シス／探索／ボタン／休憩／無効.qnt.png",
+      "clean_plate": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_adjacent_repair\\1670_clean.png"
+    }
+  ],
+  "ain_unchanged_sha256": "3b7bb70cb51caba08dc291693919554c3d35783314352eccc77f7b16ab18f8e9",
+  "save_schema_changes": 0,
+  "old_CODE_STR0_MSG1_exact": true,
+  "native_verified": false,
+  "translator_model": "Codex internal"
+}

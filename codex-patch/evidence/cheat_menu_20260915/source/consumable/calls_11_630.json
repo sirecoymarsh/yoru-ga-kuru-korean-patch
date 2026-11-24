@@ -1,0 +1,22 @@
+[
+  {
+    "function_id": 26687,
+    "name": "C_ConsumeItem@Create",
+    "snippet": "PUSHSTRUCTPAGE\n\tPUSH 26670\n\tS_PUSH \"逹餘 綽襾\"\n\tX_DUP 1\n\tX_MOV 4 1\n\tA_REF\n\tCALLMETHOD 1\n\tDELETE\n\tPUSHSTRUCTPAGE\n\tPUSH 26673\n\tS_PUSH \"　　\"\n\tPUSHSTRUCTPAGE\n\tPUSH 26668\n\tCALLMETHOD 0\n\tS_ADD\n\tX_DUP 1\n\tX_MOV 4 1\n\tA_REF\n\tCALLMETHOD 1\n\tDELETE\n\tPUSHSTRUCTPAGE\n\tPUSH 26683\n\tCALLMETHOD 0\n\t.LOCALREF \"<dummy : C_ConsumeItem@nMoonPiece::getの戻り値>\"\n\tDELETE\n\tPUSHLOCALPAGE\n\tPUSH 0"
+  },
+  {
+    "function_id": 26693,
+    "name": "L_ConsumeItem::SelectItemMenu",
+    "snippet": "m::Atの戻り値>\"\n\t.LOCALREF p\n\tPUSH 26677\n\tCALLMETHOD 0\n\tPUSH 0\n\tGT\n\tIFNZ 0x544028\n\tJUMP 0x5440a2\n0x544028:\n\t.LOCALREF i\n\tS_PUSH \"%12s（%2d）\"\n\t.LOCALREF p\n\tPUSH 26668\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF p\n\tPUSH 26677\n\tCALLMETHOD 0\n\tS_MOD 2\n\tS_PUSH \"觴蝟胥 贊酥\"\n\tPUSH 0\n\tCALLFUNC ■選択ダイアログ／選択肢追加\n\t.LOCALINC3 nCount\n0x5440a2:\n\t.LOCALDELETE \"<dummy : L_ConsumeItem::Atの戻り値>\"\n\t"
+  },
+  {
+    "function_id": 26694,
+    "name": "L_ConsumeItem::UseItem",
+    "snippet": "H 29214\n\tS_PUSH \"%s, %s裲黨 %s 跪蠎\"\n\t.LOCALREF pa\n\tPUSH 27300\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF pta\n\tPUSH 27300\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF pItem\n\tPUSH 26668\n\tCALLMETHOD 0\n\tS_MOD 4\n\tCALLMETHOD 1\n\tPUSH 0\n\tJUMP 0x544756\n0x54474c:\n\tPOP\n\tPOP\n\tPUSH 1\n0x544756:\n\tPOP\n\tPUSHLOCALPAGE\n\tPUSH 10\n\tX_DUP 2\n\tX_REF 1\n\tDELETE\n\tPUSH 3\n\tX_A_INIT 0\n\tX_DUP 1\n\tPUSH 0\n\t.LOCALRE"
+  },
+  {
+    "function_id": 27188,
+    "name": "L_TreasureBox::GetConsumptionItem",
+    "snippet": "AGE\n\tPUSH 4\n\tX_MOV 3 2\n\tX_ASSIGN 1\n\tX_ASSIGN 1\n\tSP_INC\n\t.LOCALDELETE \"<dummy : L_ConsumeItem::Atの戻り値>\"\n\tS_PUSH \"綛輹 觴蝟胥「%s」蝨 貍裲 驩褓餠\"\n\t.LOCALREF pItem\n\tPUSH 26668\n\tCALLMETHOD 0\n\tS_MOD 4\n\tCALLFUNC L_TreasureBox::ShowGetDialog\n\t.LOCALREF pItem\n\tPUSH 26677\n\tCALLMETHOD 0\n\tCALLFUNC L_ConsumeItem::GetMaxCount\n\tGTE\n\tIFNZ 0x56ca2a\n\tJUMP 0x56ca3c\n0x56ca2a:\n\tS_PUSH \"緕薈銕"
+  }
+]

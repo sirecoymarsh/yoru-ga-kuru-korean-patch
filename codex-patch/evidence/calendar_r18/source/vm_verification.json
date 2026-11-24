@@ -1,0 +1,642 @@
+{
+ "schema": "yoru-calendar-r18.verify.v1",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "candidate_sha256": "1f60b6853151e6f62d8803b669da5ae92b285628e89c504c2b9ac90a74038888",
+ "base_sha256": "cbed62c2aa3bd33c8471a098cc1f6a3e7f83c60c32d02b2cbf2b0dd63bc24a9f",
+ "counts": {
+  "S1_metadata": 1,
+  "S2_r15_sites_kept": 9,
+  "S2_base_code_bytes": 12251148,
+  "S2_base_code_bytes_changed": 2,
+  "S2_changed_bytes_inside_the_operand": 1,
+  "S3_text": 1,
+  "S6_KR_T9HomeCasual_bytes_changed": 2,
+  "S6_pinned_bytes": 3476,
+  "S6_pinned_functions": 5,
+  "S7_sandbox_signature_equal_RunEvent": 1,
+  "S4_saves": 51,
+  "S4_frames": 1254,
+  "S4_frames_in_live_versions": 1220,
+  "S4_frames_in_KR_T9HomeCasual": 0,
+  "S4_frames_in_forwarded": 0,
+  "S5_active_functions": 30662,
+  "V1_cards": 155,
+  "V1_stages": 404,
+  "V1_drawers": 96,
+  "V1_scenes": 760,
+  "V1_events": 1164,
+  "V1_panel_outside": 121,
+  "V15_bars": 14762,
+  "V10_seen_states": 1,
+  "V2_bars_checked": 3903,
+  "V2_max_width_px": 1135,
+  "V2_dialogs": 10160,
+  "V2_max_height": 672,
+  "V2_max_title_lines": 11,
+  "V11_lane_titles": 292,
+  "V11_drawer_rows": 736,
+  "V11_month_drawer_pages": 52,
+  "V11_memory_pages": 4,
+  "V11_summary_pages": 18,
+  "V13_summary_equals_panel": 18,
+  "V2_states": 4,
+  "V2_event_pages": 1164,
+  "V3_cells": 8327,
+  "V3_month_menus": 273,
+  "V11_year_sums": 20,
+  "V3_synthetic_mid_month_marks": 3,
+  "V4_navigation": 1,
+  "V5_play_from_window": 1,
+  "V6_play_from_settings": 1,
+  "V7_no_context": 1,
+  "V8_failsafe": 1,
+  "V9_original_dispatch": 1,
+  "V11_summary_from_month": 1,
+  "V12_tailed_rows": 26,
+  "V12_collision_groups_in_r15": 9,
+  "V12_duplicate_rows_after": 0,
+  "V12_rows": 155,
+  "V13_panel_states": 5,
+  "V16_locked_unseen": 2726,
+  "V16_card_refusals": 244,
+  "V16_event_pages_answered": 3492,
+  "V16_open_pages": 3611,
+  "V16_card_requests": 221,
+  "V16_locked_other": 1229,
+  "V16_bundle_stages": 284,
+  "V16_memory_pages": 32,
+  "V16_states": 3,
+  "V17_sandbox_runs": 4,
+  "V17_state_keys_compared": 64,
+  "V18_mid_replay_load_no_temp": 1,
+  "V18_mid_replay_load_temp_left": 1,
+  "V19_save_failure": 2,
+  "V20_casual_site_lock": 1,
+  "V14_saves": 14,
+  "V14_native_panel_equal": 14,
+  "V14_native_summary_equal": 14,
+  "V14_saves_with_all_three": 5
+ },
+ "vm_steps": 95270741,
+ "widest_title": "■■■■■■□□□□ 25/43 본 것　●안 봄 △다른 저장 ○이 저장",
+ "widest_title_len": 38,
+ "widest_item": "7/27 밤 ● 하루만 · 쿄카 친밀도 30 이상 (2단계)",
+ "widest_item_len": 33,
+ "widest_drawer_row": "호시카와 · 특훈 뒤 대화 10/10 ■■■■■",
+ "widest_drawer_row_len": 26,
+ "widest_drawer_row_units": 20.5,
+ "seconds": 156.2,
+ "saves_checked": 51,
+ "frames_checked": 1254,
+ "panel": {
+  "same_computation_as_KR_T8HomeRateText": true,
+  "only_difference_label": [
+   "\n전체 이벤트　",
+   "\n전체　　"
+  ],
+  "panel_denominator": 1043,
+  "panel_percent": "KR_T8Pct (0.1% floored)",
+  "calendar_events": 1164,
+  "panel_outside": 121,
+  "panel_outside_breakdown": {
+   "회상 재생본": 85,
+   "던전 레인": 8,
+   "게임에서 부르지 않는 장면": 28
+  },
+  "dungeon_lane_outside": [
+   "E00996",
+   "E05000",
+   "E06001",
+   "E10523",
+   "E20523",
+   "E30523",
+   "E40523",
+   "E50007"
+  ],
+  "states": [
+   {
+    "state": "none",
+    "panel": "0/1043 0.0%",
+    "summary_first_line": "달성도　전체 □□□□□□□□□□ 0/1043 (0.0%)"
+   },
+   {
+    "state": "partial",
+    "panel": "548/1043 52.5%",
+    "summary_first_line": "달성도　전체 ■■■■■□□□□□ 548/1043 (52.5%)"
+   },
+   {
+    "state": "all",
+    "panel": "1043/1043 100.0%",
+    "summary_first_line": "달성도　전체 ■■■■■■■■■■ 1043/1043 (100.0%)"
+   },
+   {
+    "state": "all_but_one",
+    "panel": "1042/1043 99.9%",
+    "summary_first_line": "달성도　전체 ■■■■■■■■■□ 1042/1043 (99.9%)"
+   },
+   {
+    "state": "mid-August",
+    "panel": "180/1043 17.2%",
+    "summary_first_line": "달성도　전체 ■■□□□□□□□□ 180/1043 (17.2%)"
+   }
+  ]
+ },
+ "sandbox": {
+  "variants": [
+   {
+    "variant": {
+     "vars_in_save": true
+    },
+    "calls": [
+     "LSys3xScript::Prepare",
+     "gamesave::detail::セーブ実行",
+     "LSys3xScript::RunEvent",
+     "gamesave::detail::ロード実行",
+     "post_load",
+     "■ＡＤＶ消し"
+    ],
+    "allowed": {
+     "flags_added": [
+      987654
+     ],
+     "files_removed": [],
+     "can_return": [
+      0,
+      0
+     ],
+     "vars": []
+    }
+   },
+   {
+    "variant": {
+     "vars_in_save": false
+    },
+    "calls": [
+     "LSys3xScript::Prepare",
+     "gamesave::detail::セーブ実行",
+     "LSys3xScript::RunEvent",
+     "gamesave::detail::ロード実行",
+     "post_load",
+     "■ＡＤＶ消し"
+    ],
+    "allowed": {
+     "flags_added": [
+      987654
+     ],
+     "files_removed": [],
+     "can_return": [
+      0,
+      0
+     ],
+     "vars": [
+      "YoruKR.T8.TalkAuto"
+     ]
+    }
+   },
+   {
+    "variant": {
+     "vars_in_save": true,
+     "can_return": 1,
+     "back_select": true
+    },
+    "calls": [
+     "LSys3xScript::Prepare",
+     "gamesave::detail::セーブ実行",
+     "LSys3xScript::RunEvent",
+     "gamesave::detail::ロード実行",
+     "post_load",
+     "■ＡＤＶ消し"
+    ],
+    "allowed": {
+     "flags_added": [
+      987654
+     ],
+     "files_removed": [
+      "NightRBackSelect1.asd",
+      "NightRBackSelect1.vsf"
+     ],
+     "can_return": [
+      1,
+      0
+     ],
+     "vars": []
+    }
+   },
+   {
+    "variant": {
+     "vars_in_save": false,
+     "stale_temp": true
+    },
+    "calls": [
+     "LSys3xScript::Prepare",
+     "gamesave::detail::セーブ実行",
+     "LSys3xScript::RunEvent",
+     "gamesave::detail::ロード実行",
+     "post_load",
+     "■ＡＤＶ消し"
+    ],
+    "allowed": {
+     "flags_added": [
+      987654
+     ],
+     "files_removed": [
+      "NightRKRReplay.asd",
+      "NightRKRReplay.vsf"
+     ],
+     "can_return": [
+      0,
+      0
+     ],
+     "vars": [
+      "YoruKR.T8.TalkAuto"
+     ]
+    }
+   }
+  ],
+  "temp_file": "NightRKRReplay.asd",
+  "temp_info_file": "NightRKRReplay.vsf"
+ },
+ "real_saves": {
+  "saves": [
+   {
+    "save": "NightR07.asd",
+    "at": "wait",
+    "today": "4/22",
+    "now": 4,
+    "registered": 17,
+    "marks_by_month": {
+     "4": "○●",
+     "5": "●",
+     "6": "●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 □□□□□□□□□□ 16/1043 (1.5%)",
+    "panel": "16/1043 1.5%",
+    "native": {
+     "panel_value": "1.5%",
+     "panel_count": 16,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR12.asd",
+    "at": "home",
+    "today": "5/13",
+    "now": 5,
+    "registered": 32,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○●",
+     "6": "●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 □□□□□□□□□□ 31/1043 (2.9%)",
+    "panel": "31/1043 2.9%",
+    "native": {
+     "panel_value": "2.9%",
+     "panel_count": 31,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR16.asd",
+    "at": "home",
+    "today": "5/20",
+    "now": 5,
+    "registered": 56,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○●",
+     "6": "●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 55/1043 (5.2%)",
+    "panel": "55/1043 5.2%",
+    "native": {
+     "panel_value": "5.2%",
+     "panel_count": 55,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR18.asd",
+    "at": "home",
+    "today": "5/27",
+    "now": 5,
+    "registered": 59,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○●",
+     "6": "●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 58/1043 (5.5%)",
+    "panel": "58/1043 5.5%",
+    "native": {
+     "panel_value": "5.5%",
+     "panel_count": 58,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR23.asd",
+    "at": "wait",
+    "today": "6/10",
+    "now": 6,
+    "registered": 69,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     6
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 68/1043 (6.5%)",
+    "panel": "68/1043 6.5%",
+    "native": {
+     "panel_value": "6.5%",
+     "panel_count": 68,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR24.asd",
+    "at": "wait",
+    "today": "6/10",
+    "now": 6,
+    "registered": 69,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     6
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 68/1043 (6.5%)",
+    "panel": "68/1043 6.5%",
+    "native": {
+     "panel_value": "6.5%",
+     "panel_count": 68,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR26.asd",
+    "at": "home",
+    "today": "7/1",
+    "now": 7,
+    "registered": 97,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 96/1043 (9.2%)",
+    "panel": "96/1043 9.2%",
+    "native": {
+     "panel_value": "9.2%",
+     "panel_count": 96,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR31.asd",
+    "at": "home",
+    "today": "8/19",
+    "now": 8,
+    "registered": 136,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     8
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 135/1043 (12.9%)",
+    "panel": "135/1043 12.9%",
+    "native": {
+     "panel_value": "12.9%",
+     "panel_count": 135,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR33.asd",
+    "at": "home",
+    "today": "8/26",
+    "now": 8,
+    "registered": 139,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     8
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 138/1043 (13.2%)",
+    "panel": "138/1043 13.2%",
+    "native": {
+     "panel_value": "13.2%",
+     "panel_count": 138,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR37.asd",
+    "at": "home",
+    "today": "9/16",
+    "now": 9,
+    "registered": 154,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     9
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 153/1043 (14.6%)",
+    "panel": "153/1043 14.6%",
+    "native": {
+     "panel_value": "14.6%",
+     "panel_count": 153,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR38.asd",
+    "at": "home",
+    "today": "9/16",
+    "now": 9,
+    "registered": 154,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     9
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 153/1043 (14.6%)",
+    "panel": "153/1043 14.6%",
+    "native": {
+     "panel_value": "14.6%",
+     "panel_count": 153,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR41.asd",
+    "at": "home",
+    "today": "9/30",
+    "now": 9,
+    "registered": 167,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■■□□□□□□□□ 166/1043 (15.9%)",
+    "panel": "166/1043 15.9%",
+    "native": {
+     "panel_value": "15.9%",
+     "panel_count": 166,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR44.asd",
+    "at": "home",
+    "today": "10/14",
+    "now": 10,
+    "registered": 183,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○",
+     "10": "▲○●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     10
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■■□□□□□□□□ 182/1043 (17.4%)",
+    "panel": "182/1043 17.4%",
+    "native": {
+     "panel_value": "17.4%",
+     "panel_count": 182,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR47.asd",
+    "at": "home",
+    "today": "11/4",
+    "now": 11,
+    "registered": 207,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○",
+     "10": "▲○",
+     "11": "▲●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■■□□□□□□□□ 206/1043 (19.7%)",
+    "panel": "206/1043 19.7%",
+    "native": {
+     "panel_value": "19.7%",
+     "panel_count": 206,
+     "summary_equal_vm": true
+    }
+   }
+  ],
+  "pick": "NightR44.asd"
+ }
+}

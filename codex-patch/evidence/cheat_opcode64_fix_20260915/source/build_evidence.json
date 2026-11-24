@@ -1,0 +1,33 @@
+{
+  "status": "NATIVE_OPCODE_STATIC_PASS",
+  "time": "2026-09-15T19:44:00.609914+09:00",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "722f52d262ad4001811aea2588780e27779cfa03a9006d6ac067ee13dbcc66d1",
+    "status": "CHEAT_MENU_AND_CONSUMABLE_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "e103f27fed0474d830842a017718d0b3aa60955b3880013332654aa0e07eff68"
+  },
+  "files": {
+    "NightRemaster.ain": "537a684b60828bdf3b19252e3e6b32c3ebffb8812de70b323805b479fea05e2a"
+  },
+  "patched_function_ids": [
+    31852,
+    31853,
+    31860
+  ],
+  "changes": {
+    "float_literals": "6 F_PUSH->PUSH raw IEEE754 bits",
+    "route_local_structs": "2 SH_LOCALDELETE/CREATE pairs->native .LOCALCREATE deletion/allocation sequence"
+  },
+  "metadata_except_three_function_addresses_exact": true,
+  "old_CODE_prefix_exact": true,
+  "all_MSG1_STR0_and_post_MSG1_sections_exact": true,
+  "no_semantic_translation_or_UI_change": true,
+  "all_active_native_opcode_dispatch_supported": true,
+  "native_gameplay_verified": false
+}

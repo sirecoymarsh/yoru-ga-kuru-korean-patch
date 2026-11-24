@@ -1,0 +1,57 @@
+{
+  "pid": 31852,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "6c638bd9fd7fd7bea67b1c0206a44aecb37da102d583b6bfdeea98b79fe2563d",
+  "events": [
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    }
+  ],
+  "exit_code": 0,
+  "log": [
+    "LOADED 빛잡이,불지기,쉭쉭이,하자마,얼어붙은 밤,참된 달,참된 밤,호무라 ACTIVE 1",
+    "SAVE_FOLDER C:\\Users\\CadriacLord\\OneDrive\\ｹｮｼｭ\\AliceSoft\\ｹ팰ﾌ ｿﾂｴﾙ! -Square of the MOON- Remastered\\SaveData_KR_ClaudeTermRate_20260924",
+    "DUNGEON 호무라 라이코 동굴 최심층⑩ | 수수께끼의 하자마 1 | 서양관 내부　하자마 5",
+    "SENSE %s{YORU_KR_JOSA:n} 빛잡이의 기척을 감지했다",
+    "BATTLE 빛잡이를 모두 쓰러뜨렸다",
+    "COMMENT 용에게 효과적인 검이지만,",
+    "빛잡이에게 얼마나 통할지는",
+    "알 수 없습니다.",
+    "MOLD 불지기의 영약",
+    "MSG17397 　호무라는 작년부터",
+    "PASS v2 file upgraded to v3, v2 kept as backup",
+    "PASS eight-term roundtrip 광수,화자,쉭쉭이,하자마,토야,진월,진야,화군",
+    "DUNGEON2 화군 라이코 동굴 최심층⑩ | 수수께끼의 하자마 1",
+    "PASS rejected preference write preserves main",
+    "AFTER_DAMAGE 빛잡이,불지기,쉭쉭이,하자마,얼어붙은 밤,참된 달,참된 밤,호무라 VALIDMAIN 0",
+    "READ 21109 MS 98",
+    "CG 13 MS 9",
+    "SCENE 20 MS 2",
+    "ENDING 0 / 5   ??? · ??? · ??? · ??? · ??? MS 0",
+    "END"
+  ],
+  "probe_sha256": "6c638bd9fd7fd7bea67b1c0206a44aecb37da102d583b6bfdeea98b79fe2563d",
+  "source_sha256": "78cf272dd209822995246e5aeba82107a04622685372bb7c17a225d1e4a9ec3a",
+  "user_saves_unchanged": 335
+}

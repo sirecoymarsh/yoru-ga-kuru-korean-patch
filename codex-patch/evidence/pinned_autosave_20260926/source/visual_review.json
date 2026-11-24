@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex internal",
+  "files": {
+    "NightRemaster.ain": "92f2f7801ce17402486b835fc416c35d4a86dc0bdffa63cf4c09d2e3e58e80e4",
+    "NightRemasterPact.afa": "eed0fa72dda21f24de9a9f238c1210663981d132e7c4012ead38f74c1f3fb4b4"
+  },
+  "native_probe": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\pinned_autosave_20260926\\native_probe_20260926_224038\\result.json",
+  "screenshots": {
+    "load_0": "168c6182a4f996c320c934617b6f5ab8d159e217f3e19c83721a26a456a9d422",
+    "load_1": "6ac6ece11561333340cbb34b67562eb804c0fe6e9a8d679ffcc25c16a7b545fb",
+    "load_9": "4d8b01b378c5eb919adebca4bcf41be2a2e3422844451aa0e4a2defaddf40212",
+    "save_0": "9c466867299db4adc78c6e0e1e32e8745b18bc6c76378584e3a35e72783b3c94",
+    "save_1": "5d0f5948aaa85aec643f4f74ef33d88dc7e06ac84413c8244ecc9a290dd5f557",
+    "save_9": "a1dc63eb96bee54e70d02d40fa7c1a18577874ad636ebf1b7f57bacf21e2a8ca"
+  },
+  "observations": [
+    "Daily and weekly cards stay at exactly the same first two positions across page1/page2/page10 in both screens.",
+    "오토세이브 is readable under each daily/weekly label; original fonts and blue/purple styling retained.",
+    "All seven compact cards fit within the existing list frame; row49 selected glow fits without overlap.",
+    "Manual IDs1..4,5..9,45..49 appear below the fixed cards; page1 intentionally has six rows.",
+    "Auto rows dim in save mode; active in load mode.",
+    "Existing main-story and overall-achievement fields remain separate and within their cards; legacy snapshots correctly show unrecorded."
+  ],
+  "limitations": [
+    "Native page commands and selectors tested; no OS-level mouse click or wheel injection."
+  ]
+}

@@ -1,0 +1,1048 @@
+{
+  "26656": [
+    {
+      "fid": 26655,
+      "name": "■システムフラグ／ロード",
+      "address": "0x541ff2",
+      "prior": [
+        [
+          "CALLFUNC",
+          "0x6815"
+        ]
+      ]
+    },
+    {
+      "fid": 29556,
+      "name": "C_SceneSaveLoad@ExecAfterLoad",
+      "address": "0x94a94e",
+      "prior": [
+        [
+          "CALLFUNC",
+          "0x7c6f"
+        ],
+        [
+          "CALLFUNC",
+          "0x6815"
+        ]
+      ]
+    }
+  ],
+  "26657": [
+    {
+      "fid": 26659,
+      "name": "SystemFlagManager::Set",
+      "address": "0x542270",
+      "prior": [
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x1"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "X_ASSIGN",
+          "0x1"
+        ],
+        [
+          "POP",
+          ""
+        ]
+      ]
+    },
+    {
+      "fid": 26660,
+      "name": "SystemFlagManager::Add",
+      "address": "0x5422fe",
+      "prior": [
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x1"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "PLUSA",
+          ""
+        ],
+        [
+          "POP",
+          ""
+        ]
+      ]
+    },
+    {
+      "fid": 26661,
+      "name": "SystemFlagManager::Erase",
+      "address": "0x5423be",
+      "prior": [
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_ASSIGN",
+          "0x1"
+        ],
+        [
+          "POP",
+          ""
+        ]
+      ]
+    },
+    {
+      "fid": 26662,
+      "name": "SystemFlagManager::Clear",
+      "address": "0x5423d2",
+      "prior": [
+        [
+          "CALLFUNC",
+          "0x6828"
+        ]
+      ]
+    },
+    {
+      "fid": 31838,
+      "name": "KR_SaveOptions",
+      "address": "0x948cc0",
+      "prior": []
+    }
+  ],
+  "26658": [
+    {
+      "fid": 26654,
+      "name": "■システムフラグ／取得",
+      "address": "0x541fd0",
+      "prior": [
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "fid": 31836,
+      "name": "KR_Flag",
+      "address": "0x948c16",
+      "prior": [
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "LT",
+          ""
+        ],
+        [
+          "IFNZ",
+          "0x948c1e"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    }
+  ],
+  "27491": [],
+  "26659": [
+    {
+      "fid": 26652,
+      "name": "■システムフラグ／設定",
+      "address": "0x541f7e",
+      "prior": [
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x1"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    }
+  ],
+  "26660": [
+    {
+      "fid": 26653,
+      "name": "■システムフラグ／加算",
+      "address": "0x541fae",
+      "prior": [
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x1"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    }
+  ],
+  "26661": [],
+  "26662": [],
+  "26663": [
+    {
+      "fid": 26658,
+      "name": "SystemFlagManager::Get",
+      "address": "0x542160",
+      "prior": [
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "fid": 26659,
+      "name": "SystemFlagManager::Set",
+      "address": "0x5421ea",
+      "prior": [
+        [
+          "IFNZ",
+          "0x5421d6"
+        ],
+        [
+          "JUMP",
+          "0x5421dc"
+        ],
+        [
+          "CALLFUNC",
+          "0x6828"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "fid": 26660,
+      "name": "SystemFlagManager::Add",
+      "address": "0x5422ba",
+      "prior": [
+        [
+          "IFNZ",
+          "0x5422a6"
+        ],
+        [
+          "JUMP",
+          "0x5422ac"
+        ],
+        [
+          "CALLFUNC",
+          "0x6828"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "fid": 26661,
+      "name": "SystemFlagManager::Erase",
+      "address": "0x542348",
+      "prior": [
+        [
+          "IFNZ",
+          "0x542334"
+        ],
+        [
+          "JUMP",
+          "0x54233a"
+        ],
+        [
+          "CALLFUNC",
+          "0x6828"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    }
+  ],
+  "26664": [
+    {
+      "fid": 26659,
+      "name": "SystemFlagManager::Set",
+      "address": "0x5421d6",
+      "prior": [
+        [
+          "PUSHGLOBALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xe5"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "CALLHLL",
+          "Array Empty 1"
+        ],
+        [
+          "IFNZ",
+          "0x5421d6"
+        ],
+        [
+          "JUMP",
+          "0x5421dc"
+        ]
+      ]
+    },
+    {
+      "fid": 26660,
+      "name": "SystemFlagManager::Add",
+      "address": "0x5422a6",
+      "prior": [
+        [
+          "PUSHGLOBALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xe5"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "CALLHLL",
+          "Array Empty 1"
+        ],
+        [
+          "IFNZ",
+          "0x5422a6"
+        ],
+        [
+          "JUMP",
+          "0x5422ac"
+        ]
+      ]
+    },
+    {
+      "fid": 26661,
+      "name": "SystemFlagManager::Erase",
+      "address": "0x542334",
+      "prior": [
+        [
+          "PUSHGLOBALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xe5"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "CALLHLL",
+          "Array Empty 1"
+        ],
+        [
+          "IFNZ",
+          "0x542334"
+        ],
+        [
+          "JUMP",
+          "0x54233a"
+        ]
+      ]
+    },
+    {
+      "fid": 26662,
+      "name": "SystemFlagManager::Clear",
+      "address": "0x5423cc",
+      "prior": []
+    },
+    {
+      "fid": 26656,
+      "name": "SystemFlagManager::Load",
+      "address": "0x94a992",
+      "prior": [
+        [
+          "PUSHGLOBALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xe5"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "CALLHLL",
+          "Array Empty 1"
+        ],
+        [
+          "IFNZ",
+          "0x94a992"
+        ],
+        [
+          "JUMP",
+          "0x94a998"
+        ]
+      ]
+    }
+  ],
+  "27501": [
+    {
+      "fid": 27166,
+      "name": "L_Trap::Execute05",
+      "address": "0x56a1e0",
+      "prior": [
+        [
+          "JUMP",
+          "0x56a23c"
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xd"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "PUSH",
+          "0x1"
+        ],
+        [
+          "SUB",
+          ""
+        ]
+      ]
+    },
+    {
+      "fid": 27521,
+      "name": "L_Rest::RunDungeon",
+      "address": "0x581572",
+      "prior": [
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_ASSIGN",
+          "0x1"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x14"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "fid": 27522,
+      "name": "L_Rest::RunGround",
+      "address": "0x5822cc",
+      "prior": [
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "X_ASSIGN",
+          "0x1"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xe"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "fid": 28542,
+      "name": "C_SceneHomebase@Run",
+      "address": "0x602254",
+      "prior": [
+        [
+          "ITOF",
+          ""
+        ],
+        [
+          "X_MOV",
+          "0x2 0x1"
+        ],
+        [
+          "F_MUL",
+          ""
+        ],
+        [
+          "FTOI",
+          ""
+        ],
+        [
+          "CALLFUNC",
+          "0x6b7f"
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ]
+      ]
+    },
+    {
+      "fid": 28650,
+      "name": "C_SceneDungeon@AdvanceRemainTime",
+      "address": "0x613b22",
+      "prior": [
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "MINUSA",
+          ""
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x1"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "fid": 31726,
+      "name": "C_TestDungeon@<lambda : C_TestDungeon@Run()(28, 20)>",
+      "address": "0x6a2fc0",
+      "prior": [
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "CALLFUNC",
+          "0x6b6e"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ]
+      ]
+    },
+    {
+      "fid": 31726,
+      "name": "C_TestDungeon@<lambda : C_TestDungeon@Run()(28, 20)>",
+      "address": "0x6a304a",
+      "prior": [
+        [
+          "JUMP",
+          "0x6a306e"
+        ],
+        [
+          "CALLFUNC",
+          "0x74dd"
+        ],
+        [
+          "PUSH",
+          "0x3e8"
+        ],
+        [
+          "CALLFUNC",
+          "0x6b6e"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x3e8"
+        ]
+      ]
+    },
+    {
+      "fid": 30089,
+      "name": "呼出／エンディング実行",
+      "address": "0x6b6c32",
+      "prior": [
+        [
+          "CALLFUNC",
+          "0x6b64"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "CALLFUNC",
+          "0x6b62"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xffffffff"
+        ]
+      ]
+    },
+    {
+      "fid": 30089,
+      "name": "呼出／エンディング実行",
+      "address": "0x6b6c78",
+      "prior": [
+        [
+          "CALLFUNC",
+          "0x6b70"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x3e7"
+        ],
+        [
+          "CALLFUNC",
+          "0x6578"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xffffffff"
+        ]
+      ]
+    },
+    {
+      "fid": 30093,
+      "name": "呼出／日曜実行",
+      "address": "0x6b7e74",
+      "prior": [
+        [
+          "SUB",
+          ""
+        ],
+        [
+          "X_ASSIGN",
+          "0x1"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xa"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    }
+  ],
+  "27502": [
+    {
+      "fid": 27152,
+      "name": "L_DungeonManager::RunEventDungeon",
+      "address": "0x565d6a",
+      "prior": [
+        [
+          "PUSH",
+          "0x1"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ],
+        [
+          "CALLFUNC",
+          "0x6a13"
+        ],
+        [
+          "RETURN",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ]
+      ]
+    },
+    {
+      "fid": 31726,
+      "name": "C_TestDungeon@<lambda : C_TestDungeon@Run()(28, 20)>",
+      "address": "0x6a2fb2",
+      "prior": [
+        [
+          "PUSH",
+          "0x0"
+        ]
+      ]
+    },
+    {
+      "fid": 31726,
+      "name": "C_TestDungeon@<lambda : C_TestDungeon@Run()(28, 20)>",
+      "address": "0x6a303c",
+      "prior": [
+        [
+          "PUSH",
+          "0x3e8"
+        ],
+        [
+          "GTE",
+          ""
+        ],
+        [
+          "IFNZ",
+          "0x6a3030"
+        ],
+        [
+          "JUMP",
+          "0x6a306e"
+        ],
+        [
+          "CALLFUNC",
+          "0x74dd"
+        ],
+        [
+          "PUSH",
+          "0x3e8"
+        ]
+      ]
+    },
+    {
+      "fid": 30089,
+      "name": "呼出／エンディング実行",
+      "address": "0x6b6c40",
+      "prior": [
+        [
+          "CALLFUNC",
+          "0x6b62"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xffffffff"
+        ],
+        [
+          "CALLFUNC",
+          "0x6b6d"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x0"
+        ]
+      ]
+    }
+  ],
+  "27151": [
+    {
+      "fid": 31726,
+      "name": "C_TestDungeon@<lambda : C_TestDungeon@Run()(28, 20)>",
+      "address": "0x6a3060",
+      "prior": [
+        [
+          "PUSH",
+          "0x3e8"
+        ],
+        [
+          "CALLFUNC",
+          "0x6b6d"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x1"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "fid": 30093,
+      "name": "呼出／日曜実行",
+      "address": "0x6b7cfa",
+      "prior": [
+        [
+          "PUSH",
+          "0x3e8"
+        ],
+        [
+          "X_ASSIGN",
+          "0x1"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "PUSHLOCALPAGE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0x5"
+        ],
+        [
+          "X_REF",
+          "0x1"
+        ]
+      ]
+    }
+  ],
+  "26259": [
+    {
+      "fid": 29393,
+      "name": "C_SceneBattle@EndEnd",
+      "address": "0x66a8bc",
+      "prior": [
+        [
+          "X_REF",
+          "0x1"
+        ],
+        [
+          "DELETE",
+          ""
+        ],
+        [
+          "PUSH",
+          "0xffffffff"
+        ],
+        [
+          "X_ASSIGN",
+          "0x1"
+        ],
+        [
+          "POP",
+          ""
+        ],
+        [
+          "JUMP",
+          "0x66a8de"
+        ]
+      ]
+    },
+    {
+      "fid": 26258,
+      "name": "L_BattleIncome::Settle",
+      "address": "0x953698",
+      "prior": [
+        [
+          "CALLFUNC",
+          "0x7316"
+        ],
+        [
+          "IFNZ",
+          "0x953682"
+        ],
+        [
+          "JUMP",
+          "0x953698"
+        ],
+        [
+          "S_PUSH",
+          "0xc47"
+        ],
+        [
+          "CALLHLL",
+          "system Output 0"
+        ],
+        [
+          "DELETE",
+          ""
+        ]
+      ]
+    }
+  ],
+  "28637": []
+}

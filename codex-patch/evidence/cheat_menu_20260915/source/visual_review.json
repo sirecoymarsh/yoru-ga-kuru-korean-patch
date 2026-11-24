@@ -1,0 +1,12 @@
+{
+  "status": "STATIC_FONT_GEOMETRY_VISUAL_PASS",
+  "files": {
+    "NightRemaster.ain": "e103f27fed0474d830842a017718d0b3aa60955b3880013332654aa0e07eff68",
+    "NightRemasterPact.afa": "f59299bccb9cc69c06262b5276033ca8e49ac1aa241892b6a3999e87c7369ee9"
+  },
+  "proof": "font_layout_proof.png",
+  "proof_sha256": "41cdbecdc35111b8f08e0bdf357032b5d4b8fa6d53ebaf98d8bfc7139acb4c97",
+  "reviewer": "Codex internal primary",
+  "observed": "Actual shipped FNL text rendered at candidate coordinates. All Korean glyphs present; text separated from native checkbox/slider bounds; no intersecting labels; bottom-button row clear. Technical drawing, not game screenshot.",
+  "native_verified": false
+}

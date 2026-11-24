@@ -1,0 +1,85 @@
+{
+ "schema": "yoru-calendar-r19.chart-dom-diff.v1",
+ "old": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\chart\\yoru_flowchart_v2_r18.html",
+ "new": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\chart\\yoru_flowchart_v2.html",
+ "data": {
+  "other_differences": [],
+  "when_changed": 23,
+  "when_changed_events": [
+   "E10001",
+   "E10021",
+   "E10041",
+   "E10061",
+   "E10501",
+   "E20021",
+   "E20041",
+   "E20501",
+   "E30001",
+   "E30021",
+   "E30157",
+   "E30158",
+   "E30159",
+   "E30160",
+   "E30161",
+   "E30162",
+   "E30163",
+   "E30164",
+   "E30501",
+   "E40001",
+   "E40021",
+   "E40041",
+   "E40501"
+  ],
+  "feeling_gated_events": 28,
+  "generated": [
+   "2026-09-26 21:41",
+   "2026-09-27 20:54"
+  ],
+  "shell_identical_except_template": false
+ },
+ "template_changed_lines": [
+  "+/* r19: 게임 안 달력의 이름(E번호 대신 쓰는 것) — data-nm 이 붙은 요소만 더했다 */",
+  "+function nameBlock(nm){ return nm ? '<div class=\"k\" data-nm=\"k\">게임 안 이름</div><div class=\"v\" data-nm=\"v\">' + esc(nm) + '</div>' : ''; }",
+  "+function stageName(x){ return x.nk ? '<span class=\"note\" data-nm=\"s\">' + esc(x.nk) + '</span> ' : ''; }",
+  "+  h += nameBlock(e.nm);",
+  "+  h += nameBlock(c.nm);",
+  "-      h += '<div class=\"mrow' + (counts ? '' : ' rep') + '\" style=\"--d:' + dep + '\"><span class=\"note\">' + via + '</span><button type=\"button\" data-pick=\"e:' + id + '\"><span class=\"rid\">' + pad(id) + '</span> <span class=\"w\">' + esc(x.when[0]) + '</span> ' + fixTag(x.fix[0]) + (counts ? '' : ' <span class=\"note\">공유</span>') + '</button></div>';",
+  "+      h += '<div class=\"mrow' + (counts ? '' : ' rep') + '\" style=\"--d:' + dep + '\"><span class=\"note\">' + via + '</span><button type=\"button\" data-pick=\"e:' + id + '\"><span class=\"rid\">' + pad(id) + '</span> ' + stageName(x) + '<span class=\"w\">' + esc(x.when[0]) + '</span> ' + fixTag(x.fix[0]) + (counts ? '' : ' <span class=\"note\">공유</span>') + '</button></div>';"
+ ],
+ "dom": {
+  "review:states": {
+   "compared": 108,
+   "identical": 108
+  },
+  "play:states": {
+   "compared": 108,
+   "identical": 108
+  },
+  "play:panels": {
+   "compared": 1319,
+   "identical": 1319
+  },
+  "play:initial": {
+   "compared": 1,
+   "identical": 1
+  },
+  "play:after_switch": {
+   "compared": 1,
+   "identical": 1
+  },
+  "template": {
+   "compared": 1,
+   "identical": 1
+  }
+ },
+ "counts": {
+  "name_elements_removed": 1621,
+  "when_strings_mapped_back": 623,
+  "generated_time_mapped_back": 2,
+  "review_states": 54,
+  "review_panels": 0,
+  "play_states": 54,
+  "play_panels": 1319
+ },
+ "dom_identical_except_name_field_and_rule11": true
+}

@@ -1,0 +1,16 @@
+{
+  "time": "2026-09-16T20:41:17.860816+09:00",
+  "evidence_type": "user_report",
+  "tested_build_ain_sha256": "5429a0f4c2e50342e852e0c2e0279d8a5c6471571110b899ba7984e49eddb822",
+  "user_statement": "아 난 혹시 버그난거 아닌가 진행해본거야 그건 아닌 모양이네 소탕 기능 써도 메인 스토리 진입에 문제 없음을 확인했다",
+  "verified_scope": [
+    "Used sweep and subsequently entered main story successfully"
+  ],
+  "not_established": [
+    "Exact payout multiplier/cap differential",
+    "All story routes",
+    "New confirmation UI native rendering",
+    "Save/reload regression"
+  ],
+  "no_agent_native_screen_claim": true
+}

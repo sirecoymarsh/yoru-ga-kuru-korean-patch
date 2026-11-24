@@ -1,0 +1,48 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\other\\design\\summaries.json",
+   "term_folder": "other",
+   "file_sha_now": "4fdb67856a0666b0d65e4437505863ca69ac00a6aabcaeeea3fdd279703453a2",
+   "file_sha_at_audit": "4fdb67856a0666b0d65e4437505863ca69ac00a6aabcaeeea3fdd279703453a2"
+  }
+ ],
+ "events": [
+  {
+   "no": 202,
+   "folder": "other",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "강한 적이 나타났다며",
+     "after": "강한 히카리가 나타났다며",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "76fb8586fc3d1221210237ad785a51f117cb1a7203a06c6d095a52c5a968c268",
+   "sha256_after": "030eae7882fb8b74a6cedbd6bb1cb76d0815f51cbdaf4d00ee5c3bf1db93b711",
+   "summary_after": "강한 히카리가 나타났다며 이즈미가 다음 주 한 주 동안 둘씩 짝지어 특훈하고 주말에 틈새에서 성과를 겨루자고 제안한다. 주인공과 마나미가 찬성해 다음 주부터 시작하기로 한다.",
+   "gate_problems": []
+  }
+ ],
+ "applied": 1,
+ "skipped_proposals": 0,
+ "skipped_summaries": 0,
+ "below_threshold": 0,
+ "changed_ids": [
+  202
+ ],
+ "gate_skipped": [],
+ "tag": "OT",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:26:28.713833+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

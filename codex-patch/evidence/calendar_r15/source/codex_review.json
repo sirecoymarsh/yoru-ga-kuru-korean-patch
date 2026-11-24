@@ -1,0 +1,71 @@
+{
+ "status": "APPROVED_FOR_LIVE_INSTALL",
+ "reviewer": "Codex internal",
+ "time": "2026-09-27T02:32:00.123205+09:00",
+ "candidate_sha256": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963",
+ "implementation_author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "source_changes": 0,
+ "vm": {
+  "S1_metadata": 1,
+  "S2_code_sites": 9,
+  "S3_text": 1,
+  "S4_saves": 51,
+  "S4_frames": 1255,
+  "S4_frames_in_live_versions": 1221,
+  "S5_active_functions": 30592,
+  "V1_cards": 155,
+  "V1_stages": 404,
+  "V1_drawers": 96,
+  "V1_scenes": 760,
+  "V1_events": 1164,
+  "V10_seen_states": 1,
+  "V2_max_width_px": 1078,
+  "V2_dialogs": 2388,
+  "V2_max_height": 660,
+  "V2_max_title_lines": 8,
+  "V2_states": 3,
+  "V2_event_pages": 1164,
+  "V3_cells": 2928,
+  "V3_month_menus": 96,
+  "V4_navigation": 1,
+  "V5_play_from_window": 1,
+  "V6_play_from_settings": 1,
+  "V7_no_context": 1,
+  "V8_failsafe": 1,
+  "V9_original_dispatch": 1
+ },
+ "planted_defects_caught": 13,
+ "native_settings_replay": {
+  "result": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\reviews\\calendar_r15_20260927_codex\\native_config\\config_complete\\result.json",
+  "sha256": "7b0f03a5a95d55d9e25ef53c8fdceb03020d51d46a8baf52089d7f23ec05cb07",
+  "passed": true,
+  "audio": "muted",
+  "private_save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\reviews\\calendar_r15_20260927_codex\\native_config\\run\\SaveData_R15CalendarProbe_20260927_021806"
+ },
+ "native_home_panel_replay": {
+  "result": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe_result.json",
+  "sha256": "648c9f364d81c7beffb873172dcd4174de2c44feba7c95e47c7cddbcc67cfca3",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)",
+  "screens_reviewed": true
+ },
+ "findings": [
+  {
+   "id": "CAL-REVIEW-001",
+   "severity": "minor",
+   "detail": "Publisher references source/manifest.json but did not copy candidate manifest there; install adapter supplies the exact candidate manifest."
+  }
+ ],
+ "limitations": [
+  "No exhaustive native replay of all 1164 events; native replay representative E30160 only. Choice chains and battle preserve the game implementation and have static review, not native completion evidence.",
+  "Native scripted callbacks exercised; physical mouse hit testing is not claimed.",
+  "Replay writes read/seen state and can raise affinity in the current playthrough. Replay-created saves require the pinned new function frames."
+ ],
+ "harness_notes": [
+  "An initial isolated check opened index 8 (debug page); actual Mods index 9 verified in original builder. This was a test driver issue, not a candidate change.",
+  "Confirmed the reservation notice through the original C_MessageDialog input polling call (KR_ExploreLevelEnter); removed unnecessary legacy callback redirects before the final successful run."
+ ],
+ "visual_review": [
+  "Fable cal_month/cal_lane/cal_card: Korean glyphs and layout fit 1280x720; independent settings route screenshots reviewed."
+ ],
+ "restore_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\publish_calendar_r15.py\" --restore"
+}

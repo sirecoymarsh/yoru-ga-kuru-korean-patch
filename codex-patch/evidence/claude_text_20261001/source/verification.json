@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED",
+  "files": {
+    "NightRemaster.ain": "3afdd2b1e11a107defa4b91465f97241e7ddc70fb681f0561e8b67fd897aa8f9"
+  },
+  "changed": 1352,
+  "exact_rows": 1138,
+  "reflow_pages": 101,
+  "term_rows": 1791,
+  "scenarios": 3,
+  "vm_ok": 5373,
+  "vm_mismatch": 0,
+  "inactive_checked": 300,
+  "fallback_checked": 200,
+  "vm_steps": 6299868
+}

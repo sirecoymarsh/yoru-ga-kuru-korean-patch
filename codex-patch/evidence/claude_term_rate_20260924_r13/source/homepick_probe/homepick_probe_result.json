@@ -1,0 +1,131 @@
+{
+  "pid": 57408,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "cb7ca7a08b95774b173b06b4c1e6254db59aed2dbffb03dd227ecdd20a87bc72",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "resume loading NightR38.asd",
+    "TOP body=1000010587 visible=1 clickable=1 input=1 handlers=1 menu=1 pick=",
+    "SHOT pick_top.bmp",
+    "after CG-row click menu=1 pick=",
+    "after 쿄카-row click menu= pick=3",
+    "PAGE title=쿄카 · 아직 못 본 이벤트 ‡117개〓 / 전체 129개 menu= pick= clickable=0",
+    "SHOT pick_page.bmp",
+    "BACK TO TOP menu=1 pick= clickable=1 handlers=1",
+    "SHOT pick_top2.bmp",
+    "END"
+  ],
+  "save": "NightR38.asd",
+  "save_folder": "SaveData_KR_ClaudePickProbe_20260924_213659",
+  "waits": [
+    [
+      "menu::detail::CMenuView@_Loop",
+      "exit"
+    ],
+    [
+      "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>",
+      "exit"
+    ],
+    [
+      "sealtool::detail::CModelSelectDialog@<lambda : sealtool::detail::CModelSelectDialog@ShowDialog()(98, 32)>",
+      "exit"
+    ],
+    [
+      "L_StatusFace::Select",
+      "exit"
+    ],
+    [
+      "C_Dialog@Run",
+      "exit"
+    ],
+    [
+      "C_SelectDialog@Run",
+      "live"
+    ],
+    [
+      "C_SelectMessage@Run",
+      "exit"
+    ],
+    [
+      "C_Status::RunStatus",
+      "exit"
+    ],
+    [
+      "C_SceneTitle@Run",
+      "exit"
+    ],
+    [
+      "C_SceneHomebase@RunMapSelect",
+      "exit"
+    ],
+    [
+      "C_SceneDungeon@Run",
+      "exit"
+    ],
+    [
+      "C_BattleSelectEnemy@Run",
+      "exit"
+    ],
+    [
+      "C_BattleSelectView@Run",
+      "exit"
+    ],
+    [
+      "C_SceneSaveLoad@RunCommon",
+      "exit"
+    ],
+    [
+      "C_SceneStartData@RunCommon",
+      "exit"
+    ],
+    [
+      "C_SceneModeCG@Run",
+      "exit"
+    ],
+    [
+      "C_SceneModeScene@RunTop",
+      "exit"
+    ],
+    [
+      "C_SceneModeScene@RunSelect",
+      "exit"
+    ],
+    [
+      "C_SceneModeSound@Run",
+      "exit"
+    ],
+    [
+      "C_DebugCasualView@<lambda : C_DebugCasualView@Run()(66, 45)>",
+      "exit"
+    ],
+    [
+      "C_DebugParamView@<lambda : C_DebugParamView@Run()(74, 45)>",
+      "exit"
+    ],
+    [
+      "C_SceneTraining@<lambda : C_SceneTraining@RunSelect()(114, 40)>",
+      "exit"
+    ],
+    [
+      "C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>",
+      "exit"
+    ],
+    [
+      "C_SceneHomebase@<lambda : C_SceneHomebase@RunMember()(233, 52)>",
+      "exit"
+    ],
+    [
+      "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+      "exit"
+    ],
+    [
+      "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCombineStone()(402, 52)>",
+      "exit"
+    ],
+    [
+      "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunMemory(bool)(487, 52)>",
+      "exit"
+    ]
+  ]
+}

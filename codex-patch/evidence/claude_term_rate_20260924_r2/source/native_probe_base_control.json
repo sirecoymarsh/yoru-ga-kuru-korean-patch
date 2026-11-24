@@ -1,0 +1,36 @@
+{
+  "pid": 12128,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "f88f9e0a1389d40a4618ce680f550d04243a3e94f40a090ee0c5001d63d0f8e1",
+  "events": [
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    },
+    {
+      "exception": "0xe06d7363",
+      "address": "0x75aeaed4"
+    }
+  ],
+  "exit_code": 0,
+  "log": [
+    "BASE_CONTROL_START",
+    "BASE_CONTROL_LOADED 빛잡이,불지기,쉭쉭이,하자마,얼어붙은 밤,참된 달,참된 밤"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+ "status": "GALLERY_UNLOCK_PREFLIGHT_PASS",
+ "key": "calendar_gallery_unlock_20260930",
+ "time": "2026-09-30T02:03:29+09:00",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "files": {
+  "NightRemaster.ain": "fae56fb70c8d9c0c8a6bc23c22ef4b76f6e569a7adbd304e4f2d3b639e8353d8",
+  "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+ },
+ "live_sha256": "abae5787031cbf8330a429a4b5d9683241268d87f077d88de24974465ff5c109",
+ "live_manifest_sha256": "974b35edba6c1581cd67e46238ba19e6f9e189d8ca32f6597640c2430d9f73a7",
+ "vm": {
+  "status": "GALLERY_UNLOCK_VM_PASS",
+  "seconds": 244.7,
+  "planted_defects": {
+   "D1 calendar gate removed (KR_G25All ignores KR_CActive)": true,
+   "D2 cache not refreshed by KR_MSetUnlock": true,
+   "D3 CG judgment not rerouted (UpdateEnableCG keeps the game check)": true,
+   "D4 flag 0 but open (cache initialised without reading the file)": true,
+   "D5 KR_CGlobal on the flagged judgment (the brief placement)": true,
+   "D6 DbgEnableAll gate kept (edit B missing)": true
+  },
+  "static": {
+   "old_code_bytes_changed": 19,
+   "str0_added": [
+    "YoruKR.G25.All",
+    "〓모드 메뉴\n†전체 개방: 안 본 이벤트·회상·CG도 열람·재생됩니다"
+   ],
+   "metadata_changed": [
+    "KR_MSetUnlock"
+   ],
+   "appended": [
+    "KR_G25SceneBase",
+    "KR_G25SetUnlockBase",
+    "KR_G25All",
+    "KR_G25Exist",
+    "KR_G25SetUnlock",
+    "KR_G25NoteText"
+   ],
+   "saved_frames": 1256
+  }
+ },
+ "native": {
+  "status": "GALLERY_UNLOCK_NATIVE_PASS",
+  "checks": {
+   "runs completed (exit 0, END, no engine error / unexpected wait)": true,
+   "A (flag 0): recollection table = installed": true,
+   "A (flag 0): CG table = installed": true,
+   "B (flag 1): every recollection slot open": true,
+   "B (flag 1): every CG cell open, every CG enabled": true,
+   "B installed: unchanged by the flag (= its A)": true,
+   "flag / cache follow the menu requests": true,
+   "KR_G25All is 0 while the calendar is open, 1 again after": true,
+   "calendar read marks (915 cells) identical in A, B (title) and B (inside the chart)": true,
+   "calendar read marks = installed (A, B, inside the chart)": true,
+   "in-game calendar labels of recollection-linked scenes: B = A and = installed": true,
+   "board lines identical (unread summary hidden, read shown)": true,
+   "B: an originally locked recollection scene was judged open and replayed (messages clicked through)": true,
+   "installed B: the same scene stays locked (ExecScene refuses, nothing played)": true,
+   "C (flag 0 again): locked again (= A except slots the replay itself registered)": true,
+   "C (flag 0 again): CG table = A except the CGs the replayed scene itself showed": true,
+   "the unlock notice shows the new text": true,
+   "installed notice keeps the old text (reference)": true,
+   "the revert notice is unchanged": true,
+   "pixels identical: all of A (flag 0), the calendar recollection tab and boards under 전체 개방, the title": true,
+   "pixels differ where the flag opens the galleries (B recollection page, B CG pages, the notice)": true
+  },
+  "seconds": 277.9,
+  "user_files_changed": [],
+  "screenshots": 31
+ },
+ "scan": {
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "engine": "1.1.26080.3",
+  "signatures": "1.459.455.0"
+ },
+ "transaction_fixture_pass": true,
+ "dll_unchanged": true,
+ "serialized_schema_changes": 0,
+ "limitations": [
+  "The galleries follow the menu-bar flag only in the same session order the probe used (title -> gallery); the flag is cached per session and refreshed by every KR_MSetUnlock call. A flag file edited by hand while the game runs is seen after a restart (the hook only touches global records at startup).",
+  "A recollection scene played through 전체 개방 registers what the game itself registers on a replay (read marks of its messages, the gallery CGs it shows: the probe replay of E50301 added CG1022 and one calendar read mark); those stay after 전체 개방 되돌리기, like the chart replays since r22. The recollection slot itself (needEvNo) locks again.",
+  "The probe ran on the r24 COPIES of the user's global records (09-28), not the current ones; screen checks by the user remain.",
+  "Music mode needed no change (both of its checks are constant true in this build)."
+ ]
+}

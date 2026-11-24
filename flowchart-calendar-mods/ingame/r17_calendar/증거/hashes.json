@@ -1,0 +1,105 @@
+{
+ "checked": "2026-09-27T07:15:33.177516+09:00",
+ "base_at_start": {
+  "ain": "cbed62c2aa3bd33c8471a098cc1f6a3e7f83c60c32d02b2cbf2b0dd63bc24a9f",
+  "pact": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "manifest": "1f6caca554e07dc36838e6e2c36c4e88b7be96320dfe654d50811f721b1e6561",
+  "status": "STORY_EXPLORE_INSTALLED_NATIVE_PASS"
+ },
+ "runtime_at_end": {
+  "NightRemaster.ain": "cbed62c2aa3bd33c8471a098cc1f6a3e7f83c60c32d02b2cbf2b0dd63bc24a9f",
+  "NightRemasterPact.afa": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "NightRemasterEX.ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "manifest": "1f6caca554e07dc36838e6e2c36c4e88b7be96320dfe654d50811f721b1e6561",
+  "status": "STORY_EXPLORE_INSTALLED_NATIVE_PASS",
+  "current_json_sha256": "b0f57fe52850467990796dc326c9f8b17bc5487646c7c9df6d0b67168dfbba81"
+ },
+ "runtime_unchanged": true,
+ "contracts_at_end": 71,
+ "contracts_same_as_draft": true,
+ "r15_candidate": {
+  "ain": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963",
+  "same_as_file": true
+ },
+ "r16_candidate_replaced": {
+  "ain": "4056429f9e9999c8bec64ed244cf0393285529e74c6693b2768176cf8439b2fc",
+  "same_as_file": true,
+  "installed": false
+ },
+ "candidate": {
+  "ain": "4f31ae639338a7d686636d58b0a55d93b6913df39bdbf37260e4d4b1e5d11953",
+  "ain_size": 3690497,
+  "manifest": "010d35f5f6635818eab7108f86fda1de6ddaaedd504f3cf4e192e18432f662c1"
+ },
+ "contract_draft": "a64f2e54057b181e18f81166e56ff072cc324be351066c3e0189ef25228ee8c3",
+ "design_file_sha256": "3dae44c979252ecc60ca21e4b7ac37b52fdeef3be48982b9e981f37eca0557df",
+ "scripts": {
+  "build_calendar_r17.py": "9c525e915e1350445f399d0b4e1106c09ba4b6b3724e5f6feb72c34d16a225b5",
+  "claude_calendar_r17.jaf": "284030915d1e767e5c1050f9057bd25c2c04133dedee1609ca93f09a44203de0",
+  "probe_calendar_r17.py": "4d53b9ecf19ceabd07811c6a9d5048609ce6825fd57a75818e1ee5ab97247627",
+  "publish_calendar_r17.py": "f0742645e0709029f5d538d28978ea44a39e915f32c93bfa342b68afb68684f6",
+  "r17lib.py": "1dab625a29c7825446da8a821db3c3431dd5458782e74e0644c930faf15439f5",
+  "required_calendar_r17.json": "a64f2e54057b181e18f81166e56ff072cc324be351066c3e0189ef25228ee8c3",
+  "scan_calendar_r17.ps1": "b543ffd52ac17c6cba1592d840fe25799df5d58bc90c2849ac8aac36eac5f9ca",
+  "verify_calendar_r17.py": "63fbb57aeee846c676d8704887f1c70c04f18a2ab0b2f85380041ffafc561a82",
+  "인계_r17.md": "d28b2874c8f382cc70fb0dd053a76dfaa09e7f01195bd6deea3cc91ced97863c"
+ },
+ "work_scripts": {
+  "finalize_evidence_r17.py": "970cf1eb9f61cb86d7261662e03bff81f96b11ed12d5330c1c1d80a780617c59",
+  "page_stats_r17.py": "77026e8f1d707515b31981c289367c44fec0fd953612e9b378e4ef2c97fe4930",
+  "savecopy_r17.py": "2127817a1a3c7fcadc0d87484be34c63bd6f5b4d3a1fbc1d17e667fdd177468d",
+  "snapshot_base_r17.py": "1f0fa4adf5d7ebc9ba8d9b178c61735be64eb2c8bd18bfe2b570204bd5cb4a1d",
+  "study_data_r17.py": "705a40f83c14efe052a41285cb2afad7f3ae189c5cf12ea6b740f5b3ba94a78f",
+  "study_r17.py": "484528e5b539b4454a9950554fedfd9a0d0ff81e535803bf84b476a207030a1a",
+  "zoom_r17.py": "0749d6a1528ee333e19bf72faaa7634e4297edf1343fbdf268caf865482333e4"
+ },
+ "screenshots": {
+  "cal_card.png": "ac3896c561c2bf203d953cc9349e7f74983aa966a5345d39d1f22afe47a8fa4b",
+  "cal_charwin.png": "00faf6d070271eebe63026a1876e0ce24588778302f7e66a5bd71d4b14adbec8",
+  "cal_home_after.png": "64822af17a183cb16decd83b90d43eb56f1ff3deb347e25eb0bd8b80515601de",
+  "cal_home_before.png": "64822af17a183cb16decd83b90d43eb56f1ff3deb347e25eb0bd8b80515601de",
+  "cal_lane.png": "959c8d645c78886f499304bbf8bfd9866e8e86283070fb56378d09305e9301dc",
+  "cal_lane_apr_dungeon.png": "6b3d1b9bfde5f7e1f5dc243ef40a4c15590cacc240b3b5a15d111692da4b41be",
+  "cal_lane_oct_manami_p1.png": "8282c944faa76fb231d2b1a295149b8bdc13d130e50b99383e03157d6eeece65",
+  "cal_lane_oct_manami_p2.png": "4e4741816faf3a488f79ee0fa3b1ca636376cc055d4cb8469504c7a0504f894e",
+  "cal_memory.png": "0ac8811b0c3d019cbc098c4edae3c65bcd20a6460d20b4f612d0cc58e5c50680",
+  "cal_month.png": "7a4e0e8be517e07ccc46c1ee3c1b9549659b5cdc799acc07ed8f6d0e792ae151",
+  "cal_month_back.png": "7a4e0e8be517e07ccc46c1ee3c1b9549659b5cdc799acc07ed8f6d0e792ae151",
+  "cal_month_sep_3col.png": "d402f54b7de419437d03576befd32d07ff4ae7daf92fa22943b186dac61e43c7",
+  "cal_spoiler_replay_msg_1.png": "25edc914caa2f473a229e8d3c40589dc02a14dad3962dbdba1d45341a97186ff",
+  "cal_spoiler_replay_msg_2.png": "b5dbff64c67c477e3d8bcf2805df0a3f20258c48a7680f389f96bc29354332e1",
+  "cal_summary.png": "f08cc31a23d664401dd8f37a3ca081eb99dd46be470ae52de1944e31f136648e"
+ },
+ "zooms": {
+  "zoom_apr_dungeon_lane.png": "a3b1c16c6b41d2591dd7dfeb4a2392cf5b2ca51a9b19731c9dbf110e095b5a58",
+  "zoom_lane_drawer_rows.png": "355a4f13e6547d5f97ff01d6e6015b086cfddd5f1327c8627b74d8a81037eced",
+  "zoom_memory_title_rows.png": "196b9d0797829b0647a232dd79969e1687c92faa06378ab5cd85ba61a7233b6a",
+  "zoom_month_cells.png": "a9e1137ab4794d4f1023b22656852bc00399bf100baa7e64cc589f9c19ae26fa",
+  "zoom_month_head_legend.png": "518ccde27e8835cbc684e371bf6059bc2f9debb5a6fd4996a535f3f89ef37569",
+  "zoom_month_items.png": "2adff39ae87ef2dc27f0752bd1f592582dced73ec83994e91615c0a54bfe0b5c",
+  "zoom_summary_out_line.png": "6f56836779735d19f4f5c0df12406c2b7eaab03d4e0b83dfe843e6266d6505b0",
+  "zoom_summary_with_panel.png": "84675d9256809410d84d08fd0b966c703f11bf48f969a82c25e3f3491bc4a600"
+ },
+ "evidence_files": [
+  "baked_tables_r17.json",
+  "base_snapshot.json",
+  "candidate_manifest.json",
+  "contract_draft_required_calendar_r17.json",
+  "native_compare.json",
+  "native_opcode_audit.json",
+  "page_stats.json",
+  "probe",
+  "probe_regs.json",
+  "probe_result.json",
+  "probe_zoom",
+  "r17_요구_원문.md",
+  "readiness.json",
+  "savecopy_manifest.json",
+  "scan_report.json",
+  "study_data_r17.json",
+  "transaction_verification.json",
+  "vm_verification.json",
+  "vm_verification_selftest.json"
+ ]
+}

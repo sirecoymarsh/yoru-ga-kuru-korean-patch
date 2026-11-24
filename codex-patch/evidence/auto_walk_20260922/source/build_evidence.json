@@ -1,0 +1,126 @@
+{
+  "status": "AUTO_WALK_STAGED_UNVERIFIED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "e63848478fdd53534e423e321f1022dacb60249e43795f5fa103c64b35224dea",
+    "status": "AUTO_ITEMS_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "9fc891f423e216e906c01cf7b5e2deed9b0ad13a06bf73f369d311349a280ee4",
+    "NightRemasterPact.afa": "ea48b22afce1d25372260755a6ea0b2978367da00222c6c6db0d73c468eb49f9"
+  },
+  "files": {
+    "NightRemaster.ain": "91b827804c22b1a2390312391d0ad4f7178ae8228250354f27f8fbc5de1b3169",
+    "NightRemasterPact.afa": "92ffc2f9b8f07f32b16cc78af265e395b92772af8a940bec8b7d00097fdabc3c"
+  },
+  "patched_existing": [
+    28637,
+    28641,
+    28642,
+    28659,
+    28664,
+    28665,
+    28731,
+    28739,
+    31639,
+    31640,
+    31641,
+    31642,
+    31643,
+    31644,
+    31645,
+    31646,
+    31647,
+    31648,
+    31649,
+    31650,
+    31651,
+    31856
+  ],
+  "added_functions": {
+    "KR_WalkPlanLinear": 32027,
+    "KR_WalkPlanPuzzle": 32028,
+    "KR_WalkOwn": 32029,
+    "KR_WalkVisible": 32030,
+    "KR_WalkShowStart": 32031,
+    "KR_WalkShowStop": 32032,
+    "KR_WalkLabels": 32033,
+    "KR_WalkReset": 32034,
+    "KR_WalkPause": 32035,
+    "KR_WalkStop": 32036,
+    "KR_WalkClick": 32037,
+    "KR_WalkX": 32038,
+    "KR_WalkY": 32039,
+    "KR_WalkValid": 32040,
+    "KR_WalkCount": 32041,
+    "KR_WalkRouteCount": 32042,
+    "KR_WalkObject": 32043,
+    "KR_WalkPoint": 32044,
+    "KR_WalkHead": 32045,
+    "KR_WalkPlan": 32046,
+    "KR_WalkCommit": 32047,
+    "KR_WalkPathValid": 32048,
+    "KR_WalkStart": 32049,
+    "KR_WalkToggle": 32050,
+    "KR_WalkGuard": 32051,
+    "KR_WalkCellGate": 32052
+  },
+  "PACT": {
+    "changed_entries": [
+      161
+    ],
+    "archive": {
+      "source_sha256": "ea48b22afce1d25372260755a6ea0b2978367da00222c6c6db0d73c468eb49f9",
+      "candidate_sha256": "92ffc2f9b8f07f32b16cc78af265e395b92772af8a940bec8b7d00097fdabc3c",
+      "original_entries_preserved": 188,
+      "replaced_ids": [
+        161
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\auto_walk_20260922\\NightRemasterPact.afa"
+    },
+    "reverse_original_payload_exact": true,
+    "button_rect": [
+      1142,
+      436,
+      116,
+      55
+    ],
+    "native_sweep_button_states_exact": true,
+    "unscaled_yellow_labels": true
+  },
+  "old_CODE_STR0_MSG1_exact": true,
+  "existing_metadata_exact_except_function_and_switch_addresses": true,
+  "relocated_native_switches": [
+    450,
+    451
+  ],
+  "translator_model": "Codex internal",
+  "native_verified": false,
+  "transient": {
+    "slot": 71,
+    "marker": 2026092203,
+    "saved_configuration": false,
+    "new_serialized_fields": false
+  },
+  "runtime": {
+    "native_movement": true,
+    "no_teleport": true,
+    "planning": "explicit button; one replan on actual blocked next step",
+    "no_per_frame_BFS": true,
+    "puzzle_segment_scope": [
+      401,
+      403,
+      405
+    ],
+    "stop_on_native_interactions": true,
+    "instant_enemy_trap_short_circuits_preserved": true,
+    "default_running": false
+  }
+}

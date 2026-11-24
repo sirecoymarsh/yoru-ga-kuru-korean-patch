@@ -1,0 +1,18 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\route_puzzle_20260916\\복구 검증 tumxbqnq",
+  "payload": {
+    "NightRemaster.ain": "75d721bc318296fa1e2f4d1e4a86bd220c5d1c7977d753473bf12962b4711b07"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "nth_replacement_rollback": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "no_incoming_residue": true,
+  "zip": "not applicable: live data-only installation; no archive emitted"
+}

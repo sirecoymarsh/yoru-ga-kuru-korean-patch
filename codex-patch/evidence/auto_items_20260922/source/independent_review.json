@@ -1,0 +1,24 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "9fc891f423e216e906c01cf7b5e2deed9b0ad13a06bf73f369d311349a280ee4",
+    "NightRemasterPact.afa": "ea48b22afce1d25372260755a6ea0b2978367da00222c6c6db0d73c468eb49f9",
+    "NightRemasterEX.ex": "83304ebe454b756c46778de9d3e746b2cce59adad2943b96fb0a48015416072a"
+  },
+  "reviewers": [
+    {
+      "agent": "/root/auto_battle_review",
+      "status": "PASS",
+      "scope": "Final AIN hash, actual disassembly of item reservation hooks and down refund, reverse-removal equality, unchanged old CODE, ABI reference ownership, switches511/512 cases, unused72..78 flag collision audit, explicit verifier boundaries",
+      "findings": "No actionable blocker"
+    },
+    {
+      "agent": "/root/smart_ui_review",
+      "status": "PASS",
+      "scope": "Final PACT/EX/AIN hashes, route and12callback types, exact reverse old-page proof, actual FNL worstcase90%/99 geometry, slider81/100 resolution and30px height, unscaled yellow button label",
+      "findings": "All identified range/spacing/percent-format issues fixed; no remaining static blocker"
+    }
+  ],
+  "native_gameplay_verified": false,
+  "limitations": "Whole battle loop, GUI event execution, native save HLL and gameplay remain untested. Helper JAM execution and reverse static hook proof are not native gameplay."
+}

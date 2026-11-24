@@ -1,0 +1,17 @@
+{
+  "pid": 27920,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "8560de52d9658db5c506ac1c9fd19e9dfe94741a1e6d344e6876391be5c809db",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "LOADED 히카리,불지기,쉭쉭이,하자마,토야,진월,진야,호무라 VALIDMAIN 1 MIGRATED 光狩 (호무라)",
+    "PASS load keeps main and backup bytes",
+    "PASS saved v3, previous v2 main kept as backup",
+    "RELOADED 히카리,불지기,쉭쉭이,하자마,토야,진월,진야,호무라 MIGRATED ",
+    "END"
+  ],
+  "probe_sha256": "8560de52d9658db5c506ac1c9fd19e9dfe94741a1e6d344e6876391be5c809db",
+  "source_sha256": "149bd576d95628f1182754f1bdaf329fa05fe72a58eedf18cabe90f1581c4acc",
+  "user_saves_unchanged": 344
+}

@@ -1,0 +1,110 @@
+{
+ "schema": "yoru-calendar-r15.verify.v1",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "candidate_sha256": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963",
+ "base_sha256": "963c7db0cccf13a670a237cacb60ec29bc364e873795eefa6f0fa38c321f7517",
+ "counts": {
+  "S1_metadata": 1,
+  "S2_code_sites": 9,
+  "S3_text": 1,
+  "S4_saves": 51,
+  "S4_frames": 1255,
+  "S4_frames_in_live_versions": 1221,
+  "S5_active_functions": 30592,
+  "V1_cards": 155,
+  "V1_stages": 404,
+  "V1_drawers": 96,
+  "V1_scenes": 760,
+  "V1_events": 1164,
+  "V10_seen_states": 1,
+  "V2_max_width_px": 1078,
+  "V2_dialogs": 2388,
+  "V2_max_height": 660,
+  "V2_max_title_lines": 8,
+  "V2_states": 3,
+  "V2_event_pages": 1164,
+  "V3_cells": 2928,
+  "V3_month_menus": 96,
+  "V4_navigation": 1,
+  "V5_play_from_window": 1,
+  "V6_play_from_settings": 1,
+  "V7_no_context": 1,
+  "V8_failsafe": 1,
+  "V9_original_dispatch": 1
+ },
+ "vm_steps": 19508797,
+ "widest_title": "‡●†안 봄　△다른 저장에서 읽음　¶○†이 저장에서 봄　〓1/2쪽",
+ "widest_title_len": 36,
+ "widest_item": "7/27 밤 ● 하루만 · 쿄카 친밀도 30 이상 (2단계)",
+ "widest_item_len": 33,
+ "seconds": 38.3,
+ "saves_checked": 51,
+ "frames_checked": 1255,
+ "planted_defects": [
+  {
+   "defect": "V2 width: legend 40 chars",
+   "caught": true,
+   "message": "('title line over 38', 40, '가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가')"
+  },
+  {
+   "defect": "V2 height: 12 rows a lane page",
+   "caught": true,
+   "message": "('dialog too tall', 756, 2, 13, '〓5월 · 본편\\u3000†카드 12 · 서랍 0 · 본 것 12')"
+  },
+  {
+   "defect": "V3 colour: unseen days white",
+   "caught": true,
+   "message": "(4, 27, (1, '●'), (2, '●'))"
+  },
+  {
+   "defect": "V4 navigation: next skips a month",
+   "caught": true,
+   "message": "['4월 이벤트 달력\\u3000●안 본 카드\\u3000○다 봄\\u3000금색=오늘', '5월 이벤트 달력\\u3000●안 본 카드\\u3000○다 봄\\u3000금색=오늘', '6월 이벤트 달력\\u3000●안 본 카드\\u3000○다 봄\\u3000금색=오늘', '7월 이벤트 달력\\u3000●안"
+  },
+  {
+   "defect": "V5 unwind flag not written",
+   "caught": true,
+   "message": "dialog without a scripted answer: 〓4월 · 쿄카　†카드 1 · 서랍 43 · 본 것 0"
+  },
+  {
+   "defect": "V6 settings context lost",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V7 play allowed without context",
+   "caught": true,
+   "message": "(13, '蝟 蛬酲 蛞贖', '', 0)"
+  },
+  {
+   "defect": "V8 fail-safe removed",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V10 seen: this save shown as other save",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V1 table: one card entry wrong",
+   "caught": true,
+   "message": "(10, 'G00015', {'lane': 0, 'day': 8, 'slot': 2, 'size': 1, 'entry': 16}, {'lane': 0, 'day': 8, 'slot': 2, 'size': 1, 'entry': 15})"
+  },
+  {
+   "defect": "S2 one swap site reverted",
+   "caught": true,
+   "message": "('swap site not applied', 'KR_T8CharMissingMenu', 'KR_T9CharMenuRun')"
+  },
+  {
+   "defect": "S4 a saved return instruction changed",
+   "caught": true,
+   "message": "('saved return bytes differ', 'NightR01.asd', 'gamesave::detail::セーブ実行(string, string, ', '0x22a0bc')"
+  },
+  {
+   "defect": "S3 one MSG1 byte changed",
+   "caught": true,
+   "message": "MSG1 changed"
+  }
+ ]
+}

@@ -1,0 +1,883 @@
+{
+ "note": "alice ain dump --function 으로 원본 AIN 에서 그대로 뽑은 사본. 파일 이름은 ASCII 로 바꿨고 원래 이름은 name 에 있다.",
+ "ain": "P:\\GAME\\Compacted Files\\[Ryuugames] RY-r119676\\夜が来る！-Square of the MOON- Remastered\\NightRemaster.ain",
+ "count": 125,
+ "missing": [],
+ "functions": [
+  {
+   "name": "LSys3xScript::RunEvent",
+   "file": "LSys3xScript__RunEvent.jam",
+   "func_no": 26381,
+   "lines": 207,
+   "sha256": "011b3c175cd96fba"
+  },
+  {
+   "name": "LSys3xScript::Prepare",
+   "file": "LSys3xScript__Prepare.jam",
+   "func_no": 26379,
+   "lines": 41,
+   "sha256": "a0e52a5666a95248"
+  },
+  {
+   "name": "LSys3xScript::PrepareSys",
+   "file": "LSys3xScript__PrepareSys.jam",
+   "func_no": 26380,
+   "lines": 13,
+   "sha256": "8846b7287ef233b4"
+  },
+  {
+   "name": "LSys3xScript::GetLabelName",
+   "file": "LSys3xScript__GetLabelName.jam",
+   "func_no": 26383,
+   "lines": 22,
+   "sha256": "4869388740b4ed33"
+  },
+  {
+   "name": "LSys3xScript::_AdjustOriginalName",
+   "file": "LSys3xScript___AdjustOriginalName.jam",
+   "func_no": 26382,
+   "lines": 31,
+   "sha256": "d21ce1c031ff4d15"
+  },
+  {
+   "name": "L_EventCall::Check",
+   "file": "L_EventCall__Check.jam",
+   "func_no": 26393,
+   "lines": 1363,
+   "sha256": "d1583d8358d758c0"
+  },
+  {
+   "name": "L_EventCall::Call",
+   "file": "L_EventCall__Call.jam",
+   "func_no": 26397,
+   "lines": 24,
+   "sha256": "d99577b6be02f9e6"
+  },
+  {
+   "name": "L_EventCall::CallOnce",
+   "file": "L_EventCall__CallOnce.jam",
+   "func_no": 26395,
+   "lines": 20,
+   "sha256": "6a5fbddb9c2b2fe8"
+  },
+  {
+   "name": "L_EventCall::CallAlways",
+   "file": "L_EventCall__CallAlways.jam",
+   "func_no": 26396,
+   "lines": 12,
+   "sha256": "c3cce05acea15a93"
+  },
+  {
+   "name": "L_EventCall::UnconditionalCall",
+   "file": "L_EventCall__UnconditionalCall.jam",
+   "func_no": 26398,
+   "lines": 41,
+   "sha256": "8549c17e0e4e5bca"
+  },
+  {
+   "name": "L_EventCall::ConditionalCall",
+   "file": "L_EventCall__ConditionalCall.jam",
+   "func_no": 26399,
+   "lines": 209,
+   "sha256": "29f5746a6857facf"
+  },
+  {
+   "name": "L_EventCall::CheckInvitationMessage",
+   "file": "L_EventCall__CheckInvitationMessage.jam",
+   "func_no": 26400,
+   "lines": 197,
+   "sha256": "fd2b3b2ab4cfb40b"
+  },
+  {
+   "name": "L_EventCall::D1101",
+   "file": "L_EventCall__D1101.jam",
+   "func_no": 26401,
+   "lines": 147,
+   "sha256": "38fcffd943271a2c"
+  },
+  {
+   "name": "L_EventCall::E00451",
+   "file": "L_EventCall__E00451.jam",
+   "func_no": 26404,
+   "lines": 74,
+   "sha256": "8089de2a40e41fa3"
+  },
+  {
+   "name": "L_EventCall::E00602",
+   "file": "L_EventCall__E00602.jam",
+   "func_no": 26408,
+   "lines": 194,
+   "sha256": "b29b329394deee34"
+  },
+  {
+   "name": "L_EventCall::E00658",
+   "file": "L_EventCall__E00658.jam",
+   "func_no": 26407,
+   "lines": 260,
+   "sha256": "989e784342631113"
+  },
+  {
+   "name": "L_EventCall::E05024",
+   "file": "L_EventCall__E05024.jam",
+   "func_no": 26405,
+   "lines": 92,
+   "sha256": "11e6cc9e345decbf"
+  },
+  {
+   "name": "L_EventCall::E10501",
+   "file": "L_EventCall__E10501.jam",
+   "func_no": 26406,
+   "lines": 187,
+   "sha256": "2a3c5c28c05a2eee"
+  },
+  {
+   "name": "L_EventCall::E20164",
+   "file": "L_EventCall__E20164.jam",
+   "func_no": 26402,
+   "lines": 103,
+   "sha256": "7a87740c54940224"
+  },
+  {
+   "name": "L_EventCall::E30152",
+   "file": "L_EventCall__E30152.jam",
+   "func_no": 26403,
+   "lines": 242,
+   "sha256": "e1c7ef433a4cb106"
+  },
+  {
+   "name": "L_EventCall::MAKOTO_ENDING",
+   "file": "L_EventCall__MAKOTO_ENDING.jam",
+   "func_no": 26409,
+   "lines": 54,
+   "sha256": "20082dfb99141890"
+  },
+  {
+   "name": "呼出／１日の始まり",
+   "file": "fn_152dc12419.jam",
+   "func_no": 30087,
+   "lines": 165,
+   "sha256": "e02c419775d00d14"
+  },
+  {
+   "name": "呼出／月曜実行",
+   "file": "fn_b4c0d8e43e.jam",
+   "func_no": 30095,
+   "lines": 57,
+   "sha256": "d2362a98dd60b8e5"
+  },
+  {
+   "name": "呼出／火〜金曜実行",
+   "file": "fn_b7d6ed5519.jam",
+   "func_no": 30096,
+   "lines": 52,
+   "sha256": "67da9f784919f5cb"
+  },
+  {
+   "name": "呼出／土曜実行",
+   "file": "fn_9ff8cfe967.jam",
+   "func_no": 30097,
+   "lines": 74,
+   "sha256": "3c651c3322549f29"
+  },
+  {
+   "name": "呼出／日曜実行",
+   "file": "fn_aa2a5c253d.jam",
+   "func_no": 30093,
+   "lines": 305,
+   "sha256": "adc5c3ff2265453a"
+  },
+  {
+   "name": "呼出／エンディング実行",
+   "file": "fn_d84fc123cd.jam",
+   "func_no": 30089,
+   "lines": 354,
+   "sha256": "c179cf4cd2be1108"
+  },
+  {
+   "name": "残時間終わり処理／日曜",
+   "file": "fn_abce97c650.jam",
+   "func_no": 30094,
+   "lines": 44,
+   "sha256": "edf3546666ac85da"
+  },
+  {
+   "name": "判定／エンディング実行",
+   "file": "fn_a4576e8e1d.jam",
+   "func_no": 30088,
+   "lines": 99,
+   "sha256": "e6544cf7ee8b7738"
+  },
+  {
+   "name": "呼出／オープニング",
+   "file": "fn_5c5f6e7319.jam",
+   "func_no": 30086,
+   "lines": 40,
+   "sha256": "78a5aed065cf2cba"
+  },
+  {
+   "name": "呼出／デパート実行",
+   "file": "fn_750ba1de91.jam",
+   "func_no": 30090,
+   "lines": 42,
+   "sha256": "3e4d56761c961534"
+  },
+  {
+   "name": "呼出／ライブハウス実行",
+   "file": "fn_68abc8c23a.jam",
+   "func_no": 30091,
+   "lines": 42,
+   "sha256": "cde7b77a858f1595"
+  },
+  {
+   "name": "呼出／洋館実行",
+   "file": "fn_6c55f0af5d.jam",
+   "func_no": 30092,
+   "lines": 163,
+   "sha256": "4dd72da247372f51"
+  },
+  {
+   "name": "LEventFlag::Set",
+   "file": "LEventFlag__Set.jam",
+   "func_no": 26386,
+   "lines": 14,
+   "sha256": "ae08eaad131f1c90"
+  },
+  {
+   "name": "LEventFlag::GetOnce",
+   "file": "LEventFlag__GetOnce.jam",
+   "func_no": 26387,
+   "lines": 13,
+   "sha256": "9c2a1e940dd4e5e3"
+  },
+  {
+   "name": "LEventFlag::GetCountOnce",
+   "file": "LEventFlag__GetCountOnce.jam",
+   "func_no": 26389,
+   "lines": 9,
+   "sha256": "accb3ef641aebeb6"
+  },
+  {
+   "name": "LEventFlag::ClearOnce",
+   "file": "LEventFlag__ClearOnce.jam",
+   "func_no": 26388,
+   "lines": 6,
+   "sha256": "2f6b28fc581475ef"
+  },
+  {
+   "name": "LEventFlag::GetTotal",
+   "file": "LEventFlag__GetTotal.jam",
+   "func_no": 26390,
+   "lines": 11,
+   "sha256": "25ffcc02e7a693d1"
+  },
+  {
+   "name": "LEventFlag::SaveTotal",
+   "file": "LEventFlag__SaveTotal.jam",
+   "func_no": 26391,
+   "lines": 8,
+   "sha256": "9e23cfaca8060083"
+  },
+  {
+   "name": "LEventFlag::LoadTotal",
+   "file": "LEventFlag__LoadTotal.jam",
+   "func_no": 26392,
+   "lines": 8,
+   "sha256": "62d3ea3d3290d808"
+  },
+  {
+   "name": "■ＥＶ登録",
+   "file": "fn_c01ba68784.jam",
+   "func_no": 25983,
+   "lines": 28,
+   "sha256": "1133ac795f75f74a"
+  },
+  {
+   "name": "■ＥＶ登録確認",
+   "file": "fn_5cfdbd59d1.jam",
+   "func_no": 25984,
+   "lines": 14,
+   "sha256": "11c9f51d1bab9b2a"
+  },
+  {
+   "name": "■ＥＶ登録確認／接頭語",
+   "file": "fn_156046d0ca.jam",
+   "func_no": 25985,
+   "lines": 16,
+   "sha256": "f8e010a5c411948a"
+  },
+  {
+   "name": "■ＥＶ登録全クリア",
+   "file": "fn_8395d65275.jam",
+   "func_no": 25986,
+   "lines": 7,
+   "sha256": "9f965174db881175"
+  },
+  {
+   "name": "■閲覧／シナリオ登録",
+   "file": "fn_07d0d28515.jam",
+   "func_no": 26035,
+   "lines": 63,
+   "sha256": "95b2529ad9adf944"
+  },
+  {
+   "name": "■閲覧／シナリオ登録確認",
+   "file": "fn_9e4b404625.jam",
+   "func_no": 26036,
+   "lines": 46,
+   "sha256": "8a399d4d5a9afd51"
+  },
+  {
+   "name": "■閲覧／イベント登録",
+   "file": "fn_af8f3855bf.jam",
+   "func_no": 26034,
+   "lines": 35,
+   "sha256": "e750c928d27083e8"
+  },
+  {
+   "name": "N_ScenarioRegister::RegisterEvent",
+   "file": "N_ScenarioRegister__RegisterEvent.jam",
+   "func_no": 26436,
+   "lines": 61,
+   "sha256": "8eb35864e8782864"
+  },
+  {
+   "name": "N_ScenarioRegister::IsRegisteredEvent",
+   "file": "N_ScenarioRegister__IsRegisteredEvent.jam",
+   "func_no": 26438,
+   "lines": 14,
+   "sha256": "2dae3f1a2e9a6ae4"
+  },
+  {
+   "name": "N_ScenarioRegister::SetEventFlag",
+   "file": "N_ScenarioRegister__SetEventFlag.jam",
+   "func_no": 26437,
+   "lines": 63,
+   "sha256": "8e84d99d9546da0b"
+  },
+  {
+   "name": "N_ScenarioRegister::detail::FindEvent",
+   "file": "N_ScenarioRegister__detail__FindEvent.jam",
+   "func_no": 26435,
+   "lines": 16,
+   "sha256": "281ef21ca37a3f39"
+  },
+  {
+   "name": "Ａ＿回想登録",
+   "file": "fn_60a9dc6696.jam",
+   "func_no": 6141,
+   "lines": 11,
+   "sha256": "b1a9a6fd831c8286"
+  },
+  {
+   "name": "Ａ＿回想確認",
+   "file": "fn_408a300f07.jam",
+   "func_no": 6142,
+   "lines": 12,
+   "sha256": "d2ece0c251d37cf3"
+  },
+  {
+   "name": "Ａ＿回想モード実行中確認",
+   "file": "fn_0a91da59ff.jam",
+   "func_no": 6143,
+   "lines": 9,
+   "sha256": "ba6852a8574fd251"
+  },
+  {
+   "name": "SystemFlagManager::Get",
+   "file": "SystemFlagManager__Get.jam",
+   "func_no": 26658,
+   "lines": 20,
+   "sha256": "9c829cf0a0f01423"
+  },
+  {
+   "name": "SystemFlagManager::Set",
+   "file": "SystemFlagManager__Set.jam",
+   "func_no": 26659,
+   "lines": 37,
+   "sha256": "5c613093a3824c57"
+  },
+  {
+   "name": "SystemFlagManager::Save",
+   "file": "SystemFlagManager__Save.jam",
+   "func_no": 26657,
+   "lines": 18,
+   "sha256": "37fd00c45f7a4c9f"
+  },
+  {
+   "name": "SystemFlagManager::Load",
+   "file": "SystemFlagManager__Load.jam",
+   "func_no": 26656,
+   "lines": 40,
+   "sha256": "0e13d0d5174040aa"
+  },
+  {
+   "name": "■ＡＤＶ制御",
+   "file": "fn_d25479d623.jam",
+   "func_no": 25731,
+   "lines": 13,
+   "sha256": "c1b2a26cad2bd487"
+  },
+  {
+   "name": "OCmd_SET_EVENT_MODE",
+   "file": "OCmd_SET_EVENT_MODE.jam",
+   "func_no": 25888,
+   "lines": 13,
+   "sha256": "8bab19d4e69f5b50"
+  },
+  {
+   "name": "■汎用フラグ／設定",
+   "file": "fn_c7c8df10b1.jam",
+   "func_no": 26449,
+   "lines": 33,
+   "sha256": "cf8df6cd97e0d2b3"
+  },
+  {
+   "name": "■汎用フラグ／取得",
+   "file": "fn_6e904e6b77.jam",
+   "func_no": 26448,
+   "lines": 33,
+   "sha256": "a03bc8e51d794eea"
+  },
+  {
+   "name": "■システムフラグ／設定",
+   "file": "fn_3774520b85.jam",
+   "func_no": 26652,
+   "lines": 11,
+   "sha256": "e0fb3f9c3cf12e86"
+  },
+  {
+   "name": "■システムフラグ／取得",
+   "file": "fn_790f1efa12.jam",
+   "func_no": 26654,
+   "lines": 11,
+   "sha256": "d2b34fd83aaa4b2d"
+  },
+  {
+   "name": "■親密度上昇",
+   "file": "fn_fd046b7d71.jam",
+   "func_no": 25990,
+   "lines": 36,
+   "sha256": "41debe679c732967"
+  },
+  {
+   "name": "■親密度上昇いずみ１",
+   "file": "fn_e80a8cea0f.jam",
+   "func_no": 26004,
+   "lines": 9,
+   "sha256": "5b36c2fccc040697"
+  },
+  {
+   "name": "LAbility::At",
+   "file": "LAbility__At.jam",
+   "func_no": 27465,
+   "lines": 40,
+   "sha256": "a8f78f0fd011168d"
+  },
+  {
+   "name": "C_Ability@GetFeeling",
+   "file": "C_Ability@GetFeeling.jam",
+   "func_no": 27310,
+   "lines": 12,
+   "sha256": "96f11d85324ce267"
+  },
+  {
+   "name": "C_Ability@GetFeelingRate",
+   "file": "C_Ability@GetFeelingRate.jam",
+   "func_no": 27311,
+   "lines": 33,
+   "sha256": "83e89e3404e398bd"
+  },
+  {
+   "name": "C_Ability@IsTurning",
+   "file": "C_Ability@IsTurning.jam",
+   "func_no": 27404,
+   "lines": 8,
+   "sha256": "3f714c816ece4591"
+  },
+  {
+   "name": "C_Ability@SetTurning",
+   "file": "C_Ability@SetTurning.jam",
+   "func_no": 27405,
+   "lines": 6,
+   "sha256": "27a1c8ac96c53405"
+  },
+  {
+   "name": "C_Ability@ResetTurning",
+   "file": "C_Ability@ResetTurning.jam",
+   "func_no": 27406,
+   "lines": 6,
+   "sha256": "dabd4ab54f5165f4"
+  },
+  {
+   "name": "C_Ability@AddFeeling",
+   "file": "C_Ability@AddFeeling.jam",
+   "func_no": 27307,
+   "lines": 11,
+   "sha256": "f8e5086a3976574d"
+  },
+  {
+   "name": "L_Party::GetMaxFeelingPerson",
+   "file": "L_Party__GetMaxFeelingPerson.jam",
+   "func_no": 27514,
+   "lines": 86,
+   "sha256": "ec16a877d3fd00fb"
+  },
+  {
+   "name": "L_Party::AddFeelAtRemainTime",
+   "file": "L_Party__AddFeelAtRemainTime.jam",
+   "func_no": 27519,
+   "lines": 136,
+   "sha256": "034583018e6a3253"
+  },
+  {
+   "name": "L_RandomScenario::Prepare",
+   "file": "L_RandomScenario__Prepare.jam",
+   "func_no": 26427,
+   "lines": 9,
+   "sha256": "6ff872ed5e3f2373"
+  },
+  {
+   "name": "L_RandomScenario::PrepareAfterTraining",
+   "file": "L_RandomScenario__PrepareAfterTraining.jam",
+   "func_no": 26432,
+   "lines": 157,
+   "sha256": "7e6ae66021a1e3c0"
+  },
+  {
+   "name": "L_RandomScenario::GetAfterTraining",
+   "file": "L_RandomScenario__GetAfterTraining.jam",
+   "func_no": 26433,
+   "lines": 82,
+   "sha256": "473238cc0e0050f3"
+  },
+  {
+   "name": "L_RandomScenario::GetAfterTrainingEvent",
+   "file": "L_RandomScenario__GetAfterTrainingEvent.jam",
+   "func_no": 26429,
+   "lines": 777,
+   "sha256": "5b29d8f82dc340b6"
+  },
+  {
+   "name": "L_RandomScenario::CallAfterTraining",
+   "file": "L_RandomScenario__CallAfterTraining.jam",
+   "func_no": 26430,
+   "lines": 51,
+   "sha256": "b049d1b5dc06fa3f"
+  },
+  {
+   "name": "L_RandomScenario::CallWalkDungeon",
+   "file": "L_RandomScenario__CallWalkDungeon.jam",
+   "func_no": 26431,
+   "lines": 369,
+   "sha256": "15a72d360c534f2a"
+  },
+  {
+   "name": "C_SceneTraining@Run",
+   "file": "C_SceneTraining@Run.jam",
+   "func_no": 28302,
+   "lines": 145,
+   "sha256": "c7e21d1c0c84302c"
+  },
+  {
+   "name": "C_SceneTraining@PlaySelPartnerAction",
+   "file": "C_SceneTraining@PlaySelPartnerAction.jam",
+   "func_no": 28308,
+   "lines": 290,
+   "sha256": "c534a75fd2d4c296"
+  },
+  {
+   "name": "C_SceneDungeon@CheckEventOnEnter",
+   "file": "C_SceneDungeon@CheckEventOnEnter.jam",
+   "func_no": 28640,
+   "lines": 189,
+   "sha256": "f195619fce149f4e"
+  },
+  {
+   "name": "L_DungeonManager::RunEventDungeonEndingSchool",
+   "file": "L_DungeonManager__RunEventDungeonEndingSchool.jam",
+   "func_no": 27154,
+   "lines": 106,
+   "sha256": "97dbd46533df5a10"
+  },
+  {
+   "name": "L_DungeonManager::RunEventDungeonEndingNewTown",
+   "file": "L_DungeonManager__RunEventDungeonEndingNewTown.jam",
+   "func_no": 27153,
+   "lines": 377,
+   "sha256": "bd1fa441476ac2e0"
+  },
+  {
+   "name": "L_DungeonManager::RunEventDungeonEndingCenterBuilding",
+   "file": "L_DungeonManager__RunEventDungeonEndingCenterBuilding.jam",
+   "func_no": 27155,
+   "lines": 158,
+   "sha256": "1a2f60c281a39d1a"
+  },
+  {
+   "name": "C_SceneModeScene@ExecScene",
+   "file": "C_SceneModeScene@ExecScene.jam",
+   "func_no": 29725,
+   "lines": 86,
+   "sha256": "a709ce7b785ecf72"
+  },
+  {
+   "name": "N_ModeScene::CheckEnabelScenario",
+   "file": "N_ModeScene__CheckEnabelScenario.jam",
+   "func_no": 29755,
+   "lines": 64,
+   "sha256": "e1495d2f64d4174f"
+  },
+  {
+   "name": "N_ModeScene::GetPlaeScenarioName",
+   "file": "N_ModeScene__GetPlaeScenarioName.jam",
+   "func_no": 29756,
+   "lines": 38,
+   "sha256": "09718473daa14bc3"
+  },
+  {
+   "name": "N_ModeScene::GetMemModeNoFromScenario",
+   "file": "N_ModeScene__GetMemModeNoFromScenario.jam",
+   "func_no": 29750,
+   "lines": 13,
+   "sha256": "bc0b1b29f5649da5"
+  },
+  {
+   "name": "N_ModeScene::GetScenarioNoFromName",
+   "file": "N_ModeScene__GetScenarioNoFromName.jam",
+   "func_no": 29753,
+   "lines": 31,
+   "sha256": "8b94a54e19894441"
+  },
+  {
+   "name": "N_ModeScene::CreateMemModeNoList",
+   "file": "N_ModeScene__CreateMemModeNoList.jam",
+   "func_no": 29749,
+   "lines": 41,
+   "sha256": "136b1372dee0df1f"
+  },
+  {
+   "name": "C_TestScenario@Init",
+   "file": "C_TestScenario@Init.jam",
+   "func_no": 29935,
+   "lines": 120,
+   "sha256": "ad0b5ad97b78a5ba"
+  },
+  {
+   "name": "C_TestScenario@Run",
+   "file": "C_TestScenario@Run.jam",
+   "func_no": 29934,
+   "lines": 185,
+   "sha256": "1e87bc30bb9a1871"
+  },
+  {
+   "name": "C_TestScenario@SelectType",
+   "file": "C_TestScenario@SelectType.jam",
+   "func_no": 29936,
+   "lines": 49,
+   "sha256": "ea3f4ed49d51f82d"
+  },
+  {
+   "name": "C_TestScenario@RunAll",
+   "file": "C_TestScenario@RunAll.jam",
+   "func_no": 29937,
+   "lines": 114,
+   "sha256": "be64a5390795c775"
+  },
+  {
+   "name": "C_TestScenario@RunMain",
+   "file": "C_TestScenario@RunMain.jam",
+   "func_no": 29938,
+   "lines": 114,
+   "sha256": "b82a3d1bc9b7fea1"
+  },
+  {
+   "name": "C_TestScenario@RunTraining",
+   "file": "C_TestScenario@RunTraining.jam",
+   "func_no": 29940,
+   "lines": 109,
+   "sha256": "a03ad01255180a0c"
+  },
+  {
+   "name": "C_TestScenario@RunTrainingPri",
+   "file": "C_TestScenario@RunTrainingPri.jam",
+   "func_no": 29939,
+   "lines": 94,
+   "sha256": "510e1bdb0287a23b"
+  },
+  {
+   "name": "C_TestScenario@RunTrainingInvite",
+   "file": "C_TestScenario@RunTrainingInvite.jam",
+   "func_no": 29941,
+   "lines": 109,
+   "sha256": "fa9bde43ecfc019a"
+  },
+  {
+   "name": "C_TestScenario@RunDungeon",
+   "file": "C_TestScenario@RunDungeon.jam",
+   "func_no": 29942,
+   "lines": 219,
+   "sha256": "d5c9398b563516cd"
+  },
+  {
+   "name": "C_TestScenario@RunMemory",
+   "file": "C_TestScenario@RunMemory.jam",
+   "func_no": 29943,
+   "lines": 109,
+   "sha256": "e99dede56fdc9ad8"
+  },
+  {
+   "name": "C_TestScenario@ExecScenario",
+   "file": "C_TestScenario@ExecScenario.jam",
+   "func_no": 29949,
+   "lines": 21,
+   "sha256": "26cc3b0f4950eacb"
+  },
+  {
+   "name": "C_TestScenario@ExecSelectScenario",
+   "file": "C_TestScenario@ExecSelectScenario.jam",
+   "func_no": 29948,
+   "lines": 82,
+   "sha256": "560f3ecfb4fb623e"
+  },
+  {
+   "name": "C_TestStart@GameExec",
+   "file": "C_TestStart@GameExec.jam",
+   "func_no": 29960,
+   "lines": 53,
+   "sha256": "6c9541c5f71a510b"
+  },
+  {
+   "name": "C_TestStart@GameExecLastChapter",
+   "file": "C_TestStart@GameExecLastChapter.jam",
+   "func_no": 29961,
+   "lines": 44,
+   "sha256": "2c5aa50db3c3b2af"
+  },
+  {
+   "name": "TestStartMenu",
+   "file": "TestStartMenu.jam",
+   "func_no": 29959,
+   "lines": 791,
+   "sha256": "c42d58c19d37217e"
+  },
+  {
+   "name": "game_main",
+   "file": "game_main.jam",
+   "func_no": 25730,
+   "lines": 44,
+   "sha256": "ec50a42595f3c8d2"
+  },
+  {
+   "name": "Ａ＿テスト選択",
+   "file": "fn_4573d60962.jam",
+   "func_no": 6489,
+   "lines": 21,
+   "sha256": "0b55b36b4be1ab4a"
+  },
+  {
+   "name": "■デバッグ／シナリオジャンプ無視確認",
+   "file": "fn_6aa5b3c20c.jam",
+   "func_no": 26072,
+   "lines": 16,
+   "sha256": "d2777a2d41058738"
+  },
+  {
+   "name": "■デバッグ／シナリオジャンプ無視設定",
+   "file": "fn_b46822ae35.jam",
+   "func_no": 26073,
+   "lines": 12,
+   "sha256": "6caf9a602cca2d1a"
+  },
+  {
+   "name": "C_GameDate@NextDay",
+   "file": "C_GameDate@NextDay.jam",
+   "func_no": 26469,
+   "lines": 57,
+   "sha256": "9deabc01917226ac"
+  },
+  {
+   "name": "C_GameDate@GetMaxDay",
+   "file": "C_GameDate@GetMaxDay.jam",
+   "func_no": 26478,
+   "lines": 27,
+   "sha256": "1b86d9224a8921f2"
+  },
+  {
+   "name": "C_GameDate@IsBefore",
+   "file": "C_GameDate@IsBefore.jam",
+   "func_no": 26474,
+   "lines": 46,
+   "sha256": "6179de6665ad9002"
+  },
+  {
+   "name": "C_GameDate@IsAfter",
+   "file": "C_GameDate@IsAfter.jam",
+   "func_no": 26475,
+   "lines": 46,
+   "sha256": "ed14b915b098fab5"
+  },
+  {
+   "name": "C_GameDate@Set",
+   "file": "C_GameDate@Set.jam",
+   "func_no": 26468,
+   "lines": 58,
+   "sha256": "333ee2c5df46b2c1"
+  },
+  {
+   "name": "C_GameDate@0",
+   "file": "C_GameDate@0.jam",
+   "func_no": 26465,
+   "lines": 19,
+   "sha256": "87b430b7131b87d7"
+  },
+  {
+   "name": "■選択メッセージ／選択肢追加",
+   "file": "fn_3ade7a1fa8.jam",
+   "func_no": 27938,
+   "lines": 42,
+   "sha256": "5034c24d32a30be0"
+  },
+  {
+   "name": "■選択メッセージ／実行",
+   "file": "fn_f2316c5688.jam",
+   "func_no": 27941,
+   "lines": 56,
+   "sha256": "04febc483fb6f42a"
+  },
+  {
+   "name": "■選択メッセージ／初期化",
+   "file": "fn_5b15af0668.jam",
+   "func_no": 27942,
+   "lines": 15,
+   "sha256": "ff6be158d8aa35b0"
+  },
+  {
+   "name": "ＥＶ／元／E10001",
+   "file": "_____E10001.jam",
+   "func_no": 30445,
+   "lines": 904,
+   "sha256": "4c1d6c099992b53d"
+  },
+  {
+   "name": "ＥＶ／元／E00058",
+   "file": "_____E00058.jam",
+   "func_no": 30160,
+   "lines": 107,
+   "sha256": "a568c110309a836c"
+  },
+  {
+   "name": "ＥＶ／元／E50101",
+   "file": "_____E50101.jam",
+   "func_no": 30563,
+   "lines": 7,
+   "sha256": "47faf1530dafe98f"
+  },
+  {
+   "name": "ＥＶ／元／E30152",
+   "file": "_____E30152.jam",
+   "func_no": 30520,
+   "lines": 115,
+   "sha256": "e64900eca6bc4710"
+  }
+ ]
+}

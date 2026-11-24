@@ -1,0 +1,14 @@
+[
+  {
+    "function": "KR_SmartCount",
+    "offset": 16010161
+  },
+  {
+    "function": "KR_SmartEvaluate",
+    "offset": 16011446
+  },
+  {
+    "function": "KR_SmartRun",
+    "offset": 16012080
+  }
+]

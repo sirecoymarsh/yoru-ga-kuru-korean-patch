@@ -1,0 +1,21 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "f331f7303175e9d7c9fbbcd3e032973717654e223d2ab2f9969638900b08022c",
+    "NightRemasterPact.afa": "9159e5a340e6d436f7932d094ce966a66b48c36dc9ed3885109b690bceee3404"
+  },
+  "reviewers": [
+    "/root/auto_battle_review",
+    "/root/smart_ui_review"
+  ],
+  "resolved": [
+    "percentage passive attack/hit formula",
+    "crafted key103 supported (no20-key cap)",
+    "shadow skill array extends to100",
+    "enemy reference-array ABI exact to native",
+    "weighted hit grades divide only after sum; HP1 finishing regression",
+    "original story flag82 preserved, unused flag79 selected"
+  ],
+  "unresolved": [],
+  "scope": "Read-only source/native metadata/compiled JAM and PACT structure; no native gameplay or performance claim"
+}

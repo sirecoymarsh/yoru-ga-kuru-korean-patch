@@ -1,0 +1,23 @@
+{
+  "status": "PUZZLE_ROUTE_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "75d721bc318296fa1e2f4d1e4a86bd220c5d1c7977d753473bf12962b4711b07"
+  },
+  "manifest_sha256": "276c55c9dd74b55fd1a89b27e344fa1cef658d312356c0435e73e30d11afae2c",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "changed_function_ids": [
+    29176,
+    31860
+  ],
+  "added_functions": {
+    "KR_PuzzleReadState": 31910,
+    "KR_PuzzleCell": 31911,
+    "KR_PuzzleRefresh": 31912,
+    "KR_DrawPuzzleRoute": 31913
+  },
+  "unchanged_other_runtime_files": 97,
+  "unchanged_save_files": 222,
+  "recovery_unchanged": true,
+  "native_gameplay_verified": false,
+  "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\route_puzzle_20260916"
+}

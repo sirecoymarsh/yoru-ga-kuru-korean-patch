@@ -1,0 +1,171 @@
+{
+ "달 쪽 (2열)": {
+  "dialogs": 140,
+  "title_lines": 8,
+  "title_chars": 37,
+  "items": 14,
+  "rows": 7,
+  "height": 672,
+  "bottom": 696,
+  "item_units": 15.0,
+  "item_chars": 20,
+  "width_px": 1106,
+  "cols": [
+   2
+  ]
+ },
+ "달 쪽 (3열)": {
+  "dialogs": 20,
+  "title_lines": 9,
+  "title_chars": 34,
+  "items": 13,
+  "rows": 5,
+  "height": 610,
+  "bottom": 665,
+  "item_units": 11.5,
+  "item_chars": 14,
+  "width_px": 1126,
+  "cols": [
+   3
+  ]
+ },
+ "달성도 요약 쪽": {
+  "dialogs": 5,
+  "title_lines": 11,
+  "title_chars": 37,
+  "items": 1,
+  "rows": 1,
+  "height": 486,
+  "bottom": 672,
+  "item_units": 4.0,
+  "item_chars": 4,
+  "width_px": 1106,
+  "cols": [
+   1
+  ],
+  "top": 186
+ },
+ "회상 · 그 밖 (패널 밖)": {
+  "dialogs": 5,
+  "title_lines": 3,
+  "title_chars": 27,
+  "items": 10,
+  "rows": 10,
+  "height": 646,
+  "bottom": 683,
+  "item_units": 16.5,
+  "item_chars": 21,
+  "width_px": 821,
+  "cols": [
+   1
+  ]
+ },
+ "레인 쪽": {
+  "dialogs": 365,
+  "title_lines": 2,
+  "title_chars": 38,
+  "items": 11,
+  "rows": 11,
+  "height": 660,
+  "bottom": 690,
+  "item_units": 27.0,
+  "item_chars": 36,
+  "width_px": 1135,
+  "cols": [
+   1
+  ]
+ },
+ "이달의 서랍": {
+  "dialogs": 65,
+  "title_lines": 2,
+  "title_chars": 30,
+  "items": 11,
+  "rows": 11,
+  "height": 660,
+  "bottom": 690,
+  "item_units": 20.5,
+  "item_chars": 26,
+  "width_px": 907,
+  "cols": [
+   1
+  ]
+ },
+ "카드 쪽": {
+  "dialogs": 2325,
+  "title_lines": 7,
+  "title_chars": 38,
+  "items": 3,
+  "rows": 3,
+  "height": 446,
+  "bottom": 583,
+  "item_units": 10.0,
+  "item_chars": 13,
+  "width_px": 1135,
+  "cols": [
+   1
+  ]
+ },
+ "단계 목록": {
+  "dialogs": 185,
+  "title_lines": 3,
+  "title_chars": 38,
+  "items": 33,
+  "rows": 11,
+  "height": 694,
+  "bottom": 707,
+  "item_units": 11.5,
+  "item_chars": 15,
+  "width_px": 1135,
+  "cols": [
+   3
+  ]
+ },
+ "서랍 장면 목록": {
+  "dialogs": 485,
+  "title_lines": 2,
+  "title_chars": 36,
+  "items": 33,
+  "rows": 11,
+  "height": 660,
+  "bottom": 690,
+  "item_units": 11.0,
+  "item_chars": 13,
+  "width_px": 1084,
+  "cols": [
+   3
+  ]
+ },
+ "장면 쪽": {
+  "dialogs": 3492,
+  "title_lines": 7,
+  "title_chars": 38,
+  "items": 2,
+  "rows": 2,
+  "height": 398,
+  "bottom": 559,
+  "item_units": 6.0,
+  "item_chars": 7,
+  "width_px": 1135,
+  "cols": [
+   1
+  ]
+ },
+ "_widest_drawer_row": {
+  "chars": 26,
+  "units": 20.5,
+  "text": "호시카와 · 특훈 뒤 대화 10/10 ■■■■■",
+  "page": "이달의 서랍"
+ },
+ "_limits": {
+  "title_chars": 38,
+  "height": 704,
+  "bottom": 712,
+  "width_px": 1280,
+  "item_units": {
+   "1": 38,
+   "2": 20,
+   "3": 13
+  },
+  "item_chars": 38
+ }
+}

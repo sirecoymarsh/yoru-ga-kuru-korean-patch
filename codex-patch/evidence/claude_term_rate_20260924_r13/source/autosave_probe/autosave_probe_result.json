@@ -1,0 +1,73 @@
+{
+  "save": "NightR999.asd",
+  "save_folder": "SaveData_KR_ClaudeAutoSaveProbe_20260924_215451",
+  "wait_sites": 27,
+  "A": {
+    "pid": 28828,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "14327702a1b24e2bbef346733876e80c12b754a5b42126ac0b249f4a8311c273",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "resume loading NightR999.asd",
+      "weekday=0 day=1 slot=999",
+      "SHOT auto_probe_0.bmp",
+      "weekly autosave ms=2391 exists49=1 newest=49",
+      "daily autosave ms=1244 exists999=1 newest=999",
+      "comment49 len=74 comment999 len=74 same=1",
+      "newest manual: ret=0 idx=-1 page=-1",
+      "newest with autosaves: ret=1 idx=0 page=0",
+      "labels 일간,주간,07",
+      "SHOT auto_probe_load_p1.bmp",
+      "SHOT auto_probe_load_p10.bmp",
+      "SHOT auto_probe_save_p1.bmp",
+      "SHOT auto_probe_save_p10.bmp",
+      "END"
+    ]
+  },
+  "files_after_A": {
+    "NightR49.asd": {
+      "sha256": "5eca33e3422111b3d30c96828d4ca94430f31114434cb2639e246218970176a8",
+      "size": 8410115
+    },
+    "NightR999.asd": {
+      "sha256": "9b1e559f2e69b57be7a9e0d0d2b41021b5cad8f1abf3367b202b8f3d7361084b",
+      "size": 8410191
+    }
+  },
+  "user_copy_sha256": "cf06774f65708e58e9a0678d80a388bc4e14feef7b5d498745a53eba21d04677",
+  "weekly_stack": [
+    "",
+    "main()",
+    "game_main()",
+    "C_GameMain@Run(bool)",
+    "C_SceneManager@Run()",
+    "C_SceneGame@Run()",
+    "呼出／１日の始まり(ref C_GameDate)",
+    "呼出／日曜実行(ref C_GameDate)",
+    "C_SceneGame@_BeginGameScene(E_SceneType)",
+    "C_SceneHomebase@Run()",
+    "C_SceneHomebase@RunHome()",
+    "■選択ダイアログ／実行(bool, int)",
+    "C_SelectDialog@Run(bool, int, bool)",
+    "KR_ClaudeAutoWait(FTPARTS_WaitForClickCallback, bool)",
+    "■セーブ／オートセーブ実行(int)",
+    "C_SceneSaveLoad@RunAutoSave(int)",
+    "C_SceneSaveLoad@ExecSave(int, bool)",
+    "C_SceneSaveLoad@Save(int)",
+    "AFL_GameSave_Save(int, string)",
+    "gamesave::detail::Save(int, string)"
+  ],
+  "B": {
+    "pid": 55792,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "14327702a1b24e2bbef346733876e80c12b754a5b42126ac0b249f4a8311c273",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "resume loading NightR49.asd",
+      "RESUMED weekly autosave; exists49=1",
+      "SHOT auto_probe_resumed.bmp"
+    ]
+  }
+}

@@ -1,0 +1,400 @@
+==================== ; C_ConfigView@EventConfAsraDataForParts FUNC 29817
+; C_ConfigView@EventConfAsraDataForParts
+; ARG  0: PassedTime : int
+; ARG  1: ScaledPassedTime : int
+; ARG  2: ActivityName : string
+; RETURN: void
+FUNC 29817
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声女性スライダ"
+	PUSH -1
+	PUSH 29838    ; Conf_GetVoiceVolume_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声男性スライダ"
+	PUSH -1
+	PUSH 29843    ; Conf_GetVoiceVolume_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声その他スライダ"
+	PUSH -1
+	PUSH 29848    ; Conf_GetVoiceVolume_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_音声女性消音"
+	PUSH -1
+	PUSH 29840    ; Conf_GetVoiceMute_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_音声男性消音"
+	PUSH -1
+	PUSH 29845    ; Conf_GetVoiceMute_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_音声その他消音"
+	PUSH -1
+	PUSH 29850    ; Conf_GetVoiceMute_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_戦闘の進行速度を速くする"
+	PUSH -1
+	PUSH 29853    ; Conf_GetBattleSpeedUp
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_戦闘が終わってもオート戦闘継続"
+	PUSH -1
+	PUSH 29855    ; Conf_GetAutoBattleContinuous
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_訓練演出の簡略化"
+	PUSH -1
+	PUSH 29857    ; Conf_GetSimpleTrainingFX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_ＨＣＧを非表示にする"
+	PUSH -1
+	PUSH 29859    ; Conf_GetDistributeMode
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_２倍／経験値"
+	PUSH -1
+	PUSH 29861    ; Conf_GetCasualDoubleEX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_２倍／訓練値"
+	PUSH -1
+	PUSH 29864    ; Conf_GetCasualDoubleTrainging
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_２倍／月片"
+	PUSH -1
+	PUSH 29867    ; Conf_GetCasualDoubleMoney
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_２倍／仲間特訓値"
+	PUSH -1
+	PUSH 29870    ; Conf_GetCasualDoublePairTraining
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_戦闘後回復機能"
+	PUSH -1
+	PUSH 29873    ; Conf_GetCasualIsRecoverAfterBattle
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_アイテム所持数増加"
+	PUSH -1
+	PUSH 29876    ; Conf_GetCasualIsExpandConsumeItem
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_敵強制表示"
+	PUSH -1
+	PUSH 29879    ; Conf_GetCasualIsShowEnemy
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_罠強制表示"
+	PUSH -1
+	PUSH 29882    ; Conf_GetCasualIsShowTrap
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_宝箱強制表示"
+	PUSH -1
+	PUSH 29885    ; Conf_GetCasualIsShowTreasure
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_トラップ緩和"
+	PUSH -1
+	PUSH 29888    ; Conf_GetCasualIsTrapSafe
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_InitCasualWall
+	RETURN
+==================== ; C_ConfigView@EventConfAsraDataForParts FUNC 29817
+; C_ConfigView@EventConfAsraDataForParts
+; ARG  0: PassedTime : int
+; ARG  1: ScaledPassedTime : int
+; ARG  2: ActivityName : string
+; RETURN: void
+FUNC 29817
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声女性スライダ"
+	PUSH -1
+	PUSH 29838    ; Conf_GetVoiceVolume_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声男性スライダ"
+	PUSH -1
+	PUSH 29843    ; Conf_GetVoiceVolume_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声その他スライダ"
+	PUSH -1
+	PUSH 29848    ; Conf_GetVoiceVolume_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_音声女性消音"
+	PUSH -1
+	PUSH 29840    ; Conf_GetVoiceMute_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_音声男性消音"
+	PUSH -1
+	PUSH 29845    ; Conf_GetVoiceMute_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_音声その他消音"
+	PUSH -1
+	PUSH 29850    ; Conf_GetVoiceMute_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_戦闘の進行速度を速くする"
+	PUSH -1
+	PUSH 29853    ; Conf_GetBattleSpeedUp
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_戦闘が終わってもオート戦闘継続"
+	PUSH -1
+	PUSH 29855    ; Conf_GetAutoBattleContinuous
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_訓練演出の簡略化"
+	PUSH -1
+	PUSH 29857    ; Conf_GetSimpleTrainingFX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_ＨＣＧを非表示にする"
+	PUSH -1
+	PUSH 29859    ; Conf_GetDistributeMode
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "KR_Multiplier_EX"
+	PUSH -1
+	PUSH 31827    ; KR_MultiplierGetEX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "KR_Multiplier_Training"
+	PUSH -1
+	PUSH 31829    ; KR_MultiplierGetTraining
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "KR_Multiplier_Money"
+	PUSH -1
+	PUSH 31831    ; KR_MultiplierGetMoney
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "KR_Multiplier_PairTraining"
+	PUSH -1
+	PUSH 31833    ; KR_MultiplierGetPairTraining
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_戦闘後回復機能"
+	PUSH -1
+	PUSH 29873    ; Conf_GetCasualIsRecoverAfterBattle
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_アイテム所持数増加"
+	PUSH -1
+	PUSH 29876    ; Conf_GetCasualIsExpandConsumeItem
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_敵強制表示"
+	PUSH -1
+	PUSH 29879    ; Conf_GetCasualIsShowEnemy
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_罠強制表示"
+	PUSH -1
+	PUSH 29882    ; Conf_GetCasualIsShowTrap
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_宝箱強制表示"
+	PUSH -1
+	PUSH 29885    ; Conf_GetCasualIsShowTreasure
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29827    ; C_ConfigView@SetCheckStatForParts
+	S_PUSH "SYS_トラップ緩和"
+	PUSH -1
+	PUSH 29888    ; Conf_GetCasualIsTrapSafe
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_InitCasualWall
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_EX"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x9462fe
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_EX"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateEX
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x9462fe:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Training"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x94636a
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Training"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateTrainging
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x94636a:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Money"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x9463d6
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Money"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateMoney
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x9463d6:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_PairTraining"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x946442
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_PairTraining"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RatePairTraining
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x946442:
+	RETURN
+ENDFUNC C_ConfigView@EventConfAsraDataForParts
+==================== ; C_ConfigView@EventConfAsraDataForParts FUNC 29817
+; C_ConfigView@EventConfAsraDataForParts
+; ARG  0: PassedTime : int
+; ARG  1: ScaledPassedTime : int
+; ARG  2: ActivityName : string
+; RETURN: void
+FUNC 29817
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声女性スライダ"
+	PUSH -1
+	PUSH 29838    ; Conf_GetVoiceVolume_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声男性スライダ"
+	PUSH -1
+	PUSH 29843    ; Conf_GetVoiceVolume_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29825    ; C_ConfigView@SetHScrollRateForParts
+	S_PUSH "SYS_音声その他スライダ"
+	PUSH -1
+	PUSH 29848    ; Conf_GetVoiceVolume_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE

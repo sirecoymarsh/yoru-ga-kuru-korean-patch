@@ -1,0 +1,8 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_term_rate_20260924_r13\\NightRemaster.ain",
+  "source_sha256": "2e4e3dff57fccd621158f0d48dbc84fe53cad1abdc0738ab9421a32091752688",
+  "probe_sha256": "b81780dc59b1e5fe4a69abb62012357d743e676dfb5eb635429207e769389b03",
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "input": "Resume of a copied NightR38.asd; every WaitForClick call (27) runs the r4 panel stages and exits.",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

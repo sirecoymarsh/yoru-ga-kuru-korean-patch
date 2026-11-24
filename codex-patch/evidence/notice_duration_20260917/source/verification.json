@@ -1,0 +1,16 @@
+{
+  "status": "NOTICE_DURATION_STATIC_PASS",
+  "files": {
+    "NightRemaster.ain": "0cefd6c20f120903773f71469aa6669fb1b3a5b5b5b6e3f0da9423b5778a7295"
+  },
+  "compiled_cases": 27,
+  "durations_ms": {
+    "chest": 2000,
+    "loot": 3000,
+    "fade": 500
+  },
+  "six_operand_reverse_exact": true,
+  "refresh_and_fade_verified": true,
+  "no_save_schema_or_payout_changes": true,
+  "native_verified": false
+}

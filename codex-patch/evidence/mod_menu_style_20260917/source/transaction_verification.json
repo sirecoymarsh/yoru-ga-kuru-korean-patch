@@ -1,0 +1,19 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_menu_style_20260917\\복구 검증 uluqrqnt",
+  "payload": {
+    "NightRemaster.ain": "76194a9057a413838bbe03e78e4baa8ab5ef20e0f9ebf087f6e3fc82082ee659",
+    "NightRemasterPact.afa": "3c53dd8dbdb211374ff48a75b76fe3cd46ddbac6048a8c91944982cf18aac36d"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "nth_replacement_rollback": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "no_incoming_residue": true,
+  "zip": "not applicable: live data-only installation; no archive emitted"
+}

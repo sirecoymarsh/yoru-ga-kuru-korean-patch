@@ -1,0 +1,18 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "edf32d46d6ee1baa1c2101c6fca39a74aaa53f5e91033c9f03c3f3ee2a5e50b5"
+  },
+  "reviewer": "/root/exact_ui_review",
+  "read_only": true,
+  "checks": [
+    "Candidate hash and independent native function redump matched",
+    "Nine color guards and one padding guard preserve stack shape",
+    "Folding non-sweep branches yields1290original instructions and branch destinations",
+    "CASFont and CASSizeF member offsets and float bit patterns match metadata",
+    "Cancel12; Execute11 only true; config lock restored; native cleanup retained",
+    "CODE/STR0/MSG1 preserved; metadata changes onlytwo functionaddresses",
+    "Persisted font/layout proof visually reviewed"
+  ],
+  "native_gameplay_verified": false
+}

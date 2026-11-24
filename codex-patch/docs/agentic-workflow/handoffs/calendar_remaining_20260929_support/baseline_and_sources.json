@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-09-29T19:38:42.893613+09:00",
+  "scope": "documentation-only handoff",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "54fd6042482905d777efa8ec1a9f7ead4714ee7ab5f52b6ab5d986477f7ca61f",
+  "files": {
+    "NightRemaster.ain": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+    "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+    "NightRemaster.exe": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+  },
+  "current_pointer": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\current.json",
+  "candidate_meta": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_label_particles_20260929_r2\\work\\build\\candidate_meta.json",
+  "candidate_raw_code": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_label_particles_20260929_r2\\work\\build\\candidate_raw_code.jam",
+  "copied_sources": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\calendar_april_readability_20260929.jaf",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\calendar_april_readability_20260929.jaf",
+      "sha256": "586828d57d09ace4ffc170339995ff500e519616de2a4cccace4de6084513494"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\calendar_april_adaptive_minis_20260929.jaf",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\calendar_april_adaptive_minis_20260929.jaf",
+      "sha256": "d50589436c7633c9e891feee2dbcc88c80845d5ab002376753d019a0cdfd407c"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\calendar_april_summaries_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\calendar_april_summaries_20260929.py",
+      "sha256": "d6a7f0a103b968b420ab48953aa3a5948f60d57e9a2a1ae8042e00ffbaff4152"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\prepare_calendar_april_summary_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\prepare_calendar_april_summary_20260929.py",
+      "sha256": "5690a73c76a0fabfd862e88bca2349bfb8cc2727546b6a782c669efd204fb2ae"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\build_calendar_april_readability_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\build_calendar_april_readability_20260929.py",
+      "sha256": "cb6a1ce223f794002b280ad73a49d34ed25e30fc83d5a8e755d0a2278f5a59fe"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\build_calendar_april_summary_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\build_calendar_april_summary_20260929.py",
+      "sha256": "4f1f7c200a524dd0988a14289d85872ae4250d2028219b8e6b3aedc9a7ece50b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\build_calendar_april_adaptive_minis_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\build_calendar_april_adaptive_minis_20260929.py",
+      "sha256": "4639976549aa418e6f6b46b2babee28f55acd880cf4ceea85ddb6261539d41b4"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\probe_calendar_april_adaptive_minis_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\probe_calendar_april_adaptive_minis_20260929.py",
+      "sha256": "8fec9ed65b8c220f0f7dd7bff8bbfdfab3502389f4d351f9e6cbb22ede7d4a1e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\probe_calendar_april_adaptive_minis_20260929.jaf",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\probe_calendar_april_adaptive_minis_20260929.jaf",
+      "sha256": "f4f450561c755b05eff04f1aa3ef804d2690c6cd082ea0c37267ccb6fdd92dc6"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\verify_calendar_april_adaptive_minis_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\verify_calendar_april_adaptive_minis_20260929.py",
+      "sha256": "322da1c6bbf25c56c9326fc7b9ac98f62488333bc3658ca4e3731bfe5545c1e6"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\verify_calendar_april_summary_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\verify_calendar_april_summary_20260929.py",
+      "sha256": "d7a57259edda27863494b5651ba2d29796af871c4bed83c7cc1f91ad5334029c"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\preflight_calendar_april_install_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\preflight_calendar_april_install_20260929.py",
+      "sha256": "0f3f5ca85833d0a6a8d21858eeb088cedcc7858e1cf7788e1140d65b3f9cb71b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\prepare_calendar_choice_context_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\prepare_calendar_choice_context_20260929.py",
+      "sha256": "2dbc8af0bc68d1dfd71ec44d56464eb9c21db4220e5a9e621ed9a1b593c62724"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\build_calendar_choice_context_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\build_calendar_choice_context_20260929.py",
+      "sha256": "d8e3a4c70f048a15d449fc8764ef689ad8038d54de8181d43d9812f4dc3c2fbb"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\build_calendar_label_particles_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\build_calendar_label_particles_20260929.py",
+      "sha256": "c26e66799fc652da7cff1b67f9d9471fe1cae63c42c20e236940145668b5a2cd"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\probe_calendar_label_particles_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\probe_calendar_label_particles_20260929.py",
+      "sha256": "d58d5462ccf980fc20a1910d4522796721eba7d4c458748ebc8e82fe13ea4bfc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\verify_calendar_label_particles_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\verify_calendar_label_particles_20260929.py",
+      "sha256": "de7fc769db202038379e5d01b27915d700d5e886a186f8dd6762ebe8bea1f382"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\publish_calendar_label_particles_20260929.py",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\publish_calendar_label_particles_20260929.py",
+      "sha256": "db9be0cdf72bcaa434cd37dd423dadcbefd3aee17793dd156cdd28cce6094509"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\scan_calendar_label_particles_20260929.ps1",
+      "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\scan_calendar_label_particles_20260929.ps1",
+      "sha256": "4f4ba04fccc6418554774bbfd6eb5db958fd1b6b527e7cae9da76ad30cc12665"
+    }
+  ]
+}

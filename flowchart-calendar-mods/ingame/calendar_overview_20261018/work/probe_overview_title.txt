@@ -1,0 +1,39 @@
+{
+ "pid": 80532,
+ "ain_sha256": "3cd9898bc2e658ecbed582bcdd6ee17f468cd2251a7d5e1751b4f296721d61f1",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 21.6,
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_title.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_title_back.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_title_board.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\증거\\probe\\xv_title_month.png"
+ ],
+ "save": "TITLE",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_overview_20261018\\probe\\run\\SaveData_OverviewProbe_20261018_184009",
+ "candidate_ain": "b5a6ceb09e18ef3a5e08e000a511275ff091325ea0967418964a2076a913b959",
+ "candidate_pact": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+ "fails": [],
+ "oks": 5,
+ "ended": true,
+ "user_save_folder_unchanged": true
+}
+SAVEFOLDER P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\calendar_overview_20261018\probe\run\SaveData_OverviewProbe_20261018_184009
+TITLE MODE
+SHOT xv_title.bmp
+STAGE t_ov
+REQUEST chart
+OK title: the menubar request opens the overview board
+OK title: no 이 세이브 button (no save loaded)
+ROWS 0 2 3 4 5 6 7 8 9 
+OK title rows: 본편, companions read in some save, 던전 동행
+SHOT xv_title_board.bmp
+STAGE t_month
+OK title: 7월 head opens the month view
+SHOT xv_title_month.bmp
+STAGE t_back
+OK title: closing the month view returns to the board
+SHOT xv_title_back.bmp
+FAILS 0
+END

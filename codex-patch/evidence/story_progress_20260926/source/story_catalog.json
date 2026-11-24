@@ -1,0 +1,1255 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\graph\\schedule.json",
+  "sha256": "e8330e4819e94bc5baeb642b10efad37c7a7cdd5e415933c34ed4e6e70dbfc49",
+  "anchors": [
+    {
+      "stage": 1,
+      "label": "도입부",
+      "id": 1,
+      "fn": "ＥＶ／元／E00001",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／オープニング",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "label": "도입부",
+      "id": 2,
+      "fn": "ＥＶ／元／E00002",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／オープニング",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "label": "도입부",
+      "id": 121,
+      "fn": "ＥＶ／元／E00121",
+      "triggers": [
+        {
+          "kind": "scheduled",
+          "date": [
+            4,
+            9
+          ],
+          "time_id": 1,
+          "condition_expr": "date==4/9 and time_id==1 and not seen(121)",
+          "guards": [],
+          "source": "L_EventCall::Check"
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "label": "백화점 진입",
+      "id": 22,
+      "fn": "ＥＶ／元／E00022",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／デパート実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            5,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "label": "백화점 이후",
+      "id": 65,
+      "fn": "ＥＶ／元／E00065",
+      "triggers": [
+        {
+          "kind": "scheduled",
+          "date": [
+            5,
+            16
+          ],
+          "time_id": 1,
+          "condition_expr": "date==5/16 and time_id==1 and not seen(65)",
+          "guards": [],
+          "source": "L_EventCall::Check"
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "label": "학교 진입",
+      "id": 74,
+      "fn": "ＥＶ／元／E00074",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "guards": [
+            "(((L_EventCall::m_nMonth == 6) && (L_EventCall::m_nDay == 12)) && (L_EventCall::m_nTimeID == 1))",
+            "!(bLoadRestData)"
+          ],
+          "source": "L_EventCall::Check"
+        }
+      ]
+    },
+    {
+      "stage": 5,
+      "label": "학교 이후",
+      "id": 102,
+      "fn": "ＥＶ／元／E00102",
+      "triggers": [
+        {
+          "kind": "scheduled",
+          "date": [
+            6,
+            13
+          ],
+          "time_id": 1,
+          "condition_expr": "date==6/13 and time_id==1 and not seen(102)",
+          "guards": [],
+          "source": "L_EventCall::Check"
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 180,
+      "fn": "ＥＶ／元／E00180",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／ライブハウス実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            7,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 154,
+      "fn": "ＥＶ／元／E00154",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 155,
+      "fn": "ＥＶ／元／E00155",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 156,
+      "fn": "ＥＶ／元／E00156",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 157,
+      "fn": "ＥＶ／元／E00157",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 158,
+      "fn": "ＥＶ／元／E00158",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 159,
+      "fn": "ＥＶ／元／E00159",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 160,
+      "fn": "ＥＶ／元／E00160",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 161,
+      "fn": "ＥＶ／元／E00161",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 162,
+      "fn": "ＥＶ／元／E00162",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 163,
+      "fn": "ＥＶ／元／E00163",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 164,
+      "fn": "ＥＶ／元／E00164",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 165,
+      "fn": "ＥＶ／元／E00165",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 166,
+      "fn": "ＥＶ／元／E00166",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 167,
+      "fn": "ＥＶ／元／E00167",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 168,
+      "fn": "ＥＶ／元／E00168",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 169,
+      "fn": "ＥＶ／元／E00169",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 170,
+      "fn": "ＥＶ／元／E00170",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 171,
+      "fn": "ＥＶ／元／E00171",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 172,
+      "fn": "ＥＶ／元／E00172",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 173,
+      "fn": "ＥＶ／元／E00173",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "label": "수수께끼의 틈",
+      "id": 174,
+      "fn": "ＥＶ／元／E00174",
+      "triggers": [
+        {
+          "kind": "dungeon",
+          "source": "C_EventDungeon0401@RunEventEntrance",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 7,
+      "label": "수수께끼의 틈 이후",
+      "id": 185,
+      "fn": "ＥＶ／元／E00185",
+      "triggers": [
+        {
+          "kind": "scheduled",
+          "date": [
+            7,
+            27
+          ],
+          "time_id": 2,
+          "condition_expr": "date==7/27 and time_id==2 and not seen(185)",
+          "guards": [
+            "!(bKYOUKA0227)"
+          ],
+          "source": "L_EventCall::Check"
+        },
+        {
+          "kind": "chained",
+          "from": 20061,
+          "via_choice": null,
+          "source": "ＥＶ／元／E20061",
+          "guards": []
+        },
+        {
+          "kind": "chained",
+          "from": 60010,
+          "via_choice": null,
+          "source": "ＥＶ／元／E60010",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 7,
+      "label": "수수께끼의 틈 이후",
+      "id": 201,
+      "fn": "ＥＶ／元／E00201",
+      "triggers": [
+        {
+          "kind": "scheduled",
+          "date": [
+            8,
+            13
+          ],
+          "time_id": 1,
+          "condition_expr": "date==8/13 and time_id==1 and not seen(201)",
+          "guards": [],
+          "source": "L_EventCall::Check"
+        },
+        {
+          "kind": "chained",
+          "from": 60011,
+          "via_choice": null,
+          "source": "ＥＶ／元／E60011",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "label": "서양관 진입",
+      "id": 404,
+      "fn": "ＥＶ／元／E00404",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "label": "서양관 진입",
+      "id": 452,
+      "fn": "ＥＶ／元／E00452",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "label": "서양관 진입",
+      "id": 501,
+      "fn": "ＥＶ／元／E00501",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        },
+        {
+          "kind": "chained",
+          "from": 452,
+          "via_choice": null,
+          "source": "ＥＶ／元／E00452",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "label": "서양관 진입",
+      "id": 525,
+      "fn": "ＥＶ／元／E00525",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        },
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        },
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        },
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "label": "서양관 진입",
+      "id": 10121,
+      "fn": "ＥＶ／元／E10121",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        },
+        {
+          "kind": "chained",
+          "from": 50107,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50107",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "label": "서양관 진입",
+      "id": 20121,
+      "fn": "ＥＶ／元／E20121",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        },
+        {
+          "kind": "chained",
+          "from": 50206,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50206",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "label": "서양관 진입",
+      "id": 30121,
+      "fn": "ＥＶ／元／E30121",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        },
+        {
+          "kind": "chained",
+          "from": 50304,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50304",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "label": "서양관 진입",
+      "id": 40121,
+      "fn": "ＥＶ／元／E40121",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／洋館実行",
+          "once": false,
+          "guards": [],
+          "date": [
+            10,
+            21
+          ]
+        },
+        {
+          "kind": "chained",
+          "from": 50405,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50405",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 9,
+      "label": "서양관 이후",
+      "id": 5024,
+      "fn": "ＥＶ／元／E05024",
+      "triggers": [
+        {
+          "kind": "scheduled",
+          "date": [
+            10,
+            22
+          ],
+          "time_id": 2,
+          "condition_expr": "date==10/22 and time_id==2 and not seen(5024)",
+          "guards": [
+            "!(LAbility::At(2)->C_Ability@IsTurning())",
+            "LAbility::At(3)->C_Ability@IsTurning()"
+          ],
+          "source": "L_EventCall::Check"
+        },
+        {
+          "kind": "scheduled",
+          "date": [
+            10,
+            22
+          ],
+          "time_id": 2,
+          "condition_expr": "date==10/22 and time_id==2 and not seen(5024)",
+          "guards": [
+            "!(LAbility::At(2)->C_Ability@IsTurning())",
+            "!(LAbility::At(3)->C_Ability@IsTurning())",
+            "!(LAbility::At(4)->C_Ability@IsTurning())",
+            "LAbility::At(5)->C_Ability@IsTurning()"
+          ],
+          "source": "L_EventCall::Check"
+        },
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E05024",
+          "date": [
+            10,
+            22
+          ],
+          "time_id": 1,
+          "condition_expr": "date==10/22 and time_id==1 (E05024 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "label": "학원제",
+      "id": 602,
+      "fn": "ＥＶ／元／E00602",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00602",
+          "date": [
+            11,
+            11
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/11 and time_id==1 (E00602 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "label": "학원제",
+      "id": 10161,
+      "fn": "ＥＶ／元／E10161",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00602",
+          "date": [
+            11,
+            11
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/11 and time_id==1 (E00602 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "label": "학원제",
+      "id": 20141,
+      "fn": "ＥＶ／元／E20141",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00602",
+          "date": [
+            11,
+            11
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/11 and time_id==1 (E00602 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "chained",
+          "from": 50209,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50209",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "label": "학원제",
+      "id": 30041,
+      "fn": "ＥＶ／元／E30041",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00602",
+          "date": [
+            11,
+            11
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/11 and time_id==1 (E00602 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "chained",
+          "from": 50307,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50307",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "label": "학원제",
+      "id": 40143,
+      "fn": "ＥＶ／元／E40143",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00602",
+          "date": [
+            11,
+            11
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/11 and time_id==1 (E00602 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 901,
+      "fn": "ＥＶ／元／E00901",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::MAKOTO_ENDING",
+          "date": [
+            11,
+            15
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/15 and time_id==1 (MAKOTO_ENDING 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "chained",
+          "from": 60019,
+          "via_choice": null,
+          "source": "ＥＶ／元／E60019",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 5023,
+      "fn": "ＥＶ／元／E05023",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::MAKOTO_ENDING",
+          "date": [
+            11,
+            15
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/15 and time_id==1 (MAKOTO_ENDING 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 10181,
+      "fn": "ＥＶ／元／E10181",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::MAKOTO_ENDING",
+          "date": [
+            11,
+            15
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/15 and time_id==1 (MAKOTO_ENDING 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 10182,
+      "fn": "ＥＶ／元／E10182",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::MAKOTO_ENDING",
+          "date": [
+            11,
+            15
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/15 and time_id==1 (MAKOTO_ENDING 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 10183,
+      "fn": "ＥＶ／元／E10183",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::MAKOTO_ENDING",
+          "date": [
+            11,
+            15
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/15 and time_id==1 (MAKOTO_ENDING 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 40144,
+      "fn": "ＥＶ／元／E40144",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::MAKOTO_ENDING",
+          "date": [
+            11,
+            15
+          ],
+          "time_id": 1,
+          "condition_expr": "date==11/15 and time_id==1 (MAKOTO_ENDING 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 652,
+      "fn": "ＥＶ／元／E00652",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 653,
+      "fn": "ＥＶ／元／E00653",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 654,
+      "fn": "ＥＶ／元／E00654",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 658,
+      "fn": "ＥＶ／元／E00658",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 10201,
+      "fn": "ＥＶ／元／E10201",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "chained",
+          "from": 50109,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50109",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 10202,
+      "fn": "ＥＶ／元／E10202",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "chained",
+          "from": 50110,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50110",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 20181,
+      "fn": "ＥＶ／元／E20181",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "chained",
+          "from": 50210,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50210",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "label": "최종장 직전",
+      "id": 30101,
+      "fn": "ＥＶ／元／E30101",
+      "triggers": [
+        {
+          "kind": "scheduled_special",
+          "source": "L_EventCall::E00658",
+          "date": [
+            11,
+            16
+          ],
+          "time_id": 2,
+          "condition_expr": "date==11/16 and time_id==2 (E00658 안의 갈래)",
+          "guards": []
+        },
+        {
+          "kind": "chained",
+          "from": 50308,
+          "via_choice": null,
+          "source": "ＥＶ／元／E50308",
+          "guards": []
+        }
+      ]
+    },
+    {
+      "stage": 12,
+      "label": "최종장",
+      "id": 903,
+      "fn": "ＥＶ／元／E00903",
+      "triggers": [
+        {
+          "kind": "special_day",
+          "source": "呼出／エンディング実行",
+          "once": true,
+          "guards": []
+        },
+        {
+          "kind": "special_day",
+          "source": "呼出／エンディング実行",
+          "once": true,
+          "guards": []
+        },
+        {
+          "kind": "special_day",
+          "source": "呼出／エンディング実行",
+          "once": true,
+          "guards": []
+        },
+        {
+          "kind": "special_day",
+          "source": "呼出／エンディング実行",
+          "once": true,
+          "guards": []
+        },
+        {
+          "kind": "special_day",
+          "source": "呼出／エンディング実行",
+          "once": true,
+          "guards": []
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "0": "기록 없음",
+    "1": "도입부",
+    "2": "백화점 진입",
+    "3": "백화점 이후",
+    "4": "학교 진입",
+    "5": "학교 이후",
+    "6": "수수께끼의 틈",
+    "7": "수수께끼의 틈 이후",
+    "8": "서양관 진입",
+    "9": "서양관 이후",
+    "10": "학원제",
+    "11": "최종장 직전",
+    "12": "최종장",
+    "13": "엔딩 완료"
+  },
+  "end_flag": "エンディング終了",
+  "count_basis": "Last entered mandatory story checkpoint, not a completion percentage; current-save flags only",
+  "translator_model": "Codex internal"
+}

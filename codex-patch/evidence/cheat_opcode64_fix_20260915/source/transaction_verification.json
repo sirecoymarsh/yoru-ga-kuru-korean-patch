@@ -1,0 +1,18 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\cheat_opcode64_fix_20260915\\복구 검증 py2_dbbo",
+  "payload": {
+    "NightRemaster.ain": "537a684b60828bdf3b19252e3e6b32c3ebffb8812de70b323805b479fea05e2a"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "nth_replacement_rollback": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "no_incoming_residue": true,
+  "zip": "not applicable: live data-only installation; no archive emitted"
+}

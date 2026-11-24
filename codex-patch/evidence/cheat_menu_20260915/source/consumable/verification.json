@@ -1,0 +1,61 @@
+{
+  "status": "CONSUMABLE_COMPILED_VM_AND_CONSUMER_CLOSURE_PASS",
+  "files": {
+    "NightRemaster.ain": "e144757005642031e155c08c8ab9d6c51582868f86b513a6f45d83438266c931"
+  },
+  "getter_cases": 30,
+  "unknown_id_fallback_cases": 36,
+  "screenshot_regression": [
+    {
+      "id": 1,
+      "before": "반월환",
+      "after": "반달 환약",
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "before": "달의 물방울",
+      "after": "달의 물방울",
+      "quantity": 4
+    },
+    {
+      "id": 3,
+      "before": "월광정",
+      "after": "달빛 수정",
+      "quantity": 5
+    },
+    {
+      "id": 4,
+      "before": "만월환",
+      "after": "보름달 환약",
+      "quantity": 4
+    },
+    {
+      "id": 5,
+      "before": "카사의 영약",
+      "after": "카샤의 영약",
+      "quantity": 2
+    }
+  ],
+  "selection_use_acquisition_crafting_and_description_consumers_verified": [
+    26693,
+    26694,
+    27188,
+    27749,
+    31454,
+    31481
+  ],
+  "direct_member_bypasses": 0,
+  "approved_name_catalog_coverage": {
+    "EX_names_previously_fixed_and_retained": 512,
+    "separate_consumable_names_now_fixed": 5,
+    "total": 517
+  },
+  "descriptions_and_original_crafting_name_padding_preserved": true,
+  "adjacent_element_stone_UI_description_operands_fixed": 2,
+  "no_quantity_found_price_stat_or_multiplier_mutation": true,
+  "native_verified": false,
+  "actual_save_reload_verified": false,
+  "limitation": "Executed persisted compiled getters in a bounded VM. Real native menu display remains pending.",
+  "translator_model": "Codex internal"
+}

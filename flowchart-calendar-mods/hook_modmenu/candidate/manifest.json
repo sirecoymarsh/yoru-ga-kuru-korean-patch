@@ -1,0 +1,26 @@
+{
+  "schema": "mod-menu-hook.candidate.v1",
+  "author": "Claude Fable 5.1 (claude-fable-5-1)",
+  "time": "2026-09-28T08:31:49.880540+09:00",
+  "files": {
+    "winmm.dll": {
+      "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_modmenu\\build_release\\winmm.dll",
+      "sha256": "a72b1b9d386107bb6370f4ff3f0ff9bd857fbf6223e7d0b1f5399604cd64e199",
+      "size": 118784
+    }
+  },
+  "base_dll_sha256": "a4dd91102fbea2e1a7992974e53d45ffbeec8e79dc9981c5cc7c5201a01ab053",
+  "proxy_header_sha256": "757865b39d9991d321d5a4a239c64e9f159a9f190b03c67fe7d28607229871d1",
+  "proxy_header_rows": 2364,
+  "source_sha256": {
+    "build.ps1": "a200aef7c467d6bc4024166a6eeea659edef88a75a3058e7b3688ff4d3b3f31c",
+    "build_x86.cmd": "ed1753f6b5e228f9eab8059de071423607b950082760c1259c4a77cea8d30c42",
+    "generate_proxy_table.py": "51e8ef34907d91ef74bd07060c066fdbd2adfe6a44cdd3d626e3b7ed78b12ce4",
+    "hangul_proxy_table.generated.h": "757865b39d9991d321d5a4a239c64e9f159a9f190b03c67fe7d28607229871d1",
+    "README.md": "3c168d031a4956a3faba960f20bea1ace09f89bea1fa5b9b9fe560cefae0dde9",
+    "unit_harness.cpp": "e01aa43df6886d6284d150aa2db39ae286f5419718710a636e4056dbfdea3549",
+    "winmm_proxy.cpp": "c6958e3a5a26d81182a58bb8248e46026241a935419507516ae077e06e79d80a",
+    "winmm_proxy.def": "b4d7c3fec508e18efefeb770f76d9cc4d37fe1fea9390b94ec327a4d4ac0dbdd"
+  },
+  "build_log_sha256": "59d929a0ce8b26d6c367f17da547ff2445327d3c56496895a7951553017d65c5"
+}

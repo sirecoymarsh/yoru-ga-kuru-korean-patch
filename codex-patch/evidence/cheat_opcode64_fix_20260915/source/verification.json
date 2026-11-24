@@ -1,0 +1,23 @@
+{
+  "status": "COMPILED_BEHAVIOR_AND_NATIVE_OPCODE_PASS",
+  "files": {
+    "NightRemaster.ain": "537a684b60828bdf3b19252e3e6b32c3ebffb8812de70b323805b479fea05e2a"
+  },
+  "VM": {
+    "compiled_VM_calls": 7071,
+    "slider_steps": 5,
+    "slider_roundtrips": 500,
+    "quick_entry_exit_cases": 24,
+    "watchdog_and_cancel": true,
+    "int32_clock_wrap": true,
+    "trap_compiled_hook_cases": 72,
+    "route_compiled_helper_fixtures": 6,
+    "unknown_slot_bounds": true,
+    "original_system_flags_preserved": true,
+    "route_native_AStar_engine_itself_tested": false
+  },
+  "native_active_functions": 29974,
+  "native_instruction_sites": 1803538,
+  "all_active_opcodes_supported": true,
+  "native_gameplay_verified": false
+}

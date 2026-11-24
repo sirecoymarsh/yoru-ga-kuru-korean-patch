@@ -1,0 +1,16 @@
+{
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "started": "2026-09-17T17:35:34.3991193+09:00",
+  "ended": "2026-09-17T17:35:38.2220910+09:00",
+  "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\native_mod_button_20260917\\scan_payload",
+  "files": {
+    "NightRemasterCG.afa": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e",
+    "NightRemasterPact.afa": "335e063313527913d0a7b5197e66e6a3ef31b9a2ab508a21d3a8b062e084be92"
+  },
+  "engine": "1.1.26080.3",
+  "platform": "4.18.26080.3",
+  "signatures": "1.459.247.0",
+  "antivirusEnabled": true,
+  "before": [],
+  "after": []
+}

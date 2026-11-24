@@ -1,0 +1,210 @@
+{
+ "status": "reviewed",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "author": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - second pass by the same author in the same session (not an independent reviewer): all 128 packets re-opened after drafting and read again in a compact Japanese view (work/qa_view.py; speaker tags folded, wrapped lines joined); E00516 was additionally re-checked line by line for the restraint detail; key claims of the long scenes were also grep-checked against their supporting lines; no subagent, no external model",
+ "reviewed_at": "2026-09-29T21:28:01.423337+09:00",
+ "reviewed_events": 128,
+ "reviewed_japanese_messages": 10673,
+ "checks": [
+  "(a) only facts that are in the scene",
+  "(b) speakers / actors not swapped",
+  "(c) no other scene or branch mixed in",
+  "switchable display terms avoided (히카리·카샤·참된 달·참된 밤·얼어붙은 밤·호무라)",
+  "no explicit wording for the E00516 coercion scene"
+ ],
+ "source_sha256": "c906cb90a949f654cb09d683991d8ffd9536aa7e6f8b2114dafa91695f2306d4",
+ "summary_sha256": "e498e58e1f98119ff546ae5e62aec301e464c6c3d3010fd41f6f4dbe4b7434a6",
+ "findings": [
+  {
+   "no": 302,
+   "message_id": 26157,
+   "severity": "P2",
+   "kind": "other_scene_mixed",
+   "source": "コーヒーメーカーは、",
+   "before": "별빛 카페 준비를",
+   "after": "학원제 카페 준비를",
+   "reason": "the cafe name is decided in E00301 and never appears in this scene",
+   "summary_after": "학원제 카페 준비를 의논하다 모모세가 누나들 덕에 케이크를 만들 줄 안다고 밝힌다. 가을 별자리를 찍을 옥상 촬영회가 정해지고 주인공은 마코토에게도 함께 가자고 권한다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 452,
+   "message_id": 28000,
+   "severity": "P2",
+   "kind": "other_scene_mixed",
+   "source": "これで回る店は全部かい？",
+   "before": "학원제 물품을 사러 나온 날",
+   "after": "물건을 사러 나온 날",
+   "reason": "the purpose of the shopping trip is stated only in E00451, not in this scene",
+   "summary_after": "물건을 사러 나온 날, 벤치에서 쉬던 마나미에게 사카키가 다가온다. 사카키가 마나미를 잠재워 데려가는 것을 본 주인공은 돌아온 이즈미에게 납치 사실을 알린다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 516,
+   "message_id": 29096,
+   "severity": "P2",
+   "kind": "fact",
+   "source": "俺の腕と足に繋がれた手錠の鎖を切ると、",
+   "before": "주인공이 결박을 뿌리치고 맞서는 순간 호시카와가 창을 깨고 뛰어들어, 셋은 하이지와 대치한다.",
+   "after": "묶인 채로 주인공이 하이지를 내던지고, 창을 깨고 뛰어든 호시카와까지 가세해 셋이 하이지와 맞선다.",
+   "reason": "the protagonist is still cuffed when he throws Haiji; Hoshikawa cuts the chains afterwards",
+   "summary_after": "벽의 함정을 꾸민 하이지가 주인공을 인질로 삼아 마코토에게 굴욕을 강요한다. 묶인 채로 주인공이 하이지를 내던지고, 창을 깨고 뛰어든 호시카와까지 가세해 셋이 하이지와 맞선다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 5025,
+   "message_id": 61935,
+   "severity": "P3",
+   "kind": "unstated_detail",
+   "source": "ポンプ室の上から百瀬が下りてくる",
+   "before": "옥상에서 마나미와 뜻을 모은 주인공은 엿듣던 모모세와 함께 셋이서",
+   "after": "마나미와 뜻을 모은 주인공은 엿듣던 모모세까지 셋이서",
+   "reason": "the place is never named in the scene (rooftop was an inference)",
+   "summary_after": "이즈미가 오빠 소지의 죄와 숨겨 온 과거를 털어놓는다. 마나미와 뜻을 모은 주인공은 엿듣던 모모세까지 셋이서 이즈미에게 돌아가기로 한다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 30161,
+   "message_id": 56947,
+   "severity": "P3",
+   "kind": "unstated_detail",
+   "source": "思い起こせば半月前……",
+   "before": "연극 대사를 연습하던",
+   "after": "혼자 대사를 읊던",
+   "reason": "the scene does not say it is play practice; she is only reciting lines alone",
+   "summary_after": "옥상에서 혼자 대사를 읊던 마나미를 놀라게 한 주인공이 일요일 영화를 권한다. 마나미는 친척 집에 갈 일이 있다며 미안해하고, 주인공은 표를 포기한다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 30162,
+   "message_id": 56996,
+   "severity": "P3",
+   "kind": "unstated_detail",
+   "source": "思い起こせば半月前……",
+   "before": "연극 대사를 연습하던",
+   "after": "혼자 대사를 읊던",
+   "reason": "same as E30161",
+   "summary_after": "옥상에서 혼자 대사를 읊던 마나미에게 주인공이 일요일 영화를 권한다. 친척 집에 갈 예정이던 마나미는 영화라는 말에 선뜻 응하고 기대된다며 들뜬다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 402,
+   "message_id": 27744,
+   "severity": "P3",
+   "kind": "overstatement",
+   "source": "うーん……………",
+   "before": "주인공은 흔쾌히 응하지만",
+   "after": "주인공은 제안을 받아들이지만",
+   "reason": "the protagonist hesitates before agreeing",
+   "summary_after": "마나미가 지난번 영화 약속을 망친 일을 만회하겠다며 주인공에게 일요일 데이트를 신청한다. 주인공은 제안을 받아들이지만 데이트라는 말을 새삼 의식하게 된다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 20121,
+   "message_id": 47836,
+   "severity": "P3",
+   "kind": "ambiguity",
+   "source": "私の記憶はその頃から、どんどん霞がかかったみたいに",
+   "before": "쿄카가 언니와 소지의 일, 그리고 비어 버린 자신의 기억을 되찾고 싶다고",
+   "after": "쿄카가 언니와 소지의 일을 들려주며 비어 버린 자신의 기억을 되찾고 싶다고",
+   "reason": "the old wording could read as wanting to recover her sister and Souji as well",
+   "summary_after": "쿄카가 언니와 소지의 일을 들려주며 비어 버린 자신의 기억을 되찾고 싶다고 털어놓는다. 계속 싸우겠다는 주인공에게 쿄카가 좋아한다고 고백하고, 두 사람은 서로의 마음을 확인한다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 522,
+   "message_id": 29549,
+   "severity": "P3",
+   "kind": "term",
+   "source": "それじゃこちらも始めようか",
+   "before": "코우야는 홀로 의식을 시작한다",
+   "after": "코우야는 홀로 남아 빙의를 시작한다",
+   "reason": "what Kouya starts is the possession of Manami, not a ritual",
+   "summary_after": "저택 깊은 곳에서 코우야가 잠든 마나미에게 여왕의 영혼을 빙의시키려 한다. 다가오는 일행의 기척에 소지와 사카키가 맞으러 나가고, 코우야는 홀로 남아 빙의를 시작한다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 1183,
+   "message_id": 90970,
+   "severity": "P3",
+   "kind": "overstatement",
+   "source": "『一度目は手を繋ぐまで』って答えたら笑われたの",
+   "before": "쿄카에게 웃음거리가 된 일을",
+   "after": "자기 대답에 쿄카가 웃었다고",
+   "reason": "Kyoka only laughed at her answer",
+   "summary_after": "키스는 몇 번째 데이트에서 하는지 묻던 이즈미가 자기 대답에 쿄카가 웃었다고 털어놓는다. 조금 더 적극적이어야겠다는 이즈미의 말에 주인공은 당황한다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 1368,
+   "message_id": 94246,
+   "severity": "P3",
+   "kind": "misquote",
+   "source": "何の話？",
+   "before": "무엇에 쓰려는지 묻자",
+   "after": "무슨 얘기냐고 묻자",
+   "reason": "the protagonist asks what the talk is about, not what it is for",
+   "summary_after": "마나미가 주인공에게 좋아하는 색을 묻고 보라색이라는 답을 듣는다. 무슨 얘기냐고 묻자 마나미는 다음에 살 물건을 말하려다 황급히 얼버무린다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 511,
+   "message_id": 28442,
+   "severity": "P3",
+   "kind": "padding",
+   "source": "そうだとも！　光狩め……",
+   "before": "납치범을 찾아내면 반죽음으로 끝내지 않겠다는 모모세에게 신카이도 맞장구친다. 두 사람은 마나미에게 무슨 일이 생기면 가만두지 않겠다고 함께 분노한다.",
+   "after": "납치범을 반죽음으로 끝내지 않겠다는 모모세에게 신카이도 마나미에게 무슨 일이 생기면 가만두지 않겠다고 맞장구친다.",
+   "reason": "14-message scene; one sentence carries both lines",
+   "summary_after": "납치범을 반죽음으로 끝내지 않겠다는 모모세에게 신카이도 마나미에게 무슨 일이 생기면 가만두지 않겠다고 맞장구친다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 504,
+   "message_id": 28320,
+   "severity": "P3",
+   "kind": "padding",
+   "source": "どんな理由だろうと構うものか！",
+   "before": "주인공과 이즈미가 마나미가 납치된 이유를 헤아리지 못하자 신카이가 이유 따위 상관없다고 외친다. 신카이는 마나미에게 무슨 일이라도 생기면 모든 기술을 쏟아붓겠다고 벼른다.",
+   "after": "납치 이유를 헤아리지 못하는 주인공과 이즈미에게 신카이는 이유 따위 상관없다며 마나미를 해치면 모든 기술을 쏟아붓겠다고 벼른다.",
+   "reason": "16-message scene; the two sentences repeated the same outburst",
+   "summary_after": "납치 이유를 헤아리지 못하는 주인공과 이즈미에게 신카이는 이유 따위 상관없다며 마나미를 해치면 모든 기술을 쏟아붓겠다고 벼른다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 503,
+   "message_id": 28305,
+   "severity": "P3",
+   "kind": "padding",
+   "source": "いや、なにはともあれ無事に三輪坂を救出せねばな",
+   "before": "납치의 이유를 두고 주인공과 이즈미가 고개를 갸웃하는 사이 마코토가 말없이 생각에 잠긴다. 이즈미가 묻자 마코토는 우선 무사히 구출해야 한다고 답하고 일행은 서두른다.",
+   "after": "납치 이유를 두고 주인공과 이즈미가 고개를 갸웃하는 사이 말없이 있던 마코토가 우선 무사히 구출하자고 말한다.",
+   "reason": "19-message scene; shortened without dropping a beat",
+   "summary_after": "납치 이유를 두고 주인공과 이즈미가 고개를 갸웃하는 사이 말없이 있던 마코토가 우선 무사히 구출하자고 말한다.",
+   "status": "resolved by primary"
+  }
+ ],
+ "unresolved": [
+  {
+   "item": "display height",
+   "detail": "median length is about 86 characters (April 70; limit 100). The 4-line / about 509 px fit has not been measured in the game for October; measure when the summary layer is built after WI-009 and shorten if needed."
+  },
+  {
+   "item": "switchable terms",
+   "detail": "summaries never use the term-setting display words; 光狩 is written as 적 or left implicit, 真月 as 달, 火者 is described without the word. A person should confirm this matches the intended policy for other months."
+  },
+  {
+   "item": "E00516 wording",
+   "detail": "sexual coercion scene summarised as 굴욕을 강요한다 (non-explicit). A person may prefer other wording."
+  },
+  {
+   "item": "spoiler weight",
+   "detail": "several summaries state major reveals of their own scene (E00525, E05024, E05025, E10121, E10122, E40121, E00524). They are hidden while unviewed by the UI design; no cross-scene reveal was added."
+  },
+  {
+   "item": "installed Korean observation (out of scope)",
+   "detail": "E01165 message 90901: JP 野良イヌ (stray dog) is installed as 도둑개; the summary follows the Japanese meaning. Not changed here (dialogue edits are out of scope)."
+  }
+ ]
+}

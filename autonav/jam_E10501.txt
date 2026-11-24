@@ -1,0 +1,188 @@
+==================== ; L_EventCall::E10501 FUNC 26406
+; L_EventCall::E10501
+; VAR  0: b : bool
+; VAR  1: i : int
+; VAR  2: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; VAR  3: nPerson : int
+; VAR  4: nMaxFeeling : int
+; VAR  5: i : int
+; VAR  6: nFeeling : int
+; VAR  7: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; RETURN: bool
+FUNC 26406
+	.GLOBALREF L_EventCall::m_nMonth
+	PUSH 11
+	NOTE
+	IFNZ 0x53b55a
+	JUMP 0x53b562
+0x53b55a:
+	PUSH 0
+	RETURN
+0x53b562:
+	.GLOBALREF L_EventCall::m_nDay
+	PUSH 1
+	NOTE
+	IFNZ 0x53b584
+	JUMP 0x53b58c
+0x53b584:
+	PUSH 0
+	RETURN
+0x53b58c:
+	.GLOBALREF L_EventCall::m_nTimeID
+	PUSH 1
+	NOTE
+	IFNZ 0x53b5ae
+	JUMP 0x53b5b6
+0x53b5ae:
+	PUSH 0
+	RETURN
+0x53b5b6:
+	.LOCALASSIGN b 0
+	.LOCALASSIGN i 2
+0x53b5e2:
+	.LOCALREF i
+	PUSH 5
+	LTE
+	IFZ 0x53b73c
+	.LOCALREF i
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 2
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53b670
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53b67e
+0x53b670:
+	POP
+	PUSH -1
+	PUSH 1
+0x53b67e:
+	PUSH 1
+	GTE
+	IFZ 0x53b694
+	POP
+	PUSH 0
+0x53b694:
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+	IFNZ 0x53b6e8
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+	JUMP 0x53b722
+0x53b6e8:
+	.LOCALASSIGN b 1
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+0x53b722:
+	.LOCALINC3 i
+	JUMP 0x53b5e2
+0x53b73c:
+	.LOCALREF b
+	IFNZ 0x53b756
+	JUMP 0x53b75e
+0x53b756:
+	PUSH 0
+	RETURN
+0x53b75e:
+	.LOCALASSIGN nPerson 0
+	.LOCALASSIGN nMaxFeeling 0
+	.LOCALASSIGN i#1 2
+0x53b7a0:
+	.LOCALREF i#1
+	PUSH 5
+	LTE
+	IFZ 0x53b92a
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF i#1
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 7
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53b836
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53b844
+0x53b836:
+	POP
+	PUSH -1
+	PUSH 1
+0x53b844:
+	PUSH 1
+	GTE
+	IFZ 0x53b85a
+	POP
+	PUSH -1
+0x53b85a:
+	X_ASSIGN 1
+	POP
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#1"
+	.LOCALREF nFeeling
+	.LOCALREF nMaxFeeling
+	GT
+	IFNZ 0x53b8b0
+	JUMP 0x53b8ec
+0x53b8b0:
+	PUSHLOCALPAGE
+	PUSH 3
+	.LOCALREF i#1
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 4
+	.LOCALREF nFeeling
+	X_ASSIGN 1
+	POP
+0x53b8ec:
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#1"
+	.LOCALINC3 i#1
+	JUMP 0x53b7a0
+0x53b92a:
+	.LOCALREF nPerson
+	PUSH 0
+	EQUALE
+	IFNZ 0x53b94c
+	JUMP 0x53b954
+0x53b94c:
+	PUSH 0
+	RETURN
+0x53b954:
+	.LOCALREF nPerson
+	SWITCH 362
+	JUMP 0x53b9a6
+.CASE 362:0 2
+	PUSH 10501
+	CALLFUNC L_EventCall::Call
+	RETURN
+.CASE 362:1 3
+	PUSH 20501    ; stageeditor::detail::ISealInstance@Scale::get
+	CALLFUNC L_EventCall::Call
+	RETURN
+.CASE 362:2 4
+	PUSH 30501    ; ＥＶ／元／E40081
+	CALLFUNC L_EventCall::Call
+	RETURN
+.CASE 362:3 5
+	PUSH 40501
+	CALLFUNC L_EventCall::Call
+	RETURN
+0x53b9a6:
+	PUSH 0
+	RETURN
+	PUSH 0
+	RETURN
+

@@ -1,0 +1,72 @@
+[
+  {
+    "owner": "FUNC 26155",
+    "token": ".STRUCTREF C_Monster <sName>",
+    "snippet": "FUNC 26155\n\t.STRUCTREF C_Monster <sName>\n\tA_REF\n\tRETURN\nENDFUNC C_Monster@sName::get\n\n; C_Monster@sName::get#1\n; RETURN: string\n"
+  },
+  {
+    "owner": "FUNC 26156",
+    "token": ".STRUCTREF C_Monster <sName>",
+    "snippet": "FUNC 26156\n\t.STRUCTREF C_Monster <sName>\n\tA_REF\n\tRETURN\nENDFUNC C_Monster@sName::get#1\n\n; C_Monster@sName::set\n; ARG  0: value : string\n; RETURN: void\n"
+  },
+  {
+    "owner": "FUNC 26216",
+    "token": "PUSH 26155",
+    "snippet": "H 26151\n\t.LOCALREF src\n\tPUSH 26149\n\tCALLMETHOD 0\n\tX_DUP 1\n\tX_MOV 4 1\n\tCALLMETHOD 1\n\tPOP\n\tPUSHSTRUCTPAGE\n\tPUSH 26154\n\t.LOCALREF src\n\tPUSH 26152\n\tCALLMETHOD 0\n\tX_DUP 1\n\tX_MOV 4 1\n\tA_REF\n\tCALLMETHOD 1\n\tDELETE\n\tPUSHSTRUCTPAGE\n\tPUSH 26157\n\t.LOCALREF src\n\tPUSH 26155\n\tCALLMETHOD 0\n\tX_DUP 1\n\tX_MOV 4 1\n\tA_REF\n\tCALLMETHOD 1\n\tDELETE\n\tPUSHSTRUCTPAGE\n\tPUSH 26160\n\t.LOCALREF src\n\tPUSH 26158\n\tCALLMETHOD 0\n\tX_DUP 1\n\tX_MOV 4 1\n\tCALLMETHOD 1\n\tPOP\n\tPUSHSTRUCTPAGE\n\tPUSH 26163\n\t.LOCALREF src\n\tPUSH 26161\n\tCALLMETHOD 0\n\tX_DUP 1\n\tX_MOV 4 1\n\tCALLMETHOD 1\n\tPOP\n\tPUSHSTRUCTPAGE\n\tPUSH 26166\n\t."
+  },
+  {
+    "owner": "FUNC 26810",
+    "token": ".STRUCTREF C_Weapon <name>",
+    "snippet": "FUNC 26810\n\t.STRUCTREF C_Weapon <name>\n\tA_REF\n\tRETURN\nENDFUNC C_Weapon@name::get\n\n; C_Weapon@name::get#1\n; RETURN: string\n"
+  },
+  {
+    "owner": "FUNC 26811",
+    "token": ".STRUCTREF C_Weapon <name>",
+    "snippet": "FUNC 26811\n\t.STRUCTREF C_Weapon <name>\n\tA_REF\n\tRETURN\nENDFUNC C_Weapon@name::get#1\n\n; C_Weapon@name::set\n; ARG  0: value : string\n; RETURN: void\n"
+  },
+  {
+    "owner": "FUNC 29225",
+    "token": "PUSH 26155",
+    "snippet": "gress m_MessageView\n\tPUSH 29216\n\tPUSH 1\n\tCALLMETHOD 1\n\t.STRUCTREF C_BattleProgress m_MessageView\n\tPUSH 29214\n\tS_PUSH \"%s槇 %s鐚 %s蝨(錮) 麁黜\"\n\t.LOCALREF pa\n\tPUSH 27300\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF pw\n\tPUSH 26810\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF pm\n\tPUSH 26155\n\tCALLMETHOD 0\n\tS_MOD 4\n\tCALLMETHOD 1\n\tPUSHLOCALPAGE\n\tPUSH 15\n\tX_DUP 2\n\tX_REF 1\n\tDELETE\n\tPUSH 0\n\tX_A_INIT 0\n\tPOP\n\t.LOCALCREATE damage battle_damage_t\n\tPUSHSTRUCTPAGE\n\tPUSH 29246\n\t.LOCALREF damage\n\t.LOCALREF pa\n\t.LOCALREF pw\n\t.LOCALREF pm\n\tPUSHLOCALPAGE\n\tPUSH 11\n\tX_REF 2\n\tX_REF 1\n\tCALLMETHOD 5\n\tIFNZ 0x645288\n\t"
+  },
+  {
+    "owner": "FUNC 29226",
+    "token": "PUSH 26155",
+    "snippet": "gress m_MessageView\n\tPUSH 29216\n\tPUSH 1\n\tCALLMETHOD 1\n\t.STRUCTREF C_BattleProgress m_MessageView\n\tPUSH 29214\n\tS_PUSH \"%s槇 %s鐚 %s蝨(錮) 麁黜\"\n\t.LOCALREF pa\n\tPUSH 27300\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF pw\n\tPUSH 26810\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF pm\n\tPUSH 26155\n\tCALLMETHOD 0\n\tS_MOD 4\n\tCALLMETHOD 1\n\tPUSHLOCALPAGE\n\tPUSH 23\n\tX_DUP 2\n\tX_REF 1\n\tDELETE\n\tPUSH 0\n\tX_A_INIT 0\n\tPOP\n\t.LOCALCREATE damage battle_damage_t\n\tPUSHSTRUCTPAGE\n\tPUSH 29246\n\t.LOCALREF damage\n\t.LOCALREF pa\n\t.LOCALREF pw\n\t.LOCALREF pm\n\tPUSHLOCALPAGE\n\tPUSH 19\n\tX_REF 2\n\tX_REF 1\n\tCALLMETHOD 5\n\tIFNZ 0x646ef8\n\t"
+  },
+  {
+    "owner": "FUNC 29244",
+    "token": "PUSH 26155",
+    "snippet": "LOCALREF \"<dummy : C_Monster@aAction::getの戻り値>#1\"\n\tDELETE\n\tPUSHLOCALPAGE\n\tPUSH 6\n\tX_MOV 3 2\n\tX_ASSIGN 1\n\t.LOCALREF nAction\n\tX_REF 1\n\tX_ASSIGN 1\n\tSP_INC\n\t.LOCALDELETE \"<dummy : C_Monster@aAction::getの戻り値>#1\"\n\tS_PUSH \"%20s %20s 飄鴒=%d\\n\"\n\t.LOCALREF pm\n\tPUSH 26155\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF pa\n\tPUSH 26079\n\tCALLMETHOD 0\n\tS_MOD 4\n\t.LOCALREF pa\n\tPUSH 26106\n\tCALLMETHOD 0\n\tS_MOD 2\n\tCALLHLL system Output 0\n\tDELETE\n\t.LOCALDELETE \"<dummy : C_Monster@aAction::getの戻り値>#1\"\n\t.LOCALDELETE pa\n0x64b8ee:\n\tPUSH 1\n\tRETURN\n\tPUSH 0\n\tRETURN\n\n; C_BattleProgress@PlayFriendAttackEffec"
+  },
+  {
+    "owner": "FUNC 29257",
+    "token": "PUSH 26155",
+    "snippet": "H 1\n\tJUMP 0x650668\n0x650662:\n\tPUSH 0\n0x650668:\n\tIFNZ 0x650674\n\tJUMP 0x6507f4\n0x650674:\n\t.LOCALREF nAction\n\tPUSH -2\n\tEQUALE\n\tIFNZ 0x650696\n\tJUMP 0x6507ec\n0x650696:\n\t.STRUCTREF C_BattleProgress m_MessageView\n\tPUSH 29214\n\tS_PUSH \"%s馗 %s\"\n\t.LOCALREF pm\n\tPUSH 26155\n\tCALLMETHOD 0\n\tS_MOD 4\n\tS_PUSH \"綟闍 跂腆餠\"\n\tS_MOD 4\n\tCALLMETHOD 1\n\t.STRUCTREF C_BattleProgress m_MessageView\n\tPUSH 29216\n\tPUSH 1\n\tCALLMETHOD 1\n\tPUSH 500\n\tCALLFUNC W\n\t.LOCALREF pe\n\tPUSH 6\n\tPUSH -1\n\tX_ASSIGN 1\n\tPOP\n\t.LOCALREF pe\n\tPUSH 4\n\tPUSH 4\n\tX_ASSIGN 1\n\tPOP\n\t.LOCALREF pe\n\tPUSH 5\n\tPUSH 0\n\tX_ASSIGN 1\n\tPOP\n\t.STR"
+  },
+  {
+    "owner": "FUNC 29408",
+    "token": "PUSH 26155",
+    "snippet": " 1\n\tS_PUSH \"テキスト_敵情報_名前\"\n\tCALLMETHOD 1\n\t.LOCALREF \"<dummy : IActivity@GetTextの戻り値>\"\n\tDELETE\n\tPUSHLOCALPAGE\n\tPUSH 3\n\tX_MOV 4 2\n\tX_ASSIGN 2\n\tX_MOV 2 1\n\tX_DUP 1\n\tX_MOV 3 1\n\tPUSH 0\n\tX_REF 1\n\tX_MOV 2 1\n\tPUSH 7\n\tADD\n\tX_REF 1\n\t.LOCALREF e\n\tPUSH 0\n\tX_REF 1\n\tPUSH 26155\n\tCALLMETHOD 0\n\tX_DUP 1\n\tX_MOV 4 1\n\tA_REF\n\tCALLMETHOD 1\n\tDELETE\n\t.LOCALDELETE \"<dummy : IActivity@GetTextの戻り値>\"\n\tPUSHSTRUCTPAGE\n\tPUSH 0\n\tX_REF 2\n\tX_MOV 2 1\n\tX_DUP 1\n\tX_MOV 3 1\n\tPUSH 0\n\tX_REF 1\n\tX_MOV 2 1\n\tPUSH 55\n\tADD\n\tX_REF 1\n\tS_PUSH \"テキスト_敵情報_種族\"\n\tCALLMETHOD 1\n\t.LOCALREF \"<dummy : IActivity@GetTextの戻り値>#1\"\n"
+  },
+  {
+    "owner": "FUNC 29555",
+    "token": "PUSH 29556",
+    "snippet": "FUNC 29555\n\t.S_LOCALASSIGN comment \"\"\n\t.LOCALREF saveNo\n\t.STRUCTREF C_SceneSaveLoad m_View\n\tPUSH 29574\n\t.LOCALREF saveNo\n\tCALLMETHOD 1\n\tCALLFUNC AFL_GameSave_Save\n\tPUSH 0\n\tEQUALE\n\tIFNZ 0x67c3f0\n\tJUMP 0x67c406\n0x67c3f0:\n\tPUSHSTRUCTPAGE\n\tPUSH 29556\n\tCALLMETHOD 0\n\tPUSH 0\n\tRETURN\n0x67c406:\n\t.STRUCTREF C_SceneSaveLoad m_View\n\tPUSH 29577\n\tPUSH -1\n\tPUSH 1\n\tCALLMETHOD 2\n\tPUSH 1\n\tRETURN\n\tPUSH 0\n\tRETURN\n\n; C_SceneSaveLoad@ExecAfterLoad\n; RETURN: void\n"
+  },
+  {
+    "owner": "FUNC 29905",
+    "token": "PUSH 26155",
+    "snippet": "\n\tX_MOV 3 1\n\tPUSH -1\n\tEQUALE\n\tIFNZ 0x6a2416\n\tPUSH 0\n\tJUMP 0x6a242c\n0x6a2416:\n\tPOP\n\tPOP\n\tPUSH -1\n\tPUSH -1\n\tPUSH 1\n0x6a242c:\n\tPUSH 1\n\tGTE\n\tIFNZ 0x6a24b0\n\tX_MOV 2 1\n\tX_DUP 1\n\tX_MOV 3 1\n\tPUSH 0\n\tX_REF 1\n\tX_MOV 2 1\n\tPUSH 37\n\tADD\n\tX_REF 1\n\t.LOCALREF mons\n\tPUSH 26155\n\tCALLMETHOD 0\n\tX_DUP 1\n\tX_MOV 4 1\n\tA_REF\n\tCALLMETHOD 1\n\tJUMP 0x6a24ce\n0x6a24b0:\n\tPOP\n\tPOP\n\t.LOCALREF mons\n\tPUSH 26155\n\tCALLMETHOD 0\n0x6a24ce:\n\tDELETE\n\t.LOCALDELETE \"<dummy : IActivity@GetButtonの戻り値>\"\n\t.LOCALDELETE \"<dummy : IActivity@GetButtonの戻り値>\"\n\t.LOCALDELETE \"<dummy : L_MonsterManager::Atの戻り値>\"\n\t.LOCALD"
+  },
+  {
+    "owner": "FUNC 31724",
+    "token": "PUSH 26155",
+    "snippet": "LPAGE\n\tPUSH 5\n\tX_MOV 3 2\n\tX_ASSIGN 1\n\tX_DUP 1\n\tX_MOV 2 1\n\tPUSH -1\n\tEQUALE\n\tIFNZ 0x6a2878\n\tPUSH 0\n\tPUSH 0\n\tJUMP 0x6a288c\n0x6a2878:\n\tPOP\n\tPUSH -1\n\tPUSH -1\n\tPUSH 1\n0x6a288c:\n\tPUSH 1\n\tGTE\n\tIFZ 0x6a28aa\n\tPOP\n\tPOP\n\tS_PUSH \"\"\n\tJUMP 0x6a28b8\n0x6a28aa:\n\tPOP\n\tPUSH 26155\n\tCALLMETHOD 0\n0x6a28b8:\n\tCALLFUNC Ｐ＿ボタン＿テキスト設定\n\t.LOCALDELETE \"<dummy : L_MonsterManager::Atの戻り値>\"\n\t.LOCALDELETE \"<dummy : L_MonsterManager::Atの戻り値>\"\n0x6a2906:\n\tRETURN\nENDFUNC \"C_TestBattle@<lambda : C_TestBattle@SelectEnemyArrangement()(189, 37)>\"\n0x6a290e:\n\tPUSHLOCALPAGE\n\tPUSH 11\n\tX_DUP 2\n\tX_REF 1\n\tPUSH -1\n"
+  },
+  {
+    "owner": "FUNC 29906",
+    "token": "PUSH 26155",
+    "snippet": "of 65538\n\tLT\n\tIFZ 0x6a2da0\n\t.LOCALREF list\n\t.LOCALREF i\n\tX_REF 1\n\tPUSH -1\n\tEQUALE\n\tIFNZ 0x6a2d12\n\tJUMP 0x6a2d18\n0x6a2d12:\n\tJUMP 0x6a2d86\n0x6a2d18:\n\t.LOCALREF list\n\t.LOCALREF i\n\tX_REF 1\n\tPUSH 26149\n\tCALLMETHOD 0\n\t.LOCALREF list\n\t.LOCALREF i\n\tX_REF 1\n\tPUSH 26155\n\tCALLMETHOD 0\n\tPUSH 0\n\tS_PUSH \"\"\n\tCALLFUNC Ａ＿選択肢登録\n0x6a2d86:\n\t.LOCALINC3 i\n\tJUMP 0x6a2caa\n0x6a2da0:\n\tPUSH 998\n\tS_PUSH \"*空にする\"\n\tPUSH 0\n\tS_PUSH \"\"\n\tCALLFUNC Ａ＿選択肢登録\n\tPUSH 999\n\tS_PUSH \"*変えない\"\n\tPUSH 0\n\tS_PUSH \"\"\n\tCALLFUNC Ａ＿選択肢登録\n\tPUSHLOCALPAGE\n\tPUSH 4\n\tS_PUSH \"\"\n\tCALLFUNC Ａ＿テスト選択\n\tX_ASSIGN 1\n\tPOP\n\t.LOCALREF res"
+  }
+]

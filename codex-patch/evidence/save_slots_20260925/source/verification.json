@@ -1,0 +1,20 @@
+{
+  "status": "SAVE_CARDS_STATIC_NATIVE_PASS",
+  "files": {
+    "NightRemaster.ain": "18f9713ebff1d6126db39b906fee7175ba874d217f79993763a377484ab3e54e",
+    "NightRemasterPact.afa": "b6c0253bffedc2853c7d800b59bdc4a673df3365f0c8f12b42c4e24a9871b2f8"
+  },
+  "existing_resume_saves": 47,
+  "saved_return_frames": 1173,
+  "save_schema_equal": true,
+  "old_CODE_allowlist_exact": true,
+  "changed_PACT": [
+    168
+  ],
+  "native_probes": {
+    "NightR36.asd": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\save_slots_20260925\\native_probe_20260925_230633\\result.json",
+    "NightR49.asd": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\save_slots_20260925\\native_probe_20260925_230732\\result.json"
+  },
+  "real_saves_unchanged": true,
+  "OS_mouse_hit_test": false
+}

@@ -1,0 +1,33 @@
+{
+  "status": "SEGMENT_FIX_STATIC_AND_NATIVE_DISPATCH_PASS",
+  "files": {
+    "NightRemaster.ain": "e6d47c4356d5d12118e8424b002ebe07dbc5cc38591a4bcb5907a544e5c21250"
+  },
+  "existing_resume_saves": 37,
+  "saved_return_frames": 950,
+  "existing_save_local_offsets_exact": true,
+  "old_CODE_exact": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "save_schema_changes": 0,
+  "native": [
+    {
+      "mode": "off",
+      "pid": 54588,
+      "probe_sha256": "6c5c5b75694f87c305d05f14bad5bef976d6232d473b4714f9f600ebc20f5ea2",
+      "log": "resume loading\nPASS natural segment keeps owner\nPASS pending interaction not revived\nPASS paused owner not revived\nPASS manual clear still stops\nPASS native-only route not promoted\nwalk=1000010566 delegate=422 handlers=1\nsweep=1000010214 delegate=211 handlers=1\nclickable=1 input=1\nrepeat-visible handlers=1\ndispatch through native button function set\nclickResult=2026092203\nnative Run started queue=4 guide=0\nSTEP 1 at 20,6 queue=3 flag=2026092203\nSTEP 2 at 19,6 queue=2 flag=2026092203\nSTEP 3 at 18,6 queue=1 flag=2026092203\nSTEP 4 at 17,6 queue=4 flag=2026092203\nSTEP 5 at 16,6 queue=3 flag=2026092203\nSTEP 6 at 15,6 queue=2 flag=2026092203\nSTEP 7 at 14,6 queue=1 flag=2026092203\nSTEP 8 at 13,6 queue=4 flag=2026092203\nSTOPPED through second click\n"
+    },
+    {
+      "mode": "on",
+      "pid": 57448,
+      "probe_sha256": "4509c73253f532d4078cbb2f3994757333ba4c203d319eb080290e3cc06749a8",
+      "log": "resume loading\nPASS natural segment keeps owner\nPASS pending interaction not revived\nPASS paused owner not revived\nPASS manual clear still stops\nPASS native-only route not promoted\nwalk=1000010566 delegate=422 handlers=1\nsweep=1000010214 delegate=211 handlers=1\nclickable=1 input=1\nrepeat-visible handlers=1\ndispatch through native button function set\nclickResult=2026092203\nnative Run started queue=21 guide=1\nSTEP 1 at 22,6 queue=20 flag=2026092203\nSTOPPED through second click\n"
+    }
+  ],
+  "scope": "real copied dungeon save; native click/movement through two 4-step segment boundaries (8 steps OFF); guide ON one-step movement; second-click stop; natural/manual/pending/paused/native-only ownership boundaries",
+  "not_verified": [
+    "OS cursor hit testing",
+    "all dungeon/combat/stair transitions"
+  ],
+  "save_files_unchanged": 318
+}

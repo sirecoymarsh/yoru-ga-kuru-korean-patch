@@ -1,0 +1,425 @@
+{
+ "schema": "yoru-calendar-r15.candidate.v1",
+ "status": "CALENDAR_R15_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-09-27T01:08:56",
+ "seconds": 95,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "a28439d71c23d472bf5431e18657dfcfa4b8c43bc1f7368a12c12614ce5f97fa",
+  "status": "SAVE_SCREEN_MODE_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "963c7db0cccf13a670a237cacb60ec29bc364e873795eefa6f0fa38c321f7517",
+  "pact_sha256": "a71410488777ea2e9189f959065334215b51972fc6915eb0ab21d7b46e6372c4",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6"
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963",
+   "size": 3677264
+  }
+ },
+ "pact_changed": false,
+ "ex_changed": false,
+ "chart": {
+  "published_chart_sha256": "d5bb5c43084f3c503a974b89bdb47910d14adc4cdb1f7d610ffcd01c45823149",
+  "same_as_published": {
+   "cards": true,
+   "chips": true,
+   "join": true,
+   "pages": true
+  },
+  "builder_sha256": "7dab0b9b1d3b5cb34166b7954c454599f8905069ad76723cf27743821b129f05"
+ },
+ "tables": {
+  "cards": 155,
+  "stages": 404,
+  "drawers": 96,
+  "drawer_scenes": 760,
+  "events": 1164,
+  "day_marks": "computed at run time from the card table (days with cards: 80)",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "memory_page": 12,
+  "card_range": {
+   "4": [
+    0,
+    7
+   ],
+   "5": [
+    7,
+    23
+   ],
+   "6": [
+    23,
+    42
+   ],
+   "7": [
+    42,
+    51
+   ],
+   "8": [
+    51,
+    64
+   ],
+   "9": [
+    64,
+    78
+   ],
+   "10": [
+    78,
+    117
+   ],
+   "11": [
+    117,
+    155
+   ]
+  },
+  "chip_range": {
+   "4": [
+    0,
+    15
+   ],
+   "5": [
+    15,
+    27
+   ],
+   "6": [
+    27,
+    44
+   ],
+   "7": [
+    44,
+    51
+   ],
+   "8": [
+    51,
+    60
+   ],
+   "9": [
+    60,
+    68
+   ],
+   "10": [
+    68,
+    81
+   ],
+   "11": [
+    81,
+    88
+   ],
+   "12": [
+    88,
+    96
+   ]
+  },
+  "w1": {
+   "4": 0,
+   "5": 2,
+   "6": 5,
+   "7": 0,
+   "8": 3,
+   "9": 6,
+   "10": 1,
+   "11": 4
+  },
+  "mlen": {
+   "4": 30,
+   "5": 31,
+   "6": 30,
+   "7": 31,
+   "8": 31,
+   "9": 30,
+   "10": 31,
+   "11": 30
+  }
+ },
+ "added_functions": {
+  "KR_T9CardFirst": 32386,
+  "KR_T9CardEnd": 32387,
+  "KR_T9ChipFirst": 32388,
+  "KR_T9ChipEnd": 32389,
+  "KR_T9W1": 32390,
+  "KR_T9MLen": 32391,
+  "KR_T9CardInfo": 32392,
+  "KR_T9CardEntry": 32393,
+  "KR_T9CardStage": 32394,
+  "KR_T9CardCond": 32395,
+  "KR_T9StageEv": 32396,
+  "KR_T9ChipInfo": 32397,
+  "KR_T9ChipScene": 32398,
+  "KR_T9SceneEv": 32399,
+  "KR_T9EvMsg": 32400,
+  "KR_T9EvWhen": 32401,
+  "KR_T9EvWho": 32402,
+  "KR_T9Get": 32403,
+  "KR_T9Set": 32404,
+  "KR_T9Unwinding": 32405,
+  "KR_T9CanPlay": 32406,
+  "KR_T9NowMonth": 32407,
+  "KR_T9Fn": 32408,
+  "KR_T9Seen": 32409,
+  "KR_T9State": 32410,
+  "KR_T9Mark": 32411,
+  "KR_T9EvNo": 32412,
+  "KR_T9LaneName": 32413,
+  "KR_T9KindName": 32414,
+  "KR_T9SlotName": 32415,
+  "KR_T9MonthName": 32416,
+  "KR_T9ColorMark": 32417,
+  "KR_T9Legend": 32418,
+  "KR_T9CardLane": 32419,
+  "KR_T9CardDay": 32420,
+  "KR_T9CardSlot": 32421,
+  "KR_T9CardSize": 32422,
+  "KR_T9CardMonth": 32423,
+  "KR_T9CardSeenStages": 32424,
+  "KR_T9CardWhen": 32425,
+  "KR_T9CardType": 32426,
+  "KR_T9CardRow": 32427,
+  "KR_T9ChipLane": 32428,
+  "KR_T9ChipKind": 32429,
+  "KR_T9ChipSize": 32430,
+  "KR_T9ChipMonth": 32431,
+  "KR_T9ChipSeen": 32432,
+  "KR_T9ChipName": 32433,
+  "KR_T9ChipPlace": 32434,
+  "KR_T9ChipRow": 32435,
+  "KR_T9LaneCards": 32436,
+  "KR_T9LaneChips": 32437,
+  "KR_T9LaneScenes": 32438,
+  "KR_T9LaneTotal": 32439,
+  "KR_T9LaneSeen": 32440,
+  "KR_T9LaneCardAt": 32441,
+  "KR_T9LaneChipAt": 32442,
+  "KR_T9MonthScenes": 32443,
+  "KR_T9MonthScenesSeen": 32444,
+  "KR_T9InRange": 32445,
+  "KR_T9DayState": 32446,
+  "KR_T9Fw": 32447,
+  "KR_T9MonthTitle": 32448,
+  "KR_T9Begin": 32449,
+  "KR_T9Run": 32450,
+  "KR_T9PageTag": 32451,
+  "KR_T9StateLine": 32452,
+  "KR_T9PlayNote": 32453,
+  "KR_T9Warn": 32454,
+  "KR_T9Request": 32455,
+  "KR_T9EventTitle": 32456,
+  "KR_T9EventPage": 32457,
+  "KR_T9SceneItem": 32458,
+  "KR_T9ChipPage": 32459,
+  "KR_T9StagePage": 32460,
+  "KR_T9CardTitle": 32461,
+  "KR_T9CardPage": 32462,
+  "KR_T9LaneTitle": 32463,
+  "KR_T9LanePage": 32464,
+  "KR_T9MonthChips": 32465,
+  "KR_T9MemPage": 32466,
+  "KR_T9MonthItems": 32467,
+  "KR_T9MonthPage": 32468,
+  "KR_T9Calendar": 32469,
+  "KR_T9CharMenuTitle": 32470,
+  "KR_T9CharMenuRun": 32471,
+  "KR_T9CharMenuPage": 32472,
+  "KR_T9CharPageAdd": 32473,
+  "KR_T9CharPageRun": 32474,
+  "KR_T9CharDate": 32475,
+  "KR_T9HomeMenuRun": 32476,
+  "KR_T9HomeConfig": 32477,
+  "KR_T9HomeCasual": 32478
+ },
+ "same_length_sites": [
+  {
+   "function": "C_SceneHomebase@RunHome",
+   "fid": 28543,
+   "function_address": 11533746,
+   "site": 11534612,
+   "site_offset": 866,
+   "original": "■選択ダイアログ／実行",
+   "original_fid": 27873,
+   "replacement": "KR_T9HomeMenuRun",
+   "replacement_fid": 32476,
+   "before": "3000e16c0000",
+   "after": "3000dc7e0000",
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_SceneHomebase@CheckGameSysButtons",
+   "fid": 28552,
+   "function_address": 6313814,
+   "site": 6314084,
+   "site_offset": 270,
+   "original": "■カジュアルモード設定呼び出し",
+   "original_fid": 26022,
+   "replacement": "KR_T9HomeCasual",
+   "replacement_fid": 32478,
+   "before": "3000a6650000",
+   "after": "3000de7e0000",
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_SceneHomebase@CheckGameSysButtons",
+   "fid": 28552,
+   "function_address": 6313814,
+   "site": 6314176,
+   "site_offset": 362,
+   "original": "▲コンフィグ実行",
+   "original_fid": 29833,
+   "replacement": "KR_T9HomeConfig",
+   "replacement_fid": 32477,
+   "before": "300089740000",
+   "after": "3000dd7e0000",
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "KR_T8CharMissingMenu",
+   "fid": 32326,
+   "function_address": 11503982,
+   "site": 11504082,
+   "site_offset": 100,
+   "original": "■選択ダイアログ／タイトル設定",
+   "original_fid": 27863,
+   "replacement": "KR_T9CharMenuTitle",
+   "replacement_fid": 32470,
+   "before": "3000d76c0000",
+   "after": "3000d67e0000",
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "KR_T8CharMissingMenu",
+   "fid": 32326,
+   "function_address": 11503982,
+   "site": 11504448,
+   "site_offset": 466,
+   "original": "■選択ダイアログ／実行",
+   "original_fid": 27873,
+   "replacement": "KR_T9CharMenuRun",
+   "replacement_fid": 32471,
+   "before": "3000e16c0000",
+   "after": "3000d77e0000",
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "KR_T8CharMissingMenu",
+   "fid": 32326,
+   "function_address": 11503982,
+   "site": 11504614,
+   "site_offset": 632,
+   "original": "KR_T8CharMissingPage",
+   "original_fid": 32325,
+   "replacement": "KR_T9CharMenuPage",
+   "replacement_fid": 32472,
+   "before": "3000457e0000",
+   "after": "3000d87e0000",
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "KR_T8CharMissingPage",
+   "fid": 32325,
+   "function_address": 11503476,
+   "site": 11503650,
+   "site_offset": 174,
+   "original": "■選択ダイアログ／選択肢追加",
+   "original_fid": 27865,
+   "replacement": "KR_T9CharPageAdd",
+   "replacement_fid": 32473,
+   "before": "3000d96c0000",
+   "after": "3000d97e0000",
+   "occurrence": 1,
+   "calls_of_original_in_function": 3
+  },
+  {
+   "function": "KR_T8CharMissingPage",
+   "fid": 32325,
+   "function_address": 11503476,
+   "site": 11503768,
+   "site_offset": 292,
+   "original": "■選択ダイアログ／実行",
+   "original_fid": 27873,
+   "replacement": "KR_T9CharPageRun",
+   "replacement_fid": 32474,
+   "before": "3000e16c0000",
+   "after": "3000da7e0000",
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "KR_T8CharMissingPage",
+   "fid": 32325,
+   "function_address": 11503476,
+   "site": 11503882,
+   "site_offset": 406,
+   "original": "KR_T8CharDatePage",
+   "original_fid": 32324,
+   "replacement": "KR_T9CharDate",
+   "replacement_fid": 32475,
+   "before": "3000447e0000",
+   "after": "3000db7e0000",
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  }
+ ],
+ "relocated_original_functions": [],
+ "pinned_new_functions": {
+  "KR_T9HomeCasual": 12241940
+ },
+ "invariance": {
+  "original_function_entries_identical": true,
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 15,
+  "old_code_changes_only_at_swapped_operands": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 887,
+  "functions_added": 93
+ },
+ "native_opcode_audit": {
+  "active_functions": 30592,
+  "instruction_sites": 2031206,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "session_variables": [
+  "YoruKR.T9.Ctx",
+  "YoruKR.T9.Req",
+  "YoruKR.T9.Play",
+  "YoruKR.T9.Playing",
+  "YoruKR.T9.Unwind",
+  "YoruKR.T9.Open",
+  "YoruKR.T9.Lane"
+ ],
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "93f0c3367053b99831d6e400d2322cb5af620bfafa87912863c567cacb2e77f4",
+ "build_script_sha256": "30d60043fe94904c20b41516c4d25c27f8ddcdd9bfc857aabace2d018e7f76ef"
+}

@@ -1,0 +1,63 @@
+{
+ "pid": 45860,
+ "ain_sha256": "5afa3e8d8f78cc65e77f85b0afff81e1c79d85d3fbaf55b250f868b1925f603f",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 18.2,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\probe\\run\\SaveData_ListProbe_20261018_195305",
+  "RESUME NightR16.asd stage=home0 mode=may",
+  "HOME date=5/20 joined=5",
+  "OK home panel shown with the calendar button",
+  "STAGE b1",
+  "OK 5/20: the board",
+  "ROWS 0 2 3 4 6 7 9 ",
+  "OK 5/20: no 마코토 / 모모세 row",
+  "SHOT lv_may_board.bmp",
+  "STAGE m1",
+  "OK 5/20: the 던전 동행 name opens its list",
+  "OK 5/20: no 마코토 / 모모세 chip",
+  "MAY n=242 named=117 masked=110 first=125",
+  "OK 5/20: KR_LVHidden marks exactly the rows naming 마코토 / 모모세",
+  "SHOT lv_may_dungeon.bmp",
+  "STAGE m2",
+  "STAGE m3",
+  "PAGE names ${font r=240 g=240 b=245}？？？${/font}",
+  "OK 5/20: the masked row shows ？？？ and no drawn row names 마코토 / 모모세",
+  "STAGE m4",
+  "OK 5/20: the masked row's preview: ？？？, no condition, no cast, 자세히 off",
+  "SHOT lv_may_masked.bmp",
+  "STAGE b2m",
+  "OK 5/20: 닫기 returns to the board",
+  "STAGE home1",
+  "OK closing the board returns to the home menu",
+  "FAILS 0",
+  "END"
+ ],
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\증거\\probe\\lv_may_board.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\증거\\probe\\lv_may_dungeon.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\증거\\probe\\lv_may_masked.png"
+ ],
+ "mode": "may",
+ "save": "NightR16.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\probe\\run\\SaveData_ListProbe_20261018_195305",
+ "probe": {
+  "waits": 29,
+  "live_waits": [
+   "C_SceneTitle@Run",
+   "C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>",
+   "C_SelectDialog@Run",
+   "C_SelectMessage@Run",
+   "KR_C24WaitRaw",
+   "KR_P29WaitRaw"
+  ],
+  "probe_sha256": "5afa3e8d8f78cc65e77f85b0afff81e1c79d85d3fbaf55b250f868b1925f603f"
+ },
+ "candidate_ain": "5b8603c42a1cf3e42a61aaa20ee52fe9777f270958fde9e1521104fa215677d0",
+ "candidate_pact": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+ "fails": [],
+ "oks": 10,
+ "ended": true,
+ "user_save_folder_unchanged": true
+}

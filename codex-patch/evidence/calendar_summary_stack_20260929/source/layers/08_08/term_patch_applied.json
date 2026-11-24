@@ -1,0 +1,26 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\design\\summaries.json",
+   "term_folder": "august",
+   "file_sha_now": "9a79d9e6f744b9113953c8d6d8800d688c5624d970cda67094c981d83bd24455",
+   "file_sha_at_audit": "a843fd19747ae698fbc7f66ba297305a55522c177e482e9afaa17a686b1d279e"
+  }
+ ],
+ "events": [],
+ "applied": 0,
+ "skipped_proposals": 0,
+ "skipped_summaries": 0,
+ "below_threshold": 0,
+ "changed_ids": [],
+ "gate_skipped": [],
+ "tag": "08",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:24:53.085596+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

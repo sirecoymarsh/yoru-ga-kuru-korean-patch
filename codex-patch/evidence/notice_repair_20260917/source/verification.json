@@ -1,0 +1,20 @@
+{
+  "status": "NOTICE_REPAIR_COMPILED_PASS",
+  "files": {
+    "NightRemaster.ain": "3b7bb70cb51caba08dc291693919554c3d35783314352eccc77f7b16ab18f8e9",
+    "NightRemasterPact.afa": "39d0915ee3475441f6526a023b4a64989a4388190f07e2e62d5cbf8e8cbc5bc8"
+  },
+  "notice_cases": 82,
+  "renderer_cases": 60,
+  "integration": {
+    "source_activity_regression_proven": true,
+    "correct_native_owner_entry": 160,
+    "notice_clickthrough": true,
+    "button_states": 9,
+    "full_native_cg_transform": true,
+    "partial_cg_copy_removed": true,
+    "gameplay_payout_unchanged": true
+  },
+  "native_verified": false,
+  "boundaries": "Actual candidate JAM executes against explicit PartsEngine/scene mocks derived from final PACT160. Renderer commands are inspected but not executed by the native graphics engine. Native gameplay still pending."
+}

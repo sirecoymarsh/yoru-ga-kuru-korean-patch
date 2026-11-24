@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "ain_sha256": "e775f61d6caf2fdec00623d69cd3241f3034881488981bc07744253d108602ed",
+  "reviewer": "/root/polish_review",
+  "scope": "Read-only independent structure and boundary audit, plus publisher review",
+  "confirmed": {
+    "flagged_boundaries_held": 39,
+    "changed_pages": 12650,
+    "layout_fields": 28108,
+    "MSG_count": 100944,
+    "speaker_MSG_unchanged": true,
+    "outside_MSG1_exact": true,
+    "page_characters_except_whitespace_exact": true,
+    "empty_fields_only_at_page_tail": true
+  },
+  "findings_resolved": [
+    "Attached Korean endings after Hangul, Latin nouns and quoted punctuation now hold the original page.",
+    "WORK/progress.json included in transactional metadata snapshots and journal for exact restore."
+  ],
+  "limits": "Boundary review is targeted, not a proof of every Korean morpheme."
+}

@@ -1,0 +1,66 @@
+{
+ "status": "ALL_TABS_PREFLIGHT_PASS_NOT_INSTALLED",
+ "revision": "r2",
+ "previous_candidate": "3808a9c408375c78a7e3fe078fa36d9dd13d5e40ef2356cf7e69c5ba66ddb4b7",
+ "source_sha256": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+ "live_sha256": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+ "source_manifest_sha256": "54fd6042482905d777efa8ec1a9f7ead4714ee7ab5f52b6ab5d986477f7ca61f",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+   "size": 4158676
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+   "size": 122368
+  }
+ },
+ "changed_functions": [
+  "KR_CDraw",
+  "KR_P29Board",
+  "KR_T9StagePage"
+ ],
+ "rerouted": {
+  "KR_CDraw": "KR_W29Minis",
+  "KR_P29Board": "KR_W29Board",
+  "KR_T9StagePage": "KR_W29Stages"
+ },
+ "added_functions": {
+  "KR_W29Plain": 32841,
+  "KR_W29Trim": 32842,
+  "KR_W29Story": 32843,
+  "KR_W29Date": 32844,
+  "KR_W29Clean": 32845,
+  "KR_W29Join": 32846,
+  "KR_W29GroupOf": 32847,
+  "KR_W29Title": 32848,
+  "KR_W29Info": 32849,
+  "KR_W29HeadWrap": 32850,
+  "KR_W29Board": 32851,
+  "KR_W29Cond": 32852,
+  "KR_W29StateCG": 32853,
+  "KR_W29Cell": 32854,
+  "KR_W29Draw": 32855,
+  "KR_W29Minis": 32856,
+  "KR_W29StageItem": 32857,
+  "KR_W29Stages": 32858
+ },
+ "original_code_prefix_exact": true,
+ "original_strings_prefix_exact": true,
+ "messages_exact": true,
+ "serialized_schema_changes": 0,
+ "pinned_functions_unchanged": [
+  "KR_T9HomeCasual",
+  "KR_T9HomeConfig",
+  "C_SceneHomebase@CheckGameSysButtons",
+  "C_SceneHomebase@Run",
+  "LSys3xScript::RunEvent",
+  "KR_T18RunSandboxed"
+ ],
+ "native_opcodes_supported": true,
+ "installed": false,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "designer": "Claude Fable 5.1 (claude-fable-5-1)",
+ "preflight_sha256": "fe46a0be8328e49c6c5bc5f088a8a94c3d843f089ee73b71882637c92259ac09"
+}

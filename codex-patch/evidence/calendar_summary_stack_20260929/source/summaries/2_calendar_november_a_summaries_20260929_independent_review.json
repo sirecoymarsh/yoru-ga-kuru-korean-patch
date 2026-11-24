@@ -1,0 +1,118 @@
+{
+ "status": "pass_with_fixes",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code - independent reviewer (separate agent from the author)",
+ "author_of_summaries": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "independent_of_author": true,
+ "checked_at": "2026-09-29T21:46:18.753573+09:00",
+ "team": "A (batches.json odd indices)",
+ "reviewed_events": 105,
+ "reviewed_messages": 11895,
+ "method": "Every packet source/packets/E?????.txt read to the end, JP as meaning authority and installed KR for names. Templated dungeon groups (913-917, 918-922, 931-940, 941-945, 951-955, 961-970): base scene read in full, every other scene read as all of its lines that differ from the base (reviewer's own difflib viewer), so each companion-specific fact was checked against that scene's own lines. The author's semantic_qa.json was opened only after the pass. Criteria: (a) facts/reactions/places/feelings/guesses not in the source, (b) actor or target swapped, (c) other scene, branch or variant mixed in, (d) ending, route or later events hinted, (e) 주인공 naming and installed Korean spelling, (f) present tense, 1-2 sentences, <=100 chars, (g) no adult description. Fixes change only the problem words.",
+ "source_sha256": "79ea0d9bc1e4f3e3961298e37523e12ecedf15dd981f521413e8394837051f78",
+ "summary_sha256_before": "45b38cd7f010e39fcfaecad7712b31cac7a85f70a4c8804317322b64d90f081f",
+ "summary_sha256_after": "c3af993b786662b6a1aec54795b8d28eabaff1d5ce5b4ff0b964ef517a0726ba",
+ "counts": {
+  "fixed": 2,
+  "by_type": {
+   "actor_shift": 1,
+   "added_action": 1
+  },
+  "by_severity": {
+   "P3": 2
+  },
+  "notes_added": 7,
+  "status_set_independent_qa_pass": 105
+ },
+ "agreement_with_author_review": "All 13 author fixes in evidence/semantic_qa.json are present in the reviewed text and were independently judged correct; the 2 findings above are new.",
+ "findings": [
+  {
+   "no": 20141,
+   "위치": "message 48303",
+   "type": "actor_shift",
+   "severity": "P3",
+   "before": "케이크 내기를 핑계로 쿄카와",
+   "after": "케이크 내기를 내세운 쿄카와",
+   "reason": "춤을 청하며 케이크 내기를 꺼낸 쪽은 쿄카다(원문 賭けたでしょ… 何でも聞くって言ったわよね). 주인공이 내기를 핑계로 삼은 것처럼 읽혀 행위자가 바뀌었다. 주인공은 처음에 부끄럽다며 거절했다.",
+   "status": "fixed (minimal word change)"
+  },
+  {
+   "no": 934,
+   "위치": "message 38723",
+   "type": "added_action",
+   "severity": "P3",
+   "before": "펜스를 넘어온다",
+   "after": "펜스를 기어오른다",
+   "reason": "원문은 펜스 저편을 기어오르는 모습이 보이는 데서 끝난다(フェンスの向こう側をよじ登ってくる). 넘어오는 동작은 없다.",
+   "status": "fixed (minimal word change)"
+  }
+ ],
+ "unresolved": [
+  {
+   "nos": [
+    10501,
+    20141,
+    30081
+   ],
+   "type": "adult_scene_wording",
+   "judgment": "세 요약 모두 행위·신체 묘사가 없고 완곡어·규정어뿐이라 수위 기준 안으로 보고 유지. 사실관계는 원문과 맞음. 10501의 「음란한」이 셋 중 가장 직접적인 말이라, 다른 탭 같은 종류 장면과 어조를 맞출지는 사람이 정한다.",
+   "needs_human": true
+  },
+  {
+   "nos": [
+    50005,
+    50006
+   ],
+   "type": "speaker_attribution",
+   "judgment": "태그 없는 괄호 독백은 이 게임에서 1인칭 서술자(주인공)의 속생각 표기다(다른 장면에서도 화자 힌트 없는 괄호 독백이 주인공 생각). 주인공 귀속은 맞다고 판단. 수정 없음.",
+   "needs_human": false
+  },
+  {
+   "nos": [
+    50010,
+    50003,
+    50005,
+    50006
+   ],
+   "type": "place_from_card_meta",
+   "judgment": "장소(센터 빌딩·뉴타운)가 본문이 아니라 카드 메타·카드 제목에서 왔다. 카드 자체가 그 던전이라 사실 오류는 아니어서 유지. 작성자는 50010만 짚었으나 뉴타운 세 장면도 같은 경우다. 카드 제목과 겹치는 정보라 뺄지는 사람 결정.",
+   "needs_human": true
+  },
+  {
+   "nos": [
+    10181,
+    40145,
+    904,
+    931,
+    932,
+    933,
+    934,
+    935,
+    936,
+    937,
+    938,
+    939,
+    940,
+    961,
+    962,
+    963,
+    964,
+    965,
+    966,
+    967,
+    968,
+    969,
+    970,
+    1272
+   ],
+   "type": "switchable_term_paraphrase",
+   "judgment": "작성자가 전환 용어를 피하려고 光狩를 「적」, 真月를 「두 번째 달/또 하나의 달」로 풀어 썼다. 뜻은 맞아 결함은 아니다. 이후 방침(요약은 기본 표기를 그대로 쓴다)에 맞춰 기본 표기로 되돌릴지는 방침 결정이라 손대지 않았다.",
+   "needs_human": true
+  },
+  {
+   "nos": [],
+   "type": "cross_team_uniqueness",
+   "judgment": "B조 요약과의 교차 유일성은 검사하지 않았다(B조 폴더는 건드리지 않는다). 병합 때 158개 전체로 게이트를 다시 돌려야 한다.",
+   "needs_human": false
+  }
+ ]
+}

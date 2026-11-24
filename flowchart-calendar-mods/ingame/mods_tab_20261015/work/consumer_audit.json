@@ -1,0 +1,159 @@
+{
+ "함정 즉시 해체": {
+  "getters": [
+   "KR_GetTrap"
+  ],
+  "callers": {
+   "L_Dungeon::RelieveTrap": 1,
+   "C_SceneDungeon@StepedOnCell": 1,
+   "KR_AutoUtility": 1,
+   "KR_T8NoticeInstant": 1
+  }
+ },
+ "전투 이펙트 보지 않기": {
+  "getters": [
+   "KR_GetQuick"
+  ],
+  "callers": {
+   "KR_BeginQuick": 1,
+   "KR_QuickWatch": 1
+  }
+ },
+ "다음 층 경로 표시": {
+  "getters": [
+   "KR_GetRoute"
+  ],
+  "callers": {
+   "C_SceneDungeon@ToNextFloor": 1,
+   "C_SceneDungeonMiniMapView@DrawAutoMoveLines": 1,
+   "C_SceneDungeonView@UpdateAll": 1,
+   "KR_DrawRoute": 2,
+   "KR_DrawRouteLinear": 1,
+   "KR_PuzzleRefresh": 1,
+   "KR_DrawPuzzleRoute": 1,
+   "KR_AutoUtility": 1,
+   "KR_ExplorePlan": 1,
+   "KR_ExploreStart": 1,
+   "KR_ExploreGuard": 1
+  }
+ },
+ "일반 적 즉시 처치": {
+  "getters": [
+   "KR_GetLoot"
+  ],
+  "callers": {
+   "KR_LootEligible": 1,
+   "KR_NoticeTick": 1
+  }
+ },
+ "소탕 버튼 표시": {
+  "getters": [
+   "KR_GetSweep"
+  ],
+  "callers": {
+   "KR_SweepSceneOK": 1
+  }
+ },
+ "자동 장착·요소석 추천": {
+  "getters": [
+   "KR_GetAutoEquip"
+  ],
+  "callers": {
+   "C_Status::RunStatus": 1,
+   "C_SceneSubWeapon@RunCustomWeapon": 1,
+   "KR_AutoGearRun": 2,
+   "KR_AutoStoneRun": 2
+  }
+ },
+ "강화 자동 전투": {
+  "getters": [
+   "KR_GetSmartAuto"
+  ],
+  "callers": {
+   "KR_SmartRun": 1
+  }
+ },
+ "전투 속도": {
+  "getters": [
+   "KR_Speed"
+  ],
+  "callers": {
+   "KR_BattleRate": 2
+  }
+ },
+ "달성률 항상 표시": {
+  "getters": [
+   "KR_T8HomeRateOn"
+  ],
+  "callers": {
+   "KR_T8HomeEnter": 1,
+   "KR_RateRender": 1
+  }
+ },
+ "자동 회복(아이템)": {
+  "getters": [
+   "KR_ItemsEnabled",
+   "KR_ItemsGetThreshold",
+   "KR_ItemsAllowed",
+   "KR_ItemsReserve"
+  ],
+  "callers": {
+   "KR_ItemsTry": 4
+  }
+ },
+ "보상 배율 계산": {
+  "getters": [
+   "KR_MultiplierCalc"
+  ],
+  "callers": {
+   "L_CasualMode::CalcExp": 1,
+   "L_CasualMode::CalcMoney": 1,
+   "L_CasualMode::CalcTrainging": 1,
+   "L_CasualMode::CalcPairTraining": 1
+  }
+ },
+ "경험치 배율": {
+  "global_": "L_CasualMode::RateEX",
+  "readers": {
+   "L_CasualMode::Init": 1,
+   "L_CasualMode::GetRateEX": 1,
+   "L_CasualMode::SetRateEX": 2,
+   "L_CasualMode::CalcExp": 1,
+   "0": 1,
+   "KR_SweepState": 2
+  }
+ },
+ "월편 배율": {
+  "global_": "L_CasualMode::RateMoney",
+  "readers": {
+   "L_CasualMode::Init": 1,
+   "L_CasualMode::GetRateMoney": 1,
+   "L_CasualMode::SetRateMoney": 2,
+   "L_CasualMode::CalcMoney": 1,
+   "0": 1,
+   "KR_SweepState": 2
+  }
+ },
+ "훈련치 배율": {
+  "global_": "L_CasualMode::RateTrainging",
+  "readers": {
+   "L_CasualMode::Init": 1,
+   "L_CasualMode::GetRateTrainging": 1,
+   "L_CasualMode::SetRateTrainging": 2,
+   "L_CasualMode::CalcTrainging": 1,
+   "0": 1,
+   "KR_SweepState": 2
+  }
+ },
+ "동료 특훈치 배율": {
+  "global_": "L_CasualMode::RatePairTraining",
+  "readers": {
+   "L_CasualMode::Init": 1,
+   "L_CasualMode::GetRatePairTraining": 1,
+   "L_CasualMode::SetRatePairTraining": 2,
+   "L_CasualMode::CalcPairTraining": 1,
+   "0": 1,
+   "KR_SweepState": 2
+  }
+ }
+}

@@ -1,0 +1,3753 @@
+{
+ "tool": "check_summary_consistency.py",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:44:24.955673+09:00",
+ "folders": [
+  {
+   "folder": "calendar_april_summary_20260929",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "summaries_sha256": "0c62191f5b1e17f6f8dbd6ffd648f51330761b12b35f7df47f6d7074ab60b552",
+   "scenarios_sha256": "07ddc15dfe814abf526902c83a03b7d28654eada16af55239197545afa230942",
+   "scenario_events": 146,
+   "rows": 146,
+   "status": {
+    "source_qa_pass": 146
+   },
+   "checked": 146
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\design\\summaries.json",
+   "summaries_sha256": "9a79d9e6f744b9113953c8d6d8800d688c5624d970cda67094c981d83bd24455",
+   "scenarios_sha256": "b9edb184b6dbb922bc6b57edc36b78d0ebf85f3d432e27eea2dc89b276f5c8ac",
+   "scenario_events": 68,
+   "rows": 68,
+   "status": {
+    "independent_qa_pass": 68
+   },
+   "checked": 68
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/july",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\july",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\july\\design\\summaries.json",
+   "summaries_sha256": "d3e3db0e22b947f2fed06f313bf02ff4464dd0313556677aa3587247b1181a2f",
+   "scenarios_sha256": "38a9f08581fc2807db72c01adfd6c86c639a4952c9cc811d8ee7e4e47c76aa2a",
+   "scenario_events": 106,
+   "rows": 106,
+   "status": {
+    "independent_qa_pass": 106
+   },
+   "checked": 106
+  },
+  {
+   "folder": "calendar_june_summaries_20260929",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "summaries_sha256": "069c23623b529339115a8877339ea95e46ff130becd715c9e9ba603fbdc5816b",
+   "scenarios_sha256": "36ca60e004f7f855c02b0da367b13781baf47993dcaa2b53aec21f40e4c41d83",
+   "scenario_events": 232,
+   "rows": 232,
+   "status": {
+    "independent_qa_pass": 232
+   },
+   "checked": 232
+  },
+  {
+   "folder": "calendar_may_summaries_20260929",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_may_summaries_20260929",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_may_summaries_20260929\\design\\summaries.json",
+   "summaries_sha256": "5a5a70761d79265ea1de4e64143180b0b16079e5c799aaf4b6722e1475ba32af",
+   "scenarios_sha256": "49781f8447887fcd84ec328ea3d5529143b9df5b6cb888c94b946af9f68690a2",
+   "scenario_events": 150,
+   "rows": 150,
+   "status": {
+    "independent_qa_pass": 150
+   },
+   "checked": 150
+  },
+  {
+   "folder": "calendar_memory_a_summaries_20260929",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_a_summaries_20260929",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_a_summaries_20260929\\design\\summaries.json",
+   "summaries_sha256": "108aaa9ed5e1ca2307419808248ee1aa3623a20fe1ace43723c054203dc0b7f1",
+   "scenarios_sha256": "b5f52815c979cbbeb5b489ffff7a8f05b9eac21046546e9cceb92ccbfab4076a",
+   "scenario_events": 85,
+   "rows": 55,
+   "status": {
+    "copy_of": 25,
+    "independent_qa_pass": 30
+   },
+   "checked": 30
+  },
+  {
+   "folder": "calendar_memory_b_summaries_20260929",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_b_summaries_20260929",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_b_summaries_20260929\\design\\summaries.json",
+   "summaries_sha256": "7a9229c41fe346df78b1401c40a2c809938bd2720a39b3aaff5125c0186f099f",
+   "scenarios_sha256": "b5f52815c979cbbeb5b489ffff7a8f05b9eac21046546e9cceb92ccbfab4076a",
+   "scenario_events": 85,
+   "rows": 30,
+   "status": {
+    "independent_qa_pass": 25,
+    "copy_of": 5
+   },
+   "checked": 25
+  },
+  {
+   "folder": "calendar_november_a_summaries_20260929",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\design\\summaries.json",
+   "summaries_sha256": "c3af993b786662b6a1aec54795b8d28eabaff1d5ce5b4ff0b964ef517a0726ba",
+   "scenarios_sha256": "79ea0d9bc1e4f3e3961298e37523e12ecedf15dd981f521413e8394837051f78",
+   "scenario_events": 158,
+   "rows": 105,
+   "status": {
+    "independent_qa_pass": 105
+   },
+   "checked": 105
+  },
+  {
+   "folder": "calendar_november_b_summaries_20260929",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_b_summaries_20260929",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_b_summaries_20260929\\design\\summaries.json",
+   "summaries_sha256": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8",
+   "scenarios_sha256": "79ea0d9bc1e4f3e3961298e37523e12ecedf15dd981f521413e8394837051f78",
+   "scenario_events": 158,
+   "rows": 53,
+   "status": {
+    "independent_qa_pass": 47,
+    "excluded": 6
+   },
+   "checked": 47
+  },
+  {
+   "folder": "calendar_october_summaries_20260929",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "summaries_sha256": "e3d5b5340e6bedcec7321321e2f87874903495d6fdcd11f05adb3c864012fd59",
+   "scenarios_sha256": "c906cb90a949f654cb09d683991d8ffd9536aa7e6f8b2114dafa91695f2306d4",
+   "scenario_events": 128,
+   "rows": 128,
+   "status": {
+    "independent_qa_pass": 128
+   },
+   "checked": 128
+  },
+  {
+   "folder": "calendar_sep_other_summaries_20260929/other",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\other",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\other\\design\\summaries.json",
+   "summaries_sha256": "4fdb67856a0666b0d65e4437505863ca69ac00a6aabcaeeea3fdd279703453a2",
+   "scenarios_sha256": "feedcba4125592c1b359b40f14bb8c5070b8fb72d2697564c2be4e01c50ad215",
+   "scenario_events": 28,
+   "rows": 28,
+   "status": {
+    "independent_qa_pass": 27,
+    "excluded": 1
+   },
+   "checked": 27
+  },
+  {
+   "folder": "calendar_sep_other_summaries_20260929/september",
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\september",
+   "summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\september\\design\\summaries.json",
+   "summaries_sha256": "15522feea9b6e4111e87339c8146b42aeacd281e817e1dff5830d690cc4c6b9d",
+   "scenarios_sha256": "7ba2c0aa9af63f485eb50f2a2c62e2b99ff71652ac5404b2e371c05e96ef5d22",
+   "scenario_events": 62,
+   "rows": 62,
+   "status": {
+    "independent_qa_pass": 62
+   },
+   "checked": 62
+  }
+ ],
+ "april_reference": true,
+ "name_list": {
+  "가이에스하켄": [
+   "speaker_hint"
+  ],
+  "구루멘": [
+   "speaker_hint",
+   "speaker_hint part"
+  ],
+  "구루멘 A": [
+   "speaker_hint"
+  ],
+  "구루멘 B": [
+   "speaker_hint"
+  ],
+  "닛타": [
+   "speaker_hint"
+  ],
+  "마나미": [
+   "cast_evidence.roster",
+   "cells.json",
+   "speaker_hint"
+  ],
+  "마츠에다": [
+   "speaker_hint"
+  ],
+  "마코토": [
+   "cast_evidence.roster",
+   "cells.json",
+   "speaker_hint"
+  ],
+  "모모세": [
+   "cast_evidence.roster",
+   "cells.json",
+   "speaker_hint"
+  ],
+  "미사토": [
+   "cast_evidence.roster",
+   "speaker_hint"
+  ],
+  "미즈키": [
+   "cast_evidence.roster",
+   "speaker_hint"
+  ],
+  "바르바로사": [
+   "speaker_hint"
+  ],
+  "사카키": [
+   "cast_evidence.roster",
+   "speaker_hint"
+  ],
+  "소지": [
+   "cast_evidence.roster",
+   "speaker_hint"
+  ],
+  "신카이": [
+   "cast_evidence.roster",
+   "cells.json",
+   "speaker_hint"
+  ],
+  "에미": [
+   "speaker_hint"
+  ],
+  "우메다": [
+   "speaker_hint"
+  ],
+  "워 그린": [
+   "speaker_hint"
+  ],
+  "워 레드": [
+   "speaker_hint"
+  ],
+  "워 블루": [
+   "speaker_hint"
+  ],
+  "워 옐로": [
+   "speaker_hint"
+  ],
+  "워 핑크": [
+   "speaker_hint"
+  ],
+  "이시마츠": [
+   "speaker_hint part"
+  ],
+  "이시마츠 고로": [
+   "speaker_hint"
+  ],
+  "이즈미": [
+   "cast_evidence.roster",
+   "cells.json",
+   "speaker_hint"
+  ],
+  "치로": [
+   "speaker_hint"
+  ],
+  "케도인": [
+   "speaker_hint"
+  ],
+  "코우야": [
+   "cast_evidence.roster",
+   "speaker_hint"
+  ],
+  "코이치": [
+   "cast_evidence.roster",
+   "speaker_hint"
+  ],
+  "쿄카": [
+   "cast_evidence.roster",
+   "cells.json",
+   "speaker_hint"
+  ],
+  "키라라": [
+   "cast_evidence.roster",
+   "speaker_hint"
+  ],
+  "키스카": [
+   "speaker_hint"
+  ],
+  "타케이": [
+   "speaker_hint"
+  ],
+  "트윈티": [
+   "speaker_hint"
+  ],
+  "하이지": [
+   "cast_evidence.roster",
+   "speaker_hint"
+  ],
+  "호시카와": [
+   "cast_evidence.roster",
+   "cells.json",
+   "speaker_hint"
+  ],
+  "히카리": [
+   "speaker_hint"
+  ]
+ },
+ "generic_hints_skipped": [
+  "객석",
+  "검은 옷차림의 남학생",
+  "관객",
+  "괴물",
+  "교사",
+  "금발",
+  "남자",
+  "남자 1",
+  "남자 2",
+  "남자 3",
+  "남학생",
+  "남학생 A",
+  "남학생 B",
+  "녹색 복면",
+  "누나",
+  "목소리",
+  "배달원",
+  "백색 복면",
+  "뱀",
+  "블루 이하 전원",
+  "새끼 고양이",
+  "성실해 보이는 여학생",
+  "소녀",
+  "소년",
+  "신문배달원",
+  "아이",
+  "아이들",
+  "안내방송",
+  "여자",
+  "여자아이",
+  "여학생",
+  "인영",
+  "전원",
+  "전투원 A",
+  "전투원 B",
+  "점원",
+  "체격 좋은 남학생",
+  "할머니",
+  "행인 A",
+  "행인 B"
+ ],
+ "counts": {
+  "by_severity": {
+   "error": 174,
+   "warning": 7
+  },
+  "by_type": {
+   "duplicate_summary": 146,
+   "name_from_neighbor_scene": 3,
+   "name_not_in_scene": 27,
+   "name_only_in_metadata": 4,
+   "pronoun_geu": 1
+  },
+  "by_folder": {
+   "calendar_april_summary_20260929": {
+    "error": 149
+   },
+   "calendar_jul_aug_summaries_20260929/august": {
+    "error": 3,
+    "warning": 2
+   },
+   "calendar_jul_aug_summaries_20260929/july": {
+    "error": 2,
+    "warning": 1
+   },
+   "calendar_june_summaries_20260929": {
+    "error": 5,
+    "warning": 2
+   },
+   "calendar_may_summaries_20260929": {
+    "error": 4
+   },
+   "calendar_november_a_summaries_20260929": {
+    "error": 4,
+    "warning": 2
+   },
+   "calendar_october_summaries_20260929": {
+    "error": 7
+   }
+  }
+ },
+ "findings": [
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 101,
+   "no": 2189,
+   "type": "pronoun_geu",
+   "severity": "error",
+   "token": "그의",
+   "summary": "호시카와가 순간적으로 움직인 적을 발견해 일행이 추적에 나선다. 쿄카는 성격과 달리 그의 동체 시력은 믿을 만하다며 놀린다.",
+   "evidence": {
+    "at": 47
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 124,
+   "no": 2445,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "쿄카가 마나미에게 빌려 읽던 장기 만화의 다음 이야기를 궁금해한다. 주인공이 가진 만화 잡지를 탐색 뒤에 빌려 읽기로 한다.",
+   "evidence": {
+    "scene_messages": 17
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 133,
+   "no": 2524,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "이즈미",
+   "summary": "호시카와가 이즈미에게 요령을 배워 비프 스트로가노프를 만들었다고 자랑한다. 맛있게 됐다는 말을 듣는 주인공은 점점 배가 고파진다.",
+   "evidence": {
+    "scene_messages": 15
+   }
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\design\\summaries.json",
+   "index": 8,
+   "no": 1143,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마코토",
+   "summary": "주인공과 이즈미가 셀프타이머로 다 함께 찍은 사진을 본다. 사진을 꺼리는 듯한 마코토와 예쁘게 나온 쿄카를 두고 이야기하던 주인공은 모두 자기다운 모습이라고 말한다.",
+   "evidence": {
+    "scene_messages": 27
+   }
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\design\\summaries.json",
+   "index": 34,
+   "no": 1545,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "쿄카",
+   "summary": "쿄카와 마나미를 따라간 오락실에서 녹화된 자신의 파라파라 춤에 반한 신카이가 연습에 열중한다. 춤추는 자신도 최고라는 신카이의 동작이 주인공에게는 아무리 봐도 권법 같다.",
+   "evidence": {
+    "scene_messages": 32
+   }
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\design\\summaries.json",
+   "index": 34,
+   "no": 1545,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "쿄카와 마나미를 따라간 오락실에서 녹화된 자신의 파라파라 춤에 반한 신카이가 연습에 열중한다. 춤추는 자신도 최고라는 신카이의 동작이 주인공에게는 아무리 봐도 권법 같다.",
+   "evidence": {
+    "scene_messages": 32
+   }
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\design\\summaries.json",
+   "index": 65,
+   "no": 40061,
+   "type": "name_only_in_metadata",
+   "severity": "warning",
+   "token": "마코토",
+   "summary": "일찍 귀가한 주인공이 오랜만에 요리하려 하지만 냉장고에는 카레밖에 만들 수 없는 것들뿐이다. 건더기가 아쉬운 주인공은 마코토에게 얻어먹으러 갈지 고민한다.",
+   "evidence": {
+    "scene_messages": 12
+   }
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/august",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\design\\summaries.json",
+   "index": 67,
+   "no": 40063,
+   "type": "name_only_in_metadata",
+   "severity": "warning",
+   "token": "마코토",
+   "summary": "주인공이 마코토도 하숙하는 처지라며 얻어먹으러 가는 것을 그만둔다. 감자와 소시지만으로도 카레는 된다며 정말 먹을 게 없을 때 가기로 한다.",
+   "evidence": {
+    "scene_messages": 5
+   }
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/july",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\july\\design\\summaries.json",
+   "index": 0,
+   "no": 113,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마코토",
+   "summary": "신카이가 전학 온 마코토에게 기술을 지적받은 일을 프로레슬링 모욕으로 여기며 분개한다. 솔직한 감상일 뿐이라는 주인공에게 발끈해 프로레슬링을 가르치겠다고 하자 주인공은 달아난다.",
+   "evidence": {
+    "scene_messages": 58
+   }
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/july",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\july\\design\\summaries.json",
+   "index": 23,
+   "no": 173,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "이즈미",
+   "summary": "모모세와 주인공이 평소 틈새와는 공기부터 다르다고 말한다. 신카이는 이즈미도 몰랐던 틈새 같다고 하면서도 카샤가 만들었느냐는 물음에는 확답하지 않는다.",
+   "evidence": {
+    "scene_messages": 13
+   }
+  },
+  {
+   "folder": "calendar_jul_aug_summaries_20260929/july",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\july\\design\\summaries.json",
+   "index": 23,
+   "no": 173,
+   "type": "name_from_neighbor_scene",
+   "severity": "warning",
+   "token": "이즈미",
+   "summary": "모모세와 주인공이 평소 틈새와는 공기부터 다르다고 말한다. 신카이는 이즈미도 몰랐던 틈새 같다고 하면서도 카샤가 만들었느냐는 물음에는 확답하지 않는다.",
+   "evidence": {
+    "neighbors": [
+     {
+      "no": 154,
+      "message_id": 20613
+     },
+     {
+      "no": 155,
+      "message_id": 20636
+     },
+     {
+      "no": 156,
+      "message_id": 20651
+     },
+     {
+      "no": 157,
+      "message_id": 20665
+     },
+     {
+      "no": 158,
+      "message_id": 20690
+     },
+     {
+      "no": 159,
+      "message_id": 20707
+     },
+     {
+      "no": 174,
+      "message_id": 20939
+     },
+     {
+      "no": 832,
+      "message_id": 22007
+     },
+     {
+      "no": 811,
+      "message_id": 21870
+     },
+     {
+      "no": 812,
+      "message_id": 21875
+     },
+     {
+      "no": 813,
+      "message_id": 21877
+     },
+     {
+      "no": 814,
+      "message_id": 21888
+     },
+     {
+      "no": 815,
+      "message_id": 21894
+     },
+     {
+      "no": 816,
+      "message_id": 21901
+     }
+    ],
+    "card": 49
+   }
+  },
+  {
+   "folder": "calendar_june_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "index": 34,
+   "no": 105,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "모모세",
+   "summary": "이즈미가 능력이 없는 모모세를 위해 히카리를 공격할 수 있게 해 주는 장갑 인광대를 보여 준다. 무리할 모모세를 지켜봐 달라는 부탁에 주인공은 의지해 주어 기쁘다며 승낙한다.",
+   "evidence": {
+    "scene_messages": 102
+   }
+  },
+  {
+   "folder": "calendar_june_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "index": 44,
+   "no": 1031,
+   "type": "name_only_in_metadata",
+   "severity": "warning",
+   "token": "마코토",
+   "summary": "주인공은 오늘 특훈 상대로 마코토를 청해 보기로 한다.",
+   "evidence": {
+    "scene_messages": 1
+   }
+  },
+  {
+   "folder": "calendar_june_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "index": 50,
+   "no": 1061,
+   "type": "name_only_in_metadata",
+   "severity": "warning",
+   "token": "모모세",
+   "summary": "주인공은 오늘 모모세와 함께 특훈하기로 마음먹는다.",
+   "evidence": {
+    "scene_messages": 1
+   }
+  },
+  {
+   "folder": "calendar_june_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "index": 84,
+   "no": 1521,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "호시카와",
+   "summary": "신카이가 주인공에게 호시카와와 사이가 좋은지 묻는다. 싫은 게 아니라 땀 냄새가 나지 않아 마음에 들지 않을 뿐이라며 땀이야말로 남자의 향기라고 말한다.",
+   "evidence": {
+    "scene_messages": 20
+   }
+  },
+  {
+   "folder": "calendar_june_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "index": 101,
+   "no": 1702,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "모모세가 주인공에게 마나미를 어떻게 생각하는지 묻는다. 마나미가 애 같다며 정신적으로는 자신이 더 어른이라는 모모세의 경쟁심에 주인공이 기막혀한다.",
+   "evidence": {
+    "scene_messages": 15
+   }
+  },
+  {
+   "folder": "calendar_june_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "index": 136,
+   "no": 2206,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "신카이",
+   "summary": "쿄카가 성도를 망가뜨린 사람이 모모세임을 짚어 내며 다음엔 변상이라고 한다. 신카이도 망원경 나사를 부러뜨렸다는 제보에 고마워하는 쿄카를 보고 주인공은 혀를 내두른다.",
+   "evidence": {
+    "scene_messages": 21
+   }
+  },
+  {
+   "folder": "calendar_june_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\design\\summaries.json",
+   "index": 167,
+   "no": 2303,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "이즈미",
+   "summary": "이즈미가 저녁을 차려 준다는 마코토의 말에 주인공도 얻어먹고 싶어 한다. 신카이까지 주인공 집에 놀러 가겠다며 탐색을 서두르자고 외친다.",
+   "evidence": {
+    "scene_messages": 16
+   }
+  },
+  {
+   "folder": "calendar_may_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_may_summaries_20260929\\design\\summaries.json",
+   "index": 6,
+   "no": 19,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "적을 놓친 일로 호시카와를 탓하는 일행을 이즈미가 말리고 다음엔 반드시 쓰러뜨리자고 한다. 이어 주인공에게 마나미를 살펴 달라고 부탁하며, 싸울 수 없다면 기억을 지우겠다고 한다.",
+   "evidence": {
+    "scene_messages": 178
+   }
+  },
+  {
+   "folder": "calendar_may_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_may_summaries_20260929\\design\\summaries.json",
+   "index": 78,
+   "no": 1512,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "이즈미",
+   "summary": "싸움이 무섭냐고 묻던 신카이가 사실은 자신도 무섭다고 털어놓는다. 그래도 불평 없이 싸우는 이즈미 앞에서 떨고 있을 수는 없다고 말한다.",
+   "evidence": {
+    "scene_messages": 24
+   }
+  },
+  {
+   "folder": "calendar_may_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_may_summaries_20260929\\design\\summaries.json",
+   "index": 105,
+   "no": 2122,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "호시카와",
+   "summary": "쿄카가 겨울 야간 관측 때 호시카와 탓에 옥상에 갇혔던 추억을 들려준다. 문을 걷어차자 신카이가 열어 줬고, 호시카와도 문만큼 걷어찼다고 한다.",
+   "evidence": {
+    "scene_messages": 34
+   }
+  },
+  {
+   "folder": "calendar_may_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_may_summaries_20260929\\design\\summaries.json",
+   "index": 105,
+   "no": 2122,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "신카이",
+   "summary": "쿄카가 겨울 야간 관측 때 호시카와 탓에 옥상에 갇혔던 추억을 들려준다. 문을 걷어차자 신카이가 열어 줬고, 호시카와도 문만큼 걷어찼다고 한다.",
+   "evidence": {
+    "scene_messages": 34
+   }
+  },
+  {
+   "folder": "calendar_november_a_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\design\\summaries.json",
+   "index": 42,
+   "no": 937,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "이즈미",
+   "summary": "결계의 핵심이 없는 옥상에서 마코토가 다른 교사의 푸른빛을 가리키자 신카이는 이즈미 쪽이 정답이었다고 말한다. 곧이어 신카이가 펜스를 기어오르는 적을 알아챈다.",
+   "evidence": {
+    "scene_messages": 50
+   }
+  },
+  {
+   "folder": "calendar_november_a_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\design\\summaries.json",
+   "index": 42,
+   "no": 937,
+   "type": "name_from_neighbor_scene",
+   "severity": "warning",
+   "token": "이즈미",
+   "summary": "결계의 핵심이 없는 옥상에서 마코토가 다른 교사의 푸른빛을 가리키자 신카이는 이즈미 쪽이 정답이었다고 말한다. 곧이어 신카이가 펜스를 기어오르는 적을 알아챈다.",
+   "evidence": {
+    "neighbors": [
+     {
+      "no": 913,
+      "message_id": 35355
+     },
+     {
+      "no": 914,
+      "message_id": 35443
+     },
+     {
+      "no": 915,
+      "message_id": 35531
+     },
+     {
+      "no": 916,
+      "message_id": 35620
+     },
+     {
+      "no": 917,
+      "message_id": 35709
+     },
+     {
+      "no": 936,
+      "message_id": 38803
+     },
+     {
+      "no": 941,
+      "message_id": 36457
+     },
+     {
+      "no": 942,
+      "message_id": 36662
+     },
+     {
+      "no": 943,
+      "message_id": 36867
+     },
+     {
+      "no": 944,
+      "message_id": 37072
+     },
+     {
+      "no": 945,
+      "message_id": 37277
+     },
+     {
+      "no": 951,
+      "message_id": 37803
+     },
+     {
+      "no": 952,
+      "message_id": 37592
+     },
+     {
+      "no": 953,
+      "message_id": 38015
+     },
+     {
+      "no": 954,
+      "message_id": 38227
+     },
+     {
+      "no": 955,
+      "message_id": 38439
+     },
+     {
+      "no": 961,
+      "message_id": 39036
+     },
+     {
+      "no": 962,
+      "message_id": 39104
+     },
+     {
+      "no": 963,
+      "message_id": 39172
+     },
+     {
+      "no": 964,
+      "message_id": 39241
+     },
+     {
+      "no": 965,
+      "message_id": 39310
+     },
+     {
+      "no": 966,
+      "message_id": 39376
+     },
+     {
+      "no": 967,
+      "message_id": 39443
+     },
+     {
+      "no": 968,
+      "message_id": 39509
+     },
+     {
+      "no": 969,
+      "message_id": 39575
+     },
+     {
+      "no": 970,
+      "message_id": 39643
+     }
+    ],
+    "card": 151
+   }
+  },
+  {
+   "folder": "calendar_november_a_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\design\\summaries.json",
+   "index": 58,
+   "no": 963,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "소지",
+   "summary": "마나미, 모모세와 함께 적을 해치운 주인공이 이즈미 일행을 불러 세운다. 소지의 행방을 묻는 모모세에게 이즈미가 쓰러뜨렸다고 답하고, 쿄카는 누구든 날려 버리고 싶다며 분노한다.",
+   "evidence": {
+    "scene_messages": 69
+   }
+  },
+  {
+   "folder": "calendar_november_a_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\design\\summaries.json",
+   "index": 58,
+   "no": 963,
+   "type": "name_from_neighbor_scene",
+   "severity": "warning",
+   "token": "소지",
+   "summary": "마나미, 모모세와 함께 적을 해치운 주인공이 이즈미 일행을 불러 세운다. 소지의 행방을 묻는 모모세에게 이즈미가 쓰러뜨렸다고 답하고, 쿄카는 누구든 날려 버리고 싶다며 분노한다.",
+   "evidence": {
+    "neighbors": [
+     {
+      "no": 913,
+      "message_id": 35372
+     },
+     {
+      "no": 914,
+      "message_id": 35460
+     },
+     {
+      "no": 915,
+      "message_id": 35548
+     },
+     {
+      "no": 916,
+      "message_id": 35637
+     },
+     {
+      "no": 917,
+      "message_id": 35726
+     },
+     {
+      "no": 918,
+      "message_id": 35818
+     },
+     {
+      "no": 919,
+      "message_id": 35950
+     },
+     {
+      "no": 920,
+      "message_id": 36081
+     },
+     {
+      "no": 921,
+      "message_id": 36213
+     },
+     {
+      "no": 922,
+      "message_id": 36345
+     },
+     {
+      "no": 941,
+      "message_id": 36448
+     },
+     {
+      "no": 942,
+      "message_id": 36653
+     },
+     {
+      "no": 943,
+      "message_id": 36858
+     },
+     {
+      "no": 944,
+      "message_id": 37063
+     },
+     {
+      "no": 945,
+      "message_id": 37268
+     },
+     {
+      "no": 951,
+      "message_id": 37685
+     },
+     {
+      "no": 952,
+      "message_id": 37473
+     },
+     {
+      "no": 953,
+      "message_id": 37896
+     },
+     {
+      "no": 954,
+      "message_id": 38108
+     },
+     {
+      "no": 955,
+      "message_id": 38320
+     },
+     {
+      "no": 961,
+      "message_id": 39062
+     },
+     {
+      "no": 962,
+      "message_id": 39130
+     },
+     {
+      "no": 964,
+      "message_id": 39267
+     },
+     {
+      "no": 965,
+      "message_id": 39334
+     },
+     {
+      "no": 966,
+      "message_id": 39401
+     },
+     {
+      "no": 967,
+      "message_id": 39467
+     },
+     {
+      "no": 968,
+      "message_id": 39533
+     },
+     {
+      "no": 969,
+      "message_id": 39600
+     },
+     {
+      "no": 970,
+      "message_id": 39669
+     }
+    ],
+    "card": 151
+   }
+  },
+  {
+   "folder": "calendar_november_a_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\design\\summaries.json",
+   "index": 86,
+   "no": 1442,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "마코토가 떨어뜨린 만화책은 마나미가 빌려준 미야모토 무사시 만화다. 읽는 법은 잘 모르겠다던 마코토는 표정을 잘 그렸다며 그런 표정을 짓는 사람이 드문 요즘 세상을 곱씹는다.",
+   "evidence": {
+    "scene_messages": 19
+   }
+  },
+  {
+   "folder": "calendar_november_a_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\design\\summaries.json",
+   "index": 99,
+   "no": 1675,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "이즈미",
+   "summary": "내년은 어떤 해가 될지 궁금해하던 호시카와가 이즈미, 신카이와의 작별을 떠올린다. 두 사람을 매일 볼 수 없게 된다는 주인공의 말에 호시카와는 조금 쓸쓸해지겠다고 한다.",
+   "evidence": {
+    "scene_messages": 13
+   }
+  },
+  {
+   "folder": "calendar_october_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "index": 43,
+   "no": 526,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "창문으로 숨어든 호시카와가 위기에 처한 마코토를 구해 함께 나타난다. 마나미를 아직 찾지 못했다는 이즈미의 말에 마코토는 시간이 없다며 걸음을 재촉한다.",
+   "evidence": {
+    "scene_messages": 27
+   }
+  },
+  {
+   "folder": "calendar_october_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "index": 44,
+   "no": 527,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "호시카와가 창문으로 들어왔다가 마주친 마코토를 도와 함께 합류한다. 쿄카에게서 마나미를 아직 못 찾았다고 들은 마코토는 서둘러야 한다고 말한다.",
+   "evidence": {
+    "scene_messages": 28
+   }
+  },
+  {
+   "folder": "calendar_october_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "index": 45,
+   "no": 528,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "호시카와가 창문으로 들어와 위험에 빠진 마코토를 구해 데려온다. 마나미를 아직 못 찾아 면목이 없다는 신카이에게 마코토는 시간이 많이 지났다며 서두르자고 한다.",
+   "evidence": {
+    "scene_messages": 27
+   }
+  },
+  {
+   "folder": "calendar_october_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "index": 46,
+   "no": 529,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "마코토와 함께 나타난 호시카와가 창문으로 침입하다 우연히 마코토를 만났다고 설명한다. 마나미는 아직이라는 모모세의 대답에 일행은 발걸음을 서두른다.",
+   "evidence": {
+    "scene_messages": 27
+   }
+  },
+  {
+   "folder": "calendar_october_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "index": 47,
+   "no": 530,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "마코토, 호시카와와 함께 일행과 다시 만난 주인공 앞에서 신카이가 호시카와를 다그치려 하자 모모세가 말린다. 마코토는 주인공 덕에 무사했다며 마나미가 걱정되니 서두르자고 한다.",
+   "evidence": {
+    "scene_messages": 39
+   }
+  },
+  {
+   "folder": "calendar_october_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "index": 79,
+   "no": 1435,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마나미",
+   "summary": "휘파람을 불던 마코토가 마나미의 흥얼거림이 머리에 박혔다며 노래 구절을 떠올린다. 정체를 짐작한 주인공은 그대로 모르는 채로 있어 달라고 부탁한다.",
+   "evidence": {
+    "scene_messages": 26
+   }
+  },
+  {
+   "folder": "calendar_october_summaries_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "index": 116,
+   "no": 30156,
+   "type": "name_not_in_scene",
+   "severity": "error",
+   "token": "마코토",
+   "summary": "주인공은 영화를 함께 볼 상대로 마코토를 고른다.",
+   "evidence": {
+    "scene_messages": 1
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 0,
+   "no": 1,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "위험을 감지하는 힘을 지닌 주인공이 쿄카의 초대로 천문부를 찾는다. 습격 소동이 동료를 고르는 시험이었음이 드러나고, 이즈미는 자신의 정체를 밝히며 함께 싸워 달라고 부탁한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 1,
+   "no": 2,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "천문부의 제안을 망설이던 주인공이 이즈미를 따라 밤의 공원으로 간다. 에미가 꿈에 갇혀 마음을 빼앗기는 모습을 보고 싸우기로 결심하고, 무기를 손에 넣어 도망친 적을 쫓는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 2,
+   "no": 4,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미와 함께 공원에서 도망친 적을 추적하던 중 푸른 달빛이 일렁인다. 길 위에 새로운 괴물들이 나타나자 두 사람은 무기를 들고 맞설 준비를 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 4
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 3,
+   "no": 5,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "첫 싸움을 버틴 주인공이 적들은 저마다 다른 모습을 지닌다는 설명을 듣는다. 계속 싸울 수 있겠느냐는 이즈미의 물음에 떨리는 다리를 다잡고 추적을 이어 간다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 5
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 4,
+   "no": 6,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "공원 끝에서 몰아붙인 적이 더 강한 모습으로 변하고 둘은 포위된다. 위기의 순간 치로와 쿄카, 신카이, 호시카와가 도착해 함께 맞선다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 6
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 5,
+   "no": 7,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "일행이 적을 쓰러뜨리자 푸른 달빛도 원래대로 돌아온다. 함께 싸우겠느냐는 이즈미의 마지막 물음에 주인공이 손을 내밀며 정식으로 동료가 된다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 7
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 6,
+   "no": 8,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카의 쓰레기 운반을 돕던 주인공은 체육관 뒤에서 말다툼 같은 목소리를 듣는다. 목소리의 주인은 혼자 연습하던 마나미였고, 두 사람은 뛰어난 연기에 감탄하며 인사를 나눈다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 8
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 7,
+   "no": 121,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "부모님의 편지를 받은 주인공이 본격적으로 천문부 활동을 시작한다. 동료들의 능력과 적의 내력을 듣고, 평일 특훈과 주말 틈새 탐색을 통해 도시를 지키는 싸움에 나선다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 121
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 8,
+   "no": 1001,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공은 오늘 함께 특훈할 상대로 이즈미를 고른다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1001
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 9,
+   "no": 1002,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "특훈을 제안받은 이즈미가 함께 겨뤄 보자고 답한다. 두 사람은 서로 잘 부탁한다며 훈련을 준비한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1002
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 10,
+   "no": 1003,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 훈련 제안에 잠시 망설인다. 주인공이 부담 갖지 않아도 된다고 하자 함께하겠다고 답한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1003
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 11,
+   "no": 1004,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 오늘 훈련을 함께하자고 청한다. 이즈미는 다른 약속이 없다며 제안을 받아들인다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1004
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 12,
+   "no": 1005,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미는 자신이 특훈 상대여도 괜찮은지 되묻는다. 꼭 부탁하고 싶다는 주인공의 말에 기뻐한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1005
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 13,
+   "no": 1006,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 교실로 찾아와 먼저 특훈을 제안한다. 마침 같은 생각이었던 주인공은 함께 훈련하러 나선다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1006
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 14,
+   "no": 1041,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공은 오늘 신카이에게 훈련 상대를 부탁하기로 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1041
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 15,
+   "no": 1042,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이는 자신을 특훈 상대로 고른 주인공을 칭찬한다. 전력을 다해 단련시켜 주겠다며 의욕을 보인다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1042
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 16,
+   "no": 1043,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 신카이에게 함께 훈련하자고 청한다. 신카이는 조금 부족한 상대라면서도 제안을 받아들인다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1043
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 17,
+   "no": 1044,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 최근 실력이 늘어난 주인공을 인정한다. 기초 운동을 대신하기에 알맞겠다며 특훈에 응한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1044
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 18,
+   "no": 1045,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이는 주인공의 성장이 눈에 띈다며 좋은 연습 상대라고 말한다. 주인공도 이번에는 강하게 단련해 달라고 부탁한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1045
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 19,
+   "no": 1046,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 다른 사람에게 가기 전에 붙잡겠다며 교실로 찾아온다. 특훈을 수락한 주인공은 신기술의 실험대가 되어 달라는 말에 굳어 버린다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1046
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 20,
+   "no": 1051,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공은 오늘 함께 훈련할 상대로 호시카와를 고른다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1051
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 21,
+   "no": 1052,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 무엇이든 경험이라며 훈련 제안을 받아들인다. 주인공은 묘하게 걸리는 말투에도 잘 부탁한다고 답한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1052
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 22,
+   "no": 1053,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "훈련을 제안받은 호시카와가 주위를 살핀다. 다른 사람이 없는 것을 확인한 뒤 한가하니 괜찮다며 응한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1053
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 23,
+   "no": 1054,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와는 함께 훈련하되 봐주지 않겠다고 말한다. 주인공도 바라던 바라며 맞선다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1054
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 24,
+   "no": 1055,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 말을 마치기도 전에 호시카와가 특훈을 수락한다. 두 사람은 서로 전력을 다해 겨루기로 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1055
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 25,
+   "no": 1056,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 먼저 주인공을 찾아와 특훈을 제안한다. 둘은 생각이 통했다며 함께 밖으로 나간다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1056
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 26,
+   "no": 1081,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공은 오늘 쿄카를 특훈에 초대하기로 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1081
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 27,
+   "no": 1082,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 별다른 일정이 없다며 특훈을 수락한다. 다만 여자라고 얕보지 말라며 주인공에게 못을 박는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1082
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 28,
+   "no": 1083,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 주인공의 특훈 제안을 예상하고 받아들인다. 발목을 잡지 말라는 말에 주인공도 두고 보라며 의욕을 낸다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1083
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 29,
+   "no": 1084,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카는 주인공과 겨루는 것도 제법 즐길 만해졌다며 특훈에 응한다. 아직 부족하다는 평가에 주인공은 은근히 발끈한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1084
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 30,
+   "no": 1085,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 주인공의 말이 끝나기도 전에 특훈을 수락한다. 지난번에 여러 번 공격을 허용한 만큼 오늘은 지지 않겠다고 다짐한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1085
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 31,
+   "no": 1086,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 교실로 찾아와 먼저 특훈을 하자고 재촉한다. 굳이 찾아온 이유를 묻자 얼버무리고는 서둘러 함께 가자고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1086
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 32,
+   "no": 1101,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "특훈 뒤 이즈미와 교정에 남아 있는 벚꽃을 바라본다. 이즈미는 풍성하게 피었으면서도 덧없는 느낌이 들어 아름답다고 말한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1101
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 33,
+   "no": 1102,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "압력솥을 새로 장만한 이즈미가 남는 큰 냄비를 주인공에게 주겠다고 한다. 냄비를 여덟 개나 갖고 있다는 말에 주인공은 놀란다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1102
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 34,
+   "no": 1103,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 손가락 총으로 주인공의 예능 감각을 시험한다. 쿄카에게 들은 이야기라며 자신은 쓰러지는 데 조금 늦었다고 털어놓는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1103
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 35,
+   "no": 1104,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 따뜻한 날씨 탓에 수업 중 자꾸 졸아 혼났다고 하소연한다. 안경에 눈을 그려 넣자는 주인공의 농담에는 난색을 보인다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1104
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 36,
+   "no": 1108,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "얼굴이 붉어진 주인공을 걱정한 이즈미가 이마를 짚어 열을 확인한다. 무리하지 말라는 당부에 주인공은 오늘 일찍 쉬겠다고 답한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1108
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 37,
+   "no": 1109,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 주인공의 뺨에 벚꽃잎이 붙었다고 알려 준다. 어느 쪽인지 묻자 귀여우니 조금 더 보겠다며 장난친다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1109
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 38,
+   "no": 1201,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "지는 벚꽃을 아쉬워하는 쿄카가 접착제로 꽃을 붙잡을 수 없을지 말한다. 주인공은 지기 때문에 아름다운 것이라며 만류한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1201
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 39,
+   "no": 1203,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 생물 수업에서 본 이식 수술 영상 때문에 기운이 없다. 겁이 많다며 놀리던 주인공도 직접 보여 주겠다는 말에는 물러선다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1203
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 40,
+   "no": 1204,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "동아리 회계인 쿄카가 적도의와 카메라 중 무엇을 살지 의논한다. 남는 망원경을 활용하자는 주인공의 조언을 듣고 적도의로 결정한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1204
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 41,
+   "no": 1205,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "과학 선택 과목 이야기를 하던 쿄카가 해부와 실험을 좋아한다고 말한다. 약품을 섞다 불이 났다는 고백에 주인공은 지난해 악취 소동을 떠올린다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1205
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 42,
+   "no": 1208,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 쿄카에게 사귀는 사람이 있는지 묻는다. 쿄카는 없다고 답하지만 고백받은 경험에 대해서는 더 이야기하고 싶지 않아 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1208
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 43,
+   "no": 1209,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 꽃을 가리키자 쿄카는 규동 반값 행사가 끝날 시간부터 걱정한다. 점심까지 굶고 기다렸다며 서둘러 달려간다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1209
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 44,
+   "no": 1210,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "특훈에서 공격을 한 번도 맞히지 못한 주인공이 분해한다. 쿄카는 경험 차이라며 놀리고, 그 태도가 오히려 승부욕을 자극한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1210
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 45,
+   "no": 1501,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "만개한 벚꽃을 본 신카이가 봄에는 힘이 솟는다며 들뜬다. 꽃이 떨어진다는 만류도 듣지 않고 나무에 태클하러 달려간다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1501
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 46,
+   "no": 1502,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "지갑을 잊어 점심을 굶은 주인공이 특훈 뒤 지쳐 버린다. 사정을 들은 신카이가 가방에서 삶은 달걀을 잔뜩 꺼내 건넨다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1502
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 47,
+   "no": 1503,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 새로 생각한 기술을 시험할 상대를 찾는다. 돕겠다고 나선 주인공은 온몸을 망가뜨리는 기술이라는 설명에 급히 도망친다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1503
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 48,
+   "no": 1504,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 특훈에서 잘 움직였다며 직접 만든 혼합 주스를 건넨다. 주인공은 영양도 맛도 좋다며 고마워한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1504
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 49,
+   "no": 1505,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "평소 읽는 잡지를 묻자 신카이가 격투기 잡지들을 소개한다. 빌려주겠다는 제안은 어느새 읽고 보고서까지 내라는 숙제가 된다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1505
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 50,
+   "no": 1506,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "전날 늦게 잠든 주인공이 특훈 중에도 졸음을 이기지 못한다. 말까지 횡설수설하자 신카이는 더 훈련하지 말고 잠부터 자라고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1506
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 51,
+   "no": 1601,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 올해 입학식에 갔는지 묻는다. 신입 여학생들의 얼굴과 이름을 알아 두기 위해서라는 이유에 주인공은 혀를 내두른다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1601
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 52,
+   "no": 1602,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 수업 중 날린 분필 가루 때문에 목이 아프다고 투덜댄다. 자신의 미성을 해쳤다며 선생님에게 언젠가 되갚겠다고 벼른다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1602
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 53,
+   "no": 1603,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 영어 쪽지시험 만점을 자랑하며 주인공의 점수를 묻는다. 다른 과목은 어땠느냐고 되묻자 얼른 자리를 피한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1603
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 54,
+   "no": 1604,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "푸른 하늘을 보며 호시카와는 당연한 풍경도 그 순간을 느껴야 한다고 말한다. 지금의 하늘이 영원하지 않을 수도 있다는 말을 남긴다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1604
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 55,
+   "no": 1605,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 펜싱과 검도의 차이를 묻는다. 호시카와는 규칙과 전기 판정을 설명하며, 기술뿐 아니라 품위와 마음을 기르는 운동이라고 강조한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1605
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 56,
+   "no": 1606,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 호시카와에게 여자친구가 몇 명인지 묻는다. 한 사람에게 얽매이기 싫다는 호시카와도 예전의 특별한 연애는 떠올리고 싶지 않아 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1606
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 57,
+   "no": 1607,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 주인공에게 치즈를 권하며 종류와 맛을 소개한다. 도마와 크래커도 일주일에 사흘은 가지고 다닌다는 말에 주인공은 말문이 막힌다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1607
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 58,
+   "no": 1608,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 파리에 관한 명언을 읊으며 아직 가 보지 못한 도시를 동경한다. 자기 세계에 빠진 모습에 주인공이 농담 섞인 핀잔을 준다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1608
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 59,
+   "no": 1609,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 훈련에 쓰는 검은 대회 우승을 축하하며 받은 선물이었다. 오래됐지만 꾸준히 손질해 지금도 잘 쓰고 있다고 말한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1609
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 60,
+   "no": 1610,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와의 독특한 재채기를 듣고 주인공이 꽃가루 알레르기를 의심한다. 호시카와는 지난해까지 멀쩡했는데 체질이 바뀐 걸까 의아해한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 1610
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 61,
+   "no": 2001,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 지친 이즈미를 살뜰히 걱정한다. 이를 보던 쿄카도 한숨을 쉬지만, 주인공의 엉뚱한 질문에 버럭 화를 낸다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2001
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 62,
+   "no": 2002,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 이즈미와 쿄카의 빈틈없는 호흡에 감탄한다. 오래 함께 싸운 두 사람은 서로의 행동을 짐작할 수 있다고 말한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2002
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 63,
+   "no": 2003,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미와 쿄카가 탐색 중에도 내일 들를 가게 이야기를 나눈다. 평범한 일상 같은 대화는 적의 기척을 감지하며 곧 추적으로 바뀐다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2003
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 64,
+   "no": 2004,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미의 붉은 입술을 보고 주인공이 립스틱을 알아본다. 전투에 나서는 마음을 다잡는 화장이라는 설명에 쿄카는 네일아트도 자랑한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2004
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 65,
+   "no": 2005,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "배고픈 쿄카가 주인공에게 도넛을 사 오라고 재촉한다. 이즈미가 샌드위치를 준비했다며 탐색이 끝나면 함께 먹자고 달랜다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2005
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 66,
+   "no": 2006,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "일행이 홋카이도에서 일어난 묻지마 습격 사건을 이야기한다. 멀리서 벌어지는 일까지 막지 못하는 무력감을 느끼지만 우선 자신들의 도시를 지키기로 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2006
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 67,
+   "no": 2007,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 피로회복제를 마신 뒤 목욕하다 쓰러질 뻔한 일을 털어놓는다. 쿄카는 무모했다고 핀잔을 주고 이즈미는 무리하지 말라고 걱정한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2007
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 68,
+   "no": 2008,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 이즈미에게 긴 생머리 가발을 써 보라고 제안한다. 주인공도 잘 어울리겠다며 거들자 이즈미는 쑥스러워하면서도 승낙한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2008
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 69,
+   "no": 2009,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "갑자기 삶은 달걀이 먹고 싶다는 이야기에서 편의점 달걀의 맛을 논한다. 이즈미는 집에서도 만들 수 있다고 설명하지만 쿄카는 당장 사 먹고 싶어 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2009
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 70,
+   "no": 2061,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 앞장서며 주인공을 힘차게 부른다. 평소와 같다는 주장에도 이즈미와 주인공은 유난히 기합이 들어갔다고 느낀다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2061
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 71,
+   "no": 2062,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "걸음이 늦어진 이즈미를 두 사람이 걱정한다. 신카이가 각자 잘하는 일이 다르다고 말하자 이즈미도 자신의 몫을 다하겠다고 마음을 다잡는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2062
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 72,
+   "no": 2063,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 이즈미의 시야를 가리지 않도록 주인공에게 비켜서라고 한다. 주인공은 미처 생각하지 못했다며 앞으로 조심하겠다고 답한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2063
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 73,
+   "no": 2064,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 신카이의 체격이 더 좋아졌다며 든든하다고 칭찬한다. 주인공도 지지 않겠다며 의욕을 내자 신카이 역시 경쟁심을 보인다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2064
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 74,
+   "no": 2065,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이와 주인공이 다음 적에게 마지막 일격을 넣는 승부를 하려 한다. 이즈미는 실전에서 딴생각을 하면 위험하다며 두 사람을 단호하게 말린다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2065
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 75,
+   "no": 2066,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 탐색 내내 배고프다고 투덜댄다. 먹을 것을 가져오지 않은 이즈미가 돌아가는 길에 다 함께 식사하자고 제안한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2066
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 76,
+   "no": 2067,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공과 신카이가 이즈미의 요리를 칭찬하며 다음 음식을 기대한다. 이즈미는 밥을 자꾸 찾게 될 만큼 매운 마파두부를 제안한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2067
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 77,
+   "no": 2081,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 성 대신 별명으로 불러 달라고 부탁한다. 이즈미는 여전히 호시카와라고 부르는 편이 편하다며 난처해한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2081
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 78,
+   "no": 2082,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 이즈미를 지키는 기사라며 무엇이든 명령해 달라고 한다. 이즈미가 밤새 탐색하자고 받아치자 미용에 나쁘다며 움츠러든다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2082
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 79,
+   "no": 2083,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "눈에 먼지가 들어간 호시카와에게 이즈미가 거울을 빌려준다. 정작 자기 얼굴에 감탄하고 있자 주인공이 정신 차리라며 타박한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2083
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 80,
+   "no": 2084,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 호시카와의 향수가 달라졌음을 알아챈다. 전혀 몰랐던 주인공에게 호시카와가 직접 향을 맡아 보라며 다가간다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2084
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 81,
+   "no": 2085,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "일행이 탐색 전부터 배고프다고 하던 신카이를 걱정한다. 호시카와는 쓰러뜨린 적이라도 먹을 거라고 농담해 두 사람을 당황시킨다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2085
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 82,
+   "no": 2086,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "더위를 느낀 호시카와가 셔츠 단추를 풀자 주인공이 말린다. 호시카와는 옷을 벗지는 않겠다면서도 멋을 부리는 태도를 거두지 않는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2086
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 83,
+   "no": 2087,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 주인공의 떨어지려는 단추를 꿰매 주겠다고 한다. 호시카와도 일부러 단추를 뜯어 부탁하자 이즈미가 어쩔 수 없다는 듯 받아준다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2087
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 84,
+   "no": 2161,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "밤늦게까지 이어지는 탐색에 신카이가 배고픔을 호소한다. 쿄카가 다이어트가 되니 괜찮다고 하자 신카이는 적이라도 먹어 치우겠다며 성화다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2161
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 85,
+   "no": 2162,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 쿄카의 체력을 걱정하다 자신의 커진 체격을 자랑한다. 쿄카가 가슴둘레를 가지고 놀리자 신카이는 전부 근육이라고 받아친다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2162
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 86,
+   "no": 2163,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 집에서 프로레슬링 방송이 잘 녹화되고 있을지 걱정한다. 쿄카는 근거도 없이 괜찮을 거라며 탐색을 재촉한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2163
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 87,
+   "no": 2164,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 오코노미야키 열 장을 먹으면 공짜인 가게를 소개한다. 신카이가 도전할 뜻을 보이자 다 함께 들러 구경하기로 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2164
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 88,
+   "no": 2165,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 다음 적에게 마지막 일격을 넣은 사람에게 규동을 사 주는 내기를 제안한다. 신카이와 쿄카의 의욕을 본 주인공은 벌써 승산이 없다고 느낀다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2165
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 89,
+   "no": 2166,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 신카이의 특별한 티셔츠를 알아본다. 주인공도 경기장에서만 파는 프로레슬링 기념품이라는 설명을 듣고 차이를 깨닫는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2166
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 90,
+   "no": 2167,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 실전에서는 평범한 손목띠를 쓰지만 특훈 때는 발목에 무게를 단다고 설명한다. 쿄카가 발목이 굵어질까 걱정하자 강해지려면 감수하라고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2167
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 91,
+   "no": 2168,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카와 신카이, 주인공이 탐색 도중 끝말잇기를 한다. 주인공은 탐색이 아니라 소풍을 온 것 같다고 느낀다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2168
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 92,
+   "no": 2169,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 고백을 거절했는데도 계속 편지를 보내는 상대 때문에 곤란해한다. 같은 반인 신카이에게 도움을 청하지만 직접 해결하라는 답이 돌아온다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2169
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 93,
+   "no": 2181,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 옷에 묻은 먼지를 끊임없이 털어낸다. 이를 지켜보던 쿄카는 성가시다며 참다못해 화를 낸다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2181
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 94,
+   "no": 2182,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 달조각을 본 것 같다며 걸음을 멈춘다. 호시카와가 욕심 때문에 헛것을 본 거라고 놀리자 쿄카가 발끈해 응수한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2182
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 95,
+   "no": 2183,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 지난해 축제 뒤풀이에서 호시카와가 술에 취해 소동을 벌였다고 폭로한다. 사정을 들은 주인공까지 슬그머니 거리를 둔다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2183
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 96,
+   "no": 2184,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 호시카와를 멋있다고 하던 여학생에게 엉터리 소문을 알려 줬다고 말한다. 호시카와는 항의하고 주인공은 쿄카를 적으로 돌리지 않겠다고 다짐한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2184
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 97,
+   "no": 2185,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 쿄카에게 생물 필기를 빌리는 대가로 규동을 사 주기로 한다. 호시카와가 쿄카의 식사량을 폭로했다가 한 대 얻어맞는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2185
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 98,
+   "no": 2186,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 쿄카와 호시카와는 나란히 서면 잘 어울린다고 말한다. 호시카와가 연인 같다고 맞장구치자 쿄카는 질색하며 다시는 옆에 서지 않겠다고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2186
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 99,
+   "no": 2187,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카의 말에 고개를 돌린 호시카와가 발에 걸려 넘어질 뻔한다. 두 사람이 책임을 두고 다투자 주인공은 어린애처럼 굴지 말라고 말린다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2187
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 100,
+   "no": 2188,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 지난주에 받은 연애편지 수를 자랑한다. 쿄카가 더 많이 받았다며 대수롭지 않게 넘기자 호시카와의 기세가 꺾인다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2188
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 101,
+   "no": 2189,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 순간적으로 움직인 적을 발견해 일행이 추적에 나선다. 쿄카는 성격과 달리 그의 동체 시력은 믿을 만하다며 놀린다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2189
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 102,
+   "no": 2190,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "피곤하니 돌아가고 싶다는 쿄카의 말에 호시카와가 반박한다. 우연히 말장난처럼 들린 표현을 두 사람이 놀리자 호시카와는 필사적으로 부인한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2190
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 103,
+   "no": 2191,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "탐색을 마치고 들를 곳을 찾다가 호시카와가 단골 카페를 추천한다. 쿄카가 자연스럽게 얻어먹기로 정하자 호시카와는 이번만이라며 물러선다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2191
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 104,
+   "no": 2192,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 길을 잊자 호시카와가 지나온 경로를 알려 준다. 쿄카와 티격태격하면서도 호흡이 맞는 모습을 보고 주인공은 둘이 친한 것 아니냐고 묻는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2192
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 105,
+   "no": 2193,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 넘어질 뻔한 쿄카를 붙잡아 준 뒤 생색을 낸다. 쿄카가 감사의 표시로 아주 매운 사탕을 내밀자 호시카와는 사양한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2193
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 106,
+   "no": 2194,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "평소 다투던 쿄카와 호시카와도 밤샘이 피부에 나쁘다는 말에는 뜻이 맞는다. 주인공은 결국 빨리 돌아가 자고 싶은 거냐며 탐색에 집중하라고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2194
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 107,
+   "no": 2361,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 합류하기 전 네 명 사이에 연애가 없었는지 묻는다. 신카이와 호시카와는 선뜻 답하지 않고 상상에 맡기겠다며 앞서 나간다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2361
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 108,
+   "no": 2362,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 머리 모양을 고치겠다며 탐색을 멈추려 한다. 참다못한 신카이가 머리카락을 붙잡고 앞으로 끌고 간다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2362
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 109,
+   "no": 2363,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "큰 적의 기척을 느끼고 신카이가 조용히 하라고 지시한다. 호시카와가 재채기하자 정작 신카이가 더 큰 소리로 호통친다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2363
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 110,
+   "no": 2364,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와의 진한 향수에 주인공과 신카이가 불평한다. 땀 냄새를 덮으려고 많이 뿌렸다는 해명은 두 사람을 더 질리게 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2364
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 111,
+   "no": 2365,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "오늘 있을 월식을 탐색 뒤에 촬영하기로 했다는 이야기를 나눈다. 밝게 빛나는 또 하나의 달은 왜 이지러지지 않는지 주인공이 의문을 품는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2365
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 112,
+   "no": 2366,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 다른 도시에서 일어나는 사건도 꾸준히 살피라고 당부한다. 흉흉한 소식이 이어지는 가운데 일행은 자신들의 도시를 지키겠다고 다짐한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2366
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 113,
+   "no": 2367,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "보이지 않는데도 적의 기척이 느껴지는 틈새의 기묘함을 이야기한다. 신카이는 호시카와의 능력도 믿고 있다며 수색을 재촉한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2367
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 114,
+   "no": 2368,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "밤을 새운 주인공이 탐색 중 잠들 듯 비틀거린다. 신카이는 들어오기 전에 몸 상태를 챙기라며 호시카와에게 깨워 주라고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2368
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 115,
+   "no": 2421,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미와 단둘이 탐색하던 주인공이 유난히 긴장된다고 털어놓는다. 이즈미는 자신도 피곤하다며 걸음을 늦춰 주인공을 배려한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2421
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 116,
+   "no": 2422,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 주인공의 체력이 좋아졌다고 칭찬한다. 응원을 받은 주인공은 오늘 멋진 모습을 보여 주겠다며 의욕을 낸다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2422
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 117,
+   "no": 2423,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미와 주인공이 다른 조의 탐색 상황을 걱정한다. 늘 티격태격하는 신카이와 호시카와도 싸우는 만큼 친한 것 아닐까 이야기한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2423
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 118,
+   "no": 2424,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "아직 말을 걸지 않았는데 이즈미가 자신을 불렀느냐고 묻는다. 두 사람은 생각이 통했다며 텔레파시나 새로운 힘일지도 모른다고 농담한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2424
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 119,
+   "no": 2425,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 음식을 자주 나눠 주는 것이 부담스럽지 않은지 묻는다. 큰 도움이 된다는 답에 안심하며 오늘 준비한 카레도 돌아가면 먹자고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2425
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 120,
+   "no": 2441,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 단둘이 하는 탐색을 데이트에 빗대며 주인공을 놀린다. 주인공은 언제 적이 나타날지 모르는데 그럴 여유가 없다고 답한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2441
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 121,
+   "no": 2442,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 지나온 길을 잊게 만드는 함정이 가장 싫다고 말한다. 지난해 하룻밤에 다섯 번이나 걸렸다는 이야기에 주인공도 질색한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2442
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 122,
+   "no": 2443,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 오늘은 일찍 자고 아침에 빨래할 계획이라고 말한다. 밤중의 소음과 햇볕에 말린 빨래 이야기를 들은 쿄카는 자취가 쉽지 않겠다며 수긍한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2443
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 123,
+   "no": 2444,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 구입한 공연 영상에 나온 춤을 따라 빙글빙글 돈다. 신나게 춤추던 쿄카는 주인공이 묻자 조금 어지럽다고 인정한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2444
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 124,
+   "no": 2445,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 마나미에게 빌려 읽던 장기 만화의 다음 이야기를 궁금해한다. 주인공이 가진 만화 잡지를 탐색 뒤에 빌려 읽기로 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2445
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 125,
+   "no": 2501,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 주인공과 둘이 다니니 꽤 좋은 태그 팀이라고 말한다. 뭐든 프로레슬링에 빗댄다는 지적에도 더 적절한 말이 있느냐고 되묻는다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2501
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 126,
+   "no": 2502,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 탐색 후에 새 기술을 시험하게 해 달라고 부탁한다. 지친 주인공은 곧장 집에 가겠다며 필사적으로 사양한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2502
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 127,
+   "no": 2503,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 틈새를 깊이 들어갈수록 기묘한 뒤틀림을 느낀다고 털어놓는다. 신카이는 오히려 감각을 익힌 것이라며 조금 더 여유를 가지라고 조언한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2503
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 128,
+   "no": 2504,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "전투 탓에 자주 해지는 옷 이야기를 하다가 저렴한 가게를 논한다. 신카이는 옷에 돈을 들일 필요 없다며 싼 티셔츠 몇 장이면 충분하다고 말한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2504
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 129,
+   "no": 2505,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "배고픈 두 사람이 이즈미가 준비한 탕수육을 떠올린다. 모모세가 먼저 돌아갔을 가능성까지 생각하자 남겨 둔 음식이 더 간절해진다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2505
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 130,
+   "no": 2521,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 두 검사의 탐색을 기사들의 모험담에 빗댄다. 음유시인이 노래할 이야기까지 상상하자 주인공은 따라가기 어렵다고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2521
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 131,
+   "no": 2522,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 밤인데도 별을 볼 수 없는 틈새를 아쉬워한다. 여학생이 있었다면 할 말을 주인공이 먼저 맞혀 버린다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2522
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 132,
+   "no": 2523,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공이 같은 검을 쓰는 호시카와의 전투가 참고된다고 말한다. 다만 거들먹거리는 걸음걸이까지 닮기는 싫다며 한마디 덧붙인다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2523
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 133,
+   "no": 2524,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 이즈미에게 요령을 배워 비프 스트로가노프를 만들었다고 자랑한다. 맛있게 됐다는 말을 듣는 주인공은 점점 배가 고파진다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2524
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 134,
+   "no": 2525,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "호시카와가 하루를 돌아보다 자신은 어째서 이토록 죄 많은 사람인지 탄식한다. 주인공은 무슨 일이었는지 묻다가 듣지 않는 편을 택한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2525
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 135,
+   "no": 2601,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "주인공은 어둠 속을 떠다니다 두 개의 달 아래 펼쳐진 숲을 보는 꿈을 꾼다. 나무 사이의 붉은 불빛을 향해 다가가던 중 잠에서 깨어난다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 2601
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 136,
+   "no": 5000,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "혼자 틈새에 들어선 주인공이 전혀 다른 세계 같은 공간에 놀란다. 불안하지만 우선 안으로 나아가 보기로 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 5000
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 137,
+   "no": 5001,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "옛 교사 안에 펼쳐진 낯선 공간에 주인공이 놀란다. 이즈미는 적을 가두기 위해 만들어진 결계인 틈새를 설명하고 함께 탐색을 시작한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 5001
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 138,
+   "no": 5002,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "옛 교사 안에 펼쳐진 낯선 공간에 주인공이 놀란다. 쿄카는 적을 가두기 위해 만들어진 결계인 틈새를 설명하고 출발을 재촉한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 5002
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 139,
+   "no": 5003,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "신카이가 처음 틈새에 들어온 주인공에게 이곳이 적을 가두는 결계라고 설명한다. 자세한 원리는 모른다면서도 기합을 넣고 출발하자고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 5003
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 140,
+   "no": 5004,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "처음 틈새를 본 주인공에게 호시카와가 적을 가두기 위한 결계라고 설명한다. 준비가 됐는지 확인한 뒤 함께 앞으로 나아간다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 5004
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 141,
+   "no": 5011,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "오후 쉬는 시간에 만난 이즈미가 오늘 특훈 상대를 정했는지 묻는다. 함께하고 싶다는 제안에 주인공은 생각해 보겠다고 답한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 5011
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 142,
+   "no": 5012,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "오전 쉬는 시간에 쿄카가 오늘 누구와 특훈할지 묻는다. 자신과 함께하자는 제안에 주인공은 생각해 보겠다고 한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 5012
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 143,
+   "no": 6001,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "이즈미가 오늘도 수고했다며 탐색을 마무리한다. 다음 주에도 함께 힘내자고 인사한다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 6001
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 144,
+   "no": 10001,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "특훈 뒤 이즈미의 도시락을 탐내던 주인공은 다음에 새로 만들어 주겠다는 약속을 받는다. 함께 커피를 마시며 맛은 가격보다 누구와 어떤 마음으로 즐기느냐에 달렸다는 이야기를 나눈다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 10001
+     }
+    ]
+   }
+  },
+  {
+   "folder": "calendar_april_summary_20260929",
+   "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "index": 145,
+   "no": 20001,
+   "type": "duplicate_summary",
+   "severity": "error",
+   "token": null,
+   "summary": "쿄카가 치로에게 먹이를 주며 이즈미에게서 받은 특별한 동료라는 내력을 들려준다. 이야기 끝에 3년 전 봄 무렵의 기억이 비어 있음을 털어놓고 잠시 쓸쓸한 표정을 보인다.",
+   "evidence": {
+    "others": [
+     {
+      "folder": "calendar_april_summary_20260929 (approved)",
+      "no": 20001
+     }
+    ]
+   }
+  }
+ ]
+}

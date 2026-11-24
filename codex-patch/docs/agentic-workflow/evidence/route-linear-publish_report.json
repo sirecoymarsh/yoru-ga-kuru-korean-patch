@@ -1,0 +1,25 @@
+{
+  "status": "ROUTE_LINEAR_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "0130135eff6c1b156a76f2fa9505addae18d5b2bdbaedc27ab711a54e368ad39"
+  },
+  "manifest_sha256": "9b1824dda50a9cda257f8c2f6e7003ca31c5722735ed95a76f5dc4a2f8672fb2",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "changed_function_ids": [
+    27007,
+    27010,
+    27025,
+    27031,
+    31860
+  ],
+  "added_functions": {
+    "KR_RouteAppendLinear": 31907,
+    "KR_RouteCellLinear": 31908,
+    "KR_DrawRouteLinear": 31909
+  },
+  "unchanged_other_runtime_files": 97,
+  "unchanged_save_files": 216,
+  "recovery_unchanged": true,
+  "native_gameplay_verified": false,
+  "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\route_linear_20260916"
+}

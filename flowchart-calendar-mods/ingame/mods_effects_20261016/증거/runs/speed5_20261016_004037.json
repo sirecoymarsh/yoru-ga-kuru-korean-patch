@@ -1,0 +1,163 @@
+{
+ "pid": 45656,
+ "ain_sha256": "e6b6449ba2dd495828975ff2e049f1a925962cada876348dded7219d78293df3",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 24.7,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\probe\\run\\SaveData_Effects_speed5_20261016_004037",
+  "STAGE resume gf=0 ms=2459",
+  "RESUME NightR36.asd scenario=speed5",
+  "TICK first map=2009 x=21 y=6 remain=25 battleResult=-1 battleTime=0",
+  "STAGE step0 gf=0 ms=3681",
+  "SETUP rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=5 trap=0 quick=0 route=0 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 recoverAfterBattle=0",
+  "STAGE step1 gf=2 ms=4153",
+  "DUMP speed5_start dungeon=2009 mapNo=2009 map=2009 x=21 y=6 remain=400 battleResult=-1 battleTime=0 autoMoves=0 walk=67",
+  "SETTINGS speed5_start rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=5 trap=0 quick=0 route=0 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 recoverAfterBattle=0",
+  "PARTY speed5_start persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "ITEMS speed5_start stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE speed5_start flag85=-1 flag86=-1 flag88=0 flag89=0 sweepOK=0",
+  "SHOT pe_speed5_start.bmp",
+  "STAGE step2 gf=10 ms=4341",
+  "WALK e1 from 21,6 to 23,8 len=4 target 23,8 obj=3 sub=0 removed=0 show=1 seen=0 stepped=0",
+  "BATTLE 1 BEGIN event=0 persons=2 | p0 id=1 lv=62 hp=768/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "BATTLE 1 STARTED quickActive=0 rate=5 auto=1 speedSetting=5",
+  "BATTLE update 3 rate=5 quickActive=0",
+  "ITEMS call=1 r=0 enabled=0 friends=3 actor=1 waitType=0 wait=0",
+  "SMART call=1 r=0 actor=1 action=-1 tech=0 item=0 target=-1",
+  "ITEMS call=2 r=0 enabled=0 friends=3 actor=3 waitType=0 wait=0",
+  "SMART call=2 r=0 actor=3 action=-1 tech=0 item=0 target=-1",
+  "ITEMS call=3 r=0 enabled=0 friends=3 actor=3 waitType=0 wait=0",
+  "SMART call=3 r=0 actor=3 action=-1 tech=0 item=0 target=0",
+  "ITEMS call=4 r=0 enabled=0 friends=3 actor=1 waitType=0 wait=0",
+  "SMART call=4 r=0 actor=1 action=-1 tech=0 item=0 target=0",
+  "BATTLE 1 END ms=8752 frames=174 updates=500 quickActive=0 rate=5 smartCalls=4 smartTaken=0 itemCalls=4 itemTaken=0",
+  "BATTLE 1 CLOSE auto=1 persons=2 | p0 id=1 lv=62 hp=752/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "SHOT pe_result_b1.bmp",
+  "RESULT screen battle=1 persons=2 | p0 id=1 lv=62 hp=752/768 exp=852 tr=20157 money=725338 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290859",
+  "RESULT advanced by the probe",
+  "BATTLE update 600 rate=5 quickActive=0",
+  "ARRIVED e1 map=2009 x=23 y=8 remain=376 battleResult=-1 battleTime=0",
+  "STAGE step3 gf=301 ms=19702",
+  "DUMP speed5_after_e1 dungeon=2009 mapNo=2009 map=2009 x=23 y=8 remain=376 battleResult=-1 battleTime=0 autoMoves=0 walk=71",
+  "SETTINGS speed5_after_e1 rateEX=100 rateTraining=100 rateMoney=100 ratePair=100 speed=5 trap=0 quick=0 route=0 loot=0 sweep=0 smart=0 items=0 itemsMain=30 auto=1 recoverAfterBattle=0",
+  "PARTY speed5_after_e1 persons=2 | p0 id=1 lv=62 hp=752/768 exp=852 tr=20157 money=725408 | p1 id=3 lv=63 hp=114/498 exp=12490 tr=19982 money=290929",
+  "ITEMS speed5_after_e1 stock 19 20 22 18 9 set 102 100 100 103 103",
+  "ROUTE speed5_after_e1 flag85=-1 flag86=-1 flag88=0 flag89=0 sweepOK=0",
+  "SHOT pe_speed5_after_e1.bmp",
+  "STAGE step4 gf=309 ms=19856",
+  "FAILS 0",
+  "END code=0"
+ ],
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\speed5_20261016_004037\\pe_result_b1.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\speed5_20261016_004037\\pe_speed5_after_e1.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\shots\\speed5_20261016_004037\\pe_speed5_start.png"
+ ],
+ "scenario": "speed5",
+ "save": "NightR36.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\probe\\run\\SaveData_Effects_speed5_20261016_004037",
+ "probe": {
+  "scenario": "speed5",
+  "sites": [
+   {
+    "owner": "C_SceneBattle@Run",
+    "old": "KR_BeginQuick",
+    "new": "KR_PBBegin",
+    "sites": 1
+   },
+   {
+    "owner": "C_SceneBattle@Run",
+    "old": "KR_EndQuick",
+    "new": "KR_PBEnd",
+    "sites": 1
+   },
+   {
+    "owner": "C_SceneBattle@_Update",
+    "old": "KR_QuickWatch",
+    "new": "KR_PBWatch",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleProgress@SetFriendActionAuto",
+    "old": "KR_SmartRun",
+    "new": "KR_PBSmart",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleProgress@CheckAction",
+    "old": "KR_ItemsTry",
+    "new": "KR_PBItems",
+    "sites": 2
+   },
+   {
+    "owner": "KR_NoticeInstant",
+    "old": "KR_NoticeShow",
+    "new": "KR_PBNoticeShow",
+    "sites": 1
+   },
+   {
+    "owner": "KR_T8NoticeInstant",
+    "old": "KR_T8TrapNotice",
+    "new": "KR_PBTrapNotice",
+    "sites": 1
+   },
+   {
+    "owner": "C_SceneDungeon@StepedOnCell",
+    "old": "■シンプルダイアログ",
+    "new": "KR_PBSimple",
+    "sites": 2
+   },
+   {
+    "owner": "C_SceneDungeon@Run",
+    "old": "KR_SweepExecute",
+    "new": "KR_PBSweep",
+    "sites": 1
+   },
+   {
+    "owner": "C_BattleResultView@Run",
+    "old": "KR_ExploreResultEnter",
+    "new": "KR_PBResultEnter",
+    "sites": 1
+   },
+   {
+    "owner": "C_MessageDialog@Run",
+    "old": "KR_ExploreLevelEnter",
+    "new": "KR_PBMsgDlgEnter",
+    "sites": 1
+   }
+  ],
+  "waits": 29,
+  "probe_sha256": "e6b6449ba2dd495828975ff2e049f1a925962cada876348dded7219d78293df3",
+  "ids": {
+   "DUNGEON_ID": 28622,
+   "MAP_NO": 27042,
+   "CELL_AT": 27082,
+   "AB_ID": 27332,
+   "AB_LV": 27335,
+   "AB_HP": 27336,
+   "AB_MHP": 27338,
+   "AB_EXP": 27333,
+   "AB_TR": 27339,
+   "AB_MONEY": 27340,
+   "FL_MAPID": 26556,
+   "FL_X": 26559,
+   "FL_Y": 26562,
+   "C_OBJ": 27005,
+   "C_SUB": 27008,
+   "C_REMOVED": 27023,
+   "C_SHOW": 27020,
+   "C_SEEN": 27017,
+   "C_EV": 27029,
+   "C_WALK": 27039,
+   "C_STEPPED": 27014,
+   "FL_BRESULT": 26603,
+   "FL_BTIME": 26606
+  }
+ },
+ "candidate_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+ "candidate_pact": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+ "fails": [],
+ "oks": 0,
+ "user_save_folder_unchanged": true
+}

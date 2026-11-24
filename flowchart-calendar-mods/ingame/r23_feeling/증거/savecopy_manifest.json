@@ -1,0 +1,2822 @@
+{
+ "source": "C:\\Users\\CadriacLord\\OneDrive\\문서\\AliceSoft\\밤이 온다! -Square of the MOON- Remastered\\SaveData_KR_UI_Integrated_20260913",
+ "copied": "2026-09-28 12:24:49",
+ "reused": 460,
+ "copied_new_or_changed": 9,
+ "files": {
+  "3DConfig.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\3DConfig.vsf",
+   "size": 108,
+   "sha256": "7ad2beb4c6527f675d71b83189a36fd07f19c8736e5c314d30a6d8b2f73ef783",
+   "reused_from": "r15"
+  },
+  "AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_14_11_18_44/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_14_11_18_44\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_14_11_18_44/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_14_11_18_44\\NightRAFCGMode.asd",
+   "size": 209,
+   "sha256": "47e40dbe05d805987d0a42f69a321656458fc0000b0a23b73e9bca3fea86a833",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_14_11_18_44/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_14_11_18_44\\NightRAFInfo.asd",
+   "size": 222,
+   "sha256": "ac5c621d544620caf7615d3910de97507c99c06adeeec82b7efd30ee81a876a7",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_14_16_27_05/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_14_16_27_05\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_14_16_27_05/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_14_16_27_05\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_14_16_27_05/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_14_16_27_05\\NightRAFCGMode.asd",
+   "size": 461,
+   "sha256": "a76ac80c876991858e116079b33c676c48cbc21b664b7429b2568af3462f8c88",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_14_16_27_05/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_14_16_27_05\\NightRAFInfo.asd",
+   "size": 232,
+   "sha256": "730436335a4b9b73354b06a7edf04b549ae452e33fe8eeb693b1dbe95b0bc41d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_33_22/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_33_22\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_33_22/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_33_22\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_33_22/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_33_22\\NightRAFCGMode.asd",
+   "size": 507,
+   "sha256": "4c6a5763cec2f9f94248a5c11fe4737105ba79b9fbe52ec52c90d583c3ee9d63",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_33_22/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_33_22\\NightRAFCommon.asd",
+   "size": 151,
+   "sha256": "25a3247a3d6fac0ae2600eaab56f78e9ebdeb03cb563698e09b24377cd95439e",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_33_22/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_33_22\\NightRAFInfo.asd",
+   "size": 233,
+   "sha256": "ae95c7d71d47a89817d7b94306536043be6c4d7315ea2a6334cf8594dd6c9587",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_33_22/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_33_22\\NightRAFMemMode.asd",
+   "size": 31,
+   "sha256": "a25733ed48bd72a7d52bdf45507ecfc933f536d30c4268114b0b195ad41661f4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_43_44/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_43_44\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_43_44/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_43_44\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_43_44/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_43_44\\NightRAFCGMode.asd",
+   "size": 632,
+   "sha256": "f27a4ffb7f09a59192930fb7d445a16981c27bd8a877a8cdbf2b8a432ea5a2e9",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_43_44/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_43_44\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "989a1711d5789a5b9d0553b193417b5863b4e91e3976355d477617abf3fc0095",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_43_44/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_43_44\\NightRAFInfo.asd",
+   "size": 233,
+   "sha256": "021234af9d065748ebcc9463696727c661f89cc0fa0c2ae8447c74e49d9245b5",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_04_43_44/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_04_43_44\\NightRAFMemMode.asd",
+   "size": 31,
+   "sha256": "a25733ed48bd72a7d52bdf45507ecfc933f536d30c4268114b0b195ad41661f4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_05_25_54/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_05_25_54\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_05_25_54/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_05_25_54\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_05_25_54/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_05_25_54\\NightRAFCGMode.asd",
+   "size": 786,
+   "sha256": "b1b29d91062642f913a594f47b97c6520b6ab8c8c8e3073be58b3e3ae55606b7",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_05_25_54/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_05_25_54\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "39d306c122b6e0c8f8a26ee246c23a17da82de7a8b5c4e7cea00687c735ffac5",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_05_25_54/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_05_25_54\\NightRAFInfo.asd",
+   "size": 236,
+   "sha256": "7cd79327a2ce4476624d4213ffdafb871ff3814f07bfc05dad6161d5f39b5cca",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_05_25_54/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_05_25_54\\NightRAFMemMode.asd",
+   "size": 34,
+   "sha256": "b442a7e93c8a450afd6a9b36153b395b5dd3d856e2e24cf200c099953637921b",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_11_24_35/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_11_24_35\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_11_24_35/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_11_24_35\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_11_24_35/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_11_24_35\\NightRAFCGMode.asd",
+   "size": 817,
+   "sha256": "33983036e5c1858504d35c327b107691932a4e27cd6cb6846be11da9ac09e950",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_11_24_35/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_11_24_35\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "39d306c122b6e0c8f8a26ee246c23a17da82de7a8b5c4e7cea00687c735ffac5",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_11_24_35/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_11_24_35\\NightRAFInfo.asd",
+   "size": 235,
+   "sha256": "6ddc13868367d21300bf0fc99e143f1ddc737eabad46c6df9668eb5c4ed5f3cb",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_11_24_35/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_11_24_35\\NightRAFMemMode.asd",
+   "size": 34,
+   "sha256": "b442a7e93c8a450afd6a9b36153b395b5dd3d856e2e24cf200c099953637921b",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_13_43_06/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_13_43_06\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_13_43_06/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_13_43_06\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_13_43_06/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_13_43_06\\NightRAFCGMode.asd",
+   "size": 846,
+   "sha256": "9f8b5bfa18eae269893f3484d527a1b00abb394d532a0dde0f8bc6a2d36eed61",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_13_43_06/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_13_43_06\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "9ee63480ed40b206e01bcf5aecc179231549f1af3e675560ad0646ab360f600e",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_13_43_06/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_13_43_06\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "6bc2997fa068bd371b982526599894b05cea5fd7669a40330a77ef2eba7e3079",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_13_43_06/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_13_43_06\\NightRAFMemMode.asd",
+   "size": 34,
+   "sha256": "b442a7e93c8a450afd6a9b36153b395b5dd3d856e2e24cf200c099953637921b",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_16_48_53/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_16_48_53\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_16_48_53/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_16_48_53\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_16_48_53/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_16_48_53\\NightRAFCGMode.asd",
+   "size": 879,
+   "sha256": "7aae6e361908ee407c398399639f7ea6997382484bb0035d8804baab17e84ec6",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_16_48_53/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_16_48_53\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "01ac1a482f78bddac83eff5757d1886bcc88fcb6ebc4d60ccd165397f27a9893",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_16_48_53/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_16_48_53\\NightRAFInfo.asd",
+   "size": 235,
+   "sha256": "9b7fff631ecc34ea64c6cc7812649bd621671550b4c5f78df81320ea3745cfbc",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_16_48_53/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_16_48_53\\NightRAFMemMode.asd",
+   "size": 34,
+   "sha256": "b442a7e93c8a450afd6a9b36153b395b5dd3d856e2e24cf200c099953637921b",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_30_41/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_30_41\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_30_41/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_30_41\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_30_41/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_30_41\\NightRAFCGMode.asd",
+   "size": 897,
+   "sha256": "787fc79724b9461058e59eaad7e3f1322b6295b180408661081157e73465cefc",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_30_41/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_30_41\\NightRAFCommon.asd",
+   "size": 151,
+   "sha256": "86e912964b5a2350aeb9757e1a2f054c2c8939a4ff040bf19ec9b035dbaf43d6",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_30_41/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_30_41\\NightRAFInfo.asd",
+   "size": 228,
+   "sha256": "1b47b902e485df3057334eb23b528e5778647e82148916116a0b6af074652073",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_30_41/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_30_41\\NightRAFMemMode.asd",
+   "size": 34,
+   "sha256": "b442a7e93c8a450afd6a9b36153b395b5dd3d856e2e24cf200c099953637921b",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_45_21/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_45_21\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_45_21/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_45_21\\NightRAFBGMMode.asd",
+   "size": 87,
+   "sha256": "f6b2e6fdb4cb225335b4dd442ae1acd805fe438e9787630dc6e170516b332003",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_45_21/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_45_21\\NightRAFCGMode.asd",
+   "size": 897,
+   "sha256": "787fc79724b9461058e59eaad7e3f1322b6295b180408661081157e73465cefc",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_45_21/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_45_21\\NightRAFCommon.asd",
+   "size": 151,
+   "sha256": "86e912964b5a2350aeb9757e1a2f054c2c8939a4ff040bf19ec9b035dbaf43d6",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_45_21/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_45_21\\NightRAFInfo.asd",
+   "size": 228,
+   "sha256": "1b47b902e485df3057334eb23b528e5778647e82148916116a0b6af074652073",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_17_45_21/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_17_45_21\\NightRAFMemMode.asd",
+   "size": 36,
+   "sha256": "ef203c8a6ab6f8e4d429c302d302d61518500096dae72cc70c5acf3002bfb28d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_18_53_21/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_18_53_21\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_18_53_21/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_18_53_21\\NightRAFBGMMode.asd",
+   "size": 91,
+   "sha256": "286b20a41eb781c70ed6afce830790e87c66defb024e92bb3cd6e976d7e01bb2",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_18_53_21/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_18_53_21\\NightRAFCGMode.asd",
+   "size": 1028,
+   "sha256": "13ab30ba55ac608f5770b33e4535245f0f03fda57bca03f0ead278aefd5ac26a",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_18_53_21/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_18_53_21\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "5610876342fa2a6e631da2d9308a4fd345b58e4a4d14b2f7d68a8c5e983c0cc7",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_18_53_21/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_18_53_21\\NightRAFInfo.asd",
+   "size": 234,
+   "sha256": "11785481fee198b92f66eefc824bf846556c0ed63068024c6ee615e332838878",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_18_53_21/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_18_53_21\\NightRAFMemMode.asd",
+   "size": 36,
+   "sha256": "ef203c8a6ab6f8e4d429c302d302d61518500096dae72cc70c5acf3002bfb28d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_40_44/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_40_44\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_40_44/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_40_44\\NightRAFBGMMode.asd",
+   "size": 91,
+   "sha256": "286b20a41eb781c70ed6afce830790e87c66defb024e92bb3cd6e976d7e01bb2",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_40_44/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_40_44\\NightRAFCGMode.asd",
+   "size": 1028,
+   "sha256": "13ab30ba55ac608f5770b33e4535245f0f03fda57bca03f0ead278aefd5ac26a",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_40_44/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_40_44\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "5610876342fa2a6e631da2d9308a4fd345b58e4a4d14b2f7d68a8c5e983c0cc7",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_40_44/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_40_44\\NightRAFInfo.asd",
+   "size": 233,
+   "sha256": "f3c479f94e27f0f1015455c40bdbe173c18112b65c7dbbdd381837e706e98054",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_40_44/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_40_44\\NightRAFMemMode.asd",
+   "size": 39,
+   "sha256": "d0b5abdb87f753dc0dccdf4f9f1f77a4d63add513b507ca75557031ec0624735",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_59_28/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_59_28\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_59_28/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_59_28\\NightRAFBGMMode.asd",
+   "size": 91,
+   "sha256": "286b20a41eb781c70ed6afce830790e87c66defb024e92bb3cd6e976d7e01bb2",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_59_28/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_59_28\\NightRAFCGMode.asd",
+   "size": 1032,
+   "sha256": "fcd0f58e9fa861bdf22617154dfba8e9bd664883a71b618c9574e51bd9872b10",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_59_28/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_59_28\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "86a9841df136c91f5222edc503fab6d69c1ae1005a2dbe6e0c81cb49f4ed141c",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_59_28/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_59_28\\NightRAFInfo.asd",
+   "size": 232,
+   "sha256": "1c08a5339e86f0d2d43865a7312f8f63ddc38aed697d20575a1ae3bb770e2bf4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_19_59_28/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_19_59_28\\NightRAFMemMode.asd",
+   "size": 39,
+   "sha256": "d0b5abdb87f753dc0dccdf4f9f1f77a4d63add513b507ca75557031ec0624735",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_15_56/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_15_56\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_15_56/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_15_56\\NightRAFBGMMode.asd",
+   "size": 91,
+   "sha256": "286b20a41eb781c70ed6afce830790e87c66defb024e92bb3cd6e976d7e01bb2",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_15_56/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_15_56\\NightRAFCGMode.asd",
+   "size": 1045,
+   "sha256": "5ac8588065ed4c3d66f3b1fe74932cb229586527689470778bf77d717608919f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_15_56/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_15_56\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "86a9841df136c91f5222edc503fab6d69c1ae1005a2dbe6e0c81cb49f4ed141c",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_15_56/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_15_56\\NightRAFInfo.asd",
+   "size": 227,
+   "sha256": "5690692246804b4849dfd33d41d566c24cb2231ce68c2a0e388ea88c18bb35d7",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_15_56/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_15_56\\NightRAFMemMode.asd",
+   "size": 41,
+   "sha256": "2d46628adb80ff368479712ba66699ce55b3e0871a2f88a54c7fe7e63e264abc",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_34_11/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_34_11\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_34_11/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_34_11\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_34_11/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_34_11\\NightRAFCGMode.asd",
+   "size": 1099,
+   "sha256": "b8e16307a29fcf2169f0ff40e3be54c3ed214c0e55186e57bd0435cd68107940",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_34_11/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_34_11\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "865742efc598fb772f314389c13ed8e66791e54757ff1b8b5550d4b8677c1b54",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_34_11/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_34_11\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "96f03fa6eb42b2311b9d54482aad5a16978d175c347c4f375848b74aa8c7b75a",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_34_11/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_34_11\\NightRAFMemMode.asd",
+   "size": 44,
+   "sha256": "07cdf90d5681581616386e889f9d8f16c9954acc53389287838ca56051e119af",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_52_29/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_52_29\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_52_29/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_52_29\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_52_29/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_52_29\\NightRAFCGMode.asd",
+   "size": 1099,
+   "sha256": "b8e16307a29fcf2169f0ff40e3be54c3ed214c0e55186e57bd0435cd68107940",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_52_29/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_52_29\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "865742efc598fb772f314389c13ed8e66791e54757ff1b8b5550d4b8677c1b54",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_52_29/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_52_29\\NightRAFInfo.asd",
+   "size": 235,
+   "sha256": "9f7d014ac43eacfc4a37a28086c8f245ab5ad2b312b0bca05e5d4e402e3f5ba4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_20_52_29/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_20_52_29\\NightRAFMemMode.asd",
+   "size": 44,
+   "sha256": "07cdf90d5681581616386e889f9d8f16c9954acc53389287838ca56051e119af",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_30_30/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_30_30\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_30_30/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_30_30\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_30_30/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_30_30\\NightRAFCGMode.asd",
+   "size": 1126,
+   "sha256": "8ea5104eb2cde5f4aa46e006c5f1b18a7ef56a757d6c98a47ede3a63c58411d9",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_30_30/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_30_30\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "b56d1940ef11d1eaed216b488219abf5b670951c7e38afabfd562d9b1c34645e",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_30_30/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_30_30\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "fe5050ea1c12b87679cb3fe748216c46cb8f3ec7e48cbce46dc97387b973d314",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_30_30/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_30_30\\NightRAFMemMode.asd",
+   "size": 44,
+   "sha256": "07cdf90d5681581616386e889f9d8f16c9954acc53389287838ca56051e119af",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_36_24/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_36_24\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_36_24/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_36_24\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_36_24/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_36_24\\NightRAFCGMode.asd",
+   "size": 1137,
+   "sha256": "f6fbbf2f65c664f8bc1609dcd089f2f4ea8686146be3c99e761173e8a6bf13ab",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_36_24/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_36_24\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "b56d1940ef11d1eaed216b488219abf5b670951c7e38afabfd562d9b1c34645e",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_36_24/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_36_24\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "fe5050ea1c12b87679cb3fe748216c46cb8f3ec7e48cbce46dc97387b973d314",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_36_24/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_36_24\\NightRAFMemMode.asd",
+   "size": 44,
+   "sha256": "07cdf90d5681581616386e889f9d8f16c9954acc53389287838ca56051e119af",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_56_24/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_56_24\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_56_24/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_56_24\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_56_24/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_56_24\\NightRAFCGMode.asd",
+   "size": 1139,
+   "sha256": "1518fb1eaf908bd22070e5274c79e778ac1892226a37ec2024dd64597d575fa0",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_56_24/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_56_24\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "79a8451465ca5842899abcecc9e59567500ed2c3eb476a85d429175e357645f6",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_56_24/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_56_24\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "1232b19a705029adef6369fbafe8d164e84334cfebaee887d394d7fe7d92b0ed",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_21_56_24/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_21_56_24\\NightRAFMemMode.asd",
+   "size": 44,
+   "sha256": "07cdf90d5681581616386e889f9d8f16c9954acc53389287838ca56051e119af",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_50_15/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_50_15\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_50_15/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_50_15\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_50_15/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_50_15\\NightRAFCGMode.asd",
+   "size": 1170,
+   "sha256": "831671ea2b16f51f28718c234ab967e43854d271a3639f04f3f22c5cb68749b7",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_50_15/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_50_15\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "30b07ac996b3b233c27c6384d6593f66805afa800014992e2a8b60b48d79078d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_50_15/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_50_15\\NightRAFInfo.asd",
+   "size": 233,
+   "sha256": "8ed7f2adabecc198cdc2887e7be4341fff28e2f0da16b9f8b565b38a682da20e",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_50_15/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_50_15\\NightRAFMemMode.asd",
+   "size": 44,
+   "sha256": "07cdf90d5681581616386e889f9d8f16c9954acc53389287838ca56051e119af",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_53_02/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_53_02\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_53_02/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_53_02\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_53_02/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_53_02\\NightRAFCGMode.asd",
+   "size": 1173,
+   "sha256": "60c04749b4988449f8a4a2e2311ef5db2ab7cda423ebde17b2c76080c9f4abd9",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_53_02/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_53_02\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "30b07ac996b3b233c27c6384d6593f66805afa800014992e2a8b60b48d79078d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_53_02/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_53_02\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "69ce82d064e7f8afaf248a79fa3b1bae4b248d3c36a4cc29520dd5bf63dc99ad",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_15_22_53_02/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_15_22_53_02\\NightRAFMemMode.asd",
+   "size": 46,
+   "sha256": "14614cb4f9d2b30b757a30b27bd01463852daa344eef2d86b2c726acacce4e4b",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_00_17_26/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_00_17_26\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_00_17_26/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_00_17_26\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_00_17_26/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_00_17_26\\NightRAFCGMode.asd",
+   "size": 1196,
+   "sha256": "ff3b476301a1f3a9f71aa0e14bd345e1588be9ef22f79f02bda8be33cf69630d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_00_17_26/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_00_17_26\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "440a187cd6247c079e23b83c4fd091f16d888031ff8190590a7e2872a47e94ea",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_00_17_26/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_00_17_26\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "988006ac1e07016b2913587d06d04c05e8417b42930701aeaf1d28fd67ed2460",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_00_17_26/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_00_17_26\\NightRAFMemMode.asd",
+   "size": 46,
+   "sha256": "14614cb4f9d2b30b757a30b27bd01463852daa344eef2d86b2c726acacce4e4b",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_03_51_33/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_03_51_33\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_03_51_33/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_03_51_33\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_03_51_33/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_03_51_33\\NightRAFCGMode.asd",
+   "size": 1196,
+   "sha256": "ff3b476301a1f3a9f71aa0e14bd345e1588be9ef22f79f02bda8be33cf69630d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_03_51_33/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_03_51_33\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "440a187cd6247c079e23b83c4fd091f16d888031ff8190590a7e2872a47e94ea",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_03_51_33/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_03_51_33\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "e8e11c3e07d13387b55a1f17e67eed39f0b010014ef9d3441bb001c57b3b0138",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_03_51_33/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_03_51_33\\NightRAFMemMode.asd",
+   "size": 49,
+   "sha256": "4767ec40ca3beb9e042cdf54b1ba5304b5355c88f9e61327a1ff8e74518b7cf1",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_05_34_38/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_05_34_38\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_05_34_38/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_05_34_38\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_05_34_38/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_05_34_38\\NightRAFCGMode.asd",
+   "size": 1279,
+   "sha256": "5c280dc35695819e496d3414b7a340382eb086574a74a593c6537aed80991b29",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_05_34_38/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_05_34_38\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "787fd9ecd62110c33cea11773482d9dafacad759e16a02dd7342926b4a5c7ca5",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_05_34_38/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_05_34_38\\NightRAFInfo.asd",
+   "size": 241,
+   "sha256": "a4023f74c2f370d08b8084b6df6dee76c198701c01d3a6e9cb2bf461ed47fd7f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_05_34_38/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_05_34_38\\NightRAFMemMode.asd",
+   "size": 49,
+   "sha256": "4767ec40ca3beb9e042cdf54b1ba5304b5355c88f9e61327a1ff8e74518b7cf1",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_20_36_26/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_20_36_26\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_20_36_26/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_20_36_26\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_20_36_26/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_20_36_26\\NightRAFCGMode.asd",
+   "size": 1392,
+   "sha256": "cf92cbf1bfde04deefb768142db6e9ded97372c9759b2da6be98a63fbea86fb4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_20_36_26/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_20_36_26\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "d69edd989857c5f91dbc5da4cf02b8fb47e16d99f2e6cffba01884f0a214ecd9",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_20_36_26/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_20_36_26\\NightRAFInfo.asd",
+   "size": 242,
+   "sha256": "2d8c3bc1e613cf2c0712a19631fc727eb17c4ce1fee74c5d201d2c15679a359c",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_20_36_26/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_20_36_26\\NightRAFMemMode.asd",
+   "size": 59,
+   "sha256": "05c4da89b3dcb65e3b0fc55181e9619135bd061a4432437faabf2739ca3181a7",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_22_32_17/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_22_32_17\\AFConfig.asd",
+   "size": 693,
+   "sha256": "2aca50bab2df61fb7444291044719ae9597a73e3c547f9bdbf493b4f845eee84",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_22_32_17/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_22_32_17\\NightRAFBGMMode.asd",
+   "size": 94,
+   "sha256": "6b4e163d856db0fe3ccf7553cfc9b5d5aa1005820d0ed7a08ee0e85f950f96e3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_22_32_17/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_22_32_17\\NightRAFCGMode.asd",
+   "size": 1392,
+   "sha256": "cf92cbf1bfde04deefb768142db6e9ded97372c9759b2da6be98a63fbea86fb4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_22_32_17/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_22_32_17\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_22_32_17/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_22_32_17\\NightRAFInfo.asd",
+   "size": 242,
+   "sha256": "fd44d418c6833b60f321189bd88251a2a563f7ba915ad50cd41c8607fcda99e0",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_16_22_32_17/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_16_22_32_17\\NightRAFMemMode.asd",
+   "size": 59,
+   "sha256": "05c4da89b3dcb65e3b0fc55181e9619135bd061a4432437faabf2739ca3181a7",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_00_55_16/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_00_55_16\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_00_55_16/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_00_55_16\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_00_55_16/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_00_55_16\\NightRAFCGMode.asd",
+   "size": 1469,
+   "sha256": "fcd73eb7fcee813f0bfddf27b2e3f9d776584afc2fd3112e74d6a3f47d506a55",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_00_55_16/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_00_55_16\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "6ba5d69c194e449a1cb1af5ef4129b8f05807a268be1a911dcd6279d860ec243",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_00_55_16/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_00_55_16\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "d36e5b3c71113108499dee83f7b19007018edc640d1fe6665a81b39b4a67e03f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_00_55_16/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_00_55_16\\NightRAFMemMode.asd",
+   "size": 63,
+   "sha256": "c73bc075f94cb51d28229633fc5f6f8189eb24c04e297b02a21e73927b560ed4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_01_23_26/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_01_23_26\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_01_23_26/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_01_23_26\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_01_23_26/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_01_23_26\\NightRAFCGMode.asd",
+   "size": 1476,
+   "sha256": "aa4bff838db41a02a3592394cd9522ebc734c9b559a001a2ee4b40c10da6f694",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_01_23_26/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_01_23_26\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "28f7974dc5f0570b5606a8fbd12868f82bc879c9e81dd9d6a234c086fcbc7c58",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_01_23_26/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_01_23_26\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "b0392306615d084d098592dc58d84915e44a561f4170e71438ecb492da87fb4d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_01_23_26/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_01_23_26\\NightRAFMemMode.asd",
+   "size": 63,
+   "sha256": "c73bc075f94cb51d28229633fc5f6f8189eb24c04e297b02a21e73927b560ed4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_03_49_15/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_03_49_15\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_03_49_15/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_03_49_15\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_03_49_15/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_03_49_15\\NightRAFCGMode.asd",
+   "size": 1476,
+   "sha256": "aa4bff838db41a02a3592394cd9522ebc734c9b559a001a2ee4b40c10da6f694",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_03_49_15/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_03_49_15\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "28f7974dc5f0570b5606a8fbd12868f82bc879c9e81dd9d6a234c086fcbc7c58",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_03_49_15/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_03_49_15\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "b0392306615d084d098592dc58d84915e44a561f4170e71438ecb492da87fb4d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_03_49_15/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_03_49_15\\NightRAFMemMode.asd",
+   "size": 64,
+   "sha256": "a80767fad0a705da0e93914c30c4d3a9b4560443753e6c9e5b3376867e38b853",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_18_23_18/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_18_23_18\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_18_23_18/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_18_23_18\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_18_23_18/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_18_23_18\\NightRAFCGMode.asd",
+   "size": 1496,
+   "sha256": "322e5a8cd1d30616fdfbea966a9a437d195d9f0c402f77710784ab15357c7195",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_18_23_18/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_18_23_18\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "97a5c13efafbff8f14dd4e5f9e8ca00bd98b66d68e0380af64cfa71d750c3d19",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_18_23_18/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_18_23_18\\NightRAFInfo.asd",
+   "size": 235,
+   "sha256": "4953e93f229dd41ff1a2f851a70afd4de19dae00c449e0d3942648618e6ff9a6",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_18_23_18/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_18_23_18\\NightRAFMemMode.asd",
+   "size": 64,
+   "sha256": "a80767fad0a705da0e93914c30c4d3a9b4560443753e6c9e5b3376867e38b853",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_19_50_17/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_19_50_17\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_19_50_17/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_19_50_17\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_19_50_17/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_19_50_17\\NightRAFCGMode.asd",
+   "size": 1506,
+   "sha256": "3c300421f52c9fc1bbf040dfa35b0bce018184c500dd6d9eb0b2b81a8bbc5737",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_19_50_17/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_19_50_17\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "3fab1dc8fa1b12bf535b7121f8237ed81d40b1071771b883ba887542e4ebac50",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_19_50_17/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_19_50_17\\NightRAFInfo.asd",
+   "size": 235,
+   "sha256": "74dc3a7d330665d8bd06fac374d6cd39bf44fb2b3631d0b16baade2b9456d229",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_17_19_50_17/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_17_19_50_17\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_14_48_27/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_14_48_27\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_14_48_27/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_14_48_27\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_14_48_27/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_14_48_27\\NightRAFCGMode.asd",
+   "size": 1520,
+   "sha256": "5c115eb5a900b38638be7d31867fbe5564d4fa1f26fb07236f4a8fcd42619813",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_14_48_27/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_14_48_27\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "e65d2a162421519d734810dd157c00a4b6c4b287c09c72aa25f8d553ae198cb3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_14_48_27/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_14_48_27\\NightRAFInfo.asd",
+   "size": 242,
+   "sha256": "515076b51ee16f589936ab9eddb3f35fbdc1bc52b961d066947780e0b78b70c8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_14_48_27/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_14_48_27\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_15_18_11/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_15_18_11\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_15_18_11/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_15_18_11\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_15_18_11/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_15_18_11\\NightRAFCGMode.asd",
+   "size": 1524,
+   "sha256": "860dee9479d9b0fa041b3fefec659d53b818078d3ba333a97a4de8f52eafef09",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_15_18_11/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_15_18_11\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "e8070d0d5698eb1ef420e8b275e3ddcf52286686310eff6c0a7e3a840d6611cc",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_15_18_11/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_15_18_11\\NightRAFInfo.asd",
+   "size": 239,
+   "sha256": "9efd9770f720779ffd4fb3037afade35bb546840c4f8d04bb76c775d66ce8e1f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_15_18_11/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_15_18_11\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_16_14_23/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_16_14_23\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_16_14_23/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_16_14_23\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_16_14_23/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_16_14_23\\NightRAFCGMode.asd",
+   "size": 1554,
+   "sha256": "58b232a47fee7cc49ee9add6cec4d3811c44274474236ba26a21c695a5a1150f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_16_14_23/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_16_14_23\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_16_14_23/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_16_14_23\\NightRAFInfo.asd",
+   "size": 242,
+   "sha256": "0aa074b6bc309e6b3cb7e7ab1d23cd9ade62bc2f8d4c1c504fcc061d7dd785bc",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_22_16_14_23/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_22_16_14_23\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_16_44_19/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_16_44_19\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_16_44_19/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_16_44_19\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_16_44_19/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_16_44_19\\NightRAFCGMode.asd",
+   "size": 1554,
+   "sha256": "58b232a47fee7cc49ee9add6cec4d3811c44274474236ba26a21c695a5a1150f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_16_44_19/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_16_44_19\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_16_44_19/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_16_44_19\\NightRAFInfo.asd",
+   "size": 242,
+   "sha256": "0aa074b6bc309e6b3cb7e7ab1d23cd9ade62bc2f8d4c1c504fcc061d7dd785bc",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_16_44_19/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_16_44_19\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_17_21_29/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_17_21_29\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_17_21_29/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_17_21_29\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_17_21_29/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_17_21_29\\NightRAFCGMode.asd",
+   "size": 1554,
+   "sha256": "58b232a47fee7cc49ee9add6cec4d3811c44274474236ba26a21c695a5a1150f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_17_21_29/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_17_21_29\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_17_21_29/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_17_21_29\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "13bbcf4b4fd1c30bb4c300ac51136e9f23888bd86315854ce1ead72407050dc3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_17_21_29/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_17_21_29\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_04_20/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_04_20\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_04_20/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_04_20\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_04_20/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_04_20\\NightRAFCGMode.asd",
+   "size": 1554,
+   "sha256": "58b232a47fee7cc49ee9add6cec4d3811c44274474236ba26a21c695a5a1150f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_04_20/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_04_20\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_04_20/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_04_20\\NightRAFInfo.asd",
+   "size": 243,
+   "sha256": "1cd75d6a8425c0c20d74270ec1e9677eee4ec111e79ffcef8e28e924fe976a2f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_04_20/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_04_20\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_41_13/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_41_13\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_41_13/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_41_13\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_41_13/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_41_13\\NightRAFCGMode.asd",
+   "size": 1554,
+   "sha256": "58b232a47fee7cc49ee9add6cec4d3811c44274474236ba26a21c695a5a1150f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_41_13/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_41_13\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_41_13/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_41_13\\NightRAFInfo.asd",
+   "size": 244,
+   "sha256": "8fabe2b00d1c4398d05dcee32b6756888de52a5b0ad4be700f1a9005654a5e57",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_18_41_13/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_18_41_13\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_19_50_35/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_19_50_35\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_19_50_35/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_19_50_35\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_19_50_35/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_19_50_35\\NightRAFCGMode.asd",
+   "size": 1554,
+   "sha256": "58b232a47fee7cc49ee9add6cec4d3811c44274474236ba26a21c695a5a1150f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_19_50_35/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_19_50_35\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_19_50_35/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_19_50_35\\NightRAFInfo.asd",
+   "size": 244,
+   "sha256": "8fabe2b00d1c4398d05dcee32b6756888de52a5b0ad4be700f1a9005654a5e57",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_19_50_35/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_19_50_35\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_20_28_13/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_20_28_13\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_20_28_13/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_20_28_13\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_20_28_13/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_20_28_13\\NightRAFCGMode.asd",
+   "size": 1557,
+   "sha256": "298dfb47694c8b67f650e841da78b9c046dcf4853433d8a72ec17efc9d2af652",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_20_28_13/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_20_28_13\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "5b02a73e9f3642109214de8798fe282033e403ea2d36f55e11c33c272740cd69",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_20_28_13/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_20_28_13\\NightRAFInfo.asd",
+   "size": 242,
+   "sha256": "052a5ea05f76c1f3dab47ff8d49e2cc08e8649b1c5fba88c781594fa8869c775",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_20_28_13/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_20_28_13\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_21_24_21/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_21_24_21\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_21_24_21/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_21_24_21\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_21_24_21/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_21_24_21\\NightRAFCGMode.asd",
+   "size": 1570,
+   "sha256": "a72cdd0e783f874590cd36d31319d2fc0a68fcae58d8c431cf114cc85ff097b5",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_21_24_21/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_21_24_21\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_21_24_21/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_21_24_21\\NightRAFInfo.asd",
+   "size": 242,
+   "sha256": "66c1c9de9a3590e9d3b350f0c73e445683a4bfd1df69c112a792bbc22e58d8a4",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_23_21_24_21/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_23_21_24_21\\NightRAFMemMode.asd",
+   "size": 70,
+   "sha256": "7dfc5ec40e8813e782c6b1b3d64ac45ee40819e90459da3f2fb6d4b8474b5eac",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_03_23_35/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_03_23_35\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_03_23_35/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_03_23_35\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_03_23_35/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_03_23_35\\NightRAFCGMode.asd",
+   "size": 1607,
+   "sha256": "bb40a36e023218ea3d5375340ab204ba9610efdd39a847a59cb78b72f9325ba0",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_03_23_35/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_03_23_35\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "6ae0a9062c28995129defd2ad3cfefaf9f2df7fe34f6665c9fe5fde991c326c6",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_03_23_35/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_03_23_35\\NightRAFInfo.asd",
+   "size": 243,
+   "sha256": "7716ad2da241733ab0e3c3f4ca0e9a6cc0e9ba4a40b2161840ba1a4094011962",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_03_23_35/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_03_23_35\\NightRAFMemMode.asd",
+   "size": 74,
+   "sha256": "aa2d2f46957e8cd808a1a6a52a01d93cc0c58cb6c35dea3ff8c8adb081800dd3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_21_16_58/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_21_16_58\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_21_16_58/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_21_16_58\\NightRAFBGMMode.asd",
+   "size": 96,
+   "sha256": "a4ca0c7b205a4701d36829cfab0bb35ec400cd55b2bb385c3eaa9be18d8e2de8",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_21_16_58/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_21_16_58\\NightRAFCGMode.asd",
+   "size": 1607,
+   "sha256": "bb40a36e023218ea3d5375340ab204ba9610efdd39a847a59cb78b72f9325ba0",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_21_16_58/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_21_16_58\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_21_16_58/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_21_16_58\\NightRAFInfo.asd",
+   "size": 245,
+   "sha256": "a32887f493e420780a21f21c75838fc66926c5862ca162dea37bcf44537eb647",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_21_16_58/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_21_16_58\\NightRAFMemMode.asd",
+   "size": 74,
+   "sha256": "aa2d2f46957e8cd808a1a6a52a01d93cc0c58cb6c35dea3ff8c8adb081800dd3",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_22_33_24/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_22_33_24\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_22_33_24/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_22_33_24\\NightRAFBGMMode.asd",
+   "size": 97,
+   "sha256": "eca2429876f2ea6695dccdb0f0b58728d5c98ee24fa6a454c145f0351c165c5c",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_22_33_24/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_22_33_24\\NightRAFCGMode.asd",
+   "size": 1647,
+   "sha256": "c89f21e39daaff648510233e605eaa26bfe07d59d49bf618c704843e6c46bfff",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_22_33_24/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_22_33_24\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "74404818663206d4ec3e4615c36e22b988e5e29161be2221a7a6bdbd756dba2f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_22_33_24/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_22_33_24\\NightRAFInfo.asd",
+   "size": 241,
+   "sha256": "2f5e15a1961d8fb8414371ba45df61992b6878fd187c4b61aebf816f427e17d6",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_22_33_24/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_22_33_24\\NightRAFMemMode.asd",
+   "size": 78,
+   "sha256": "15a10bfa173c3dc6dbccc66dbda2acb57b723ad452ab7019a2d2ebd279020383",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_23_17_37/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_23_17_37\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_23_17_37/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_23_17_37\\NightRAFBGMMode.asd",
+   "size": 97,
+   "sha256": "eca2429876f2ea6695dccdb0f0b58728d5c98ee24fa6a454c145f0351c165c5c",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_23_17_37/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_23_17_37\\NightRAFCGMode.asd",
+   "size": 1647,
+   "sha256": "c89f21e39daaff648510233e605eaa26bfe07d59d49bf618c704843e6c46bfff",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_23_17_37/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_23_17_37\\NightRAFCommon.asd",
+   "size": 152,
+   "sha256": "74404818663206d4ec3e4615c36e22b988e5e29161be2221a7a6bdbd756dba2f",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_23_17_37/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_23_17_37\\NightRAFInfo.asd",
+   "size": 238,
+   "sha256": "1934ec7e2571ed03753e644c5be743911141ff75820c2e267013639c0b055dd1",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_24_23_17_37/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_24_23_17_37\\NightRAFMemMode.asd",
+   "size": 78,
+   "sha256": "15a10bfa173c3dc6dbccc66dbda2acb57b723ad452ab7019a2d2ebd279020383",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_25_23_52_44/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_25_23_52_44\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_25_23_52_44/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_25_23_52_44\\NightRAFBGMMode.asd",
+   "size": 97,
+   "sha256": "eca2429876f2ea6695dccdb0f0b58728d5c98ee24fa6a454c145f0351c165c5c",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_25_23_52_44/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_25_23_52_44\\NightRAFCGMode.asd",
+   "size": 1695,
+   "sha256": "faf92c1626f320a780ffbfbcc74ff2a1b9d1f714c7d711ad0c8c8f2eb5bc4f89",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_25_23_52_44/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_25_23_52_44\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_25_23_52_44/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_25_23_52_44\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "c0ff743f25f16248db8ad6da82e0e8431b7e366c7fb30f63a0c7926b36184793",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_25_23_52_44/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_25_23_52_44\\NightRAFMemMode.asd",
+   "size": 81,
+   "sha256": "f33fe311ca57568fecdb6e699d9c1cfd6e493a2e7d527667c66ddb7637404549",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_26_20_17_35/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_26_20_17_35\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_26_20_17_35/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_26_20_17_35\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_26_20_17_35/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_26_20_17_35\\NightRAFCGMode.asd",
+   "size": 1852,
+   "sha256": "6ef14675c32e247687afe294748643bc3ec47adb02767efc388a29a9cfae7a81",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_26_20_17_35/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_26_20_17_35\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_26_20_17_35/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_26_20_17_35\\NightRAFInfo.asd",
+   "size": 241,
+   "sha256": "9de5db609c01102a39075d47107950c723c8a34a9b5d50b375cf006654a5185e",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_26_20_17_35/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Backup\\2026_09_26_20_17_35\\NightRAFMemMode.asd",
+   "size": 91,
+   "sha256": "e106e0777dd52f403170fff1748f701fb1f7f79effae891750258b41cb419510",
+   "reused_from": "r15"
+  },
+  "Backup/2026_09_27_02_36_41/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_36_41\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_36_41/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_36_41\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_36_41/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_36_41\\NightRAFCGMode.asd",
+   "size": 1852,
+   "sha256": "6ef14675c32e247687afe294748643bc3ec47adb02767efc388a29a9cfae7a81",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_36_41/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_36_41\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_36_41/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_36_41\\NightRAFInfo.asd",
+   "size": 239,
+   "sha256": "f0724b3718e0633085400a582899c3fef0afd507e243a526f245aba87fbff5b7",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_36_41/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_36_41\\NightRAFMemMode.asd",
+   "size": 91,
+   "sha256": "e106e0777dd52f403170fff1748f701fb1f7f79effae891750258b41cb419510",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_50_58/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_50_58\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_50_58/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_50_58\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_50_58/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_50_58\\NightRAFCGMode.asd",
+   "size": 1852,
+   "sha256": "6ef14675c32e247687afe294748643bc3ec47adb02767efc388a29a9cfae7a81",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_50_58/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_50_58\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_50_58/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_50_58\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "f4a17e0ec3caad00044f55f58ee6b69385f59bc8b7970144ff3faf95d9e4de6a",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_02_50_58/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_02_50_58\\NightRAFMemMode.asd",
+   "size": 91,
+   "sha256": "e106e0777dd52f403170fff1748f701fb1f7f79effae891750258b41cb419510",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_03_15_17/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_03_15_17\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_03_15_17/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_03_15_17\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_03_15_17/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_03_15_17\\NightRAFCGMode.asd",
+   "size": 1852,
+   "sha256": "6ef14675c32e247687afe294748643bc3ec47adb02767efc388a29a9cfae7a81",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_03_15_17/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_03_15_17\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_03_15_17/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_03_15_17\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "cd320da923e48a34b83421b832914bdf2b78f4ce76218dcea0b8fa9c6f02f59f",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_03_15_17/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r16_calendar\\work\\savecopy\\Backup\\2026_09_27_03_15_17\\NightRAFMemMode.asd",
+   "size": 91,
+   "sha256": "e106e0777dd52f403170fff1748f701fb1f7f79effae891750258b41cb419510",
+   "reused_from": "r16"
+  },
+  "Backup/2026_09_27_17_10_57/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_10_57\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_10_57/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_10_57\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_10_57/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_10_57\\NightRAFCGMode.asd",
+   "size": 1855,
+   "sha256": "106eb62f4ac74f18022d44ff312bf21d2d26067b62d5e70e3b2e8722b86e6393",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_10_57/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_10_57\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_10_57/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_10_57\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "7ba84c3412468c5adc5f9367cea8a082f18db5d2b9097caa6bc3308ffb495be8",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_10_57/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_10_57\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_13_52/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_13_52\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_13_52/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_13_52\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_13_52/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_13_52\\NightRAFCGMode.asd",
+   "size": 1855,
+   "sha256": "106eb62f4ac74f18022d44ff312bf21d2d26067b62d5e70e3b2e8722b86e6393",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_13_52/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_13_52\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_13_52/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_13_52\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "7ba84c3412468c5adc5f9367cea8a082f18db5d2b9097caa6bc3308ffb495be8",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_17_13_52/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_17_13_52\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_18_35_04/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_18_35_04\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_18_35_04/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_18_35_04\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_18_35_04/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_18_35_04\\NightRAFCGMode.asd",
+   "size": 1855,
+   "sha256": "106eb62f4ac74f18022d44ff312bf21d2d26067b62d5e70e3b2e8722b86e6393",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_18_35_04/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_18_35_04\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_18_35_04/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_18_35_04\\NightRAFInfo.asd",
+   "size": 240,
+   "sha256": "7ba84c3412468c5adc5f9367cea8a082f18db5d2b9097caa6bc3308ffb495be8",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_18_35_04/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\Backup\\2026_09_27_18_35_04\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r18"
+  },
+  "Backup/2026_09_27_19_47_22/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\Backup\\2026_09_27_19_47_22\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r19"
+  },
+  "Backup/2026_09_27_19_47_22/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\Backup\\2026_09_27_19_47_22\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r19"
+  },
+  "Backup/2026_09_27_19_47_22/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\Backup\\2026_09_27_19_47_22\\NightRAFCGMode.asd",
+   "size": 1855,
+   "sha256": "106eb62f4ac74f18022d44ff312bf21d2d26067b62d5e70e3b2e8722b86e6393",
+   "reused_from": "r19"
+  },
+  "Backup/2026_09_27_19_47_22/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\Backup\\2026_09_27_19_47_22\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r19"
+  },
+  "Backup/2026_09_27_19_47_22/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\Backup\\2026_09_27_19_47_22\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "cba1a00690388b554b2f6297939031feb1add2ec4fcfeb07243d6e65d9b44a5a",
+   "reused_from": "r19"
+  },
+  "Backup/2026_09_27_19_47_22/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\Backup\\2026_09_27_19_47_22\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r19"
+  },
+  "Backup/2026_09_27_21_42_50/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_21_42_50\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_21_42_50/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_21_42_50\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_21_42_50/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_21_42_50\\NightRAFCGMode.asd",
+   "size": 1943,
+   "sha256": "d985274fc9cd1faf976a11bb33d1c387dedc882bddf94a5e01b9103aa1d96e29",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_21_42_50/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_21_42_50\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_21_42_50/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_21_42_50\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "cba1a00690388b554b2f6297939031feb1add2ec4fcfeb07243d6e65d9b44a5a",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_21_42_50/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_21_42_50\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_22_04_49/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_22_04_49\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_22_04_49/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_22_04_49\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_22_04_49/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_22_04_49\\NightRAFCGMode.asd",
+   "size": 1943,
+   "sha256": "d985274fc9cd1faf976a11bb33d1c387dedc882bddf94a5e01b9103aa1d96e29",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_22_04_49/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_22_04_49\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_22_04_49/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_22_04_49\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "cba1a00690388b554b2f6297939031feb1add2ec4fcfeb07243d6e65d9b44a5a",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_27_22_04_49/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\work\\savecopy\\Backup\\2026_09_27_22_04_49\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r20"
+  },
+  "Backup/2026_09_28_03_05_00/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r21_modmenu\\work\\savecopy\\Backup\\2026_09_28_03_05_00\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r21"
+  },
+  "Backup/2026_09_28_03_05_00/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r21_modmenu\\work\\savecopy\\Backup\\2026_09_28_03_05_00\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r21"
+  },
+  "Backup/2026_09_28_03_05_00/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r21_modmenu\\work\\savecopy\\Backup\\2026_09_28_03_05_00\\NightRAFCGMode.asd",
+   "size": 1943,
+   "sha256": "d985274fc9cd1faf976a11bb33d1c387dedc882bddf94a5e01b9103aa1d96e29",
+   "reused_from": "r21"
+  },
+  "Backup/2026_09_28_03_05_00/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r21_modmenu\\work\\savecopy\\Backup\\2026_09_28_03_05_00\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r21"
+  },
+  "Backup/2026_09_28_03_05_00/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r21_modmenu\\work\\savecopy\\Backup\\2026_09_28_03_05_00\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "cba1a00690388b554b2f6297939031feb1add2ec4fcfeb07243d6e65d9b44a5a",
+   "reused_from": "r21"
+  },
+  "Backup/2026_09_28_03_05_00/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r21_modmenu\\work\\savecopy\\Backup\\2026_09_28_03_05_00\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r21"
+  },
+  "Backup/2026_09_28_06_14_56/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\Backup\\2026_09_28_06_14_56\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": "r22"
+  },
+  "Backup/2026_09_28_06_14_56/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\Backup\\2026_09_28_06_14_56\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r22"
+  },
+  "Backup/2026_09_28_06_14_56/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\Backup\\2026_09_28_06_14_56\\NightRAFCGMode.asd",
+   "size": 1943,
+   "sha256": "d985274fc9cd1faf976a11bb33d1c387dedc882bddf94a5e01b9103aa1d96e29",
+   "reused_from": "r22"
+  },
+  "Backup/2026_09_28_06_14_56/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\Backup\\2026_09_28_06_14_56\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r22"
+  },
+  "Backup/2026_09_28_06_14_56/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\Backup\\2026_09_28_06_14_56\\NightRAFInfo.asd",
+   "size": 239,
+   "sha256": "687c2a99f598842036e4c68148cb648f32584c7030a568fc1b84b77deb96b42a",
+   "reused_from": "r22"
+  },
+  "Backup/2026_09_28_06_14_56/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\Backup\\2026_09_28_06_14_56\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r22"
+  },
+  "Backup/2026_09_28_12_14_05/AFConfig.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\Backup\\2026_09_28_12_14_05\\AFConfig.asd",
+   "size": 696,
+   "sha256": "55b1cf428bf5d8d8d500ed184a89b4d80be153aafbc5dad2efbb40c3364d0e75",
+   "reused_from": null
+  },
+  "Backup/2026_09_28_12_14_05/NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\Backup\\2026_09_28_12_14_05\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": null
+  },
+  "Backup/2026_09_28_12_14_05/NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\Backup\\2026_09_28_12_14_05\\NightRAFCGMode.asd",
+   "size": 1943,
+   "sha256": "d985274fc9cd1faf976a11bb33d1c387dedc882bddf94a5e01b9103aa1d96e29",
+   "reused_from": null
+  },
+  "Backup/2026_09_28_12_14_05/NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\Backup\\2026_09_28_12_14_05\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": null
+  },
+  "Backup/2026_09_28_12_14_05/NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\Backup\\2026_09_28_12_14_05\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "e3b982f27b4fd826208e1f43bcf8e94632a86a4e3b947300d18391cb339ffd6a",
+   "reused_from": null
+  },
+  "Backup/2026_09_28_12_14_05/NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\Backup\\2026_09_28_12_14_05\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": null
+  },
+  "CommonGameData.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\CommonGameData.asd",
+   "size": 250,
+   "sha256": "eaa89210d654cc67930b0fd2544d35cf0131410b026d9d154b340000b25d538a",
+   "reused_from": "r18"
+  },
+  "CommonSystemData.sav": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\CommonSystemData.sav",
+   "size": 54,
+   "sha256": "a82a06a89c6c8141805cb1bd3a21df74751c07318b1669ccd8633973fb495b16",
+   "reused_from": null
+  },
+  "MouseCursorSetting.sav": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\MouseCursorSetting.sav",
+   "size": 20,
+   "sha256": "c067b64e8ee35b1fe88224171a92084880087ea659f8606468907ad8fee4451a",
+   "reused_from": "r15"
+  },
+  "NightR01.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR01.asd",
+   "size": 2429070,
+   "sha256": "921779ca31c10e55c54d411579116141d6e12dcb4a8e3f16aa7b44415bd54982",
+   "reused_from": "r15"
+  },
+  "NightR01.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR01.vsf",
+   "size": 104,
+   "sha256": "ea6df926539beb33c37337ea7226af9a5ce258cd5470778e0d69cba0ef82d69d",
+   "reused_from": "r15"
+  },
+  "NightR02.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR02.asd",
+   "size": 2477560,
+   "sha256": "d73620b5ef982e1f3733692c82d01e7003eef701c05b1df1a9e8b55fdb04849d",
+   "reused_from": "r15"
+  },
+  "NightR02.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR02.vsf",
+   "size": 104,
+   "sha256": "e8ab2509d602fed03de566543dc39e574509baaddc2cb654b76a707e18c1df89",
+   "reused_from": "r15"
+  },
+  "NightR03.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR03.asd",
+   "size": 3843211,
+   "sha256": "4a88491d73a4df146a74946c74ab03d6c692df4e74d3546d4813c5ca04f4761a",
+   "reused_from": "r15"
+  },
+  "NightR03.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR03.vsf",
+   "size": 104,
+   "sha256": "c6caf45d39ebe21b19ed82ce561945f7fc2dff29ec9aa2b113c310bb8eaf83af",
+   "reused_from": "r15"
+  },
+  "NightR04.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR04.asd",
+   "size": 3938456,
+   "sha256": "d41a00044dc8d4359ffbae6f8080c791b1647caeb727b983a8dbff0ce767ee5a",
+   "reused_from": "r15"
+  },
+  "NightR04.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR04.vsf",
+   "size": 105,
+   "sha256": "336e767628faf9f5f1e45bdd024ec831872d2f6f6e1c1bb499090dd3a6392a50",
+   "reused_from": "r15"
+  },
+  "NightR05.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR05.asd",
+   "size": 4091124,
+   "sha256": "f76cf2082f638cf96886bd0f00b096acc7926173cca2f053f28f9264820eb931",
+   "reused_from": "r15"
+  },
+  "NightR05.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR05.vsf",
+   "size": 110,
+   "sha256": "0973e14e3a923d283cbb66838902e8e9265a4e9ffdec2f6166894d431aec05d0",
+   "reused_from": "r15"
+  },
+  "NightR06.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR06.asd",
+   "size": 4055763,
+   "sha256": "2a1507d257bb061b78027e53cb82928b0d97b9e72aa2cce7c8b54c923ad765c6",
+   "reused_from": "r15"
+  },
+  "NightR06.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR06.vsf",
+   "size": 109,
+   "sha256": "dc617e971ccd5ccd00133fb2d0cdbadfe8e45494e86f0db31fb8809e85edf5fd",
+   "reused_from": "r15"
+  },
+  "NightR07.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR07.asd",
+   "size": 4274837,
+   "sha256": "62af01d4e49b941c1e445363324068d805531b44034eea18690d54f11b416a08",
+   "reused_from": "r15"
+  },
+  "NightR07.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR07.vsf",
+   "size": 112,
+   "sha256": "ff9544941325d8548ed44c8405286cfe93a4de0af6bc73d0251b29fd0d909a80",
+   "reused_from": "r15"
+  },
+  "NightR08.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR08.asd",
+   "size": 4282278,
+   "sha256": "043d50722b66ce3335a248cadf3ebd9779aa76b084d4062a25097217504028c8",
+   "reused_from": "r15"
+  },
+  "NightR08.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR08.vsf",
+   "size": 115,
+   "sha256": "777e0722235f28b694511cf18e7d36c253ffbc4711cf81f2f5612c67e2a51db7",
+   "reused_from": "r15"
+  },
+  "NightR09.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR09.asd",
+   "size": 3202616,
+   "sha256": "b1d5935fd56906b5542eaaf1839d2fe9fd8ac5aa34e9afa8a0039ee7281106ae",
+   "reused_from": "r15"
+  },
+  "NightR09.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR09.vsf",
+   "size": 115,
+   "sha256": "de5fbea9589aa7ceaf6219584638adf7bf5cec32b8691fd750dbb4d4bc26c0bd",
+   "reused_from": "r15"
+  },
+  "NightR10.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR10.asd",
+   "size": 3407091,
+   "sha256": "57e5eb851d796c88684c527e48781488eea05cd1574e6c08791b3b4890d6df49",
+   "reused_from": "r15"
+  },
+  "NightR10.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR10.vsf",
+   "size": 120,
+   "sha256": "d9512154efa31521bcf873ed60bca25dd318ca3afe7cb696075b38f3d44670b8",
+   "reused_from": "r15"
+  },
+  "NightR11.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR11.asd",
+   "size": 3325161,
+   "sha256": "76f9894628e73a9ed0580ef409a40a0c42d4ae4c727d0e058ebcdf1d24547720",
+   "reused_from": "r15"
+  },
+  "NightR11.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR11.vsf",
+   "size": 120,
+   "sha256": "b3152e67a46f7a4d36fa744d2c9622f02ab88900dbd5be85270bb155c30291d3",
+   "reused_from": "r15"
+  },
+  "NightR12.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR12.asd",
+   "size": 2869453,
+   "sha256": "537169523c583335f64e321eabea5aa2a474fdc148c106cd95d0cc979e18d3ca",
+   "reused_from": "r15"
+  },
+  "NightR12.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR12.vsf",
+   "size": 126,
+   "sha256": "f5e2dddd9ddc1805e68c7f9bbc1f1b1b2291075203eb852b774ee6f97528aed0",
+   "reused_from": "r15"
+  },
+  "NightR13.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR13.asd",
+   "size": 3081921,
+   "sha256": "5727bdd094832730dec6d3bc5d2d0b04aea63c4c4081c5f99d72dedac8127fae",
+   "reused_from": "r15"
+  },
+  "NightR13.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR13.vsf",
+   "size": 123,
+   "sha256": "5a3b419d84019be835e7773dee5609a09d97712c0a16cd3ac79e957857052610",
+   "reused_from": "r15"
+  },
+  "NightR14.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR14.asd",
+   "size": 3230048,
+   "sha256": "30ee4be5abe9079174b727b156fcfb0f328cd93fcc2286d41c62fac2204df150",
+   "reused_from": "r15"
+  },
+  "NightR14.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR14.vsf",
+   "size": 122,
+   "sha256": "bdf9628e805a19b18c3b458cff544df9b1caee73fd8fd3ec89433a4a899df7fe",
+   "reused_from": "r15"
+  },
+  "NightR15.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR15.asd",
+   "size": 4169415,
+   "sha256": "01b15d4cc82bcd640033763adbefb50f562909d6136a68a3c4f204e0ceed0d82",
+   "reused_from": "r15"
+  },
+  "NightR15.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR15.vsf",
+   "size": 123,
+   "sha256": "33b264bdad254d2a487de88d630ead7b7556ed2d86c72a09d97545716ebd13e6",
+   "reused_from": "r15"
+  },
+  "NightR16.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR16.asd",
+   "size": 6077602,
+   "sha256": "3683ba5e947381db0b5c0afb93cdbd83be87d2dbe6455ff53bd1896427309bf1",
+   "reused_from": "r15"
+  },
+  "NightR16.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR16.vsf",
+   "size": 127,
+   "sha256": "592e314c1fb015e7fb12215720fb651cfdfb95cf1a1a362c1e4a2f21ad58334b",
+   "reused_from": "r15"
+  },
+  "NightR17.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR17.asd",
+   "size": 6232907,
+   "sha256": "3bb542ba1030fba48d953a86641b058d0ae00212586503216bcb610578cd9800",
+   "reused_from": "r15"
+  },
+  "NightR17.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR17.vsf",
+   "size": 125,
+   "sha256": "9e2f42a03344ab0a8759c05ea81f1e03821ec4299238c893f170df3b93d564fe",
+   "reused_from": "r15"
+  },
+  "NightR18.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR18.asd",
+   "size": 5969844,
+   "sha256": "a6f5939c479b23ec8d5212c9f5041dcbac98af747203f3f8fcc48f9be185485f",
+   "reused_from": "r15"
+  },
+  "NightR18.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR18.vsf",
+   "size": 127,
+   "sha256": "8ba3ad8db0732bf39e1cc7151246906db348332a5eff2f2f4d122c3f042aaded",
+   "reused_from": "r15"
+  },
+  "NightR19.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR19.asd",
+   "size": 6043461,
+   "sha256": "c754c69ec7c25afc9b8bdf9034159f3dd6c13b1a9e8848a54592bda212de8f42",
+   "reused_from": "r15"
+  },
+  "NightR19.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR19.vsf",
+   "size": 126,
+   "sha256": "8ea26dca6e9b173875551e58b675c92eecd2f4ddaa939eb75dabec8df334de4b",
+   "reused_from": "r15"
+  },
+  "NightR20.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR20.asd",
+   "size": 3727966,
+   "sha256": "8f620b793fa0f8edac7d77340da686e6ba096b603e89d7448c7d03aeb724d3eb",
+   "reused_from": "r15"
+  },
+  "NightR20.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR20.vsf",
+   "size": 125,
+   "sha256": "b5e92123d7de7c10427b1b5c3bd433b71539ea861ffa292b142f86820279b3c5",
+   "reused_from": "r15"
+  },
+  "NightR21.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR21.asd",
+   "size": 3727492,
+   "sha256": "c00b18d0adf99d475a506e076944cc4a065666d618314ecfa5f764b060831392",
+   "reused_from": "r15"
+  },
+  "NightR21.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR21.vsf",
+   "size": 125,
+   "sha256": "e9f6f5d4511223fe49476991f5be7772496933b72f065bd98296ba022ef7fb07",
+   "reused_from": "r15"
+  },
+  "NightR22.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR22.asd",
+   "size": 3468862,
+   "sha256": "5759cf8a70385132da37ab7d2fcef57d7d7c96034162d045274d8fb3ffd60078",
+   "reused_from": "r15"
+  },
+  "NightR22.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR22.vsf",
+   "size": 123,
+   "sha256": "f50b52ced596d128b62ddfb4dac53b371788f15b2f28608ff79022a5643d605a",
+   "reused_from": "r15"
+  },
+  "NightR23.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR23.asd",
+   "size": 3531197,
+   "sha256": "7796190f83b5689a92b142b5f9410bd56d4a13ebe1e0639549fae20510f92a8b",
+   "reused_from": "r15"
+  },
+  "NightR23.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR23.vsf",
+   "size": 127,
+   "sha256": "2a9f0e30214a77c57b21f296b45bdea7f56a21334d65d0022c479bf092f149f0",
+   "reused_from": "r15"
+  },
+  "NightR24.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR24.asd",
+   "size": 3529460,
+   "sha256": "f84a3b90138e2e26a6feabe67d6ec2accc80c904386d8019affd85f17a1810cf",
+   "reused_from": "r15"
+  },
+  "NightR24.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR24.vsf",
+   "size": 127,
+   "sha256": "7a48175fceeb8021f5cc1602e29f7e1ea66deece82a99e2b2eee08adb89829ec",
+   "reused_from": "r15"
+  },
+  "NightR25.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR25.asd",
+   "size": 6748897,
+   "sha256": "ca77869feb2b02a75c81707f6cb06bee53d16c9cff0fcc62298a468d41d24c43",
+   "reused_from": "r15"
+  },
+  "NightR25.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR25.vsf",
+   "size": 124,
+   "sha256": "66034fbd973872445e8714aa45860dbd36f202ccd5e74f82e3dc6739fa9b8306",
+   "reused_from": "r15"
+  },
+  "NightR26.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR26.asd",
+   "size": 3684395,
+   "sha256": "8ad975f716c0b7d731ac3fdc34d8575cc3c1c78e86467d5c0cd90cadfb96585f",
+   "reused_from": "r15"
+  },
+  "NightR26.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR26.vsf",
+   "size": 127,
+   "sha256": "3f5e04c5035424ce7fb265153a4b2af60944ee9f9e9961409bbd2ba8d0e2ddd9",
+   "reused_from": "r15"
+  },
+  "NightR27.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR27.asd",
+   "size": 3784397,
+   "sha256": "efd4d6b74b8d6abf7b6af0aa2b58b17be767a7734d259227771e16aef0ca45d0",
+   "reused_from": "r15"
+  },
+  "NightR27.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR27.vsf",
+   "size": 126,
+   "sha256": "26ef0902a8406baa19a46ad3fe972be0b6957c9be23694772f204ce987a21a21",
+   "reused_from": "r15"
+  },
+  "NightR28.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR28.asd",
+   "size": 5448392,
+   "sha256": "1b345849fd57458d86c9c9d3c352c74707b7f5f8ea79b66099f1877dbdda70b3",
+   "reused_from": "r15"
+  },
+  "NightR28.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR28.vsf",
+   "size": 125,
+   "sha256": "dacd0868d3f13d3d8b7793e4ae59848201c042c2ef45b35434a2c88611aa3cf0",
+   "reused_from": "r15"
+  },
+  "NightR29.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR29.asd",
+   "size": 4453542,
+   "sha256": "bd6bb8f74a8a949e812a6352951a14c4cdcea1b7533dfa44c387835cb0a27063",
+   "reused_from": "r15"
+  },
+  "NightR29.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR29.vsf",
+   "size": 124,
+   "sha256": "031c659f8350d491a76cbfa17430c7146b445418313bfd9aa5e5a8c0e923fd6d",
+   "reused_from": "r15"
+  },
+  "NightR30.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR30.asd",
+   "size": 4374901,
+   "sha256": "cd7c102f742a088d6205fb58afb19f38b961af4afc4d709c5494fcb8cefaf4f1",
+   "reused_from": "r15"
+  },
+  "NightR30.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR30.vsf",
+   "size": 125,
+   "sha256": "9af95d86cfc868e23f5e5d94bf28bec7e26762a287d2f677e543039021789b24",
+   "reused_from": "r15"
+  },
+  "NightR31.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR31.asd",
+   "size": 3612774,
+   "sha256": "16fef080b3e9c6ea24ca249fe8289f362477f899896d195c190ba597a8610f18",
+   "reused_from": "r15"
+  },
+  "NightR31.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR31.vsf",
+   "size": 128,
+   "sha256": "6f01ebdc68c181c2dc98fa7b8af87e80326e80dd3bb61b660c40f98a429afeb4",
+   "reused_from": "r15"
+  },
+  "NightR32.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR32.asd",
+   "size": 3627920,
+   "sha256": "7ce45db436f8c280e46ae86697a54dfde1548273ae586fdddffaa89cae047fed",
+   "reused_from": "r15"
+  },
+  "NightR32.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR32.vsf",
+   "size": 126,
+   "sha256": "64bfffb4689b78e1ae0c348760fa28da120acb0a00d321008bfec185c69c1456",
+   "reused_from": "r15"
+  },
+  "NightR33.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR33.asd",
+   "size": 3705412,
+   "sha256": "9cdcf2ecb93ae0453d9a4340b623a07f86c7272cedddecc135a87404492d590b",
+   "reused_from": "r15"
+  },
+  "NightR33.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR33.vsf",
+   "size": 129,
+   "sha256": "52f81063bebff72bdfc73df4815753e0239b7ab114fcbd37b1bb57c104056b1c",
+   "reused_from": "r15"
+  },
+  "NightR34.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR34.asd",
+   "size": 3757619,
+   "sha256": "a8d2bee04cf1fc7cf367b457cd5d530041c15f2d7d98e2500e45677a3176cc67",
+   "reused_from": "r15"
+  },
+  "NightR34.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR34.vsf",
+   "size": 125,
+   "sha256": "b6023c5cd84ef2d4e0e1dd4991fbcdb231fcfa57be5ec742916920475e6e0182",
+   "reused_from": "r15"
+  },
+  "NightR35.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR35.asd",
+   "size": 3828633,
+   "sha256": "c15cbf179b07d697c0d86c4ffce80832af0d544de732fefe69202dcaac978cac",
+   "reused_from": "r15"
+  },
+  "NightR35.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR35.vsf",
+   "size": 125,
+   "sha256": "6f84a12763d11655efafa4de4a1b79d7e787e5ec262637db15b7cf3a02ad87e9",
+   "reused_from": "r15"
+  },
+  "NightR36.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR36.asd",
+   "size": 3963738,
+   "sha256": "09c970b9dd0414b2924b03310b0e5dad9a81478c4766ba619b81e640ee437f7e",
+   "reused_from": "r15"
+  },
+  "NightR36.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR36.vsf",
+   "size": 124,
+   "sha256": "0eed91fd153144ad94cb84ccc8a2d46379fce3acc8bb43bf0b03c4e1ce0ff456",
+   "reused_from": "r15"
+  },
+  "NightR37.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR37.asd",
+   "size": 5310498,
+   "sha256": "828e96417eaa58e90e64243fc65a989a31f5e8d9729bf124511463bcf2a0ffb0",
+   "reused_from": "r15"
+  },
+  "NightR37.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR37.vsf",
+   "size": 127,
+   "sha256": "d933e7ff75fb35be62e6c59a38ecabb47e0d0a93aafacc975c152366f9acded2",
+   "reused_from": "r15"
+  },
+  "NightR38.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR38.asd",
+   "size": 5310647,
+   "sha256": "8bb82890f34e69dc52775a9cc94b9a91bdb10c0ee840535cd8d39a170485c298",
+   "reused_from": "r15"
+  },
+  "NightR38.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR38.vsf",
+   "size": 127,
+   "sha256": "4381d01e508c04e1f15f39348df0fd846d5aa8ec0c036007a3e92876be4d9452",
+   "reused_from": "r15"
+  },
+  "NightR39.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR39.asd",
+   "size": 5530604,
+   "sha256": "5ea1f53fb85d909d5c38f1d9b2490194b152aea5e66d74c52485744f516eb433",
+   "reused_from": "r15"
+  },
+  "NightR39.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR39.vsf",
+   "size": 126,
+   "sha256": "e4aa23edf66025caf3530e36804236e094d969f85ee7c656560fcdda4c5e1c0d",
+   "reused_from": "r15"
+  },
+  "NightR40.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR40.asd",
+   "size": 8388938,
+   "sha256": "af855ef1258ae120e9399d3608b1cf2b117ef3fb6e143372f970be92526313a6",
+   "reused_from": "r15"
+  },
+  "NightR40.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR40.vsf",
+   "size": 126,
+   "sha256": "c7b5823ff6bb516c346e0f473ee7dc43f2449f0337e9955db7bb2766ff68e684",
+   "reused_from": "r15"
+  },
+  "NightR41.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR41.asd",
+   "size": 8683898,
+   "sha256": "24ba6ca876cc646152a0b5ac5b026a64dfae16d06956815248943749507c5496",
+   "reused_from": "r15"
+  },
+  "NightR41.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR41.vsf",
+   "size": 129,
+   "sha256": "51d96d38a2c9da4861f4475fee1ae2d36dacd733ef432b028980f324152ff673",
+   "reused_from": "r15"
+  },
+  "NightR42.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR42.asd",
+   "size": 8793517,
+   "sha256": "5793fe281257893e48d9990d7cf361bf5b7e86b1742e6bfc75c235fadf71e802",
+   "reused_from": "r15"
+  },
+  "NightR42.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR42.vsf",
+   "size": 126,
+   "sha256": "36d45914ff8941f3a76a0c1042279cf9927d1a007d2d249a260a2e729b7e9fa4",
+   "reused_from": "r15"
+  },
+  "NightR43.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR43.asd",
+   "size": 9044142,
+   "sha256": "28d02822412583895d4be3b1d957254935758ab350173cb684b129170d23341a",
+   "reused_from": "r15"
+  },
+  "NightR43.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR43.vsf",
+   "size": 126,
+   "sha256": "dcb3ebe11bbac9fbba19fd38203427a1f036b53944b1b9997714847847b479a8",
+   "reused_from": "r15"
+  },
+  "NightR44.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR44.asd",
+   "size": 8827058,
+   "sha256": "a9156e3d732c926fa1e7fc9cbfe1cb3ab2c220dc419b317896759830ad562689",
+   "reused_from": "r15"
+  },
+  "NightR44.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR44.vsf",
+   "size": 129,
+   "sha256": "05a7d460c3d4e4835cdbc943f5bce3041117763fa58b3bfcdae4bf3bdc22cda6",
+   "reused_from": "r15"
+  },
+  "NightR45.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR45.asd",
+   "size": 9483934,
+   "sha256": "aa506dff6bd8b9ae972dc1f9bf16ef2b459b18e1cf6fab5c283c993e51776d01",
+   "reused_from": "r15"
+  },
+  "NightR45.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR45.vsf",
+   "size": 127,
+   "sha256": "296fded24d7c4d45ed7cade8205c5ac52afe0168716f7309b2c412c1a4f9a385",
+   "reused_from": "r15"
+  },
+  "NightR46.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR46.asd",
+   "size": 9232316,
+   "sha256": "ed47a4d8d6dff0a4d443ea0423971281872fd8861321250f638503f49307161e",
+   "reused_from": "r15"
+  },
+  "NightR46.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR46.vsf",
+   "size": 154,
+   "sha256": "abca511a928e91944921a2200e9ef693779835a1f4acb93629a646d9da6920f7",
+   "reused_from": "r15"
+  },
+  "NightR47.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR47.asd",
+   "size": 9047957,
+   "sha256": "d266dcb88c88af4fae48117c57ee5f54a94fdc1a537a4e297a136e02fbe41e3b",
+   "reused_from": "r15"
+  },
+  "NightR47.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR47.vsf",
+   "size": 167,
+   "sha256": "7055a678a488da292d3a3f510d02909501d2ba25dc5215ed1b5ba58c3f580d0c",
+   "reused_from": "r15"
+  },
+  "NightR48.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR48.asd",
+   "size": 9097849,
+   "sha256": "bee38c1038236c602b57a16c04b61edaf0875977055fa78878c744eef9e1ca6a",
+   "reused_from": "r15"
+  },
+  "NightR48.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR48.vsf",
+   "size": 165,
+   "sha256": "1adb69fe28b9a18f06f4842555b3b09f47b629dd308cc9f4b92528dd2ff8845b",
+   "reused_from": "r15"
+  },
+  "NightR49.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR49.asd",
+   "size": 8817347,
+   "sha256": "d0e9deda65c3e887f778098bf8d892d2b3ef1250b0080899d33c2164ace5df56",
+   "reused_from": "r15"
+  },
+  "NightR49.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR49.vsf",
+   "size": 126,
+   "sha256": "2cc050ac8c4ab1f5786c9e5645f4e3a2e3b71c5155aef915cc0b18cfda823bc0",
+   "reused_from": "r15"
+  },
+  "NightR998.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\NightR998.asd",
+   "size": 3833227,
+   "sha256": "08c28db55df741fd72c5c9f1cbf8dda98aa2e4ebe92b5ed45d537d5bf272fb5d",
+   "reused_from": "r19"
+  },
+  "NightR998.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\NightR998.vsf",
+   "size": 161,
+   "sha256": "e0b9925fcff6fbddfa9732e926b066009b246a3d08a8f03ec7802a519e1749ac",
+   "reused_from": "r19"
+  },
+  "NightR999.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\NightR999.asd",
+   "size": 3744057,
+   "sha256": "901edf95ebf2f25219e8a0eea107146e31f6b09ac13403ba61d8b4f2f7b1ddd9",
+   "reused_from": "r22"
+  },
+  "NightR999.vsf": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\NightR999.vsf",
+   "size": 163,
+   "sha256": "7dc3cfdc3486790fec93c36cfca057f75b5344e03959d6a78795799178293903",
+   "reused_from": "r22"
+  },
+  "NightRAFBGMMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightRAFBGMMode.asd",
+   "size": 103,
+   "sha256": "cae5ad70c309c6c7a563766aafb62b8edf1e5494f360cf86afda9c0b8e4ff2b5",
+   "reused_from": "r15"
+  },
+  "NightRAFCGMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r19_calendar\\work\\savecopy\\NightRAFCGMode.asd",
+   "size": 1943,
+   "sha256": "d985274fc9cd1faf976a11bb33d1c387dedc882bddf94a5e01b9103aa1d96e29",
+   "reused_from": "r19"
+  },
+  "NightRAFCommon.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightRAFCommon.asd",
+   "size": 153,
+   "sha256": "906d1209e93444a972b829609911ed4b094c8aa683e01ddf07a11baf19c7f05d",
+   "reused_from": "r15"
+  },
+  "NightRAFInfo.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\NightRAFInfo.asd",
+   "size": 237,
+   "sha256": "e3b982f27b4fd826208e1f43bcf8e94632a86a4e3b947300d18391cb339ffd6a",
+   "reused_from": null
+  },
+  "NightRAFMemMode.asd": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r18_calendar\\work\\savecopy\\NightRAFMemMode.asd",
+   "size": 92,
+   "sha256": "12ac984f2a08d5ef0e0cc6be608535a91cd7f0a4f1c45a1ee691302bf2dc21e3",
+   "reused_from": "r18"
+  },
+  "NightRMsgSkip.msk": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r22_chart\\work\\savecopy\\NightRMsgSkip.msk",
+   "size": 12639,
+   "sha256": "54fd46cac6cc9a1aab7c1e4923190eae98a8a1a3c2ad8710f716aedc646fd4da",
+   "reused_from": "r22"
+  },
+  "ShowDPSetting.sav": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\ShowDPSetting.sav",
+   "size": 12,
+   "sha256": "33a4af1d729d6e37f77c39c3c8356dbc8f0b31e5fd28ad78cddd1b7449931d03",
+   "reused_from": "r15"
+  },
+  "Thumb0203.qnt": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Thumb0203.qnt",
+   "size": 59774,
+   "sha256": "c182cf360fa686640fe4c2c3f4b7d20958cf7477acdf63914b2a52a02bd7b995",
+   "reused_from": "r15"
+  },
+  "Volume.sav": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\Volume.sav",
+   "size": 29,
+   "sha256": "ef6bb4da8bd01bf082d7078620a33bbb599e1efa4aa698fc219b6da298788455",
+   "reused_from": "r15"
+  },
+  "WindowSetting.sav": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\work\\savecopy\\WindowSetting.sav",
+   "size": 47,
+   "sha256": "7bde69ff3e0d984ce01b7aebe4c9a7d4999363ed5497352a2a6a672ab5771018",
+   "reused_from": null
+  },
+  "YoruKR_HomeRate.dat": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\YoruKR_HomeRate.dat",
+   "size": 22,
+   "sha256": "03274dd3a0846a3b6551905c51d1d15571b5cb426a67decd86d6ab0d8fbb1953",
+   "reused_from": "r15"
+  },
+  "YoruKR_Terms.backup": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\YoruKR_Terms.backup",
+   "size": 85,
+   "sha256": "2d4bdc5d063aff343e9dde47df2421d86b82195c5b582133521e8898251928f2",
+   "reused_from": "r15"
+  },
+  "YoruKR_Terms.dat": {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\YoruKR_Terms.dat",
+   "size": 83,
+   "sha256": "01d26e2e762c490c575d746a89f16bd6b437e6a75728fb6ea262c4944526dc25",
+   "reused_from": "r15"
+  }
+ }
+}

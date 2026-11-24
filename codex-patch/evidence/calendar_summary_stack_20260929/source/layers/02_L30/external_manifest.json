@@ -1,0 +1,79 @@
+{
+ "status": "LABEL_FIX_L30_DRYRUN_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "tag": "stack_626743efc0b3",
+ "base_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "live_runtime_ain_sha256": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+ "base_is_live": false,
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "5d725efff0e02fef8a8edfc5198143b35dba1412ad4bb209c5dd363296a62573",
+   "bytes": 4200054
+  }
+ },
+ "patch_sha256": "3f8e90a2447b8f1b25664e869de6cbe7fcd312f233f3a739a1a0dd1afd293fab",
+ "audit_sha256": "4bef7246ce1a56f497d42a5846184369973b374f84de4c0b5356c3f2dddb7125",
+ "counts": {
+  "cell_name": 23,
+  "cell_cond": 24,
+  "short_cond": 20,
+  "ev_when": 36,
+  "card_cond": 4
+ },
+ "excluded_types": [],
+ "excluded_rows": {},
+ "changed_functions": {
+  "KR_P29CellName": "KR_L30CellName",
+  "KR_P29CellCond": "KR_L30CellCond",
+  "KR_P29ShortCond": "KR_L30ShortCond",
+  "KR_T19EvWhen": "KR_L30EvWhen",
+  "KR_T19CardCond": "KR_L30CardCond"
+ },
+ "added_functions": {
+  "KR_L30CellNameBase": 32859,
+  "KR_L30CellName": 32860,
+  "KR_L30CellCondBase": 32861,
+  "KR_L30CellCond": 32862,
+  "KR_L30ShortCondBase": 32863,
+  "KR_L30ShortCond": 32864,
+  "KR_L30EvWhenBase": 32865,
+  "KR_L30EvWhen": 32866,
+  "KR_L30CardCondBase": 32867,
+  "KR_L30CardCond": 32868
+ },
+ "original_code_prefix_exact": true,
+ "original_strings_prefix_exact": true,
+ "messages_exact": true,
+ "serialized_schema_changes": 0,
+ "pinned_functions_identical": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890
+  }
+ },
+ "native_opcodes_supported": true,
+ "proxy_round_trip_rows": 107,
+ "installed": false,
+ "note": "dry run only; install = separate batch after user approval (publish/rollback not provided here)"
+}

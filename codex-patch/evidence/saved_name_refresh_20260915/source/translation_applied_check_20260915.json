@@ -1,0 +1,19 @@
+{
+  "time": "2026-09-15T17:22:23.587313+09:00",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest_sha256": "021a616b2a83c2656174cd920ddd5c6bea41c5365bd2d97cbcd6cc12cf787372",
+  "ain_sha256": "cf249bab7f5db4db247a0cfff43b8a73fda5a9616bd1ddf12639daeca4debe6d",
+  "latest_worked_translation_map": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\translation_d20f0d346087\\translation_evidence\\final_map.json",
+  "reviewed_corrections": 10882,
+  "reviewed_corrections_present": 10882,
+  "all_message_rows": 100944,
+  "message_bytes_different_from_restored_translation": [],
+  "translation_map_rows": 96470,
+  "translation_map_mismatches": [],
+  "named_EX_rows": 512,
+  "name_mismatches": [],
+  "completed_review_packets": 408,
+  "total_review_packets": 686,
+  "uncompleted_review_packets": 278,
+  "game_and_save_files_modified": false
+}

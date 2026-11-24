@@ -1,0 +1,107 @@
+{
+  "status": "NOTICE_REPAIR_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "411838994c3f9a57aafd5fda5cd25a3b76e35683da6f916bc165ae7fbf3739ac",
+    "status": "CHEST_FLOW_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "9d8fee1e3e4914ed0ba0f2898b0c30ab55e4cdda5ddc1f9bf8f4d09bf8e165e3",
+    "NightRemasterPact.afa": "84c49f09c48e2249fd64fbdffebb4b938f8f07caa48cc5e4541560a8259e80f3"
+  },
+  "files": {
+    "NightRemaster.ain": "3b7bb70cb51caba08dc291693919554c3d35783314352eccc77f7b16ab18f8e9",
+    "NightRemasterPact.afa": "39d0915ee3475441f6526a023b4a64989a4388190f07e2e62d5cbf8e8cbc5bc8"
+  },
+  "patched_existing": [
+    27936,
+    31875,
+    31876,
+    31877,
+    31878,
+    31879,
+    31880,
+    31881,
+    31968
+  ],
+  "added_functions": {},
+  "PACT": {
+    "archive": {
+      "source_sha256": "84c49f09c48e2249fd64fbdffebb4b938f8f07caa48cc5e4541560a8259e80f3",
+      "candidate_sha256": "39d0915ee3475441f6526a023b4a64989a4388190f07e2e62d5cbf8e8cbc5bc8",
+      "original_entries_preserved": 187,
+      "replaced_ids": [
+        153,
+        154,
+        160,
+        161
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\notice_repair_20260917\\NightRemasterPact.afa"
+    },
+    "changed_entries": [
+      153,
+      154,
+      160,
+      161
+    ],
+    "chest_moved_from": 161,
+    "notices_loaded_by": 160,
+    "buttons": [
+      {
+        "entry": 153,
+        "root": "KR_AutoEquipRoot",
+        "button": "KR_AutoEquipButton",
+        "width": 192.0,
+        "height": 42,
+        "whole_native_cg": "シス／戦闘／説明枠",
+        "partial_copy": false,
+        "outline": [
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "entry": 154,
+        "root": "KR_AutoStoneRoot",
+        "button": "KR_AutoStoneButton",
+        "width": 138.0,
+        "height": 42,
+        "whole_native_cg": "シス／戦闘／説明枠",
+        "partial_copy": false,
+        "outline": [
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "entry": 161,
+        "root": "KR_SweepRoot",
+        "button": "KR_SweepButton",
+        "width": 114,
+        "height": 42,
+        "whole_native_cg": "シス／戦闘／説明枠",
+        "partial_copy": false,
+        "outline": [
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  "old_CODE_STR0_MSG1_exact": true,
+  "save_schema_changes": 0,
+  "translator_model": "Codex internal",
+  "native_verified": false,
+  "removed_rendering_blocks": 3,
+  "rewards_and_progress_functions_unchanged": true
+}

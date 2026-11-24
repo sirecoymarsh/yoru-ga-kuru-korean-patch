@@ -1,0 +1,190 @@
+{
+ "pid": 49528,
+ "ain_sha256": "5e41a8a49605ffe3e745c4e7eb5204546c7dce3bd420d843bafb319ef3a0e094",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 36.6,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\probe\\run\\SaveData_AutoNavProbe_train_20261015_220201",
+  "RESUME NightR40.asd stage=pt0",
+  "STATE PARTNER date=9/22 target=0 evresult=0 fn=ＳＹＳＥＶ／土曜訓練選択前 f2=26 f3=80 f4=70 f5=23",
+  "PARTNER SCREEN story t2=1/0 t3=1/0 t4=1/0 t5=1/0 pick=0",
+  "FORCED ARM target=2",
+  "TRAIN cg=1000010486:p1000010485:z1:a255:mul255,206,79:add0,0,0:w132:show1 box=2026092022:p1000010486:z20:a255:mul255,255,255:add135,99,18:w124:show1",
+  "SHOT an_partner_a.bmp",
+  "TRAIN cg=1000010486:p1000010485:z1:a255:mul255,241,204:add0,0,0:w132:show1 box=2026092022:p1000010486:z20:a255:mul255,255,255:add39,28,5:w124:show1",
+  "SHOT an_partner_b.bmp",
+  "AUTO PARTNER 2 after 20431 ms acc=20002 frames=1164",
+  "STAGE ptchosen",
+  "STATE FIRST_MESSAGE_AFTER_PARTNER date=9/22 target=2 evresult=0 fn=E10041 f2=31 f3=80 f4=70 f5=23",
+  "AFTER CONFIRM trfired=2 trcg=0",
+  "END"
+ ],
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_partner_a.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_partner_b.png"
+ ],
+ "mode": "train",
+ "save": "NightR40.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\probe\\run\\SaveData_AutoNavProbe_train_20261015_220201",
+ "probe": {
+  "sites": [
+   {
+    "owner": "KR_T9HomeCasual",
+    "site": 12242132,
+    "old": "KR_T18RunSandboxed",
+    "new": "LSys3xScript::RunEvent"
+   },
+   {
+    "owner": "KR_T9HomeCasual",
+    "site": 12242054,
+    "old": "■カジュアルモード設定呼び出し",
+    "new": "KR_ProbeCasualOther"
+   },
+   {
+    "owner": "C_SelectMessage@Update",
+    "site": 5939318,
+    "old": "KR_ANSelFrame",
+    "new": "KR_ProbeSelFrame"
+   },
+   {
+    "owner": "C_SceneTraining@_UpdateInputPartner",
+    "site": 6067184,
+    "old": "KR_ANTrainFrame",
+    "new": "KR_ProbeTrainFrame"
+   },
+   {
+    "owner": "C_ConfigView@EventConfAsraDataForParts",
+    "site": 11517876,
+    "old": "KR_ANCfgSeenToParts",
+    "new": "KR_ProbeCfgToParts"
+   },
+   {
+    "owner": "▲コンフィグ実行",
+    "change": "casual start page 7 -> 9 (both)"
+   }
+  ],
+  "waits": [
+   [
+    "menu::detail::CMenuView@_Loop",
+    "exit"
+   ],
+   [
+    "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>",
+    "message click-through"
+   ],
+   [
+    "sealtool::detail::CModelSelectDialog@<lambda : sealtool::detail::CModelSelectDialog@ShowDialog()(98, 32)>",
+    "exit"
+   ],
+   [
+    "L_StatusFace::Select",
+    "exit"
+   ],
+   [
+    "C_Dialog@Run",
+    "exit"
+   ],
+   [
+    "C_SelectDialog@Run",
+    "live"
+   ],
+   [
+    "C_SelectMessage@Run",
+    "live"
+   ],
+   [
+    "C_Status::RunStatus",
+    "exit"
+   ],
+   [
+    "C_SceneTitle@Run",
+    "exit"
+   ],
+   [
+    "C_SceneHomebase@RunMapSelect",
+    "exit"
+   ],
+   [
+    "C_SceneDungeon@Run",
+    "exit"
+   ],
+   [
+    "C_BattleSelectEnemy@Run",
+    "exit"
+   ],
+   [
+    "C_BattleSelectView@Run",
+    "exit"
+   ],
+   [
+    "C_SceneSaveLoad@RunCommon",
+    "exit"
+   ],
+   [
+    "C_SceneStartData@RunCommon",
+    "exit"
+   ],
+   [
+    "C_SceneModeCG@Run",
+    "exit"
+   ],
+   [
+    "C_SceneModeScene@RunTop",
+    "exit"
+   ],
+   [
+    "C_SceneModeScene@RunSelect",
+    "exit"
+   ],
+   [
+    "C_SceneModeSound@Run",
+    "exit"
+   ],
+   [
+    "C_DebugCasualView@<lambda : C_DebugCasualView@Run()(66, 45)>",
+    "exit"
+   ],
+   [
+    "C_DebugParamView@<lambda : C_DebugParamView@Run()(74, 45)>",
+    "exit"
+   ],
+   [
+    "C_SceneTraining@<lambda : C_SceneTraining@RunSelect()(114, 40)>",
+    "exit"
+   ],
+   [
+    "C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>",
+    "live"
+   ],
+   [
+    "C_SceneHomebase@<lambda : C_SceneHomebase@RunMember()(233, 52)>",
+    "exit"
+   ],
+   [
+    "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+    "exit"
+   ],
+   [
+    "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCombineStone()(402, 52)>",
+    "exit"
+   ],
+   [
+    "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunMemory(bool)(487, 52)>",
+    "exit"
+   ],
+   [
+    "KR_C24WaitRaw",
+    "exit"
+   ],
+   [
+    "KR_P29WaitRaw",
+    "exit"
+   ]
+  ],
+  "probe_sha256": "5e41a8a49605ffe3e745c4e7eb5204546c7dce3bd420d843bafb319ef3a0e094"
+ },
+ "candidate_ain": "1e96d3e797184a7a13236208988fe6ca3d37cf55f9e553f0ccc5ad7ed7659188",
+ "candidate_pact": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce",
+ "user_save_folder_unchanged": true
+}

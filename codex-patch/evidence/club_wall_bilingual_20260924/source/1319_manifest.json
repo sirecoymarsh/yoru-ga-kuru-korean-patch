@@ -1,0 +1,71 @@
+{
+  "id": 1319,
+  "archive_name": "CG1542.qnt",
+  "canvas": [
+    960,
+    552
+  ],
+  "original_sha256": "ca82df2101416bd4ca1e9364b1402214e426bd3c9f08a76771185762d4028f77",
+  "installed_before_sha256": "ca82df2101416bd4ca1e9364b1402214e426bd3c9f08a76771185762d4028f77",
+  "payload": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\1319.payload",
+  "payload_sha256": "d902349e6aa5362a3d017592c653258e8d04f4540f119b0c678791a6aca3c631",
+  "source_png_sha256": "69035efd6c581e17c3e07bb935e7754d2f82ab0101fb75357384be18cb6924fb",
+  "final_png_sha256": "3da9e431e8cf65f6330ca053dc5bc9d5ef12cc8aabe691e1bf0607823f311a57",
+  "roundtrip": "PASS",
+  "protected_pixel_changes": 0,
+  "erase_bounds": [
+    17,
+    142,
+    54,
+    298
+  ],
+  "target_ink_bounds": [
+    18,
+    145,
+    52,
+    294
+  ],
+  "translator_model": "Codex internal",
+  "task": "/root",
+  "source": "我は王なり",
+  "target": "나는 왕이다",
+  "source_slot": [
+    14,
+    141,
+    54,
+    299
+  ],
+  "target_slot": [
+    18,
+    145,
+    52,
+    294
+  ],
+  "mask_method": "Source charcoal blue-green<8 and blue<145 inside source ink slot, expanded 2px for original antialias; original paper boundary-driven harmonic fill restricted to glyph mask.",
+  "generated_source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\korean_brush_generated.png",
+  "generated_sha256": "049b1f73942b19b5446f313df78bc2d863be476f3954aa14c6137d04260845b1",
+  "tool": "built-in image_gen",
+  "generated_crop": [
+    427,
+    60,
+    736,
+    1378
+  ],
+  "artifacts": {
+    "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\1319_source.png",
+    "clean": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\1319_clean.png",
+    "final": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\1319_final.png",
+    "erase": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\1319_erase.png",
+    "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\1319_target.png",
+    "protected": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\1319_protected.png"
+  },
+  "status": "GRAPHICS_STATIC_DETERMINISTIC_ENGINE_PASS",
+  "source_canvas": [
+    960,
+    552
+  ],
+  "runtime_verified": true,
+  "runtime_scope": "Isolated engine CG renderer; not gameplay",
+  "source_glyph_erasure": "VISUALLY_REVIEWED",
+  "state_family": "day/night"
+}

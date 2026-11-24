@@ -1,0 +1,16 @@
+{
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "started": "2026-09-15T22:10:41.4570755+09:00",
+  "ended": "2026-09-15T22:10:45.9192702+09:00",
+  "target": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\instant_loot_20260915\\scan_payload",
+  "files": {
+    "NightRemasterPact.afa": "747206f05a8ad987c0c270e4ff5277757d0d8609ee0fca9c08529289ea9238e6",
+    "NightRemaster.ain": "1ae724c4a670012d4e0a22b54bee69f76491f60e166ecb5744fd4407ed2cc8a2"
+  },
+  "engine": "1.1.26080.3",
+  "platform": "4.18.26080.3",
+  "signatures": "1.459.213.0",
+  "antivirusEnabled": true,
+  "before": [],
+  "after": []
+}

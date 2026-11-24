@@ -1,0 +1,67 @@
+{
+  "status": "PLAYER_TOOLS_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "b6d31abbf7decedaf86682fccb94790b4922aeb4ac7aba89b8ee52b442e39bb6",
+    "status": "TERM_SWITCH_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "81bed991606129a555c54acb2a7f5ad6f0ea232994e80990c31b3d535c0739b4",
+    "NightRemasterPact.afa": "5c41b8feca864f13fe09f7cd736de82ed8d99837093da55a37c672e1cf2e83aa"
+  },
+  "files": {
+    "NightRemaster.ain": "769d461aa51037eae34d48f7b15125ba6e8a4ae83126b17fb7b848ab41f9184c",
+    "NightRemasterPact.afa": "ff1a16663d65b4de95c72063709851f9615484ab610dac9787f6c1a098c7e30d"
+  },
+  "patched_existing": [
+    29815,
+    29823
+  ],
+  "added_functions": {
+    "KR_PlayerReadyFlag": 32164,
+    "KR_PlayerReady": 32165,
+    "KR_PlayerNameValid": 32166,
+    "KR_PlayerApplyName": 32167,
+    "KR_PlayerRename": 32168,
+    "KR_PlayerEventCount": 32169,
+    "KR_PlayerRate": 32170,
+    "KR_PlayerInfoMenu": 32171
+  },
+  "PACT": {
+    "changed_entries": [
+      185
+    ],
+    "reverse_exact": true,
+    "archive": {
+      "source_sha256": "5c41b8feca864f13fe09f7cd736de82ed8d99837093da55a37c672e1cf2e83aa",
+      "candidate_sha256": "ff1a16663d65b4de95c72063709851f9615484ab610dac9787f6c1a098c7e30d",
+      "original_entries_preserved": 188,
+      "replaced_ids": [
+        185
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\player_tools_20260923\\NightRemasterPact.afa"
+    },
+    "button": [
+      797,
+      622,
+      192,
+      30
+    ],
+    "label_width": 87.5
+  },
+  "MSG1_exact": true,
+  "old_CODE_prefix_exact": true,
+  "old_STR0_exact": true,
+  "globals_structures_exact": true,
+  "save_schema_changes": 0,
+  "native_verified": false,
+  "translator_model": "Codex internal",
+  "event_count": 1043
+}

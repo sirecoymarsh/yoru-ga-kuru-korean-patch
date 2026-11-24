@@ -1,0 +1,71 @@
+{
+  "status": "STATIC_FONT_GEOMETRY_PASS",
+  "files": {
+    "NightRemaster.ain": "91b827804c22b1a2390312391d0ad4f7178ae8228250354f27f8fbc5de1b3169",
+    "NightRemasterPact.afa": "92ffc2f9b8f07f32b16cc78af265e395b92772af8a940bec8b7d00097fdabc3c"
+  },
+  "button_canvas": [
+    116,
+    55
+  ],
+  "button_rect": [
+    1142,
+    436,
+    116,
+    55
+  ],
+  "native_CG_states_byte_exact": true,
+  "only_added_group": true,
+  "labels": [
+    {
+      "state": "通常状態",
+      "label": "자동 이동",
+      "width": 84.666667,
+      "height": 24.0,
+      "x": 15.666666030883789,
+      "y": 15.5
+    },
+    {
+      "state": "通常状態",
+      "label": "이동 중지",
+      "width": 84.666667,
+      "height": 24.0,
+      "x": 15.666666030883789,
+      "y": 15.5
+    },
+    {
+      "state": "オンカーソル状態",
+      "label": "자동 이동",
+      "width": 84.666667,
+      "height": 24.0,
+      "x": 15.666666030883789,
+      "y": 15.5
+    },
+    {
+      "state": "オンカーソル状態",
+      "label": "이동 중지",
+      "width": 84.666667,
+      "height": 24.0,
+      "x": 15.666666030883789,
+      "y": 15.5
+    },
+    {
+      "state": "キーダウン状態",
+      "label": "자동 이동",
+      "width": 84.666667,
+      "height": 24.0,
+      "x": 15.666666030883789,
+      "y": 15.5
+    },
+    {
+      "state": "キーダウン状態",
+      "label": "이동 중지",
+      "width": 84.666667,
+      "height": 24.0,
+      "x": 15.666666030883789,
+      "y": 15.5
+    }
+  ],
+  "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+  "native_capture": false
+}

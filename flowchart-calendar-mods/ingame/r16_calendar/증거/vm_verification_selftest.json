@@ -1,0 +1,447 @@
+{
+ "schema": "yoru-calendar-r16.verify.v1",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "candidate_sha256": "4056429f9e9999c8bec64ed244cf0393285529e74c6693b2768176cf8439b2fc",
+ "base_sha256": "cbed62c2aa3bd33c8471a098cc1f6a3e7f83c60c32d02b2cbf2b0dd63bc24a9f",
+ "counts": {
+  "S1_metadata": 1,
+  "S2_r15_sites_kept": 9,
+  "S2_base_code_bytes_identical": 12251148,
+  "S3_text": 1,
+  "S6_pinned_bytes": 3476,
+  "S6_pinned_functions": 5,
+  "S4_saves": 51,
+  "S4_frames": 1262,
+  "S4_frames_in_live_versions": 1228,
+  "S4_frames_in_KR_T9HomeCasual": 0,
+  "S5_active_functions": 30642,
+  "V1_cards": 155,
+  "V1_stages": 404,
+  "V1_drawers": 96,
+  "V1_scenes": 760,
+  "V1_events": 1164,
+  "V10_seen_states": 1,
+  "V2_max_width_px": 1135,
+  "V2_dialogs": 2512,
+  "V2_max_height": 672,
+  "V2_max_title_lines": 11,
+  "V11_lane_titles": 219,
+  "V11_summary_pages": 3,
+  "V2_states": 3,
+  "V2_event_pages": 1164,
+  "V3_cells": 6619,
+  "V3_month_menus": 217,
+  "V11_year_sums": 16,
+  "V3_synthetic_mid_month_marks": 5,
+  "V4_navigation": 1,
+  "V5_play_from_window": 1,
+  "V6_play_from_settings": 1,
+  "V7_no_context": 1,
+  "V8_failsafe": 1,
+  "V9_original_dispatch": 1,
+  "V11_summary_from_month": 1,
+  "V12_tailed_rows": 26,
+  "V12_collision_groups_in_r15": 9,
+  "V12_duplicate_rows_after": 0,
+  "V12_rows": 155,
+  "V13_panel_states": 4,
+  "V14_saves": 11,
+  "V14_saves_with_all_four": 2
+ },
+ "vm_steps": 56081996,
+ "widest_title": "■■■■■□□□□□ 25/43 본 것　●안 봄 △다른 저장 ○이 저장",
+ "widest_title_len": 38,
+ "widest_item": "7/27 밤 ● 하루만 · 쿄카 친밀도 30 이상 (2단계)",
+ "widest_item_len": 33,
+ "seconds": 62.7,
+ "saves_checked": 51,
+ "frames_checked": 1262,
+ "panel": {
+  "same_computation_as_KR_T8HomeRateText": true,
+  "only_difference_label": [
+   "\n전체 이벤트　",
+   "\n전체　　"
+  ],
+  "panel_denominator": 1043,
+  "panel_events": 1043,
+  "calendar_events": 1164,
+  "calendar_only": 121,
+  "calendar_only_breakdown": {
+   "게임에서 부르지 않는 장면": 28,
+   "other": 8,
+   "회상 재생본": 85
+  },
+  "calendar_only_others": [
+   {
+    "event": "E00996",
+    "place": "11월 · 던전 카드",
+    "category": "main"
+   },
+   {
+    "event": "E05000",
+    "place": "4월 · 던전 서랍(walk)",
+    "category": "dungeon_walk"
+   },
+   {
+    "event": "E06001",
+    "place": "4월 · 던전 서랍(etc)",
+    "category": "system"
+   },
+   {
+    "event": "E10523",
+    "place": "11월 · 던전 카드",
+    "category": "main"
+   },
+   {
+    "event": "E20523",
+    "place": "11월 · 던전 카드",
+    "category": "main"
+   },
+   {
+    "event": "E30523",
+    "place": "11월 · 던전 카드",
+    "category": "main"
+   },
+   {
+    "event": "E40523",
+    "place": "11월 · 던전 카드",
+    "category": "main"
+   },
+   {
+    "event": "E50007",
+    "place": "11월 · 던전 카드",
+    "category": "main"
+   }
+  ],
+  "states": [
+   {
+    "state": "none",
+    "panel": "0/1043",
+    "calendar": "0/1164",
+    "calendar_only_seen": 0
+   },
+   {
+    "state": "partial",
+    "panel": "548/1043",
+    "calendar": "606/1164",
+    "calendar_only_seen": 58
+   },
+   {
+    "state": "all",
+    "panel": "1043/1043",
+    "calendar": "1164/1164",
+    "calendar_only_seen": 121
+   },
+   {
+    "state": "mid-August",
+    "panel": "180/1043",
+    "calendar": "180/1164",
+    "calendar_only_seen": 0
+   }
+  ]
+ },
+ "real_saves": {
+  "saves": [
+   {
+    "save": "NightR12.asd",
+    "today": "5/13",
+    "now": 5,
+    "registered": 32,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "★☆",
+     "6": "★",
+     "7": "●★",
+     "8": "●★",
+     "9": "★",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   },
+   {
+    "save": "NightR16.asd",
+    "today": "5/20",
+    "now": 5,
+    "registered": 56,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "★☆",
+     "6": "★",
+     "7": "●★",
+     "8": "●★",
+     "9": "★",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   },
+   {
+    "save": "NightR18.asd",
+    "today": "5/27",
+    "now": 5,
+    "registered": 59,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "★☆",
+     "6": "★",
+     "7": "●★",
+     "8": "●★",
+     "9": "★",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   },
+   {
+    "save": "NightR26.asd",
+    "today": "7/1",
+    "now": 7,
+    "registered": 97,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "☆",
+     "6": "★☆",
+     "7": "●★",
+     "8": "●★",
+     "9": "★",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   },
+   {
+    "save": "NightR31.asd",
+    "today": "8/19",
+    "now": 8,
+    "registered": 136,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "☆",
+     "6": "★☆",
+     "7": "○☆",
+     "8": "▲○●★☆",
+     "9": "★",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [
+     8
+    ],
+    "current_month_has_all_four": true
+   },
+   {
+    "save": "NightR33.asd",
+    "today": "8/26",
+    "now": 8,
+    "registered": 139,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "☆",
+     "6": "★☆",
+     "7": "○☆",
+     "8": "▲○●★☆",
+     "9": "★",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [
+     8
+    ],
+    "current_month_has_all_four": true
+   },
+   {
+    "save": "NightR37.asd",
+    "today": "9/16",
+    "now": 9,
+    "registered": 154,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "☆",
+     "6": "★☆",
+     "7": "○☆",
+     "8": "▲○☆",
+     "9": "★☆",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   },
+   {
+    "save": "NightR38.asd",
+    "today": "9/16",
+    "now": 9,
+    "registered": 154,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "☆",
+     "6": "★☆",
+     "7": "○☆",
+     "8": "▲○☆",
+     "9": "★☆",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   },
+   {
+    "save": "NightR41.asd",
+    "today": "9/30",
+    "now": 9,
+    "registered": 167,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "☆",
+     "6": "★☆",
+     "7": "○☆",
+     "8": "▲○☆",
+     "9": "★☆",
+     "10": "●★",
+     "11": "●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   },
+   {
+    "save": "NightR44.asd",
+    "today": "10/14",
+    "now": 10,
+    "registered": 183,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "☆",
+     "6": "★☆",
+     "7": "○☆",
+     "8": "▲○☆",
+     "9": "★☆",
+     "10": "▲●★☆",
+     "11": "●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   },
+   {
+    "save": "NightR47.asd",
+    "today": "11/4",
+    "now": 11,
+    "registered": 207,
+    "marks_by_month": {
+     "4": "○☆",
+     "5": "☆",
+     "6": "★☆",
+     "7": "○☆",
+     "8": "▲○☆",
+     "9": "★☆",
+     "10": "▲○★☆",
+     "11": "▲●★"
+    },
+    "months_with_all_four": [],
+    "current_month_has_all_four": false
+   }
+  ],
+  "pick": "NightR31.asd"
+ },
+ "planted_defects": [
+  {
+   "defect": "V2 width: legend 40 chars",
+   "caught": true,
+   "message": "('title line over 38', 40, '가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가')"
+  },
+  {
+   "defect": "V2 height: 12 rows a lane page",
+   "caught": true,
+   "message": "('dialog too tall', 756, 2, 13, '〓5월 · 본편\\u3000†카드 12 · 서랍 0')"
+  },
+  {
+   "defect": "V3 colour: unseen days white",
+   "caught": true,
+   "message": "(4, 27, (4, 9), (1, '★'), (2, '★'))"
+  },
+  {
+   "defect": "V4 navigation: next skips a month",
+   "caught": true,
+   "message": "['4월 이벤트 달력\\u3000■■■■■□□□□□ 76/146 (52%)', '6월 이벤트 달력\\u3000■■■■■□□□□□ 129/232 (56%)', '8월 이벤트 달력\\u3000■■■■□□□□□□ 32/68 (47%)', '10월 이벤트 달력\\u3000■■■■■□□□□□ 69/128 (54%)', '회상 · 그 밖\\u3000■■■■□□□□□□ 52/1"
+  },
+  {
+   "defect": "V5 unwind flag not written",
+   "caught": true,
+   "message": "dialog without a scripted answer: 〓4월 · 쿄카　†카드 1 · 서랍 43"
+  },
+  {
+   "defect": "V6 settings context lost",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V7 play allowed without context",
+   "caught": true,
+   "message": "(13, '蝟 蛬酲 蛞贖', '', 0)"
+  },
+  {
+   "defect": "V8 fail-safe removed",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V10 seen: this save shown as other save",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V11 bar: one cell too many",
+   "caught": true,
+   "message": "(4, 0, '〓4월 · 본편\\u3000†카드 5 · 서랍 0\\n■■■■■□□□□□ 2/5 본 것\\u3000●안 봄 △다른 저장 ○이 저장')"
+  },
+  {
+   "defect": "V3 missed shown as upcoming",
+   "caught": true,
+   "message": "(4, 9, (6, 13), (2, '★'), (1, '★'))"
+  },
+  {
+   "defect": "V3 ★ missing (main-story day drawn ●)",
+   "caught": true,
+   "message": "(4, 9, (4, 9), (0, '●'), (0, '★'))"
+  },
+  {
+   "defect": "V11 summary total mismatch (회상 · 그 밖 left out)",
+   "caught": true,
+   "message": "('summary page', [('〓달성도\\u3000전체 ■■■■■□□□□□ 606/1051 (57.7%)', '〓달성도\\u3000전체 ■■■■■□□□□□ 606/1164 (52.1%)')])"
+  },
+  {
+   "defect": "V12 one E-number tail removed",
+   "caught": true,
+   "message": "('tails not exactly on the colliding rows', [1])"
+  },
+  {
+   "defect": "V1 table: one card entry wrong",
+   "caught": true,
+   "message": "(10, 'G00015', {'lane': 0, 'day': 8, 'slot': 2, 'size': 1, 'entry': 16}, {'lane': 0, 'day': 8, 'slot': 2, 'size': 1, 'entry': 15})"
+  },
+  {
+   "defect": "S2 one r15 swap site reverted",
+   "caught": true,
+   "message": "base CODE bytes changed"
+  },
+  {
+   "defect": "S4 a saved return instruction changed",
+   "caught": true,
+   "message": "('saved return bytes differ', 'NightR01.asd', 'gamesave::detail::セーブ実行(string, string, ', '0x22a0bc')"
+  },
+  {
+   "defect": "S3 one MSG1 byte changed",
+   "caught": true,
+   "message": "MSG1 changed"
+  },
+  {
+   "defect": "S6 a pinned function redefined (KR_T9HomeCasual moved)",
+   "caught": true,
+   "message": "('pinned function entry changed', 'KR_T9HomeCasual')"
+  }
+ ]
+}

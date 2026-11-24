@@ -1,0 +1,26 @@
+{
+  "status": "VERIFIED_READY_TO_INSTALL",
+  "baseline_ain": "bdcd8c8c8d1c2f606ee39f4180a3f377ea1db82818ba6a99f420bf518cdd6758",
+  "candidate_ain": "cfda0681fb0c55d2088aa7d08be4b00259d3cefd0be512d353cf69db831a6a3d",
+  "user_report": "Assign page 43416 error confirmed by user to belong to our automated diagnostic, not a user-launched game.",
+  "completed_in_staging": [
+    "A_REF fix for button name arguments; original memory equipment view destructors verified in earlier candidate",
+    "Term preferences moved off shared VSFile; success/failure/reload tests passed in earlier candidate",
+    "CP949 input converted to proxy Hangul; 2372 cases passed in earlier candidate",
+    "Six weapon comparison value positions repaired; native render reviewed"
+  ],
+  "not_yet_release_verified": [
+    "Physical Korean IME typing",
+    "Full next-day flow on the user save"
+  ],
+  "blocking_evidence": "Resolved: diagnostic-only KR_ClickBattleSetup POP after void setter removed caller pending index11. Same candidate with bad POP reproduced Assign; without it passed encounter/result/return/movement. No production modification required for this error.",
+  "next_step": "Hash-bound data-only installation; preserve original saves and audio preferences.",
+  "audio_policy": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "mute_verification": {
+    "pid": 63264,
+    "exit_code": 0,
+    "proof": "Startup native GetMasterMute returned true or process exits 91. Every config::detail::SetMute write is forced true; only isolated probe build changed. This run stopped after 1 step due input; it is NOT an 8-step regression pass."
+  },
+  "snapshot": "C:\\Users\\CadriacLord\\OneDrive\\문서\\AliceSoft\\밤이 온다! -Square of the MOON- Remastered\\SaveData_KR_RealSceneProbe_20260923\\YoruKR_PostBattle.asd",
+  "assign_evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\runtime_repairs_20260923\\native\\assign_root_cause.json"
+}

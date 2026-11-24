@@ -1,0 +1,6 @@
+resume loading
+walk=1000010566 delegate=423 handlers=0
+sweep=1000010214 delegate=211 handlers=1
+clickable=1 input=1
+dispatch through native button function set
+clickResult=0

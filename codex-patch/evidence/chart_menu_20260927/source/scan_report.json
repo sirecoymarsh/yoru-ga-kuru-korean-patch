@@ -1,0 +1,11 @@
+﻿{
+    "time":  "2026-09-27T17:51:40",
+    "status":  "SCANNED_NO_TARGET_DETECTIONS",
+    "file":  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_chartmenu\\build_release\\winmm.dll",
+    "sha256":  "378a78345dc8a8a625d351ca622aa35ee8a3b6d6d1023b922d88d7e7bc511fda",
+    "output":  [
+                   "Scan starting...",
+                   "Scan finished.",
+                   "Scanning P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_chartmenu\\build_release\\winmm.dll found no threats."
+               ]
+}

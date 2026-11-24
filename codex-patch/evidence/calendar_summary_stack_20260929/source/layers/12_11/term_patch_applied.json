@@ -1,0 +1,575 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\design\\summaries.json",
+   "term_folder": "november_a",
+   "file_sha_now": "c3af993b786662b6a1aec54795b8d28eabaff1d5ce5b4ff0b964ef517a0726ba",
+   "file_sha_at_audit": "45b38cd7f010e39fcfaecad7712b31cac7a85f70a4c8804317322b64d90f081f"
+  },
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_b_summaries_20260929\\design\\summaries.json",
+   "term_folder": "november_b",
+   "file_sha_now": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8",
+   "file_sha_at_audit": "03205c3a73090d4b18f48494616124dbb3d641a76cb63f0cd268b600aa0fa700"
+  }
+ ],
+ "events": [
+  {
+   "no": 904,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "이곳의 적에게",
+     "after": "이곳의 히카리에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "7c7d01ab9a324e89bb2fb897a8e89c0cace52ea3485501a646f55f6312b1bbce",
+   "sha256_after": "5d2352ffc5e1915701acdb21fbc63b2ff1f0b4c7bc5e5e40c5abe6d3a7a8d5ab",
+   "summary_after": "이곳의 히카리에게 공격이 거의 통하지 않자 주인공은 일단 물러나기로 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 931,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "펜스를 기어오르는 적을",
+     "after": "펜스를 기어오르는 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "a30711c00917b3d23c1c0875762e1aa418accaf9083ba83b3915816ee9cea3ca",
+   "sha256_after": "5f145d223d8d110555e0d90ccbe7e121902376143dd91e3b3dd72200f19a3ac9",
+   "summary_after": "마코토, 마나미와 오른 옥상에서 결계의 핵심을 찾지 못한 주인공은 다른 조와 합류하려 한다. 그때 마나미가 펜스를 기어오르는 히카리를 발견하고, 마코토가 대비하라고 외친다.",
+   "gate_problems": []
+  },
+  {
+   "no": 932,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "강해 보이는 적이 올라온다",
+     "after": "강해 보이는 히카리가 올라온다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "f5e33e555d8914cdc7d4259e52aaf9a88f5376dd93b394aed38f441ca84cf91d",
+   "sha256_after": "636f50fc302f1b4fe7d8bf4ca6857de16a2b9bdeb5f3420a13619ac9c4f219a1",
+   "summary_after": "호시카와, 마나미와 도착한 옥상 끝에는 결계의 핵심 없이 빈 공간만 펼쳐져 있다. 부장 일행 쪽이 정답이었다며 돌아서려는 순간 펜스 너머에서 강해 보이는 히카리가 올라온다.",
+   "gate_problems": []
+  },
+  {
+   "no": 933,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "말대로 적이 기어오른다",
+     "after": "말대로 히카리가 기어오른다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "9552d6c814ad75d92dda20fe89c8258b8eda101df67e8bae0979958bbba36b11",
+   "sha256_after": "91370d63fa8c15d6316727bded01b5e4b85b60bcc2de042fa7b3d0c0970fb0df",
+   "summary_after": "모모세가 꽝을 뽑았다고 투덜대는 옥상에서 주인공과 마나미가 건너편 교사의 푸른빛을 본다. 합류하기 전에 한바탕 일이 있겠다는 모모세의 말대로 히카리가 기어오른다.",
+   "gate_problems": []
+  },
+  {
+   "no": 934,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [],
+   "skipped": [],
+   "skipped_summary": "summary changed since the audit (sha256 differs): all proposals of this summary skipped"
+  },
+  {
+   "no": 935,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "만만치 않은 적이 다가온다",
+     "after": "만만치 않은 히카리가 다가온다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "b7e67e8a3785b011d924bdb52e075c5ce26b5d6e81eda692c95bdb944a25b6a2",
+   "sha256_after": "f704f4cdf4d6b2f529d62973fba78980984c32037d571a8152095f916af31d4e",
+   "summary_after": "마코토, 호시카와와 오른 옥상에서 주인공은 결계의 핵심이 다른 쪽에 있음을 확인한다. 합류하려던 주인공을 호시카와의 외침이 멈춰 세우고, 만만치 않은 히카리가 다가온다.",
+   "gate_problems": []
+  },
+  {
+   "no": 936,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "펜스를 타고 적이 올라온다",
+     "after": "펜스를 타고 히카리가 올라온다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "566b34a0e3322e2d2f0291e44191b5fd224cfd7af33f939d626b2f539c003bce",
+   "sha256_after": "7335f42796c57c872b9eb12c58e8d3fb39ba7918d0a215dd4b57c5b6b382b000",
+   "summary_after": "마코토, 모모세와 함께한 주인공은 이즈미 일행이 간 쪽이 올바른 길이었음을 깨닫는다. 돌아가려는 순간 살기를 느낀 모모세가 소리치고, 펜스를 타고 히카리가 올라온다.",
+   "gate_problems": []
+  },
+  {
+   "no": 937,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "펜스를 기어오르는 적을",
+     "after": "펜스를 기어오르는 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "e9a7039d68e22fe869acd35e64fc3bfb9dfb457cb16208515d1f8c93de4b1040",
+   "sha256_after": "ea978597ca259d823a8430701ffeacd8d3666cf1694c12f8a0fb8c58772473d7",
+   "summary_after": "결계의 핵심이 없는 옥상에서 마코토가 다른 교사의 푸른빛을 가리키자 신카이는 이즈미 쪽이 정답이었다고 말한다. 곧이어 신카이가 펜스를 기어오르는 히카리를 알아챈다.",
+   "gate_problems": []
+  },
+  {
+   "no": 938,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "기어오르는 적을 발견한다",
+     "after": "기어오르는 히카리를 발견한다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "64dd93a35a03d862aa76009672c79ae67ab339c90fe753b760d4f66d748d1cae",
+   "sha256_after": "6cb323074ff6e67457b04fc76fde591ef5a7768a4b57da2c9c97ca07db51c22a",
+   "summary_after": "모모세, 호시카와와 옥상 끝까지 올라온 주인공이 이쪽은 꽝이었음을 확인한다. 한바탕 일이 남았다는 모모세의 말 끝에 호시카와가 기어오르는 히카리를 발견한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 939,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "다가오는 적을 알린다",
+     "after": "다가오는 히카리를 알린다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "684df92b2be29fffcd2e7446525f4e86e5ea84014a3965b46b1da53263130c4b",
+   "sha256_after": "ee740e2e1ff6f1892a5b982319807dcbbc9c44224277b5c1c23c4c261ddb2a92",
+   "summary_after": "신카이, 호시카와와 옥상에 선 주인공은 건너편 옥상의 푸른빛을 보고 되돌아가려 한다. 한 판 치러야 한다는 신카이의 예감대로 호시카와가 다가오는 히카리를 알린다.",
+   "gate_problems": []
+  },
+  {
+   "no": 940,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "다가오는 적을 보고",
+     "after": "다가오는 히카리를 보고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "c6353fd2b529c2dfa536263f97e8f90d35612c3ef48e362e397391b6afa49bff",
+   "sha256_after": "b88706f6023b8958d5fa713cbeb1b098b791293440a226383e638018e59cb61c",
+   "summary_after": "모모세, 신카이와 함께한 옥상에서 주인공은 결계의 핵심이 저편에 있었음을 알게 된다. 되돌아가기 전에 할 일이 있다는 모모세의 말이 끝나자 신카이가 다가오는 히카리를 보고 외친다.",
+   "gate_problems": []
+  },
+  {
+   "no": 961,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "skipped": [],
+   "sha256_before": "79f3929d53d22a049fa5f8d3c75cae7344d5b674af064121bffe2fd3d4e37393",
+   "sha256_after": "51887f41f5867a6030fd23da6a7b3e47fd6bd18941f95c95ab07cde49896cee2",
+   "summary_after": "마나미, 마코토와 함께 히카리를 물리친 주인공이 언니 미사토를 업은 쿄카, 이즈미와 합류한다. 소지를 묻는 마코토에게 이즈미가 쓰러뜨렸다고 답하고, 쿄카는 곧장 센터 빌딩으로 가자고 한다.",
+   "gate_problems": [
+    "longer than 100 (105)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (105)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "마코토와 적을 물리친",
+     "after": "마코토와 함께 히카리를 물리친",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 963,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "skipped": [],
+   "sha256_before": "5eb68edff3d4aa919d65952ed7a8129a45263ed9857bb07ae6c40cbf1a4817ce",
+   "sha256_after": "2ebed8e2449d4644865eb4576f42219b5a8d1dc7f33d137324c9b93efbdb6df6",
+   "summary_after": "마나미, 모모세와 함께 히카리를 해치운 주인공이 이즈미 일행을 불러 세운다. 소지의 행방을 묻는 모모세에게 이즈미가 쓰러뜨렸다고 답하고, 쿄카는 누구든 날려 버리고 싶다며 분노한다.",
+   "gate_problems": [
+    "longer than 100 (101)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (101)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "함께 적을 해치운",
+     "after": "함께 히카리를 해치운",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 965,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "호시카와와 적을 물리친",
+     "after": "호시카와와 함께 히카리를 물리친",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "03847d519243fe71c854024a121649d3786269ea8199a81eb4a8771e79ad2470",
+   "sha256_after": "a12ea8da782db81d22376dcc7e6297e30536282c1d0b8c6e2aed976f46fceb3f",
+   "summary_after": "마코토, 호시카와와 함께 히카리를 물리친 주인공이 이즈미와 쿄카를 발견한다. 쿄카의 언니가 학교에 있었다는 데 호시카와가 놀라고, 쿄카와 이즈미는 이 밤을 빨리 끝내자고 다짐한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 967,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "신카이와 적을 쓰러뜨린",
+     "after": "신카이와 함께 히카리를 쓰러뜨린",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "d63052eda6bafe526ff970dc6fed822a0d2f8d9d74ace53805dcbdc495298d76",
+   "sha256_after": "e7761d20077526e6c316369df917bd029b34abd903e59596e4ce8d2ad408e89e",
+   "summary_after": "마코토, 신카이와 함께 히카리를 쓰러뜨린 주인공이 이즈미 일행과 합류해 쿄카의 언니를 만난다. 쉬지 않아도 괜찮겠느냐는 주인공에게 쿄카는 그럴 틈이 없다고 잘라 말한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 969,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "신카이와 적을 물리친",
+     "after": "신카이와 함께 히카리를 물리친",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "54db013821d57ededcc410bddccbe75f1b8cf390c32da3d8459ed3329d8cdc6a",
+   "sha256_after": "5c4bef6f93fd5ab7ebe2c26a10e74d60cb9f1a1b2f41b3a5971438295bded25e",
+   "summary_after": "호시카와, 신카이와 함께 히카리를 물리친 주인공이 신카이가 먼저 알아본 이즈미와 쿄카를 맞는다. 신카이가 이즈미를 위로하고, 쿄카는 합류하는 대로 센터 빌딩으로 가자고 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 10181,
+   "folder": "november_a",
+   "proposals": 2,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "상상 이상이던 적의 힘을",
+     "after": "상상 이상이던 히카리의 힘을",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "5a55d2bd8729bb5834d6838766f3d3b0e6d34155e724626013665d9d8de52d6f",
+   "sha256_after": "6ecff468100a5960817c488282d29dd2fed976de0336227ae0f1797478d12d71",
+   "summary_after": "잠들지 못한 주인공이 날로 밝아지는 두 번째 달을 바라보며 상상 이상이던 히카리의 힘을 떠올린다. 되살아난 두려움 속에서도 어떻게든 될 거라고 스스로를 다독인다.",
+   "gate_problems": []
+  },
+  {
+   "no": 40145,
+   "folder": "november_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "금발의 적 코우야로",
+     "after": "금발의 히카리 코우야로",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "73425e876c8863de5b61786ad5ca55ce02517d1488e259a7f13e78bade4bae40",
+   "sha256_after": "79d5968ec9e486b950b820b9200199b7da450d4b60b7c40738022fc671c67fea",
+   "summary_after": "키라라를 데려온 코이치가 금발의 히카리 코우야로 정체를 드러내며 일행을 뒤흔드는 사실을 폭로한다. 기억이 지워졌다는 말에 쿄카는 이즈미를 추궁하고, 키라라는 깨어나지 않는다.",
+   "gate_problems": []
+  },
+  {
+   "no": 652,
+   "folder": "november_b",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적에게 조종당했다는",
+     "after": "히카리에게 조종당했다는",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "24b2c41bfcad27451834b6ee60e4e1d52d7897702c211d7a66d4acb54db40668",
+   "sha256_after": "5ec72b8bd38ae23d21f9ecde7bbc7f943682dddbd85ab2afc612d78d5c85db2d",
+   "summary_after": "자기 방에서 깨어난 주인공이 곁을 지키던 이즈미에게서 신카이가 히카리에게 조종당했다는 말을 듣는다. 신카이는 집에도 돌아가지 않았고, 붙잡혔던 키라라는 잠든 채 깨어나지 않는다.",
+   "gate_problems": []
+  },
+  {
+   "no": 653,
+   "folder": "november_b",
+   "proposals": 2,
+   "eligible": 2,
+   "skipped": [],
+   "sha256_before": "d521530db8dd9201603a8c0aeae4a01b870fadb782c739c082adf803d4e5a6ca",
+   "sha256_after": "15cadfcb5e674e82685fc99bf3e862f79b5098d5adf70bcb25ea8d776b9ddac2",
+   "summary_after": "깨어난 주인공은 곁에 남아 있던 쿄카에게서 신카이가 히카리에게 씌어 행방을 감췄다는 말을 듣는다. 남자친구로 위장한 히카리에게 붙잡혔던 키라라는 마코토의 방에서 잠들어 있다고 한다.",
+   "gate_problems": [
+    "longer than 100 (101)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (101)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "적에게 씌어",
+     "after": "히카리에게 씌어",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "위장한 적에게",
+     "after": "위장한 히카리에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 654,
+   "folder": "november_b",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [],
+   "skipped": [],
+   "skipped_summary": "summary changed since the audit (sha256 differs): all proposals of this summary skipped"
+  },
+  {
+   "no": 905,
+   "folder": "november_b",
+   "proposals": 2,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "학원의 적에게",
+     "after": "학원의 히카리에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "적이 몰린 세 곳에서",
+     "after": "히카리가 몰린 세 곳에서",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "fe1443171f2554ffcf74da35e5f7d6c3872937023fed1866020b6f3e3d258503",
+   "sha256_after": "963ce9b87945d08626db38d2133f330b819631390c915a8c9c6f7b30f0c7789d",
+   "summary_after": "미즈키를 구하고 싶다며 나타난 사카키를 믿기로 한 일행은 참된 밤을 멈출 방법을 듣는다. 학원의 히카리에게 맞설 힘을 얻기 위해 히카리가 몰린 세 곳에서 이즈미를 찾기로 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 907,
+   "folder": "november_b",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "일행을 적의 속임수로",
+     "after": "일행을 히카리의 속임수로",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "f97aa04d1786614f28a4a1348f1637724469e848731474ff6faba71b07b26a0a",
+   "sha256_after": "36e02e0d3789389255a7c25a78cb3d2ca5ca2ca6ea86dc92075cf25ab515985b",
+   "summary_after": "마침내 찾아낸 이즈미가 일행을 히카리의 속임수로 여겨 낫을 휘두르자, 마코토가 수면제를 쓴 일격으로 잠재운다. 하루 만에 깨어나 사과한 이즈미는 일행의 무기에 술법을 걸기로 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 981,
+   "folder": "november_b",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "다가오는 적의 기척에",
+     "after": "다가오는 히카리의 기척에",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "8362b983a735ffb6440a5cdec290cec014a8a3b0418789df1d977736ad1df148",
+   "sha256_after": "06bb53b4175f6814be176e8bf682bb841802ba9add4a063e0ad903adc9761aa6",
+   "summary_after": "인적 없는 빌딩가를 걷던 일행이 거인의 묘지 같다며 잡담을 나누다가, 여럿이 다가오는 히카리의 기척에 전투 태세를 갖춘다.",
+   "gate_problems": []
+  },
+  {
+   "no": 982,
+   "folder": "november_b",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "마나미를 덮친 적을",
+     "after": "마나미를 덮친 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "44ec77d4ee822436179efb4c41f74027e8a6f71665e3a8f12ec4af430e952c43",
+   "sha256_after": "3172a2f4929787158836a36245ac1444a33d7505028d5cb8917ea604ffa3ff36",
+   "summary_after": "넘어진 마나미를 덮친 히카리를 돌팔매로 물리친 사람은 자취를 감췄던 신카이다. 산속 수련에서 돌아와 사과하는 신카이의 뺨을 쿄카가 이즈미 대신 때리고, 일행이 다시 모두 모인다.",
+   "gate_problems": []
+  },
+  {
+   "no": 10522,
+   "folder": "november_b",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "남은 적을 쫓는다",
+     "after": "남은 히카리를 쫓는다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "82cc63d2ac8bfad88847a446cdd446d5b41cc9fd80be35e3b88b35358e5355e9",
+   "sha256_after": "223f7483b4fcab7c3d60971db1eb39da428a34afed2f8d5336a440adba6a29a4",
+   "summary_after": "결전 반년 뒤, 진학한 이즈미와 데이트하던 주인공은 그날 밤 천문부 일행과 남은 히카리를 쫓는다. 습격당하던 소녀를 구한 일행은 푸른 밤을 끝내는 자로서 거리를 지켜 간다.",
+   "gate_problems": []
+  }
+ ],
+ "applied": 22,
+ "skipped_proposals": 4,
+ "skipped_summaries": 2,
+ "below_threshold": 9,
+ "changed_ids": [
+  904,
+  931,
+  932,
+  933,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  965,
+  967,
+  969,
+  10181,
+  40145,
+  652,
+  905,
+  907,
+  981,
+  982,
+  10522
+ ],
+ "gate_skipped": [
+  {
+   "no": 961,
+   "problems": [
+    "longer than 100 (105)"
+   ],
+   "proposals": 1
+  },
+  {
+   "no": 963,
+   "problems": [
+    "longer than 100 (101)"
+   ],
+   "proposals": 1
+  },
+  {
+   "no": 653,
+   "problems": [
+    "longer than 100 (101)"
+   ],
+   "proposals": 2
+  }
+ ],
+ "tag": "11",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:28:09.021796+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

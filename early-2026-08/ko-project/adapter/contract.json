@@ -1,0 +1,25 @@
+{
+  "schema": "contextual-game-localization.legacy-adapter.v1",
+  "engine": null,
+  "archives": [],
+  "script_encoding": null,
+  "target_encoding": null,
+  "entry_identity": null,
+  "no_change_roundtrip": {
+    "status": "pending",
+    "byte_identical": null,
+    "logical_payload_identical": null,
+    "deterministic_rebuild": null,
+    "evidence": []
+  },
+  "required_checks": [
+    "entry_count",
+    "entry_names_and_case",
+    "duplicate_names",
+    "entry_order",
+    "compression_mode",
+    "alignment_and_offsets",
+    "uncompressed_sizes",
+    "logical_payload_sha256"
+  ]
+}

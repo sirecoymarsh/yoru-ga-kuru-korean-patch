@@ -1,0 +1,85 @@
+{
+  "status": "401_EVENT_LOCK_CONFIRMED_STATIC",
+  "runtime_ain_sha256": "0130135eff6c1b156a76f2fa9505addae18d5b2bdbaedc27ab711a54e368ad39",
+  "map_id": 401,
+  "map_name": "수수께끼의 틈 1",
+  "exits": [
+    [
+      15,
+      15
+    ]
+  ],
+  "wall_replacements": [
+    [
+      15,
+      18
+    ],
+    [
+      15,
+      19
+    ],
+    [
+      15,
+      20
+    ],
+    [
+      15,
+      21
+    ]
+  ],
+  "cases": [
+    {
+      "start": [
+        15,
+        2
+      ],
+      "before": {
+        "case": "401 before puzzle",
+        "length": 0,
+        "goal": null,
+        "compiled_instructions": 173392,
+        "cells": 900
+      },
+      "after": {
+        "case": "401 after native ReplaceObject(1,4,0,0)",
+        "length": 59,
+        "goal": [
+          15,
+          15
+        ],
+        "compiled_instructions": 179670,
+        "cells": 900
+      }
+    },
+    {
+      "start": [
+        19,
+        27
+      ],
+      "before": {
+        "case": "401 before puzzle",
+        "length": 0,
+        "goal": null,
+        "compiled_instructions": 173392,
+        "cells": 900
+      },
+      "after": {
+        "case": "401 after native ReplaceObject(1,4,0,0)",
+        "length": 16,
+        "goal": [
+          15,
+          15
+        ],
+        "compiled_instructions": 107342,
+        "cells": 900
+      }
+    }
+  ],
+  "script_functions": [
+    28957,
+    29175,
+    29180
+  ],
+  "game_files_changed": false,
+  "native_event_state_not_read": true
+}

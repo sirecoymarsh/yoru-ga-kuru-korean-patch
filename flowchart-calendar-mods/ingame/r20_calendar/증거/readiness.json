@@ -1,0 +1,29 @@
+{
+  "status": "CALENDAR_R20_STATIC_VM_NATIVE_PASS_NOT_INSTALLED",
+  "candidate": {
+    "NightRemaster.ain": "9dfac62ac240370f98362624f39e515a4b730fa463c46955ac26d5fdd6791108"
+  },
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "base": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "13280ac23d670946fff46f9a9be5d38fcab0f421aab865ba48b5f67eda4fa21f",
+    "status": "CALENDAR_R19_INSTALLED_NATIVE_PASS",
+    "ain_sha256": "1d6081e94cbba5a1e33a12cfad2e542bfa7b689b89373f5386475675c53a1948",
+    "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+    "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+    "chart_sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+    "r19_installed": true,
+    "checked_at_start_and_end": true
+  },
+  "issues": [],
+  "game_running": false,
+  "contracts_now": 74,
+  "recovery_runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\itemenemy_9301f9bcc853\\runtime",
+  "recovery_has": [
+    "NightRemaster.ain"
+  ],
+  "install_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\publish_calendar_r20.py\" --install",
+  "restore_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r20_calendar\\publish_calendar_r20.py\" --restore",
+  "checked": "2026-09-28T03:01:50.937040+09:00"
+}

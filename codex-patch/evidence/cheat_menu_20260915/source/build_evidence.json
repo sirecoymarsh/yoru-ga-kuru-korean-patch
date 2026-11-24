@@ -1,0 +1,90 @@
+{
+  "status": "STAGED_REVIEW_PENDING",
+  "time": "2026-09-15T19:19:24.174694+09:00",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "d5ed7733933f656ec42cc2bce527ff537df4959166431925f3a76274766e850d",
+    "status": "SAVED_DISPLAY_REFRESH_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_ain": "e144757005642031e155c08c8ab9d6c51582868f86b513a6f45d83438266c931",
+  "included_pending_consumable_fix": true,
+  "AIN": {
+    "patched_existing": [
+      21031,
+      26656,
+      27041,
+      27143,
+      28664,
+      28673,
+      28677,
+      29387,
+      29388,
+      29556,
+      29817,
+      29818,
+      30084,
+      30085
+    ],
+    "added_functions": {
+      "KR_Flag": 31836,
+      "KR_Poke": 31837,
+      "KR_SaveOptions": 31838,
+      "KR_SetAuto": 31839,
+      "KR_GetAuto": 31840,
+      "KR_FirstBattleTutorial": 31841,
+      "KR_Time": 31842,
+      "KR_CancelPressed": 31843,
+      "KR_InitOptions": 31844,
+      "KR_GetTrap": 31845,
+      "KR_GetQuick": 31846,
+      "KR_GetRoute": 31847,
+      "KR_SetTrap": 31848,
+      "KR_SetQuick": 31849,
+      "KR_SetRoute": 31850,
+      "KR_Speed": 31851,
+      "KR_GetSpeed": 31852,
+      "KR_SetSpeed": 31853,
+      "KR_QuickActive": 31854,
+      "KR_EndQuick": 31855,
+      "KR_ResetTransient": 31856,
+      "KR_BeginQuick": 31857,
+      "KR_QuickWatch": 31858,
+      "KR_BattleRate": 31859,
+      "KR_DrawRoute": 31860
+    },
+    "relocated_switches": [
+      450,
+      451,
+      452
+    ],
+    "all_original_metadata_except_addresses_exact": true,
+    "original_CODE_STR0_MSG1_exact": true,
+    "save_schema_unchanged": true
+  },
+  "PACT": {
+    "changed_entries": [
+      123
+    ],
+    "other184_entries_exact": true,
+    "native_slider_range": [
+      1,
+      5
+    ],
+    "raster_bytes_unchanged": true,
+    "labels": {
+      "Trap": "함정 즉시 해체",
+      "Quick": "자동 전투 결과만 보기",
+      "Route": "다음 층 경로 표시"
+    }
+  },
+  "files": {
+    "NightRemaster.ain": "e103f27fed0474d830842a017718d0b3aa60955b3880013332654aa0e07eff68",
+    "NightRemasterPact.afa": "f59299bccb9cc69c06262b5276033ca8e49ac1aa241892b6a3999e87c7369ee9"
+  },
+  "translator_model": "Codex internal",
+  "native_verified": false,
+  "no_live_or_save_files_modified": true
+}

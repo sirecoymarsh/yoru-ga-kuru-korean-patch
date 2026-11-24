@@ -1,0 +1,19 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\chest_flow_20260917\\복구 검증 d6l7cuon",
+  "payload": {
+    "NightRemaster.ain": "9d8fee1e3e4914ed0ba0f2898b0c30ab55e4cdda5ddc1f9bf8f4d09bf8e165e3",
+    "NightRemasterPact.afa": "84c49f09c48e2249fd64fbdffebb4b938f8f07caa48cc5e4541560a8259e80f3"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "nth_replacement_rollback": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "no_incoming_residue": true,
+  "zip": "not applicable: live data-only installation; no archive emitted"
+}

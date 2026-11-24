@@ -1,0 +1,15 @@
+resume loading
+PASS natural segment keeps owner
+PASS pending interaction not revived
+PASS paused owner not revived
+PASS manual clear still stops
+PASS native-only route not promoted
+walk=1000010566 delegate=422 handlers=1
+sweep=1000010214 delegate=211 handlers=1
+clickable=1 input=1
+repeat-visible handlers=1
+dispatch through native button function set
+clickResult=2026092203
+native Run started queue=21 guide=1
+STEP 1 at 22,6 queue=20 flag=2026092203
+STOPPED through second click

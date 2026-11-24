@@ -1,0 +1,35 @@
+{
+  "status": "RELEASE_STATIC_PASS",
+  "files": {
+    "NightRemaster.ain": "b58ba53d8920f0e1c2553d7bfecf84f61aafed0887c549d272b77d83610cf650",
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8"
+  },
+  "nested_lambda_semantics_unchanged": 14,
+  "switches_metadata_unchanged": true,
+  "unchanged_PACT_entries": 185,
+  "changed_PACT_entries": [
+    161,
+    185
+  ],
+  "button_bounds": [
+    1130,
+    386,
+    1268,
+    428
+  ],
+  "button_text_width": 84.666667,
+  "unscaled_Hangul": true,
+  "font_glyph_size_pairs": 69,
+  "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+  "native_equipment_rank_counts": {
+    "1": 9,
+    "2": 19,
+    "3": 16,
+    "4": 25,
+    "5": 19,
+    "6": 11,
+    "7": 5,
+    "0": 7
+  },
+  "native_gameplay_verified": false
+}

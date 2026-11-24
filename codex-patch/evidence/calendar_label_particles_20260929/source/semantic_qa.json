@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "translator_model": "Codex internal",
+  "reviewer": "/root/label_particle_review",
+  "translation_map_sha256": "21308df96e8badc5cc559636862e454550f9d6f2a0ca8e688121451df20020da",
+  "reviewed_fields": 596,
+  "counts": {
+    "ev_short": 333,
+    "ev_head": 217,
+    "heads": 23,
+    "tails": 23
+  },
+  "unresolved": [],
+  "findings_resolved": [
+    "Expanded exact name whitelist to include 신카이 and 모모세 after independent review; all 129 missing fields added."
+  ],
+  "checks": [
+    "Exact ID and old text guards match all 596 accepted display edits.",
+    "Seven-name inventory complete; dangling suffixes removed only in these audited fields.",
+    "216 촬영/동행 action phrases preserved.",
+    "45+45 existing branch getter labels untouched; unread fallback evaluated by native probe."
+  ],
+  "review_scope": "Independent read-only design/helper review for final candidate; independent binary review was performed on first attempt, primary binary and runtime gates cover final attempt."
+}

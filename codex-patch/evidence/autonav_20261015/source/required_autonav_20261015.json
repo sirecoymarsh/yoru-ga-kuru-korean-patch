@@ -1,0 +1,1401 @@
+{
+  "status": "AUTONAV_20261015_DRAFT_NOT_INSTALLED",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)",
+  "time": "2026-10-15T22:20:39.365075+09:00",
+  "base": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "fcfb8a49c6910889c2f49f50ed796210c2a04211f6e194d0ad992cd796ecd1ea",
+    "status": "CLAUDE_TEXT_20261001_INSTALLED_VM_PASS",
+    "ain_sha256": "3afdd2b1e11a107defa4b91465f97241e7ddc70fb681f0561e8b67fd897aa8f9",
+    "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+    "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+    "winmm_sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+    "checked_at_start_and_end": true
+  },
+  "required_files": {
+    "NightRemaster.ain": "1e96d3e797184a7a13236208988fe6ca3d37cf55f9e553f0ccc5ad7ed7659188",
+    "NightRemasterPact.afa": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce"
+  },
+  "candidate_manifest_sha256": "15260419f2c35cb04f3b4560a14a7ef229052eeb6ce3286fbf608a26a34fb3d8",
+  "pact_changed": true,
+  "pact_changed_entries": [
+    185
+  ],
+  "ex_changed": false,
+  "fnl_changed": false,
+  "chart_changed": false,
+  "hook_changed": false,
+  "no_restore_rule": "Codex must never run publish_autonav*.py --restore or otherwise remove the auto navigation (KR_AN* functions, its 27 same-length operands - the 19 choice events call KR_AN_E<no> where they called ■選択メッセージ／実行, C_SelectMessage@CreateParts calls KR_ANInfoCreate where it called C_SelectMessInfo@CreateParts, C_SelectMessage@Update calls KR_ANSelFrame where it called ■バックログ起動監視, C_SceneTraining@_UpdateInputPartner calls KR_ANTrainFrame where it called C_UserInputManager::IsClickCancelOtherMouse, C_SceneTraining@RunSelectPartner calls KR_ANTrainConfirm where it called ■選択ダイアログ／実行, L_EventCall::Check asks KR_ANDateGet where it asked C_GameFlags@Date::get (first of two), C_SceneGame@Run asks KR_ANOpeningQ where it asked C_GameFlags@IsPlayOpening::get, C_ConfigView@EventConfAsraDataForParts / EventConfPartsDataForAsra call KR_ANCfgSeenToParts / KR_ANCfgSeenToAsra at their last existence check - and the seven KR_Nav* parts of PACT entry 185 Asra/Mods). It is a permanent user-requested feature: when a rebuild needs a clean base, rebase on the runtime that current.json points to and carry the auto navigation forward; restore is reserved for the user's explicit request.",
+  "added_functions": 66,
+  "added_function_names": [
+    "KR_ANAccum",
+    "KR_ANActiveTarget",
+    "KR_ANCfgName",
+    "KR_ANCfgSeenToAsra",
+    "KR_ANCfgSeenToParts",
+    "KR_ANCfgTarget",
+    "KR_ANCfgToAsra",
+    "KR_ANCfgToParts",
+    "KR_ANCfgWrite",
+    "KR_ANDateGet",
+    "KR_ANDrop",
+    "KR_ANGet",
+    "KR_ANGetInt",
+    "KR_ANGlowMake",
+    "KR_ANGlowPart",
+    "KR_ANInGame",
+    "KR_ANInfoCreate",
+    "KR_ANInfoMade",
+    "KR_ANKey",
+    "KR_ANNeed",
+    "KR_ANNewGame",
+    "KR_ANOpeningQ",
+    "KR_ANPick",
+    "KR_ANReplay",
+    "KR_ANRowAnim",
+    "KR_ANRowBegin",
+    "KR_ANRowClear",
+    "KR_ANRowY",
+    "KR_ANSelFrame",
+    "KR_ANSelTick",
+    "KR_ANSelect",
+    "KR_ANSet",
+    "KR_ANSetInt",
+    "KR_ANSetTarget",
+    "KR_ANTarget",
+    "KR_ANTint",
+    "KR_ANToday",
+    "KR_ANTopUp",
+    "KR_ANTrainAnim",
+    "KR_ANTrainConfirm",
+    "KR_ANTrainFrame",
+    "KR_ANTrainRestore",
+    "KR_ANTrainTick",
+    "KR_ANTri",
+    "KR_ANUntint",
+    "KR_ANVersion",
+    "KR_ANWaitMs",
+    "KR_AN_E00058",
+    "KR_AN_E00063",
+    "KR_AN_E00069",
+    "KR_AN_E00104",
+    "KR_AN_E00258",
+    "KR_AN_E00260",
+    "KR_AN_E00322",
+    "KR_AN_E00611",
+    "KR_AN_E10021",
+    "KR_AN_E20041",
+    "KR_AN_E20081",
+    "KR_AN_E20164",
+    "KR_AN_E30001",
+    "KR_AN_E30021",
+    "KR_AN_E30152",
+    "KR_AN_E40021",
+    "KR_AN_E40041",
+    "KR_AN_E40043",
+    "KR_AN_E40061"
+  ],
+  "jam_bodies": [
+    "KR_ANInfoCreate",
+    "KR_ANDateGet",
+    "KR_ANOpeningQ"
+  ],
+  "same_length_sites": [
+    {
+      "function": "ＥＶ／元／E00058",
+      "fid": 30160,
+      "function_address": 7272910,
+      "site": 7273422,
+      "site_offset": 512,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00058",
+      "replacement_fid": 33021,
+      "before": "3000256d0000",
+      "after": "3000fd800000",
+      "operand_bytes": [
+        7273424,
+        7273428
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00063",
+      "fid": 30167,
+      "function_address": 7284544,
+      "site": 7285476,
+      "site_offset": 932,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00063",
+      "replacement_fid": 33022,
+      "before": "3000256d0000",
+      "after": "3000fe800000",
+      "operand_bytes": [
+        7285478,
+        7285482
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00069",
+      "fid": 30175,
+      "function_address": 7326148,
+      "site": 7338918,
+      "site_offset": 12770,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00069",
+      "replacement_fid": 33023,
+      "before": "3000256d0000",
+      "after": "3000ff800000",
+      "operand_bytes": [
+        7338920,
+        7338924
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00104",
+      "fid": 30210,
+      "function_address": 7485046,
+      "site": 7486974,
+      "site_offset": 1928,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00104",
+      "replacement_fid": 33024,
+      "before": "3000256d0000",
+      "after": "300000810000",
+      "operand_bytes": [
+        7486976,
+        7486980
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00258",
+      "fid": 30303,
+      "function_address": 7639246,
+      "site": 7640898,
+      "site_offset": 1652,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00258",
+      "replacement_fid": 33025,
+      "before": "3000256d0000",
+      "after": "300001810000",
+      "operand_bytes": [
+        7640900,
+        7640904
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00260",
+      "fid": 30307,
+      "function_address": 7644130,
+      "site": 7645176,
+      "site_offset": 1046,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00260",
+      "replacement_fid": 33026,
+      "before": "3000256d0000",
+      "after": "300002810000",
+      "operand_bytes": [
+        7645178,
+        7645182
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00322",
+      "fid": 30317,
+      "function_address": 7685422,
+      "site": 7686546,
+      "site_offset": 1124,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00322",
+      "replacement_fid": 33027,
+      "before": "3000256d0000",
+      "after": "300003810000",
+      "operand_bytes": [
+        7686548,
+        7686552
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00611",
+      "fid": 30366,
+      "function_address": 7796522,
+      "site": 7798906,
+      "site_offset": 2384,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00611",
+      "replacement_fid": 33028,
+      "before": "3000256d0000",
+      "after": "300004810000",
+      "operand_bytes": [
+        7798908,
+        7798912
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E10021",
+      "fid": 30446,
+      "function_address": 8036646,
+      "site": 8037758,
+      "site_offset": 1112,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E10021",
+      "replacement_fid": 33029,
+      "before": "3000256d0000",
+      "after": "300005810000",
+      "operand_bytes": [
+        8037760,
+        8037764
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E20041",
+      "fid": 30465,
+      "function_address": 8147364,
+      "site": 8148488,
+      "site_offset": 1124,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E20041",
+      "replacement_fid": 33030,
+      "before": "3000256d0000",
+      "after": "300006810000",
+      "operand_bytes": [
+        8148490,
+        8148494
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E20081",
+      "fid": 30469,
+      "function_address": 8163678,
+      "site": 8169410,
+      "site_offset": 5732,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E20081",
+      "replacement_fid": 33031,
+      "before": "3000256d0000",
+      "after": "300007810000",
+      "operand_bytes": [
+        8169412,
+        8169416
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E20164",
+      "fid": 30480,
+      "function_address": 8230758,
+      "site": 8231558,
+      "site_offset": 800,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E20164",
+      "replacement_fid": 33032,
+      "before": "3000256d0000",
+      "after": "300008810000",
+      "operand_bytes": [
+        8231560,
+        8231564
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E30001",
+      "fid": 30511,
+      "function_address": 8350308,
+      "site": 8354480,
+      "site_offset": 4172,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E30001",
+      "replacement_fid": 33033,
+      "before": "3000256d0000",
+      "after": "300009810000",
+      "operand_bytes": [
+        8354482,
+        8354486
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E30021",
+      "fid": 30514,
+      "function_address": 8359860,
+      "site": 8363132,
+      "site_offset": 3272,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E30021",
+      "replacement_fid": 33034,
+      "before": "3000256d0000",
+      "after": "30000a810000",
+      "operand_bytes": [
+        8363134,
+        8363138
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E30152",
+      "fid": 30520,
+      "function_address": 8379462,
+      "site": 8379914,
+      "site_offset": 452,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E30152",
+      "replacement_fid": 33035,
+      "before": "3000256d0000",
+      "after": "30000b810000",
+      "operand_bytes": [
+        8379916,
+        8379920
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E40021",
+      "fid": 30490,
+      "function_address": 8249040,
+      "site": 8249786,
+      "site_offset": 746,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E40021",
+      "replacement_fid": 33036,
+      "before": "3000256d0000",
+      "after": "30000c810000",
+      "operand_bytes": [
+        8249788,
+        8249792
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E40041",
+      "fid": 30493,
+      "function_address": 8258508,
+      "site": 8259152,
+      "site_offset": 644,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E40041",
+      "replacement_fid": 33037,
+      "before": "3000256d0000",
+      "after": "30000d810000",
+      "operand_bytes": [
+        8259154,
+        8259158
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E40043",
+      "fid": 30495,
+      "function_address": 8259744,
+      "site": 8262968,
+      "site_offset": 3224,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E40043",
+      "replacement_fid": 33038,
+      "before": "3000256d0000",
+      "after": "30000e810000",
+      "operand_bytes": [
+        8262970,
+        8262974
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E40061",
+      "fid": 30498,
+      "function_address": 8270544,
+      "site": 8270912,
+      "site_offset": 368,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E40061",
+      "replacement_fid": 33039,
+      "before": "3000256d0000",
+      "after": "30000f810000",
+      "operand_bytes": [
+        8270914,
+        8270918
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SelectMessage@CreateParts",
+      "fid": 27986,
+      "function_address": 5943114,
+      "site": 5943468,
+      "site_offset": 354,
+      "kind": "CALLMETHOD target (PUSH operand)",
+      "original": "C_SelectMessInfo@CreateParts",
+      "original_fid": 27964,
+      "replacement": "KR_ANInfoCreate",
+      "replacement_fid": 33067,
+      "before": "00003c6d0000",
+      "after": "00002b810000",
+      "operand_bytes": [
+        5943470,
+        5943474
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SelectMessage@Update",
+      "fid": 27979,
+      "function_address": 5939318,
+      "site": 5939318,
+      "site_offset": 0,
+      "kind": "CALLFUNC",
+      "original": "■バックログ起動監視",
+      "original_fid": 26028,
+      "replacement": "KR_ANSelFrame",
+      "replacement_fid": 33066,
+      "before": "3000ac650000",
+      "after": "30002a810000",
+      "operand_bytes": [
+        5939320,
+        5939324
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneTraining@_UpdateInputPartner",
+      "fid": 28306,
+      "function_address": 6066986,
+      "site": 6067184,
+      "site_offset": 198,
+      "kind": "CALLFUNC",
+      "original": "C_UserInputManager::IsClickCancelOtherMouse",
+      "original_fid": 27663,
+      "replacement": "KR_ANTrainFrame",
+      "replacement_fid": 33071,
+      "before": "30000f6c0000",
+      "after": "30002f810000",
+      "operand_bytes": [
+        6067186,
+        6067190
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneTraining@RunSelectPartner",
+      "fid": 28305,
+      "function_address": 6064432,
+      "site": 6066556,
+      "site_offset": 2124,
+      "kind": "CALLFUNC",
+      "original": "■選択ダイアログ／実行",
+      "original_fid": 27873,
+      "replacement": "KR_ANTrainConfirm",
+      "replacement_fid": 33072,
+      "before": "3000e16c0000",
+      "after": "300030810000",
+      "operand_bytes": [
+        6066558,
+        6066562
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "L_EventCall::Check",
+      "fid": 26393,
+      "function_address": 5470922,
+      "site": 5471020,
+      "site_offset": 98,
+      "kind": "CALLMETHOD target (PUSH operand)",
+      "original": "C_GameFlags@Date::get",
+      "original_fid": 26479,
+      "replacement": "KR_ANDateGet",
+      "replacement_fid": 33074,
+      "before": "00006f670000",
+      "after": "000032810000",
+      "operand_bytes": [
+        5471022,
+        5471026
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 2,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneGame@Run",
+      "fid": 28172,
+      "function_address": 6032012,
+      "site": 6032042,
+      "site_offset": 30,
+      "kind": "CALLMETHOD target (PUSH operand)",
+      "original": "C_GameFlags@IsPlayOpening::get",
+      "original_fid": 26529,
+      "replacement": "KR_ANOpeningQ",
+      "replacement_fid": 33083,
+      "before": "0000a1670000",
+      "after": "00003b810000",
+      "operand_bytes": [
+        6032044,
+        6032048
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_ConfigView@EventConfAsraDataForParts",
+      "fid": 29817,
+      "function_address": 11515272,
+      "site": 11517876,
+      "site_offset": 2604,
+      "kind": "CALLFUNC",
+      "original": "AFL_Activity_IsExistPartsByName",
+      "original_fid": 464,
+      "replacement": "KR_ANCfgSeenToParts",
+      "replacement_fid": 33080,
+      "before": "3000d0010000",
+      "after": "300038810000",
+      "operand_bytes": [
+        11517878,
+        11517882
+      ],
+      "occurrence": 10,
+      "calls_of_original_in_function": 11,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_ConfigView@EventConfPartsDataForAsra",
+      "fid": 29818,
+      "function_address": 11517992,
+      "site": 11520996,
+      "site_offset": 3004,
+      "kind": "CALLFUNC",
+      "original": "AFL_Activity_IsExistPartsByName",
+      "original_fid": 464,
+      "replacement": "KR_ANCfgSeenToAsra",
+      "replacement_fid": 33081,
+      "before": "3000d0010000",
+      "after": "300039810000",
+      "operand_bytes": [
+        11520998,
+        11521002
+      ],
+      "occurrence": 12,
+      "calls_of_original_in_function": 13,
+      "owner_is_original": true
+    }
+  ],
+  "relocated_original_functions": [],
+  "pinned_addresses": {
+    "KR_T9HomeCasual": {
+      "index": 32478,
+      "address": 12241940,
+      "why": "r18 contract: on saved stacks during a calendar replay; keep index, address and code bytes.",
+      "code": {
+        "index": 32478,
+        "address": 12241940,
+        "code_bytes": 232,
+        "bytes_differing": 0
+      }
+    },
+    "KR_T9HomeConfig": {
+      "index": 32477,
+      "address": 12241642,
+      "why": "r15 contract: keep in place.",
+      "code": {
+        "index": 32477,
+        "address": 12241642,
+        "code_bytes": 298,
+        "bytes_differing": 0
+      }
+    },
+    "C_SceneHomebase@CheckGameSysButtons": {
+      "index": 28552,
+      "address": 6313814,
+      "why": "already on saved stacks (save/load screens); keep in place.",
+      "code": {
+        "index": 28552,
+        "address": 6313814,
+        "code_bytes": 550,
+        "bytes_differing": 0
+      }
+    },
+    "LSys3xScript::RunEvent": {
+      "index": 26381,
+      "address": 5468856,
+      "why": "already on saved stacks (r12 contract).",
+      "code": {
+        "index": 26381,
+        "address": 5468856,
+        "code_bytes": 1292,
+        "bytes_differing": 0
+      }
+    },
+    "C_SceneHomebase@Run": {
+      "index": 28542,
+      "address": 6299808,
+      "why": "already on saved stacks.",
+      "code": {
+        "index": 28542,
+        "address": 6299808,
+        "code_bytes": 1104,
+        "bytes_differing": 0
+      }
+    },
+    "KR_T18RunSandboxed": {
+      "index": 32548,
+      "address": 12316890,
+      "why": "r18 contract: on saved stacks during a sandboxed replay.",
+      "code": {
+        "index": 32548,
+        "address": 12316890,
+        "code_bytes": 440,
+        "bytes_differing": 0
+      }
+    },
+    "KR_CReplayRun": {
+      "index": 32690,
+      "address": 13167576,
+      "why": "r22: the chart replay (memory mode) runs inside it.",
+      "code": {
+        "index": 32690,
+        "address": 13167576,
+        "code_bytes": 494,
+        "bytes_differing": 0
+      }
+    }
+  },
+  "pinned_from_now_on": {
+    "KR_AN_E00058": {
+      "index": 33021,
+      "address": 15276938
+    },
+    "KR_AN_E00063": {
+      "index": 33022,
+      "address": 15277000
+    },
+    "KR_AN_E00069": {
+      "index": 33023,
+      "address": 15277062
+    },
+    "KR_AN_E00104": {
+      "index": 33024,
+      "address": 15277124
+    },
+    "KR_AN_E00258": {
+      "index": 33025,
+      "address": 15277186
+    },
+    "KR_AN_E00260": {
+      "index": 33026,
+      "address": 15277248
+    },
+    "KR_AN_E00322": {
+      "index": 33027,
+      "address": 15277310
+    },
+    "KR_AN_E00611": {
+      "index": 33028,
+      "address": 15277372
+    },
+    "KR_AN_E10021": {
+      "index": 33029,
+      "address": 15277434
+    },
+    "KR_AN_E20041": {
+      "index": 33030,
+      "address": 15277496
+    },
+    "KR_AN_E20081": {
+      "index": 33031,
+      "address": 15277558
+    },
+    "KR_AN_E20164": {
+      "index": 33032,
+      "address": 15277620
+    },
+    "KR_AN_E30001": {
+      "index": 33033,
+      "address": 15277682
+    },
+    "KR_AN_E30021": {
+      "index": 33034,
+      "address": 15277744
+    },
+    "KR_AN_E30152": {
+      "index": 33035,
+      "address": 15277806
+    },
+    "KR_AN_E40021": {
+      "index": 33036,
+      "address": 15277868
+    },
+    "KR_AN_E40041": {
+      "index": 33037,
+      "address": 15277930
+    },
+    "KR_AN_E40043": {
+      "index": 33038,
+      "address": 15277992
+    },
+    "KR_AN_E40061": {
+      "index": 33039,
+      "address": 15278054
+    },
+    "KR_ANSelect": {
+      "index": 33063,
+      "address": 15281812
+    },
+    "KR_ANSelFrame": {
+      "index": 33066,
+      "address": 15283614
+    },
+    "KR_ANTrainConfirm": {
+      "index": 33072,
+      "address": 15284948
+    },
+    "KR_ANOpeningQ": {
+      "index": 33083,
+      "address": 15287974
+    },
+    "KR_ANNewGame": {
+      "index": 33082,
+      "address": 15287640
+    }
+  },
+  "saved_stacks": {
+    "resume_saves": 51,
+    "frames": 1256,
+    "frames_in_changed_functions": 65,
+    "problems": 0,
+    "changed_functions_on_stacks": [
+      "C_SceneGame@Run",
+      "L_EventCall::Check",
+      "ＥＶ／元／E00069",
+      "ＥＶ／元／E30021",
+      "ＥＶ／元／E30152"
+    ],
+    "saved_with_a_choice_open": [
+      {
+        "save": "NightR22.asd",
+        "event": "ＥＶ／元／E00069",
+        "resumes_after_swapped_call_bytes": [
+          6
+        ]
+      },
+      {
+        "save": "NightR28.asd",
+        "event": "ＥＶ／元／E30021",
+        "resumes_after_swapped_call_bytes": [
+          6
+        ]
+      },
+      {
+        "save": "NightR43.asd",
+        "event": "ＥＶ／元／E30152",
+        "resumes_after_swapped_call_bytes": [
+          6
+        ]
+      }
+    ],
+    "check": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\work\\resume_offset_check.json",
+    "check_sha256": "3ea50309415e752928397606570c66513240d7aa9d28a7627597ed1428151647",
+    "note": "read-only check of the user's saves (work/resume_offset_check.py): every saved frame keeps its crc (the AIN function table is unchanged), no original function moved, no frame resumes at or inside a swapped instruction; a save made with a choice open resumes inside the original ■選択メッセージ／実行 (its event frame resumes right after the swapped call) and shows that one choice without the shimmer"
+  },
+  "storage": "N_ScenarioRegister _EV_TABLE name KR_AUTONAV_<2..5>",
+  "session_variables": "YoruKR.AN.*",
+  "verification": {
+    "vm": {
+      "S1": 27,
+      "S2": 1,
+      "A1": 76,
+      "A2": 1,
+      "A3": 3,
+      "A4": 76,
+      "A5": 5,
+      "A6": 10,
+      "A7": 8,
+      "A8": 7139,
+      "A9": 27
+    },
+    "selftest": {
+      "planted": 12,
+      "caught": 12
+    },
+    "probe_home": {
+      "passed": true,
+      "seconds": 406.9,
+      "save": "NightR47.asd",
+      "shots": [
+        "an_choice_c_izumi_a.png",
+        "an_choice_c_izumi_b.png",
+        "an_choice_c_kyouka_a.png",
+        "an_choice_c_kyouka_b.png",
+        "an_choice_c_off_a.png",
+        "an_choice_c_off_b.png",
+        "an_home.png",
+        "an_mods_before.png",
+        "an_mods_makoto.png",
+        "an_mods_off.png",
+        "an_newgame.png"
+      ]
+    },
+    "probe_train": {
+      "passed": true,
+      "seconds": 36.6,
+      "save": "NightR40.asd",
+      "shots": [
+        "an_partner_a.png",
+        "an_partner_b.png"
+      ]
+    },
+    "defender": "SCANNED_NO_TARGET_DETECTIONS",
+    "transaction_fixture": "TRANSACTION_FIXTURE_PASS"
+  },
+  "preserves_contracts": {
+    "required_auto_explore_20260923.json": {
+      "sha256": "50ec6aa882b26ee46810497e9498a5f96e3ededfdb996f80a7dc465a95b2ed02",
+      "status": "AUTO_EXPLORE_INSTALLED_NATIVE_FIXTURE_PASS_GAMEPLAY_PENDING",
+      "instruction_present": true
+    },
+    "required_auto_explore_click_fix_20260923.json": {
+      "sha256": "9540d5d85e115bc56a01467b13197afd52d9462a93a468339c5376c6b236284f",
+      "status": "AUTO_EXPLORE_CALLBACK_FIX_INSTALLED_NATIVE_DISPATCH_PASS",
+      "instruction_present": true
+    },
+    "required_auto_explore_segment_fix_20260923.json": {
+      "sha256": "747e27c002f468115ab1691c89d130760bb7203fef090b5f19c5e502e022bfba",
+      "status": "AUTO_EXPLORE_SEGMENT_FIX_INSTALLED_NATIVE_MOVEMENT_PASS",
+      "instruction_present": true
+    },
+    "required_auto_items.json": {
+      "sha256": "c580720112b91b3570fb47184a5a362db22729498e10473365fbeeb20476488f",
+      "status": "AUTO_ITEMS_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_auto_walk.json": {
+      "sha256": "283a8d022e9ebd41fd566498c4529c65a159bf844c74f75614ff1721280a3dbf",
+      "status": "AUTO_WALK_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_autoequip.json": {
+      "sha256": "249c40f13b66d05199e1b88ed27f8c3129b4734e68bf9d42a34dd8f2e082d219",
+      "status": "AUTOEQUIP_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_build_retention.json": {
+      "sha256": "9d749640968fca5383b60077f17e0e58d0213893d96549ed6d9b6abc9914e7fc",
+      "status": "LATEST_AND_RECOVERY_PRESERVED",
+      "instruction_present": true
+    },
+    "required_calendar_all_tabs_20260929.json": {
+      "sha256": "646a91aac5d7fef55b55cfdef3558863e7f9bb58a4c9dca9d2d269748bf20011",
+      "status": "CALENDAR_ALL_TABS_20260929_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_april_complete_20260929.json": {
+      "sha256": "fa327fe76cd223e85eaf7de77ae2d40397ac1980b8db864d1187bb407148c941",
+      "status": "CALENDAR_APRIL_COMPLETE_20260929_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_choice_context_20260929.json": {
+      "sha256": "2b65b4597783798231ffab9ecc2fb3470f9aa580862fe4c4b0bd2c04ebce330b",
+      "status": "CALENDAR_CHOICE_CONTEXT_20260929_INSTALLED_NATIVE_VISUAL_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_choices_20260929.json": {
+      "sha256": "83b7b4cc498e8c6850f6f510c317a42636e80c19db5fd11c4fee4a5815288b9f",
+      "status": "CALENDAR_CHOICES_20260929_INSTALLED_NATIVE_VISUAL_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_detail_layout_20260929.json": {
+      "sha256": "6446363f3cfc0bd9c939ec98090dda61c3ba74face32d299ea00410e2153bd70",
+      "status": "CALENDAR_DETAIL_LAYOUT_20260929_INSTALLED_NATIVE_VISUAL_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_gallery_unlock_20260930.json": {
+      "sha256": "a99163b7a6cbd17e11d1dc53ba14a6f3e92980359da7f80dd3ca2713ca139c78",
+      "status": "CALENDAR_GALLERY_UNLOCK_20260930_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_label_particles_20260929.json": {
+      "sha256": "fdb7dbf63ab994744eab9c074294675bddef554324d1ded7a4201ad057369b4c",
+      "status": "CALENDAR_LABEL_PARTICLES_20260929_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_portraits_20260929.json": {
+      "sha256": "e4341845b99a6b08571589bd1590ab40b34e527500434439fd35aa0280fdfa1c",
+      "status": "CALENDAR_PORTRAITS_20260929_INSTALLED_NATIVE_VISUAL_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r15.json": {
+      "sha256": "1d67f6b113274e88dee14e36a1386807083a3e121b9030d86ef5b99d43b85d05",
+      "status": "CALENDAR_R15_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r18.json": {
+      "sha256": "6ce34495d5da1f891b236fe1a29dc6a02dc9b1a6ca6172f4188e9d2bf7c5d438",
+      "status": "CALENDAR_R18_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r19.json": {
+      "sha256": "93521544dc4aff720fd5904e826cdaf6dcd813532b39a7479e56fbf8c69bb3e8",
+      "status": "CALENDAR_R19_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r20.json": {
+      "sha256": "a21da6a1b52250d90af4f6f995ed4962cbbc3ff01fd0eef752a13074e7e9c40e",
+      "status": "CALENDAR_R20_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_summary_stack_20260929.json": {
+      "sha256": "01ca4c2552d254d79e7efb892592e67272a8ba6c704cc238a593379e645d274e",
+      "status": "CALENDAR_SUMMARY_STACK_20260929_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_chart_menu_20260927.json": {
+      "sha256": "6b2a715c3843ad8f59ce4ded29c39288173a0c65ab2ddaae7d77135421c5009c",
+      "status": "CHART_MENU_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_chart_r22.json": {
+      "sha256": "4a79c155093f69a210a83d37e8d39312cf508eb12e566b598e0a255655102ab7",
+      "status": "CHART_R22_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_cheat_menu.json": {
+      "sha256": "e2bd5252664724a4b940e0cbfd40f544d77eec00c7b404cede565dfb42ebdfe9",
+      "status": "CHEAT_MENU_AND_CONSUMABLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_chest_flow.json": {
+      "sha256": "5b7742b891ce76aeabc131d0b7e3e4d08356008a6ee7e6d60d70569e3b507c41",
+      "status": "CHEST_FLOW_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_claude_fixes_20260928.json": {
+      "sha256": "1739507885bef3388c4c541d9b7116166f686adae1177c02dcadcfca1719a283",
+      "status": "CLAUDE_FIXES_20260928_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_revision_20260923.json": {
+      "sha256": "8f958f95a665e0a6997e43fce0f0ae3e9989712eb046c1badcbd6f062474a1ce",
+      "status": "CLAUDE_REVISION_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924.json": {
+      "sha256": "ee8d54b04777f7dd758f36ab006b7e4276de6c124ff1d8e1d74b911769bb3263",
+      "status": "CLAUDE_TERM_RATE_INSTALLED_NATIVE_PROBE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r10.json": {
+      "sha256": "a6035ef333acf7532f21b670e6d34bd7845f7139c203b9cd3a3d78e9e6daaecb",
+      "status": "CLAUDE_TERM_RATE_R10_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r11.json": {
+      "sha256": "cf4ee3eeea06e0964c5753d3eb0ac1ceff93ddda580bc15bae6c69926e79bdfb",
+      "status": "CLAUDE_TERM_RATE_R11_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r12.json": {
+      "sha256": "bd14ea1a70b988e7b53f4f9c6d3489fd427c4fb9797e4b8c534844f6e537dff0",
+      "status": "CLAUDE_TERM_RATE_R12_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r13.json": {
+      "sha256": "874fefbe69a13a267dfb145d0384fbe4cd05faf31425eaa756fe1d86fc89369d",
+      "status": "CLAUDE_TERM_RATE_R13_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r14.json": {
+      "sha256": "8d9e67c8b9a1f44393b6b52550dd6f0db9fe232c46529aba3fd4894946ac5517",
+      "status": "CLAUDE_TERM_RATE_R14_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r2.json": {
+      "sha256": "b2e5bd35ee8f498e1dd1a166626e0c12b619f603028a0518305f68145026ab13",
+      "status": "CLAUDE_TERM_RATE_R2_INSTALLED_NATIVE_UI_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r3.json": {
+      "sha256": "7a4a4bc7b892b162d9c374af08f95011f226eb98869ee12f8b808d6d53332e75",
+      "status": "CLAUDE_TERM_RATE_R3_INSTALLED_NATIVE_UI_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r4.json": {
+      "sha256": "2feca2e62946a47834147c6a1c58e441bf602300073461243d85da5ec7eee4f6",
+      "status": "CLAUDE_TERM_RATE_R4_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r5.json": {
+      "sha256": "a2a561796ddbb077c21c0b52ec2a8202c64dcf300761981a2ed71b6e80990516",
+      "status": "CLAUDE_TERM_RATE_R5_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r6.json": {
+      "sha256": "2e3f64f26030b8db4b15b8ee325f5a771382de0665bef23e6ded333ffdf985d2",
+      "status": "CLAUDE_TERM_RATE_R6_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r7.json": {
+      "sha256": "d41df8baddc9b8cab200f8ac0580708f7f55fe60c5919cb818f03c9454e2e8d3",
+      "status": "CLAUDE_TERM_RATE_R7_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r9.json": {
+      "sha256": "e832e8f12ffcfc8adecd33aa754b8e2c8ba76d0068b7b9d52f35bfe11f1e7f0b",
+      "status": "CLAUDE_TERM_RATE_R9_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_text_20261001.json": {
+      "sha256": "23b823f13875b6d182f7dee788d675105966a1499a40863c820eb5495b3dca0c",
+      "status": "CLAUDE_TEXT_20261001_INSTALLED_VM_PASS",
+      "instruction_present": true
+    },
+    "required_club_wall_bilingual_20260924.json": {
+      "sha256": "322bb1850da72f7ae976128026910ff6e246d93931e9d21e356f8e99e57b1b3b",
+      "status": "CLUB_WALL_BILINGUAL_INSTALLED_ENGINE_PASS",
+      "instruction_present": true
+    },
+    "required_club_wall_cancel_20260924.json": {
+      "sha256": "9ac32de3dd3a0fced724dda25c664dcab771f3d3988fc139513b896f2ccfe836",
+      "status": "BILINGUAL_BANNERS_INSTALLED_CLUB_WALL_ORIGINAL",
+      "instruction_present": true
+    },
+    "required_consumable_display_fix.json": {
+      "sha256": "4528a832e6d5fe4cf679ded01568c28535cfb61fcf74a8196493e7018338fbfe",
+      "status": "CHEAT_MENU_AND_CONSUMABLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_department_route.json": {
+      "sha256": "4cf623df33c33044f8bc7a5abe0b8e1936e06da4da04b04461d827ab466bd18e",
+      "status": "DEPARTMENT_ROUTE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_dungeon_sweep.json": {
+      "sha256": "55e202195307230d5eab9ef26495a03a5d5a07981340d17f13d2a613b563ba33",
+      "status": "SWEEP_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_dynamic_ui_text_fix.json": {
+      "sha256": "0d241a778ff8031b8f972cd84cb1074ae1c28771727b735303731b3cdaec30f4",
+      "status": "DYNAMIC_UI_TEXT_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_enemy_firearms_20260926.json": {
+      "sha256": "35dbb9c19ad38916537f0eae94e475a40f52bc0d18fd728af0a99ed879f5968a",
+      "status": "ENEMY_FIREARMS_INSTALLED_STATIC_PASS",
+      "instruction_present": true
+    },
+    "required_event_navigation_20260926.json": {
+      "sha256": "700779880a4bd49b150273a2d00c50afd29dde86ad2a51c79bca9517fecf643a",
+      "status": "EVENT_NAVIGATION_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_feeling_r23.json": {
+      "sha256": "1a91b06c82bb248c77dd6fa9b242268b0ff6a2e44530a2556c109988891d4cb3",
+      "status": "FEELING_R23_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_instant_loot.json": {
+      "sha256": "c35f40b579b3d961b346575c5ffadd409e9211482172ad6f9253a08ac12ed880",
+      "status": "INSTANT_LOOT_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_item_skill_names.json": {
+      "sha256": "06db38feea62c2b2c6ff74471f9b8ea6481857d1e45fd01f39b9623d29877db9",
+      "status": "ENEMY_SPECIES_SCOPE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_location_card_aura_fix.json": {
+      "sha256": "cf3550558e467e54c59020060be40278a2cf144e7db8eda113e9da221badf297",
+      "status": "LOCATION_SOURCE_AURA_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_loot_notice.json": {
+      "sha256": "b0c4eea260785d5aa3b74d79acc85f5d1697337e22d8367b0ebff276ea3600a2",
+      "status": "LOOT_NOTICE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_map_marker_axis_fix.json": {
+      "sha256": "22d380df7efc5eee701f08a6c3fee7fa26bc6e3eb702998d0ae6cd9a2b9e270f",
+      "status": "MAP_MARKER_AXIS_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": false
+    },
+    "required_mod_menu_20260928.json": {
+      "sha256": "0ad41519a51badf1bae457d855a87f21909a0c225c4fd0d6720e316a71654d59",
+      "status": "MOD_MENU_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_mod_menu_r2_20260928.json": {
+      "sha256": "238b4c50e9c862ce3539ef1905529f0da88236015f685a61bb78d10321ac85d1",
+      "status": "MOD_MENU_R2_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_mod_menu_style.json": {
+      "sha256": "4596b01c2b06e973187b5cd6202ba097ee6c2292f26836de0a491c223273a7aa",
+      "status": "MOD_MENU_STYLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_mod_native_style_20260923.json": {
+      "sha256": "7f8928aa34fb5ca3e29a704feded788d561e62a305c6a2e0764155c1e505f1ed",
+      "status": "MOD_NATIVE_STYLE_INSTALLED_ENGINE_RENDER_PASS",
+      "instruction_present": true
+    },
+    "required_mod_tab.json": {
+      "sha256": "439b3ee4114cfb8b96410e9612408ce6d445c573b62bdc30871da45b7bee2321",
+      "status": "MOD_TAB_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_modmenu_r21.json": {
+      "sha256": "81fe2b9586a953c7937a248f92ae55a44a2d7af253bb46c0b91307647961370e",
+      "status": "MODMENU_R21_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_name_particles.json": {
+      "sha256": "9cca5c00ffcfaa74dea8fb8fbdee136c18acb90308938d3da87d4986be50e157",
+      "status": "NAME_PARTICLES_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_native_mod_button.json": {
+      "sha256": "4c7947cb8565596f83e20bca0453d8d98ff1969d6bb14458c7508106fd1f63e4",
+      "status": "NATIVE_MOD_BUTTON_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_native_opcode_fix.json": {
+      "sha256": "384f5d387c51f418283dba18b151c1652d6fee8ac88331781389f661301c8cbd",
+      "status": "CHEAT_NATIVE_OPCODE_FIX_STATIC_PASS_RUNTIME_RETEST_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_depth.json": {
+      "sha256": "38c2107a41a611623411acd0b878b6cd593e96827940891b64301b3da11436cd",
+      "status": "NOTICE_DEPTH_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_duration.json": {
+      "sha256": "86c2cdf683a076022383911b4d149c1f97e06cb73bb81f2ea9d87da1b1001dfc",
+      "status": "NOTICE_DURATION_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_repair.json": {
+      "sha256": "e0de3fb6ac398a9797c995f92bd73ef96b3a150d6351a3acbce7d84de666dec2",
+      "status": "NOTICE_REPAIR_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_page_lineflow_v2.json": {
+      "sha256": "0e6f97e58ee07bccc3f1bc2fd41e2ae49c987d86c33bc472a43cfd47c9e2b2d9",
+      "status": "PAGE_LINEFLOW_V2_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_pinned_autosave_20260926.json": {
+      "sha256": "2fd2ee351539105123c5853eb4238d0a45cff4dce45abd9d4b4c8fa4cd15aba0",
+      "status": "PINNED_AUTOSAVE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_player_tools_20260923.json": {
+      "sha256": "24dcf72f246221a03373a03e7162f50dc2d9b7c4c9b4172fc3635a229efe02bf",
+      "status": "PLAYER_TOOLS_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_rate_overlay_20260927.json": {
+      "sha256": "2e07916e622b2fe3287ad46feb7f31dfa2858ede596e30d5fb52aebd573fcf3a",
+      "status": "RATE_OVERLAY_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_remaster_multiplier.json": {
+      "sha256": "e077e5340dc9523820b83ac3b75f660a8f5e4f756df16c93074dc7f50350e8f4",
+      "status": "REMASTER_MULTIPLIERS_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_resume_compat_20260923.json": {
+      "sha256": "01ada0e465fe10df50e55beaf246d6a962a525084683f15a4ad9ca051c56491b",
+      "status": "RESUME_COMPAT_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_cache_fix.json": {
+      "sha256": "98562bee606155a177d4401350bf4cbc48e30c70e8330cbb1dbfa5f713abcde0",
+      "status": "ROUTE_CACHE_STATIC_PASS_NATIVE_PERFORMANCE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_linear_fix.json": {
+      "sha256": "084b410c27e695225993d591df7aa57ee48ec714566041921949c57707d7ecec",
+      "status": "ROUTE_LINEAR_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_map_refresh.json": {
+      "sha256": "5f1d2325837853750b466b7b2bc62cb6bbe201f7fa6be78c0d9617e6939e617f",
+      "status": "ROUTE_MAP_REFRESH_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_puzzle_guide.json": {
+      "sha256": "81e846428e592a101ec1d008886efd32bc8a26e4589adc388f6cdd7e747787da",
+      "status": "PUZZLE_ROUTE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_runtime_keyfix20.json": {
+      "sha256": "5867285bc94855cc667ae5971da2d7e4da39259693361c9fd9b4981cdaa5c5ee",
+      "status": null,
+      "instruction_present": true
+    },
+    "required_runtime_repairs_20260923.json": {
+      "sha256": "5ff8ae84051c2c7388059c4b667851b81d7124d056e90520bef47b4a29bf4ae6",
+      "status": "RUNTIME_REPAIRS_INSTALLED_NATIVE_REGRESSION_PASS",
+      "instruction_present": true
+    },
+    "required_save_page_restore_20260926.json": {
+      "sha256": "6fb2bb10357888cf1b950af81c2252eed8d0f015b6909b827e7f962fbd53f9d7",
+      "status": "SAVE_PAGE_RESTORE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_save_screen_mode_20260926.json": {
+      "sha256": "4c1463c0a69960a05aba0291a7083658e7e50dea669274e38e42ada90f843872",
+      "status": "SAVE_SCREEN_MODE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_save_slots_20260925.json": {
+      "sha256": "9cd3d2d04ebb283884dbc8fbd61870e3d86d10bb5f3a0c65a977f6b90e73d7f8",
+      "status": "SAVE_CARDS_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_saved_display_refresh.json": {
+      "sha256": "1ff905f1a7a97ca71c5191a4525330d1ea95d3ab188d5a3d4eb06d8fe0cade19",
+      "status": "SAVED_DISPLAY_REFRESH_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_smart_auto.json": {
+      "sha256": "2ab92c42e16042a01917bb6d9d7c8ffeec0c2d8c76c671c850855800afef97fe",
+      "status": "SMART_AUTO_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_smart_auto_fix.json": {
+      "sha256": "5e82e4565292ca8a8016cc51d653da05cdb94c547db8bbe1411754012e0cf36d",
+      "status": "SMART_AUTO_FIX_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_story_explore_20260927.json": {
+      "sha256": "2a66b4f990185670e913855801c092d6a9d95ceaf40572930b68eedb2540bc8f",
+      "status": "STORY_EXPLORE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_story_progress_20260926.json": {
+      "sha256": "fbe52895c46336f246aa787e2d1d06f91badbe2f1e0bd5d850487a0781c06f14",
+      "status": "STORY_PROGRESS_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_sweep_infinite_fix.json": {
+      "sha256": "a10071f6bc3445a21b86608410d07440d56ecc85775b88bc0421950da7f971d2",
+      "status": "SWEEP_INFINITE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_sweep_ui_fix.json": {
+      "sha256": "9ffbffe6626e62c62c5b40cd13cc345a1ea7cf7a3c46d131a173166e50410a43",
+      "status": "SWEEP_UI_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_term_switch_20260923.json": {
+      "sha256": "3d5e22cbb806f0a7a1d482d36c0960c4495bf6d81e593b8dbddb72159377ad8d",
+      "status": "TERM_SWITCH_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_training_lookup_fix.json": {
+      "sha256": "c6d55e69a99491fca6c4a503ae80dd1bbc8cbbf13fc9bd07ad82a3915e38aa5d",
+      "status": "TRAINING_LOOKUP_FIXED_STATIC_HEADLESS_PASS_NATIVE_PENDING",
+      "instruction_present": false
+    },
+    "required_translation_polish_lineflow.json": {
+      "sha256": "12576fc06f29537ea4e418f4946f42a6e8f745c9a20c18c10d4bc21d71e9a3d2",
+      "status": "TRANSLATION_POLISH_LINEFLOW_INSTALLED_NATIVE_PARTIAL",
+      "instruction_present": true
+    }
+  },
+  "preserves_contracts_count": 91,
+  "preserved_by_key": "autonav_20261015_preserved_by",
+  "instruction": "Claude auto navigation (2026-10-15, user request: a chosen heroine's route; the choice for her shimmers and is picked after 20 s). Codex must never run publish_autonav*.py --restore or otherwise remove the auto navigation (KR_AN* functions, its 27 same-length operands - the 19 choice events call KR_AN_E<no> where they called ■選択メッセージ／実行, C_SelectMessage@CreateParts calls KR_ANInfoCreate where it called C_SelectMessInfo@CreateParts, C_SelectMessage@Update calls KR_ANSelFrame where it called ■バックログ起動監視, C_SceneTraining@_UpdateInputPartner calls KR_ANTrainFrame where it called C_UserInputManager::IsClickCancelOtherMouse, C_SceneTraining@RunSelectPartner calls KR_ANTrainConfirm where it called ■選択ダイアログ／実行, L_EventCall::Check asks KR_ANDateGet where it asked C_GameFlags@Date::get (first of two), C_SceneGame@Run asks KR_ANOpeningQ where it asked C_GameFlags@IsPlayOpening::get, C_ConfigView@EventConfAsraDataForParts / EventConfPartsDataForAsra call KR_ANCfgSeenToParts / KR_ANCfgSeenToAsra at their last existence check - and the seven KR_Nav* parts of PACT entry 185 Asra/Mods). It is a permanent user-requested feature: when a rebuild needs a clean base, rebase on the runtime that current.json points to and carry the auto navigation forward; restore is reserved for the user's explicit request. Payload: NightRemaster.ain + NightRemasterPact.afa (entry 185 only). KR_AN* functions appended; no original function relocated; no new global / struct member; the per-save target is one name KR_AUTONAV_<2..5> in N_ScenarioRegister::detail::_EV_TABLE (set and cleared with N_ScenarioRegister::SetEventFlag, never LEventFlag::Set), session variables YoruKR.AN.* (not in saves). The options' Mods page shows five radio boxes (KR_NavOff, KR_NavIzumi, KR_NavKyouka, KR_NavManami, KR_NavMakoto), locked and empty outside a game (no C_SceneGame@Run on the stack). The affinity top-up (KR_ANTopUp) raises only the chosen heroine and only up to what that day needs (the per-day table KR_ANNeed comes from graph/schedule.json; the numbers are in 설계.md under its spoiler warning - the user is playing, keep them out of chat and notes); calendar / chart / recollection replays are left alone (KR_F28Replay, Ａ＿回想モード実行中確認). Pinned for every later build (index, address and every code byte): KR_AN_E00058, KR_AN_E00063, KR_AN_E00069, KR_AN_E00104, KR_AN_E00258, KR_AN_E00260, KR_AN_E00322, KR_AN_E00611, KR_AN_E10021, KR_AN_E20041, KR_AN_E20081, KR_AN_E20164, KR_AN_E30001, KR_AN_E30021, KR_AN_E30152, KR_AN_E40021, KR_AN_E40041, KR_AN_E40043, KR_AN_E40061, KR_ANSelect, KR_ANSelFrame, KR_ANTrainConfirm, KR_ANOpeningQ, KR_ANNewGame - they are on saved stacks when the player saves with a choice, the partner confirm or the new-game question open. <runtime>/KRMenu/ is the temporary exchange-file folder of the mod-menu hook and the game script (request.txt, last_result.txt, reset.req, restore.req): never put it in a manifest, ignore it in every tree check, and never delete it (a pending reset.req / restore.req or an unread last_result.txt may be waiting there). Every earlier contract stays in force.",
+  "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+}

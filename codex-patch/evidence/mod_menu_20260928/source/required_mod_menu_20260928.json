@@ -1,0 +1,464 @@
+{
+  "status": "MOD_MENU_DRAFT_NOT_INSTALLED",
+  "author": "Claude Fable 5.1 (claude-fable-5-1)",
+  "time": "2026-09-28T05:57:25.410049+09:00",
+  "required_files": {
+    "winmm.dll": "a4dd91102fbea2e1a7992974e53d45ffbeec8e79dc9981c5cc7c5201a01ab053"
+  },
+  "replaced_files": {
+    "winmm.dll": {
+      "before": "378a78345dc8a8a625d351ca622aa35ee8a3b6d6d1023b922d88d7e7bc511fda",
+      "after": "a4dd91102fbea2e1a7992974e53d45ffbeec8e79dc9981c5cc7c5201a01ab053"
+    }
+  },
+  "kept_files": [
+    "Manual/chart/yoru_flowchart_v2.html"
+  ],
+  "ain_changed": false,
+  "pact_changed": false,
+  "ex_changed": false,
+  "fnl_changed": false,
+  "hook": {
+    "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_modmenu\\src",
+    "build": "hook_modmenu/build_all.cmd 2364",
+    "proxy_header_sha256": "757865b39d9991d321d5a4a239c64e9f159a9f190b03c67fe7d28607229871d1",
+    "proxy_header_rows": 2364,
+    "exports": [
+      "timeGetDevCaps",
+      "timeGetTime",
+      "timeBeginPeriod",
+      "timeEndPeriod"
+    ],
+    "menu": {
+      "top": "모드(&M) between 시스템 and 도움말",
+      "items": [
+        "이벤트 플로우 차트(&E)",
+        "전체 개방(&U)",
+        "전체 개방 되돌리기(&R)",
+        "전체 리셋(&Z)",
+        "전체 리셋 되돌리기(&B)"
+      ],
+      "command_id_range": "0x7E10..0x7EFF (first free)"
+    },
+    "request_file": "<exe>/KRMenu/request.txt (cmd, seq, time)",
+    "startup_maintenance": "KRMenu/reset.req or restore.req + <save>/YoruKR_reset.marker -> Backup/KR_reset_<time>",
+    "global_record_files": [
+      "NightRAFInfo.asd",
+      "NightRAFCGMode.asd",
+      "NightRAFMemMode.asd",
+      "NightRAFBGMMode.asd",
+      "NightRAFCommon.asd",
+      "NightRMsgSkip.msk",
+      "CommonGameData.asd",
+      "YoruKR_HomeRate.dat"
+    ]
+  },
+  "verification": {
+    "unit_harness": "PASS table=2364 (build log)",
+    "native_probe": {
+      "menu_installed": true,
+      "requests_written": true,
+      "reset_cancel_respected": true,
+      "startup_reset": true,
+      "startup_restore": true,
+      "all": true,
+      "mod_items": [
+        "7E10:이벤트 플로우 차트(&E)",
+        "7E11:전체 개방(&U)",
+        "7E12:전체 개방 되돌리기(&R)",
+        "0000:",
+        "7E13:전체 리셋(&Z)",
+        "7E14:전체 리셋 되돌리기(&B)"
+      ],
+      "reset_result": "reset ok KR_reset_20260928_053915",
+      "restore_result": "restore ok KR_reset_20260928_053915 (previous kept in KR_before_restore_20260928_053925)"
+    },
+    "defender": "SCANNED_NO_TARGET_DETECTIONS"
+  },
+  "preserves_contracts": {
+    "required_auto_explore_20260923.json": {
+      "sha256": "a2d94a02d7878a17f8d5e14fbdfac221bd559e09d4b56e9ed0b9f9d27d7bd791",
+      "status": "AUTO_EXPLORE_INSTALLED_NATIVE_FIXTURE_PASS_GAMEPLAY_PENDING",
+      "instruction_present": true
+    },
+    "required_auto_explore_click_fix_20260923.json": {
+      "sha256": "2bdc71967a86335fb87cd8a215e6862b595c028bd3ddf281c96fe179e0c94ad4",
+      "status": "AUTO_EXPLORE_CALLBACK_FIX_INSTALLED_NATIVE_DISPATCH_PASS",
+      "instruction_present": true
+    },
+    "required_auto_explore_segment_fix_20260923.json": {
+      "sha256": "8fa51856b9e52520ee70801b8b65acffb159174f1b55fde67192ffbb5de84353",
+      "status": "AUTO_EXPLORE_SEGMENT_FIX_INSTALLED_NATIVE_MOVEMENT_PASS",
+      "instruction_present": true
+    },
+    "required_auto_items.json": {
+      "sha256": "fe34117bbe200f830802a7255e0b3971b089661284df00309215099bf6b2e575",
+      "status": "AUTO_ITEMS_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_auto_walk.json": {
+      "sha256": "3237b775b09b8aed58775f768207d527330b384e6f68967ac740818c13ac3e2e",
+      "status": "AUTO_WALK_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_autoequip.json": {
+      "sha256": "ce1f2bcac39a73e23c7194f6406494d6ce37e940eb75e86cf79716b679d88c82",
+      "status": "AUTOEQUIP_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_build_retention.json": {
+      "sha256": "ef9c0c389b426965e9079c314f6d8b5bed3f799f5158d15d1ed47f27c9bc1462",
+      "status": "LATEST_AND_RECOVERY_PRESERVED",
+      "instruction_present": true
+    },
+    "required_calendar_r15.json": {
+      "sha256": "c924979d22a272d05b8c3d7e2b183e432edfd10d0281b5a8d04017e2f0326682",
+      "status": "CALENDAR_R15_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r18.json": {
+      "sha256": "106a51fd7a8c0d887c884e619f76602fecf7931b2be98970c5c30e7232c8cab0",
+      "status": "CALENDAR_R18_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r19.json": {
+      "sha256": "ec237b41e960c3c39e26e32136b8d90ab65dfeea827269e19d7d0987192a349d",
+      "status": "CALENDAR_R19_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r20.json": {
+      "sha256": "65b5ce229a09262d4a2ace37200e00d3ce7c296fbdec7dbcd52eb8fd9a8c6ab2",
+      "status": "CALENDAR_R20_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_chart_menu_20260927.json": {
+      "sha256": "6a1976bb2593b324a51816e008b741cf24c6fb31ad26059f6e9d97a10df91e26",
+      "status": "CHART_MENU_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_cheat_menu.json": {
+      "sha256": "a30cc114fad0f3e1d01299ba11d35a2901b1935a50f487111441072de7c0a8b5",
+      "status": "CHEAT_MENU_AND_CONSUMABLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_chest_flow.json": {
+      "sha256": "b02b069aee556d1f5b31263fd5169f7ad16a48084cd985b23680d071ff6826a3",
+      "status": "CHEST_FLOW_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_claude_revision_20260923.json": {
+      "sha256": "a0c75dc48bfc70f88b94423dba091b7753cde6f9cce91f3e681012fc15459715",
+      "status": "CLAUDE_REVISION_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924.json": {
+      "sha256": "0533da549a44c1e06e0d31e22905e5df8b7768ae67a67a5cbcad0d91f717a373",
+      "status": "CLAUDE_TERM_RATE_INSTALLED_NATIVE_PROBE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r10.json": {
+      "sha256": "6e9fd61287b4120669d3797b9a292196353d5bc9863407f8bc0621855b125c3c",
+      "status": "CLAUDE_TERM_RATE_R10_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r11.json": {
+      "sha256": "202c6f40e70312dbac9c2b6f6d682635e1648dad7256c0db3bf41f6aa67b1509",
+      "status": "CLAUDE_TERM_RATE_R11_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r12.json": {
+      "sha256": "25a6151fd1943b3f513f4fd58e1f7820ec04df4c07799d3c498834e186484f74",
+      "status": "CLAUDE_TERM_RATE_R12_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r13.json": {
+      "sha256": "1ed05a6813db487244996a0ef6551da0bec1fa8f798ddbe06db118bc10aed1f4",
+      "status": "CLAUDE_TERM_RATE_R13_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r14.json": {
+      "sha256": "8b31fee35f7095c8593b4727a89f1f1192f6d5dc638c25bacc76ae31216ac9a2",
+      "status": "CLAUDE_TERM_RATE_R14_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r2.json": {
+      "sha256": "84704436c9f40dc665729e82f0760ad4d476a338ae88d8df3a836829d8a1f361",
+      "status": "CLAUDE_TERM_RATE_R2_INSTALLED_NATIVE_UI_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r3.json": {
+      "sha256": "62c097d28d148531c18dbdad58fa6e7239d129b2e14baee0785b94492338b11c",
+      "status": "CLAUDE_TERM_RATE_R3_INSTALLED_NATIVE_UI_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r4.json": {
+      "sha256": "2b10eb7c25318b3b92a8b99ce5f03a140c0cb4e2d65ef891e078900ed3336f3b",
+      "status": "CLAUDE_TERM_RATE_R4_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r5.json": {
+      "sha256": "718c8075480a31f55529b58d38eddf592687e125b5cea3e6f953e6771716d997",
+      "status": "CLAUDE_TERM_RATE_R5_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r6.json": {
+      "sha256": "a8e882c819f55a6cdd517f946e4cbfd0a74073e5a38cc48959617a725277badb",
+      "status": "CLAUDE_TERM_RATE_R6_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r7.json": {
+      "sha256": "2f01ca8849b5ce8d4c806b503bdd475747cd87d79bbf10cd13219775c6184f5a",
+      "status": "CLAUDE_TERM_RATE_R7_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r9.json": {
+      "sha256": "70f20e12d4ee901b62e24007e2f4ef28df9f2ef0b04b1960fe938421bcd9dc21",
+      "status": "CLAUDE_TERM_RATE_R9_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_club_wall_bilingual_20260924.json": {
+      "sha256": "e20fa2af91df249b1df9ddecf6ba98227c9b5e49d3ca600280683686c03bce1f",
+      "status": "CLUB_WALL_BILINGUAL_INSTALLED_ENGINE_PASS",
+      "instruction_present": true
+    },
+    "required_club_wall_cancel_20260924.json": {
+      "sha256": "c9c711ad7707c9944f4db92a34e13203a95100679934000c8d890112cf4b7a4a",
+      "status": "BILINGUAL_BANNERS_INSTALLED_CLUB_WALL_ORIGINAL",
+      "instruction_present": true
+    },
+    "required_consumable_display_fix.json": {
+      "sha256": "54e78ae76e1f5610414f8a220166f20f829160005ba699bfc34f56b0f9d3e3a8",
+      "status": "CHEAT_MENU_AND_CONSUMABLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_department_route.json": {
+      "sha256": "fe8f6f5374bc45927c713ebc397f8b70b052522a36af9a652e8cbebd521e8382",
+      "status": "DEPARTMENT_ROUTE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_dungeon_sweep.json": {
+      "sha256": "48a616c51c50388c2786865fb9df09cdfcacd1cdcaea8b86cf5c28a3fb9195e1",
+      "status": "SWEEP_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_dynamic_ui_text_fix.json": {
+      "sha256": "7f5b19d28f3f6382b9637cea6010aed32396b85156c0b85313257217288573f5",
+      "status": "DYNAMIC_UI_TEXT_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_enemy_firearms_20260926.json": {
+      "sha256": "7a4a44a77619e837316861b82c7b8cf2f6485067a5b2bfbdc1f7a3062de807df",
+      "status": "ENEMY_FIREARMS_INSTALLED_STATIC_PASS",
+      "instruction_present": true
+    },
+    "required_event_navigation_20260926.json": {
+      "sha256": "d88e37aeec19b104cdb8cc9ebdc7c04b6ae6b9e99c5bc9cc60e168e4fbd85a8d",
+      "status": "EVENT_NAVIGATION_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_instant_loot.json": {
+      "sha256": "ade3c52249ef8ee868658cd1b16d5cbe78def543965bdffdf6927331eec4309e",
+      "status": "INSTANT_LOOT_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_item_skill_names.json": {
+      "sha256": "50ede4d3c5d6fdc74d04154a582c359991ea24510a98a2459dd2642b593fc4b5",
+      "status": "ENEMY_SPECIES_SCOPE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_location_card_aura_fix.json": {
+      "sha256": "2de79bc07bc78a964f6e0ba37bbe95f1c65655bda3ef82fd5a88f13bf4dc3467",
+      "status": "LOCATION_SOURCE_AURA_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_loot_notice.json": {
+      "sha256": "f3a8373dcc9b857405afe0392f77f7bcad2d7a4b1b22c8e65c39879e5ff4deab",
+      "status": "LOOT_NOTICE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_map_marker_axis_fix.json": {
+      "sha256": "38df81279810af7eda9c4e9f95807ced7fa05de99e231869f5c57f16e286b9ac",
+      "status": "MAP_MARKER_AXIS_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": false
+    },
+    "required_mod_menu_style.json": {
+      "sha256": "8bee8eceaf953d7c32387afc64a657759e41761aa5d6ea865cd3dc1e3c699eb5",
+      "status": "MOD_MENU_STYLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_mod_native_style_20260923.json": {
+      "sha256": "0f4b2dbef5ed0ca1ffacc08de5484460fdb6bf3a0cbfc809c88d98ac57255160",
+      "status": "MOD_NATIVE_STYLE_INSTALLED_ENGINE_RENDER_PASS",
+      "instruction_present": true
+    },
+    "required_mod_tab.json": {
+      "sha256": "6ee87a8feb6cccf8d50ab4bc36d9d50bc5218110b0ccf3455ffe2a40a280a263",
+      "status": "MOD_TAB_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_modmenu_r21.json": {
+      "sha256": "078a34e79fccc7099dcda304de6ced4ca93a283d8ac0ff727250567e1696174a",
+      "status": "MODMENU_R21_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_name_particles.json": {
+      "sha256": "cf5e50f6cb5f9cb2bfdcb5df00d99609d2ebedf5006ca856dc91ad3b4a34de57",
+      "status": "NAME_PARTICLES_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_native_mod_button.json": {
+      "sha256": "1eaeb0665166c67830be36632038e140fd873e8c48038a9814a746244b258a99",
+      "status": "NATIVE_MOD_BUTTON_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_native_opcode_fix.json": {
+      "sha256": "bb6335e4b462f7d13a2ddd14662b32c8a5489865d6d1ba27f1397e99b247cc00",
+      "status": "CHEAT_NATIVE_OPCODE_FIX_STATIC_PASS_RUNTIME_RETEST_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_depth.json": {
+      "sha256": "23a68930e8cbb53a77e816ec328ef272ad902af8c39165d736daff9c06c88bf6",
+      "status": "NOTICE_DEPTH_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_duration.json": {
+      "sha256": "9e0c572516c9cef9a0be90145572f891c9868ea68134ab8c2388a2628b0869a1",
+      "status": "NOTICE_DURATION_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_repair.json": {
+      "sha256": "f7c64307fecc3a830f71837e3fde57acc5bf4d55bac4c76cff05d4d7c1a2ace7",
+      "status": "NOTICE_REPAIR_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_page_lineflow_v2.json": {
+      "sha256": "804f1f31cfdca3a9b9525c0efda72dfafdbec1b1cca4988060f22c649baef098",
+      "status": "PAGE_LINEFLOW_V2_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_pinned_autosave_20260926.json": {
+      "sha256": "a298ed8adc9247287b30525e0becfcc38fcd89e64b109f997e036d8d67b37772",
+      "status": "PINNED_AUTOSAVE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_player_tools_20260923.json": {
+      "sha256": "e78dc69f0518cbe393ce1702dde27101eac56bd0cd5a74eeb291913545416fcf",
+      "status": "PLAYER_TOOLS_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_rate_overlay_20260927.json": {
+      "sha256": "35d5423ab2863a0317ba1a73ca41b351774cf6dbe5b51f122db59cacf39d8aae",
+      "status": "RATE_OVERLAY_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_remaster_multiplier.json": {
+      "sha256": "3ee829e9b14ab7ba981491b7f0f4bd6948d0d9953746d444dc9999e92a51c44d",
+      "status": "REMASTER_MULTIPLIERS_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_resume_compat_20260923.json": {
+      "sha256": "e7200bb06bada5d8c0b71537ac7542b1e512a20585f323298a88106182fbf6c5",
+      "status": "RESUME_COMPAT_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_cache_fix.json": {
+      "sha256": "b5fd74f4308f2883c5eff710caa10abc8605a312579e72cf65b9e6e27f4436c9",
+      "status": "ROUTE_CACHE_STATIC_PASS_NATIVE_PERFORMANCE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_linear_fix.json": {
+      "sha256": "a64e1cf89b091afdf6597b56170498d39036a2e11047e504d1c013da259a3573",
+      "status": "ROUTE_LINEAR_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_map_refresh.json": {
+      "sha256": "35e3b165190db647d4b6ffa7863462d9cd64411bb0f474126da29ef8325b0b5d",
+      "status": "ROUTE_MAP_REFRESH_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_puzzle_guide.json": {
+      "sha256": "9391fcdd5c3a6f01e05761a279d3137f1976b70a642c8996ddc72fae27917e2b",
+      "status": "PUZZLE_ROUTE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_runtime_keyfix20.json": {
+      "sha256": "a4fb0e7fc93b41a8c1d08477f7d1987f3ba908d2fdc62d32392967da5009570f",
+      "status": null,
+      "instruction_present": true
+    },
+    "required_runtime_repairs_20260923.json": {
+      "sha256": "de0d5476dffd442b30ad5f12c98ff00bc9ea319ee380b434bdd767240c9010e4",
+      "status": "RUNTIME_REPAIRS_INSTALLED_NATIVE_REGRESSION_PASS",
+      "instruction_present": true
+    },
+    "required_save_page_restore_20260926.json": {
+      "sha256": "7a05014510e476897b019025ac66d0cab53f95dcc4baabdb2e121b543fa93056",
+      "status": "SAVE_PAGE_RESTORE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_save_screen_mode_20260926.json": {
+      "sha256": "b988237025e80892227aabe84db7d9190ab1d26ce7fbbf31a625e41a8d19f35c",
+      "status": "SAVE_SCREEN_MODE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_save_slots_20260925.json": {
+      "sha256": "5b216197cec057ed3451f75ab5f00e0373b19a7bef1a39cbeb9456b57f600cdc",
+      "status": "SAVE_CARDS_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_saved_display_refresh.json": {
+      "sha256": "7cc1556a135a2490793bfd2786603a62ea92c2699f8972281cb3d07fa5ee4923",
+      "status": "SAVED_DISPLAY_REFRESH_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_smart_auto.json": {
+      "sha256": "797dc007d3e5b9e1afb023bf52451fd0f09f6a43eb5b2604fafc2ceb02031239",
+      "status": "SMART_AUTO_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_smart_auto_fix.json": {
+      "sha256": "30a9526bc190afc3a68bc814f90f08e2cce6a78c83525f2a5c60e8847c0a660e",
+      "status": "SMART_AUTO_FIX_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_story_explore_20260927.json": {
+      "sha256": "c24041ff1ae784f007e888d3b2435124e72e835b8452099841642ccf952793ea",
+      "status": "STORY_EXPLORE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_story_progress_20260926.json": {
+      "sha256": "775319a740be3605c5fb644834a9220c3eaeda9610e23ca500322b94fd487ac8",
+      "status": "STORY_PROGRESS_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_sweep_infinite_fix.json": {
+      "sha256": "f5cc6005e123f791d25d51512352d7e6d3b09aa41829b99324cec28402abf081",
+      "status": "SWEEP_INFINITE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_sweep_ui_fix.json": {
+      "sha256": "11e2eda205e76038b17ccf375f37204bc08a9300365eeae1dbde933b0a2e1050",
+      "status": "SWEEP_UI_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_term_switch_20260923.json": {
+      "sha256": "bd56940e90c9badfeb80f264860445447a3fcdd5537fde6b760cad777c629143",
+      "status": "TERM_SWITCH_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_training_lookup_fix.json": {
+      "sha256": "02c9c133e9fde5ff35943e720f4aa44f368c87abc90829dd5813bea2c93c6143",
+      "status": "TRAINING_LOOKUP_FIXED_STATIC_HEADLESS_PASS_NATIVE_PENDING",
+      "instruction_present": false
+    },
+    "required_translation_polish_lineflow.json": {
+      "sha256": "2cfdb50c7a2c0e825173786d3eca9e793457a192f77b1c68636b267fb63cf697",
+      "status": "TRANSLATION_POLISH_LINEFLOW_INSTALLED_NATIVE_PARTIAL",
+      "instruction_present": true
+    }
+  },
+  "preserves_contracts_count": 76,
+  "preserved_by_key": "mod_menu_preserved_by",
+  "instruction": "Claude mod menu (2026-09-28): the runtime winmm.dll is now built from hook_modmenu/src (chart-menu hook + one feature set). On the first WM_INITMENU it inserts a 「모드(&M)」 popup between 「시스템」 and 「도움말」 with 이벤트 플로우 차트(&E) / 전체 개방(&U) / 전체 개방 되돌리기(&R) / — / 전체 리셋(&Z) / 전체 리셋 되돌리기(&B) (command ids = first free in 0x7E10..0x7EFF); the Help item of the chart-menu build is gone. Each item writes <exe>/KRMenu/request.txt (3 lines: cmd, seq, time; cmd in chart, unlock_all, unlock_revert, reset_all, reset_restore) which the game script consumes in its home loop (calendar r21+); the two reset items first ask through a native MessageBox. At the next start (first timer call, before the engine reads its global record files) a pending KRMenu/reset.req or restore.req is executed only when the save folder also holds YoruKR_reset.marker with the matching word: NightRAFInfo/CGMode/MemMode/BGMMode/Common .asd, NightRMsgSkip.msk, CommonGameData.asd and YoruKR_HomeRate.dat are copied to <save>/Backup/KR_reset_<time>/ (manifest.txt) and deleted (reset), or copied back from the newest such folder with the current files kept in Backup/KR_before_restore_<time>/ (restore); save slots, config files, YoruKR_Terms.dat and YoruKR_Chart.dat are never touched; the outcome is written to KRMenu/last_result.txt (ASCII). Save folder resolution: AliceStart.ini SaveFolder + InstallInfo/SaveFolderSetting.ini (type 2 = exe-relative, else Documents/AliceSoft/<GameName>/). Everything else is unchanged: same 4 exports, same IAT hooks, same 2,364-row proxy table (header sha256 757865b3…), same IME behaviour; imports add SHELL32/ole32. Build: hook_modmenu/build_all.cmd 2364. ui_hangul_input_fix.json points to this DLL: any runtime rebuild must copy it; if the IME hook changes, rebuild from hook_modmenu/src. Manual/chart/yoru_flowchart_v2.html stays as required by required_chart_menu_20260927.json until the in-game chart replaces it. No AIN/PACT/EX/FNL change.",
+  "translator_model": "Claude Fable 5.1 (claude-fable-5-1)"
+}

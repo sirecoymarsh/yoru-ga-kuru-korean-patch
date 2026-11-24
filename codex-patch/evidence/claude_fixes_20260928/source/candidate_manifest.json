@@ -1,0 +1,122 @@
+{
+ "status": "STAGED_NATIVE_PENDING",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "1af260f5adff8b79ccebf27a44401790dff1a7dce555d87985b8b090cbca99f6"
+  },
+  "winmm.dll": {
+   "sha256": "d5ac30c7d95f291ffd6f3a4be2916531fd7b3f711cb977bd2cf00076a306beb2"
+  }
+ },
+ "base": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155",
+ "same_length_sites": [
+  {
+   "owner": "C_SysButton@IsAbleSave",
+   "site": 6011466,
+   "before": "3000ff170000",
+   "after": "3000e57f0000",
+   "original": "Ａ＿回想モード実行中確認",
+   "replacement": "KR_F28SaveBlocked"
+  },
+  {
+   "owner": "C_SceneSaveLoad@RunCommon",
+   "site": 6798526,
+   "before": "00006f730000",
+   "after": "0000e87f0000",
+   "original": "C_SceneSaveLoad@ExecSave",
+   "replacement": "KR_F28ExecSave"
+  },
+  {
+   "owner": "C_SceneSaveLoad@RunAutoSave",
+   "site": 6798024,
+   "before": "00006f730000",
+   "after": "0000e87f0000",
+   "original": "C_SceneSaveLoad@ExecSave",
+   "replacement": "KR_F28ExecSave"
+  },
+  {
+   "owner": "message::detail::仮メッセージウィンドウ読込",
+   "site": 2508454,
+   "before": "000028180000",
+   "after": "0000e67f0000",
+   "original": "Ｓ＿簡易セーブ",
+   "replacement": "KR_F28QuickSave"
+  },
+  {
+   "owner": "_system::detail::ProcessSystemMessage",
+   "site": 4830380,
+   "before": "30007e500000",
+   "after": "3000e77f0000",
+   "original": "_system::detail::InputSnapshotFileName",
+   "replacement": "KR_F28Snapshot"
+  },
+  {
+   "owner": "gamesave::detail::セーブ実行",
+   "site": 2269834,
+   "before": "30003e180000",
+   "after": "3000ec7f0000",
+   "original": "gamesave::detail::セーブ実行_ロード後復帰処理",
+   "replacement": "KR_F28Loaded"
+  },
+  {
+   "owner": "KR_T18RestorePrepared",
+   "site": 12316870,
+   "before": "3000227f0000",
+   "after": "3000e97f0000",
+   "original": "KR_T18ClearPrev",
+   "replacement": "KR_F28ClearPrev"
+  },
+  {
+   "owner": "KR_CReplayRun",
+   "site": 13167626,
+   "before": "3000f8170000",
+   "after": "3000ed7f0000",
+   "original": "AFL_MemoryModeEvent_Begin",
+   "replacement": "KR_F28MemoryBegin"
+  },
+  {
+   "owner": "KR_CReplayRun",
+   "site": 13167972,
+   "before": "3000f9170000",
+   "after": "3000ee7f0000",
+   "original": "AFL_MemoryModeEvent_End",
+   "replacement": "KR_F28MemoryEnd"
+  },
+  {
+   "owner": "KR_C24Draw",
+   "site": 13204704,
+   "before": "3000a97f0000",
+   "after": "3000ef7f0000",
+   "original": "KR_CDrawFrame",
+   "replacement": "KR_F28ChartFrame"
+  }
+ ],
+ "added_functions": {
+  "KR_F28Replay": 32740,
+  "KR_F28SaveBlocked": 32741,
+  "KR_F28QuickSave": 32742,
+  "KR_F28Snapshot": 32743,
+  "KR_F28ExecSave": 32744,
+  "KR_F28ClearPrev": 32745,
+  "KR_F28RejectReplay": 32746,
+  "KR_F28AfterLoad": 32747,
+  "KR_F28Loaded": 32748,
+  "KR_F28MemoryBegin": 32749,
+  "KR_F28MemoryEnd": 32750,
+  "KR_F28ChartFrame": 32751
+ },
+ "forwarded": [
+  "KR_T18ClearPrev"
+ ],
+ "pinned_exact": [
+  "KR_T9HomeCasual",
+  "KR_T9HomeConfig",
+  "C_SceneHomebase@CheckGameSysButtons",
+  "C_SceneHomebase@Run",
+  "LSys3xScript::RunEvent",
+  "KR_T18RunSandboxed"
+ ],
+ "new_globals": 0,
+ "serialized_schema_changes": 0,
+ "translator_model": "Codex internal"
+}

@@ -1,0 +1,64 @@
+{
+ "status": "STATIC_NATIVE_VISUAL_PASS",
+ "files": {
+  "NightRemaster.ain": "5f9b4cb43e393f6a9a9f269c3ac71e32e9262497f4495a034bbc2d50fe27d459",
+  "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+ },
+ "existing_resume_saves": 51,
+ "saved_return_frames": 1256,
+ "metadata_forwarders": [
+  "KR_CCellRef",
+  "KR_CCellName",
+  "KR_CCellWhen",
+  "KR_CCellCond",
+  "KR_CPlayNote",
+  "KR_CCardPage",
+  "KR_CEventPage",
+  "KR_CClear",
+  "KR_C24DrawCell"
+ ],
+ "old_code_prefix_exact": true,
+ "serialized_schema_changes": 0,
+ "original_messages_exact": true,
+ "dll_code_exact": true,
+ "native_opcode_audit": true,
+ "native_rendered_cells": 915,
+ "portrait_asset_pixels": [
+  8738,
+  7811,
+  10467,
+  8623,
+  8916,
+  8010,
+  8525,
+  6977,
+  10090,
+  8313,
+  9052,
+  9128,
+  8068,
+  9603,
+  8754,
+  9038
+ ],
+ "unread_even_unlocked_hidden": true,
+ "detail_native_cancel_play_stage": true,
+ "mini_size": [
+  32,
+  40
+ ],
+ "detail_size": [
+  104,
+  130
+ ],
+ "summary_events": [
+  11
+ ],
+ "translator_model": "Codex internal",
+ "limitations": [
+  "Scene cast is derived from explicit speaker tags. Silent-only appearances and anonymous speaker identities are not inferred.",
+  "Only the approved E00011 summary is authored; other scenes show portraits without fabricated summaries.",
+  "Native diagnostics use hidden muted private saves and scripted engine event-loop choices, not physical user input.",
+  "All 915 cells rendered, not all scenes/endings replayed; long gameplay remains outside this visual UI patch verification."
+ ]
+}

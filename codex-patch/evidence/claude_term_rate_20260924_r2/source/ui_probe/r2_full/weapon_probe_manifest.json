@@ -1,0 +1,8 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_term_rate_20260924_r2\\NightRemaster.ain",
+  "source_sha256": "a156a887bc937d6bc29674847e09ac0754e0a6b63d8f3b7c6a8b49af3d104ffc",
+  "probe_sha256": "ea794ad4aa010af69aa0a27a72896c08360423407091c85763769401c99a46af",
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "input": "UI-only fixture full: synthetic Ready/event counters/name/consts; native menus and layout, scripted choices.",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "static_pass_representative_dialogue_pass_backlog_pending",
+  "source_polish_sha256": "e252d93441069fb75f70504528facb30983544ea7e204c8fd1a9a65501d360e8",
+  "ain_sha256": "fc0107fff4b153b03261bfe4d2835d626afb93efddc76b1da5dc2172507b3c77",
+  "layout_changed_fields": 11387,
+  "layout_changed_pages": 5463,
+  "empty_tail_pages": 1488,
+  "outside_MSG1_exact": true,
+  "page_text_except_whitespace_exact": true,
+  "MSG_count": 100944,
+  "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\translation_polish_20260917\\global_lineflow_trial\\runtime",
+  "translator_model": "Codex internal",
+  "operation": "Deterministic layout only; no semantic translation",
+  "live_install": false,
+  "total_changed_fields_against_play_baseline": 13671,
+  "baseline_sha256": "76194a9057a413838bbe03e78e4baa8ab5ef20e0f9ebf087f6e3fc82082ee659",
+  "native_observed_message_ids": [
+    2247,
+    2248
+  ],
+  "native_observation": "Comma continuation flows into the first row; second row fully visible; advance indicator visible. Window closed before backlog and empty-tail-page checks. No claim of all-page runtime verification.",
+  "independent_review": "No confirmed save/read-state/click-count defect in conservative rule; empty tail/backlog geometry requires native check",
+  "not_installed": true
+}

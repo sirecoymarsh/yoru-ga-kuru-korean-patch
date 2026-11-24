@@ -1,0 +1,22 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "0130135eff6c1b156a76f2fa9505addae18d5b2bdbaedc27ab711a54e368ad39"
+  },
+  "reviewer": "/root/exact_ui_review",
+  "review_type": "read-only actual candidate dump and metadata review, final delta reviewed",
+  "findings": [
+    "Uniform cost-mode native passability preserved",
+    "Row-major nearest goal tie and independent203priority preserved",
+    "Zero-distance goal excluded; start seeded even when blocked",
+    "GetCell27082 owned reference released once and local cleared; null safe",
+    "CASPos PushBack matches native30029",
+    "Queue maximum900; local buffers only",
+    "Same-coordinate guard at original31860boundary; no newframe/array on hit",
+    "All map/load/nextfloor/rebuild invalidations retained",
+    "Original CODE/MSG1/STR0 and serialized schemas preserved"
+  ],
+  "required_changes": [],
+  "native_gameplay_verified": false,
+  "native_performance_measured": false
+}

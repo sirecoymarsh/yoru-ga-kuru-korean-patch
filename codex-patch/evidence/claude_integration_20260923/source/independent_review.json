@@ -1,0 +1,15 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "baef6ec000683bc9fdb3660ebbca2a5a841b3f487c05780febeb3efe90fcacf4"
+  },
+  "reviewer": "baseline_evidence_review",
+  "scope": "MSG1 structure, leaf allowlist, 74 native page chains, byte-exact non-MSG1, font-width and installer preflight/rollback design",
+  "result": "No unresolved core issue",
+  "issues_fixed": [
+    "Builder now exits2 on layout failure; installer separately checks failure lists and leaf equality",
+    "Publisher Path conversion corrected before install"
+  ],
+  "semantic_followup": "handoff_semantic_low reviewed all direct overrides and retentions; repeated sarcasm46565 retained, duplicate source pages checked by primary",
+  "native_tested": false
+}

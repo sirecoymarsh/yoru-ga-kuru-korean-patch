@@ -1,0 +1,129 @@
+{
+  "status": "MOD_MENU_STYLE_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "d8661eef0afc262831887eb26a0d9feecb5ca8250b4dcdf61235911ba3835f60",
+    "status": "AUTOEQUIP_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "16025aab9b654a3a1470fa58cd0459165b26d64cdabd7f76c2d9a69c26a12f07",
+    "NightRemasterPact.afa": "4ed2e66c779aa884ec5786a52319be8d01e1d7638a89a0683d1b06f9fe85ff58"
+  },
+  "files": {
+    "NightRemaster.ain": "76194a9057a413838bbe03e78e4baa8ab5ef20e0f9ebf087f6e3fc82082ee659",
+    "NightRemasterPact.afa": "3c53dd8dbdb211374ff48a75b76fe3cd46ddbac6048a8c91944982cf18aac36d"
+  },
+  "unchanged_files": {
+    "NightRemasterCG.afa": "8d8d865f294b695894f25b1656b9c22ed033f72a07560e19fa356fb5d5b71af6",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+    "NightRemaster.exe": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e",
+    "NightRemasterFont.fnl": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf"
+  },
+  "PACT": {
+    "changes": [
+      {
+        "entry": 153,
+        "label": "KR_AutoEquipButtonLabel",
+        "before": [
+          255,
+          255,
+          255
+        ],
+        "after": [
+          255,
+          224,
+          96
+        ],
+        "only_field": "テキスト装飾/フォント色"
+      },
+      {
+        "entry": 154,
+        "label": "KR_AutoStoneButtonLabel",
+        "before": [
+          255,
+          255,
+          255
+        ],
+        "after": [
+          255,
+          224,
+          96
+        ],
+        "only_field": "テキスト装飾/フォント色"
+      },
+      {
+        "entry": 161,
+        "label": "KR_SweepButtonLabel",
+        "before": [
+          255,
+          255,
+          255
+        ],
+        "after": [
+          255,
+          224,
+          96
+        ],
+        "only_field": "テキスト装飾/フォント色"
+      }
+    ],
+    "archive": {
+      "source_sha256": "4ed2e66c779aa884ec5786a52319be8d01e1d7638a89a0683d1b06f9fe85ff58",
+      "candidate_sha256": "3c53dd8dbdb211374ff48a75b76fe3cd46ddbac6048a8c91944982cf18aac36d",
+      "original_entries_preserved": 187,
+      "replaced_ids": [
+        153,
+        154,
+        161
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_menu_style_20260917\\NightRemasterPact.afa"
+    }
+  },
+  "changed_function_ids": [
+    27936
+  ],
+  "added_functions": 0,
+  "old_CODE_STR0_MSG1_exact": true,
+  "metadata_only_one_address": true,
+  "reward_inventory_equip_and_input_functions_exact": true,
+  "style_tag": 2026091602,
+  "renderer_edits": 9,
+  "native_gameplay_verified": false,
+  "translator_model": "Codex internal",
+  "text_changes": 0,
+  "palette": {
+    "normal": [
+      255,
+      224,
+      96,
+      255
+    ],
+    "hover": [
+      255,
+      250,
+      180,
+      255
+    ],
+    "disabled": "native unchanged",
+    "title": "temporary then restored"
+  },
+  "sources": [
+    {
+      "id": 1500,
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_menu_style_20260917\\cg_1500.qnt",
+      "sha256": "efd4b158ea36538611ba5813845f3cbe502cfcb381f4e7c4286889e0386ea000"
+    },
+    {
+      "id": 1840,
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_menu_style_20260917\\cg_1840.qnt",
+      "sha256": "7ab735baba0b174f1fe488100313129ddccc0a9a4707872bfdddd666997216f1"
+    }
+  ]
+}

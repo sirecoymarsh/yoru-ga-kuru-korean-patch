@@ -1,0 +1,36 @@
+{
+ "status": "APRIL_ADAPTIVE_MINIS_NATIVE_PASS_NOT_INSTALLED",
+ "source_sha256": "928c52bb738d57ffddce3abeeac640a18a1e686b3782c6f6308156f31fcaff38",
+ "live_sha256": "1a7bd3352132f123f2dd1cf8491b8faf16391b7361a57d6f76585843b4757542",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "7579a581f60e989d07f9abca13e4bc620aa6f65952974bbddbf0fa99e5f107d3"
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+  }
+ },
+ "changed_functions": [
+  "KR_CDraw",
+  "KR_P29DropMinis"
+ ],
+ "added_functions": {
+  "KR_AM29Mini": 32828,
+  "KR_AM29Drop": 32829,
+  "KR_AM29Left": 32830,
+  "KR_AM29Render": 32831,
+  "KR_AM29Draw": 32832
+ },
+ "original_code_prefix_exact": true,
+ "original_strings_prefix_exact": true,
+ "messages_exact": true,
+ "serialized_schema_changes": 0,
+ "installed": false,
+ "scope": "April list only; preserve summaries, details, other months and user session",
+ "portrait_size": [
+  32,
+  40
+ ],
+ "max_capacity": 8,
+ "verification_sha256": "fb7d77c6ee314e71cda02a984d17bef0a9dfe969373c9630877605ac42fd781e"
+}

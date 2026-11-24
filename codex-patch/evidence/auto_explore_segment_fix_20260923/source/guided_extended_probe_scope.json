@@ -1,0 +1,21 @@
+{
+  "status": "EXTENDED_GUIDE_ON_WAITS_AT_EXISTING_ENEMY",
+  "baseline_capture": {
+    "pid": 45436,
+    "exe": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\auto_explore_fix_20260923\\real_scene_probe\\NightRemaster.exe",
+    "ain_sha256": "f9c5462cc6592246529531433c5f74e507ec7facb555162715b8960953a00f33",
+    "events": [],
+    "image_base": "0x400000",
+    "timeout": true
+  },
+  "baseline_log": "resume loading\nwalk=1000010566 delegate=422 handlers=1\nsweep=1000010214 delegate=211 handlers=1\nclickable=1 input=1\nrepeat-visible handlers=1\ndispatch through native button function set\nclickResult=2026092203\nnative Run started queue=21 guide=1\nGATE x=22 y=6 object=0\nGATE pending=0 flag=2026092203\nSTEP 1 at 22,6 queue=20 flag=2026092203\nGATE x=23 y=6 object=0\nGATE pending=0 flag=2026092203\nSTEP 2 at 23,6 queue=19 flag=2026092203\nGATE x=23 y=7 object=0\nGATE pending=0 flag=2026092203\nSTEP 3 at 23,7 queue=18 flag=2026092203\nGATE x=23 y=8 object=3\nGATE pending=3 flag=-2026092203\n",
+  "candidate_extended_capture": {
+    "pid": 44020,
+    "exe": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\auto_explore_fix_20260923\\real_scene_probe\\NightRemaster.exe",
+    "ain_sha256": "9c0bd6e8dd5814275880c9325068ad25c0e4890e595d785ec25a9c49f41b4841",
+    "events": [],
+    "image_base": "0x400000",
+    "timeout": true
+  },
+  "scope": "Baseline also reaches enemy at 23,8 after three observed movement steps. Pending battle pauses ownership normally. No automated battle-input script was provided. One-step start/stop remains the guide ON regression scope; full combat progression not claimed."
+}

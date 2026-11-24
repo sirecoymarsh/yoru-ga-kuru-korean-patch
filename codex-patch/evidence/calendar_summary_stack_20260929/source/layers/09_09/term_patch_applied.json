@@ -1,0 +1,68 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\september\\design\\summaries.json",
+   "term_folder": "september",
+   "file_sha_now": "15522feea9b6e4111e87339c8146b42aeacd281e817e1dff5830d690cc4c6b9d",
+   "file_sha_at_audit": "15522feea9b6e4111e87339c8146b42aeacd281e817e1dff5830d690cc4c6b9d"
+  }
+ ],
+ "events": [
+  {
+   "no": 264,
+   "folder": "september",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적은 쓰러뜨려야 한다는",
+     "after": "히카리는 쓰러뜨려야 한다는",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "bab9fdf0d35624ed601932d6cb72649a1f7d1b93134e8b419fb45a71538f1eeb",
+   "sha256_after": "8d96391b33416a8cea8ec72be035cfe6d067b772439aa595437770974b97d726",
+   "summary_after": "주인공 일행이 호시카와의 안전을 걸고 미즈키를 놓아 달라던 사카키의 부탁을 되짚는다. 히카리는 쓰러뜨려야 한다는 쿄카에게 이즈미도 수긍하고 쿄카가 호시카와와 이야기하기로 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 266,
+   "folder": "september",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "미즈키는 적이니",
+     "after": "미즈키는 히카리니",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "8477ee5846a82ccecc6165b8728f12e39b2eb869792eea36c7eec5151249425b",
+   "sha256_after": "28d9bfb56b633df465d6a8b6f0f368e1c2775913479fab99a26a1bb2929c45d8",
+   "summary_after": "쿄카가 미즈키는 히카리니 그만 만나라고 하지만 호시카와는 거절한다. 호시카와는 미즈키에게 정체를 밝히고 싸움을 그만두겠다며 사람을 해치지 말라는 약속을 받는다.",
+   "gate_problems": []
+  }
+ ],
+ "applied": 2,
+ "skipped_proposals": 0,
+ "skipped_summaries": 0,
+ "below_threshold": 0,
+ "changed_ids": [
+  264,
+  266
+ ],
+ "gate_skipped": [],
+ "tag": "09",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:25:40.817047+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

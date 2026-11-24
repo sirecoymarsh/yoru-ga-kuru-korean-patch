@@ -1,0 +1,26 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "b58ba53d8920f0e1c2553d7bfecf84f61aafed0887c549d272b77d83610cf650",
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8"
+  },
+  "read_only_reviewers": [
+    "dungeon_reward_review",
+    "exact_ui_review"
+  ],
+  "scope": "Native ABI/quiet EXP/scope/exit control/config reentry/null guards/array shape; original PACT consumer geometry, input, FNL label placement. No native gameplay performed.",
+  "findings_fixed": [
+    "503click collision",
+    "snapshot ref array",
+    "zero-level unrecruited characters",
+    "unsupported I_STRING",
+    "nativeconfig reentry before and after payout",
+    "GetParts nullguards",
+    "uncertain Numof tag -> X_A_SIZE",
+    "CG192px overflow",
+    "unscaled FNL center",
+    "nonclickable carrier cursor interception"
+  ],
+  "primary_archive_binding": "release_checks.json validates exact individual reviewed PACT bytes, only161/185changed, remaining185exact",
+  "native_gameplay_verified": false
+}

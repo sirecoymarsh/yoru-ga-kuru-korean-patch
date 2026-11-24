@@ -1,0 +1,16 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "552332f5dc6da24c07dd2f4a00531de2b3c0fb1fc1f39c8995baa464f61848f1"
+  },
+  "reviewer": "/root/quick_battle_feasibility_review",
+  "scope": "Read-only independent persisted-AIN redump, metadata/CODE/tail preservation and stack/control-flow review",
+  "findings": [
+    "Only28638/28754 function addresses changed; original9755220-byte CODE prefix and MSG1 tail exact.",
+    "Inserted-region deletion and label normalization reproduce both original function bodies.",
+    "OFF/null branches preserve original behavior; current-map/view/coordinates arguments and member3 type verified.",
+    "16 compiled inserted-region fixtures are not native transition/render/AStar tests; exact disappearance cause not proven."
+  ],
+  "native_gameplay_verified": false,
+  "publisher_sha256": "fa48f971d45ea58b14b2793120e39c0f7fd768bb91f9f9bb9c5e784678322df7"
+}

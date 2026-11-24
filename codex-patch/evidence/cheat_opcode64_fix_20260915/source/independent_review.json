@@ -1,0 +1,17 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "537a684b60828bdf3b19252e3e6b32c3ebffb8812de70b323805b479fea05e2a"
+  },
+  "reviewer": "/root/quick_battle_feasibility_review",
+  "read_only": true,
+  "actual_candidate_redumped": true,
+  "findings": [],
+  "three_helpers_only": true,
+  "float_operand_bits_preserved": true,
+  "route_native_allocation_stack_balanced": true,
+  "all29974_concrete_functions_covered": true,
+  "interface_declarations_without_code": 1887,
+  "all_other_metadata_and_CODE_prefix_MSG1_onward_exact": true,
+  "native_gameplay_verified": false
+}

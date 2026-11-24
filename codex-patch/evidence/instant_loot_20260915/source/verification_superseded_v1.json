@@ -1,0 +1,267 @@
+{
+  "status": "INSTANT_LOOT_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "1ae724c4a670012d4e0a22b54bee69f76491f60e166ecb5744fd4407ed2cc8a2",
+    "NightRemasterPact.afa": "747206f05a8ad987c0c270e4ff5277757d0d8609ee0fca9c08529289ea9238e6"
+  },
+  "compiled_helpers": {
+    "passive_option_roundtrips": 300,
+    "eligibility_cases": 540,
+    "compiled_encounter_reward_cases": 72,
+    "failure_cases": 8,
+    "reference_ownership_balanced": true,
+    "repeat_contact_no_duplicate_reward": true,
+    "native_settle_math_executed": false
+  },
+  "preservation": {
+    "native_reward_math_and_old_0_1_control_flow_exact": true,
+    "collision_hook_only_change": true,
+    "all_three_switches_target_relocated_owners": true,
+    "normal_quick_preview_and_route_preserved": true
+  },
+  "UI": {
+    "tabs_in_all10_original_pages": true,
+    "new_registered_page": 185,
+    "controls_only_on_mod_page": 9,
+    "original_checkbox_controls_restored": true,
+    "roundtrip_parts_order_and_unique_names": true,
+    "rows": [
+      {
+        "name": "KR_ModTitle",
+        "text": "모드 설정",
+        "x": 363.0,
+        "y": 40.0,
+        "size": 26,
+        "width": 82.75,
+        "budget": 757.0
+      },
+      {
+        "name": "KR_ModScope",
+        "text": "보상 배율은 저장 데이터별 · 전투와 던전 편의 기능은 공통 적용",
+        "x": 363.0,
+        "y": 88.0,
+        "size": 18,
+        "width": 356.5,
+        "budget": 757.0
+      },
+      {
+        "name": "KR_ModRewardsTitle",
+        "text": "보상 배율 (1~20배)",
+        "x": 363.0,
+        "y": 122.0,
+        "size": 23,
+        "width": 140.0,
+        "budget": 757.0
+      },
+      {
+        "name": "KR_Multiplier_Label_EX",
+        "text": "경험치",
+        "x": 363.0,
+        "y": 164.0,
+        "size": 22,
+        "width": 48.75,
+        "budget": 268
+      },
+      {
+        "name": "KR_Multiplier_Value_EX",
+        "text": "2배",
+        "x": 631.0,
+        "y": 164.0,
+        "size": 22,
+        "width": 25.5,
+        "budget": 56
+      },
+      {
+        "name": "KR_Multiplier_Label_Training",
+        "text": "훈련치",
+        "x": 723.0,
+        "y": 164.0,
+        "size": 22,
+        "width": 48.75,
+        "budget": 268
+      },
+      {
+        "name": "KR_Multiplier_Value_Training",
+        "text": "2배",
+        "x": 991.0,
+        "y": 164.0,
+        "size": 22,
+        "width": 25.5,
+        "budget": 56
+      },
+      {
+        "name": "KR_Multiplier_Label_Money",
+        "text": "월편",
+        "x": 363.0,
+        "y": 260.0,
+        "size": 22,
+        "width": 32.5,
+        "budget": 268
+      },
+      {
+        "name": "KR_Multiplier_Value_Money",
+        "text": "2배",
+        "x": 631.0,
+        "y": 260.0,
+        "size": 22,
+        "width": 25.5,
+        "budget": 56
+      },
+      {
+        "name": "KR_Multiplier_Label_PairTraining",
+        "text": "동료 특훈치",
+        "x": 723.0,
+        "y": 260.0,
+        "size": 22,
+        "width": 85.0,
+        "budget": 268
+      },
+      {
+        "name": "KR_Multiplier_Value_PairTraining",
+        "text": "2배",
+        "x": 991.0,
+        "y": 260.0,
+        "size": 22,
+        "width": 25.5,
+        "budget": 56
+      },
+      {
+        "name": "KR_ModRewardHint",
+        "text": "리마스터의 2배 체크를 바꾸면 해당 항목을 1배 또는 2배로 설정합니다.",
+        "x": 363.0,
+        "y": 341.0,
+        "size": 16,
+        "width": 342.5,
+        "budget": 757.0
+      },
+      {
+        "name": "KR_ModSpeedTitle",
+        "text": "전투 속도",
+        "x": 363.0,
+        "y": 400.0,
+        "size": 23,
+        "width": 71.875,
+        "budget": 757.0
+      },
+      {
+        "name": "KR_CheatSpeedValue",
+        "text": "기본",
+        "x": 623.0,
+        "y": 400.0,
+        "size": 22,
+        "width": 32.5,
+        "budget": 66
+      },
+      {
+        "name": "KR_ModSpeedHint",
+        "text": "기본 / 2배 / 3배 / 4배 / 5배",
+        "x": 363.0,
+        "y": 494.0,
+        "size": 17,
+        "width": 131.0,
+        "budget": 757.0
+      },
+      {
+        "name": "KR_ModSpeedDefaultHint",
+        "text": "기본: 게임 설정의 전투 가속을 따릅니다.",
+        "x": 363.0,
+        "y": 524.0,
+        "size": 16,
+        "width": 194.0,
+        "budget": 757.0
+      },
+      {
+        "name": "KR_CheatTrap",
+        "text": "　함정 즉시 해체",
+        "x": 815.0,
+        "y": 408.0,
+        "size": 24,
+        "width": 131.666667,
+        "budget": 305.0
+      },
+      {
+        "name": "KR_CheatQuick",
+        "text": "　자동 전투 결과만 보기",
+        "x": 815.0,
+        "y": 456.0,
+        "size": 24,
+        "width": 188.666667,
+        "budget": 305.0
+      },
+      {
+        "name": "KR_CheatRoute",
+        "text": "　다음 층 경로 표시",
+        "x": 815.0,
+        "y": 504.0,
+        "size": 24,
+        "width": 153.333333,
+        "budget": 305.0
+      },
+      {
+        "name": "KR_ModQuickHint",
+        "text": "즉시 처치와 결과만 보기는 함께 켤 수 없습니다.",
+        "x": 783.0,
+        "y": 600.0,
+        "size": 14,
+        "width": 193.5,
+        "budget": 337.0
+      },
+      {
+        "name": "KR_ModQuickCancel",
+        "text": "결과만 보기: 우클릭으로 전투 화면 복귀",
+        "x": 783.0,
+        "y": 626.0,
+        "size": 14,
+        "width": 161.75,
+        "budget": 337.0
+      },
+      {
+        "name": "KR_CheatLoot",
+        "text": "　일반 적 즉시 처치",
+        "x": 815.0,
+        "y": 552.0,
+        "size": 24,
+        "width": 153.333333,
+        "budget": 305.0
+      }
+    ],
+    "slider_boxes": [
+      [
+        363.0,
+        194.0,
+        687.0,
+        236.0
+      ],
+      [
+        723.0,
+        194.0,
+        1047.0,
+        236.0
+      ],
+      [
+        363.0,
+        290.0,
+        687.0,
+        332.0
+      ],
+      [
+        723.0,
+        290.0,
+        1047.0,
+        332.0
+      ],
+      [
+        363.0,
+        442.0,
+        683.0,
+        480.0
+      ]
+    ],
+    "actual_FNL_face": 3,
+    "overflows": 0,
+    "native_visual_verified": false
+  },
+  "native_gameplay_verified": false,
+  "actual_save_reload_verified": false,
+  "translator_model": "Codex internal"
+}

@@ -1,0 +1,879 @@
+{
+ "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155",
+ "seconds": 549.6,
+ "counts": {
+  "S1_metadata": 1,
+  "S1_base_entries_identical": 32717,
+  "S1_r24_forwarders": 6,
+  "S1_forwarders_kept": 19,
+  "S2_earlier_same_length_sites_kept": 24,
+  "S2_r23_same_length_sites": 3,
+  "S2_r24_same_length_sites": 0,
+  "S2_base_code_bytes": 13193618,
+  "S2_base_code_bytes_changed": 0,
+  "S3_text": 1,
+  "S6_pinned_bytes": 3916,
+  "S6_pinned_functions": 6,
+  "S7_sandbox_signature_equal_RunEvent": 1,
+  "S8_r24_kept_r22_functions": 16,
+  "S8_r24_reachable_functions": 212,
+  "S8_r24_wait_checked": 1,
+  "S8_replay_ops_equal_ExecScene": 88,
+  "S8_r24_flag_writers": 2,
+  "S8_r22_sites_kept": 2,
+  "S8_r21_sites_kept": 2,
+  "S8_r23_sites_checked": 3,
+  "S8_r23_reachable_functions": 91,
+  "V37_exit_path_equals_game_exit_tail": 1,
+  "V37_functions_reachable_from_consumers": 240,
+  "V35_unlock_flag_callers": 2,
+  "S4_saves": 51,
+  "S4_frames": 1254,
+  "S4_frames_in_live_versions": 1220,
+  "S4_frames_in_KR_T9HomeCasual": 0,
+  "S4_frames_in_KR_T18RunSandboxed": 0,
+  "S4_frames_in_r22_forwarded": 0,
+  "S4_frames_in_r24_forwarded": 0,
+  "S4_frames_in_KR_CChart": 0,
+  "S4_frames_in_r23_owners": 0,
+  "S4_frames_in_title_owners": 0,
+  "S4_frames_in_r21_owners": 0,
+  "S5_active_functions": 30853,
+  "V1_cards": 155,
+  "V1_stages": 404,
+  "V1_drawers": 96,
+  "V1_scenes": 760,
+  "V1_events": 1164,
+  "V1_panel_outside": 121,
+  "V25_name_tables_equal_chart": 1319,
+  "V15_bars": 14762,
+  "V10_seen_states": 1,
+  "V21_texts_without_e_numbers": 82607,
+  "V2_bars_checked": 3903,
+  "V2_max_width_px": 1163,
+  "V2_dialogs": 12028,
+  "V22_items_unique_on_page": 14273,
+  "V2_max_height": 694,
+  "V2_max_title_lines": 11,
+  "V11_lane_titles": 292,
+  "V11_drawer_rows": 736,
+  "V11_month_drawer_pages": 52,
+  "V2_stage_lists": 140,
+  "V2_drawer_lists": 384,
+  "V11_memory_pages": 4,
+  "V11_summary_pages": 18,
+  "V13_summary_equals_panel": 18,
+  "V2_states": 4,
+  "V26_when_tokens": 2909,
+  "V24_affinity_on_pages": 32,
+  "V2_event_pages": 1164,
+  "V3_cells": 8327,
+  "V3_month_menus": 273,
+  "V11_year_sums": 20,
+  "V3_synthetic_mid_month_marks": 3,
+  "V4_navigation": 1,
+  "V5_play_from_window": 1,
+  "V6_play_from_settings": 1,
+  "V7_no_context": 1,
+  "V8_failsafe": 1,
+  "V9_original_dispatch": 1,
+  "V11_summary_from_month": 1,
+  "V12_tailed_rows": 28,
+  "V12_duplicate_rows_after": 0,
+  "V12_rows": 155,
+  "V13_panel_states": 5,
+  "V16_locked_unseen": 2726,
+  "V16_card_refusals": 244,
+  "V16_event_pages_answered": 3492,
+  "V16_open_pages": 3611,
+  "V16_card_requests": 221,
+  "V16_locked_other": 1229,
+  "V16_bundle_stages": 284,
+  "V16_memory_pages": 32,
+  "V16_states": 3,
+  "V17_sandbox_runs": 4,
+  "V17_state_keys_compared": 64,
+  "V18_mid_replay_load_no_temp": 1,
+  "V18_mid_replay_load_temp_left": 1,
+  "V19_save_failure": 2,
+  "V20_casual_site_lock": 1,
+  "V14_saves": 14,
+  "V14_native_panel_equal": 14,
+  "V14_native_summary_equal": 14,
+  "V14_saves_with_all_three": 5,
+  "V24_card_pages": 17,
+  "V24_lane_rows": 13,
+  "V24_lane_rows_full": 13,
+  "V24_scene_pages": 28,
+  "V24_affinity_events": 28,
+  "V23_rule_6": 404,
+  "V23_rule_5": 242,
+  "V23_rule_8": 29,
+  "V23_rule_7": 75,
+  "V23_rule_1": 88,
+  "V23_rule_3": 28,
+  "V23_rule_4": 17,
+  "V23_rule_2": 284,
+  "V27_walk_pairs_checked": 343,
+  "V27_person_states": 49,
+  "V27_calendar_sums_equal": 7,
+  "V28_months_checked": 8,
+  "V28_persons_whose_value_changes": 7,
+  "V29_texts": 56,
+  "V29_labels": 49,
+  "V29_widest_line_px": 300.0,
+  "V30_status_page_steps": 1,
+  "V30_parts_on_page4": 2,
+  "V31_hover_states": 4,
+  "V31_parts_per_entry": 12,
+  "V31_labels": 6,
+  "V27_real_saves": 14,
+  "V27_real_texts_equal": 210,
+  "V32_training_is_points": 1,
+  "V33_places_checked": 6,
+  "V34_commands": 10,
+  "V34_unknown_ignored": 5,
+  "V39_file_calls_per_armed_frame": 2,
+  "V35_flag_saved_and_reloaded": 3,
+  "V35_failed_write_reported": 1,
+  "V36_no_does_nothing": 4,
+  "V36_yes_schedules_and_exits": 2,
+  "V36_write_failures_safe": 4,
+  "V38_results_shown": 16,
+  "V38_result_before_request": 1,
+  "V39_dialogs_outside_home_not_polled": 3,
+  "V39_own_windows_not_polled": 1,
+  "V39_undeletable_stops_polling": 1,
+  "V39_arm_disarm_paths": 7,
+  "V40_r21_windows_checked": 26,
+  "V41_cells": 915,
+  "V41_events": 1164,
+  "V41_thumbnail_cells": 95,
+  "V41_small_cells": 820,
+  "V41_per_tab": [
+   143,
+   116,
+   203,
+   56,
+   64,
+   58,
+   91,
+   71,
+   85,
+   28
+  ],
+  "V41_not_playable_events": 1,
+  "V57_buttons_drawn": 980,
+  "V58_gold_borders_drawn": 0,
+  "V42_cells_drawn": 5610,
+  "V43_locked_cells": 2324,
+  "V55_empty_frames_drawn": 228,
+  "V42_pages": 490,
+  "V43_states": 4,
+  "V42_thumbnails": 366,
+  "V43_open_cells": 3286,
+  "V43_registration_ignored": 1,
+  "V43_locked_click_page": 1,
+  "V44_replays_ctx1": 1,
+  "V44_replays_ctx2": 1,
+  "V44_card_stage_paths": 1,
+  "V46_ways_out": 3,
+  "V45_calendar_equal_r21": 126,
+  "V45_calendar_equal_r21_stale_flag": 126,
+  "V47_title_idle": 1,
+  "V47_title_commands": 5,
+  "V47_title_reset_exit": 1,
+  "V47_result_before_request": 1,
+  "V47_undeletable_stops": 1,
+  "V48_not_playable_real": 1,
+  "V48_page_and_request": 1,
+  "V48_cells_with_note": 1,
+  "V50_ranks": 304,
+  "V49_moon_texts": 152,
+  "V49_maximum": 120,
+  "V50_bounds_inclusive": 4,
+  "V51_gate_names": 28,
+  "V51_next_checked": 3344,
+  "V51_next_found": 755,
+  "V51_next_none": 2589,
+  "V51_route_checked": 176,
+  "V52_texts": 112,
+  "V52_widest_line_px": 301,
+  "V53_moon_texts_checked": 13,
+  "V52_pages_drawn": 10,
+  "V53_views_destroyed": 5,
+  "V53_persons_with_text": 4,
+  "V54_texts_equal": 112,
+  "V54_real_saves": 14,
+  "V55_cells_compared": 915,
+  "V55_locked_thumbnail_frames": 95,
+  "V56_locked_pages_without_play": 915,
+  "V56_pages_compared": 915,
+  "V56_locked_card_stage_paths": 1,
+  "V56_locked_not_playable": 1,
+  "V57_presses_redrawn_in_place": 20,
+  "V57_sessions": 4,
+  "V57_failed_write_reported": 2,
+  "V57_keys": 2,
+  "V57_held_key_ignored": 1,
+  "V57_arrows_kept": 1,
+  "V58_chart_back_after_replay": 6,
+  "V58_sessions": 3,
+  "V58_card_stage_back": 1,
+  "V58_no_stale_mark": 1
+ },
+ "r22": {
+  "tables": {
+   "cells": 915,
+   "per_tab": [
+    143,
+    116,
+    203,
+    56,
+    64,
+    58,
+    91,
+    71,
+    85,
+    28
+   ],
+   "thumbnails": 95
+  },
+  "flow": {
+   "locked": 121,
+   "replay_ctx1": 10001,
+   "replay_ctx2": 10001,
+   "card": "G00004"
+  },
+  "confine": {
+   "compared": 126,
+   "cards": 23,
+   "scenes": 51
+  },
+  "title": {
+   "commands": 5
+  },
+  "noplay": {
+   "real": [
+    262
+   ]
+  }
+ },
+ "r23": {
+  "game_code": {
+   "per": 60,
+   "moons": 2,
+   "maximum": 120,
+   "bounds": [
+    15,
+    30,
+    45,
+    60
+   ],
+   "rates": {
+    "2": 420,
+    "3": 420,
+    "4": 370,
+    "5": 290,
+    "6": 540,
+    "7": 500,
+    "8": 420
+   },
+   "rate_default": 420,
+   "box": [
+    374.0,
+    66.0
+   ],
+   "label": [
+    374.0,
+    96.0
+   ],
+   "enabled": "GameMode != Classic and 2 <= person <= 5"
+  },
+  "gates": 28,
+  "widest_event_line_px": 301,
+  "real_saves": [
+   {
+    "save": "NightR07.asd",
+    "today": "4/22",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 5,
+      "rank": 1,
+      "next": [
+       15,
+       "E10021"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 6,
+      "rank": 1,
+      "next": [
+       15,
+       "E20021"
+      ],
+      "route": "E20501"
+     },
+     "4": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       5,
+       "E30001"
+      ],
+      "route": "E30501"
+     },
+     "5": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       10,
+       "E40001"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR12.asd",
+    "today": "5/13",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 17,
+      "rank": 2,
+      "next": [
+       20,
+       "E10061"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 17,
+      "rank": 2,
+      "next": [
+       25,
+       "E20041"
+      ],
+      "route": "E20501"
+     },
+     "4": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       5,
+       "E30001"
+      ],
+      "route": "E30501"
+     },
+     "5": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       10,
+       "E40001"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR16.asd",
+    "today": "5/20",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 22,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 22,
+      "rank": 2,
+      "next": [
+       25,
+       "E20041"
+      ],
+      "route": "E20501"
+     },
+     "4": {
+      "value": 1,
+      "rank": 1,
+      "next": [
+       5,
+       "E30001"
+      ],
+      "route": "E30501"
+     },
+     "5": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       10,
+       "E40001"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR18.asd",
+    "today": "5/27",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 22,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 22,
+      "rank": 2,
+      "next": [
+       25,
+       "E20041"
+      ],
+      "route": "E20501"
+     },
+     "4": {
+      "value": 4,
+      "rank": 1,
+      "next": [
+       5,
+       "E30001"
+      ],
+      "route": "E30501"
+     },
+     "5": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       10,
+       "E40001"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR23.asd",
+    "today": "6/10",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 22,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 23,
+      "rank": 2,
+      "next": [
+       25,
+       "E20041"
+      ],
+      "route": "E20501"
+     },
+     "4": {
+      "value": 15,
+      "rank": 1,
+      "next": [
+       50,
+       "E30162"
+      ],
+      "route": "E30501"
+     },
+     "5": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       10,
+       "E40001"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR24.asd",
+    "today": "6/10",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 22,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 23,
+      "rank": 2,
+      "next": [
+       25,
+       "E20041"
+      ],
+      "route": "E20501"
+     },
+     "4": {
+      "value": 15,
+      "rank": 1,
+      "next": [
+       50,
+       "E30162"
+      ],
+      "route": "E30501"
+     },
+     "5": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       10,
+       "E40001"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR26.asd",
+    "today": "7/1",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 24,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 32,
+      "rank": 3,
+      "next": [
+       35,
+       "E20162"
+      ],
+      "route": "E20501"
+     },
+     "4": {
+      "value": 31,
+      "rank": 3,
+      "next": [
+       50,
+       "E30162"
+      ],
+      "route": "E30501"
+     },
+     "5": {
+      "value": 0,
+      "rank": 1,
+      "next": [
+       10,
+       "E40001"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR31.asd",
+    "today": "8/19",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 26,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 58,
+      "rank": 4,
+      "next": null,
+      "route": "E20501"
+     },
+     "4": {
+      "value": 64,
+      "rank": 5,
+      "next": null,
+      "route": "E30501"
+     },
+     "5": {
+      "value": 16,
+      "rank": 2,
+      "next": [
+       20,
+       "E40041"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR33.asd",
+    "today": "8/26",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 26,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 63,
+      "rank": 5,
+      "next": null,
+      "route": "E20501"
+     },
+     "4": {
+      "value": 64,
+      "rank": 5,
+      "next": null,
+      "route": "E30501"
+     },
+     "5": {
+      "value": 16,
+      "rank": 2,
+      "next": [
+       20,
+       "E40041"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR37.asd",
+    "today": "9/16",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 26,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 80,
+      "rank": 5,
+      "next": null,
+      "route": "E20501"
+     },
+     "4": {
+      "value": 64,
+      "rank": 5,
+      "next": null,
+      "route": "E30501"
+     },
+     "5": {
+      "value": 16,
+      "rank": 2,
+      "next": [
+       50,
+       "E30164"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR38.asd",
+    "today": "9/16",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 26,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 80,
+      "rank": 5,
+      "next": null,
+      "route": "E20501"
+     },
+     "4": {
+      "value": 64,
+      "rank": 5,
+      "next": null,
+      "route": "E30501"
+     },
+     "5": {
+      "value": 16,
+      "rank": 2,
+      "next": [
+       50,
+       "E30164"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR41.asd",
+    "today": "9/30",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 27,
+      "rank": 2,
+      "next": [
+       30,
+       "E10041"
+      ],
+      "route": "E10501"
+     },
+     "3": {
+      "value": 80,
+      "rank": 5,
+      "next": null,
+      "route": "E20501"
+     },
+     "4": {
+      "value": 75,
+      "rank": 5,
+      "next": null,
+      "route": "E30501"
+     },
+     "5": {
+      "value": 31,
+      "rank": 3,
+      "next": [
+       50,
+       "E30164"
+      ],
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR44.asd",
+    "today": "10/14",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 31,
+      "rank": 3,
+      "next": null,
+      "route": "E10501"
+     },
+     "3": {
+      "value": 84,
+      "rank": 5,
+      "next": null,
+      "route": "E20501"
+     },
+     "4": {
+      "value": 76,
+      "rank": 5,
+      "next": null,
+      "route": "E30501"
+     },
+     "5": {
+      "value": 37,
+      "rank": 3,
+      "next": null,
+      "route": "E40501"
+     }
+    }
+   },
+   {
+    "save": "NightR47.asd",
+    "today": "11/4",
+    "mode": 0,
+    "persons": {
+     "2": {
+      "value": 31,
+      "rank": 3,
+      "next": null,
+      "route": null
+     },
+     "3": {
+      "value": 90,
+      "rank": 5,
+      "next": null,
+      "route": null
+     },
+     "4": {
+      "value": 76,
+      "rank": 5,
+      "next": null,
+      "route": null
+     },
+     "5": {
+      "value": 45,
+      "rank": 3,
+      "next": null,
+      "route": null
+     }
+    }
+   }
+  ]
+ },
+ "r24": {
+  "cells": {
+   "cells": 915,
+   "thumbnail_frames": 95
+  },
+  "pages": {
+   "pages": 915,
+   "locked_card": 4,
+   "not_playable": [
+    262
+   ]
+  },
+  "buttons": {
+   "sessions": 4,
+   "presses": 20
+  },
+  "resume": {
+   "ctx1_tab1_page3": [
+    2031,
+    1217
+   ],
+   "ctx2_tab6_page3": [
+    10101,
+    1183
+   ],
+   "ctx1_tab8_page2": [
+    50301,
+    50403
+   ],
+   "card_stage": 5
+  }
+ },
+ "planted_defects": null
+}

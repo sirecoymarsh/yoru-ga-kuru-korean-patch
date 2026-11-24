@@ -1,0 +1,2555 @@
+{
+ "status": "APRIL_CUMULATIVE_INSTALL_PREFLIGHT_PASS",
+ "files": {
+  "NightRemaster.ain": "7579a581f60e989d07f9abca13e4bc620aa6f65952974bbddbf0fa99e5f107d3",
+  "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+ },
+ "live_source_sha256": "1a7bd3352132f123f2dd1cf8491b8faf16391b7361a57d6f76585843b4757542",
+ "original_code_prefix_exact": true,
+ "original_messages_exact": true,
+ "original_strings_prefix_exact": true,
+ "serialized_schema_changes": 0,
+ "pinned_functions_unchanged": [
+  "KR_T9HomeCasual",
+  "KR_T9HomeConfig",
+  "C_SceneHomebase@CheckGameSysButtons",
+  "C_SceneHomebase@Run",
+  "LSys3xScript::RunEvent",
+  "KR_T18RunSandboxed"
+ ],
+ "changed_forwarders": [
+  "KR_T9StagePage",
+  "KR_CDraw",
+  "KR_P29DropMinis",
+  "KR_P29Buttons",
+  "KR_P29Board"
+ ],
+ "added_functions": [
+  {
+   "index": 32810,
+   "address": 14072656,
+   "name": "KR_U29Field",
+   "return-type": [
+    12,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "label",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "value",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "width",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labels",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "wrapped",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "out",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32811,
+   "address": 14073102,
+   "name": "KR_U29Head",
+   "return-type": [
+    12,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "head",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "stages",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": []
+  },
+  {
+   "index": 32812,
+   "address": 14073402,
+   "name": "KR_U29State",
+   "return-type": [
+    12,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": []
+  },
+  {
+   "index": 32813,
+   "address": 14073470,
+   "name": "KR_U29Seen",
+   "return-type": [
+    10,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "k",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "n",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "start",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32814,
+   "address": 14073768,
+   "name": "KR_U29Group",
+   "return-type": [
+    12,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "stages",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "k",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32815,
+   "address": 14074036,
+   "name": "KR_U29Info",
+   "return-type": [
+    12,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "stages",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "width",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labels",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "read",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "t",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "state",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "access",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "group",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "k",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "cond",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "story",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32816,
+   "address": 14075616,
+   "name": "KR_U29Buttons",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [],
+   "variables": [
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "n",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "label",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "info",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "w",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "h",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32817,
+   "address": 14076438,
+   "name": "KR_U29Draw",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "tab",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "page",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "completed",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "cref",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "head",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "first",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "s",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "box",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "state",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "cref",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "color",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "idline",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "when",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32818,
+   "address": 14078886,
+   "name": "KR_U29StageItem",
+   "return-type": [
+    12,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "name",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "line",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32819,
+   "address": 14079236,
+   "name": "KR_U29StageBuild",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [],
+   "variables": [
+    {
+     "name": "title",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32820,
+   "address": 14079576,
+   "name": "KR_U29Stages",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "k",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "m",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "r",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32821,
+   "address": 14079932,
+   "name": "KR_U29Board",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "head",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "stages",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "canplay",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "root",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "z",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "read",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "count",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "cols",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "step",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "rows",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "infoX",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "infoWidth",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "title",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "titleW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "titleH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "bodyY",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "infoH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "infoW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "font",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "attempt",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labelW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labelH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "valueWidth",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "text",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labels",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "who",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "x",
+     "name2": "",
+     "type": [
+      11,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "y",
+     "name2": "",
+     "type": [
+      11,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "captionW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "captionH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "bottom",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "height",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "focus",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32822,
+   "address": 14084386,
+   "name": "KR_U29April",
+   "return-type": [
+    47,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": []
+  },
+  {
+   "index": 32823,
+   "address": 14091970,
+   "name": "KR_U29Router",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "head",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "stages",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "canplay",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": []
+  },
+  {
+   "index": 32824,
+   "address": 14108870,
+   "name": "KR_AS29Story",
+   "return-type": [
+    12,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": []
+  },
+  {
+   "index": 32825,
+   "address": 14118474,
+   "name": "KR_AS29Info",
+   "return-type": [
+    12,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "stages",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "width",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labels",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "read",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "t",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "state",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "access",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "group",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "k",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "cond",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32826,
+   "address": 14119768,
+   "name": "KR_AS29Board",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "head",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "stages",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "canplay",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "root",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "z",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "read",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "count",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "cols",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "step",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "rows",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "infoX",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "infoWidth",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "title",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "titleW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "titleH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "bodyY",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "infoH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "infoW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "font",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "attempt",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labelW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labelH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "valueWidth",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "text",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "labels",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "heading",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "storyFont",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "storyWidth",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "storyY",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "hw",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "hh",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "sw",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "sh",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "who",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "x",
+     "name2": "",
+     "type": [
+      11,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "y",
+     "name2": "",
+     "type": [
+      11,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "captionW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "captionH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "bottom",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "height",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "focus",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32827,
+   "address": 14125212,
+   "name": "KR_AS29Router",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "head",
+     "name2": "",
+     "type": [
+      12,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "stages",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "canplay",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": []
+  },
+  {
+   "index": 32828,
+   "address": 14129064,
+   "name": "KR_AM29Mini",
+   "return-type": [
+    10,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "slot",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": []
+  },
+  {
+   "index": 32829,
+   "address": 14129132,
+   "name": "KR_AM29Drop",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "slot",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32830,
+   "address": 14129430,
+   "name": "KR_AM29Left",
+   "return-type": [
+    10,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "s",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "cg",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "left",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "box",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "w",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "h",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "x",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "y",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32831,
+   "address": 14130198,
+   "name": "KR_AM29Render",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "s",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "cg",
+     "name2": "",
+     "type": [
+      47,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "count",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "left",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "right",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "n",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "gap",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "total",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "badgeW",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "badgeH",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "x",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "y",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  },
+  {
+   "index": 32832,
+   "address": 14132202,
+   "name": "KR_AM29Draw",
+   "return-type": [
+    0,
+    -1,
+    0,
+    null
+   ],
+   "crc": 0,
+   "arguments": [
+    {
+     "name": "tab",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "page",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ],
+   "variables": [
+    {
+     "name": "first",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "s",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "i",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    },
+    {
+     "name": "no",
+     "name2": "",
+     "type": [
+      10,
+      -1,
+      0,
+      null
+     ],
+     "group-index": 0
+    }
+   ]
+  }
+ ],
+ "existing_resume_saves": 51,
+ "saved_return_frames": 1256,
+ "native_143_cells_three_states": true,
+ "native_146_details_two_states": true,
+ "source_reviewed_summaries": 146,
+ "transaction_fixture_pass": true,
+ "dll_unchanged": true,
+ "limitations": [
+  "April only; no expansion to other months.",
+  "Display-only update, not an all-route replay or gameplay test."
+ ]
+}

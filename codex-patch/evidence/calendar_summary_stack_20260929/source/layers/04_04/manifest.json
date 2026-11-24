@@ -1,0 +1,227 @@
+{
+ "tool": "calendar_summary_layer_tools_20260929",
+ "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+ "tag": "04",
+ "key": "calendar_04_summaries_20260929",
+ "dry_run": false,
+ "note": "Private candidate; install only after probe, verify, Claude review and the user's permission.",
+ "base": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\03_SB29",
+ "base_sha256": "32dbe25d0fa7dba14df7124914e12e36b9fa8bb3345b9205814226e1a2974a69",
+ "base_manifest_status": "BOARD_LAYER_STAGED_NATIVE_PENDING",
+ "base_chain": "base is a staged candidate over the installed AIN (installing this layer also installs the base changes)",
+ "base_meta_sha256": "e3a5da52ff598d7a6b9e000b1adf06308d1bdccdaad16d2985374a370688018c",
+ "base_raw_code_sha256": "c084a2614a820ce3898d70d840bc644abcf6f94f10008d40a7974effbda21013",
+ "live_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "live_manifest_sha256": "05d32f29b3d465194accba724d68dbfd6c966b3c591ac5de7f382b20bd505ab9",
+ "source_sha256": "32dbe25d0fa7dba14df7124914e12e36b9fa8bb3345b9205814226e1a2974a69",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "d828816d624c117ea887c02f3f72aa63de50d3a8096ae203d94652b192ce66d3",
+   "size": 4201957
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+   "size": 122368
+  }
+ },
+ "story_getter": "KR_W29Story",
+ "changed_functions": [
+  "KR_W29Story"
+ ],
+ "added_functions": {
+  "KR_ST04StoryBase": 32870,
+  "KR_ST04Story": 32871
+ },
+ "summary_count": 17,
+ "copy_count": 0,
+ "excluded_count": 0,
+ "summary_ids": [
+  2,
+  4,
+  5,
+  6,
+  7,
+  121,
+  2003,
+  2065,
+  2085,
+  2161,
+  2165,
+  2189,
+  2367,
+  5001,
+  5002,
+  5003,
+  5004
+ ],
+ "text_ids": [
+  2,
+  4,
+  5,
+  6,
+  7,
+  121,
+  2003,
+  2065,
+  2085,
+  2161,
+  2165,
+  2189,
+  2367,
+  5001,
+  5002,
+  5003,
+  5004
+ ],
+ "copies": {},
+ "id_range": [
+  2,
+  5004
+ ],
+ "tabs": {
+  "4월": 17
+ },
+ "overridden_ids": [
+  2,
+  4,
+  5,
+  6,
+  7,
+  121,
+  2003,
+  2065,
+  2085,
+  2161,
+  2165,
+  2189,
+  2367,
+  5001,
+  5002,
+  5003,
+  5004
+ ],
+ "summary_sources": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "sha256": "0c62191f5b1e17f6f8dbd6ffd648f51330761b12b35f7df47f6d7074ab60b552",
+   "scenarios": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\source\\scenarios.json",
+   "scenarios_sha256": "07ddc15dfe814abf526902c83a03b7d28654eada16af55239197545afa230942",
+   "translator_model": "Codex internal",
+   "author": "/root",
+   "events": 146,
+   "baked": 146,
+   "copies": 0,
+   "excluded": 0,
+   "drafts": 0
+  }
+ ],
+ "summaries_baked": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\04_04\\design\\summaries_baked.json",
+ "summaries_baked_sha256": "f0743e465294a9727ff4841dd075c549b2f9fb4843a6f7de0d1ff1f39c762b47",
+ "effective_summaries": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\04_04\\design\\effective_summaries.json",
+ "summary_layers": [
+  {
+   "tag": "04",
+   "ids": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    121,
+    2003,
+    2065,
+    2085,
+    2161,
+    2165,
+    2189,
+    2367,
+    5001,
+    5002,
+    5003,
+    5004
+   ],
+   "candidate": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\04_04\\candidate\\NightRemaster.ain"
+  }
+ ],
+ "gates": {
+  "metadata_changed": [
+   "KR_W29Story"
+  ],
+  "pinned_unchanged": [
+   "KR_T9HomeCasual",
+   "KR_T9HomeConfig",
+   "C_SceneHomebase@CheckGameSysButtons",
+   "C_SceneHomebase@Run",
+   "LSys3xScript::RunEvent",
+   "KR_T18RunSandboxed"
+  ],
+  "original_code_prefix_exact": true,
+  "original_strings_prefix_exact": true,
+  "messages_exact": true,
+  "summary_strings_in_str0": 17,
+  "native_opcodes_supported": true,
+  "forwarder_one_call": true,
+  "base_clone_op_sequence_equal": true,
+  "tree_twin_checked_arguments": 179,
+  "dll_unchanged": true
+ },
+ "original_code_prefix_exact": true,
+ "original_strings_prefix_exact": true,
+ "messages_exact": true,
+ "serialized_schema_changes": 0,
+ "pinned_functions_unchanged": [
+  "KR_T9HomeCasual",
+  "KR_T9HomeConfig",
+  "C_SceneHomebase@CheckGameSysButtons",
+  "C_SceneHomebase@Run",
+  "LSys3xScript::RunEvent",
+  "KR_T18RunSandboxed"
+ ],
+ "native_opcodes_supported": true,
+ "installed": false,
+ "time": "2026-09-29T22:27:19.414895+09:00",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "translator_models": [
+  "Codex internal"
+ ],
+ "provenance": {
+  "summary_text": [
+   "Codex internal"
+  ],
+  "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+  "term_alignment_edit": "Claude Opus 5.5 (claude-opus-5-5)",
+  "term_alignment_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+  "ko": "원문 요약 Codex internal, 용어 정합 수정 Claude Opus 5.5 (claude-opus-5-5)"
+ },
+ "term_patch": {
+  "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+  "file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+  "threshold": "high",
+  "applied": 18,
+  "changed_ids": [
+   2,
+   4,
+   5,
+   6,
+   7,
+   121,
+   2003,
+   2065,
+   2085,
+   2161,
+   2165,
+   2189,
+   2367,
+   5001,
+   5002,
+   5003,
+   5004
+  ],
+  "gate_skipped": [],
+  "skipped_summaries": 0,
+  "skipped_proposals": 0,
+  "record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\04_04\\evidence\\term_patch_applied.json",
+  "record_sha256": "2b292fb32e85c37ceaecbee52de43b7ebbee17bc2f588015e072fb4e69e289c4"
+ },
+ "only_patched": true
+}

@@ -1,0 +1,17 @@
+{
+  "status": "SWEEP_INFINITE_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "5429a0f4c2e50342e852e0c2e0279d8a5c6471571110b899ba7984e49eddb822"
+  },
+  "predicate_ids_checked": 10002,
+  "only_newly_allowed": [
+    1201,
+    2601
+  ],
+  "party_and_start_cases": 18,
+  "negative_context_cases": 12,
+  "rollback_after_chest_cases": 2,
+  "native_opcodes_supported": true,
+  "native_gameplay_verified": false,
+  "scope": "Actual compiled whitelist and existing compiled scene/control logic in fixture; native reward/HLL boundaries mocked. Only original31888metadataentry changes."
+}

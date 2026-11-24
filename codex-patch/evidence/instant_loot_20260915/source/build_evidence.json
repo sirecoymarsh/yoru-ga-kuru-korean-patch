@@ -1,0 +1,76 @@
+{
+  "status": "INSTANT_LOOT_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "9b23c1bb239976c24c927e04d7ef90cb3d7a39056172c4fe8941caccc10d44ea",
+    "status": "MOD_TAB_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "28b837397fc79edb89de826819cd8e9a8de077e1c21a7513b748be13fe5a7412",
+    "NightRemasterPact.afa": "fc0f8664cfd41fcac8405d7d009f9327f86b26e805936e321ad48ce90cef5308"
+  },
+  "files": {
+    "NightRemaster.ain": "e12a6cc123471e3dd445839f7559ebbc6e5ea889bdae4e0cfc2db15c69ec52a6",
+    "NightRemasterPact.afa": "747206f05a8ad987c0c270e4ff5277757d0d8609ee0fca9c08529289ea9238e6"
+  },
+  "AIN": {
+    "patched_existing": [
+      26258,
+      28664,
+      29817,
+      29818,
+      31849
+    ],
+    "added_functions": {
+      "KR_GetLoot": 31861,
+      "KR_SetLoot": 31862,
+      "KR_SetBattleMode": 31863,
+      "KR_IsSilentLoot": 31864,
+      "KR_LootEligible": 31865,
+      "KR_LootMonsterById": 31866,
+      "KR_LootHasLivingParty": 31867,
+      "KR_LootRemove": 31868,
+      "KR_AddLootMonster": 31869,
+      "KR_TryInstantLoot": 31870
+    },
+    "relocated_switches": [
+      361,
+      450,
+      451
+    ],
+    "original_CODE_STR0_MSG1_preserved": true,
+    "save_schema_unchanged": true,
+    "option": "owned flag92: off0, quick1, instant2; passive no-op setters",
+    "quiet_settle_sentinels": [
+      2026091500,
+      2026091501
+    ]
+  },
+  "PACT": {
+    "archive": {
+      "source_sha256": "fc0f8664cfd41fcac8405d7d009f9327f86b26e805936e321ad48ce90cef5308",
+      "candidate_sha256": "747206f05a8ad987c0c270e4ff5277757d0d8609ee0fca9c08529289ea9238e6",
+      "original_entries_preserved": 186,
+      "replaced_ids": [
+        185
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "instant_loot_20260915\\NightRemasterPact.afa"
+    },
+    "changed_entries": [
+      185
+    ],
+    "new_control": "KR_CheatLoot",
+    "label": "일반 적 즉시 처치",
+    "raster_and_fonts_unchanged": true
+  },
+  "EX_unchanged_sha256": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+  "translator_model": "Codex internal",
+  "native_gameplay_verified": false
+}

@@ -1,0 +1,1018 @@
+{
+  "schema": "yoru-autonav.candidate.v1",
+  "status": "AUTONAV_20261015_STAGED_NOT_INSTALLED",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)",
+  "built": "2026-10-15T21:51:08",
+  "seconds": 114,
+  "base": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "fcfb8a49c6910889c2f49f50ed796210c2a04211f6e194d0ad992cd796ecd1ea",
+    "status": "CLAUDE_TEXT_20261001_INSTALLED_VM_PASS",
+    "ain_sha256": "3afdd2b1e11a107defa4b91465f97241e7ddc70fb681f0561e8b67fd897aa8f9",
+    "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+    "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+    "winmm_sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+    "checked_at_start_and_end": true
+  },
+  "files": {
+    "NightRemaster.ain": {
+      "sha256": "1e96d3e797184a7a13236208988fe6ca3d37cf55f9e553f0ccc5ad7ed7659188",
+      "size": 4419468
+    },
+    "NightRemasterPact.afa": {
+      "sha256": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce",
+      "size": 828531,
+      "built_by": "pact/build_pact_autonav.py",
+      "source_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+      "changed_entries": [
+        185
+      ],
+      "evidence_sha256": "6de7f84dca4d8cc4f51b842287c2b1491afadf514397cda562049245d24007ff",
+      "note": "entry 185 Asra/Mods: the 오토 내비게이션 row (KR_Nav* parts)"
+    }
+  },
+  "pact_changed": true,
+  "ex_changed": false,
+  "fnl_changed": false,
+  "winmm_changed": false,
+  "data": {
+    "choice_table_sha256": "40dffc9218f20840b0e58bfec476f615c7b2ff0a13aded4242da6bba6473b4ac",
+    "schedule_sha256": "f9669421f182976b230732e668bd30d1a9821039ca2c8133592a5227ae49ae16",
+    "events": [
+      58,
+      63,
+      69,
+      104,
+      258,
+      260,
+      322,
+      611,
+      10021,
+      20041,
+      20081,
+      20164,
+      30001,
+      30021,
+      30152,
+      40021,
+      40041,
+      40043,
+      40061
+    ],
+    "needs": [
+      {
+        "person": 2,
+        "value": 5,
+        "frm": 421,
+        "last": 616,
+        "ev": 10001,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 2,
+        "value": 15,
+        "frm": 505,
+        "last": 630,
+        "ev": 10021,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 2,
+        "value": 20,
+        "frm": 804,
+        "last": 824,
+        "ev": 10061,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 2,
+        "value": 22,
+        "frm": 830,
+        "last": 830,
+        "ev": 10081,
+        "kind": "conditional"
+      },
+      {
+        "person": 2,
+        "value": 30,
+        "frm": 908,
+        "last": 1117,
+        "ev": 10041,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 2,
+        "value": 50,
+        "frm": 1011,
+        "last": 1011,
+        "ev": 30158,
+        "kind": "scheduled_special"
+      },
+      {
+        "person": 3,
+        "value": 15,
+        "frm": 505,
+        "last": 630,
+        "ev": 20021,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 3,
+        "value": 25,
+        "frm": 526,
+        "last": 630,
+        "ev": 20041,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 3,
+        "value": 30,
+        "frm": 727,
+        "last": 727,
+        "ev": 20061,
+        "kind": "conditional"
+      },
+      {
+        "person": 3,
+        "value": 35,
+        "frm": 803,
+        "last": 803,
+        "ev": 20162,
+        "kind": "conditional"
+      },
+      {
+        "person": 3,
+        "value": 50,
+        "frm": 1011,
+        "last": 1011,
+        "ev": 30160,
+        "kind": "scheduled_special"
+      },
+      {
+        "person": 4,
+        "value": 5,
+        "frm": 526,
+        "last": 609,
+        "ev": 30001,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 4,
+        "value": 15,
+        "frm": 615,
+        "last": 930,
+        "ev": 30021,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 4,
+        "value": 50,
+        "frm": 1011,
+        "last": 1011,
+        "ev": 30162,
+        "kind": "scheduled_special"
+      },
+      {
+        "person": 4,
+        "value": 60,
+        "frm": 1015,
+        "last": 1015,
+        "ev": 401,
+        "kind": "conditional"
+      },
+      {
+        "person": 5,
+        "value": 10,
+        "frm": 707,
+        "last": 901,
+        "ev": 40001,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 5,
+        "value": 15,
+        "frm": 714,
+        "last": 908,
+        "ev": 40021,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 5,
+        "value": 20,
+        "frm": 804,
+        "last": 915,
+        "ev": 40041,
+        "kind": "after_training_priority"
+      },
+      {
+        "person": 5,
+        "value": 30,
+        "frm": 811,
+        "last": 915,
+        "ev": 40061,
+        "kind": "conditional"
+      },
+      {
+        "person": 5,
+        "value": 50,
+        "frm": 1011,
+        "last": 1011,
+        "ev": 30164,
+        "kind": "scheduled_special"
+      }
+    ],
+    "star": {
+      "BLINK_MS": 1000,
+      "GOLD_G": 55,
+      "GOLD_B": 195,
+      "GLOW_W": 720,
+      "GLOW_PAD": 10,
+      "GLOW_X": "-10.0",
+      "GLOW_A0": 0,
+      "GLOW_A1": 110,
+      "BOX_R": 150,
+      "BOX_G": 110,
+      "BOX_B": 20,
+      "ROW_H": 40
+    },
+    "row_h": 40,
+    "star_dy": 0,
+    "wait_ms": 20000,
+    "storage": "N_ScenarioRegister _EV_TABLE name KR_AUTONAV_<2..5>",
+    "session_variables": "YoruKR.AN.*"
+  },
+  "added_functions": {
+    "KR_ANPick": 33018,
+    "KR_ANNeed": 33019,
+    "KR_ANRowY": 33020,
+    "KR_AN_E00058": 33021,
+    "KR_AN_E00063": 33022,
+    "KR_AN_E00069": 33023,
+    "KR_AN_E00104": 33024,
+    "KR_AN_E00258": 33025,
+    "KR_AN_E00260": 33026,
+    "KR_AN_E00322": 33027,
+    "KR_AN_E00611": 33028,
+    "KR_AN_E10021": 33029,
+    "KR_AN_E20041": 33030,
+    "KR_AN_E20081": 33031,
+    "KR_AN_E20164": 33032,
+    "KR_AN_E30001": 33033,
+    "KR_AN_E30021": 33034,
+    "KR_AN_E30152": 33035,
+    "KR_AN_E40021": 33036,
+    "KR_AN_E40041": 33037,
+    "KR_AN_E40043": 33038,
+    "KR_AN_E40061": 33039,
+    "KR_ANVersion": 33040,
+    "KR_ANGlowPart": 33041,
+    "KR_ANWaitMs": 33042,
+    "KR_ANKey": 33043,
+    "KR_ANTarget": 33044,
+    "KR_ANSetTarget": 33045,
+    "KR_ANReplay": 33046,
+    "KR_ANInGame": 33047,
+    "KR_ANActiveTarget": 33048,
+    "KR_ANToday": 33049,
+    "KR_ANGet": 33050,
+    "KR_ANSet": 33051,
+    "KR_ANGetInt": 33052,
+    "KR_ANSetInt": 33053,
+    "KR_ANAccum": 33054,
+    "KR_ANDrop": 33055,
+    "KR_ANTri": 33056,
+    "KR_ANTint": 33057,
+    "KR_ANUntint": 33058,
+    "KR_ANRowBegin": 33059,
+    "KR_ANRowClear": 33060,
+    "KR_ANGlowMake": 33061,
+    "KR_ANRowAnim": 33062,
+    "KR_ANSelect": 33063,
+    "KR_ANInfoMade": 33064,
+    "KR_ANSelTick": 33065,
+    "KR_ANSelFrame": 33066,
+    "KR_ANInfoCreate": 33067,
+    "KR_ANTrainRestore": 33068,
+    "KR_ANTrainAnim": 33069,
+    "KR_ANTrainTick": 33070,
+    "KR_ANTrainFrame": 33071,
+    "KR_ANTrainConfirm": 33072,
+    "KR_ANTopUp": 33073,
+    "KR_ANDateGet": 33074,
+    "KR_ANCfgName": 33075,
+    "KR_ANCfgTarget": 33076,
+    "KR_ANCfgWrite": 33077,
+    "KR_ANCfgToParts": 33078,
+    "KR_ANCfgToAsra": 33079,
+    "KR_ANCfgSeenToParts": 33080,
+    "KR_ANCfgSeenToAsra": 33081,
+    "KR_ANNewGame": 33082,
+    "KR_ANOpeningQ": 33083
+  },
+  "jam_bodies": [
+    "KR_ANInfoCreate",
+    "KR_ANDateGet",
+    "KR_ANOpeningQ"
+  ],
+  "same_length_sites": [
+    {
+      "function": "ＥＶ／元／E00058",
+      "fid": 30160,
+      "function_address": 7272910,
+      "site": 7273422,
+      "site_offset": 512,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00058",
+      "replacement_fid": 33021,
+      "before": "3000256d0000",
+      "after": "3000fd800000",
+      "operand_bytes": [
+        7273424,
+        7273428
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00063",
+      "fid": 30167,
+      "function_address": 7284544,
+      "site": 7285476,
+      "site_offset": 932,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00063",
+      "replacement_fid": 33022,
+      "before": "3000256d0000",
+      "after": "3000fe800000",
+      "operand_bytes": [
+        7285478,
+        7285482
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00069",
+      "fid": 30175,
+      "function_address": 7326148,
+      "site": 7338918,
+      "site_offset": 12770,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00069",
+      "replacement_fid": 33023,
+      "before": "3000256d0000",
+      "after": "3000ff800000",
+      "operand_bytes": [
+        7338920,
+        7338924
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00104",
+      "fid": 30210,
+      "function_address": 7485046,
+      "site": 7486974,
+      "site_offset": 1928,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00104",
+      "replacement_fid": 33024,
+      "before": "3000256d0000",
+      "after": "300000810000",
+      "operand_bytes": [
+        7486976,
+        7486980
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00258",
+      "fid": 30303,
+      "function_address": 7639246,
+      "site": 7640898,
+      "site_offset": 1652,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00258",
+      "replacement_fid": 33025,
+      "before": "3000256d0000",
+      "after": "300001810000",
+      "operand_bytes": [
+        7640900,
+        7640904
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00260",
+      "fid": 30307,
+      "function_address": 7644130,
+      "site": 7645176,
+      "site_offset": 1046,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00260",
+      "replacement_fid": 33026,
+      "before": "3000256d0000",
+      "after": "300002810000",
+      "operand_bytes": [
+        7645178,
+        7645182
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00322",
+      "fid": 30317,
+      "function_address": 7685422,
+      "site": 7686546,
+      "site_offset": 1124,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00322",
+      "replacement_fid": 33027,
+      "before": "3000256d0000",
+      "after": "300003810000",
+      "operand_bytes": [
+        7686548,
+        7686552
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E00611",
+      "fid": 30366,
+      "function_address": 7796522,
+      "site": 7798906,
+      "site_offset": 2384,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E00611",
+      "replacement_fid": 33028,
+      "before": "3000256d0000",
+      "after": "300004810000",
+      "operand_bytes": [
+        7798908,
+        7798912
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E10021",
+      "fid": 30446,
+      "function_address": 8036646,
+      "site": 8037758,
+      "site_offset": 1112,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E10021",
+      "replacement_fid": 33029,
+      "before": "3000256d0000",
+      "after": "300005810000",
+      "operand_bytes": [
+        8037760,
+        8037764
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E20041",
+      "fid": 30465,
+      "function_address": 8147364,
+      "site": 8148488,
+      "site_offset": 1124,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E20041",
+      "replacement_fid": 33030,
+      "before": "3000256d0000",
+      "after": "300006810000",
+      "operand_bytes": [
+        8148490,
+        8148494
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E20081",
+      "fid": 30469,
+      "function_address": 8163678,
+      "site": 8169410,
+      "site_offset": 5732,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E20081",
+      "replacement_fid": 33031,
+      "before": "3000256d0000",
+      "after": "300007810000",
+      "operand_bytes": [
+        8169412,
+        8169416
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E20164",
+      "fid": 30480,
+      "function_address": 8230758,
+      "site": 8231558,
+      "site_offset": 800,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E20164",
+      "replacement_fid": 33032,
+      "before": "3000256d0000",
+      "after": "300008810000",
+      "operand_bytes": [
+        8231560,
+        8231564
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E30001",
+      "fid": 30511,
+      "function_address": 8350308,
+      "site": 8354480,
+      "site_offset": 4172,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E30001",
+      "replacement_fid": 33033,
+      "before": "3000256d0000",
+      "after": "300009810000",
+      "operand_bytes": [
+        8354482,
+        8354486
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E30021",
+      "fid": 30514,
+      "function_address": 8359860,
+      "site": 8363132,
+      "site_offset": 3272,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E30021",
+      "replacement_fid": 33034,
+      "before": "3000256d0000",
+      "after": "30000a810000",
+      "operand_bytes": [
+        8363134,
+        8363138
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E30152",
+      "fid": 30520,
+      "function_address": 8379462,
+      "site": 8379914,
+      "site_offset": 452,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E30152",
+      "replacement_fid": 33035,
+      "before": "3000256d0000",
+      "after": "30000b810000",
+      "operand_bytes": [
+        8379916,
+        8379920
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E40021",
+      "fid": 30490,
+      "function_address": 8249040,
+      "site": 8249786,
+      "site_offset": 746,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E40021",
+      "replacement_fid": 33036,
+      "before": "3000256d0000",
+      "after": "30000c810000",
+      "operand_bytes": [
+        8249788,
+        8249792
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E40041",
+      "fid": 30493,
+      "function_address": 8258508,
+      "site": 8259152,
+      "site_offset": 644,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E40041",
+      "replacement_fid": 33037,
+      "before": "3000256d0000",
+      "after": "30000d810000",
+      "operand_bytes": [
+        8259154,
+        8259158
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E40043",
+      "fid": 30495,
+      "function_address": 8259744,
+      "site": 8262968,
+      "site_offset": 3224,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E40043",
+      "replacement_fid": 33038,
+      "before": "3000256d0000",
+      "after": "30000e810000",
+      "operand_bytes": [
+        8262970,
+        8262974
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "ＥＶ／元／E40061",
+      "fid": 30498,
+      "function_address": 8270544,
+      "site": 8270912,
+      "site_offset": 368,
+      "kind": "CALLFUNC",
+      "original": "■選択メッセージ／実行",
+      "original_fid": 27941,
+      "replacement": "KR_AN_E40061",
+      "replacement_fid": 33039,
+      "before": "3000256d0000",
+      "after": "30000f810000",
+      "operand_bytes": [
+        8270914,
+        8270918
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SelectMessage@CreateParts",
+      "fid": 27986,
+      "function_address": 5943114,
+      "site": 5943468,
+      "site_offset": 354,
+      "kind": "CALLMETHOD target (PUSH operand)",
+      "original": "C_SelectMessInfo@CreateParts",
+      "original_fid": 27964,
+      "replacement": "KR_ANInfoCreate",
+      "replacement_fid": 33067,
+      "before": "00003c6d0000",
+      "after": "00002b810000",
+      "operand_bytes": [
+        5943470,
+        5943474
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SelectMessage@Update",
+      "fid": 27979,
+      "function_address": 5939318,
+      "site": 5939318,
+      "site_offset": 0,
+      "kind": "CALLFUNC",
+      "original": "■バックログ起動監視",
+      "original_fid": 26028,
+      "replacement": "KR_ANSelFrame",
+      "replacement_fid": 33066,
+      "before": "3000ac650000",
+      "after": "30002a810000",
+      "operand_bytes": [
+        5939320,
+        5939324
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneTraining@_UpdateInputPartner",
+      "fid": 28306,
+      "function_address": 6066986,
+      "site": 6067184,
+      "site_offset": 198,
+      "kind": "CALLFUNC",
+      "original": "C_UserInputManager::IsClickCancelOtherMouse",
+      "original_fid": 27663,
+      "replacement": "KR_ANTrainFrame",
+      "replacement_fid": 33071,
+      "before": "30000f6c0000",
+      "after": "30002f810000",
+      "operand_bytes": [
+        6067186,
+        6067190
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneTraining@RunSelectPartner",
+      "fid": 28305,
+      "function_address": 6064432,
+      "site": 6066556,
+      "site_offset": 2124,
+      "kind": "CALLFUNC",
+      "original": "■選択ダイアログ／実行",
+      "original_fid": 27873,
+      "replacement": "KR_ANTrainConfirm",
+      "replacement_fid": 33072,
+      "before": "3000e16c0000",
+      "after": "300030810000",
+      "operand_bytes": [
+        6066558,
+        6066562
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "L_EventCall::Check",
+      "fid": 26393,
+      "function_address": 5470922,
+      "site": 5471020,
+      "site_offset": 98,
+      "kind": "CALLMETHOD target (PUSH operand)",
+      "original": "C_GameFlags@Date::get",
+      "original_fid": 26479,
+      "replacement": "KR_ANDateGet",
+      "replacement_fid": 33074,
+      "before": "00006f670000",
+      "after": "000032810000",
+      "operand_bytes": [
+        5471022,
+        5471026
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 2,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneGame@Run",
+      "fid": 28172,
+      "function_address": 6032012,
+      "site": 6032042,
+      "site_offset": 30,
+      "kind": "CALLMETHOD target (PUSH operand)",
+      "original": "C_GameFlags@IsPlayOpening::get",
+      "original_fid": 26529,
+      "replacement": "KR_ANOpeningQ",
+      "replacement_fid": 33083,
+      "before": "0000a1670000",
+      "after": "00003b810000",
+      "operand_bytes": [
+        6032044,
+        6032048
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_ConfigView@EventConfAsraDataForParts",
+      "fid": 29817,
+      "function_address": 11515272,
+      "site": 11517876,
+      "site_offset": 2604,
+      "kind": "CALLFUNC",
+      "original": "AFL_Activity_IsExistPartsByName",
+      "original_fid": 464,
+      "replacement": "KR_ANCfgSeenToParts",
+      "replacement_fid": 33080,
+      "before": "3000d0010000",
+      "after": "300038810000",
+      "operand_bytes": [
+        11517878,
+        11517882
+      ],
+      "occurrence": 10,
+      "calls_of_original_in_function": 11,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_ConfigView@EventConfPartsDataForAsra",
+      "fid": 29818,
+      "function_address": 11517992,
+      "site": 11520996,
+      "site_offset": 3004,
+      "kind": "CALLFUNC",
+      "original": "AFL_Activity_IsExistPartsByName",
+      "original_fid": 464,
+      "replacement": "KR_ANCfgSeenToAsra",
+      "replacement_fid": 33081,
+      "before": "3000d0010000",
+      "after": "300039810000",
+      "operand_bytes": [
+        11520998,
+        11521002
+      ],
+      "occurrence": 12,
+      "calls_of_original_in_function": 13,
+      "owner_is_original": true
+    }
+  ],
+  "relocated_original_functions": [],
+  "pinned_functions": {
+    "KR_T9HomeCasual": {
+      "index": 32478,
+      "address": 12241940,
+      "code_bytes": 232,
+      "bytes_differing": 0
+    },
+    "KR_T9HomeConfig": {
+      "index": 32477,
+      "address": 12241642,
+      "code_bytes": 298,
+      "bytes_differing": 0
+    },
+    "C_SceneHomebase@CheckGameSysButtons": {
+      "index": 28552,
+      "address": 6313814,
+      "code_bytes": 550,
+      "bytes_differing": 0
+    },
+    "C_SceneHomebase@Run": {
+      "index": 28542,
+      "address": 6299808,
+      "code_bytes": 1104,
+      "bytes_differing": 0
+    },
+    "LSys3xScript::RunEvent": {
+      "index": 26381,
+      "address": 5468856,
+      "code_bytes": 1292,
+      "bytes_differing": 0
+    },
+    "KR_T18RunSandboxed": {
+      "index": 32548,
+      "address": 12316890,
+      "code_bytes": 440,
+      "bytes_differing": 0
+    },
+    "KR_CReplayRun": {
+      "index": 32690,
+      "address": 13167576,
+      "code_bytes": 494,
+      "bytes_differing": 0
+    }
+  },
+  "invariance": {
+    "original_function_entries_identical": true,
+    "other_metadata_identical": [
+      "delegates",
+      "enums",
+      "filenames",
+      "game-version",
+      "global-groups",
+      "globals",
+      "keycode",
+      "libraries",
+      "main",
+      "msgf",
+      "ojmp",
+      "structures",
+      "switches",
+      "version"
+    ],
+    "old_code_bytes_changed": 54,
+    "old_code_changes_only_at_swapped_operands": true,
+    "MSG1_exact": true,
+    "STR0_prefix_exact": true,
+    "STR0_added": 33,
+    "functions_added": 66,
+    "pinned": {
+      "KR_T9HomeCasual": {
+        "index": 32478,
+        "address": 12241940,
+        "code_bytes": 232,
+        "bytes_differing": 0
+      },
+      "KR_T9HomeConfig": {
+        "index": 32477,
+        "address": 12241642,
+        "code_bytes": 298,
+        "bytes_differing": 0
+      },
+      "C_SceneHomebase@CheckGameSysButtons": {
+        "index": 28552,
+        "address": 6313814,
+        "code_bytes": 550,
+        "bytes_differing": 0
+      },
+      "C_SceneHomebase@Run": {
+        "index": 28542,
+        "address": 6299808,
+        "code_bytes": 1104,
+        "bytes_differing": 0
+      },
+      "LSys3xScript::RunEvent": {
+        "index": 26381,
+        "address": 5468856,
+        "code_bytes": 1292,
+        "bytes_differing": 0
+      },
+      "KR_T18RunSandboxed": {
+        "index": 32548,
+        "address": 12316890,
+        "code_bytes": 440,
+        "bytes_differing": 0
+      },
+      "KR_CReplayRun": {
+        "index": 32690,
+        "address": 13167576,
+        "code_bytes": 494,
+        "bytes_differing": 0
+      }
+    }
+  },
+  "parts": {
+    "choice_glow_band": 2026101503,
+    "choice_row": "the answer row parts found as new children of 矩形_項目位置 (tinted)",
+    "training": "the target portrait (parent of the r20 box, tinted) and the r20 box (add colour)"
+  },
+  "native_opcode_audit": {
+    "active_functions": 31197,
+    "instruction_sites": 2269859,
+    "all_active_opcodes_supported": true,
+    "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+  },
+  "new_globals": 0,
+  "new_struct_members": 0,
+  "serialized_schema_changes": 0,
+  "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "jaf_source_sha256": "7a9855933f0e5ff10544829ace99a87bc1b224b75537d7de52dff425504b56f0",
+  "build_script_sha256": "a9cbed75c96fe4373777da3e13dac531bcd8a255363988c8f34c5ce9da464c63"
+}

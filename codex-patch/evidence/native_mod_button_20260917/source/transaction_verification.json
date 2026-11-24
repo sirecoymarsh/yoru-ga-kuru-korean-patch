@@ -1,0 +1,19 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\native_mod_button_transaction_fixture_20260917\\복구 검증 shaq966m",
+  "payload": {
+    "NightRemasterPact.afa": "335e063313527913d0a7b5197e66e6a3ef31b9a2ab508a21d3a8b062e084be92",
+    "NightRemasterCG.afa": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "nth_replacement_rollback": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "no_incoming_residue": true,
+  "zip": "not applicable: live data-only installation; no archive emitted"
+}

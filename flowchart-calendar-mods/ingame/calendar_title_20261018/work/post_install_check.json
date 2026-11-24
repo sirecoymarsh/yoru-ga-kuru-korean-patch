@@ -1,0 +1,22 @@
+{
+ "pointer": {
+  "status": "CALENDAR_TITLE_20261018_INSTALLED_NATIVE_PASS",
+  "manifest_sha256": "01baac4304726283d25457b3d31cd59498e0981faf6bed6b3cb59d52e25abaab",
+  "manifest_hash_matches": true
+ },
+ "journal": "COMMITTED",
+ "runtime_files": 99,
+ "runtime_mismatches": [],
+ "runtime_ain": "9be1a952441336b80be40cd5300addec04620a80da17885e47e3e4daf2553729",
+ "previous_manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\calendar_title_20261018\\before\\manifest.json",
+ "rows_changed": [
+  "NightRemaster.ain"
+ ],
+ "contracts_dir": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908",
+ "contracts": 98,
+ "contracts_with_other_ain": [],
+ "new_contract_status": "CALENDAR_TITLE_20261018_INSTALLED_NATIVE_PASS",
+ "saves": 524,
+ "saves_changed": [],
+ "progress_note": true
+}

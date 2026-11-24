@@ -1,0 +1,20 @@
+{
+    "status":  "SCANNED_NO_TARGET_DETECTIONS",
+    "started":  "2026-09-29T23:44:18.1655436+09:00",
+    "ended":  "2026-09-29T23:44:20.0116171+09:00",
+    "target":  "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\15_TF29\\candidate\\scan_payload_abae5787031c",
+    "files":  {
+                  "winmm.dll":  "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+                  "NightRemaster.ain":  "abae5787031cbf8330a429a4b5d9683241268d87f077d88de24974465ff5c109"
+              },
+    "engine":  "1.1.26080.3",
+    "platform":  "4.18.26080.4",
+    "signatures":  "1.459.455.0",
+    "antivirusEnabled":  true,
+    "before":  [
+
+               ],
+    "after":  [
+
+              ]
+}

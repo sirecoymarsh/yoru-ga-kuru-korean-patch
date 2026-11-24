@@ -1,0 +1,227 @@
+* {
+	margin:0;
+	padding:0;
+	font-size:10pt;
+	line-height:13pt;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+body {
+	color:#202050;
+	background:#e2f3ff url(./img/back.png) repeat-y;
+}
+
+/*	html,body {scrollbar-base-color:#402020;}	*/
+
+a:link, a:visited {color:#5050e0;}
+a:hover {color:#ff9300;text-decoration:underline;}
+a:active {color:#a06040;text-decoration:underline;}
+
+#menu a:link,#menu a:visited {color:#f0b000;}
+
+
+.submenudec {
+	color:#000000;text-decoration:underline;
+} /* 折りたたみ部分 */
+
+
+p {margin:0.3em 0 0.8em 0;line-height:150%;}
+
+hr {
+	height:2px;
+	border:none;
+	border-top:2px #000000 dotted;
+}
+
+.main {
+	width:610px;
+	margin-left:250px;
+}
+
+#menu {
+	position:fixed;
+	z-index:999;
+	width:220px;
+	height:100%;
+/*	background-color:#ff00ff; */
+	background:#162129 url(./img/back.png) repeat-y;
+	padding:0;
+	margin:0;
+	float:left;
+	color:#ffffff;
+}
+
+
+
+#menu p {margin:0.2em 0;}
+
+.p2 {padding-bottom:0.5em;}
+
+.subpoint {font-size:60%;}
+
+.menutxt {
+	width:200px;
+	padding:12px 0 0 12px;
+}
+
+.maintd table {
+	width:420px;
+	margin:50px auto;
+}
+
+.maintd td {width:210px;}
+
+.maintd p {font-size:12px;}
+
+.box {border:2px solid #9777bd;padding:0.2em 1em;background-color:#f7f7ff;}
+
+.box td {vertical-align:top;}
+
+.cent {text-align:center;}
+
+.h2h {font-weight:bold;font-size:180%;}
+
+.txtm {
+	padding-left:1em;
+	margin-bottom:1em;
+}
+
+.txtm p {padding-left:1em;}
+
+.hback {
+	text-align: left;
+	font-size:150%;
+	color: #ffffff;
+	background:url("./img/hback.png") no-repeat;
+	width:440px;
+	height:60px;
+	line-height: 60px;
+	padding-left:1.5em;
+	margin:1em 0;
+}
+
+h4,h5 {
+	text-align: left;
+	color: #ffffff;
+	padding-left:1.5em;
+	margin-top: 2.5em;
+}
+
+h4 {
+	height:40px;
+	margin: 1.5em 0 1em 0;
+}
+
+h5 {
+	line-height:36px;
+	height:36px;
+	margin: 2em 0 1em 0;
+	padding-left:1.7em;
+}
+
+.h5back {
+	background:url("./img/h5back.png") no-repeat;
+	width:291px;
+}
+
+.h5back1 {background:url("./img/h5back1.png") no-repeat;}
+.h5back2 {background:url("./img/h5back2.png") no-repeat;}
+
+h4.h5back1, h4.h5back2 {
+	width:521px;
+	height:36px;
+	font-size:150%;
+	font-weight:bold;
+	padding:0.8em 0 0 3em;
+
+
+}
+
+
+
+
+.bcb {border:2px solid #c2b7c3;}
+.bcr {border:2px solid #fec1a1;}
+
+.sys {
+	display: inline-block;
+	_display:inline;
+	margin:0 1em 1em 2em;
+	padding:0.6em;
+}
+
+
+
+ul {
+	margin: 1em 2em;
+}
+
+li {
+	padding-bottom: 0.7rem;
+}
+
+
+
+
+.return {
+	text-align:right;
+	padding-bottom: 2em;
+}
+.return a {font-size:80%;}
+
+.vt {vertical-align:top;}
+.vt img {margin-top: 3.5em;}
+
+.job {margin:0.5em 0 1em 0;line-height:130%;}
+
+.bold {font-weight:bold;}
+
+.bold2 {
+	font-weight:bold;
+	color:#ffeaa0;
+}
+
+.staff {text-align:center;}
+
+.staff table {
+	border-collapse:collapse;
+	border-spacing:0;
+	text-align:left;
+	display:inline-table;
+	_display:inline;
+	/display:inline;
+	/zoom:1;
+	width:100%;
+	padding-left:1.5em;
+}
+
+.staff tr {border-bottom: dotted 2px #9ac;}
+
+.staff td,.staff th {
+	padding:0.7em 0.5em 0.5em 0;
+	text-align:left;
+	vertical-align:top;
+}
+
+.staff td {
+	width: 45%;
+}
+
+.staff th {
+	font-size:110%;
+	width: 55%;
+}
+
+.staff td.staff-sub {padding-left:4em;}
+
+
+
+.brandname {background-color:#acacf5;}
+
+.border2 {border:4px double #888888;}
+
+
+
+
+/* Korean localization */
+html, body, input, button, select { font-family: "Malgun Gothic", "맑은 고딕", "Noto Sans CJK KR", sans-serif; }

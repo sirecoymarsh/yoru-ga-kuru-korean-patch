@@ -1,0 +1,309 @@
+{
+  "counts": {
+    "default_all_MSG1": 100944,
+    "default_display_rows_unchanged": 21,
+    "default_dungeon_follows_term": 71,
+    "scenario_term_rows": 5370,
+    "scenario_dynamic_pages": 72,
+    "scenario_display_rows": 63,
+    "scenario_dungeon_rows": 213,
+    "battle_non_term_identical": 20,
+    "false_positive_unchanged": 9,
+    "presets_valid": 23,
+    "cross_term_collision_rejected": 56,
+    "invalid_custom_rejected": 10,
+    "v3_save_reload": 1,
+    "v2_file_loads_with_default_homura": 1,
+    "v2_upgraded_backup_kept": 1,
+    "failed_write_keeps_previous": 1,
+    "corrupt_main_uses_backup": 1,
+    "no_files_defaults": 1,
+    "menu_homura_preset_saved": 1,
+    "menu_japanese_labels": 1,
+    "menu_japanese_readings": 1,
+    "menu_restore_defaults": 1,
+    "menu_cancel_no_write": 3,
+    "active_native_choice_not_deleted": 1,
+    "read_count_matches_model": 1,
+    "cg_any_variant_opens_cell": 1,
+    "scene_and_ending": 1,
+    "info_page_flow": 1,
+    "info_guards": 1,
+    "legacy_collision_keeps_other_values": 1,
+    "legacy_migration_saved_as_v3_backup_kept": 1,
+    "no_notice_after_v3": 1,
+    "corrupt_main_legacy_backup": 1,
+    "v2_old_default_collision_still_rejected": 1,
+    "v3_new_default_collision_rejected": 1,
+    "legacy_write_failure_keeps_files": 1,
+    "validN8_equals_TermValid": 333,
+    "padding_opt_in_scoped": 1,
+    "japanese_label_glyphs_present": 13
+  },
+  "steps": 16078200,
+  "examples": [
+    {
+      "settings": [
+        "광수",
+        "화자",
+        "쉭쉭이",
+        "하자마",
+        "토야",
+        "진월",
+        "진야",
+        "화군"
+      ],
+      "battle": "광수를 모두 쓰러뜨렸다",
+      "homura": {
+        "17397": "　화군은 작년부터",
+        "40329": "「설마 네놈, 화군의 피를……」",
+        "40640": "「설마 네놈, 화군의 피를……」",
+        "80196": "　화군은 작년부터"
+      },
+      "dungeon": [
+        "수수께끼의 하자마 1",
+        "서양관 내부　하자마 5",
+        "화군 라이코 동굴 최심층⑩"
+      ],
+      "comment": "용에게 효과적인 검이지만,\n광수에게 얼마나 통할지는\n알 수 없습니다.",
+      "mold": "화자의 영약"
+    },
+    {
+      "settings": [
+        "빛잡이",
+        "불지기",
+        "쉭쉭이",
+        "틈",
+        "동야",
+        "신게츠",
+        "신야",
+        "불무리"
+      ],
+      "battle": "빛잡이를 모두 쓰러뜨렸다",
+      "homura": {
+        "17397": "　불무리는 작년부터",
+        "40329": "「설마 네놈, 불무리의 피를……」",
+        "40640": "「설마 네놈, 불무리의 피를……」",
+        "80196": "　불무리는 작년부터"
+      },
+      "dungeon": [
+        "수수께끼의 틈 1",
+        "서양관 내부　틈 5",
+        "불무리 라이코 동굴 최심층⑩"
+      ],
+      "comment": "용에게 효과적인 검이지만,\n빛잡이에게 얼마나 통할지는\n알 수 없습니다.",
+      "mold": "불지기의 영약"
+    },
+    {
+      "settings": [
+        "광군",
+        "불씨",
+        "하늘",
+        "공간",
+        "차디찬 겨울",
+        "푸른 별",
+        "깊은 밤",
+        "불떼"
+      ],
+      "battle": "광군을 모두 쓰러뜨렸다",
+      "homura": {
+        "17397": "　불떼는 작년부터",
+        "40329": "「설마 네놈, 불떼의 피를……」",
+        "40640": "「설마 네놈, 불떼의 피를……」",
+        "80196": "　불떼는 작년부터"
+      },
+      "dungeon": [
+        "수수께끼의 공간 1",
+        "서양관 내부　공간 5",
+        "불떼 라이코 동굴 최심층⑩"
+      ],
+      "comment": "용에게 효과적인 검이지만,\n광군에게 얼마나 통할지는\n알 수 없습니다.",
+      "mold": "불씨의 영약"
+    }
+  ],
+  "info_page": [
+    "플레이 정보",
+    "대사 완독률  1000 / 74966  (1.3%)",
+    "CG  1 / 60  (1.6%)",
+    "회상  1 / 66  (1.5%)",
+    "엔딩  1 / 5   ??? · 쿄카 · ??? · ??? · ???",
+    "위 네 줄은 모든 저장을 합친 기록 / 전체 분기 포함",
+    "이 저장의 이벤트 진입률  37 / 1043  (3.5%)",
+    "주인공 : 료"
+  ],
+  "detail_page": [
+    "이벤트 진입 자세히",
+    "이 저장의 이벤트 진입률  37 / 1043  (3.5%)",
+    "스토리  10 / 398  (2.5%)",
+    "특훈 대화  20 / 362  (5.5%)",
+    "특훈 초대  3 / 42  (7.1%)",
+    "던전 동행  4 / 241  (1.6%)",
+    "현재 저장 기준 / 전체 분기 포함 / 반복은 한 번만 집계",
+    "들어가 본 이벤트의 비율이며, 끝까지 읽었는지는 세지 않습니다."
+  ],
+  "title_widths": {
+    "플레이 정보": 192.0,
+    "대사 완독률  1000 / 74966  (1.3%)": 611.5,
+    "CG  1 / 60  (1.6%)": 341.5,
+    "회상  1 / 66  (1.5%)": 353.5,
+    "엔딩  1 / 5   ??? · 쿄카 · ??? · ??? · ???": 757.5,
+    "위 네 줄은 모든 저장을 합친 기록 / 전체 분기 포함": 819.5,
+    "이 저장의 이벤트 진입률  37 / 1043  (3.5%)": 746.5,
+    "주인공 : 료": 182.0,
+    "이벤트 진입 자세히": 312.0,
+    "스토리  10 / 398  (2.5%)": 435.5,
+    "특훈 대화  20 / 362  (5.5%)": 483.5,
+    "특훈 초대  3 / 42  (7.1%)": 437.5,
+    "던전 동행  4 / 241  (1.6%)": 460.5,
+    "현재 저장 기준 / 전체 분기 포함 / 반복은 한 번만 집계": 883.0,
+    "들어가 본 이벤트의 비율이며, 끝까지 읽었는지는 세지 않습니다.": 1044.0
+  },
+  "r5": {
+    "counts": {
+      "relocated_body_is_original_plus_prefix": 7,
+      "message_dialog_tag_block_only_change": 1,
+      "trap_cell_cases": 30,
+      "instant_notice_cases": 6,
+      "relieve_notice_cases": 2,
+      "trap_dialog_coloured_dialog_unchanged": 9,
+      "title_write_needs_dungeon_part": 1,
+      "colour_rule_cases": 14,
+      "second_pass_unchanged": 14,
+      "josa_resolver_leaves_tags": 14,
+      "writers_enable_tags_first": 1,
+      "toggle_roundtrip": 1,
+      "char_event_counts": 7,
+      "panel_text": 1,
+      "pair_walk_counts_for_both": 1,
+      "panel_tags_before_text": 1,
+      "panel_hide": 1,
+      "r5_non_proxy_glyphs": 25
+    },
+    "panel_example": [
+      "대사　　 ${font r=128 g=224 b=255}1.3%${/font}",
+      "ＣＧ　　 ${font r=128 g=224 b=255}1.6%${/font}",
+      "회상　　 ${font r=128 g=224 b=255}3.0%${/font}",
+      "엔딩　　 ${font r=128 g=224 b=255}2 / 5${/font}",
+      "이벤트　 ${font r=128 g=224 b=255}3.5%${/font}",
+      "",
+      "${font r=255 g=224 b=96}캐릭터별 이벤트${/font}",
+      "이즈미　 ${font r=128 g=224 b=255}13.4%${/font}",
+      "쿄카　　 ${font r=128 g=224 b=255}10.8%${/font}",
+      "마나미　 ${font r=128 g=224 b=255}6.6%${/font}",
+      "마코토　 ${font r=128 g=224 b=255}7.3%${/font}",
+      "신카이　 ${font r=128 g=224 b=255}7.3%${/font}",
+      "호시카와 ${font r=128 g=224 b=255}100.0%${/font}",
+      "모모세　 ${font r=128 g=224 b=255}9.2%${/font}"
+    ],
+    "colour_cases": [
+      {
+        "kind": 0,
+        "source": "회복 아이템「회복약」{YORU_KR_JOSA:O} 손에 넣었다",
+        "tagged": "회복 아이템「${font r=128 g=255 b=144}회복약${/font}」을 손에 넣었다"
+      },
+      {
+        "kind": 0,
+        "source": "장비 아이템「목검」{YORU_KR_JOSA:O} 손에 넣었다",
+        "tagged": "장비 아이템「${font r=255 g=224 b=96}목검${/font}」을 손에 넣었다"
+      },
+      {
+        "kind": 0,
+        "source": "요소석「어둠」(레벨 3)을 손에 넣었다",
+        "tagged": "요소석「${font r=190 g=130 b=255}어둠${/font}」(레벨 ${font r=128 g=224 b=255}3${/font})을 손에 넣었다"
+      },
+      {
+        "kind": 0,
+        "source": "요소석「파랑」(레벨 12)을 손에 넣었다",
+        "tagged": "요소석「${font r=120 g=176 b=255}파랑${/font}」(레벨 ${font r=128 g=224 b=255}12${/font})을 손에 넣었다"
+      },
+      {
+        "kind": 0,
+        "source": "달조각을 12개 손에 넣었다",
+        "tagged": "${font r=255 g=224 b=96}달조각${/font}을 ${font r=128 g=224 b=255}12${/font}개 손에 넣었다"
+      },
+      {
+        "kind": 0,
+        "source": "꽝",
+        "tagged": "${font r=176 g=176 b=176}꽝${/font}"
+      },
+      {
+        "kind": 0,
+        "source": "하지만 더는 소지할 수 없다",
+        "tagged": "${font r=255 g=120 b=104}하지만 더는 소지할 수 없다${/font}"
+      },
+      {
+        "kind": 0,
+        "source": "회복 아이템「약초2」{YORU_KR_JOSA:O} 손에 넣었다\n하지만 더는 소지할 수 없다",
+        "tagged": "회복 아이템「${font r=128 g=255 b=144}약초2${/font}」를 손에 넣었다\n${font r=255 g=120 b=104}하지만 더는 소지할 수 없다${/font}"
+      },
+      {
+        "kind": 1,
+        "source": "함정 해제 성공 · 피해 없음",
+        "tagged": "${font r=128 g=255 b=144}함정 해제 성공 · 피해 없음${/font}"
+      },
+      {
+        "kind": 1,
+        "source": "함정 해제 실패",
+        "tagged": "${font r=255 g=120 b=104}함정 해제 실패${/font}"
+      },
+      {
+        "kind": 2,
+        "source": "이즈미  레벨업! 12 → 13\n경험치 +1234 / 훈련치 +56 / 달조각 +7",
+        "tagged": "이즈미  ${font r=255 g=224 b=96}레벨업!${/font} ${font r=128 g=224 b=255}12${/font} → ${font r=128 g=224 b=255}13${/font}\n경험치 ${font r=128 g=224 b=255}+1234${/font} / 훈련치 ${font r=128 g=224 b=255}+56${/font} / 달조각 ${font r=128 g=224 b=255}+7${/font}"
+      },
+      {
+        "kind": 2,
+        "source": "자동 탐색\n이동할 수 있는 탐색 경로가 없습니다.",
+        "tagged": "자동 탐색\n이동할 수 있는 탐색 경로가 없습니다."
+      },
+      {
+        "kind": 3,
+        "source": "이즈미  Lv 12 → 13  경험치 +1234 / 훈련치 +56\n\n달조각 +5\n회복약 +2\n소지 한도를 넘은 보상은 제외됩니다.\n잠시 후 다음 날로 진행합니다.",
+        "tagged": "이즈미  Lv ${font r=128 g=224 b=255}12${/font} → ${font r=128 g=224 b=255}13${/font}  경험치 ${font r=128 g=224 b=255}+1234${/font} / 훈련치 ${font r=128 g=224 b=255}+56${/font}\n\n${font r=255 g=224 b=96}달조각${/font} ${font r=128 g=224 b=255}+5${/font}\n${font r=255 g=224 b=96}회복약${/font} ${font r=128 g=224 b=255}+2${/font}\n${font r=255 g=176 b=88}소지 한도를 넘은 보상은 제외됩니다.${/font}\n${font r=176 g=176 b=176}잠시 후 다음 날로 진행합니다.${/font}"
+      },
+      {
+        "kind": 3,
+        "source": "소탕을 중단했습니다.\n보상과 탐색 시간은 변경되지 않았습니다.",
+        "tagged": "${font r=255 g=176 b=88}소탕을 중단했습니다.${/font}\n${font r=176 g=176 b=176}보상과 탐색 시간은 변경되지 않았습니다.${/font}"
+      }
+    ]
+  },
+  "r6": {
+    "counts": {
+      "relocated_body_is_original_plus_prefix": 2,
+      "no_record_outside_sweep": 1,
+      "sweep_records": 1,
+      "lost_list_in_report": 1,
+      "records_cleared_after_report": 1,
+      "nothing_lost_line": 1,
+      "cancel_report_untouched": 1,
+      "reset": 1,
+      "gain_parse": 1,
+      "r6_non_proxy_glyphs": 16
+    },
+    "report_example": "이즈미  Lv ${font r=128 g=224 b=255}12${/font} → ${font r=128 g=224 b=255}13${/font}  경험치 ${font r=128 g=224 b=255}+1234${/font} / 훈련치 ${font r=128 g=224 b=255}+56${/font}\n\n${font r=255 g=224 b=96}달조각${/font} ${font r=128 g=224 b=255}+12${/font}\n${font r=255 g=224 b=96}해독제${/font} ${font r=128 g=224 b=255}+1${/font}\n${font r=255 g=120 b=120}적색 요소석(3등급)${/font} ${font r=128 g=224 b=255}+1${/font}\n${font r=120 g=176 b=255}청색 요소석(1등급)${/font} ${font r=128 g=224 b=255}+1${/font}\n${font r=255 g=176 b=88}소지 한도로 받지 못한 보상${/font}\n${font r=255 g=176 b=88}· 회복약 ×2${/font}\n${font r=255 g=176 b=88}· 적색 요소석(3등급) ×2${/font}\n${font r=255 g=176 b=88}· 흑색 요소석(10등급) ×1${/font}\n${font r=176 g=176 b=176}잠시 후 다음 날로 진행합니다.${/font}"
+  },
+  "r7": {
+    "counts": {
+      "failed_write_keeps_state_no_retry_storm": 1,
+      "failed_write_off_after_cache_reset": 1,
+      "retry_after_change_succeeds": 1,
+      "readback_mismatch_is_failure": 1,
+      "same_value_no_write": 1,
+      "plain_success": 1,
+      "ex_only_eight_names_changed": 1,
+      "renamed_monsters": 8,
+      "monster_glyphs_in_proxy_map": 1
+    },
+    "monster_names": {
+      "17": "맥",
+      "28": "날름날름",
+      "23": "소머리",
+      "27": "무지갯빛 새",
+      "3": "털뭉치",
+      "21": "푸른 털뭉치",
+      "6": "범고래호랑이",
+      "18": "불바퀴"
+    }
+  }
+}

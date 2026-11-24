@@ -1,0 +1,9 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_term_rate_20260924_r10\\NightRemaster.ain",
+  "source_sha256": "292ec3867b688c81a0effbcb3fd1fda2f396f1909b0a5a096887e18c585e5bf2",
+  "probe_sha256": "479c12a82380547402e7990c10e4dbe4b0ca298c62b0e736c2b217b66cad5b29",
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "input": "Resume of a copied NightR39.asd; WaitForClick (27 sites) opens 캐릭터별 남은 이벤트 and answers [3, 1, 1, 0, 0, 2, 0, 0, 2, 1, 0, 0, 0].",
+  "save_folder": "SaveData_KR_ClaudeCharMissingProbe_20260924_184647",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

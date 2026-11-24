@@ -1,0 +1,16 @@
+{
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "started": "2026-09-29T19:18:33.3306434+09:00",
+  "ended": "2026-09-29T19:18:36.5861908+09:00",
+  "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_label_particles_20260929_r2\\candidate\\scan_payload_b74ebc26c776",
+  "files": {
+    "NightRemaster.ain": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+    "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+  },
+  "engine": "1.1.26080.3",
+  "platform": "4.18.26080.4",
+  "signatures": "1.459.455.0",
+  "antivirusEnabled": true,
+  "before": [],
+  "after": []
+}

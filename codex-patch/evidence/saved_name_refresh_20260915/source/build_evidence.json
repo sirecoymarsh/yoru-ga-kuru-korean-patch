@@ -1,0 +1,182 @@
+{
+  "status": "STAGED_STATIC_BUILD_PASS_REVIEW_PENDING",
+  "time": "2026-09-15T17:30:36.987309+09:00",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "021a616b2a83c2656174cd920ddd5c6bea41c5365bd2d97cbcd6cc12cf787372",
+    "status": "REMASTER_MULTIPLIERS_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "cf249bab7f5db4db247a0cfff43b8a73fda5a9616bd1ddf12639daeca4debe6d",
+    "NightRemasterEX.ex": "fbca7f090e72ac190469d2e04b658b6a213b2d364bee11a0709e8b0eae3c20de"
+  },
+  "files": {
+    "NightRemaster.ain": "fd2920d8252b6e973b321b35aa654e6e14c9787721e172f6e1412b7c34dc3365"
+  },
+  "patched_function_ids": [
+    26155,
+    26156,
+    26756,
+    26757,
+    26786,
+    26787,
+    26789,
+    26790,
+    26792,
+    26793,
+    26795,
+    26796,
+    26798,
+    26799,
+    26810,
+    26811,
+    29556
+  ],
+  "new_function_count": 0,
+  "getter_rows": [
+    [
+      26155,
+      "C_Monster",
+      "<sName>",
+      "monster",
+      7,
+      "name"
+    ],
+    [
+      26156,
+      "C_Monster",
+      "<sName>",
+      "monster",
+      7,
+      "name"
+    ],
+    [
+      26810,
+      "C_Weapon",
+      "<name>",
+      "武器データ",
+      39,
+      "name"
+    ],
+    [
+      26811,
+      "C_Weapon",
+      "<name>",
+      "武器データ",
+      39,
+      "name"
+    ],
+    [
+      26756,
+      "C_EquipItem",
+      "<sName>",
+      "装備アイテムデータ",
+      48,
+      "name"
+    ],
+    [
+      26757,
+      "C_EquipItem",
+      "<sName>",
+      "装備アイテムデータ",
+      48,
+      "name"
+    ],
+    [
+      26786,
+      "C_Skill",
+      "<sName>",
+      "スキルデータ",
+      6,
+      "name"
+    ],
+    [
+      26787,
+      "C_Skill",
+      "<sName>",
+      "スキルデータ",
+      6,
+      "name"
+    ],
+    [
+      26789,
+      "C_Skill",
+      "<sCommentS>",
+      "スキルデータ",
+      6,
+      "simpleName"
+    ],
+    [
+      26790,
+      "C_Skill",
+      "<sCommentS>",
+      "スキルデータ",
+      6,
+      "simpleName"
+    ],
+    [
+      26792,
+      "C_Skill",
+      "<sComment1>",
+      "スキルデータ",
+      6,
+      "desc1"
+    ],
+    [
+      26793,
+      "C_Skill",
+      "<sComment1>",
+      "スキルデータ",
+      6,
+      "desc1"
+    ],
+    [
+      26795,
+      "C_Skill",
+      "<sComment2>",
+      "スキルデータ",
+      6,
+      "desc2"
+    ],
+    [
+      26796,
+      "C_Skill",
+      "<sComment2>",
+      "スキルデータ",
+      6,
+      "desc2"
+    ],
+    [
+      26798,
+      "C_Skill",
+      "<sComment3>",
+      "スキルデータ",
+      6,
+      "desc3"
+    ],
+    [
+      26799,
+      "C_Skill",
+      "<sComment3>",
+      "スキルデータ",
+      6,
+      "desc3"
+    ]
+  ],
+  "globals_structures_and_all_function_signatures_exact": true,
+  "unchanged_all_other_metadata": true,
+  "original_CODE_prefix_exact": true,
+  "all_100944_MSG1_exact": true,
+  "original_STR0_prefix_exact": true,
+  "added_STR0_entries": 1,
+  "multiplier_callbacks_and_calc_addresses_exact": true,
+  "EX_and_PACT_unchanged": true,
+  "display_strategy": "Known stable IDs use current native MainEXFile fields. Negative or missing IDs/fields return original stored string without indexing mutable arrays.",
+  "after_load_strategy": "Existing ExecAfterLoad additionally invokes original L_Weapon::LoadComment, updating only weapon-description strings, not LoadData or game state.",
+  "native_verified": false,
+  "game_or_save_modified": false,
+  "translator_model": "Codex internal (no new semantic translations)"
+}

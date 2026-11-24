@@ -1,0 +1,577 @@
+{
+  "status": "MOD_NATIVE_STYLE_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "c7c3a5175362b5904b71fd3131ab801b9b9b2e08fc7f3521711def989a5a2b4e",
+    "status": "AUTO_EXPLORE_SEGMENT_FIX_INSTALLED_NATIVE_MOVEMENT_PASS",
+    "runtime_verified": false,
+    "whole_ui_complete": false,
+    "auto_explore_click_fix_revision": {
+      "status": "AUTO_EXPLORE_CALLBACK_FIX_INSTALLED_NATIVE_DISPATCH_PASS",
+      "time": "2026-09-23T19:29:38.996434+09:00",
+      "files": {
+        "NightRemaster.ain": "2c1b0174ddefda36b00ab864146eefe070971e9c6cc914df6ef14a2e560dfc86"
+      },
+      "source_files": {
+        "NightRemaster.ain": "343c9997a2a17478583b40b43a91d5b7f552eecb6644b73af5720b855a347d4a"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\auto_explore_click_fix_20260923",
+      "patched_existing": [
+        32030
+      ],
+      "added_helpers": 3,
+      "old_CODE_exact": true,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "STR0_prefix_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "native_dispatch_verified": true,
+      "os_mouse_hit_test_verified": false,
+      "existing_saves_checked": 37,
+      "frames_checked": 950
+    },
+    "auto_explore_segment_fix_revision": {
+      "status": "AUTO_EXPLORE_SEGMENT_FIX_INSTALLED_NATIVE_MOVEMENT_PASS",
+      "time": "2026-09-23T20:10:03.552970+09:00",
+      "files": {
+        "NightRemaster.ain": "e6d47c4356d5d12118e8424b002ebe07dbc5cc38591a4bcb5907a544e5c21250"
+      },
+      "source_files": {
+        "NightRemaster.ain": "2c1b0174ddefda36b00ab864146eefe070971e9c6cc914df6ef14a2e560dfc86"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\auto_explore_segment_fix_20260923",
+      "patched_existing": [
+        28658
+      ],
+      "added_helpers": 1,
+      "old_CODE_exact": true,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "STR0_prefix_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "native_dispatch_verified": true,
+      "os_mouse_hit_test_verified": false,
+      "existing_saves_checked": 37,
+      "frames_checked": 950
+    }
+  },
+  "source_files": {
+    "NightRemaster.ain": "e6d47c4356d5d12118e8424b002ebe07dbc5cc38591a4bcb5907a544e5c21250",
+    "NightRemasterPact.afa": "ff1a16663d65b4de95c72063709851f9615484ab610dac9787f6c1a098c7e30d",
+    "NightRemasterCG.afa": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e"
+  },
+  "files": {
+    "NightRemaster.ain": "bdcd8c8c8d1c2f606ee39f4180a3f377ea1db82818ba6a99f420bf518cdd6758",
+    "NightRemasterPact.afa": "4dc2e9e483e5c8a2e1f2f5f2219368d21429b42d837492ceae484289ff49bc35",
+    "NightRemasterCG.afa": "a77132655976e0c1eea1a3f5497f7ec75b45c7df11d008073955b2702ed1ab6e"
+  },
+  "AIN": {
+    "added_functions": {
+      "KR_ModConfirmColumns": 32199,
+      "KR_ModConfirmCancelable": 32200,
+      "KR_ModDefaultIndex": 32201,
+      "KR_ModWalkGraphics": 32202,
+      "KR_ModButton": 32203,
+      "KR_ModSweepGraphics": 32204,
+      "KR_ModStonePart": 32205,
+      "KR_ModStoneGraphics": 32206
+    },
+    "in_place_instructions": [
+      {
+        "fid": 31922,
+        "address": 9924166,
+        "before": "000002000000",
+        "after": "3000c77d0000",
+        "helper": "KR_ModConfirmColumns"
+      },
+      {
+        "fid": 31892,
+        "address": 9854076,
+        "before": "000001000000",
+        "after": "3000c87d0000",
+        "helper": "KR_ModConfirmCancelable"
+      },
+      {
+        "fid": 27928,
+        "address": 5902690,
+        "before": "000000000000",
+        "after": "3000c97d0000",
+        "helper": "KR_ModDefaultIndex"
+      }
+    ],
+    "relocated": [
+      31890,
+      31919,
+      32033
+    ],
+    "renamed_strings": [
+      {
+        "index": 11514,
+        "before": "지금은 자동 이동을 시작할 수 없습니다.",
+        "after": "지금은 자동 탐색을 시작할 수 없습니다."
+      },
+      {
+        "index": 11515,
+        "before": "자동 이동\n안내할 경로를 찾지 못했습니다.",
+        "after": "자동 탐색\n안내할 경로를 찾지 못했습니다."
+      },
+      {
+        "index": 11516,
+        "before": "자동 이동을 중지했습니다.",
+        "after": "자동 탐색을 중지했습니다."
+      },
+      {
+        "index": 11517,
+        "before": "자동 이동을 시작했습니다.\n수동 이동이나 버튼으로 중지할 수 있습니다.",
+        "after": "자동 탐색을 시작했습니다.\n수동 이동이나 버튼으로 중지할 수 있습니다."
+      },
+      {
+        "index": 15381,
+        "before": "자동 이동\n이동할 수 있는 탐색 경로가 없습니다.",
+        "after": "자동 탐색\n이동할 수 있는 탐색 경로가 없습니다."
+      }
+    ],
+    "MSG1_exact": true,
+    "save_schema_changes": 0,
+    "translator_model": "Codex internal"
+  },
+  "CG": {
+    "source_sha256": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e",
+    "candidate_sha256": "a77132655976e0c1eea1a3f5497f7ec75b45c7df11d008073955b2702ed1ab6e",
+    "original_entries_preserved": 2824,
+    "replaced_ids": [],
+    "appended": [
+      {
+        "id": 2824,
+        "name": "CG990000.qnt",
+        "sha256": "37d10fdd8c2f36cd0a761df0f4b3df9af477726a97688320b9069b31a302b173"
+      },
+      {
+        "id": 2825,
+        "name": "CG990001.qnt",
+        "sha256": "7b034cf529b1724277dc07e5c6bc913ca63ea6f118336867055ea7b0e2a37319"
+      },
+      {
+        "id": 2826,
+        "name": "CG990002.qnt",
+        "sha256": "6ab0f460827598e700c9c8b8f14f600961b071970004d39326ed279d6e7c4511"
+      },
+      {
+        "id": 2827,
+        "name": "CG990010.qnt",
+        "sha256": "b46b6fc029079bf760d0a5adc7222223b2e752ecba343d4155c26f8a9710de8f"
+      },
+      {
+        "id": 2828,
+        "name": "CG990011.qnt",
+        "sha256": "0384601d16709008d8871fc310cefba89d39fe0e884b5dd885339c52b56c2ed9"
+      },
+      {
+        "id": 2829,
+        "name": "CG990012.qnt",
+        "sha256": "36bc6f32915b05870fe5e4385c862127949737d31ff9a2cfd0fb724023b5f46c"
+      },
+      {
+        "id": 2830,
+        "name": "CG990020.qnt",
+        "sha256": "9a69f0a6652c35296e4e6757f72e27ebe1011d706202cc42f2bfe5e82f2ab356"
+      },
+      {
+        "id": 2831,
+        "name": "CG990021.qnt",
+        "sha256": "7a8d96007e59c8024691a7a99fadea9ca8a3d9c142b1171b93dda3a3bacdbfba"
+      },
+      {
+        "id": 2832,
+        "name": "CG990022.qnt",
+        "sha256": "5b20951a432a870979be9226dc22757f5632d93db8d5dedd85a5437708e753b6"
+      },
+      {
+        "id": 2833,
+        "name": "CG990030.qnt",
+        "sha256": "9c121c1b7b91ca7040e7a68ede8381fc3a5dfce09ca9e0d1a26415dc33602553"
+      },
+      {
+        "id": 2834,
+        "name": "CG990031.qnt",
+        "sha256": "313f58b986a59f6f0b8064b2ef2a9d83e4d980745a24952f5001533cc6933eef"
+      },
+      {
+        "id": 2835,
+        "name": "CG990032.qnt",
+        "sha256": "acbf3201e101fec66782666be7d844cbf7bd623ca2148234d12de0991c8d57f7"
+      }
+    ],
+    "wrapper": "AFA3",
+    "metadata_identity": "PASS (names/order/unknown fields)",
+    "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+    "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\NightRemasterCG.afa"
+  },
+  "assets": [
+    {
+      "key": "sweep",
+      "text": "자동 소탕",
+      "state": 0,
+      "source_id": 1675,
+      "name": "CG990000",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        14,
+        10,
+        105,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990000.png",
+      "payload_sha256": "37d10fdd8c2f36cd0a761df0f4b3df9af477726a97688320b9069b31a302b173",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "sweep",
+      "text": "자동 소탕",
+      "state": 1,
+      "source_id": 1672,
+      "name": "CG990001",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        14,
+        10,
+        105,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990001.png",
+      "payload_sha256": "7b034cf529b1724277dc07e5c6bc913ca63ea6f118336867055ea7b0e2a37319",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "sweep",
+      "text": "자동 소탕",
+      "state": 2,
+      "source_id": 1673,
+      "name": "CG990002",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        14,
+        10,
+        105,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990002.png",
+      "payload_sha256": "6ab0f460827598e700c9c8b8f14f600961b071970004d39326ed279d6e7c4511",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "walk",
+      "text": "자동 탐색",
+      "state": 0,
+      "source_id": 1675,
+      "name": "CG990010",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        15,
+        10,
+        104,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990010.png",
+      "payload_sha256": "b46b6fc029079bf760d0a5adc7222223b2e752ecba343d4155c26f8a9710de8f",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "walk",
+      "text": "자동 탐색",
+      "state": 1,
+      "source_id": 1672,
+      "name": "CG990011",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        15,
+        10,
+        104,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990011.png",
+      "payload_sha256": "0384601d16709008d8871fc310cefba89d39fe0e884b5dd885339c52b56c2ed9",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "walk",
+      "text": "자동 탐색",
+      "state": 2,
+      "source_id": 1673,
+      "name": "CG990012",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        15,
+        10,
+        104,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990012.png",
+      "payload_sha256": "36bc6f32915b05870fe5e4385c862127949737d31ff9a2cfd0fb724023b5f46c",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "stop",
+      "text": "탐색 중지",
+      "state": 0,
+      "source_id": 1675,
+      "name": "CG990020",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        16,
+        10,
+        102,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990020.png",
+      "payload_sha256": "9a69f0a6652c35296e4e6757f72e27ebe1011d706202cc42f2bfe5e82f2ab356",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "stop",
+      "text": "탐색 중지",
+      "state": 1,
+      "source_id": 1672,
+      "name": "CG990021",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        16,
+        10,
+        102,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990021.png",
+      "payload_sha256": "7a8d96007e59c8024691a7a99fadea9ca8a3d9c142b1171b93dda3a3bacdbfba",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "stop",
+      "text": "탐색 중지",
+      "state": 2,
+      "source_id": 1673,
+      "name": "CG990022",
+      "font": "NotoSerifKR-VF weight500 size22",
+      "canvas": [
+        120,
+        40
+      ],
+      "ink_bounds": [
+        16,
+        10,
+        102,
+        31
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990022.png",
+      "payload_sha256": "5b20951a432a870979be9226dc22757f5632d93db8d5dedd85a5437708e753b6",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "stone",
+      "text": "요소석 추천",
+      "state": 0,
+      "source_id": 1871,
+      "name": "CG990030",
+      "font": "NotoSerifKR-VF weight600 size24",
+      "canvas": [
+        172,
+        70
+      ],
+      "ink_bounds": [
+        30,
+        22,
+        150,
+        47
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990030.png",
+      "payload_sha256": "9c121c1b7b91ca7040e7a68ede8381fc3a5dfce09ca9e0d1a26415dc33602553",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "stone",
+      "text": "요소석 추천",
+      "state": 1,
+      "source_id": 1867,
+      "name": "CG990031",
+      "font": "NotoSerifKR-VF weight600 size24",
+      "canvas": [
+        172,
+        70
+      ],
+      "ink_bounds": [
+        30,
+        22,
+        150,
+        47
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990031.png",
+      "payload_sha256": "313f58b986a59f6f0b8064b2ef2a9d83e4d980745a24952f5001533cc6933eef",
+      "translator_model": "Codex internal"
+    },
+    {
+      "key": "stone",
+      "text": "요소석 추천",
+      "state": 2,
+      "source_id": 1868,
+      "name": "CG990032",
+      "font": "NotoSerifKR-VF weight600 size24",
+      "canvas": [
+        172,
+        70
+      ],
+      "ink_bounds": [
+        30,
+        23,
+        150,
+        48
+      ],
+      "protected_pixel_changes": 0,
+      "roundtrip": "PASS",
+      "png": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\CG990032.png",
+      "payload_sha256": "acbf3201e101fec66782666be7d844cbf7bd623ca2148234d12de0991c8d57f7",
+      "translator_model": "Codex internal"
+    }
+  ],
+  "PACT": {
+    "archive": {
+      "source_sha256": "ff1a16663d65b4de95c72063709851f9615484ab610dac9787f6c1a098c7e30d",
+      "candidate_sha256": "4dc2e9e483e5c8a2e1f2f5f2219368d21429b42d837492ceae484289ff49bc35",
+      "original_entries_preserved": 188,
+      "replaced_ids": [
+        154,
+        161
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\NightRemasterPact.afa"
+    },
+    "buttons": [
+      {
+        "entry": 154,
+        "root": "KR_AutoStoneRoot",
+        "button": "KR_AutoStoneButton",
+        "xyz": [
+          948,
+          435,
+          40
+        ],
+        "size": [
+          172,
+          70
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "hidden_legacy_labels": [
+          "KR_AutoStoneButtonLabel"
+        ]
+      },
+      {
+        "entry": 161,
+        "root": "KR_SweepRoot",
+        "button": "KR_SweepButton",
+        "xyz": [
+          1145,
+          388,
+          40
+        ],
+        "size": [
+          120,
+          40
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "hidden_legacy_labels": [
+          "KR_SweepButtonLabel"
+        ]
+      },
+      {
+        "entry": 161,
+        "root": "KR_WalkRoot",
+        "button": "KR_WalkButton",
+        "xyz": [
+          1145,
+          443,
+          41
+        ],
+        "size": [
+          120,
+          40
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "hidden_legacy_labels": [
+          "KR_WalkStartLabel",
+          "KR_WalkStopLabel"
+        ]
+      }
+    ],
+    "outside_mod_roots_exact": true
+  },
+  "save_schema_changes": 0,
+  "save_writes": 0,
+  "translator_model": "Codex internal"
+}

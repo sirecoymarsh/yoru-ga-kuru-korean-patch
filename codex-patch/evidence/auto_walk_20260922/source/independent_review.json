@@ -1,0 +1,32 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "91b827804c22b1a2390312391d0ad4f7178ae8228250354f27f8fbc5de1b3169",
+    "NightRemasterPact.afa": "92ffc2f9b8f07f32b16cc78af265e395b92772af8a940bec8b7d00097fdabc3c"
+  },
+  "reviewers": [
+    "/root/auto_walk_review",
+    "/root/smart_ui_review"
+  ],
+  "mode": "read-only; final reports received in current task",
+  "must_fix_remaining": [],
+  "fixed": [
+    "native116x55 center",
+    "native CASPos514 local and ref ABI",
+    "array copy failure closure",
+    "13 nested lambda exact instruction comparison"
+  ],
+  "reviewed": [
+    "movement cancellation hooks",
+    "reference ownership",
+    "one puzzle segment scope",
+    "native button all states",
+    "label placement and logo clearance",
+    "publisher baseline/save/rollback gates"
+  ],
+  "native_gameplay_verified": false,
+  "notes": [
+    "No autonomous gameplay or native input/render test performed.",
+    "Frozen evidence/source records source and outputs; it is not a standalone recovery toolkit. Restore uses the maintained workspace publisher and dependency chain."
+  ]
+}

@@ -1,0 +1,364 @@
+; C_SceneBattle@EndEnd
+; ARG  0: pnResult : ref int
+; ARG  1: <void> : void
+; ARG  2: pnTimeResult : ref int
+; ARG  3: <void> : void
+; VAR  4: i : int
+; VAR  5: pf : ref battle_friend_t
+; VAR  6: pItem : ref C_ConsumeItem
+; VAR  7: <dummy : L_ConsumeItem::Atの戻り値> : ref C_ConsumeItem
+; VAR  8: i : int
+; VAR  9: pa : ref C_Ability
+; VAR 10: <dummy : L_Party::AbilityAtの戻り値> : ref C_Ability
+; VAR 11: <dummy : C_SceneBattleView@MessageView::getの戻り値> : ref C_BattleMessageView
+; VAR 12: <dummy : C_SceneBattleView@MessageView::getの戻り値> : ref C_BattleMessageView
+; VAR 13: <dummy : C_SceneBattleView@MessageView::getの戻り値> : ref C_BattleMessageView
+; VAR 14: i : int
+; VAR 15: i : int
+; VAR 16: <dummy : C_SceneBattleView@EnemySetView::getの戻り値> : ref C_EnemySetView
+; RETURN: void
+FUNC 29393
+	PUSH 16
+	CALLFUNC ■システムフラグ／取得
+	PUSH 0
+	EQUALE
+	IFNZ 0x66a31a
+	JUMP 0x66a34c
+0x66a31a:
+	.GLOBALREF Flags
+	PUSH 26611
+	PUSH 0
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+0x66a34c:
+	.LOCALASSIGN i 0
+0x66a362:
+	.LOCALREF i
+	.STRUCTREF C_SceneBattle m_Friends
+	CALLHLL Array Numof 65538
+	LT
+	IFZ 0x66a5e6
+	PUSHLOCALPAGE
+	PUSH 5
+	.STRUCTREF C_SceneBattle m_Friends
+	.LOCALREF i
+	X_REF 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALREF pf
+	PUSH -1
+	NOTE
+	IFZ 0x66a416
+	.LOCALREF pf
+	PUSH 3
+	X_REF 1
+	PUSH 4
+	EQUALE
+	IFZ 0x66a416
+	PUSH 1
+	JUMP 0x66a41c
+0x66a416:
+	PUSH 0
+0x66a41c:
+	IFZ 0x66a456
+	.LOCALREF pf
+	PUSH 2
+	X_REF 1
+	PUSH 1
+	EQUALE
+	IFZ 0x66a456
+	PUSH 1
+	JUMP 0x66a45c
+0x66a456:
+	PUSH 0
+0x66a45c:
+	IFNZ 0x66a468
+	JUMP 0x66a5a8
+0x66a468:
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pf
+	PUSH 5
+	X_REF 1
+	CALLFUNC L_ConsumeItem::At
+	.LOCALREF "<dummy : L_ConsumeItem::Atの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 7
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : L_ConsumeItem::Atの戻り値>"
+	.LOCALREF pItem
+	PUSH -1
+	NOTE
+	IFNZ 0x66a506
+	JUMP 0x66a560
+0x66a506:
+	.LOCALREF pItem
+	PUSH 0
+	X_DUP 2
+	POP
+	PUSH 26679
+	X_MOV 4 2
+	POP
+	PUSH 26677
+	CALLMETHOD 0
+	X_DUP 1
+	X_MOV 4 1
+	PUSH 1
+	ADD
+	CALLMETHOD 1
+	POP
+0x66a560:
+	.LOCALDELETE "<dummy : L_ConsumeItem::Atの戻り値>"
+	.LOCALDELETE pItem
+0x66a5a8:
+	.LOCALDELETE pf
+	.LOCALINC3 i
+	JUMP 0x66a362
+0x66a5e6:
+	.LOCALASSIGN i#1 0
+0x66a5fc:
+	.LOCALREF i#1
+	PUSH 3
+	LT
+	IFZ 0x66a75a
+	PUSHLOCALPAGE
+	PUSH 9
+	.LOCALREF i#1
+	CALLFUNC L_Party::AbilityAt
+	.LOCALREF "<dummy : L_Party::AbilityAtの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 10
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	.LOCALREF pa
+	PUSH -1
+	NOTE
+	IFNZ 0x66a6aa
+	JUMP 0x66a6f8
+0x66a6aa:
+	.LOCALREF pa
+	PUSH 27400
+	CALLMETHOD 0
+	.LOCALREF pa
+	PUSH 27401
+	CALLMETHOD 0
+	.LOCALREF pa
+	PUSH 27399
+	CALLMETHOD 0
+0x66a6f8:
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	.LOCALDELETE pa
+	.LOCALINC3 i#1
+	JUMP 0x66a5fc
+0x66a75a:
+	.STRUCTREF C_SceneBattle m_bEnemyAnnihilated
+	IFNZ 0x66a774
+	JUMP 0x66a8e4
+0x66a774:
+	.STRUCTREF C_SceneBattle m_EventBattleInfo
+	PUSH 0
+	X_REF 1
+	PUSH 0
+	EQUALE
+	IFNZ 0x66a7a2
+	JUMP 0x66a8bc
+0x66a7a2:
+	.STRUCTREF C_SceneBattle m_Progress
+	PUSH 29224
+	CALLMETHOD 0
+	POP
+	.STRUCTREF C_SceneBattle m_BattleView
+	PUSH 29425
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_SceneBattleView@MessageView::getの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 11
+	X_MOV 3 2
+	X_ASSIGN 1
+	PUSH 29214
+	S_PUSH "糘苣銹錮 酘靺 詭鑼陌鐃餠"
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : C_SceneBattleView@MessageView::getの戻り値>"
+	PUSHLOCALPAGE
+	PUSH 0
+	X_REF 2
+	PUSH 1
+	X_ASSIGN 1
+	POP
+	.GLOBALREF Flags
+	PUSH 26556
+	CALLMETHOD 0
+	CALLFUNC N_Map::IsRandomDungeon
+	IFZ 0x66a884
+	PUSH 0
+	JUMP 0x66a88a
+0x66a884:
+	PUSH 1
+0x66a88a:
+	CALLFUNC L_BattleIncome::Settle
+	POP
+	.LOCALDELETE "<dummy : C_SceneBattleView@MessageView::getの戻り値>"
+	JUMP 0x66a8de
+0x66a8bc:
+	CALLFUNC L_BattleIncome::SettleOnlyMonsAtb
+	.STRUCTREF C_SceneBattle m_EventBattleInfo
+	PUSH 1
+	CALLFUNC C_SysVoice::PlayEventBattleVoice
+	POP
+0x66a8de:
+	JUMP 0x66aadc
+0x66a8e4:
+	.STRUCTREF C_SceneBattle m_bFriendAnnihilated
+	IFNZ 0x66a8fe
+	JUMP 0x66aa1e
+0x66a8fe:
+	.STRUCTREF C_SceneBattle m_EventBattleInfo
+	PUSH 0
+	X_REF 1
+	PUSH 0
+	EQUALE
+	IFNZ 0x66a92c
+	JUMP 0x66a9f0
+0x66a92c:
+	.STRUCTREF C_SceneBattle m_BattleView
+	PUSH 29425
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_SceneBattleView@MessageView::getの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 12
+	X_MOV 3 2
+	X_ASSIGN 1
+	PUSH 29214
+	S_PUSH "蚯酳縲餠"
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : C_SceneBattleView@MessageView::getの戻り値>#1"
+	CALLFUNC AFL_View_Update
+	PUSHLOCALPAGE
+	PUSH 0
+	X_REF 2
+	PUSH 0
+	X_ASSIGN 1
+	POP
+	.LOCALDELETE "<dummy : C_SceneBattleView@MessageView::getの戻り値>#1"
+	JUMP 0x66aa18
+0x66a9f0:
+	.STRUCTREF C_SceneBattle m_Progress
+	PUSH 29261
+	.STRUCTREF C_SceneBattle m_EventBattleInfo
+	CALLMETHOD 1
+0x66aa18:
+	JUMP 0x66aadc
+0x66aa1e:
+	.STRUCTREF C_SceneBattle m_BattleView
+	PUSH 29425
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_SceneBattleView@MessageView::getの戻り値>#2"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 13
+	X_MOV 3 2
+	X_ASSIGN 1
+	PUSH 29214
+	S_PUSH "韜藥縲餠"
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : C_SceneBattleView@MessageView::getの戻り値>#2"
+	CALLFUNC AFL_View_Update
+	PUSHLOCALPAGE
+	PUSH 0
+	X_REF 2
+	PUSH 2
+	X_ASSIGN 1
+	POP
+	.LOCALDELETE "<dummy : C_SceneBattleView@MessageView::getの戻り値>#2"
+0x66aadc:
+	PUSHLOCALPAGE
+	PUSH 2
+	X_REF 2
+	.STRUCTREF C_SceneBattle m_nPhase
+	PUSH 8
+	DIV
+	PUSH 1
+	ADD
+	PUSH 10
+	MUL
+	X_ASSIGN 1
+	POP
+	.LOCALASSIGN i#2 0
+0x66ab2e:
+	.LOCALREF i#2
+	.STRUCTREF C_SceneBattle m_Friends
+	CALLHLL Array Numof 65538
+	LT
+	IFZ 0x66abae
+	.LOCALREF i#2
+	PUSH 0
+	CALLFUNC L_StatusFace::SetActTimeGauge
+	.LOCALREF i#2
+	PUSH 0
+	CALLFUNC L_StatusFace::SetRigidTimeGauge
+	.LOCALINC3 i#2
+	JUMP 0x66ab2e
+0x66abae:
+	.LOCALASSIGN i#3 0
+0x66abc4:
+	.LOCALREF i#3
+	.STRUCTREF C_SceneBattle m_Enemies
+	CALLHLL Array Numof 65538
+	LT
+	IFZ 0x66acc8
+	.STRUCTREF C_SceneBattle m_BattleView
+	PUSH 29427
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_SceneBattleView@EnemySetView::getの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 16
+	X_MOV 3 2
+	X_ASSIGN 1
+	PUSH 29361
+	.LOCALREF i#3
+	PUSH 0
+	PUSH -1
+	PUSH 0
+	CALLMETHOD 4
+	POP
+	.LOCALDELETE "<dummy : C_SceneBattleView@EnemySetView::getの戻り値>"
+	.LOCALDELETE "<dummy : C_SceneBattleView@EnemySetView::getの戻り値>"
+	.LOCALINC3 i#3
+	JUMP 0x66abc4
+0x66acc8:
+	PUSH 1
+	IFNZ 0x66ad08
+	.STRUCTREF C_SceneBattle m_EventBattleInfo
+	PUSH 0
+	X_REF 1
+	PUSH 0
+	GT
+	IFNZ 0x66ad08
+	PUSH 0
+	JUMP 0x66ad0e
+0x66ad08:
+	PUSH 1
+0x66ad0e:
+	IFNZ 0x66ad1a
+	JUMP 0x66ad22
+0x66ad1a:
+	CALLFUNC L_BattleIncome::Clear
+	POP
+0x66ad22:
+	RETURN
+EOF 1510
+
+

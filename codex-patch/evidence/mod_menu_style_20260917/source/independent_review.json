@@ -1,0 +1,30 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "time": "2026-09-17T01:45:01.343874+09:00",
+  "files": {
+    "NightRemaster.ain": "76194a9057a413838bbe03e78e4baa8ab5ef20e0f9ebf087f6e3fc82082ee659",
+    "NightRemasterPact.afa": "3c53dd8dbdb211374ff48a75b76fe3cd46ddbac6048a8c91944982cf18aac36d"
+  },
+  "reviewer": "/root/exact_ui_review",
+  "review_mode": "Independent read-only code, final binary redump, ABI and native-asset reconstruction review",
+  "findings": [],
+  "checks": [
+    "Actual AIN redump matches reviewed JAM; only function27936 changes",
+    "PACT153/154/161 label FontColor only; original CODE/STR0/MSG1 and metadata preserved",
+    "Type2026091602 only; nonmod old code reconstruction exact",
+    "48px roots, row margin total height, empty-cell omission, commands before Build correct",
+    "Core temporary reference lifetime and CG ABI checked",
+    "Title temporary tint saved/restored; color arrays instance-owned",
+    "Native CG1500/1840 byte identities confirmed",
+    "Final proof images show blue native material, yellow text, intact corners and no text remnants or overflow",
+    "60 compiled renderer fixture cases bind exact candidate hashes"
+  ],
+  "native_gameplay_verified": false,
+  "limitation": "Proofs reconstruct native CG and FNL, not a game capture. Actual native hover/click/composition remain unverified.",
+  "proofs": {
+    "gear_proof.png": "b68458cf9c40b4e03a5fbeb5eb3dcb497f428458996d4fff6c934cdc9a1bee69",
+    "menu_style_proof.png": "c737ff730384bd78569b814a600794522242b341b4e1f0b44b73a220c4e405c5",
+    "stone_proof.png": "5f94da383e51d64c8c0c72c708bba6f7497a5c286200d9d6893040424cb7543b",
+    "sweep_proof.png": "287a022971b00c098afadd621c1e21707e10007fbb5e95a715a23d9109a2f464"
+  }
+}

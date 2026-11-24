@@ -1,0 +1,40 @@
+{
+ "status": "LABEL_PARTICLES_PREFLIGHT_PASS",
+ "files": {
+  "NightRemaster.ain": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+  "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+ },
+ "source_sha256": "7579a581f60e989d07f9abca13e4bc620aa6f65952974bbddbf0fa99e5f107d3",
+ "counts": {
+  "ev_short": 333,
+  "ev_head": 217,
+  "heads": 23,
+  "tails": 23
+ },
+ "original_code_prefix_exact": true,
+ "original_messages_exact": true,
+ "original_strings_prefix_exact": true,
+ "serialized_schema_changes": 0,
+ "changed_forwarders": [
+  "KR_T19CardHead",
+  "KR_T19CardTail",
+  "KR_T19EvHead",
+  "KR_T19EvShort"
+ ],
+ "existing_resume_saves": 51,
+ "saved_return_frames": 1256,
+ "native_label_assertions": 5276,
+ "native_picker_paths": [
+  "calendar",
+  "achievement",
+  "other_names",
+  "unread"
+ ],
+ "transaction_fixture_pass": true,
+ "dll_unchanged": true,
+ "translator_model": "Codex internal",
+ "limitations": [
+  "Display-only labels; no scenario, choice outcomes or save-layout edits.",
+  "Native diagnostics used a muted private copy and scripted modal cancellation, not an all-route gameplay test."
+ ]
+}

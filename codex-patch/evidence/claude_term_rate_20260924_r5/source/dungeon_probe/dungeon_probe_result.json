@@ -1,0 +1,17 @@
+{
+  "pid": 24300,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "56913ef292bd0251e91f16b27110949e4d0ac3e533b6de151089d8967b29c9f1",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "resume loading",
+    "SHOT dungeon_probe_0.bmp",
+    "line3=${font r=208 g=150 b=255}이즈미는 독에 걸렸다${/font}",
+    "SHOT dungeon_probe_1.bmp",
+    "SHOT dungeon_probe_2.bmp",
+    "SHOT dungeon_probe_3.bmp"
+  ],
+  "wait_sites": 27,
+  "save": "NightR36.asd"
+}

@@ -1,0 +1,456 @@
+{
+ "candidate_sha256": "af1026bb5ea14a2ae3daf048f118d5b3f63728af54ca2c0852bdc8ae7e07bddd",
+ "seconds": 216.7,
+ "counts": {
+  "S1_metadata": 1,
+  "S1_r22_forwarders": 6,
+  "S2_earlier_same_length_sites_kept": 19,
+  "S2_r22_same_length_sites": 2,
+  "S2_base_code_bytes": 12743376,
+  "S2_base_code_bytes_changed": 4,
+  "S3_text": 1,
+  "S6_pinned_bytes": 3916,
+  "S6_pinned_functions": 6,
+  "S7_sandbox_signature_equal_RunEvent": 1,
+  "S8_replay_ops_equal_ExecScene": 88,
+  "S8_r22_sites_checked": 2,
+  "S8_r21_sites_kept": 2,
+  "V37_exit_path_equals_game_exit_tail": 1,
+  "V37_functions_reachable_from_consumers": 227,
+  "V35_unlock_flag_callers": 1,
+  "S4_saves": 51,
+  "S4_frames": 1254,
+  "S4_frames_in_live_versions": 1220,
+  "S4_frames_in_KR_T9HomeCasual": 0,
+  "S4_frames_in_KR_T18RunSandboxed": 0,
+  "S4_frames_in_r22_forwarded": 0,
+  "S4_frames_in_title_owners": 0,
+  "S4_frames_in_r21_owners": 0,
+  "S5_active_functions": 30811,
+  "V1_cards": 155,
+  "V1_stages": 404,
+  "V1_drawers": 96,
+  "V1_scenes": 760,
+  "V1_events": 1164,
+  "V1_panel_outside": 121,
+  "V25_name_tables_equal_chart": 1319,
+  "V15_bars": 14762,
+  "V10_seen_states": 1,
+  "V21_texts_without_e_numbers": 71397,
+  "V2_bars_checked": 3903,
+  "V2_max_width_px": 1163,
+  "V2_dialogs": 10191,
+  "V22_items_unique_on_page": 13278,
+  "V2_max_height": 694,
+  "V2_max_title_lines": 11,
+  "V11_lane_titles": 292,
+  "V11_drawer_rows": 736,
+  "V11_month_drawer_pages": 52,
+  "V2_stage_lists": 140,
+  "V2_drawer_lists": 384,
+  "V11_memory_pages": 4,
+  "V11_summary_pages": 18,
+  "V13_summary_equals_panel": 18,
+  "V2_states": 4,
+  "V26_when_tokens": 2909,
+  "V24_affinity_on_pages": 32,
+  "V2_event_pages": 1164,
+  "V3_cells": 8327,
+  "V3_month_menus": 273,
+  "V11_year_sums": 20,
+  "V3_synthetic_mid_month_marks": 3,
+  "V4_navigation": 1,
+  "V5_play_from_window": 1,
+  "V6_play_from_settings": 1,
+  "V7_no_context": 1,
+  "V8_failsafe": 1,
+  "V9_original_dispatch": 1,
+  "V11_summary_from_month": 1,
+  "V12_tailed_rows": 28,
+  "V12_duplicate_rows_after": 0,
+  "V12_rows": 155,
+  "V13_panel_states": 5,
+  "V16_locked_unseen": 2726,
+  "V16_card_refusals": 244,
+  "V16_event_pages_answered": 3492,
+  "V16_open_pages": 3611,
+  "V16_card_requests": 221,
+  "V16_locked_other": 1229,
+  "V16_bundle_stages": 284,
+  "V16_memory_pages": 32,
+  "V16_states": 3,
+  "V17_sandbox_runs": 4,
+  "V17_state_keys_compared": 64,
+  "V18_mid_replay_load_no_temp": 1,
+  "V18_mid_replay_load_temp_left": 1,
+  "V19_save_failure": 2,
+  "V20_casual_site_lock": 1,
+  "V14_saves": 14,
+  "V14_native_panel_equal": 14,
+  "V14_native_summary_equal": 14,
+  "V14_saves_with_all_three": 5,
+  "V24_card_pages": 17,
+  "V24_lane_rows": 13,
+  "V24_lane_rows_full": 13,
+  "V24_scene_pages": 28,
+  "V24_affinity_events": 28,
+  "V23_rule_6": 404,
+  "V23_rule_5": 242,
+  "V23_rule_8": 29,
+  "V23_rule_7": 75,
+  "V23_rule_1": 88,
+  "V23_rule_3": 28,
+  "V23_rule_4": 17,
+  "V23_rule_2": 284,
+  "V27_walk_pairs_checked": 343,
+  "V27_person_states": 49,
+  "V27_calendar_sums_equal": 7,
+  "V28_months_checked": 8,
+  "V28_persons_whose_value_changes": 7,
+  "V29_texts": 56,
+  "V29_labels": 49,
+  "V29_widest_line_px": 300.0,
+  "V30_status_page_steps": 1,
+  "V30_parts_on_page4": 2,
+  "V31_hover_states": 4,
+  "V31_parts_per_entry": 12,
+  "V31_labels": 6,
+  "V27_real_saves": 14,
+  "V27_real_texts_equal": 210,
+  "V32_training_is_points": 1,
+  "V33_places_checked": 6,
+  "V34_commands": 10,
+  "V34_unknown_ignored": 5,
+  "V39_file_calls_per_armed_frame": 2,
+  "V35_flag_saved_and_reloaded": 3,
+  "V35_failed_write_reported": 1,
+  "V36_no_does_nothing": 4,
+  "V36_yes_schedules_and_exits": 2,
+  "V36_write_failures_safe": 4,
+  "V38_results_shown": 16,
+  "V38_result_before_request": 1,
+  "V39_dialogs_outside_home_not_polled": 3,
+  "V39_own_windows_not_polled": 1,
+  "V39_undeletable_stops_polling": 1,
+  "V39_arm_disarm_paths": 7,
+  "V40_r21_windows_checked": 26,
+  "V41_cells": 915,
+  "V41_events": 1164,
+  "V41_thumbnail_cells": 95,
+  "V41_small_cells": 820,
+  "V41_per_tab": [
+   143,
+   116,
+   203,
+   56,
+   64,
+   58,
+   91,
+   71,
+   85,
+   28
+  ],
+  "V41_not_playable_events": 1,
+  "V42_cells_drawn": 3780,
+  "V43_locked_cells": 1409,
+  "V42_pages": 330,
+  "V43_states": 4,
+  "V42_thumbnails": 271,
+  "V43_open_cells": 2371,
+  "V43_registration_ignored": 1,
+  "V43_locked_click_notice": 1,
+  "V44_replays_ctx1": 1,
+  "V44_replays_ctx2": 1,
+  "V44_card_stage_paths": 1,
+  "V46_ways_out": 3,
+  "V45_calendar_equal_r21": 126,
+  "V45_calendar_equal_r21_stale_flag": 126,
+  "V47_title_idle": 1,
+  "V47_title_commands": 5,
+  "V47_title_reset_exit": 1,
+  "V47_result_before_request": 1,
+  "V47_undeletable_stops": 1,
+  "V48_not_playable_real": 1,
+  "V48_page_and_request": 1,
+  "V48_cells_with_note": 1
+ },
+ "r22": {
+  "tables": {
+   "cells": 915,
+   "per_tab": [
+    143,
+    116,
+    203,
+    56,
+    64,
+    58,
+    91,
+    71,
+    85,
+    28
+   ],
+   "thumbnails": 95
+  },
+  "flow": {
+   "locked": 121,
+   "replay_ctx1": 10001,
+   "replay_ctx2": 10001,
+   "card": "G00004"
+  },
+  "confine": {
+   "compared": 126,
+   "cards": 23,
+   "scenes": 51
+  },
+  "title": {
+   "commands": 5
+  },
+  "noplay": {
+   "real": [
+    262
+   ]
+  }
+ },
+ "planted_defects": [
+  {
+   "defect": "V2 width: legend 40 chars",
+   "caught": true,
+   "message": "('title line over 38', 40, '가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가가')"
+  },
+  {
+   "defect": "V2 height: 12 rows a lane page",
+   "caught": true,
+   "message": "('dialog too tall', 756, 2, 13, '〓5월 · 본편\\u3000†카드 12 · 서랍 0')"
+  },
+  {
+   "defect": "V3 colour: unseen days white",
+   "caught": true,
+   "message": "(4, 27, (4, 9), (1, '●'), (2, '●'))"
+  },
+  {
+   "defect": "V4 navigation: next skips a month",
+   "caught": true,
+   "message": "['4월 이벤트 달력\\u3000■■■■■□□□□□ 75/144 (52%)', '6월 이벤트 달력\\u3000■■■■■■□□□□ 129/232 (56%)', '8월 이벤트 달력\\u3000■■■■■□□□□□ 32/68 (47%)', '10월 이벤트 달력\\u3000■■■■■□□□□□ 69/128 (54%)', '회상 · 그 밖 (패널 밖)']"
+  },
+  {
+   "defect": "V5 unwind flag not written",
+   "caught": true,
+   "message": "dialog without a scripted answer: 〓4월 · 쿄카　†카드 1 · 서랍 43"
+  },
+  {
+   "defect": "V6 settings context lost",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V7 play allowed without context",
+   "caught": true,
+   "message": "(13, '蝟 蛬酲 蛞贖', '', 0)"
+  },
+  {
+   "defect": "V8 fail-safe removed",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V10 seen: this save shown as other save",
+   "caught": true,
+   "message": ""
+  },
+  {
+   "defect": "V11 bar: one cell too many",
+   "caught": true,
+   "message": "('KR_T18Bar', 0, 0, 5, '■□□□□')"
+  },
+  {
+   "defect": "V3 missed shown as upcoming",
+   "caught": true,
+   "message": "(4, 9, (6, 13), (2, '●'), (1, '▲'))"
+  },
+  {
+   "defect": "V11 summary total mismatch (one month left out of 전체)",
+   "caught": true,
+   "message": "('summary page', [('〓달성도\\u3000전체 ■■■■■■■■■□ 548/572 (95.8%)', '〓달성도\\u3000전체 ■■■■■□□□□□ 548/1043 (52.5%)')], 11, 11)"
+  },
+  {
+   "defect": "V12 one name tail removed (two lane rows collide)",
+   "caught": true,
+   "message": "('G00001', '4/9 ● 게임 시작 (4/9)', '4/9 ● 게임 시작 (4/9) 장면 1')"
+  },
+  {
+   "defect": "V3 ★ left on main-story days (r16 day-mark bodies)",
+   "caught": true,
+   "message": "('★ ☆ left (r17 removed the main-story day mark)', '¶\\u3000８\\u3000\\u3000〓\\u3000９★\\u3000†１０\\u3000\\u3000¶１１☆\\u3000†１２\\u3000\\u3000１３\\u3000\\u3000１４\\u3000')"
+  },
+  {
+   "defect": "V11 one panel-outside scene counted (E00996)",
+   "caught": true,
+   "message": "(11, 8, '〓11월 · 던전\\u3000†카드 6 · 서랍 0\\n■■■■■□□□□□ 38/80 본 것\\u3000●안 봄 △다른 저장 ○이 저장')"
+  },
+  {
+   "defect": "V15 last bar cell filled before completion",
+   "caught": true,
+   "message": "('KR_T18Bar', 9, 10, 5, '■■■■■')"
+  },
+  {
+   "defect": "V11 one old-form drawer row left (회상 · 그 밖 page)",
+   "caught": true,
+   "message": "('old drawer-row form 「(본 것 n)」 left', '회상 1쪽 12 (본 것 7)')"
+  },
+  {
+   "defect": "V16 lock bypass: a ● / △ card offers 이 장면 재생",
+   "caught": true,
+   "message": "('lock bypassed: 「이 장면 재생」 on a ● page', [(13, '이 장면 재생', 0), (0, '돌아가기', 0)])"
+  },
+  {
+   "defect": "V17 restore skipped (affinity stays raised)",
+   "caught": true,
+   "message": "['LSys3xScript::Prepare', 'gamesave::detail::セーブ実行', 'LSys3xScript::RunEvent', '■ＡＤＶ消し']"
+  },
+  {
+   "defect": "V17 temp file left behind",
+   "caught": true,
+   "message": "temp file left after the replay"
+  },
+  {
+   "defect": "V19 ResumeSave failure still replays",
+   "caught": true,
+   "message": "('replayed although the resume save failed', ['LSys3xScript::Prepare', 'gamesave::detail::セーブ実行', 'msgbox', 'LSys3xScript::RunEvent', '■ＡＤＶ消し'])"
+  },
+  {
+   "defect": "V1 table: one card entry wrong",
+   "caught": true,
+   "message": "(10, 'G00015', {'lane': 0, 'day': 8, 'slot': 2, 'size': 1, 'entry': 16}, {'lane': 0, 'day': 8, 'slot': 2, 'size': 1, 'entry': 15})"
+  },
+  {
+   "defect": "V21 one E-number left on a scene page (E00001)",
+   "caught": true,
+   "message": "('V21: an E-number left on a page', '〓4/9 · 본편 · 장면 1 · E00001')"
+  },
+  {
+   "defect": "V22 two lines with the same name in one drawer list (4:p2:after: E01102 copies E01101)",
+   "caught": true,
+   "message": "('V22: two items with the same name on one page', ['1번째'])"
+  },
+  {
+   "defect": "V23 a wrong ordinal in a walk drawer (E05001: 단둘이 6번째 -> 단둘이 7번째)",
+   "caught": true,
+   "message": "('V23 rule 5', 5001, '단둘이 7번째', '단둘이 6번째')"
+  },
+  {
+   "defect": "V24 the affinity condition dropped from a card page (E30157)",
+   "caught": true,
+   "message": "('V24: affinity missing on the card page', 'G30157', ['이즈미 친밀도 50 미만'], '10/11 · 아침 · 갈래')"
+  },
+  {
+   "defect": "V27 one remaining count wrong (이달 남은 특훈 뒤 대화 counts 반한 뒤 instead of 초대)",
+   "caught": true,
+   "message": "('V27 이달 남은 특훈 뒤 대화', 'none 4/9', 2)"
+  },
+  {
+   "defect": "V31 parts leak (the label boxes are not released after the wait)",
+   "caught": true,
+   "message": "('V31 parts left after the wait', [2026092022, 2026092023, 2026092024, 2026092025, 2026092026, 2026092028])"
+  },
+  {
+   "defect": "V31 the hovered person not brightened (no KR_T20TrMark after AppearStandChara)",
+   "caught": true,
+   "message": "('V31 hover', 2, {2: 255, 3: 255, 4: 255, 5: 255, 6: 255, 8: 255})"
+  },
+  {
+   "defect": "V29 a partner row with 0 left in (the 0 test removed)",
+   "caught": true,
+   "message": "('V29 이벤트 쪽', 'all 11/10', 2, [('\\u3000쿄카와 ${font r=128 g=224 b=255}0${/font}', ''), ('\\u3000마나미와 ${font r=128 g=224 b=255}0${/font}', '${font r=150 g=150 b=150}달력에서 자세히${/font}')])"
+  },
+  {
+   "defect": "V34 request.txt not deleted after it was served (KR_MTake's DeleteFile skipped)",
+   "caught": true,
+   "message": "('V34 request.txt left after it was served', 'chart')"
+  },
+  {
+   "defect": "V35 the unlock flag not saved (the write skipped, the read-back kept)",
+   "caught": true,
+   "message": "('V35', 'unlock_all', None)"
+  },
+  {
+   "defect": "V36 a .req written without the marker (the marker write skipped)",
+   "caught": true,
+   "message": "('V36 files after 예', 'reset_all', ['G:\\\\YoruGame\\\\KRMenu\\\\reset.req'])"
+  },
+  {
+   "defect": "V36 아니요 still schedules and exits (the answer test inverted)",
+   "caught": true,
+   "message": "('V36 no', 'reset_all', 12, 0)"
+  },
+  {
+   "defect": "V39 polling outside the home menu (the arm test removed from KR_MTick)",
+   "caught": true,
+   "message": "('V39 a poll outside the home menu', 'fresh game (title / dungeon / event)', 1, [('exist', 'G:\\\\YoruGame\\\\KRMenu\\\\request.txt')])"
+  },
+  {
+   "defect": "V44 a locked scene replayable (KR_CCanPlay skips the lock)",
+   "caught": true,
+   "message": "('V44 a locked stage offers play', [(13, '蝟 蛬酲 蛞贖', '', 0), (0, '韃觴槇鴒', '', 0)])"
+  },
+  {
+   "defect": "V43 「전체 개방」 ignored (the flag read as 0)",
+   "caught": true,
+   "message": "('V42 header', 0, 0, '${font r=255 g=214 b=110}이벤트 플로우 차트${/font}\\u30004월\\u3000${font r=130 g=200 b=255}0/143${/font} 열림', '${font r=255 g=214 b=110}이벤트 플로우 차트${/font}\\u30004월\\u3000${font r=130 g=200 "
+  },
+  {
+   "defect": "V45 the chart exception applied in the calendar (KR_CActive without the chart-root test)",
+   "caught": true,
+   "message": "('V45 the calendar differs from r21 with a stale flag', [(('card', 0, [('〓4/9 아침 · 본편\\n†언제\\u30004/9 · 아침\\n†누구\\u3000주인공, 배달원, 이즈미, 신카이 외 2\\n¶○ 이 저장에서 봤습니다\\n〓재생이 끝나면 진행 상태는 재생 전으로 돌아갑니다', [(13, '이 장면 재생"
+  },
+  {
+   "defect": "V46 parts leak (KR_CClear stops at part 100)",
+   "caught": true,
+   "message": "('V46 chart parts left after the chart', [2026092302, 2026092303, 2026092304, 2026092306])"
+  },
+  {
+   "defect": "V41 wrong order (the first two cells of 4월 swapped)",
+   "caught": true,
+   "message": "('V41 cell order', 0, 0, 100001, 100000)"
+  },
+  {
+   "defect": "V42 a thumbnail on cells without CG (KR_CThumb default)",
+   "caught": true,
+   "message": "('V42 cell box', 0, 0, 6, ('create', 301, 172))"
+  },
+  {
+   "defect": "V42 the E number missing from a cell",
+   "caught": true,
+   "message": "('V42 id / when', 0, 0, 1, '${font r=150 g=150 b=158}△${/font} \\n4/9', '${font r=150 g=150 b=158}△${/font} E00001\\n4/9')"
+  },
+  {
+   "defect": "V41 a condition missing (cell 1)",
+   "caught": true,
+   "message": "('V41 cell condition', 1, '', '게임 시작 (4/9)')"
+  },
+  {
+   "defect": "S2 one r15 swap site reverted",
+   "caught": true,
+   "message": "(\"base CODE bytes changed outside r22's operands\", ['0xaf8b42', '0xaf8b43'])"
+  },
+  {
+   "defect": "S4 a saved return instruction changed",
+   "caught": true,
+   "message": "('saved return bytes differ', 'NightR01.asd', 'gamesave::detail::セーブ実行(string, string, ', '0x22a0bc')"
+  },
+  {
+   "defect": "S3 one MSG1 byte changed",
+   "caught": true,
+   "message": "MSG1 changed"
+  },
+  {
+   "defect": "S6 a pinned function redefined (KR_T9HomeCasual moved)",
+   "caught": true,
+   "message": "('pinned function entry changed', 'KR_T9HomeCasual')"
+  },
+  {
+   "defect": "S6 a byte of the pinned KR_T9HomeCasual changed (after r18's operand)",
+   "caught": true,
+   "message": "('pinned code changed', 'KR_T9HomeCasual')"
+  }
+ ]
+}

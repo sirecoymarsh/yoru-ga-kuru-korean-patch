@@ -1,0 +1,96 @@
+{
+  "schema": "yorugakuru.kr-handoff-status.v3",
+  "작품": "夜が来る！-Square of the MOON- Remastered (AliceSoft System4)",
+  "갱신일": "2026-08-30",
+  "현재_프로젝트": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final",
+  "실행_대상": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final\\runtime_layout_v3\\NightRemaster.exe",
+  "최종_런타임_경로": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final\\runtime_layout_v3",
+  "빌드_판정": "static_pass_runtime_spot_check_requested",
+  "시나리오": {
+    "엔트리": 96470,
+    "대상_문자수": 1085003,
+    "대상_문자열_순서_sha256": "09b3eeb9b84e214941b152db1715ff899bee8c9b811513a7ba442f3fcdf19573",
+    "최종_번역_맵": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\layout_revision_results\\results_v2_pixel_layout_final_translation_map.json",
+    "최종_번역_맵_sha256": "4c8ff93006544152ae9c4fbf8e24db0affbd72111fa66cf3303c5b60d120fbfb",
+    "기반_번역_제공자": "Gemini gemini-3.7-flash (existing user-authorized input)",
+    "레이아웃_의미_교정": "Codex internal GPT-5.5"
+  },
+  "레이아웃_수정": {
+    "layout_count": 712,
+    "changed_stable_id_count": 1002,
+    "semantic_reviewed_layout_count": 712,
+    "semantic_reviewed_target_count": 1020,
+    "semantic_corrected_layout_count": 15,
+    "semantic_corrected_stable_id_count": 22,
+    "semantic_reviewer_task_path": "/root/semantic_result_audit",
+    "actionable_safe_overflow": 0,
+    "actionable_physical_overflow": 0,
+    "overflow_page_count": 0,
+    "native_middle_dot_safe_exceptions": 3,
+    "native_middle_dot_physical_exceptions": 1,
+    "native_middle_dot_exact_rows": 558,
+    "native_middle_dot_exact_occurrences": 8949,
+    "window_width_audit": "review: native middle-dot preservation exceptions and 54 unknown-window IDs; page-capacity gate PASS",
+    "unknown_window_stable_id_count": 54
+  },
+  "통합_구성": {
+    "ain_m_시나리오": 96470,
+    "ain_s_안전_UI": 645,
+    "pact_UI": 260,
+    "ex_데이터": 1460,
+    "fnl_합계_매핑": 1524
+  },
+  "출력": {
+    "NightRemaster.ain": {
+      "sha256": "68ea72425670553cf304f8c6b25b12c6853f3c4788efa4df3153f4baf814eb0d",
+      "bytes": 3823531
+    },
+    "NightRemasterFont.fnl": {
+      "sha256": "21bd7b3c6efab1ceff4a6ccb23037991c31d121381a708bafa7d9f43a549fa08",
+      "bytes": 288887378
+    },
+    "NightRemasterPact.afa": {
+      "sha256": "99149686df44c506210c59edd38c171e52df1654d2f32b47ca0b536536079d0f"
+    },
+    "NightRemasterEX.ex": {
+      "sha256": "60bfc4b4a57b3d7010c62b082fac27c7565c33f343be6990de1223a1bde5487b"
+    }
+  },
+  "이름_sentinel": {
+    "source_key": "亮　　　　",
+    "target_key": "료　　　　",
+    "target_key_cp932_hex": "E8538140814081408140",
+    "의미": "whole-string replacement key, not visual padding",
+    "공백_strip_금지": true,
+    "정적_치환_시뮬레이션": "default/1-char/5-char PASS",
+    "런타임_spot_check": "default/1-char/5-char requested"
+  },
+  "정적_검증": {
+    "verdict": "PASS",
+    "ain_시나리오_exact": "96470/96470 PASS",
+    "actionable_overflow": "safe 0 / physical 0",
+    "overflow_pages": 0,
+    "가운뎃점_exact": "558줄 / 8949개 PASS",
+    "가운뎃점_보존_예외": "safe 3 / physical 1",
+    "이름_교체_ABI": "PASS",
+    "폭_감사_설명": "최상위 review는 native ・ 보존 예외와 창 유형 미확정 54건 때문이며, 미해결 actionable overflow를 뜻하지 않음"
+  },
+  "실기_검증": {
+    "새_저장_불러오기": "호환 v2 전신 빌드에서 사용자 보고 PASS; final v3 정적 호환 PASS, 회귀 spot check 대기",
+    "구_세이브_호환": "비차단",
+    "기본_이름": "spot check 대기",
+    "사용자_1자_이름": "spot check 대기",
+    "사용자_5자_이름": "spot check 대기",
+    "긴_대사_clipping": "spot check 대기",
+    "가운뎃점_glyph": "spot check 대기",
+    "모드_선택_및_빈_슬롯": "회귀 spot check 대기"
+  },
+  "빌드_매니페스트": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final\\manifests\\build_manifest.json",
+  "런타임_sha256_스냅샷": {
+    "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_handoff\\runtime_layout_v3_final_snapshot_20260830.json",
+    "sha256": "bfddfd44b3038ac93e21080e59d3d556da224f69d2a399e2f8c2a4fbe3332540",
+    "file_count": 96,
+    "total_bytes": 1285762655
+  },
+  "폐기_결과": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830\\runtime"
+}

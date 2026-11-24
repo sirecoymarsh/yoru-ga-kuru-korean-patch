@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex internal",
+  "files": {
+    "NightRemaster.ain": "963c7db0cccf13a670a237cacb60ec29bc364e873795eefa6f0fa38c321f7517",
+    "NightRemasterPact.afa": "a71410488777ea2e9189f959065334215b51972fc6915eb0ab21d7b46e6372c4"
+  },
+  "native_probe": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\save_screen_mode_20260926\\native_probe_20260926_233518\\result.json",
+  "screenshots": {
+    "mods": "7c3ffe03b45a3bef964ead9fcf2bee77312d7feede43a5cc7d9d3e97a533a802",
+    "choice_2": "6f359a08a82c431577e7df01b76ce02bf5c4f08c05bb562751aa4ae7b1c101fb",
+    "original_load_9": "01d8b55ea9a464d00812e218fec9c58b218d16bb1b6114a2ca9c33b236ad3240",
+    "alternative_load_9": "bf7cb600d4e080c9468bfa444fc8276a8a36c11ba8921da660da3b71a93075c9",
+    "original_load_0": "b8764bf5cc155dc900be459b3045b7402aef644f0387ba872b78bdea010b1567",
+    "original_save_0": "d12852cf97d9f7712b29a2cdd8caa66941c755a91bb5e4705cf4ab0fde9c8459",
+    "original_save_9": "c3bd0ab064e49d7a900671f0be4b37f2d76607b4db4fc44276fa9b6647219efe",
+    "alternative_save_9": "9a0e2b1049c5baab15ad9a7b7baaa0702fa52b87b11e15e6b6a6e41b38eac2ae"
+  },
+  "observations": [
+    "Mods button at top between heading and existing home-achievement toggle; original tab button family, no overlap.",
+    "Selection dialog original/alternative/cancel readable; shared-save and original-mode weekly-slot availability explained.",
+    "Original mode restores original five stat cards, full row spacing, original daily colour and save-mode lock. Level62, stats611/660/548/594 and new saved47 time render rather than zeros.",
+    "Alternative mode preserves two pinned autosaves and original compact progress layout. New shared47 shows saved party, place, main-story and overall progress.",
+    "Original save47 reloads in the second process, then appears in both modes. Older49 displays native stats in original mode and honestly missing historical progress in alternative mode."
+  ],
+  "limitations": [
+    "Original card retains pre-existing tight currency label/digit spacing.",
+    "Native config ClickEvent/selectors and controlled page input verified; no OS-level mouse/wheel injection."
+  ]
+}

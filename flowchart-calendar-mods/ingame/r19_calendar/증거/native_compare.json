@@ -1,0 +1,161 @@
+{
+ "schema": "yoru-calendar-r19.native-compare.v1",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "candidate_sha256": "1d6081e94cbba5a1e33a12cfad2e542bfa7b689b89373f5386475675c53a1948",
+ "blocks": {
+  "TITLE LANE 10 1": "identical",
+  "ROWS LANE 10 1 p1": "identical",
+  "TITLE MONTH 10": "identical",
+  "MONTH 10 marks": "▲○●",
+  "TITLE SUMMARY": "identical",
+  "TITLE MONTH 10 back": "identical",
+  "MONTH 10 back marks": "▲○●",
+  "TITLE MONTH 9": "identical",
+  "MONTH 9 marks": "▲○",
+  "TITLE LANE 10 3 p1": "identical",
+  "ROWS LANE 10 3 p1": "identical",
+  "TITLE LANE 10 3 p2": "identical",
+  "ROWS LANE 10 3 p2": "identical",
+  "TITLE MEM": "identical",
+  "ROWS MEM": "identical",
+  "TITLE LANE 4 8": "identical",
+  "ROWS LANE 4 8 p1": "identical",
+  "TITLE LANE 10 8": "identical",
+  "ROWS LANE 10 8 p1": "identical",
+  "TITLE DCARD 114 10": "identical",
+  "TITLE DSTAGES 114 10": "identical",
+  "ROWS STAGELIST 114 p1": "identical",
+  "TITLE DRAWER 33": "identical",
+  "ROWS DRAWER 33 p1": "identical",
+  "TITLE SCENE 33 0": "identical",
+  "TITLE DRAWER 1": "identical",
+  "ROWS DRAWER 1 p1": "identical",
+  "TITLE SCENE 1 0": "identical",
+  "TITLE LOCKCARD 0 19 5": "identical",
+  "TITLE LOCKCARD 1 82 10": "identical",
+  "TITLE OPENCARD 69 9": "identical",
+  "TITLE STAGES": "identical",
+  "ROWS STAGELIST 69 p1": "identical",
+  "TITLE OPENEVENT 273": "identical",
+  "panel_same_save": {
+   "panel_native": "전체 17.4%",
+   "summary_native": "달성도　전체 ■■□□□□□□□□ 182/1043 (17.4%)",
+   "vm_panel": "182/1043 17.4%",
+   "after_sandbox": "전체 17.4%",
+   "after_midload": "전체 17.4%"
+  },
+  "save": "NightR44.asd",
+  "today": "10/14",
+  "sandbox": {
+   "target": "E00273 (stage 2 of E00258, 27 messages)",
+   "states": [
+    "AFTER",
+    "HOME",
+    "MIDLOAD",
+    "MIDREPLAY",
+    "PREPLAY"
+   ],
+   "home_vs_after_outside_allow_list": {},
+   "allowed_differences": {
+    "marker": [
+     "",
+     "during-replay"
+    ],
+    "slot90": [
+     "0",
+     "1"
+    ]
+   },
+   "feel": {
+    "HOME": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "PREPLAY": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "MIDREPLAY": [
+     0,
+     13438,
+     35649,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "AFTER": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "MIDLOAD": [
+     0,
+     13438,
+     35649,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ]
+   },
+   "midload_change": {
+    "3": 300
+   },
+   "session_variables_restored_by_resumeload": false,
+   "temp_files": {
+    "midreplay": [
+     "1",
+     "1"
+    ],
+    "after": [
+     "0",
+     "0"
+    ],
+    "midload": [
+     "0",
+     "0"
+    ],
+    "on_disk_at_end": []
+   },
+   "home_pixels_before_after": 0,
+   "home_pixels_before_midload": 0,
+   "lock_pages": [
+    "LOCKCARD entry=24 state=0 size=6",
+    "LOCKCARD entry=329 state=1 size=1"
+   ],
+   "lock_after_13": [
+    "LOCK AFTER 13 head=〓5월 · 던전　†카드 4 · 서랍 0 play= unwind= prevset=",
+    "LOCK AFTER 13 head=〓10월 · 본편　†카드 19 · 서랍 0　〓1/3쪽 play= unwind= prevset="
+   ]
+  }
+ },
+ "counts": {
+  "N_r19_card_pages": 1,
+  "N_r19_stage_lists": 3,
+  "N_r19_drawer_lists": 4,
+  "N_r19_scene_pages": 2,
+  "N_lock_pages_identical": 2,
+  "N_blocks_identical": 34,
+  "N_sandbox_state_equal": 1
+ }
+}

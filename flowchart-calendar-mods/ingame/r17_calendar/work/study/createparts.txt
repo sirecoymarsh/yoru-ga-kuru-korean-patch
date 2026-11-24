@@ -1,0 +1,1816 @@
+==================== 27936 C_SelectDialog@CreateParts addr=0x98f4d0 args= [] ret= 0
+
+; C_SelectDialog@CreateParts
+; VAR  0: selWidth : int
+; VAR  1: selHeight : int
+; VAR  2: i : int
+; VAR  3: columnW : int
+; VAR  4: columnH : int
+; VAR  5: j : int
+; VAR  6: idx : int
+; VAR  7: j : int
+; VAR  8: selBackHeight : int
+; VAR  9: count : int
+; VAR 10: txts : array<string>
+; VAR 11: lineCount : int
+; VAR 12: maxLineCnt : int
+; VAR 13: i : int
+; VAR 14: titleWidth : int
+; VAR 15: titleHeight : int
+; VAR 16: titleBackHeight : int
+; VAR 17: i : int
+; VAR 18: BackWidth : int
+; VAR 19: fullWidth : int
+; VAR 20: fullHeight : int
+; VAR 21: <dummy : AFL_Parts_CreateConstructionの戻り値> : wrap<iwrap<IConstructionParts> >
+; VAR 22: <void> : void
+; VAR 23: <dummy : CASConstructionProcess::Createの戻り値> : wrap<CASConstructionProcess>
+; VAR 24: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 25: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 26: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 27: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 28: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 29: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 30: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 31: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 32: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 33: selArea : CASRect
+; VAR 34: oneSelWidth : int
+; VAR 35: i : int
+; VAR 36: <dummy : CASConstructionProcess::Fillの戻り値> : wrap<CASConstructionProcess>
+; VAR 37: i : int
+; VAR 38: <dummy : IConstructionParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 39: <void> : void
+; VAR 40: <dummy : IConstructionParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 41: <void> : void
+; VAR 42: <dummy : IConstructionParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 43: <void> : void
+; VAR 44: <dummy : IRectParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 45: <void> : void
+; VAR 46: over : int
+; VAR 47: <dummy : IConstructionParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 48: <void> : void
+; VAR 49: <dummy : IConstructionParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 50: <void> : void
+; VAR 51: <dummy : IParts@Pos::getの戻り値> : wrap<CASPosF>
+; VAR 52: <dummy : IConstructionParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 53: <void> : void
+; VAR 54: i : int
+; VAR 55: j : int
+; VAR 56: <dummy : C_SelectInfo@Root::getの戻り値> : IRectParts
+; VAR 57: <void> : void
+; VAR 58: <dummy : IRectParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 59: <void> : void
+; VAR 60: <dummy : IConstructionParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 61: <void> : void
+; VAR 62: <dummy : C_SelectInfo@Root::getの戻り値> : IRectParts
+; VAR 63: <void> : void
+; VAR 64: <dummy : IRectParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 65: <void> : void
+; VAR 66: <dummy : C_SelectInfo@Root::getの戻り値> : IRectParts
+; VAR 67: <void> : void
+; VAR 68: <dummy : IRectParts@Core::getの戻り値> : wrap<iwrap<IParts> >
+; VAR 69: <void> : void
+; RETURN: void
+FUNC 27936
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x98f7d2
+	.LOCALASSIGN i#4 0
+0x98f502:
+	.LOCALREF i#4
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	GTE
+	IFNZ 0x98f7cc
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 0
+	PUSH 255
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 1
+	PUSH 224
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 2
+	PUSH 96
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 3
+	PUSH 255
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	PUSH 0
+	PUSH 255
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	PUSH 1
+	PUSH 250
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	PUSH 2
+	PUSH 180
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	PUSH 3
+	PUSH 255
+	X_ASSIGN 1
+	POP
+	.LOCALINC2 i#4
+	JUMP 0x98f502
+0x98f7cc:
+	JUMP 0x98f7d2
+0x98f7d2:
+	.LOCALASSIGN selWidth 0
+	.LOCALASSIGN selHeight 0
+	.LOCALASSIGN i 0
+0x98f814:
+	.LOCALREF i
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	LT
+	IFZ 0x98fb62
+	.LOCALASSIGN columnW 0
+	.LOCALASSIGN columnH 0
+	.LOCALASSIGN j 0
+0x98f888:
+	.LOCALREF j
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	LT
+	IFZ 0x98fa38
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF i
+	.LOCALREF j
+	ADD
+	X_ASSIGN 1
+	POP
+	.LOCALREF idx
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	GTE
+	IFNZ 0x98f912
+	JUMP 0x98f918
+0x98f912:
+	JUMP 0x98fa38
+0x98f918:
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF idx
+	X_REF 1
+	PUSH 27904
+	.STRUCTREF C_SelectDialog m_FontSelect
+	.STRUCTREF C_SelectDialog m_MarginSelect
+	CALLMETHOD 2
+	PUSHLOCALPAGE
+	PUSH 0
+	.LOCALREF selWidth
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF idx
+	X_REF 1
+	PUSH 27895
+	CALLMETHOD 0
+	PUSH 52
+	ADD
+	CALLHLL Math Max 0
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 4
+	.LOCALREF columnH
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF idx
+	X_REF 1
+	PUSH 27898
+	CALLMETHOD 0
+	CALLHLL Math Max 0
+	X_ASSIGN 1
+	POP
+	.LOCALINC3 j
+	JUMP 0x98f888
+0x98fa38:
+	.LOCALASSIGN j#1 0
+0x98fa4e:
+	.LOCALREF j#1
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	LT
+	IFZ 0x98fb28
+	.LOCALREF i
+	.LOCALREF j#1
+	ADD
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	GTE
+	IFNZ 0x98faba
+	JUMP 0x98fac0
+0x98faba:
+	JUMP 0x98fb28
+0x98fac0:
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i
+	X_REF 1
+	PUSH 27900
+	.LOCALREF columnH
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+	.LOCALINC3 j#1
+	JUMP 0x98fa4e
+0x98fb28:
+	PUSHLOCALPAGE
+	PUSH 1
+	.LOCALREF columnH
+	PLUSA
+	POP
+	PUSHLOCALPAGE
+	PUSH 2
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	PLUSA
+	POP
+	JUMP 0x98f814
+0x98fb62:
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x98fcc0
+	.LOCALASSIGN i#4 0
+0x98fb94:
+	.LOCALREF i#4
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	GTE
+	IFNZ 0x98fc22
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 27900
+	PUSH 48
+	CALLMETHOD 1
+	.LOCALINC2 i#4
+	JUMP 0x98fb94
+0x98fc22:
+	PUSHLOCALPAGE
+	PUSH 1
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	PUSH 1
+	SUB
+	ADD
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	DIV
+	PUSH 48
+	.STRUCTREF C_SelectDialog m_MarginSelect
+	PUSH 20933
+	CALLMETHOD 0
+	FTOI
+	ADD
+	MUL
+	.STRUCTREF C_SelectDialog m_MarginSelect
+	PUSH 20933
+	CALLMETHOD 0
+	FTOI
+	SUB
+	X_ASSIGN 1
+	POP
+	JUMP 0x98fcc0
+0x98fcc0:
+	PUSHLOCALPAGE
+	PUSH 8
+	.LOCALREF selHeight
+	PUSH 18
+	ADD
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 9
+	.STRUCTREF C_SelectDialog m_Title
+	CALLHLL String Length 0
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 10
+	X_DUP 2
+	X_REF 1
+	DELETE
+	.STRUCTREF C_SelectDialog m_Title
+	S_PUSH "\n"
+	PUSH 2
+	CALLHLL String Split 0
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 11
+	.LOCALREF txts
+	CALLHLL Array Numof 2
+	X_ASSIGN 1
+	POP
+	.LOCALASSIGN maxLineCnt 0
+	.LOCALASSIGN i#1 0
+0x98fdb0:
+	.LOCALREF i#1
+	.LOCALREF lineCount
+	LT
+	IFZ 0x98fe7a
+	.LOCALREF maxLineCnt
+	.LOCALREF txts
+	.LOCALREF i#1
+	X_REF 1
+	CALLHLL String Length 0
+	LT
+	IFNZ 0x98fe20
+	JUMP 0x98fe60
+0x98fe20:
+	PUSHLOCALPAGE
+	PUSH 12
+	.LOCALREF txts
+	.LOCALREF i#1
+	X_REF 1
+	CALLHLL String Length 0
+	X_ASSIGN 1
+	POP
+0x98fe60:
+	.LOCALINC3 i#1
+	JUMP 0x98fdb0
+0x98fe7a:
+	.LOCALREF maxLineCnt
+	PUSH 0
+	GT
+	IFNZ 0x98fe9c
+	JUMP 0x98feba
+0x98fe9c:
+	PUSHLOCALPAGE
+	PUSH 9
+	.LOCALREF maxLineCnt
+	X_ASSIGN 1
+	POP
+0x98feba:
+	PUSHLOCALPAGE
+	PUSH 14
+	.LOCALREF count
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 20822
+	CALLMETHOD 0
+	MUL
+	.LOCALREF count
+	PUSH 1
+	SUB
+	.STRUCTREF C_SelectDialog m_MarginTitle
+	PUSH 20930
+	CALLMETHOD 0
+	X_MOV 2 1
+	ITOF
+	X_MOV 2 1
+	F_MUL
+	X_MOV 2 1
+	ITOF
+	X_MOV 2 1
+	F_ADD
+	FTOI
+	X_ASSIGN 1
+	POP
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x98ff9e
+	PUSHLOCALPAGE
+	PUSH 14
+	.LOCALREF titleWidth
+	PUSH 48
+	ADD
+	X_ASSIGN 1
+	POP
+	JUMP 0x98ff9e
+0x98ff9e:
+	PUSHLOCALPAGE
+	PUSH 15
+	.LOCALREF lineCount
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 20822
+	CALLMETHOD 0
+	MUL
+	.LOCALREF lineCount
+	PUSH 1
+	SUB
+	.STRUCTREF C_SelectDialog m_MarginTitle
+	PUSH 20933
+	CALLMETHOD 0
+	X_MOV 2 1
+	ITOF
+	X_MOV 2 1
+	F_MUL
+	X_MOV 2 1
+	ITOF
+	X_MOV 2 1
+	F_ADD
+	FTOI
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 16
+	.LOCALREF titleHeight
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x990078
+	CALLFUNC KR_T8TitlePad
+	JUMP 0x99007e
+0x990078:
+	PUSH 24
+0x99007e:
+	ADD
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 0
+	.LOCALREF selWidth
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	MUL
+	.LOCALREF titleWidth
+	CALLHLL Math Max 0
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALASSIGN i#2 0
+0x9900f8:
+	.LOCALREF i#2
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	LT
+	IFZ 0x990192
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#2
+	X_REF 1
+	PUSH 27897
+	.LOCALREF selWidth
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+	.LOCALINC3 i#2
+	JUMP 0x9900f8
+0x990192:
+	PUSHLOCALPAGE
+	PUSH 18
+	.LOCALREF selWidth
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	MUL
+	PUSH 4
+	ADD
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 19
+	.LOCALREF BackWidth
+	PUSH 12
+	ADD
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 20
+	.LOCALREF selBackHeight
+	.LOCALREF titleBackHeight
+	ADD
+	PUSH 10
+	ADD
+	X_ASSIGN 1
+	POP
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_DUP 2
+	X_REF 1
+	PUSH 0
+	PUSH -1
+	PUSH 1
+	CALLFUNC AFL_Parts_CreateConstruction
+	.LOCALREF "<dummy : AFL_Parts_CreateConstructionの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 21
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 3 2
+	DELETE
+	X_ASSIGN 2
+	POP
+	SP_INC
+	.LOCALDELETE "<dummy : AFL_Parts_CreateConstructionの戻り値>"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 4
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	.LOCALREF fullWidth
+	.LOCALREF fullHeight
+	CALLFUNC CASConstructionProcess::Create
+	.LOCALREF "<dummy : CASConstructionProcess::Createの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 23
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Createの戻り値>"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 0
+	CALLFUNC CASConstructionProcess::Fill#4
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 24
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>"
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 1
+	EQUALE
+	IFNZ 0x990490
+	JUMP 0x990490
+0x990490:
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 6
+	PUSH 6
+	.LOCALREF BackWidth
+	PUSH 6
+	SUB
+	.LOCALREF titleBackHeight
+	PUSH 6
+	SUB
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x99054e
+	PUSH 139
+	PUSH 180
+	PUSH 244
+	PUSH 255
+	JUMP 0x990566
+0x99054e:
+	PUSH 255
+	PUSH 255
+	PUSH 255
+	PUSH 255
+0x990566:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 25
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#1"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 0
+	PUSH 0
+	.LOCALREF BackWidth
+	PUSH 6
+	SUB
+	.LOCALREF titleBackHeight
+	PUSH 6
+	SUB
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x99067c
+	PUSH 139
+	PUSH 180
+	PUSH 244
+	PUSH 255
+	JUMP 0x990694
+0x99067c:
+	PUSH 255
+	PUSH 255
+	PUSH 255
+	PUSH 255
+0x990694:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#2"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 26
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#2"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 7
+	PUSH 7
+	.LOCALREF BackWidth
+	PUSH 8
+	SUB
+	.LOCALREF titleBackHeight
+	PUSH 8
+	SUB
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x9907aa
+	PUSH 8
+	PUSH 16
+	PUSH 42
+	PUSH 255
+	JUMP 0x9907c2
+0x9907aa:
+	PUSH 0
+	PUSH 50
+	PUSH 16
+	PUSH 255
+0x9907c2:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#3"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 27
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#3"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 1
+	PUSH 1
+	.LOCALREF BackWidth
+	PUSH 8
+	SUB
+	.LOCALREF titleBackHeight
+	PUSH 8
+	SUB
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x9908d8
+	PUSH 18
+	PUSH 32
+	PUSH 64
+	PUSH 255
+	JUMP 0x9908f0
+0x9908d8:
+	PUSH 0
+	PUSH 177
+	PUSH 57
+	PUSH 255
+0x9908f0:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#4"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 28
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#4"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 18
+	.LOCALREF titleBackHeight
+	PUSH -1
+	ADD
+	.LOCALREF BackWidth
+	PUSH -24
+	ADD
+	.LOCALREF selBackHeight
+	PUSH 0
+	SUB
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x990a16
+	PUSH 139
+	PUSH 180
+	PUSH 244
+	PUSH 255
+	JUMP 0x990a2e
+0x990a16:
+	PUSH 255
+	PUSH 255
+	PUSH 255
+	PUSH 255
+0x990a2e:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#5"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 29
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#5"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 19
+	.LOCALREF titleBackHeight
+	PUSH -1
+	ADD
+	.LOCALREF BackWidth
+	PUSH -26
+	ADD
+	.LOCALREF selBackHeight
+	PUSH -1
+	ADD
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x990b54
+	PUSH 8
+	PUSH 16
+	PUSH 42
+	PUSH 255
+	JUMP 0x990b6c
+0x990b54:
+	PUSH 0
+	PUSH 50
+	PUSH 16
+	PUSH 255
+0x990b6c:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#6"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 30
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#6"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 12
+	.LOCALREF titleBackHeight
+	PUSH -1
+	ADD
+	.LOCALREF BackWidth
+	PUSH -24
+	ADD
+	.LOCALREF selBackHeight
+	PUSH 6
+	SUB
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x990c92
+	PUSH 139
+	PUSH 180
+	PUSH 244
+	PUSH 255
+	JUMP 0x990caa
+0x990c92:
+	PUSH 255
+	PUSH 255
+	PUSH 255
+	PUSH 255
+0x990caa:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#7"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 31
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#7"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	PUSH 15
+	.LOCALREF titleBackHeight
+	PUSH -1
+	ADD
+	.LOCALREF BackWidth
+	PUSH -30
+	ADD
+	.LOCALREF selBackHeight
+	PUSH -9
+	ADD
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x990dd0
+	PUSH 12
+	PUSH 24
+	PUSH 52
+	PUSH 238
+	JUMP 0x990de8
+0x990dd0:
+	PUSH 31
+	PUSH 80
+	PUSH 70
+	PUSH 192
+0x990de8:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#8"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 32
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#8"
+	PUSHLOCALPAGE
+	PUSH 33
+	X_DUP 2
+	X_REF 1
+	DELETE
+	PUSH 18
+	.LOCALREF titleBackHeight
+	PUSH -1
+	ADD
+	.LOCALREF BackWidth
+	PUSH -36
+	ADD
+	.LOCALREF selBackHeight
+	PUSH -12
+	ADD
+	NEW CASRect 20897
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 34
+	.LOCALREF selArea
+	PUSH 20877
+	CALLMETHOD 0
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALASSIGN i#3 1
+0x990f00:
+	.LOCALREF i#3
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	LT
+	IFZ 0x9910c4
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 0
+	ADD
+	X_REF 1
+	.LOCALREF selArea
+	PUSH 20871
+	CALLMETHOD 0
+	.LOCALREF i#3
+	.LOCALREF oneSelWidth
+	MUL
+	ADD
+	.LOCALREF titleBackHeight
+	PUSH 1
+	SUB
+	PUSH 2
+	.LOCALREF selBackHeight
+	PUSH 9
+	SUB
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x991016
+	PUSH 139
+	PUSH 180
+	PUSH 244
+	PUSH 255
+	JUMP 0x99102e
+0x991016:
+	PUSH 255
+	PUSH 255
+	PUSH 255
+	PUSH 255
+0x99102e:
+	CALLFUNC CASConstructionProcess::Fill#3
+	.LOCALREF "<dummy : CASConstructionProcess::Fillの戻り値>#9"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 36
+	X_MOV 3 2
+	X_ASSIGN 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#9"
+	.LOCALDELETE "<dummy : CASConstructionProcess::Fillの戻り値>#9"
+	.LOCALINC3 i#3
+	JUMP 0x990f00
+0x9910c4:
+	.LOCALASSIGN i#4 0
+0x9910da:
+	.LOCALREF i#4
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	LT
+	IFZ 0x99117c
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 27897
+	.LOCALREF oneSelWidth
+	PUSH 2
+	SUB
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+	.LOCALINC3 i#4
+	JUMP 0x9910da
+0x99117c:
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 13
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IConstructionParts@Core::getの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 38
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 31
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x9913ec
+	PUSHLOCALPAGE
+	PUSH 3
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 0
+	PUSH 255
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 4
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 1
+	PUSH 224
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 9
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 2
+	X_REF 1
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 2
+	PUSH 96
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 12
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 3
+	X_REF 1
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 3
+	PUSH 255
+	X_ASSIGN 1
+	POP
+	JUMP 0x9913ec
+0x9913ec:
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x99141a
+	PUSH 28
+	PUSH 28
+	JUMP 0x991426
+0x99141a:
+	PUSH 8
+	PUSH 8
+0x991426:
+	.STRUCTREF C_SelectDialog m_Title
+	A_REF
+	.STRUCTREF C_SelectDialog m_FontTitle
+	A_REF
+	.STRUCTREF C_SelectDialog m_MarginTitle
+	PUSH 20930
+	CALLMETHOD 0
+	FTOI
+	.STRUCTREF C_SelectDialog m_MarginTitle
+	PUSH 20933
+	CALLMETHOD 0
+	FTOI
+	PUSH 1
+	CALLFUNC KR_T8TitleDraw
+	PUSHSTRUCTPAGE
+	PUSH 27908
+	CALLMETHOD 0
+	PUSH 2026091602
+	EQUALE
+	IFZ 0x991584
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 0
+	.LOCALREF columnW
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 1
+	.LOCALREF columnH
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 2
+	.LOCALREF count
+	X_ASSIGN 1
+	POP
+	.STRUCTREF C_SelectDialog m_FontTitle
+	PUSH 2
+	X_REF 1
+	PUSH 3
+	.LOCALREF maxLineCnt
+	X_ASSIGN 1
+	POP
+	JUMP 0x991584
+0x991584:
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 5
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 13
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IConstructionParts@Core::getの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 40
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 57
+	ADD
+	X_REF 1
+	PUSH 5
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#1"
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 13
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IConstructionParts@Core::getの戻り値>#2"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 42
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 226
+	ADD
+	X_REF 1
+	PUSHSTRUCTPAGE
+	PUSH 0
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 5
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IRectParts@Core::getの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 44
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 31
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#2"
+	.LOCALDELETE "<dummy : IRectParts@Core::getの戻り値>"
+	CALLFUNC AFL_View_GetHeight
+	.LOCALREF fullHeight
+	SUB
+	PUSH 2
+	DIV
+	PUSHSTRUCTPAGE
+	PUSH 27911
+	CALLMETHOD 0
+	LT
+	IFNZ 0x991904
+	JUMP 0x991bf6
+0x991904:
+	PUSHLOCALPAGE
+	PUSH 46
+	PUSHSTRUCTPAGE
+	PUSH 27911
+	CALLMETHOD 0
+	CALLFUNC AFL_View_GetHeight
+	.LOCALREF fullHeight
+	SUB
+	PUSH 2
+	DIV
+	SUB
+	X_ASSIGN 1
+	POP
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 13
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IConstructionParts@Core::getの戻り値>#3"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 47
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 38
+	ADD
+	X_REF 1
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 13
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IConstructionParts@Core::getの戻り値>#4"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 49
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 37
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IParts@Pos::getの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 51
+	X_MOV 3 2
+	X_ASSIGN 1
+	PUSH 0
+	X_REF 1
+	.LOCALREF over
+	ITOF
+	NEW CASPosF 20862
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	DELETE
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#3"
+	.LOCALDELETE "<dummy : IParts@Pos::getの戻り値>"
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#4"
+	.LOCALDELETE "<dummy : IParts@Pos::getの戻り値>"
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#4"
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#3"
+0x991bf6:
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 13
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IConstructionParts@Core::getの戻り値>#5"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 52
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 171
+	ADD
+	X_REF 1
+	PUSH 0
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#5"
+	.LOCALASSIGN i#5 0
+0x991d06:
+	.LOCALREF i#5
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	LT
+	IFZ 0x99259a
+	.LOCALASSIGN j#2 0
+0x991d4e:
+	.LOCALREF j#2
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	LT
+	IFZ 0x99257a
+	.LOCALREF i#5
+	.LOCALREF j#2
+	ADD
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	CALLHLL Array Numof 65538
+	GTE
+	IFNZ 0x991dba
+	JUMP 0x991dc0
+0x991dba:
+	JUMP 0x99257a
+0x991dc0:
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#5
+	.LOCALREF j#2
+	ADD
+	X_REF 1
+	PUSH 27889
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_SelectInfo@Root::getの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 56
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 5
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IRectParts@Core::getの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 58
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 226
+	ADD
+	X_REF 1
+	PUSHSTRUCTPAGE
+	PUSH 2
+	X_REF 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 13
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IConstructionParts@Core::getの戻り値>#6"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 60
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 31
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+	.LOCALDELETE "<dummy : IRectParts@Core::getの戻り値>#1"
+	.LOCALDELETE "<dummy : C_SelectInfo@Root::getの戻り値>"
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#6"
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#5
+	.LOCALREF j#2
+	ADD
+	X_REF 1
+	PUSH 27889
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_SelectInfo@Root::getの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 62
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 5
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IRectParts@Core::getの戻り値>#2"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 64
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 50
+	ADD
+	X_REF 1
+	PUSH 1
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	POP
+	.LOCALDELETE "<dummy : IRectParts@Core::getの戻り値>#2"
+	.LOCALDELETE "<dummy : C_SelectInfo@Root::getの戻り値>#1"
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#5
+	.LOCALREF j#2
+	ADD
+	X_REF 1
+	PUSH 27889
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_SelectInfo@Root::getの戻り値>#2"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 66
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 5
+	ADD
+	X_REF 1
+	CALLMETHOD 0
+	.LOCALREF "<dummy : IRectParts@Core::getの戻り値>#3"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 68
+	X_MOV 4 2
+	X_ASSIGN 2
+	X_MOV 2 1
+	X_DUP 1
+	X_MOV 3 1
+	PUSH 0
+	X_REF 1
+	X_MOV 2 1
+	PUSH 38
+	ADD
+	X_REF 1
+	.LOCALREF j#2
+	.LOCALREF oneSelWidth
+	MUL
+	.LOCALREF oneSelWidth
+	PUSH 2
+	DIV
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	PUSH 1
+	SUB
+	MUL
+	SUB
+	PUSH 6
+	SUB
+	ITOF
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#5
+	X_REF 1
+	PUSH 27898
+	CALLMETHOD 0
+	PUSH 2
+	DIV
+	PUSH 0
+	.LOCALREF titleBackHeight
+	ADD
+	PUSH 0
+	ADD
+	ADD
+	.STRUCTREF C_SelectDialog m_SelectInfos
+	.LOCALREF i#5
+	X_REF 1
+	PUSH 27898
+	CALLMETHOD 0
+	.STRUCTREF C_SelectDialog m_MarginSelect
+	PUSH 20933
+	CALLMETHOD 0
+	X_MOV 2 1
+	ITOF
+	X_MOV 2 1
+	F_ADD
+	.LOCALREF i#5
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	DIV
+	ITOF
+	F_MUL
+	X_MOV 2 1
+	ITOF
+	X_MOV 2 1
+	F_ADD
+	.LOCALREF fullHeight
+	PUSH 2
+	DIV
+	ITOF
+	F_SUB
+	NEW CASPosF 20862
+	X_DUP 1
+	X_MOV 4 1
+	CALLMETHOD 1
+	DELETE
+	.LOCALDELETE "<dummy : IRectParts@Core::getの戻り値>#3"
+	.LOCALDELETE "<dummy : C_SelectInfo@Root::getの戻り値>#2"
+	.LOCALDELETE "<dummy : IRectParts@Core::getの戻り値>#3"
+	.LOCALDELETE "<dummy : C_SelectInfo@Root::getの戻り値>#2"
+	.LOCALDELETE "<dummy : IRectParts@Core::getの戻り値>#2"
+	.LOCALDELETE "<dummy : C_SelectInfo@Root::getの戻り値>#1"
+	.LOCALDELETE "<dummy : IConstructionParts@Core::getの戻り値>#6"
+	.LOCALDELETE "<dummy : IRectParts@Core::getの戻り値>#1"
+	.LOCALDELETE "<dummy : C_SelectInfo@Root::getの戻り値>"
+	.LOCALINC3 j#2
+	JUMP 0x991d4e
+0x99257a:
+	PUSHLOCALPAGE
+	PUSH 54
+	PUSHSTRUCTPAGE
+	PUSH 27905
+	CALLMETHOD 0
+	PLUSA
+	POP
+	JUMP 0x991d06
+0x99259a:
+	RETURN
+ENDFUNC C_SelectDialog@CreateParts
+

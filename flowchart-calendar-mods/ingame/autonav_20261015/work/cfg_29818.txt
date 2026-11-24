@@ -1,0 +1,738 @@
+==================== ; C_ConfigView@EventConfPartsDataForAsra FUNC 29818
+; C_ConfigView@EventConfPartsDataForAsra
+; ARG  0: PassedTime : int
+; ARG  1: ScaledPassedTime : int
+; ARG  2: ActivityName : string
+; RETURN: void
+FUNC 29818
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声女性スライダ"
+	PUSH -1
+	PUSH 29837    ; Conf_SetVoiceVolume_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声男性スライダ"
+	PUSH -1
+	PUSH 29842    ; Conf_SetVoiceVolume_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声その他スライダ"
+	PUSH -1
+	PUSH 29847    ; Conf_SetVoiceVolume_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声女性消音"
+	PUSH -1
+	PUSH 29839    ; Conf_SetVoiceMute_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声男性消音"
+	PUSH -1
+	PUSH 29844    ; Conf_SetVoiceMute_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声その他消音"
+	PUSH -1
+	PUSH 29849    ; Conf_SetVoiceMute_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_戦闘の進行速度を速くする"
+	PUSH -1
+	PUSH 29852    ; Conf_SetBattleSpeedUp
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_戦闘が終わってもオート戦闘継続"
+	PUSH -1
+	PUSH 29854    ; Conf_SetAutoBattleContinuous
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_訓練演出の簡略化"
+	PUSH -1
+	PUSH 29856    ; Conf_SetSimpleTrainingFX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_ＨＣＧを非表示にする"
+	PUSH -1
+	PUSH 29858    ; Conf_SetDistributeMode
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_２倍／経験値"
+	PUSH -1
+	PUSH 29860    ; Conf_SetCasualDoubleEX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_２倍／訓練値"
+	PUSH -1
+	PUSH 29863    ; Conf_SetCasualDoubleTrainging
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_２倍／月片"
+	PUSH -1
+	PUSH 29866    ; Conf_SetCasualDoubleMoney
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_２倍／仲間特訓値"
+	PUSH -1
+	PUSH 29869    ; Conf_SetCasualDoublePairTraining
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_戦闘後回復機能"
+	PUSH -1
+	PUSH 29872    ; Conf_SetCasualIsRecoverAfterBattle
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_アイテム所持数増加"
+	PUSH -1
+	PUSH 29875    ; Conf_SetCasualIsExpandConsumeItem
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_敵強制表示"
+	PUSH -1
+	PUSH 29878    ; Conf_SetCasualIsShowEnemy
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_罠強制表示"
+	PUSH -1
+	PUSH 29881    ; Conf_SetCasualIsShowTrap
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_宝箱強制表示"
+	PUSH -1
+	PUSH 29884    ; Conf_SetCasualIsShowTreasure
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_トラップ緩和"
+	PUSH -1
+	PUSH 29887    ; Conf_SetCasualIsTrapSafe
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSH 0
+	IFNZ 0x69bcbe
+	JUMP 0x69bd9a
+0x69bcbe:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleEX
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleTrainging
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleMoney
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoublePairTraining
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsRecoverAfterBattle
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsExpandConsumeItem
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowEnemy
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowTrap
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowTreasure
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsTrapSafe
+0x69bd9a:
+	PUSHSTRUCTPAGE
+	PUSH 29829    ; C_ConfigView@UpdateEventForConnectStatus
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLMETHOD 1
+	RETURN
+==================== ; C_ConfigView@EventConfPartsDataForAsra FUNC 29818
+; C_ConfigView@EventConfPartsDataForAsra
+; ARG  0: PassedTime : int
+; ARG  1: ScaledPassedTime : int
+; ARG  2: ActivityName : string
+; RETURN: void
+FUNC 29818
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声女性スライダ"
+	PUSH -1
+	PUSH 29837    ; Conf_SetVoiceVolume_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声男性スライダ"
+	PUSH -1
+	PUSH 29842    ; Conf_SetVoiceVolume_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声その他スライダ"
+	PUSH -1
+	PUSH 29847    ; Conf_SetVoiceVolume_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声女性消音"
+	PUSH -1
+	PUSH 29839    ; Conf_SetVoiceMute_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声男性消音"
+	PUSH -1
+	PUSH 29844    ; Conf_SetVoiceMute_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声その他消音"
+	PUSH -1
+	PUSH 29849    ; Conf_SetVoiceMute_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_戦闘の進行速度を速くする"
+	PUSH -1
+	PUSH 29852    ; Conf_SetBattleSpeedUp
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_戦闘が終わってもオート戦闘継続"
+	PUSH -1
+	PUSH 29854    ; Conf_SetAutoBattleContinuous
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_訓練演出の簡略化"
+	PUSH -1
+	PUSH 29856    ; Conf_SetSimpleTrainingFX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_ＨＣＧを非表示にする"
+	PUSH -1
+	PUSH 29858    ; Conf_SetDistributeMode
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_Multiplier_EX"
+	PUSH -1
+	PUSH 31828    ; KR_MultiplierSetEX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_Multiplier_Training"
+	PUSH -1
+	PUSH 31830    ; KR_MultiplierSetTraining
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_Multiplier_Money"
+	PUSH -1
+	PUSH 31832    ; KR_MultiplierSetMoney
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_Multiplier_PairTraining"
+	PUSH -1
+	PUSH 31834    ; KR_MultiplierSetPairTraining
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_戦闘後回復機能"
+	PUSH -1
+	PUSH 29872    ; Conf_SetCasualIsRecoverAfterBattle
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_アイテム所持数増加"
+	PUSH -1
+	PUSH 29875    ; Conf_SetCasualIsExpandConsumeItem
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_敵強制表示"
+	PUSH -1
+	PUSH 29878    ; Conf_SetCasualIsShowEnemy
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_罠強制表示"
+	PUSH -1
+	PUSH 29881    ; Conf_SetCasualIsShowTrap
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_宝箱強制表示"
+	PUSH -1
+	PUSH 29884    ; Conf_SetCasualIsShowTreasure
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_トラップ緩和"
+	PUSH -1
+	PUSH 29887    ; Conf_SetCasualIsTrapSafe
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSH 0
+	IFNZ 0x94670a
+	JUMP 0x9467e6
+0x94670a:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleEX
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleTrainging
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleMoney
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoublePairTraining
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsRecoverAfterBattle
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsExpandConsumeItem
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowEnemy
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowTrap
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowTreasure
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsTrapSafe
+0x9467e6:
+	PUSHSTRUCTPAGE
+	PUSH 29829    ; C_ConfigView@UpdateEventForConnectStatus
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLMETHOD 1
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_EX"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x946870
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_EX"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateEX
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x946870:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Training"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x9468dc
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Training"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateTrainging
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x9468dc:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Money"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x946948
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Money"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateMoney
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x946948:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_PairTraining"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x9469b4
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_PairTraining"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RatePairTraining
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x9469b4:
+	RETURN
+ENDFUNC C_ConfigView@EventConfPartsDataForAsra
+==================== ; C_ConfigView@EventConfPartsDataForAsra FUNC 29818
+; C_ConfigView@EventConfPartsDataForAsra
+; ARG  0: PassedTime : int
+; ARG  1: ScaledPassedTime : int
+; ARG  2: ActivityName : string
+; RETURN: void
+FUNC 29818
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声女性スライダ"
+	PUSH -1
+	PUSH 29837    ; Conf_SetVoiceVolume_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声男性スライダ"
+	PUSH -1
+	PUSH 29842    ; Conf_SetVoiceVolume_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "SYS_音声その他スライダ"
+	PUSH -1
+	PUSH 29847    ; Conf_SetVoiceVolume_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声女性消音"
+	PUSH -1
+	PUSH 29839    ; Conf_SetVoiceMute_Chara1
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声男性消音"
+	PUSH -1
+	PUSH 29844    ; Conf_SetVoiceMute_Chara2
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_音声その他消音"
+	PUSH -1
+	PUSH 29849    ; Conf_SetVoiceMute_Chara3
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_CheatSpeed"
+	PUSH -1
+	PUSH 31853    ; KR_SetSpeed
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_戦闘が終わってもオート戦闘継続"
+	PUSH -1
+	PUSH 29854    ; Conf_SetAutoBattleContinuous
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_訓練演出の簡略化"
+	PUSH -1
+	PUSH 29856    ; Conf_SetSimpleTrainingFX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_ＨＣＧを非表示にする"
+	PUSH -1
+	PUSH 29858    ; Conf_SetDistributeMode
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_Multiplier_EX"
+	PUSH -1
+	PUSH 31828    ; KR_MultiplierSetEX
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_Multiplier_Training"
+	PUSH -1
+	PUSH 31830    ; KR_MultiplierSetTraining
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_Multiplier_Money"
+	PUSH -1
+	PUSH 31832    ; KR_MultiplierSetMoney
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29826    ; C_ConfigView@SetHScrollRateForAsra
+	S_PUSH "KR_Multiplier_PairTraining"
+	PUSH -1
+	PUSH 31834    ; KR_MultiplierSetPairTraining
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_戦闘後回復機能"
+	PUSH -1
+	PUSH 29872    ; Conf_SetCasualIsRecoverAfterBattle
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_アイテム所持数増加"
+	PUSH -1
+	PUSH 29875    ; Conf_SetCasualIsExpandConsumeItem
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_敵強制表示"
+	PUSH -1
+	PUSH 29878    ; Conf_SetCasualIsShowEnemy
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_罠強制表示"
+	PUSH -1
+	PUSH 29881    ; Conf_SetCasualIsShowTrap
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_宝箱強制表示"
+	PUSH -1
+	PUSH 29884    ; Conf_SetCasualIsShowTreasure
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "SYS_トラップ緩和"
+	PUSH -1
+	PUSH 29887    ; Conf_SetCasualIsTrapSafe
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSH 0
+	IFNZ 0x949574
+	JUMP 0x949650
+0x949574:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleEX
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleTrainging
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoubleMoney
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualDoublePairTraining
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsRecoverAfterBattle
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsExpandConsumeItem
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowEnemy
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowTrap
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsShowTreasure
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLFUNC Conf_IniStateCasualIsTrapSafe
+0x949650:
+	PUSHSTRUCTPAGE
+	PUSH 29829    ; C_ConfigView@UpdateEventForConnectStatus
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	CALLMETHOD 1
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_EX"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x9496da
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_EX"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateEX
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x9496da:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Training"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x949746
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Training"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateTrainging
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x949746:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Money"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x9497b2
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_Money"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RateMoney
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x9497b2:
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_PairTraining"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x94981e
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_Multiplier_Value_PairTraining"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	.GLOBALREF L_CasualMode::RatePairTraining
+	PUSH 100
+	DIV
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x94981e:
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "KR_CheatTrap"
+	PUSH -1
+	PUSH 31848    ; KR_SetTrap
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "KR_CheatQuick"
+	PUSH -1
+	PUSH 31849    ; KR_SetQuick
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29828    ; C_ConfigView@SetCheckStatForAsra
+	S_PUSH "KR_CheatRoute"
+	PUSH -1
+	PUSH 31850    ; KR_SetRoute
+	DG_NEW_FROM_METHOD
+	CALLMETHOD 2
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_CheatSpeedValue"
+	CALLFUNC AFL_Activity_IsExistPartsByName
+	IFZ 0x9498e0
+	.STRUCTREF C_ConfigView m_ActName
+	A_REF
+	S_PUSH "KR_CheatSpeedValue"
+	CALLFUNC AFL_Activity_GetPartsNumber
+	S_PUSH "%d逕"
+	CALLFUNC KR_Speed
+	S_MOD 2
+	PUSH 1
+	CALLFUNC Ｐ＿テキスト設定
+0x9498e0:
+	RETURN
+ENDFUNC C_ConfigView@EventConfPartsDataForAsra

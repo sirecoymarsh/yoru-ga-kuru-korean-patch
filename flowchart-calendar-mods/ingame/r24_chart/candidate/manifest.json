@@ -1,0 +1,503 @@
+{
+ "schema": "yoru-chart-r24.candidate.v1",
+ "status": "CHART_R24_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-09-28T19:40:22",
+ "seconds": 58,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "81a30df971cee6bf4ef92ce7d6c4112aaf9761793f0d95a2d0da4157f4de3581",
+  "status": "FEELING_R23_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "b5ec7f01ce25704c505f9f5eabb3f2873ab9aa1fda0d2a1b10b95102346713d3",
+  "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "winmm_sha256": "a72b1b9d386107bb6370f4ff3f0ff9bd857fbf6223e7d0b1f5399604cd64e199",
+  "chart_sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+  "r23_installed": true,
+  "r22_installed": true,
+  "hook_r2_installed": true,
+  "checked_at_start_and_end": true
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155",
+   "size": 3907038
+  }
+ },
+ "pact_changed": false,
+ "ex_changed": false,
+ "fnl_changed": false,
+ "chart_changed": false,
+ "winmm_changed": false,
+ "data": {
+  "r22_cells_sha256": "89c1ead705881d8067d104ab8596caca3d4f35888ab477923645db884734b841",
+  "cells": 915,
+  "tables": "r22's cell tables in the base are used as they are (names, when, conditions, thumbnails, not-playable)"
+ },
+ "display": {
+  "locked_cell": "the r19 name, 「● E#####」, when and the condition in grey at the open cell's places; a thumbnail event gets an empty 120 x 90 frame (22,22,28 / border 70,70,82) instead of its CG; the grey box stays",
+  "locked_click": "the detail page (the calendar's card / scene page, r22 chart branch) without 이 장면 재생; state line 「● 안 읽은 장면 · 전체 개방하면 재생됩니다」 (a not-playable scene: 「● 안 읽은 장면입니다」 + 「재생 불가(게임 안에서만)」)",
+  "buttons": [
+   {
+    "fn": "KR_C24BtnHide",
+    "part": 2026092238,
+    "label_part": 2026092239,
+    "label": "다시 가리기",
+    "x": 880.0,
+    "y": 12,
+    "w": 120,
+    "h": 40,
+    "text_x": 14.5
+   },
+   {
+    "fn": "KR_C24BtnAll",
+    "part": 2026092236,
+    "label_part": 2026092237,
+    "label": "전체 개방",
+    "x": 1008.0,
+    "y": 12,
+    "w": 120,
+    "h": 40,
+    "text_x": 23.0
+   }
+  ],
+  "button_action": "write YoruKR_Chart.dat 1 / 0 (r21 KR_MSetUnlock, the menu bar's file) and the session variable YoruKR.C.All; the chart loop (KR_C24Chart, the answers of r22 KR_CChart) redraws the same tab and page (the number is not one of its answers)",
+  "keys": {
+   "U": "전체 개방",
+   "R": "다시 가리기",
+   "rule": "press and release once; a key already down when the page is drawn is ignored"
+  },
+  "legend": "● 안 읽음　△ 읽음(게임 전역 기록)　회색 칸 잠김",
+  "header": "r22 as it was (「전체 개방」 when the flag is 1)",
+  "resume": "a replay started from the chart (the page of a cell, 이 장면 재생) runs as in r22 (chart and windows closed, every chart part released, the memory-mode path) and then the chart opens again on the same tab and page with the border of the played cell gold (YoruKR.C.Last); only 닫기 / cancel go back to the title / home-base menu; the position lives in the locals of KR_C24Chart (gone if the game stops during the replay)"
+ },
+ "layout": {
+  "labels": {
+   "KR_C24BtnHide": {
+    "label": "다시 가리기",
+    "x": 880.0,
+    "text_x": 14.5,
+    "width_px": 91
+   },
+   "KR_C24BtnAll": {
+    "label": "전체 개방",
+    "x": 1008.0,
+    "text_x": 23.0,
+    "width_px": 74
+   }
+  },
+  "widest_header_px": 458,
+  "header_right": 482,
+  "first_button_x": 880.0,
+  "legend_px": 327,
+  "legend_right": 527,
+  "page_line_x": 590,
+  "per_tab": [
+   143,
+   116,
+   203,
+   56,
+   64,
+   58,
+   91,
+   71,
+   85,
+   28
+  ]
+ },
+ "added_functions": {
+  "KR_C24BtnAll": 32723,
+  "KR_C24BtnHide": 32724,
+  "KR_C24Key": 32725,
+  "KR_C24KeyArm1": 32726,
+  "KR_C24KeyArm": 32727,
+  "KR_C24KeyHit": 32728,
+  "KR_C24Frame": 32729,
+  "KR_C24WaitRaw": 32730,
+  "KR_C24Toggle": 32731,
+  "KR_C24Wait": 32732,
+  "KR_C24DrawCell": 32733,
+  "KR_C24Button": 32734,
+  "KR_C24Draw": 32735,
+  "KR_C24Click": 32736,
+  "KR_C24StateLine": 32737,
+  "KR_C24PlayNote": 32738,
+  "KR_C24Chart": 32739
+ },
+ "jam_bodies": [
+  "KR_C24WaitRaw"
+ ],
+ "forwarded_functions": {
+  "KR_CChart": {
+   "index": 32692,
+   "base_address": 13168402,
+   "target": "KR_C24Chart",
+   "target_index": 32739
+  },
+  "KR_CDraw": {
+   "index": 32683,
+   "base_address": 13166454,
+   "target": "KR_C24Draw",
+   "target_index": 32735
+  },
+  "KR_CWait": {
+   "index": 32686,
+   "base_address": 13167046,
+   "target": "KR_C24Wait",
+   "target_index": 32732
+  },
+  "KR_CClick": {
+   "index": 32689,
+   "base_address": 13167276,
+   "target": "KR_C24Click",
+   "target_index": 32736
+  },
+  "KR_CStateLine": {
+   "index": 32658,
+   "base_address": 13156298,
+   "target": "KR_C24StateLine",
+   "target_index": 32737
+  },
+  "KR_CPlayNote": {
+   "index": 32659,
+   "base_address": 13156400,
+   "target": "KR_C24PlayNote",
+   "target_index": 32738
+  }
+ },
+ "r18_forwarders_kept": [
+  "KR_T9CardPage",
+  "KR_T9CardRow",
+  "KR_T9ChipRow",
+  "KR_T9EventPage",
+  "KR_T9LaneTitle",
+  "KR_T9MemPage",
+  "KR_T9MonthChips",
+  "KR_T9MonthPage"
+ ],
+ "r19_forwarders_kept": [
+  "KR_T18CardRow",
+  "KR_T18CardTitle",
+  "KR_T18EventTitle",
+  "KR_T9ChipPage",
+  "KR_T9StagePage"
+ ],
+ "r22_forwarders_kept": [
+  "KR_MDo",
+  "KR_T18CardPage",
+  "KR_T18EventPage",
+  "KR_T9Legend",
+  "KR_T9Seen",
+  "KR_T9State"
+ ],
+ "same_length_sites": [],
+ "earlier_same_length_sites_kept": 24,
+ "relocated_original_functions": [],
+ "pinned_functions": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "code_bytes": 232,
+   "bytes_differing": 0
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "code_bytes": 298,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "code_bytes": 550,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "code_bytes": 1104,
+   "bytes_differing": 0
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "code_bytes": 1292,
+   "bytes_differing": 0
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890,
+   "code_bytes": 440,
+   "bytes_differing": 0
+  }
+ },
+ "r22_functions_kept_in_place": {
+  "KR_CReplay": {
+   "index": 32691,
+   "address": 13168070,
+   "code_bytes": 332
+  },
+  "KR_CReplayRun": {
+   "index": 32690,
+   "address": 13167576,
+   "code_bytes": 494
+  },
+  "KR_CDrawFrame": {
+   "index": 32681,
+   "address": 13161954,
+   "code_bytes": 2330
+  },
+  "KR_CDrawCell": {
+   "index": 32682,
+   "address": 13164284,
+   "code_bytes": 2170
+  },
+  "KR_CFrame": {
+   "index": 32687,
+   "address": 13167086,
+   "code_bytes": 140
+  },
+  "KR_CClear": {
+   "index": 32684,
+   "address": 13166824,
+   "code_bytes": 142
+  },
+  "KR_CDo": {
+   "index": 32693,
+   "address": 13170360,
+   "code_bytes": 356
+  },
+  "KR_CServe": {
+   "index": 32695,
+   "address": 13170758,
+   "code_bytes": 350
+  },
+  "KR_CTitleTick": {
+   "index": 32696,
+   "address": 13171108,
+   "code_bytes": 124
+  },
+  "KR_CTitleServe": {
+   "index": 32697,
+   "address": 13171232,
+   "code_bytes": 84
+  },
+  "KR_CCardPage": {
+   "index": 32663,
+   "address": 13157400,
+   "code_bytes": 1322
+  },
+  "KR_CEventPage": {
+   "index": 32664,
+   "address": 13158722,
+   "code_bytes": 774
+  },
+  "KR_CRequest": {
+   "index": 32662,
+   "address": 13157294,
+   "code_bytes": 106
+  },
+  "KR_CCanPlay": {
+   "index": 32654,
+   "address": 13155830,
+   "code_bytes": 92
+  },
+  "KR_COpen": {
+   "index": 32653,
+   "address": 13155754,
+   "code_bytes": 76
+  },
+  "KR_CGlobal": {
+   "index": 32651,
+   "address": 13155410,
+   "code_bytes": 302
+  }
+ },
+ "invariance": {
+  "original_function_entries_identical_except_forwarded": true,
+  "forwarded": [
+   "KR_CChart",
+   "KR_CClick",
+   "KR_CDraw",
+   "KR_CPlayNote",
+   "KR_CStateLine",
+   "KR_CWait"
+  ],
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 0,
+  "old_code_identical": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 8,
+  "functions_added": 17,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 232,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 298,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 550,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1104,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1292,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 440,
+    "bytes_differing": 0
+   }
+  },
+  "earlier_same_length_sites_kept": 24,
+  "r22_functions_kept_in_place": {
+   "KR_CReplay": {
+    "index": 32691,
+    "address": 13168070,
+    "code_bytes": 332
+   },
+   "KR_CReplayRun": {
+    "index": 32690,
+    "address": 13167576,
+    "code_bytes": 494
+   },
+   "KR_CDrawFrame": {
+    "index": 32681,
+    "address": 13161954,
+    "code_bytes": 2330
+   },
+   "KR_CDrawCell": {
+    "index": 32682,
+    "address": 13164284,
+    "code_bytes": 2170
+   },
+   "KR_CFrame": {
+    "index": 32687,
+    "address": 13167086,
+    "code_bytes": 140
+   },
+   "KR_CClear": {
+    "index": 32684,
+    "address": 13166824,
+    "code_bytes": 142
+   },
+   "KR_CDo": {
+    "index": 32693,
+    "address": 13170360,
+    "code_bytes": 356
+   },
+   "KR_CServe": {
+    "index": 32695,
+    "address": 13170758,
+    "code_bytes": 350
+   },
+   "KR_CTitleTick": {
+    "index": 32696,
+    "address": 13171108,
+    "code_bytes": 124
+   },
+   "KR_CTitleServe": {
+    "index": 32697,
+    "address": 13171232,
+    "code_bytes": 84
+   },
+   "KR_CCardPage": {
+    "index": 32663,
+    "address": 13157400,
+    "code_bytes": 1322
+   },
+   "KR_CEventPage": {
+    "index": 32664,
+    "address": 13158722,
+    "code_bytes": 774
+   },
+   "KR_CRequest": {
+    "index": 32662,
+    "address": 13157294,
+    "code_bytes": 106
+   },
+   "KR_CCanPlay": {
+    "index": 32654,
+    "address": 13155830,
+    "code_bytes": 92
+   },
+   "KR_COpen": {
+    "index": 32653,
+    "address": 13155754,
+    "code_bytes": 76
+   },
+   "KR_CGlobal": {
+    "index": 32651,
+    "address": 13155410,
+    "code_bytes": 302
+   }
+  },
+  "forwarders_kept": {
+   "r18": 8,
+   "r19": 5,
+   "r22": 6
+  }
+ },
+ "parts": {
+  "first": 2026092200,
+  "count": 112,
+  "added": [
+   2026092236,
+   2026092237,
+   2026092238,
+   2026092239
+  ]
+ },
+ "native_opcode_audit": {
+  "active_functions": 30853,
+  "instruction_sites": 2129886,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "session_variables_new": [
+  "YoruKR.C.KeyU",
+  "YoruKR.C.KeyR",
+  "YoruKR.C.Last"
+ ],
+ "new_globals": 0,
+ "new_struct_members": 0,
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "505201b588e77d3579f650e48d510f62c34d35c86176df19b65455af4b99ca3a",
+ "build_script_sha256": "9c2cc8239e2886416e0078f3a45c00fc69faf64008103c66a9cf7b22312f8bdb"
+}

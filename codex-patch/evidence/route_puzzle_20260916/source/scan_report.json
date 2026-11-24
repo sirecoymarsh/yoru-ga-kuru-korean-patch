@@ -1,0 +1,15 @@
+{
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "started": "2026-09-16T21:42:09.3392854+09:00",
+  "ended": "2026-09-16T21:42:11.9787671+09:00",
+  "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\route_puzzle_20260916\\scan_payload",
+  "files": {
+    "NightRemaster.ain": "75d721bc318296fa1e2f4d1e4a86bd220c5d1c7977d753473bf12962b4711b07"
+  },
+  "engine": "1.1.26080.3",
+  "platform": "4.18.26080.3",
+  "signatures": "1.459.226.0",
+  "antivirusEnabled": true,
+  "before": [],
+  "after": []
+}

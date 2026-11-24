@@ -1,0 +1,11 @@
+{
+  "source_sha256": "bdcd8c8c8d1c2f606ee39f4180a3f377ea1db82818ba6a99f420bf518cdd6758",
+  "probe_sha256": "13b1cb427918855ea56bbb7f240e94e2cc060e55d489d088c39feb9b71f9fd85",
+  "candidate_files": {
+    "NightRemaster.ain": "bdcd8c8c8d1c2f606ee39f4180a3f377ea1db82818ba6a99f420bf518cdd6758",
+    "NightRemasterPact.afa": "4dc2e9e483e5c8a2e1f2f5f2219368d21429b42d837492ceae484289ff49bc35",
+    "NightRemasterCG.afa": "a77132655976e0c1eea1a3f5497f7ec75b45c7df11d008073955b2702ed1ab6e"
+  },
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\auto_explore_fix_20260923\\real_scene_probe",
+  "scope": "Copied dungeon save; actual native PACT/CG loader, display, choice construction. WaitForClick returns diagnostic test IDs; no user input injection; no reward or synthesis execution."
+}

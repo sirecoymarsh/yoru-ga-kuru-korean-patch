@@ -1,0 +1,19 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_term_rate_20260924_r3\\복구 검증 pn2dnlnk",
+  "payload": {
+    "NightRemaster.ain": "6ccef5c5529430244cb997006157b836a46d05820da969cda32b5fb8b9ecdcb6",
+    "NightRemasterPact.afa": "9f349af29eb97d922e98248e103d35ec4d11d9e08b337c3e9c5994a35c620875"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "nth_replacement_rollback": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "no_incoming_residue": true,
+  "zip": "not applicable: live data-only installation; no archive emitted"
+}

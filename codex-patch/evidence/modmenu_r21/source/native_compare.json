@@ -1,0 +1,376 @@
+{
+ "schema": "yoru-modmenu-r21.native-compare.v1",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "candidate_sha256": "3b9865a834db59afe8075564e41d6340317e2d7f52b512243d93b2e687b2ff34",
+ "blocks": {
+  "TITLE LANE 10 1": "identical",
+  "ROWS LANE 10 1 p1": "identical",
+  "TITLE MONTH 10": "identical",
+  "MONTH 10 marks": "▲○●",
+  "TITLE SUMMARY": "identical",
+  "TITLE MONTH 10 back": "identical",
+  "MONTH 10 back marks": "▲○●",
+  "TITLE MONTH 9": "identical",
+  "MONTH 9 marks": "▲○",
+  "TITLE LANE 10 3 p1": "identical",
+  "ROWS LANE 10 3 p1": "identical",
+  "TITLE LANE 10 3 p2": "identical",
+  "ROWS LANE 10 3 p2": "identical",
+  "TITLE MEM": "identical",
+  "ROWS MEM": "identical",
+  "TITLE LANE 4 8": "identical",
+  "ROWS LANE 4 8 p1": "identical",
+  "TITLE LANE 10 8": "identical",
+  "ROWS LANE 10 8 p1": "identical",
+  "TITLE DCARD 114 10": "identical",
+  "TITLE DSTAGES 114 10": "identical",
+  "ROWS STAGELIST 114 p1": "identical",
+  "TITLE DRAWER 33": "identical",
+  "ROWS DRAWER 33 p1": "identical",
+  "TITLE SCENE 33 0": "identical",
+  "TITLE DRAWER 1": "identical",
+  "ROWS DRAWER 1 p1": "identical",
+  "TITLE SCENE 1 0": "identical",
+  "TITLE LOCKCARD 0 19 5": "identical",
+  "TITLE LOCKCARD 1 82 10": "identical",
+  "TITLE OPENCARD 69 9": "identical",
+  "TITLE STAGES": "identical",
+  "ROWS STAGELIST 69 p1": "identical",
+  "TITLE OPENEVENT 273": "identical",
+  "panel_same_save": {
+   "panel_native": "전체 17.4%",
+   "summary_native": "달성도　전체 ■■□□□□□□□□ 182/1043 (17.4%)",
+   "vm_panel": "182/1043 17.4%",
+   "after_sandbox": "전체 17.4%",
+   "after_midload": "전체 17.4%"
+  },
+  "save": "NightR44.asd",
+  "today": "10/14",
+  "sandbox": {
+   "target": "E00273 (stage 2 of E00258, 27 messages)",
+   "states": [
+    "AFTER",
+    "HOME",
+    "MIDLOAD",
+    "MIDREPLAY",
+    "PREPLAY"
+   ],
+   "home_vs_after_outside_allow_list": {},
+   "allowed_differences": {
+    "marker": [
+     "",
+     "during-replay"
+    ],
+    "slot90": [
+     "0",
+     "1"
+    ]
+   },
+   "feel": {
+    "HOME": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "PREPLAY": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "MIDREPLAY": [
+     0,
+     13438,
+     35649,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "AFTER": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "MIDLOAD": [
+     0,
+     13438,
+     35649,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ]
+   },
+   "midload_change": {
+    "3": 300
+   },
+   "session_variables_restored_by_resumeload": false,
+   "temp_files": {
+    "midreplay": [
+     "1",
+     "1"
+    ],
+    "after": [
+     "0",
+     "0"
+    ],
+    "midload": [
+     "0",
+     "0"
+    ],
+    "on_disk_at_end": []
+   },
+   "home_pixels_before_after": 0,
+   "home_pixels_before_midload": 0,
+   "lock_pages": [
+    "LOCKCARD entry=24 state=0 size=6",
+    "LOCKCARD entry=329 state=1 size=1"
+   ],
+   "lock_after_13": [
+    "LOCK AFTER 13 head=〓5월 · 던전　†카드 4 · 서랍 0 play= unwind= prevset=",
+    "LOCK AFTER 13 head=〓10월 · 본편　†카드 19 · 서랍 0　〓1/3쪽 play= unwind= prevset="
+   ]
+  },
+  "r20_status": {
+   "persons": {
+    "A": 6,
+    "B": 8,
+    "C": 2
+   },
+   "texts_equal_vm": 3,
+   "part_counts": {
+    "home_before": 0,
+    "page1": 0,
+    "page4": 2,
+    "page4_next_person": 2,
+    "page3_from4": 0,
+    "page4_from3": 2,
+    "page1_from4": 0,
+    "page4_from1": 2,
+    "after_exit1": 0,
+    "second_entry_page4": 2,
+    "after_exit2": 0,
+    "home_after": 0
+   },
+   "charastatus_parts": 99,
+   "home_pixels_before_after_member": 0,
+   "event_page_ms": "EVENT PAGE shown after 446 ms (click to shown, incl. counting)"
+  },
+  "r20_partner": {
+   "save": "NightR40.asd",
+   "today": "9/22",
+   "shown": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   "hover": [
+    3,
+    8
+   ],
+   "labels_equal_vm": 24,
+   "brightness": {
+    "P0": {
+     "2": [
+      255,
+      1
+     ],
+     "3": [
+      255,
+      1
+     ],
+     "4": [
+      255,
+      1
+     ],
+     "5": [
+      255,
+      1
+     ],
+     "6": [
+      255,
+      1
+     ],
+     "8": [
+      255,
+      1
+     ]
+    },
+    "PA": {
+     "2": [
+      128,
+      1
+     ],
+     "3": [
+      255,
+      1
+     ],
+     "4": [
+      128,
+      1
+     ],
+     "5": [
+      128,
+      1
+     ],
+     "6": [
+      128,
+      1
+     ],
+     "8": [
+      128,
+      1
+     ]
+    },
+    "PB": {
+     "2": [
+      128,
+      1
+     ],
+     "3": [
+      128,
+      1
+     ],
+     "4": [
+      128,
+      1
+     ],
+     "5": [
+      128,
+      1
+     ],
+     "6": [
+      128,
+      1
+     ],
+     "8": [
+      255,
+      1
+     ]
+    },
+    "P2": {
+     "2": [
+      128,
+      1
+     ],
+     "3": [
+      128,
+      1
+     ],
+     "4": [
+      128,
+      1
+     ],
+     "5": [
+      128,
+      1
+     ],
+     "6": [
+      128,
+      1
+     ],
+     "8": [
+      255,
+      1
+     ]
+    }
+   },
+   "part_counts": {
+    "first": 12,
+    "dialog1": 0,
+    "again": 12,
+    "dialog2": 0,
+    "after_screen": 0
+   },
+   "selectally_parts": 17
+  },
+  "r20_dungeon": {
+   "save": "NightR20.asd",
+   "today": "6/3",
+   "person": 4,
+   "text_equal_vm": true,
+   "part_counts": {
+    "before": 0,
+    "page1": 0,
+    "page4": 2,
+    "after": 0
+   },
+   "charastatus_parts": 99,
+   "opened_by": "C_SceneDungeon@Run > C_Status::RunStatusInDungeon > C_Status::RunStatus"
+  }
+ },
+ "r21": {
+  "windows_equal": 16,
+  "perf": {
+   "calls": 5000,
+   "pending_ms_per_call": 0.1254,
+   "tick_armed_ms_per_call": 0.1242,
+   "existfile_hit_ms_per_call": 0.0704,
+   "sysvar_get_ms_per_call": 0.0014,
+   "frame_ms_armed": 16.9,
+   "frame_ms_disarmed": 17.17222222222222
+  },
+  "engine_exit_writes": [
+   "Backup/<time>/AFConfig.asd",
+   "Backup/<time>/NightRAFBGMMode.asd",
+   "Backup/<time>/NightRAFCGMode.asd",
+   "Backup/<time>/NightRAFCommon.asd",
+   "Backup/<time>/NightRAFInfo.asd",
+   "Backup/<time>/NightRAFMemMode.asd",
+   "CommonSystemData.sav",
+   "Volume.sav",
+   "WindowSetting.sav"
+  ],
+  "shots": [
+   "mod_chart.png",
+   "mod_home_after.png",
+   "mod_home_before.png",
+   "mod_last_result.png",
+   "mod_outside_home_pending.png",
+   "mod_own_window_pending.png",
+   "mod_reset_confirm.png",
+   "mod_restore_confirm.png",
+   "mod_unknown_home.png",
+   "mod_unlock_all.png",
+   "mod_unlock_revert.png",
+   "mod_b_restore_confirm.png",
+   "mod_b_unlock_revert.png",
+   "mod_home_b.png"
+  ]
+ },
+ "counts": {
+  "N_r19_card_pages": 1,
+  "N_r19_stage_lists": 3,
+  "N_r19_drawer_lists": 4,
+  "N_r19_scene_pages": 2,
+  "N_lock_pages_identical": 2,
+  "N_blocks_identical": 34,
+  "N_sandbox_state_equal": 1,
+  "N_r20_blocks_identical": 28,
+  "R21N_windows_equal_vm": 16,
+  "R21N_files_after_runs": 2,
+  "R21N_pending_outside_home": 2,
+  "R21N_conventions": 1,
+  "R21N_runs": 2
+ }
+}

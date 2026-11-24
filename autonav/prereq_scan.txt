@@ -1,0 +1,43 @@
+E20061 main person None months [7, -1]
+    trig {"kind": "conditional", "condition_expr": "time_id==2 and date>=7/27 and date<=7/27 and feeling(3)>=30 and not seen(20061)", "raw_args": [7, 27, 7, 27, 2, 3, 30, -1, 20061], "date_from": [7, 27], "date_to": [7, 27], "time_id": 2, "affection": {"person": 3, "min": 30}, "requires_events": [], "guards": [], "source": "L_EventCall::Check", "feeling_gate": [{"person": 3, "op": ">=", "value": 30}]}
+E20081 main person None months [10, -1]
+    trig {"kind": "conditional", "condition_expr": "time_id==1 and date>=10/14 and date<=10/14 and seen(30160) and not seen(20081)", "raw_args": [10, 14, 10, 14, 1, 3, -1, 30160, 20081], "date_from": [10, 14], "date_to": [10, 14], "time_id": 1, "affection": null, "requires_events": [30160], "guards": [], "source": "L_EventCall::Check"}
+E30061 main person None months [10, -1]
+    trig {"kind": "conditional", "condition_expr": "time_id==1 and date>=10/14 and date<=10/14 and seen(30162) and not seen(30061)", "raw_args": [10, 14, 10, 14, 1, 4, -1, 30162, 30061], "date_from": [10, 14], "date_to": [10, 14], "time_id": 1, "affection": null, "requires_events": [30162], "guards": [], "source": "L_EventCall::Check"}
+    trig {"kind": "memory_replay", "page": 3, "slot": 3, "requires_events": [30061], "source": "EX 回想 / C_SceneModeScene@ExecScene", "guards": []}
+E40101 after_training_priority person 5 months [10, -1]
+    trig {"kind": "chained", "from": 50403, "via_choice": null, "source": "ＥＶ／元／E50403", "guards": []}
+    trig {"kind": "after_training_priority", "person": 5, "condition_expr": "(((LEventFlag::GetOnce(\"E40061\") && L_Calendar::IsTodayOrAfter(10, 6)) && L_Calendar::IsTodayOrBefore(10, 20)) && !(LEventFlag::GetOnce(\"E40101\")))", "source": "L_RandomScenario::GetAfterTrainingEvent", "guards": []}
+E00611 main person None months [11, -1]
+    trig {"kind": "chained", "from": 602, "via_choice": null, "source": "ＥＶ／元／E00602", "guards": []}
+E00063 main person None months [5, -1]
+    trig {"kind": "dungeon", "source": "C_EventDungeon0204@RunEventB1", "guards": []}
+E00104 main person None months [6, -1]
+    trig {"kind": "scheduled", "date": [6, 25], "time_id": 2, "condition_expr": "date==6/25 and time_id==2 and not seen(104)", "guards": [], "source": "L_EventCall::Check"}
+E00260 main person None months [9, -1]
+    trig {"kind": "scheduled", "date": [9, 18], "time_id": 2, "condition_expr": "date==9/18 and time_id==2 and not seen(260)", "guards": [], "source": "L_EventCall::Check"}
+E00612 main person None months [11, -1]
+    trig {"kind": "chained", "from": 611, "via_choice": 1, "source": "ＥＶ／元／E00611", "guards": []}
+E00613 main person None months [11, -1]
+    trig {"kind": "chained", "from": 611, "via_choice": 2, "source": "ＥＶ／元／E00611", "guards": []}
+E00614 main person None months [11, -1]
+    trig {"kind": "chained", "from": 611, "via_choice": 3, "source": "ＥＶ／元／E00611", "guards": []}
+E00615 main person None months [11, -1]
+    trig {"kind": "chained", "from": 611, "via_choice": 4, "source": "ＥＶ／元／E00611", "guards": []}
+E00801 main person None months [5, -1]
+    trig {"kind": "chained", "from": 58, "via_choice": 1, "source": "ＥＶ／元／E00058", "guards": []}
+E00802 main person None months [5, -1]
+    trig {"kind": "chained", "from": 58, "via_choice": 2, "source": "ＥＶ／元／E00058", "guards": []}
+E00803 main person None months [5, -1]
+    trig {"kind": "chained", "from": 63, "via_choice": 1, "source": "ＥＶ／元／E00063", "guards": []}
+E00804 main person None months [5, -1]
+    trig {"kind": "chained", "from": 63, "via_choice": 2, "source": "ＥＶ／元／E00063", "guards": []}
+E00109 main person None months [6, -1]
+    trig {"kind": "chained", "from": 104, "via_choice": 1, "source": "ＥＶ／元／E00104", "guards": []}
+E00110 main person None months [6, -1]
+    trig {"kind": "chained", "from": 104, "via_choice": 2, "source": "ＥＶ／元／E00104", "guards": []}
+E00271 main person None months [9, -1]
+    trig {"kind": "chained", "from": 260, "via_choice": 1, "source": "ＥＶ／元／E00260", "guards": []}
+E00272 main person None months [9, -1]
+    trig {"kind": "chained", "from": 260, "via_choice": 2, "source": "ＥＶ／元／E00260", "guards": []}
+prereq refs to choice-branch events: {801: [59], 802: [59], 803: [64], 804: [64], 806: [70], 109: [111, 10201], 110: [111, 10202, 10501, 20501, 30501, 40501], 323: [328], 324: [328], 325: [328], 326: [328], 612: [616], 613: [616], 614: [616], 615: [616], 10022: [10061, 50102], 30022: [30024], 30023: [30024, 50302], 40022: [40041], 40043: [40044, 40045], 40044: [40061, 50401], 20043: [50202], 20083: [50205], 30002: [50301], 40062: [50402]}

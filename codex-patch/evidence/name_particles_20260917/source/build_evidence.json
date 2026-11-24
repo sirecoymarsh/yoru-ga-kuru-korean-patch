@@ -1,0 +1,46 @@
+{
+  "status": "BUILT_STATIC_PASS_VERIFICATION_PENDING",
+  "translator_model": "Codex internal",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "eb7bd5b207eac3a1120a3427a05bbd8e1d7ba07b46f8e7e43ce77c23354dfcc3",
+    "status": "PAGE_LINEFLOW_V2_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_ain_sha256": "e775f61d6caf2fdec00623d69cd3241f3034881488981bc07744253d108602ed",
+  "ain_sha256": "93b052dbd64037588a8c68220d6c3602c948897404c7f84328bee300d2bb92da",
+  "patched_existing_function_ids": [
+    7184,
+    27778,
+    29214
+  ],
+  "helper_function_ids": {
+    "KR_JosaSlice": 31952,
+    "KR_JosaClass": 31953,
+    "KR_JosaSelect": 31954,
+    "KR_JosaFallback": 31955,
+    "KR_ResolveJosa": 31956,
+    "KR_JosaBoundary": 31957,
+    "KR_PlayerJosaTail": 31958,
+    "KR_ReplacePlayerJosa": 31959
+  },
+  "format_string_count": 19,
+  "all_MSG1_100944_exact": true,
+  "old_CODE_prefix_exact": true,
+  "old_function_signatures_exact": true,
+  "globals_and_structures_exact": true,
+  "save_schema_changes": 0,
+  "native_verified": false,
+  "supported_hangul_syllables": 2364,
+  "unknown_name_policy": "Keep the original particle for unsupported/ambiguous non-Hangul endings",
+  "player_ya_source_review": {
+    "ids": [
+      2631,
+      2967
+    ],
+    "japanese_ending": "だよ",
+    "role": "self-introduction copula: 야/이야, not vocative 야/아"
+  }
+}

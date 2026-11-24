@@ -1,0 +1,12 @@
+{
+  "source": "P:\\GAME\\Compacted Files\\[Ryuugames] RY-r119676\\夜が来る！-Square of the MOON- Remastered",
+  "baseline": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final\\runtime_layout_v3",
+  "requested_delivery": "staged cumulative assets and Korean opening; original untouched",
+  "translator_model": "Codex internal",
+  "task": "/root",
+  "status": "implementation_in_progress",
+  "latest_batch": "2026-09-12",
+  "pixel_typesetting_authorization": "Explicitly approved: 그 쪽이 더 품질이 좋다면",
+  "current_runtime": "opening_standalone native renderer audit; not release",
+  "computer_use": "Do not use: user explicitly requested standalone opening one-pass verification"
+}

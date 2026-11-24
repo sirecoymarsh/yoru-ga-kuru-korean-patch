@@ -1,0 +1,806 @@
+{
+  "status": "SCOPE_CONTRACT_STATIC_PASS_NOT_INSTALLED",
+  "translator_model": "Codex internal",
+  "allowed_current_dungeon_ids": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2101,
+    2102,
+    2103,
+    2104,
+    2105,
+    2106,
+    2107,
+    2108,
+    2109,
+    2110,
+    2201,
+    2202,
+    2203,
+    2204,
+    2205,
+    2206,
+    2207,
+    2208,
+    2209,
+    2210,
+    2301,
+    2302,
+    2303,
+    2304,
+    2305,
+    2306,
+    2307,
+    2308,
+    2309,
+    2310,
+    2401,
+    2402,
+    2403,
+    2404,
+    2405,
+    2406,
+    2407,
+    2408,
+    2409,
+    2410,
+    2501,
+    2502,
+    2503,
+    2504,
+    2505,
+    2506,
+    2507,
+    2508,
+    2509,
+    2510
+  ],
+  "excluded_story_ids": [
+    101,
+    102,
+    201,
+    202,
+    203,
+    204,
+    301,
+    302,
+    303,
+    401,
+    402,
+    403,
+    404,
+    405,
+    501,
+    502,
+    503,
+    601,
+    602,
+    603,
+    604,
+    605,
+    701,
+    801,
+    802,
+    803,
+    901,
+    902,
+    903,
+    904,
+    905,
+    906,
+    907,
+    908,
+    909,
+    910
+  ],
+  "excluded_special_terminal_ids": [
+    1201,
+    2601
+  ],
+  "unknown_ids": "deny",
+  "native_runtime_verified": false,
+  "fixture_count": 162,
+  "fixtures": [
+    {
+      "id": "EX:101",
+      "pass": true
+    },
+    {
+      "id": "EX:102",
+      "pass": true
+    },
+    {
+      "id": "EX:201",
+      "pass": true
+    },
+    {
+      "id": "EX:202",
+      "pass": true
+    },
+    {
+      "id": "EX:203",
+      "pass": true
+    },
+    {
+      "id": "EX:204",
+      "pass": true
+    },
+    {
+      "id": "EX:301",
+      "pass": true
+    },
+    {
+      "id": "EX:302",
+      "pass": true
+    },
+    {
+      "id": "EX:303",
+      "pass": true
+    },
+    {
+      "id": "EX:401",
+      "pass": true
+    },
+    {
+      "id": "EX:402",
+      "pass": true
+    },
+    {
+      "id": "EX:403",
+      "pass": true
+    },
+    {
+      "id": "EX:404",
+      "pass": true
+    },
+    {
+      "id": "EX:405",
+      "pass": true
+    },
+    {
+      "id": "EX:501",
+      "pass": true
+    },
+    {
+      "id": "EX:502",
+      "pass": true
+    },
+    {
+      "id": "EX:503",
+      "pass": true
+    },
+    {
+      "id": "EX:601",
+      "pass": true
+    },
+    {
+      "id": "EX:602",
+      "pass": true
+    },
+    {
+      "id": "EX:603",
+      "pass": true
+    },
+    {
+      "id": "EX:604",
+      "pass": true
+    },
+    {
+      "id": "EX:605",
+      "pass": true
+    },
+    {
+      "id": "EX:701",
+      "pass": true
+    },
+    {
+      "id": "EX:801",
+      "pass": true
+    },
+    {
+      "id": "EX:802",
+      "pass": true
+    },
+    {
+      "id": "EX:803",
+      "pass": true
+    },
+    {
+      "id": "EX:901",
+      "pass": true
+    },
+    {
+      "id": "EX:902",
+      "pass": true
+    },
+    {
+      "id": "EX:903",
+      "pass": true
+    },
+    {
+      "id": "EX:904",
+      "pass": true
+    },
+    {
+      "id": "EX:905",
+      "pass": true
+    },
+    {
+      "id": "EX:906",
+      "pass": true
+    },
+    {
+      "id": "EX:907",
+      "pass": true
+    },
+    {
+      "id": "EX:908",
+      "pass": true
+    },
+    {
+      "id": "EX:909",
+      "pass": true
+    },
+    {
+      "id": "EX:910",
+      "pass": true
+    },
+    {
+      "id": "EX:1001",
+      "pass": true
+    },
+    {
+      "id": "EX:1002",
+      "pass": true
+    },
+    {
+      "id": "EX:1003",
+      "pass": true
+    },
+    {
+      "id": "EX:1004",
+      "pass": true
+    },
+    {
+      "id": "EX:1005",
+      "pass": true
+    },
+    {
+      "id": "EX:1006",
+      "pass": true
+    },
+    {
+      "id": "EX:1007",
+      "pass": true
+    },
+    {
+      "id": "EX:1008",
+      "pass": true
+    },
+    {
+      "id": "EX:1009",
+      "pass": true
+    },
+    {
+      "id": "EX:1010",
+      "pass": true
+    },
+    {
+      "id": "EX:1101",
+      "pass": true
+    },
+    {
+      "id": "EX:1102",
+      "pass": true
+    },
+    {
+      "id": "EX:1103",
+      "pass": true
+    },
+    {
+      "id": "EX:1104",
+      "pass": true
+    },
+    {
+      "id": "EX:1105",
+      "pass": true
+    },
+    {
+      "id": "EX:1106",
+      "pass": true
+    },
+    {
+      "id": "EX:1107",
+      "pass": true
+    },
+    {
+      "id": "EX:1108",
+      "pass": true
+    },
+    {
+      "id": "EX:1109",
+      "pass": true
+    },
+    {
+      "id": "EX:1110",
+      "pass": true
+    },
+    {
+      "id": "EX:1201",
+      "pass": true
+    },
+    {
+      "id": "EX:2001",
+      "pass": true
+    },
+    {
+      "id": "EX:2002",
+      "pass": true
+    },
+    {
+      "id": "EX:2003",
+      "pass": true
+    },
+    {
+      "id": "EX:2004",
+      "pass": true
+    },
+    {
+      "id": "EX:2005",
+      "pass": true
+    },
+    {
+      "id": "EX:2006",
+      "pass": true
+    },
+    {
+      "id": "EX:2007",
+      "pass": true
+    },
+    {
+      "id": "EX:2008",
+      "pass": true
+    },
+    {
+      "id": "EX:2009",
+      "pass": true
+    },
+    {
+      "id": "EX:2010",
+      "pass": true
+    },
+    {
+      "id": "EX:2101",
+      "pass": true
+    },
+    {
+      "id": "EX:2102",
+      "pass": true
+    },
+    {
+      "id": "EX:2103",
+      "pass": true
+    },
+    {
+      "id": "EX:2104",
+      "pass": true
+    },
+    {
+      "id": "EX:2105",
+      "pass": true
+    },
+    {
+      "id": "EX:2106",
+      "pass": true
+    },
+    {
+      "id": "EX:2107",
+      "pass": true
+    },
+    {
+      "id": "EX:2108",
+      "pass": true
+    },
+    {
+      "id": "EX:2109",
+      "pass": true
+    },
+    {
+      "id": "EX:2110",
+      "pass": true
+    },
+    {
+      "id": "EX:2201",
+      "pass": true
+    },
+    {
+      "id": "EX:2202",
+      "pass": true
+    },
+    {
+      "id": "EX:2203",
+      "pass": true
+    },
+    {
+      "id": "EX:2204",
+      "pass": true
+    },
+    {
+      "id": "EX:2205",
+      "pass": true
+    },
+    {
+      "id": "EX:2206",
+      "pass": true
+    },
+    {
+      "id": "EX:2207",
+      "pass": true
+    },
+    {
+      "id": "EX:2208",
+      "pass": true
+    },
+    {
+      "id": "EX:2209",
+      "pass": true
+    },
+    {
+      "id": "EX:2210",
+      "pass": true
+    },
+    {
+      "id": "EX:2301",
+      "pass": true
+    },
+    {
+      "id": "EX:2302",
+      "pass": true
+    },
+    {
+      "id": "EX:2303",
+      "pass": true
+    },
+    {
+      "id": "EX:2304",
+      "pass": true
+    },
+    {
+      "id": "EX:2305",
+      "pass": true
+    },
+    {
+      "id": "EX:2306",
+      "pass": true
+    },
+    {
+      "id": "EX:2307",
+      "pass": true
+    },
+    {
+      "id": "EX:2308",
+      "pass": true
+    },
+    {
+      "id": "EX:2309",
+      "pass": true
+    },
+    {
+      "id": "EX:2310",
+      "pass": true
+    },
+    {
+      "id": "EX:2401",
+      "pass": true
+    },
+    {
+      "id": "EX:2402",
+      "pass": true
+    },
+    {
+      "id": "EX:2403",
+      "pass": true
+    },
+    {
+      "id": "EX:2404",
+      "pass": true
+    },
+    {
+      "id": "EX:2405",
+      "pass": true
+    },
+    {
+      "id": "EX:2406",
+      "pass": true
+    },
+    {
+      "id": "EX:2407",
+      "pass": true
+    },
+    {
+      "id": "EX:2408",
+      "pass": true
+    },
+    {
+      "id": "EX:2409",
+      "pass": true
+    },
+    {
+      "id": "EX:2410",
+      "pass": true
+    },
+    {
+      "id": "EX:2501",
+      "pass": true
+    },
+    {
+      "id": "EX:2502",
+      "pass": true
+    },
+    {
+      "id": "EX:2503",
+      "pass": true
+    },
+    {
+      "id": "EX:2504",
+      "pass": true
+    },
+    {
+      "id": "EX:2505",
+      "pass": true
+    },
+    {
+      "id": "EX:2506",
+      "pass": true
+    },
+    {
+      "id": "EX:2507",
+      "pass": true
+    },
+    {
+      "id": "EX:2508",
+      "pass": true
+    },
+    {
+      "id": "EX:2509",
+      "pass": true
+    },
+    {
+      "id": "EX:2510",
+      "pass": true
+    },
+    {
+      "id": "EX:2601",
+      "pass": true
+    },
+    {
+      "id": "unknown:-1",
+      "pass": true
+    },
+    {
+      "id": "unknown:0",
+      "pass": true
+    },
+    {
+      "id": "unknown:1000",
+      "pass": true
+    },
+    {
+      "id": "unknown:1011",
+      "pass": true
+    },
+    {
+      "id": "unknown:1500",
+      "pass": true
+    },
+    {
+      "id": "unknown:1999",
+      "pass": true
+    },
+    {
+      "id": "unknown:2000",
+      "pass": true
+    },
+    {
+      "id": "unknown:2602",
+      "pass": true
+    },
+    {
+      "id": "unknown:99999",
+      "pass": true
+    },
+    {
+      "id": "guard:enabled",
+      "pass": true
+    },
+    {
+      "id": "guard:scene_id",
+      "pass": true
+    },
+    {
+      "id": "guard:sunday_exploration",
+      "pass": true
+    },
+    {
+      "id": "guard:event_object_present",
+      "pass": true
+    },
+    {
+      "id": "guard:map_present",
+      "pass": true
+    },
+    {
+      "id": "guard:table_ref_valid",
+      "pass": true
+    },
+    {
+      "id": "guard:map_id",
+      "pass": true
+    },
+    {
+      "id": "guard:start_id",
+      "pass": true
+    },
+    {
+      "id": "guard:base_id",
+      "pass": true
+    },
+    {
+      "id": "guard:party_count",
+      "pass": true
+    },
+    {
+      "id": "guard:valid_party_refs",
+      "pass": true
+    },
+    {
+      "id": "guard:movable_count",
+      "pass": true
+    },
+    {
+      "id": "guard:remaining",
+      "pass": true
+    },
+    {
+      "id": "guard:tutorial",
+      "pass": true
+    },
+    {
+      "id": "guard:battle",
+      "pass": true
+    },
+    {
+      "id": "guard:other_modal",
+      "pass": true
+    },
+    {
+      "id": "guard:transitioning",
+      "pass": true
+    },
+    {
+      "id": "guard:moving",
+      "pass": true
+    },
+    {
+      "id": "party_overflow",
+      "pass": true
+    },
+    {
+      "id": "negative_time",
+      "pass": true
+    },
+    {
+      "id": "cancel",
+      "pass": true
+    },
+    {
+      "id": "explicit_confirm",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:current_id",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:map_id",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:map_generation",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:scene_generation",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:session",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:date_key",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:party_ids",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:multipliers",
+      "pass": true
+    },
+    {
+      "id": "changed_after_confirm:remaining",
+      "pass": true
+    },
+    {
+      "id": "stale:1110->1201",
+      "pass": true
+    },
+    {
+      "id": "stale:2510->2601",
+      "pass": true
+    },
+    {
+      "id": "stale:1001->201",
+      "pass": true
+    },
+    {
+      "id": "stale:2001->700",
+      "pass": true
+    }
+  ],
+  "source_hashes": {
+    "dungeon_table.json": "757692ff884e09d79bec23020c29b73bc41cd521ba8109feb6470c8d70834b4b",
+    "original_26986.jam": "c00400fd444509dfd09c9c8e96d39077c484eca138f49ac519ed50a53b0f63a6",
+    "original_26988.jam": "4ca4ba9bef04ebd58d76199a0658105b4e39ae70c7205c75c9c01da9c21c9900",
+    "original_27068.jam": "1e11de7f614f7f9ebb11c257acbd37a31e5af0f81df8103ead0d4266d3edf6fe",
+    "original_27069.jam": "8822b2dddfdb14c9c20f612a10dd6402de49cdf24000c995ac1f463c8103181d",
+    "original_27150.jam": "d3880b6f95df8b060d3dc05521649be3f5e0c4a735f4018a983013ad52de8215",
+    "original_27151.jam": "1437c21cf8d166aab35b2952cad114741cc4a375a4f6d176984254f5b520ba68",
+    "original_28622.jam": "b26c9bb8435476551d04eb77933dc285b390f112c80a6c7cd5281e3daf75e528",
+    "original_28624.jam": "8f963fb3b96aa07a2c38d57f2fb7027204387097152161671f0c5fa12dadcb65",
+    "original_28637.jam": "fb2748dfd1bb132caaa4bb698ec283ef84cd99c8308d5a6db62bff3dfb9640a4",
+    "original_28639.jam": "0c892f0607a95b85362e5c4e5770b035f357fe4c3aef13941b28d8b039f1494c",
+    "original_26518.jam": "438e2fc5612be69fd9862de0a6cc6bd12636404d449cd25d23e2e8bea46535bf",
+    "original_30093.jam": "41f4d3fa7c9090a0e81a2b558613d2d890f49398fdbc7ef4df6f5127ce16ac8d",
+    "original_30094.jam": "7024fe9886a625db60685aeafbde65f784b29590a9b1781277caef57246f5a6b",
+    "original_30087.jam": "eb3f76aa88c2bf83c2a10177961f9f4a98336bf815bd0caf6afb286a12c2b420",
+    "original_28172.jam": "cc7ee586ef6744366736ca40d932b960f4825430045aa1c6eab3708596e9f7f0",
+    "original_27741.jam": "2a891ab491db6b0e0a971303f23a3d6227a7bf93d19d5594602c53845b98b416",
+    "original_26469.jam": "0574a5c1aabf577b87830a198d7a1fb7c4c89ed999d7d701ea2a61f396fe0908"
+  },
+  "limitations": [
+    "This Python contract does not prove AIN/PACT bindings or runtime operation.",
+    "Map/scene generation and modal guards still require native implementation and verification.",
+    "Reward coefficients, full rollback boundary and event ID audit remain WI-001 work."
+  ]
+}

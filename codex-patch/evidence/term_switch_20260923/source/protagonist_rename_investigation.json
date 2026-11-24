@@ -1,0 +1,15 @@
+{
+  "status": "READ_ONLY_FEASIBILITY_CONFIRMED_NOT_IMPLEMENTED",
+  "request": "Change protagonist name during play",
+  "native_setter": 27472,
+  "native_getter": 27473,
+  "native_input_view": [
+    28152,
+    28155,
+    28149
+  ],
+  "native_update_replacement": "Ａ＿メッセージ置換設定",
+  "important": "Do not invoke C_NameEntry@Run wholesale: also exposes casual config and changes second-playthrough difficulty flag. Use only validated name-input/getter/setter/replacement path with loaded-game guard and cancel; refresh live actor label if cached.",
+  "save_semantics": "Name is current character data index0; persist only through normal user save. Do not write all slots or historical backlog.",
+  "native_verified": false
+}

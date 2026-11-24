@@ -1,0 +1,630 @@
+{
+  "status": "AUTONAV_PACT185_STAGED_NOT_INSTALLED",
+  "builder": "Claude Opus 5.5",
+  "time": "2026-10-15T21:51:01.068583+09:00",
+  "source": {
+    "pointer": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\current.json",
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+    "entry": 185,
+    "entry_name": "Asra/Mods.pactex",
+    "entry_sha256": "045523620bc2a494b143d07ac20a3eb7e178d1c34ed6a45fec5b6a219c92f91d"
+  },
+  "outputs": {
+    "original_pact_185.pactex": "045523620bc2a494b143d07ac20a3eb7e178d1c34ed6a45fec5b6a219c92f91d",
+    "pact_185_autonav.pactex": "edbfa86d5d3f2bca3fe4a6930f768c09517640e66fdb6142adc9652505403203",
+    "NightRemasterPact.afa": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce"
+  },
+  "archive": {
+    "source_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+    "candidate_sha256": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce",
+    "original_entries_preserved": 190,
+    "replaced_ids": [
+      185
+    ],
+    "appended": [],
+    "wrapper": "AFA3",
+    "metadata_identity": "PASS (names/order/unknown fields)",
+    "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+    "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\pact\\NightRemasterPact.afa"
+  },
+  "changed_entries": [
+    185
+  ],
+  "round_trip_exact": true,
+  "inverse_exact": true,
+  "alice_ex_dump_parsed": true,
+  "alice_ar_extract_all_entries": {
+    "entries": 190,
+    "differing": [
+      "Asra/Mods.pactex"
+    ]
+  },
+  "parts": [
+    {
+      "name": "KR_NavTitle",
+      "type": "text",
+      "xyz": [
+        363.0,
+        367.0,
+        270
+      ],
+      "rect": [
+        363.0,
+        367.0,
+        483.5,
+        387.0
+      ],
+      "text": "오토 내비게이션",
+      "font_size": 20,
+      "clearance_px": 10.0
+    },
+    {
+      "name": "KR_NavOff",
+      "type": "checkbox",
+      "xyz": [
+        498.0,
+        361.0,
+        271
+      ],
+      "rect": [
+        498.0,
+        361.0,
+        611.0,
+        393.0
+      ],
+      "text": "  쓰지 않음",
+      "font_size": 20,
+      "clearance_px": 4.0
+    },
+    {
+      "name": "KR_NavIzumi",
+      "type": "checkbox",
+      "xyz": [
+        633.0,
+        361.0,
+        272
+      ],
+      "rect": [
+        633.0,
+        361.0,
+        724.5,
+        393.0
+      ],
+      "text": "  이즈미",
+      "font_size": 20,
+      "clearance_px": 4.0
+    },
+    {
+      "name": "KR_NavKyouka",
+      "type": "checkbox",
+      "xyz": [
+        746.0,
+        361.0,
+        273
+      ],
+      "rect": [
+        746.0,
+        361.0,
+        821.0,
+        393.0
+      ],
+      "text": "  쿄카",
+      "font_size": 20,
+      "clearance_px": 3.0
+    },
+    {
+      "name": "KR_NavManami",
+      "type": "checkbox",
+      "xyz": [
+        843.0,
+        361.0,
+        274
+      ],
+      "rect": [
+        843.0,
+        361.0,
+        934.5,
+        393.0
+      ],
+      "text": "  마나미",
+      "font_size": 20,
+      "clearance_px": 3.0
+    },
+    {
+      "name": "KR_NavMakoto",
+      "type": "checkbox",
+      "xyz": [
+        957.0,
+        361.0,
+        275
+      ],
+      "rect": [
+        957.0,
+        361.0,
+        1048.5,
+        393.0
+      ],
+      "text": "  마코토",
+      "font_size": 20,
+      "clearance_px": 3.0
+    },
+    {
+      "name": "KR_NavNote",
+      "type": "text",
+      "xyz": [
+        176.0,
+        660.0,
+        276
+      ],
+      "rect": [
+        176.0,
+        660.0,
+        588.4,
+        708.0
+      ],
+      "text": "※ 오토 내비게이션: 고른 인물 쪽 답이 반짝이고 20초 뒤 자동으로 골라집니다.\n이야기가 있는 토요일엔 특훈 상대도 안내합니다. 세이브마다 따로 기억합니다.\n모자란 친밀도는 채워 줍니다(원래 규칙 밖 보정). 게임 중에만 바꿀 수 있습니다.",
+      "font_size": 14,
+      "clearance_px": 8.0
+    }
+  ],
+  "templates": {
+    "KR_NavTitle": "KR_ModSpeedTitle",
+    "checkboxes": "KR_CheatTrap",
+    "KR_NavNote": "KR_ModQuickHint"
+  },
+  "parent": "ルートパーツ (root, like KR_HomeRateToggle)",
+  "characters": [
+    {
+      "char": " ",
+      "kind": "cp932",
+      "bytes": "20"
+    },
+    {
+      "char": "(",
+      "kind": "cp932",
+      "bytes": "28"
+    },
+    {
+      "char": ")",
+      "kind": "cp932",
+      "bytes": "29"
+    },
+    {
+      "char": ".",
+      "kind": "cp932",
+      "bytes": "2e"
+    },
+    {
+      "char": "0",
+      "kind": "cp932",
+      "bytes": "30"
+    },
+    {
+      "char": "2",
+      "kind": "cp932",
+      "bytes": "32"
+    },
+    {
+      "char": ":",
+      "kind": "cp932",
+      "bytes": "3a"
+    },
+    {
+      "char": "※",
+      "kind": "cp932",
+      "bytes": "81a6"
+    },
+    {
+      "char": "가",
+      "kind": "proxy",
+      "bytes": "eaa0"
+    },
+    {
+      "char": "게",
+      "kind": "proxy",
+      "bytes": "ea7d"
+    },
+    {
+      "char": "고",
+      "kind": "proxy",
+      "bytes": "ea6e"
+    },
+    {
+      "char": "골",
+      "kind": "proxy",
+      "bytes": "ea6a"
+    },
+    {
+      "char": "규",
+      "kind": "proxy",
+      "bytes": "ea46"
+    },
+    {
+      "char": "기",
+      "kind": "proxy",
+      "bytes": "e9f7"
+    },
+    {
+      "char": "꿀",
+      "kind": "proxy",
+      "bytes": "e9c5"
+    },
+    {
+      "char": "나",
+      "kind": "proxy",
+      "bytes": "e9ab"
+    },
+    {
+      "char": "내",
+      "kind": "proxy",
+      "bytes": "e99c"
+    },
+    {
+      "char": "는",
+      "kind": "proxy",
+      "bytes": "e963"
+    },
+    {
+      "char": "니",
+      "kind": "proxy",
+      "bytes": "e95d"
+    },
+    {
+      "char": "다",
+      "kind": "proxy",
+      "bytes": "e955"
+    },
+    {
+      "char": "답",
+      "kind": "proxy",
+      "bytes": "e94b"
+    },
+    {
+      "char": "대",
+      "kind": "proxy",
+      "bytes": "e947"
+    },
+    {
+      "char": "도",
+      "kind": "proxy",
+      "bytes": "e8e9"
+    },
+    {
+      "char": "동",
+      "kind": "proxy",
+      "bytes": "e8e1"
+    },
+    {
+      "char": "뒤",
+      "kind": "proxy",
+      "bytes": "e8d0"
+    },
+    {
+      "char": "따",
+      "kind": "proxy",
+      "bytes": "e8bb"
+    },
+    {
+      "char": "라",
+      "kind": "proxy",
+      "bytes": "e88d"
+    },
+    {
+      "char": "란",
+      "kind": "proxy",
+      "bytes": "e88b"
+    },
+    {
+      "char": "래",
+      "kind": "proxy",
+      "bytes": "e881"
+    },
+    {
+      "char": "로",
+      "kind": "proxy",
+      "bytes": "e85b"
+    },
+    {
+      "char": "른",
+      "kind": "proxy",
+      "bytes": "e840"
+    },
+    {
+      "char": "마",
+      "kind": "proxy",
+      "bytes": "e7ee"
+    },
+    {
+      "char": "만",
+      "kind": "proxy",
+      "bytes": "e7ec"
+    },
+    {
+      "char": "모",
+      "kind": "proxy",
+      "bytes": "e7c4"
+    },
+    {
+      "char": "물",
+      "kind": "proxy",
+      "bytes": "e7b5"
+    },
+    {
+      "char": "미",
+      "kind": "proxy",
+      "bytes": "e7aa"
+    },
+    {
+      "char": "밀",
+      "kind": "proxy",
+      "bytes": "e7a6"
+    },
+    {
+      "char": "바",
+      "kind": "proxy",
+      "bytes": "e7a0"
+    },
+    {
+      "char": "밖",
+      "kind": "proxy",
+      "bytes": "e79e"
+    },
+    {
+      "char": "반",
+      "kind": "proxy",
+      "bytes": "e79d"
+    },
+    {
+      "char": "보",
+      "kind": "proxy",
+      "bytes": "e776"
+    },
+    {
+      "char": "브",
+      "kind": "proxy",
+      "bytes": "e75e"
+    },
+    {
+      "char": "비",
+      "kind": "proxy",
+      "bytes": "e75b"
+    },
+    {
+      "char": "상",
+      "kind": "proxy",
+      "bytes": "e6e3"
+    },
+    {
+      "char": "세",
+      "kind": "proxy",
+      "bytes": "e6ca"
+    },
+    {
+      "char": "션",
+      "kind": "proxy",
+      "bytes": "e6c2"
+    },
+    {
+      "char": "수",
+      "kind": "proxy",
+      "bytes": "e6b0"
+    },
+    {
+      "char": "습",
+      "kind": "proxy",
+      "bytes": "e698"
+    },
+    {
+      "char": "쓰",
+      "kind": "proxy",
+      "bytes": "e66b"
+    },
+    {
+      "char": "안",
+      "kind": "proxy",
+      "bytes": "e659"
+    },
+    {
+      "char": "않",
+      "kind": "proxy",
+      "bytes": "e657"
+    },
+    {
+      "char": "야",
+      "kind": "proxy",
+      "bytes": "e648"
+    },
+    {
+      "char": "억",
+      "kind": "proxy",
+      "bytes": "e5f8"
+    },
+    {
+      "char": "에",
+      "kind": "proxy",
+      "bytes": "e5ea"
+    },
+    {
+      "char": "엔",
+      "kind": "proxy",
+      "bytes": "e5e8"
+    },
+    {
+      "char": "오",
+      "kind": "proxy",
+      "bytes": "e5d2"
+    },
+    {
+      "char": "요",
+      "kind": "proxy",
+      "bytes": "e5bc"
+    },
+    {
+      "char": "워",
+      "kind": "proxy",
+      "bytes": "e5b1"
+    },
+    {
+      "char": "원",
+      "kind": "proxy",
+      "bytes": "e5b0"
+    },
+    {
+      "char": "으",
+      "kind": "proxy",
+      "bytes": "e59f"
+    },
+    {
+      "char": "음",
+      "kind": "proxy",
+      "bytes": "e59b"
+    },
+    {
+      "char": "이",
+      "kind": "proxy",
+      "bytes": "e596"
+    },
+    {
+      "char": "인",
+      "kind": "proxy",
+      "bytes": "e594"
+    },
+    {
+      "char": "일",
+      "kind": "proxy",
+      "bytes": "e593"
+    },
+    {
+      "char": "임",
+      "kind": "proxy",
+      "bytes": "e590"
+    },
+    {
+      "char": "있",
+      "kind": "proxy",
+      "bytes": "e58d"
+    },
+    {
+      "char": "자",
+      "kind": "proxy",
+      "bytes": "e589"
+    },
+    {
+      "char": "정",
+      "kind": "proxy",
+      "bytes": "e56e"
+    },
+    {
+      "char": "줍",
+      "kind": "proxy",
+      "bytes": "e555"
+    },
+    {
+      "char": "중",
+      "kind": "proxy",
+      "bytes": "e554"
+    },
+    {
+      "char": "즈",
+      "kind": "proxy",
+      "bytes": "e54e"
+    },
+    {
+      "char": "지",
+      "kind": "proxy",
+      "bytes": "e546"
+    },
+    {
+      "char": "집",
+      "kind": "proxy",
+      "bytes": "e540"
+    },
+    {
+      "char": "짝",
+      "kind": "proxy",
+      "bytes": "e4f6"
+    },
+    {
+      "char": "쪽",
+      "kind": "proxy",
+      "bytes": "e4e5"
+    },
+    {
+      "char": "채",
+      "kind": "proxy",
+      "bytes": "e4c7"
+    },
+    {
+      "char": "초",
+      "kind": "proxy",
+      "bytes": "e4b3"
+    },
+    {
+      "char": "칙",
+      "kind": "proxy",
+      "bytes": "e498"
+    },
+    {
+      "char": "친",
+      "kind": "proxy",
+      "bytes": "e497"
+    },
+    {
+      "char": "카",
+      "kind": "proxy",
+      "bytes": "e490"
+    },
+    {
+      "char": "코",
+      "kind": "proxy",
+      "bytes": "e46f"
+    },
+    {
+      "char": "쿄",
+      "kind": "proxy",
+      "bytes": "e464"
+    },
+    {
+      "char": "토",
+      "kind": "proxy",
+      "bytes": "e3ed"
+    },
+    {
+      "char": "특",
+      "kind": "proxy",
+      "bytes": "e3d8"
+    },
+    {
+      "char": "합",
+      "kind": "proxy",
+      "bytes": "e388"
+    },
+    {
+      "char": "훈",
+      "kind": "proxy",
+      "bytes": "e353"
+    }
+  ],
+  "glyphs": {
+    "faces": 17,
+    "chars": 86,
+    "nonblank": 85,
+    "equal_to_map_font": 78,
+    "compared": true
+  },
+  "proof": {
+    "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\pact\\layout_proof.png",
+    "sha256": "7da443e594f009a8cd1f7a81513d2e5ef3ba117f65b6935ad18532323fe55b0d",
+    "native_capture": false
+  },
+  "not_touched": [
+    "runtime folder",
+    "Codex project files",
+    "AIN",
+    "EX",
+    "fonts",
+    "other PACT entries",
+    "saves"
+  ]
+}

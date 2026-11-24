@@ -1,0 +1,19 @@
+{
+  "pid": 55008,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "5fa9b8f0da4d79d01322763a66be4795a24250e6481c864d3c6e1e0d27de9d83",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "resume loading",
+    "SHOT dungeon_probe_0.bmp",
+    "monsters=맥,날름날름,소머리,무지갯빛 새,털뭉치,푸른 털뭉치,범고래호랑이,불바퀴,털개",
+    "line3=${font r=208 g=150 b=255}이즈미는 독에 걸렸다${/font}",
+    "SHOT dungeon_probe_1.bmp",
+    "SHOT dungeon_probe_2.bmp",
+    "records after report: []",
+    "SHOT dungeon_probe_3.bmp"
+  ],
+  "wait_sites": "NightRemasterEX.ex",
+  "save": "NightR36.asd"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "f3a82e856b75cbb10b455cf3575f10964c0a7218ef86c1a601c3da66404fd538",
+    "NightRemasterPact.afa": "298e436ad8f4bd8eefc2bdc740dae2daa440daa6648dc052b0183706b66159b3"
+  },
+  "reviewer": "/root/instant_loot_review",
+  "scope": "Read-only independent review of final AIN/PACT, inverse original hooks,13 helpers, ownership, failure paths, timer/cleanup/clickthrough and actual compiled-fixture tests.",
+  "findings": [],
+  "native_gameplay_verified": false,
+  "actual_save_reload_verified": false,
+  "metadata_source_rectangles_corrected": true
+}

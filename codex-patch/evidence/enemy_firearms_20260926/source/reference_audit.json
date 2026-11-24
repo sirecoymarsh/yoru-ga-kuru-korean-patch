@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "original_STR0": 11055,
+    "original_MSG1": 100944,
+    "current_STR0": 18184,
+    "current_MSG1": 100944,
+    "PACT": 188
+  },
+  "external_hits": [],
+  "consumer_sha256": "e2cdac102eaa26a482cdbda76a941e3c4367cc0adfd55b2d79f660ebd3567074"
+}

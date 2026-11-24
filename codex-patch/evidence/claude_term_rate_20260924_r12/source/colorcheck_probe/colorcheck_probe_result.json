@@ -1,0 +1,90 @@
+{
+  "pid": 57904,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "8a8cfa09f9f1b1f9a0bcd8d90c221630dd26bea466d56b4c3711a2e4c9c7002a",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "resume loading NightR39.asd",
+    "SPY 0 len=144 tlen=142 color= optin=0 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_place_A.bmp",
+    "SPY 1 len=144 tlen=142 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_place_B.bmp",
+    "SPY 2 len=144 tlen=142 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_place_C.bmp",
+    "SPY 3 len=111 tlen=109 color= optin=0 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_cond_A.bmp",
+    "SPY 4 len=111 tlen=109 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_cond_B.bmp",
+    "SPY 5 len=111 tlen=109 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_cond_C.bmp",
+    "SPY 6 len=144 tlen=142 color= optin=0 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_party_A.bmp",
+    "SPY 7 len=144 tlen=142 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_party_B.bmp",
+    "SPY 8 len=144 tlen=142 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_party_C.bmp",
+    "SPY 9 len=45 tlen=43 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_0.bmp",
+    "SPY 10 len=144 tlen=142 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_1.bmp",
+    "SPY 11 len=131 tlen=129 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_2.bmp",
+    "SPY 12 len=111 tlen=109 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_3.bmp",
+    "SPY 13 len=131 tlen=129 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_4.bmp",
+    "SPY 14 len=144 tlen=142 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_5.bmp",
+    "SPY 15 len=144 tlen=142 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_6.bmp",
+    "SPY 16 len=144 tlen=142 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_7.bmp",
+    "SPY 17 len=45 tlen=43 color=1 optin=1 x=28 y=28 cs=0 ls=0",
+    "SHOT cc_menu_8.bmp",
+    "END"
+  ],
+  "save": "NightR39.asd",
+  "save_folder": "SaveData_KR_ClaudeColorProbe_20260924_210156",
+  "wait_sites": 27,
+  "script": [
+    3,
+    1,
+    1,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "compare": {
+    "place": {
+      "A_vs_B": null,
+      "A_vs_C": [
+        174,
+        193,
+        615,
+        454
+      ]
+    },
+    "cond": {
+      "A_vs_B": null,
+      "A_vs_C": [
+        128,
+        311,
+        872,
+        404
+      ]
+    },
+    "party": {
+      "A_vs_B": null,
+      "A_vs_C": [
+        264,
+        210,
+        567,
+        471
+      ]
+    }
+  }
+}

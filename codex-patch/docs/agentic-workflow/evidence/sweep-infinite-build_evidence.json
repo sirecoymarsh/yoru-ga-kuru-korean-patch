@@ -1,0 +1,100 @@
+{
+  "status": "SWEEP_INFINITE_STATIC_PASS_NATIVE_PENDING",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "7edcb8961a86778d407c1b4713e60a6485afd8929a962dbc2fc34cc4d662c576",
+    "status": "SWEEP_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "b58ba53d8920f0e1c2553d7bfecf84f61aafed0887c549d272b77d83610cf650"
+  },
+  "files": {
+    "NightRemaster.ain": "5429a0f4c2e50342e852e0c2e0279d8a5c6471571110b899ba7984e49eddb822"
+  },
+  "unchanged_files": {
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+    "NightRemaster.exe": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+  },
+  "AIN": {
+    "patched_existing": [
+      31888
+    ],
+    "new_functions": 0,
+    "old_CODE_exact": true,
+    "all_other_sections_exact_except_one_address": true,
+    "save_schema_unchanged": true
+  },
+  "allowed_count": 82,
+  "added_ids": [
+    1201,
+    2601
+  ],
+  "table_rows": [
+    {
+      "id": 1201,
+      "nextId": 1201,
+      "name": "구교사 최하층",
+      "cg": 5093,
+      "layer": 21,
+      "level": 14,
+      "bgm": 7,
+      "map": 0,
+      "areaRank": 0,
+      "monsRank": 0,
+      "trapRank": 0,
+      "tresureRank": 0,
+      "mons1Id": 8,
+      "mons1Rate": 0,
+      "mons2Id": 9,
+      "mons2Rate": 0,
+      "mons3Id": 10,
+      "mons3Rate": 0,
+      "mons4Id": 11,
+      "mons4Rate": 20,
+      "mons5Id": 12,
+      "mons5Rate": 20,
+      "mons6Id": 13,
+      "mons6Rate": 20,
+      "mons7Id": 14,
+      "mons7Rate": 20,
+      "mons8Id": 15,
+      "mons8Rate": 20
+    },
+    {
+      "id": 2601,
+      "nextId": 2601,
+      "name": "화군 라이코 동굴 ·이면층",
+      "cg": 5099,
+      "layer": 61,
+      "level": 38,
+      "bgm": 7,
+      "map": 0,
+      "areaRank": 0,
+      "monsRank": 0,
+      "trapRank": 0,
+      "tresureRank": 0,
+      "mons1Id": 43,
+      "mons1Rate": 0,
+      "mons2Id": 44,
+      "mons2Rate": 10,
+      "mons3Id": 45,
+      "mons3Rate": 20,
+      "mons4Id": 46,
+      "mons4Rate": 20,
+      "mons5Id": 47,
+      "mons5Rate": 20,
+      "mons6Id": 48,
+      "mons6Rate": 15,
+      "mons7Id": 49,
+      "mons7Rate": 10,
+      "mons8Id": 50,
+      "mons8Rate": 5
+    }
+  ],
+  "reason": "Self-loop is ordinary infinite exploration, not a story/boss flag. User confirms1201; native26986/26988,27068/27069 share ordinary branch for both. Chest27183 uses dungeon.level, not zero layout ranks; weighted native monster table valid.",
+  "native_gameplay_verified": false
+}

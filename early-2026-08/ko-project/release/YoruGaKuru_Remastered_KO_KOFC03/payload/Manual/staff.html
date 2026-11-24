@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript" src="menu.js"></script>
+<title>밤이 온다! -Square of the MOON- Remastered 플레이 매뉴얼</title>
+</head>
+<body>
+
+
+<!-- menu -->
+<div id="menu">
+<div class="menutxt">
+<p class="bold">■<a href="index.html">표지</a></p>
+<p class="p2 bold">■<a href="startup.html">시작 안내서</a></p>
+
+<p class="bold">■플레이 매뉴얼</p>
+<p>１．<a href="01.html">게임 개요</a></p>
+
+<p>２．<a href="02.html">시작 메뉴</a></p>
+
+<p>３．<a href="03.html">모드 선택</a></p>
+
+<p>４．<a href="04.html">일반 대화 및 이벤트 화면</a></p>
+
+<p>５．<a href="javaScript:treeMenu('pm05')"><span class="subpoint">[+] </span>게임의 기본 흐름</a></p>
+<div id="pm05" style="display:none;">
+　5-1．<a href="05.html#01">개인 훈련(월~금)</a><br />
+　5-2．<a href="05.html#02">동료와 특훈(토)</a><br />
+　5-3．<a href="05.html#03">‘하자마’에서 훈련(일)</a><br />
+</div>
+
+<p>６．<a href="javaScript:treeMenu('pm06')"><span class="subpoint">[+] </span>본거지 메뉴</a></p>
+<div id="pm06" style="display:none;">
+　6-1．<a href="06.html#01">멤버 선택</a><br />
+　6-2．<a href="06.html#02">스테이터스</a><br />
+　6-3．<a href="06.html#03">아이템과 스킬</a><br />
+　6-4．<a href="06.html#04">무기 가공</a><br />
+　6-5．<a href="06.html#05">무기에 관하여</a><br />
+　6-6．<a href="06.html#06">아이템 가공</a><br />
+</div>
+
+
+<p>７．<a href="javaScript:treeMenu('pm07')"><span class="subpoint">[+] </span>‘하자마(던전)’</a></p>
+<div id="pm07" style="display:none;">
+　7-1．<a href="07.html#01">던전</a><br />
+　7-2．<a href="07.html#02">전투 화면</a><br />
+　7-3．<a href="07.html#03">행동 선택 메뉴 설명</a><br />
+　7-4．<a href="07.html#04">전투 종료</a><br />
+　7-5．<a href="07.html#05">레벨 업</a><br />
+</div>
+
+<p>８．<a href="08.html">저장</a></p>
+
+<p>９．<a href="09.html">2회차 이후 플레이</a></p>
+
+<p>10．<a href="10.html">음악, CG, 장면 회상</a></p>
+
+
+<p class="p2">
+
+<p class="bold">■<a href="config.html">환경 설정</a></p>
+<p class="bold">■<a href="faq.html">ＦＡＱ</a></p>
+<p class="bold">■<a href="staff.html">크레디트</a></p>
+<p class="bold">■<a href="pub.html">판권 정보</a></p>
+</div>
+</div>
+<!-- menu -->
+
+
+
+<a name="top" id="top">&nbsp;</a>
+<div class="main">
+
+
+<h3 class="hback">크레디트</h3>
+
+<div class="staff">
+<h5 class="h5back">출연진</h5>
+<table>
+<tr><th>》카구라 이즈미</th><td>: 히나 하즈키</td></tr>
+<tr><th>》나나오기 쿄카</th><td>: 사카키바라 유이</td></tr>
+<tr><th>》미와사카 마나미</th><td>: 우에하라 아오이</td></tr>
+<tr><th>》케도인 마코토</th><td>: 아오이 토키오</td></tr>
+<tr><th>》신카이 타케히토</th><td>: 우시가에루 키타로</td></tr>
+<tr><th>》호시카와 츠바사</th><td>: 이나리 우즈키</td></tr>
+<tr><th>》모모세 소이치</th><td>: 토도로키 고</td></tr>
+<tr><th>》키라라</th><td>: 오사카 나노카</td></tr>
+<tr><th>》나나오기 미사토</th><td>: 오미야 와카바</td></tr>
+<tr><th>》하이지</th><td>: 니카이도 아스오</td></tr>
+<tr><th>》카구라 소지</th><td>: 스기자키 료</td></tr>
+<tr><th>》코야</th><td>: 다시나사이</td></tr>
+<tr><th>》타카츠키 코이치</th><td>: 츠루야 하루토</td></tr>
+<tr><th>》사카키</th><td>: 야☆큐</td></tr>
+<tr><th>》미즈키</th><td>: 나나쿠사 유카</td></tr>
+</table>
+
+
+<br>
+
+<h5 class="h5back">오리지널 개발진</h5>
+<table>
+<tr><th>》감독/게임 디자인/제작 진행</th><td>: 무~민</td></tr>
+<tr><th>》캐릭터 디자인/원화</th><td>：Karen<br>: 키리시마 치야</td></tr>
+<tr><th>》기획/시나리오</th><td>：HIRO</td></tr>
+<tr><th>》시나리오 보조</th><td>: 진나이<br>: 무~민</td></tr>
+<tr><th>》프로그래밍</th><td>: 카즈시</td></tr>
+<tr><th>》Sys39 프로그래밍</th><td>: 세노 유다이</td></tr>
+<tr><th>》배경 원화</th><td>: 요이치로</td></tr>
+<tr><th>》CG 총괄</th><td>：K</td></tr>
+<tr><th>》ＣＧ</th><td>：YOK<br>: 나리타야<br>: 톤누라</td></tr>
+<tr><th>》음악/음향 효과</th><td>：Shade</td></tr>
+<tr><th>》이동·훈련 유닛</th><td>: 후쿠폰<br>: 도라노스케 모구타</td></tr>
+<tr><th>》시스템 CG/맵 칩/몬스터 디자인</th><td>: 키리시마 치야</td></tr>
+<tr><th>》타이틀 로고 디자인</th><td>: 톤누라</td></tr>
+<tr><th>》오프닝 데모 제작</th><td>: 세노 유다이<br>: 나리타야<br>: 스튜디오 OX</td></tr>
+<tr><th>》주제가 ‘A Night Comes!’</th><td>: 노래  토요타 세리카<br>: 작사 HIRO<br>: 작곡 Shade</td></tr>
+</table>
+
+<br>
+
+<h5 class="h5back">Remastered 개발진</h5>
+<table>
+<tr><th>》디렉터</th><td>: 와타나베</td></tr>
+<tr><th>》프로그래밍</th><td>: 반페이</td></tr>
+<tr><th>》플래너</th><td>: 아맛코</td></tr>
+<tr><th>》UI 그래픽</th><td>: 요시오</td></tr>
+<tr><th>》사운드</th><td>: 미즈카 에루</td></tr>
+<tr><th>》패키지판 일러스트 원화</th><td>：Karen</td></tr>
+<tr><th>》패키지판 일러스트 CG/모자이크/윤리 검사</th><td>: 타케펜</td></tr>
+<tr><th>》패키지판 일러스트 배경</th><td>: 나카지<br>: 렌렌</td></tr>
+<tr><th>》패키지판 디자인</th><td>: 유한회사 트윙클</td></tr>
+<tr><th>》프레임워크</th><td>: 코코로<br>: 야스베</td></tr>
+<tr><th>》디버깅</th><td>: 타카노 다이스케<br>: 사토 쇼타<br>: 후루고리 유시<br>：ALL ALICESOFT STAFF</td></tr>
+<tr><th>》CV 음성 제작</th><td>: 주식회사 아르카디아 프로젝트</td></tr>
+<tr><th>》음성 연출/녹음</th><td>：Ben</td></tr>
+<tr><th>》음성 편집</th><td>：OKY<br>：ISSEI<br>：SAKI</td></tr>
+<tr><th>》음성 제작 담당</th><td>：M.KOMIYA</td></tr>
+<tr><th>》녹음 스튜디오</th><td>: 아르카디아 프로젝트 스튜디오</td></tr>
+<tr><th>》오프닝 영상</th><td>: 이시카와 미즈키</td></tr>
+<tr><th>》엔딩 영상</th><td>：KIZAWAstudio</td></tr>
+<tr><th>》폰트 협력</th><td>: 폰트웍스 주식회사</td></tr>
+<tr><th>》영업·홍보·업무</th><td>: 와타나베<br>: 사쿠라 슈란<br>：OKAMURA<br>：macky<br>：ADASA<br>: 쿠마오 베어~</td></tr>
+<tr><th>》제조·판매 책임자</th><td>: 시라킹<br>: 푸린</td></tr>
+<tr><th>》제작·저작</th><td>：ALICESOFT<br>
+</table>
+
+</div>
+<br />
+
+<p class="brandname cent">■ ＡＬＩＣＥＳＯＦＴ ■</p>
+
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+{
+  "status": "NOTICE_DEPTH_STATIC_PASS",
+  "files": {
+    "NightRemasterPact.afa": "e1047384975b7ceb3295fc370209bb23e58ac27aaeb99bcda7019fd8b98a6169"
+  },
+  "two_scalar_allowlist_reverse_exact": true,
+  "native_archive_roundtrip": true,
+  "layer_comparisons": [
+    {
+      "part": "KR_ChestNotice",
+      "new_z": 1000,
+      "tile_max_z": 656,
+      "comparisons": 338
+    },
+    {
+      "part": "KR_LootNoticeRoot",
+      "new_z": 1001,
+      "tile_max_z": 656,
+      "comparisons": 338
+    }
+  ],
+  "clickthrough_and_hidden_default_unchanged": true,
+  "all_other_archive_entries_exact": true,
+  "native_verified": false
+}

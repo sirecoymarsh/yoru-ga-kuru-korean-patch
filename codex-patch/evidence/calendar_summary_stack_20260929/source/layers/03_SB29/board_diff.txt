@@ -1,0 +1,41 @@
+--- KR_W29Board
++++ KR_SB29Board
+@@ -1,4 +1,4 @@
+-void KR_W29Board(int no, string head, int stages, bool canplay) {
++void KR_SB29Board(int no, string head, int stages, bool canplay) {
+     KR_P29ClearBoard();
+     int root=KR_P29Part(0);
+     int z=6000;
+@@ -40,7 +40,7 @@
+         PartsEngine.Parts_GetPartsSize(KR_P29Part(7),labelW,labelH,1);
+         infoW=infoW+labelW+18;
+         if(labelH>infoH)infoH=labelH;
+-        if (story!="") {
++        if (story!="" && cols!=6) {
+             string heading="줄거리";
+             if(stages>1)heading="첫 장면 줄거리";
+             int storyFont=font-2;
+@@ -74,9 +74,22 @@
+     } else KR_CText(KR_P29Part(5),root,28.0,float(bodyY+36),20,KR_CTint("감상 후 표시됩니다",KR_CGray()),3);
+     int bottom=bodyY+rows*168-10;
+     if (bodyY-28+infoH>bottom) bottom=bodyY-28+infoH;
++    int lineBottom=bottom;
++    if (story!="" && cols==6) {
++        string wideHeading="줄거리";
++        if(stages>1)wideHeading="첫 장면 줄거리";
++        int wideWidth=1064/20-1;
++        int wideY=bottom+16;
++        KR_CText(KR_P29Part(8),root,28.0,float(wideY),20,KR_CTint(wideHeading,KR_CGold()),3);
++        int wideHW=0;int wideHH=0;int wideSW=0;int wideSH=0;
++        PartsEngine.Parts_GetPartsSize(KR_P29Part(8),wideHW,wideHH,1);
++        KR_CText(KR_P29Part(9),root,28.0,float(wideY+wideHH+8),20,KR_B29Wrap(story,wideWidth),3);
++        PartsEngine.Parts_GetPartsSize(KR_P29Part(9),wideSW,wideSH,1);
++        bottom=wideY+wideHH+8+wideSH;
++    }
+     int height=bottom+92;
+     if (height<370) height=370;
+-    KR_CBox(KR_P29Part(6),root,float(infoX-20),float(bodyY-28),2,bottom-bodyY+28,70,92,135,255,70,92,135,2);
++    KR_CBox(KR_P29Part(6),root,float(infoX-20),float(bodyY-28),2,lineBottom-bodyY+28,70,92,135,255,70,92,135,2);
+     KR_CBox(root,0,80.0,float((720-height)/2),1120,height,14,25,55,255,120,170,255,z);
+     KR_CSet("PortraitButtonsY","%d"%(height-66));
+     if (canplay) KR_CSet("PortraitPlay","1");

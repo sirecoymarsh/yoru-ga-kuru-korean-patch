@@ -1,0 +1,17 @@
+{
+  "status": "BATTLE_PACE_20261016_INSTALLED_NATIVE_PASS",
+  "files": {
+    "NightRemaster.ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c"
+  },
+  "manifest_sha256": "0cfa5e0799c1f42a781680bee99a96b48b4d2caacb43177835c742fcfda4469d",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "unchanged_save_files": 518,
+  "recovery_unchanged": true,
+  "recovery_hashed": [
+    "NightRemaster.ain"
+  ],
+  "recovery_lacks": [],
+  "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\battle_pace_20261016",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}
+

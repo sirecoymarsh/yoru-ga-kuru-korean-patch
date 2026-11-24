@@ -1,0 +1,61 @@
+{
+  "schema": "nightremaster_hangul_ime_hook_build_v1",
+  "build_profile": "release",
+  "diagnostics_enabled": false,
+  "expected_proxy_map_sha256": "ad218e6c56b6514dd18a2b597d5ec72a84d8a25b71a7e76ed2ed2913297451b6",
+  "row_count": 2364,
+  "target_executable_fingerprint": {
+    "image_base": "0x00400000",
+    "pe_timestamp": "0x65F707F0",
+    "size_of_image": "0x00508000",
+    "wndproc_va": "0x007321F0",
+    "wndproc_prefix_hex": "83ec0853568b742418578b7c242481fe"
+  },
+  "artifacts": {
+    "proxy_map": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\wansung_build\\build_output\\fnl_proxy_map_wansung2350.json",
+      "bytes": 608865,
+      "sha256": "ad218e6c56b6514dd18a2b597d5ec72a84d8a25b71a7e76ed2ed2913297451b6"
+    },
+    "generated_header": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\hook\\hangul_proxy_table.generated.h",
+      "bytes": 142341,
+      "sha256": "757865b39d9991d321d5a4a239c64e9f159a9f190b03c67fe7d28607229871d1"
+    },
+    "proxy_source": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\hook\\winmm_proxy.cpp",
+      "bytes": 25422,
+      "sha256": "c2d113c764c710b613ffc6ffc5ff2bc880eb0a12d4c52e10d0611629a7a314c9"
+    },
+    "export_definition": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\hook\\winmm_proxy.def",
+      "bytes": 164,
+      "sha256": "b4d7c3fec508e18efefeb770f76d9cc4d37fe1fea9390b94ec327a4d4ac0dbdd"
+    },
+    "harness_source": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\hook\\unit_harness.cpp",
+      "bytes": 5902,
+      "sha256": "e01aa43df6886d6284d150aa2db39ae286f5419718710a636e4056dbfdea3549"
+    },
+    "generator_source": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\hook\\generate_proxy_table.py",
+      "bytes": 3850,
+      "sha256": "51e8ef34907d91ef74bd07060c066fdbd2adfe6a44cdd3d626e3b7ed78b12ce4"
+    },
+    "dll": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\hook\\build_release\\winmm.dll",
+      "bytes": 107520,
+      "sha256": "e81cfca5e7a84841affaf55cdcac3912a5b471c4073b2114e8c503dad41d0ed4"
+    },
+    "harness": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\hook\\build_release\\unit_harness.exe",
+      "bytes": 136704,
+      "sha256": "7958fb34c2b863e3fc8b0cc0a8f2d1a416148263ef934286cbdecbce08d59311"
+    },
+    "build_log": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_hangul_name_v4\\hook\\build_release\\build.log",
+      "bytes": 10245,
+      "sha256": "81fe3cd0f90694546c4de776852fbf359d2015802ca3a795b122eccc6aaf26e8"
+    }
+  }
+}

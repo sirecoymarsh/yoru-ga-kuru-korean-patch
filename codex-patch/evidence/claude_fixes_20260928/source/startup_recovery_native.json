@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "production_dll_sha256": "d5ac30c7d95f291ffd6f3a4be2916531fd7b3f711cb977bd2cf00076a306beb2",
+  "real_startup_reset_restore": true,
+  "missing_menu_pending_recovered": true
+}

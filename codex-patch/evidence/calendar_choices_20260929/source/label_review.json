@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "label_patch_sha256": "0f2cef07bf7d1bb1468f2b844f8b65e43e911893252f1d39252627441fcec392",
+  "reviewer": "/root/choice_label_review_0929",
+  "translator_model": "Codex internal",
+  "scope": "Read-only choice mapping, common joins, Korean labels and unread strings. No binary/runtime claim.",
+  "findings": [
+    {
+      "id": "L01",
+      "status": "RESOLVED",
+      "detail": "Full approved options restored for E111 and E50205."
+    },
+    {
+      "id": "L02",
+      "status": "RESOLVED",
+      "detail": "Original replay scene morning/night retained for E50205/E50402."
+    }
+  ],
+  "choices": 38,
+  "common_joins": 7,
+  "unread_counts": {
+    "ev_head": 45,
+    "ev_short": 45,
+    "when_fix": 48,
+    "conds": 1
+  },
+  "remaining_out_of_scope": "14 after-training-priority answer-number labels"
+}

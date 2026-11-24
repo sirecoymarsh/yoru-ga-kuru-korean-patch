@@ -1,0 +1,59 @@
+{
+ "pid": 73172,
+ "ain_sha256": "2b45d45462fae81dbdfa039758c602e6cc6a9ad179149e13fdf2176be7676d3d",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 25.7,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\probe\\run\\SaveData_ListProbe_20261018_200216",
+  "TITLE MODE",
+  "SHOT lv_title.bmp",
+  "STAGE t_b",
+  "REQUEST chart",
+  "OK title: the menubar request opens the board",
+  "SHOT lv_title_board.bmp",
+  "STAGE t_l",
+  "TITLE LIST n=56 foot=56장면 · 1 / 4쪽",
+  "OK title: the 7월 head opens every row of 7월, no 이 세이브 button",
+  "SHOT lv_title_list.bmp",
+  "STAGE t_m",
+  "MONTH head=${font r=255 g=214 b=110}이벤트 캘린더${/font}　7월　감상 완료 9/56",
+  "OK title: 달 화면으로 opens the month view on 7월 (list parts released)",
+  "SHOT lv_title_month.bmp",
+  "STAGE t_l2",
+  "OK title: closing the month view returns to the list (same filter)",
+  "STAGE t_b2",
+  "OK title: 닫기 on the list returns to the board",
+  "SHOT lv_title_board_back.bmp",
+  "FAILS 0",
+  "END"
+ ],
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\증거\\probe\\lv_title.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\증거\\probe\\lv_title_board.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\증거\\probe\\lv_title_board_back.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\증거\\probe\\lv_title_list.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\증거\\probe\\lv_title_month.png"
+ ],
+ "mode": "title",
+ "save": "TITLE",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_list_20261018\\probe\\run\\SaveData_ListProbe_20261018_200216",
+ "probe": {
+  "waits": 29,
+  "live_waits": [
+   "C_SceneTitle@Run",
+   "C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>",
+   "C_SelectDialog@Run",
+   "C_SelectMessage@Run",
+   "KR_C24WaitRaw",
+   "KR_P29WaitRaw"
+  ],
+  "probe_sha256": "2b45d45462fae81dbdfa039758c602e6cc6a9ad179149e13fdf2176be7676d3d"
+ },
+ "candidate_ain": "6dbd1aeb7fd57718e60bfe0de90c2bf018ad32af4c92e9e1fffeba515a89cef3",
+ "candidate_pact": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+ "fails": [],
+ "oks": 5,
+ "ended": true,
+ "user_save_folder_unchanged": true
+}

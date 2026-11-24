@@ -1,0 +1,144 @@
+{
+  "status": "MOD_NATIVE_STYLE_STATIC_AND_ENGINE_PASS",
+  "files": {
+    "NightRemaster.ain": "bdcd8c8c8d1c2f606ee39f4180a3f377ea1db82818ba6a99f420bf518cdd6758",
+    "NightRemasterPact.afa": "4dc2e9e483e5c8a2e1f2f5f2219368d21429b42d837492ceae484289ff49bc35",
+    "NightRemasterCG.afa": "a77132655976e0c1eea1a3f5497f7ec75b45c7df11d008073955b2702ed1ab6e"
+  },
+  "existing_resume_saves": 38,
+  "saved_return_frames": 968,
+  "existing_save_local_offsets_exact": true,
+  "old_CODE_allowlist_exact": true,
+  "MSG1_exact": true,
+  "STR0_changes": [
+    {
+      "index": 11514,
+      "before": "지금은 자동 이동을 시작할 수 없습니다.",
+      "after": "지금은 자동 탐색을 시작할 수 없습니다."
+    },
+    {
+      "index": 11515,
+      "before": "자동 이동\n안내할 경로를 찾지 못했습니다.",
+      "after": "자동 탐색\n안내할 경로를 찾지 못했습니다."
+    },
+    {
+      "index": 11516,
+      "before": "자동 이동을 중지했습니다.",
+      "after": "자동 탐색을 중지했습니다."
+    },
+    {
+      "index": 11517,
+      "before": "자동 이동을 시작했습니다.\n수동 이동이나 버튼으로 중지할 수 있습니다.",
+      "after": "자동 탐색을 시작했습니다.\n수동 이동이나 버튼으로 중지할 수 있습니다."
+    },
+    {
+      "index": 15381,
+      "before": "자동 이동\n이동할 수 있는 탐색 경로가 없습니다.",
+      "after": "자동 탐색\n이동할 수 있는 탐색 경로가 없습니다."
+    }
+  ],
+  "save_schema_changes": 0,
+  "native": {
+    "pid": 49964,
+    "exe": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\auto_explore_fix_20260923\\real_scene_probe\\NightRemaster.exe",
+    "ain_sha256": "13b1cb427918855ea56bbb7f240e94e2cc060e55d489d088c39feb9b71f9fd85",
+    "events": [],
+    "image_base": "0x400000",
+    "exit_code": 0
+  },
+  "shots": {
+    "dungeon_1": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\dungeon_1.png",
+      "sha256": "4ac9979c8866cfc70b161d7ac870e0fc10cdf1c69999ea957620dece35e3e966"
+    },
+    "dungeon_2": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\dungeon_2.png",
+      "sha256": "7be4e2d3a8ed6747b81bbd0e7991cc9565c703c218db3ef8c88210ea23bb7d4b"
+    },
+    "dungeon_3": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\dungeon_3.png",
+      "sha256": "7be4e2d3a8ed6747b81bbd0e7991cc9565c703c218db3ef8c88210ea23bb7d4b"
+    },
+    "dungeon_stop": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\dungeon_stop.png",
+      "sha256": "7dd44b96cb8a2b870a3971ba1d0e1fa5f2868c8444bb956533064a2a7a0fb381"
+    },
+    "weapon_1": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\weapon_1.png",
+      "sha256": "afff8b1bb89b7b1beb0818339a72c2bb23a80cbcde4c294a9d7156be35198640"
+    },
+    "weapon_2": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\weapon_2.png",
+      "sha256": "afff8b1bb89b7b1beb0818339a72c2bb23a80cbcde4c294a9d7156be35198640"
+    },
+    "weapon_3": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\weapon_3.png",
+      "sha256": "afff8b1bb89b7b1beb0818339a72c2bb23a80cbcde4c294a9d7156be35198640"
+    },
+    "sweep_confirm": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\sweep_confirm.png",
+      "sha256": "0082e7f007bb3afb1fc49e8ccc7a57d41f3bbdeed2372a16c078a46fdc23594e"
+    },
+    "recommend_confirm": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\recommend_confirm.png",
+      "sha256": "79428ed3816c7b21362b9b1fe27f120197c78249a87aa2458e72bc64d983f8c2"
+    },
+    "ordinary_dialog": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\native\\ordinary_dialog.png",
+      "sha256": "85087423f6083489f654b4dd8d592e41e01512c3af53b35ec4e1e90f0ce17f2a"
+    }
+  },
+  "render_matches": [
+    {
+      "screenshot": "dungeon_1",
+      "key": "walk",
+      "opaque_pixel_match": 1.0
+    },
+    {
+      "screenshot": "dungeon_1",
+      "key": "sweep",
+      "opaque_pixel_match": 1.0
+    },
+    {
+      "screenshot": "dungeon_stop",
+      "key": "stop",
+      "opaque_pixel_match": 1.0
+    },
+    {
+      "screenshot": "weapon_1",
+      "key": "stone",
+      "opaque_pixel_match": 1.0
+    }
+  ],
+  "choice_scope": "Affirmative is initial cursor index 1 only for mod confirmations; cancel and accept IDs tested without executing gameplay operations; ordinary menus remain index0. Native craft confirmation is already OK-first and unchanged.",
+  "state_scope": "All three source state textures and bindings statically verified. Native screenshots prove normal/start/stop only; SetInputState did not force a hover transition. Weapon activity instantiated over copied dungeon solely to exercise its native loader and parts, not a full scene transition.",
+  "not_verified": [
+    "OS mouse hit testing",
+    "hover/down input transition",
+    "full gameplay sweep or synthesis execution"
+  ],
+  "save_files_unchanged": 326,
+  "translator_model": "Codex internal",
+  "walk_regression": {
+    "capture": {
+      "pid": 53992,
+      "exe": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\auto_explore_fix_20260923\\real_scene_probe\\NightRemaster.exe",
+      "ain_sha256": "0f68317ca908333e16d0ae68360e40831e9e23a52bd0b15223b1aaa4f8c91ce7",
+      "events": [],
+      "image_base": "0x400000",
+      "exit_code": 0
+    },
+    "manifest": {
+      "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_native_style_20260923\\NightRemaster.ain",
+      "source_sha256": "bdcd8c8c8d1c2f606ee39f4180a3f377ea1db82818ba6a99f420bf518cdd6758",
+      "probe_sha256": "0f68317ca908333e16d0ae68360e40831e9e23a52bd0b15223b1aaa4f8c91ce7",
+      "guide_mode": 0,
+      "save_slot": "NightR36.asd",
+      "initialization": "PassRegister handles 0, 1, 2 only; native saved scene",
+      "input": "native CallFunctionMouseClick dispatch; not OS mouse hit testing"
+    },
+    "steps": 8,
+    "segment_boundaries": 2,
+    "second_click_stop": true
+  }
+}

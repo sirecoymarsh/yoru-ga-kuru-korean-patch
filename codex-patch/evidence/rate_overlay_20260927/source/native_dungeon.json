@@ -1,0 +1,25 @@
+{
+ "pid": 77000,
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "ain_sha256": "087ae241b34c68e162a4f34fcdd8d36ed5ed16a78390f4574719701088707ef5",
+ "events": [],
+ "exit_code": 0,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\rate_overlay_20260927\\native_dungeon\\run\\SaveData_RateProbe",
+  "resume NightR45.asd",
+  "READY home= builds=1 ms=262",
+  "SHOT cal_on.bmp",
+  "CACHE 50 updates no rescan",
+  "HOME LEAVE keeps visible",
+  "SHOT cal_off.bmp",
+  "SHOT cal_reenabled.bmp",
+  "LOAD INVALIDATION rebuilt",
+  "EVENT INVALIDATION rebuilt",
+  "END"
+ ],
+ "source_sha256": "3a1567fc0c002275885585e0f181eef657fea4ebaad0b7358bdf6254e4449b25",
+ "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+ "probe_sha256": "087ae241b34c68e162a4f34fcdd8d36ed5ed16a78390f4574719701088707ef5",
+ "real_saves_unchanged": true,
+ "save": "NightR45.asd"
+}

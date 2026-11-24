@@ -1,0 +1,18 @@
+{
+ "status": "TRANSACTION_FIXTURE_PASS",
+ "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\rate_overlay_20260927\\복구 검증 wxo0bq3h",
+ "payload": {
+  "NightRemaster.ain": "3a1567fc0c002275885585e0f181eef657fea4ebaad0b7358bdf6254e4449b25",
+  "NightRemasterPact.afa": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403"
+ },
+ "install_restore": true,
+ "idempotent_restore": true,
+ "injected_failure_rollback": true,
+ "known_mixed_and_interruption_restore": true,
+ "partial_incoming_copy_recovered": true,
+ "tampered_payload_baseline_backup_rejected": true,
+ "exact_process_path_filter": true,
+ "unicode_spaces_path": true,
+ "interrupted_metadata_restoration_resumable": true,
+ "no_incoming_residue": true
+}

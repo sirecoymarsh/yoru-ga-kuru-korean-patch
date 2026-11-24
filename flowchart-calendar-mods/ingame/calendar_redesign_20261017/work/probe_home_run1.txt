@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\calendar_redesign_20261017\probe_home.py", line 531, in <module>
+    run()
+  File "P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\calendar_redesign_20261017\probe_home.py", line 502, in run
+    info = build_probe(key, PROBE / 'work')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\calendar_redesign_20261017\probe_home.py", line 311, in build_probe
+    assert live == sorted(LIVE_WAITS), live
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>', 'C_SelectDialog@Run', 'C_SelectMessage@Run']

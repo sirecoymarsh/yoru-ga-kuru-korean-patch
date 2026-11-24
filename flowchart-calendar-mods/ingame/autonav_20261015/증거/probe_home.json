@@ -1,0 +1,241 @@
+{
+ "pid": 61348,
+ "ain_sha256": "5e41a8a49605ffe3e745c4e7eb5204546c7dce3bd420d843bafb319ef3a0e094",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 406.9,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\probe\\run\\SaveData_AutoNavProbe_home_20261015_215352",
+  "RESUME NightR47.asd stage=home0",
+  "STATE HOME date=11/4 target=0 evresult=0 fn=E01282 f2=31 f3=90 f4=76 f5=45",
+  "SHOT an_home.bmp",
+  "STAGE c_izumi",
+  "PLAY E00069 target=2",
+  "CHOICE OPEN stage=c_izumi target=2 mode=1 pick=1",
+  "ROW n=2 n0=2 1000010447:p1000010446:z200100:a255:mul255,235,183:add0,0,0:w343:show1 1000010448:p1000010447:z0:a255:mul255,235,183:add0,0,0:w303:show1 glow=2026101503:p1000010446:z200099:a40:mul255,255,255:add0,0,0:w905:show1",
+  "ROW n=2 n0=2 1000010447:p1000010446:z200100:a255:mul255,205,75:add0,0,0:w343:show1 1000010448:p1000010447:z0:a255:mul255,205,75:add0,0,0:w303:show1 glow=2026101503:p1000010446:z200099:a101:mul255,255,255:add0,0,0:w905:show1",
+  "SHOT an_choice_c_izumi_a.bmp",
+  "ROW n=2 n0=2 1000010447:p1000010446:z200100:a255:mul255,251,239:add0,0,0:w343:show1 1000010448:p1000010447:z0:a255:mul255,251,239:add0,0,0:w303:show1 glow=2026101503:p1000010446:z200099:a9:mul255,255,255:add0,0,0:w905:show1",
+  "SHOT an_choice_c_izumi_b.bmp",
+  "AUTO PICK 1 after 20003 ms acc=20002 frames=1164",
+  "STATE AFTER_IZUMI date=11/4 target=2 evresult=0 fn=E00805 f2=32 f3=90 f4=76 f5=45",
+  "STAGE c_kyouka",
+  "PLAY E00069 target=3",
+  "CHOICE OPEN stage=c_kyouka target=3 mode=1 pick=2",
+  "ROW n=2 n0=1 1000010449:p1000010446:z200100:a255:mul255,207,85:add0,0,0:w379:show1 1000010450:p1000010449:z0:a255:mul255,207,85:add0,0,0:w339:show1 glow=2026101503:p1000010446:z200099:a96:mul255,255,255:add0,0,0:w905:show1",
+  "ROW n=2 n0=1 1000010449:p1000010446:z200100:a255:mul255,233,176:add0,0,0:w379:show1 1000010450:p1000010449:z0:a255:mul255,233,176:add0,0,0:w339:show1 glow=2026101503:p1000010446:z200099:a44:mul255,255,255:add0,0,0:w905:show1",
+  "SHOT an_choice_c_kyouka_a.bmp",
+  "ROW n=2 n0=1 1000010449:p1000010446:z200100:a255:mul255,233,175:add0,0,0:w379:show1 1000010450:p1000010449:z0:a255:mul255,233,175:add0,0,0:w339:show1 glow=2026101503:p1000010446:z200099:a45:mul255,255,255:add0,0,0:w905:show1",
+  "SHOT an_choice_c_kyouka_b.bmp",
+  "AUTO PICK 2 after 20012 ms acc=20010 frames=1170",
+  "STATE AFTER_KYOUKA date=11/4 target=3 evresult=0 fn=E00806 f2=32 f3=90 f4=76 f5=45",
+  "STAGE c_off",
+  "PLAY E00069 target=0",
+  "CHOICE OPEN stage=c_off target=0 mode= pick=2",
+  "ROW n=0 n0=1 glow=2026101503:none",
+  "ROW n=0 n0=1 glow=2026101503:none",
+  "SHOT an_choice_c_off_a.bmp",
+  "ROW n=0 n0=1 glow=2026101503:none",
+  "SHOT an_choice_c_off_b.bmp",
+  "MANUAL PICK 1",
+  "STATE AFTER_OFF date=11/4 target=0 evresult=0 fn=E00805 f2=33 f3=90 f4=76 f5=45",
+  "STAGE newgame",
+  "STAGE newgame_dlg",
+  "SHOT an_newgame.bmp",
+  "STAGE newgame_done",
+  "NEWGAME RETURNED target=4",
+  "STATE AFTER_NEWGAME date=11/4 target=4 evresult=0 fn=E00805 f2=33 f3=90 f4=76 f5=45",
+  "STAGE config",
+  "STAGE config_open",
+  "CONFIG OPEN target=4",
+  "CONFIG page act=Asra\\Mods mods=1 ingame=1",
+  "CFG BEFORE target=4 boxes=0/1 0/1 0/1 1/1 0/1 ",
+  "CLICK KR_NavMakoto",
+  "SHOT an_mods_before.bmp",
+  "CFG AFTER_MAKOTO target=5 boxes=0/1 0/1 0/1 0/1 1/1 ",
+  "CLICK KR_NavMakoto again",
+  "SHOT an_mods_makoto.bmp",
+  "CFG AFTER_RECLICK target=5 boxes=0/1 0/1 0/1 0/1 1/1 ",
+  "CLICK KR_NavOff",
+  "CFG AFTER_OFF target=0 boxes=1/1 0/1 0/1 0/1 0/1 ",
+  "SHOT an_mods_off.bmp",
+  "STATE CONFIG_END date=11/4 target=0 evresult=0 fn=E00805 f2=33 f3=90 f4=76 f5=45",
+  "END"
+ ],
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_choice_c_izumi_a.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_choice_c_izumi_b.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_choice_c_kyouka_a.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_choice_c_kyouka_b.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_choice_c_off_a.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_choice_c_off_b.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_home.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_mods_before.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_mods_makoto.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_mods_off.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\증거\\probe\\an_newgame.png"
+ ],
+ "mode": "home",
+ "save": "NightR47.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\autonav_20261015\\probe\\run\\SaveData_AutoNavProbe_home_20261015_215352",
+ "probe": {
+  "sites": [
+   {
+    "owner": "KR_T9HomeCasual",
+    "site": 12242132,
+    "old": "KR_T18RunSandboxed",
+    "new": "LSys3xScript::RunEvent"
+   },
+   {
+    "owner": "KR_T9HomeCasual",
+    "site": 12242054,
+    "old": "■カジュアルモード設定呼び出し",
+    "new": "KR_ProbeCasualOther"
+   },
+   {
+    "owner": "C_SelectMessage@Update",
+    "site": 5939318,
+    "old": "KR_ANSelFrame",
+    "new": "KR_ProbeSelFrame"
+   },
+   {
+    "owner": "C_SceneTraining@_UpdateInputPartner",
+    "site": 6067184,
+    "old": "KR_ANTrainFrame",
+    "new": "KR_ProbeTrainFrame"
+   },
+   {
+    "owner": "C_ConfigView@EventConfAsraDataForParts",
+    "site": 11517876,
+    "old": "KR_ANCfgSeenToParts",
+    "new": "KR_ProbeCfgToParts"
+   },
+   {
+    "owner": "▲コンフィグ実行",
+    "change": "casual start page 7 -> 9 (both)"
+   }
+  ],
+  "waits": [
+   [
+    "menu::detail::CMenuView@_Loop",
+    "exit"
+   ],
+   [
+    "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>",
+    "message click-through"
+   ],
+   [
+    "sealtool::detail::CModelSelectDialog@<lambda : sealtool::detail::CModelSelectDialog@ShowDialog()(98, 32)>",
+    "exit"
+   ],
+   [
+    "L_StatusFace::Select",
+    "exit"
+   ],
+   [
+    "C_Dialog@Run",
+    "exit"
+   ],
+   [
+    "C_SelectDialog@Run",
+    "live"
+   ],
+   [
+    "C_SelectMessage@Run",
+    "live"
+   ],
+   [
+    "C_Status::RunStatus",
+    "exit"
+   ],
+   [
+    "C_SceneTitle@Run",
+    "exit"
+   ],
+   [
+    "C_SceneHomebase@RunMapSelect",
+    "exit"
+   ],
+   [
+    "C_SceneDungeon@Run",
+    "exit"
+   ],
+   [
+    "C_BattleSelectEnemy@Run",
+    "exit"
+   ],
+   [
+    "C_BattleSelectView@Run",
+    "exit"
+   ],
+   [
+    "C_SceneSaveLoad@RunCommon",
+    "exit"
+   ],
+   [
+    "C_SceneStartData@RunCommon",
+    "exit"
+   ],
+   [
+    "C_SceneModeCG@Run",
+    "exit"
+   ],
+   [
+    "C_SceneModeScene@RunTop",
+    "exit"
+   ],
+   [
+    "C_SceneModeScene@RunSelect",
+    "exit"
+   ],
+   [
+    "C_SceneModeSound@Run",
+    "exit"
+   ],
+   [
+    "C_DebugCasualView@<lambda : C_DebugCasualView@Run()(66, 45)>",
+    "exit"
+   ],
+   [
+    "C_DebugParamView@<lambda : C_DebugParamView@Run()(74, 45)>",
+    "exit"
+   ],
+   [
+    "C_SceneTraining@<lambda : C_SceneTraining@RunSelect()(114, 40)>",
+    "exit"
+   ],
+   [
+    "C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>",
+    "live"
+   ],
+   [
+    "C_SceneHomebase@<lambda : C_SceneHomebase@RunMember()(233, 52)>",
+    "exit"
+   ],
+   [
+    "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+    "exit"
+   ],
+   [
+    "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCombineStone()(402, 52)>",
+    "exit"
+   ],
+   [
+    "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunMemory(bool)(487, 52)>",
+    "exit"
+   ],
+   [
+    "KR_C24WaitRaw",
+    "exit"
+   ],
+   [
+    "KR_P29WaitRaw",
+    "exit"
+   ]
+  ],
+  "probe_sha256": "5e41a8a49605ffe3e745c4e7eb5204546c7dce3bd420d843bafb319ef3a0e094"
+ },
+ "candidate_ain": "1e96d3e797184a7a13236208988fe6ca3d37cf55f9e553f0ccc5ad7ed7659188",
+ "candidate_pact": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce",
+ "user_save_folder_unchanged": true
+}

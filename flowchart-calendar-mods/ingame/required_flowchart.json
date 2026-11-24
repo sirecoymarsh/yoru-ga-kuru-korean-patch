@@ -1,0 +1,27 @@
+{
+ "schema": "yoru-flowchart-ingame-contract.v1",
+ "purpose": "검수용 장면 재생(회상 화면)을 배포판에서 숨기기 위한 계약. Codex 의 네이티브 단계가 들어올 때 이 한 줄만 붙이면 된다.",
+ "gate": {
+  "function": "KR_ChartEnabled",
+  "reads": "KR_Flag(80)",
+  "default": 0,
+  "note": "슬롯 80 은 Codex 가 쓰는 72~79 와 겹치지 않음을 기준 실행본 코드에서 확인했다(쓰이는 슬롯: 0,1,2,30,71,72,73,79,83~86,89~94,97~99,103)."
+ },
+ "toggle": {
+  "where": "PACT 185 Asra/Mods.pactex 의 모드 탭",
+  "suggested_part": "KR_ChartToggle (KR_SmartAutoToggle 을 복제)",
+  "on": "KR_ChartSetEnabled(true)",
+  "off": "KR_ChartSetEnabled(false)",
+  "label": "검수 쪽 표시"
+ },
+ "added_functions_prefix": "KR_Chart",
+ "patched_functions": [
+  "C_SceneModeScene@Run"
+ ],
+ "untouched": [
+  "NightRemasterPact.afa",
+  "NightRemasterEX.ex",
+  "MSG1"
+ ],
+ "rebuild": "python ingame/snapshot_base.py && python ingame/build_ingame.py && python checks/stage_ingame.py"
+}

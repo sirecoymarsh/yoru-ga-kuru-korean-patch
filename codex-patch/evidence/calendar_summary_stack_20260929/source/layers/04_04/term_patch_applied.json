@@ -1,0 +1,374 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\design\\summaries.json",
+   "term_folder": "april",
+   "file_sha_now": "0c62191f5b1e17f6f8dbd6ffd648f51330761b12b35f7df47f6d7074ab60b552",
+   "file_sha_at_audit": "0c62191f5b1e17f6f8dbd6ffd648f51330761b12b35f7df47f6d7074ab60b552"
+  }
+ ],
+ "events": [
+  {
+   "no": 2,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "도망친 적을 쫓는다",
+     "after": "도망친 히카리를 쫓는다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "2a9dbcd4f24b8b6e0c9cccd46d1ceb40d8e2fe21e6109854b2c10e281a20073e",
+   "sha256_after": "dd96b96de559286cb194682c625ddb649bc1699399c082bbc922e3c3a8136cbc",
+   "summary_after": "천문부의 제안을 망설이던 주인공이 이즈미를 따라 밤의 공원으로 간다. 에미가 꿈에 갇혀 마음을 빼앗기는 모습을 보고 싸우기로 결심하고, 무기를 손에 넣어 도망친 히카리를 쫓는다.",
+   "gate_problems": []
+  },
+  {
+   "no": 4,
+   "folder": "april",
+   "proposals": 3,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "도망친 적을 추적하던",
+     "after": "도망친 히카리를 추적하던",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "새로운 괴물들이",
+     "after": "새로운 히카리들이",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "95b649b5398fd56c409ccd9c9c3ab044427ab97a7a458273f88cc4e5a037c1f1",
+   "sha256_after": "8814c3a93ce651dc483d24e223d2300d917cf315ebd974d45f2e02be5af93359",
+   "summary_after": "이즈미와 함께 공원에서 도망친 히카리를 추적하던 중 푸른 달빛이 일렁인다. 길 위에 새로운 히카리들이 나타나자 두 사람은 무기를 들고 맞설 준비를 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 5,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적들은 저마다",
+     "after": "히카리는 저마다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "c90e0fd399c3b1ea2aca805b5ec633e7ffeb81e28ee8ffdee7fc3b3478e55b5a",
+   "sha256_after": "0f1163f97b4fd4098ab715123b9f84f03d4751e51da5bc9c2c3d68a61f7a9572",
+   "summary_after": "첫 싸움을 버틴 주인공이 히카리는 저마다 다른 모습을 지닌다는 설명을 듣는다. 계속 싸울 수 있겠느냐는 이즈미의 물음에 떨리는 다리를 다잡고 추적을 이어 간다.",
+   "gate_problems": []
+  },
+  {
+   "no": 6,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "몰아붙인 적이",
+     "after": "몰아붙인 히카리가",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "14102df3f86cfb578ea50d224a19668cc986325abc69eed4f2579efcd286669a",
+   "sha256_after": "9fdd8f689441fbba9e10c1fea054d2069add96385b229742efdeb7ca7649d95e",
+   "summary_after": "공원 끝에서 몰아붙인 히카리가 더 강한 모습으로 변하고 둘은 포위된다. 위기의 순간 치로와 쿄카, 신카이, 호시카와가 도착해 함께 맞선다.",
+   "gate_problems": []
+  },
+  {
+   "no": 7,
+   "folder": "april",
+   "proposals": 2,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "일행이 적을 쓰러뜨리자",
+     "after": "일행이 히카리를 쓰러뜨리자",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "28542e668753503cf0b49ca454dd2fa7e2d615d7ca4e38d0ba370408d7c015b9",
+   "sha256_after": "0a9d40555fb581929a093c1286fbfccadc6d399718b49b8f021e3db27d3a0cd6",
+   "summary_after": "일행이 히카리를 쓰러뜨리자 푸른 달빛도 원래대로 돌아온다. 함께 싸우겠느냐는 이즈미의 마지막 물음에 주인공이 손을 내밀며 정식으로 동료가 된다.",
+   "gate_problems": []
+  },
+  {
+   "no": 121,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적의 내력을",
+     "after": "히카리의 내력을",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "125121bc0b2d5e45cf542703cccb3d4978187d7ec9ada2ffaa05b65ddf74fb48",
+   "sha256_after": "fadd6d77184f323a9a30ee1bdb471edea2fb6a428996fe1357771a60600953f9",
+   "summary_after": "부모님의 편지를 받은 주인공이 본격적으로 천문부 활동을 시작한다. 동료들의 능력과 히카리의 내력을 듣고, 평일 특훈과 주말 틈새 탐색을 통해 도시를 지키는 싸움에 나선다.",
+   "gate_problems": []
+  },
+  {
+   "no": 2003,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적의 기척을 감지하며",
+     "after": "히카리의 기척을 감지하며",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "a6b436b0703d97a64eb7fe0d2203a8d78c50dd7469402ca24ae07daaa4672c98",
+   "sha256_after": "31de6097e05c7837f5d6f9ba51d58084e25561c0001221f7f29fa44ef38501ff",
+   "summary_after": "이즈미와 쿄카가 탐색 중에도 내일 들를 가게 이야기를 나눈다. 평범한 일상 같은 대화는 히카리의 기척을 감지하며 곧 추적으로 바뀐다.",
+   "gate_problems": []
+  },
+  {
+   "no": 2065,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "다음 적에게",
+     "after": "다음 히카리에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "5c5119b910c032db0222c06593e6b003ea160f40f4f1ccc9f56ce2249e457662",
+   "sha256_after": "9b523650ac34fdf8e80368f7123e3ff04e1de20bccaeaf8d8d07055ab3637d50",
+   "summary_after": "신카이와 주인공이 다음 히카리에게 마지막 일격을 넣는 승부를 하려 한다. 이즈미는 실전에서 딴생각을 하면 위험하다며 두 사람을 단호하게 말린다.",
+   "gate_problems": []
+  },
+  {
+   "no": 2085,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "쓰러뜨린 적이라도",
+     "after": "쓰러뜨린 히카리라도",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "aa63de592a0d3200833760f9cc810411ecb6d8932457b2396e0687e1f857bc8d",
+   "sha256_after": "f2fa3e4721ce0ba2c8bd2c937d6f983634559bb1e2a2f06b8a934e4cee0e110e",
+   "summary_after": "일행이 탐색 전부터 배고프다고 하던 신카이를 걱정한다. 호시카와는 쓰러뜨린 히카리라도 먹을 거라고 농담해 두 사람을 당황시킨다.",
+   "gate_problems": []
+  },
+  {
+   "no": 2161,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적이라도 먹어 치우겠다며",
+     "after": "히카리라도 먹어 치우겠다며",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "7184d706020b40703ed0b97a7cb9877452a733b36e9a189b92ea26647a4da3b4",
+   "sha256_after": "921cdd7b9228573e1097c7d4d9a0c59b73ffb334b77308c0637a2d3bfd8b1e36",
+   "summary_after": "밤늦게까지 이어지는 탐색에 신카이가 배고픔을 호소한다. 쿄카가 다이어트가 되니 괜찮다고 하자 신카이는 히카리라도 먹어 치우겠다며 성화다.",
+   "gate_problems": []
+  },
+  {
+   "no": 2165,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "다음 적에게",
+     "after": "다음 히카리에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "dddc3d011f12307ec9a73f1387c13fb307e382c04225e17f986bf5cad5de7750",
+   "sha256_after": "40208da88acc20d37037cf94209dcbdbd26b3272087516f63157b6eb72ec5c64",
+   "summary_after": "쿄카가 다음 히카리에게 마지막 일격을 넣은 사람에게 규동을 사 주는 내기를 제안한다. 신카이와 쿄카의 의욕을 본 주인공은 벌써 승산이 없다고 느낀다.",
+   "gate_problems": []
+  },
+  {
+   "no": 2189,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "움직인 적을 발견해",
+     "after": "움직인 히카리를 발견해",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "8291d25a79ab3e87543eb528feae560928385c1a8f04b31081e61dd1686178ea",
+   "sha256_after": "87f122c38608a9094d74927aa5e825442e660b02b63463e7263dc04745989fdd",
+   "summary_after": "호시카와가 순간적으로 움직인 히카리를 발견해 일행이 추적에 나선다. 쿄카는 성격과 달리 그의 동체 시력은 믿을 만하다며 놀린다.",
+   "gate_problems": []
+  },
+  {
+   "no": 2367,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적의 기척이 느껴지는",
+     "after": "히카리의 기척이 느껴지는",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "178c425c693ba319a4622f1cdbd3ec61ee09b54bcf414b03e93b6486a99e57de",
+   "sha256_after": "4c00d7d203d6a67c843d3734c7dbe0cf9b0578ad30d30d4861ae85a6006b614a",
+   "summary_after": "보이지 않는데도 히카리의 기척이 느껴지는 틈새의 기묘함을 이야기한다. 신카이는 호시카와의 능력도 믿고 있다며 수색을 재촉한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 5001,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적을 가두기 위해",
+     "after": "히카리를 가두기 위해",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "b9c777c63246dbca5b67087e0d1dae60f951f8e7fcf2f718c2baf56c909d55ad",
+   "sha256_after": "635d79fb02934398d6105f8cb023573957a1be54c52a41e9411170e10c1f6e91",
+   "summary_after": "옛 교사 안에 펼쳐진 낯선 공간에 주인공이 놀란다. 이즈미는 히카리를 가두기 위해 만들어진 결계인 틈새를 설명하고 함께 탐색을 시작한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 5002,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적을 가두기 위해",
+     "after": "히카리를 가두기 위해",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "6fde85c7564ce6238968ed7e08f536eb1edcceca92cf0c9084cb798a210456e6",
+   "sha256_after": "2398dd0ab6d63d7c4a6f38136eb8bc6c42db625bd3b855a40c4e50259274123a",
+   "summary_after": "옛 교사 안에 펼쳐진 낯선 공간에 주인공이 놀란다. 쿄카는 히카리를 가두기 위해 만들어진 결계인 틈새를 설명하고 출발을 재촉한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 5003,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적을 가두는 결계라고",
+     "after": "히카리를 가두는 결계라고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "4597c250a5976d5af1373156f81ee692910127b136f4583e486dd6272b663068",
+   "sha256_after": "0b03ad01c1f5538c8a68b1475bd3902e11e81be6c318dc375b687a09cf99a21d",
+   "summary_after": "신카이가 처음 틈새에 들어온 주인공에게 이곳이 히카리를 가두는 결계라고 설명한다. 자세한 원리는 모른다면서도 기합을 넣고 출발하자고 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 5004,
+   "folder": "april",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적을 가두기 위한",
+     "after": "히카리를 가두기 위한",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "bd3d7fdf159212c5e29f8d156bacddddb56a0217e9ac2c425d2636dc6885c4ae",
+   "sha256_after": "d84185e1bc7c7c8b76c21d0ff43236b3b227042df0a9a9b9d0b2bab05ecd1dba",
+   "summary_after": "처음 틈새를 본 주인공에게 호시카와가 히카리를 가두기 위한 결계라고 설명한다. 준비가 됐는지 확인한 뒤 함께 앞으로 나아간다.",
+   "gate_problems": []
+  }
+ ],
+ "applied": 18,
+ "skipped_proposals": 0,
+ "skipped_summaries": 0,
+ "below_threshold": 5,
+ "changed_ids": [
+  2,
+  4,
+  5,
+  6,
+  7,
+  121,
+  2003,
+  2065,
+  2085,
+  2161,
+  2165,
+  2189,
+  2367,
+  5001,
+  5002,
+  5003,
+  5004
+ ],
+ "gate_skipped": [],
+ "tag": "04",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T22:27:19.414895+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

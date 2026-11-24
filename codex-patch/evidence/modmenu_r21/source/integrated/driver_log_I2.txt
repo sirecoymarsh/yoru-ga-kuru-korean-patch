@@ -1,0 +1,10 @@
+04:43:54.193 attach pid 65452
+04:43:59.448 ready 1 restore_yes
+04:43:59.449 menu bar before ['시스템(&S)', '도움말(&H)']
+04:43:59.449 post 0x7615ec 0x116 0x25da21cb ok
+04:43:59.555 menu installed {'top': ['시스템(&S)', '모드(&M)', '도움말(&H)'], 'mod': [('7E10', '이벤트 플로우 차트(&E)'), ('7E11', '전체 개방(&U)'), ('7E12', '전체 개방 되돌리기(&R)'), ('0000', ''), ('7E13', '전체 리셋(&Z)'), ('7E14', '전체 리셋 되돌리기(&B)')]}
+04:43:59.555 post 0x7615ec 0x111 0x7e14 ok
+04:43:59.665 messagebox 0xef1c94 전체 리셋 되돌리기
+04:43:59.674 captured msgbox_reset_restore_yes.png 228 166 printwindow 1
+04:43:59.773 post 0xef1c94 0x111 0x6 ok
+04:44:03.837 detach state idle

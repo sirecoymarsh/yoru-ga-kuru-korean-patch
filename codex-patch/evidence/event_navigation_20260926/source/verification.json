@@ -1,0 +1,20 @@
+{
+  "status": "EVENT_NAVIGATION_STATIC_NATIVE_PASS",
+  "files": {
+    "NightRemaster.ain": "c1014763926f31c79b161a70f55cdd6b24a5dde24ba79d1a73a56996d7f65bee",
+    "NightRemasterPact.afa": "b6c0253bffedc2853c7d800b59bdc4a673df3365f0c8f12b42c4e24a9871b2f8"
+  },
+  "existing_resume_saves": 49,
+  "saved_return_frames": 1197,
+  "save_schema_equal": true,
+  "old_CODE_allowlist_exact": true,
+  "changed_PACT": [],
+  "map_cases": 40,
+  "real_saves_unchanged": true,
+  "OS_mouse_hit_test": false,
+  "native_probes": {
+    "36-floor": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\event_navigation_20260926\\probe_NightR36_20260926_185154\\result.json",
+    "45-start": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\event_navigation_20260926\\probe_NightR45_20260926_184911\\result.json",
+    "45-native-story": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\event_navigation_20260926\\probe_NightR45_20260926_184953\\result.json"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "status": "STATIC_COMPILED_HELPERS_AND_LAYOUT_PASS",
+  "files": {
+    "NightRemaster.ain": "e103f27fed0474d830842a017718d0b3aa60955b3880013332654aa0e07eff68",
+    "NightRemasterPact.afa": "f59299bccb9cc69c06262b5276033ca8e49ac1aa241892b6a3999e87c7369ee9"
+  },
+  "VM": {
+    "compiled_VM_calls": 7071,
+    "slider_steps": 5,
+    "slider_roundtrips": 500,
+    "quick_entry_exit_cases": 24,
+    "watchdog_and_cancel": true,
+    "int32_clock_wrap": true,
+    "trap_compiled_hook_cases": 72,
+    "route_compiled_helper_fixtures": 6,
+    "unknown_slot_bounds": true,
+    "original_system_flags_preserved": true,
+    "route_native_AStar_engine_itself_tested": false
+  },
+  "UI": {
+    "native_font_glyphs_present": true,
+    "overflows": 0,
+    "rows": [
+      {
+        "name": "テキストパーツ_000:0",
+        "state": "通常状態",
+        "text": "전투 속도 (1~5배)",
+        "font": 259,
+        "size": 24,
+        "x": 377.0,
+        "y": 267.0,
+        "width": 135.333333,
+        "budget": 250,
+        "checkbox": false
+      },
+      {
+        "name": "SYS_戦闘が終わってもオート戦闘継続",
+        "state": "テキスト",
+        "text": "　전투가 끝나도 자동 전투 유지",
+        "font": 259,
+        "size": 24,
+        "x": 395.0,
+        "y": 369.0,
+        "width": 245.666667,
+        "budget": 375,
+        "checkbox": true
+      },
+      {
+        "name": "KR_CheatSpeedValue",
+        "state": "通常状態",
+        "text": "1배",
+        "font": 259,
+        "size": 22,
+        "x": 639.0,
+        "y": 275.0,
+        "width": 25.5,
+        "budget": 44,
+        "checkbox": false
+      },
+      {
+        "name": "KR_CheatHeading",
+        "state": "通常状態",
+        "text": "치트 / 편의 기능",
+        "font": 259,
+        "size": 22,
+        "x": 797.0,
+        "y": 406.0,
+        "width": 113.75,
+        "budget": 330,
+        "checkbox": false
+      },
+      {
+        "name": "KR_CheatTrap",
+        "state": "テキスト",
+        "text": "　함정 즉시 해체",
+        "font": 259,
+        "size": 24,
+        "x": 815.0,
+        "y": 451.0,
+        "width": 131.666667,
+        "budget": 330,
+        "checkbox": true
+      },
+      {
+        "name": "KR_CheatQuick",
+        "state": "テキスト",
+        "text": "　자동 전투 결과만 보기",
+        "font": 259,
+        "size": 24,
+        "x": 815.0,
+        "y": 491.0,
+        "width": 188.666667,
+        "budget": 330,
+        "checkbox": true
+      },
+      {
+        "name": "KR_CheatRoute",
+        "state": "テキスト",
+        "text": "　다음 층 경로 표시",
+        "font": 259,
+        "size": 24,
+        "x": 815.0,
+        "y": 531.0,
+        "width": 153.333333,
+        "budget": 330,
+        "checkbox": true
+      },
+      {
+        "name": "KR_CheatHint",
+        "state": "通常状態",
+        "text": "일반 전투만 / 우클릭으로 연출 복귀",
+        "font": 259,
+        "size": 15,
+        "x": 783.0,
+        "y": 580.0,
+        "width": 157.375,
+        "budget": 330,
+        "checkbox": false
+      }
+    ],
+    "slider_travel": 4,
+    "old_settings_layout_preserved": true
+  },
+  "native_verified": false,
+  "actual_save_reload_verified": false,
+  "translator_model": "Codex internal"
+}

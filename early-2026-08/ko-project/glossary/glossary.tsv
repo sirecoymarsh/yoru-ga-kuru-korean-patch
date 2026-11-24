@@ -1,0 +1,41 @@
+category	japanese	reading	korean	status	notes
+title	夜が来る！	よるがくる！	밤이 온다!	locked	작품명
+character	羽村 亮	はむら りょう	하무라 료	locked	주인공, 이름 변경 가능
+character	亮	りょう	료	locked	화자 표기
+character	火倉 いずみ	かぐら いずみ	카구라 이즈미	locked	천문부 부장
+character	いずみ	いずみ	이즈미	locked	화자 표기
+character	七荻 鏡花	ななおぎ きょうか	나나오기 쿄카	locked	주인공 동급생
+character	鏡花	きょうか	쿄카	locked	화자 표기
+character	三輪坂 真言美	みわさか まなみ	미와사카 마나미	locked	후배
+character	真言美	まなみ	마나미	locked	화자 표기
+character	祁答院 マコト	けどういん まこと	케도인 마코토	locked	화자 표기
+character	マコト	まこと	마코토	locked	화자 표기
+character	新開 健人	しんかい たけひと	신카이 타케히토	locked	선배
+character	新開	しんかい	신카이	locked	화자 표기
+character	星川 翼	ほしかわ つばさ	호시카와 츠바사	locked	동급생
+character	星川	ほしかわ	호시카와	locked	화자 표기
+character	百瀬 壮一	ももせ そういち	모모세 소이치	locked	후배
+character	百瀬	ももせ	모모세	locked	화자 표기
+character	キララ	きらら	키라라	locked	간사이벤 화자
+place	桜水台学園	おうみだいがくえん	오미다이 학원	locked	사립학교
+place	大津名市	おおつなし	오츠나시	locked	배경 도시
+term	真月	しんげつ	진월	locked	하늘에 나타난 두 번째 달
+term	光狩	ひかり	히카리	locked	이형의 적; 독음 우선 고유명사 처리
+term	火者	かしゃ	카샤	locked	히카리와 싸우는 일족/전사
+term	狭間	はざま	하자마	locked	이차원 던전
+term	凍夜	とうや	토야	locked	진월이 푸르게 빛나는 밤
+term	月片	かけら	달조각	locked	아이템·무기 제작 자원
+term	訓練値	くんれんち	훈련치	locked	성장 자원
+term	要素石	ようそせき	요소석	locked	무기 제작 재료
+term	護章	ごしょう	호장	provisional	장비/보호 관련 시스템 용어; 문맥 검토 필요
+ability	重ね	かさね	겹치기	provisional	물체의 움직임을 읽고 맞추는 주인공 능력
+ability	繕い	つくろい	수선	provisional	상처 치유 능력
+ability	サトリ	さとり	사토리	locked	마음을 읽는 능력
+ability	金剛力	こんごうりき	금강력	locked	괴력 능력
+ability	貫目	ぬきめ	누키메	provisional	물체의 파쇄점을 파악하는 능력
+weapon	カイリ（界離）	かいり	카이리(계리)	locked	이즈미의 대낫
+weapon	蛇蛟	じゃこう	자코	provisional	쿄카의 무기 ‘치로’
+weapon	チロ	ちろ	치로	locked	쿄카의 무기명
+weapon	雷穿甲	らいせんこう	뇌천갑	locked	마코토의 수갑
+weapon	サン・テグジュペリ		생텍쥐페리	locked	호시카와의 세검
+skill	想魔刀	そうまとう	상마도	locked	리마스터 모던 모드의 주인공 특수기

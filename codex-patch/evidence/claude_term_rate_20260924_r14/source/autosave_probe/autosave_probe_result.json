@@ -1,0 +1,80 @@
+{
+  "save": "NightR999.asd",
+  "save_folder": "SaveData_KR_ClaudeAutoSaveProbe_20260924_230437",
+  "wait_sites": 27,
+  "A": {
+    "pid": 58484,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "0e89489f29f74a4e2144be9c48a926c74f392bbe7b4edf47f6fc470d0dc6a24f",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "resume loading NightR999.asd",
+      "weekday=1 day=1 slot=49",
+      "SHOT auto_probe_0.bmp",
+      "weekly autosave ms=1976 exists49=1 newest=49",
+      "daily autosave ms=1103 exists999=1 newest=999",
+      "comment49 len=71 comment999 len=71 same=1",
+      "newest manual: ret=0 idx=-1 page=-1",
+      "newest with autosaves: ret=1 idx=0 page=0",
+      "labels 일간,주간,07",
+      "SHOT auto_probe_load_p1.bmp",
+      "SHOT auto_probe_load_p10.bmp",
+      "SHOT auto_probe_save_p1.bmp",
+      "SHOT auto_probe_save_p10.bmp",
+      "END"
+    ]
+  },
+  "files_after_A": {
+    "NightR49.asd": {
+      "sha256": "08efce870c08ab1e602d7d02221847e6276019a2aa12267016a08036498bbe90",
+      "size": 8847785
+    },
+    "NightR999.asd": {
+      "sha256": "362bcca0d6b5029acd13f10e9435deaf207bf4b0d2677a87ca2d45567642232b",
+      "size": 8848219
+    }
+  },
+  "user_copy_sha256": "d0e9deda65c3e887f778098bf8d892d2b3ef1250b0080899d33c2164ace5df56",
+  "source_save": "NightR49.asd",
+  "weekly_stack": [
+    "",
+    "main()",
+    "game_main()",
+    "C_GameMain@Run(bool)",
+    "C_SceneManager@Run()",
+    "C_SceneGame@Run()",
+    "呼出／１日の始まり(ref C_GameDate)",
+    "呼出／月曜実行(ref C_GameDate)",
+    "C_SceneGame@_BeginGameScene(E_SceneType)",
+    "C_SceneTraining@Run()",
+    "C_SceneTraining@RunSelect()",
+    "LSys3xScript::RunEvent()",
+    "ＳＹＳＥＶ／平日訓練選択前()",
+    "A()",
+    "AFL_Message_A()",
+    "message::detail::A()",
+    "message::detail::メッセージ表示(bool, bool)",
+    "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+    "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+    "KR_ClaudeAutoWait(FTPARTS_WaitForClickCallback, bool)",
+    "■セーブ／オートセーブ実行(int)",
+    "C_SceneSaveLoad@RunAutoSave(int)",
+    "C_SceneSaveLoad@ExecSave(int, bool)",
+    "C_SceneSaveLoad@Save(int)",
+    "AFL_GameSave_Save(int, string)",
+    "gamesave::detail::Save(int, string)"
+  ],
+  "B": {
+    "pid": 53924,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "0e89489f29f74a4e2144be9c48a926c74f392bbe7b4edf47f6fc470d0dc6a24f",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "resume loading NightR49.asd",
+      "RESUMED weekly autosave; exists49=1",
+      "SHOT auto_probe_resumed.bmp"
+    ]
+  }
+}

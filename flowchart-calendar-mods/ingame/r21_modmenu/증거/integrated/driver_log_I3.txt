@@ -1,0 +1,2 @@
+04:44:04.370 attach pid 72412
+04:44:12.904 detach state idle

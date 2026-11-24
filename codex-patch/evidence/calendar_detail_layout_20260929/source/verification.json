@@ -1,0 +1,57 @@
+{
+ "status": "STATIC_NATIVE_VISUAL_PASS",
+ "files": {
+  "NightRemaster.ain": "acb3e7abefcd37d58dbc8ac7d6bc38c01c5bec7b5ee244580c2f62ce989cdb3c",
+  "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+ },
+ "existing_resume_saves": 51,
+ "saved_return_frames": 1256,
+ "metadata_forwarders": [
+  "KR_P29Buttons",
+  "KR_P29Board"
+ ],
+ "old_code_prefix_exact": true,
+ "original_strings_prefix_exact": true,
+ "serialized_schema_changes": 0,
+ "original_messages_exact": true,
+ "dll_byte_exact": true,
+ "native_opcode_audit": true,
+ "native_rendered_detail_boards": 915,
+ "original_information_verified_events": [
+  11,
+  16,
+  1,
+  328,
+  1001,
+  262
+ ],
+ "list_pixel_exact": true,
+ "unread_even_unlocked_hidden": true,
+ "detail_native_cancel_play_stage": true,
+ "mini_size": [
+  32,
+  40
+ ],
+ "detail_size": [
+  104,
+  130
+ ],
+ "summary_events": [
+  11
+ ],
+ "restored_fields": [
+  "when",
+  "who",
+  "read_state",
+  "read_stages/total_stages",
+  "conditions",
+  "no_replay_reason"
+ ],
+ "translator_model": "Codex internal",
+ "limitations": [
+  "Only the approved E00011 summary exists; other scenes retain information and portraits without fabricated summaries.",
+  "Original who/when/stage/condition getters are preserved, including existing anonymous-speaker labels and shortened cast lists.",
+  "Native diagnostics use hidden muted private saves and scripted engine event-loop choices, not physical user input.",
+  "All 915 detail boards checked for bounds, not all scenes/endings replayed; extended gameplay is outside this UI patch verification."
+ ]
+}

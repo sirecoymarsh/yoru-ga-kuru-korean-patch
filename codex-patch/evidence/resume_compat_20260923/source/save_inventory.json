@@ -1,0 +1,8733 @@
+[
+  {
+    "file": "NightR01.asd",
+    "sha256": "921779ca31c10e55c54d411579116141d6e12dcb4a8e3f16aa7b44415bd54982",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032072,
+        "name": "C_SceneGame@Run()",
+        "offset": 60,
+        "crc": 2844760567
+      },
+      {
+        "address": 7037748,
+        "name": "呼出／オープニング()",
+        "offset": 62,
+        "crc": 844963752
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7127314,
+        "name": "ＥＶ／元／E00001()",
+        "offset": 36372,
+        "crc": 2004844958
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 4911514,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 800,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2552,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      1458,
+      15521,
+      7542,
+      7498,
+      7484,
+      16408,
+      17973,
+      14261,
+      7496,
+      17174,
+      17919,
+      13359,
+      16233,
+      33113,
+      33124,
+      33109,
+      33115,
+      33117,
+      33120,
+      33128,
+      33122,
+      33114,
+      33116,
+      18117,
+      33111,
+      33066,
+      32666,
+      32486
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      16598,
+      1307,
+      33126,
+      33126,
+      33126,
+      33126
+    ]
+  },
+  {
+    "file": "NightR02.asd",
+    "sha256": "d73620b5ef982e1f3733692c82d01e7003eef701c05b1df1a9e8b55fdb04849d",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032072,
+        "name": "C_SceneGame@Run()",
+        "offset": 60,
+        "crc": 2844760567
+      },
+      {
+        "address": 7037786,
+        "name": "呼出／オープニング()",
+        "offset": 100,
+        "crc": 844963752
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7154512,
+        "name": "ＥＶ／元／E00002()",
+        "offset": 14400,
+        "crc": 4275611997
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 4911514,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 800,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2552,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      12110,
+      19710,
+      19775,
+      20017,
+      20138,
+      20309,
+      20749,
+      20896,
+      20851,
+      18293,
+      19634,
+      20689,
+      20883,
+      20733,
+      30778,
+      20756,
+      20374,
+      19880,
+      20312,
+      20979,
+      20166,
+      20631,
+      20797,
+      31447,
+      19187,
+      12412,
+      29454,
+      31450
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      19050,
+      1307,
+      20906,
+      20906,
+      20906,
+      20906
+    ]
+  },
+  {
+    "file": "NightR03.asd",
+    "sha256": "4a88491d73a4df146a74946c74ab03d6c692df4e74d3546d4813c5ca04f4761a",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038738,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 854,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045580,
+        "name": "呼出／月曜実行(ref C_GameDate)",
+        "offset": 128,
+        "crc": 110260755
+      },
+      {
+        "address": 5473622,
+        "name": "L_EventCall::Check(ref int, int, bool, bool)",
+        "offset": 2700,
+        "crc": 2027926776
+      },
+      {
+        "address": 5479506,
+        "name": "L_EventCall::UnconditionalCall(int, int, int, int)",
+        "offset": 192,
+        "crc": 2241986563
+      },
+      {
+        "address": 5479290,
+        "name": "L_EventCall::Call(int)",
+        "offset": 78,
+        "crc": 2286322700
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7169872,
+        "name": "ＥＶ／元／E00121()",
+        "offset": 2130,
+        "crc": 4148714991
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 4911514,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 800,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2804,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      12110,
+      24279,
+      24648,
+      22188,
+      20655,
+      32102,
+      21654,
+      31823,
+      24574,
+      10276,
+      7746,
+      10189,
+      21771,
+      10259,
+      10135,
+      10191,
+      8336,
+      10390,
+      8729,
+      31811,
+      10389,
+      10039,
+      9789,
+      8974,
+      32204,
+      32210,
+      10274,
+      31349,
+      29432,
+      32034,
+      34075,
+      9006
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      9359,
+      1307,
+      9966,
+      9966,
+      9966,
+      9966
+    ]
+  },
+  {
+    "file": "NightR04.asd",
+    "sha256": "d41a00044dc8d4359ffbae6f8080c791b1647caeb727b983a8dbff0ce767ee5a",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038790,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 906,
+        "crc": 1418568915
+      },
+      {
+        "address": 7046360,
+        "name": "呼出／土曜実行(ref C_GameDate)",
+        "offset": 252,
+        "crc": 908253133
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6061886,
+        "name": "C_SceneTraining@Run()",
+        "offset": 712,
+        "crc": 3012182373
+      },
+      {
+        "address": 6073484,
+        "name": "C_SceneTraining@RunAnim(int, int)",
+        "offset": 1770,
+        "crc": 4227892999
+      },
+      {
+        "address": 5497112,
+        "name": "L_RandomScenario::CallAfterTraining(int)",
+        "offset": 220,
+        "crc": 2222927207
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 9176604,
+        "name": "ＥＶ／元／E01209()",
+        "offset": 192,
+        "crc": 2296026480
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 4911514,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 800,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2863,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      16577,
+      12961,
+      16271,
+      36914,
+      17299,
+      15325,
+      16005,
+      20655,
+      36848,
+      16251,
+      17335,
+      15257,
+      15215,
+      30589,
+      15649,
+      17084,
+      16243,
+      16579,
+      17089,
+      17245,
+      15837,
+      16004,
+      17165,
+      14112,
+      17238,
+      15622,
+      16640,
+      17200,
+      36501,
+      17241,
+      36753,
+      36220,
+      36463
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      14728,
+      14728,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      13093,
+      1307,
+      16006,
+      16006,
+      16006,
+      16006
+    ]
+  },
+  {
+    "file": "NightR05.asd",
+    "sha256": "f76cf2082f638cf96886bd0f00b096acc7926173cca2f053f28f9264820eb931",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7044352,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 900,
+        "crc": 2606733843
+      },
+      {
+        "address": 5659796,
+        "name": "L_DungeonManager::RunRundomDungeon(int)",
+        "offset": 198,
+        "crc": 2769154311
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6355412,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2468,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1013,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      16762,
+      16766,
+      16521,
+      16829,
+      31749,
+      16904,
+      37780,
+      37439,
+      37384,
+      31327,
+      37348
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      16921,
+      14728,
+      14728,
+      14728,
+      14728
+    ]
+  },
+  {
+    "file": "NightR06.asd",
+    "sha256": "2a1507d257bb061b78027e53cb82928b0d97b9e72aa2cce7c8b54c923ad765c6",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038764,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 880,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045922,
+        "name": "呼出／火～金曜実行(ref C_GameDate)",
+        "offset": 128,
+        "crc": 3123639665
+      },
+      {
+        "address": 5473686,
+        "name": "L_EventCall::Check(ref int, int, bool, bool)",
+        "offset": 2764,
+        "crc": 2027926776
+      },
+      {
+        "address": 5479506,
+        "name": "L_EventCall::UnconditionalCall(int, int, int, int)",
+        "offset": 192,
+        "crc": 2241986563
+      },
+      {
+        "address": 5479290,
+        "name": "L_EventCall::Call(int)",
+        "offset": 78,
+        "crc": 2286322700
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 8136978,
+        "name": "ＥＶ／元／E20001()",
+        "offset": 1128,
+        "crc": 1036075541
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 4911514,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 800,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2808,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      16823,
+      35620,
+      14912,
+      33838,
+      17105,
+      33107,
+      17881,
+      17827,
+      50899,
+      16456,
+      7356,
+      18949,
+      7372,
+      7557,
+      19053,
+      19076,
+      17110,
+      50726,
+      19297,
+      19008,
+      19047,
+      16271,
+      19135,
+      17177,
+      7546,
+      19358,
+      18775,
+      18884,
+      19104,
+      51045,
+      35513,
+      51085
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      18589,
+      1307,
+      18075,
+      18075,
+      18075,
+      18075
+    ]
+  },
+  {
+    "file": "NightR07.asd",
+    "sha256": "62af01d4e49b941c1e445363324068d805531b44034eea18690d54f11b416a08",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300730,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 922,
+        "crc": 888234515
+      },
+      {
+        "address": 6308562,
+        "name": "C_SceneHomebase@RunMapSelect()",
+        "offset": 784,
+        "crc": 1385325298
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1087,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      22234,
+      17956,
+      22067,
+      22810,
+      47069,
+      19424,
+      49042,
+      49757,
+      45287,
+      49470,
+      49165,
+      49645
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      31428,
+      31428,
+      31428,
+      17976,
+      17976,
+      17976,
+      17976
+    ]
+  },
+  {
+    "file": "NightR08.asd",
+    "sha256": "043d50722b66ce3335a248cadf3ebd9779aa76b084d4062a25097217504028c8",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038738,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 854,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045682,
+        "name": "呼出／月曜実行(ref C_GameDate)",
+        "offset": 230,
+        "crc": 110260755
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6061378,
+        "name": "C_SceneTraining@Run()",
+        "offset": 204,
+        "crc": 3012182373
+      },
+      {
+        "address": 6063218,
+        "name": "C_SceneTraining@<lambda : C_SceneTraining@RunSelect()(114, 40)>(int)",
+        "offset": 264,
+        "crc": 2264583604
+      },
+      {
+        "address": 6067460,
+        "name": "C_SceneTraining@CheckResSysButton(int)",
+        "offset": 152,
+        "crc": 2464681188
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1118,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      21575,
+      36250,
+      51086,
+      49899,
+      49921,
+      23308,
+      49944,
+      46105,
+      44216,
+      49209,
+      46678,
+      46248
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      22234,
+      22234,
+      22234,
+      49950,
+      49950,
+      49950,
+      49950
+    ]
+  },
+  {
+    "file": "NightR09.asd",
+    "sha256": "b1d5935fd56906b5542eaaf1839d2fe9fd8ac5aa34e9afa8a0039ee7281106ae",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038764,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 880,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045922,
+        "name": "呼出／火～金曜実行(ref C_GameDate)",
+        "offset": 128,
+        "crc": 3123639665
+      },
+      {
+        "address": 5473718,
+        "name": "L_EventCall::Check(ref int, int, bool, bool)",
+        "offset": 2796,
+        "crc": 2027926776
+      },
+      {
+        "address": 5479506,
+        "name": "L_EventCall::UnconditionalCall(int, int, int, int)",
+        "offset": 192,
+        "crc": 2241986563
+      },
+      {
+        "address": 5479290,
+        "name": "L_EventCall::Call(int)",
+        "offset": 78,
+        "crc": 2286322700
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7185106,
+        "name": "ＥＶ／元／E00008()",
+        "offset": 8760,
+        "crc": 609080470
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 4911514,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 800,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2808,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      21575,
+      21809,
+      51098,
+      22405,
+      51111,
+      26638,
+      27378,
+      30231,
+      30460,
+      25365,
+      49111,
+      30495,
+      23544,
+      30999,
+      31119,
+      30482,
+      30920,
+      27820,
+      30260,
+      30124,
+      26094,
+      30939,
+      54784,
+      30484,
+      30885,
+      31130,
+      29835,
+      46209,
+      30838,
+      55080,
+      48951,
+      49082
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      27721,
+      1307,
+      24094,
+      24094,
+      24094,
+      24094
+    ]
+  },
+  {
+    "file": "NightR10.asd",
+    "sha256": "57e5eb851d796c88684c527e48781488eea05cd1574e6c08791b3b4890d6df49",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7044352,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 900,
+        "crc": 2606733843
+      },
+      {
+        "address": 5659796,
+        "name": "L_DungeonManager::RunRundomDungeon(int)",
+        "offset": 198,
+        "crc": 2769154311
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6355412,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2468,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1013,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      17178,
+      36886,
+      13401,
+      41589,
+      40715,
+      41061,
+      40527,
+      40894,
+      42288,
+      40816,
+      40645
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      13509,
+      36855,
+      36855,
+      36855,
+      36855
+    ]
+  },
+  {
+    "file": "NightR11.asd",
+    "sha256": "76f9894628e73a9ed0580ef409a40a0c42d4ae4c727d0e058ebcdf1d24547720",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038738,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 854,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045778,
+        "name": "呼出／月曜実行(ref C_GameDate)",
+        "offset": 326,
+        "crc": 110260755
+      },
+      {
+        "address": 5473782,
+        "name": "L_EventCall::Check(ref int, int, bool, bool)",
+        "offset": 2860,
+        "crc": 2027926776
+      },
+      {
+        "address": 5479506,
+        "name": "L_EventCall::UnconditionalCall(int, int, int, int)",
+        "offset": 192,
+        "crc": 2241986563
+      },
+      {
+        "address": 5479290,
+        "name": "L_EventCall::Call(int)",
+        "offset": 78,
+        "crc": 2286322700
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7192078,
+        "name": "ＥＶ／元／E00013()",
+        "offset": 456,
+        "crc": 2586912487
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 4911514,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 800,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2804,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      16754,
+      17178,
+      16446,
+      13213,
+      49778,
+      10963,
+      18012,
+      36713,
+      53657,
+      17564,
+      16875,
+      33831,
+      27206,
+      18415,
+      15849,
+      53732,
+      14004,
+      15963,
+      15607,
+      18546,
+      43255,
+      18473,
+      30158,
+      18603,
+      18577,
+      17789,
+      18576,
+      53809,
+      18583,
+      53501,
+      8230,
+      16907
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      36751,
+      1307,
+      13428,
+      13428,
+      13428,
+      13428
+    ]
+  },
+  {
+    "file": "NightR12.asd",
+    "sha256": "537169523c583335f64e321eabea5aa2a474fdc148c106cd95d0cc979e18d3ca",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300120,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 312,
+        "crc": 888234515
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1024,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      10193,
+      10888,
+      9499,
+      25284,
+      22505,
+      36039,
+      34782,
+      12761,
+      25032,
+      21513,
+      24393
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      31903,
+      31903,
+      25928,
+      25928,
+      25928,
+      25928
+    ]
+  },
+  {
+    "file": "NightR13.asd",
+    "sha256": "5727bdd094832730dec6d3bc5d2d0b04aea63c4c4081c5f99d72dedac8127fae",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038290,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 406,
+        "crc": 1418568915
+      },
+      {
+        "address": 7041926,
+        "name": "呼出／デパート実行(ref C_GameDate)",
+        "offset": 218,
+        "crc": 1641354326
+      },
+      {
+        "address": 5660196,
+        "name": "L_DungeonManager::RunEventDungeon(int, int)",
+        "offset": 330,
+        "crc": 2537500279
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6355412,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2468,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1021,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      7956,
+      31518,
+      10615,
+      56218,
+      54689,
+      53485,
+      16445,
+      57168,
+      55904,
+      55248,
+      56346
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      8510,
+      36423,
+      36423,
+      36423,
+      36423
+    ]
+  },
+  {
+    "file": "NightR14.asd",
+    "sha256": "30ee4be5abe9079174b727b156fcfb0f328cd93fcc2286d41c62fac2204df150",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038290,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 406,
+        "crc": 1418568915
+      },
+      {
+        "address": 7041926,
+        "name": "呼出／デパート実行(ref C_GameDate)",
+        "offset": 218,
+        "crc": 1641354326
+      },
+      {
+        "address": 5660196,
+        "name": "L_DungeonManager::RunEventDungeon(int, int)",
+        "offset": 330,
+        "crc": 2537500279
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6355412,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2468,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1021,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      7956,
+      31518,
+      10615,
+      56218,
+      56523,
+      10992,
+      57526,
+      58420,
+      58317,
+      57629,
+      56728
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      8510,
+      36423,
+      36423,
+      36423,
+      36423
+    ]
+  },
+  {
+    "file": "NightR15.asd",
+    "sha256": "01b15d4cc82bcd640033763adbefb50f562909d6136a68a3c4f204e0ceed0d82",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038290,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 406,
+        "crc": 1418568915
+      },
+      {
+        "address": 7041926,
+        "name": "呼出／デパート実行(ref C_GameDate)",
+        "offset": 218,
+        "crc": 1641354326
+      },
+      {
+        "address": 5660196,
+        "name": "L_DungeonManager::RunEventDungeon(int, int)",
+        "offset": 330,
+        "crc": 2537500279
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6353278,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 334,
+        "crc": 1363059240
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064312,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 300,
+        "crc": 105597897
+      },
+      {
+        "address": 6367720,
+        "name": "C_SceneDungeon@ExecMoveDungeon()",
+        "offset": 1880,
+        "crc": 4259883813
+      },
+      {
+        "address": 9747248,
+        "name": "C_SceneDungeon@StepedOnCell(int, int, E_CharaDir, ref int, ref bool, ref bool)",
+        "offset": 4298,
+        "crc": 671924210
+      },
+      {
+        "address": 6536512,
+        "name": "C_InnerEventDungeon@SteppedOnEvent(bool, int, ref I_EventDungeon)",
+        "offset": 512,
+        "crc": 2512189798
+      },
+      {
+        "address": 6484614,
+        "name": "C_EventDungeon0203@RunEventB(int)",
+        "offset": 80,
+        "crc": 4089805046
+      },
+      {
+        "address": 6485628,
+        "name": "C_EventDungeon0203@RunEventB3()",
+        "offset": 50,
+        "crc": 2779144550
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7269124,
+        "name": "ＥＶ／元／E00056()",
+        "offset": 702,
+        "crc": 2701047535
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 9739392,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 818,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 3358,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      7956,
+      31518,
+      10615,
+      57111,
+      36504,
+      57109,
+      57864,
+      58853,
+      59999,
+      58033,
+      57756,
+      60458,
+      37000,
+      56688,
+      59659,
+      59947,
+      58313,
+      59658,
+      24631,
+      57561,
+      16807,
+      16266,
+      31684,
+      13115,
+      59329,
+      17026,
+      16075,
+      59271,
+      53972,
+      16360,
+      59429,
+      14956,
+      32592,
+      14678,
+      57980,
+      59220,
+      59195,
+      58118,
+      57716
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      8510,
+      8510,
+      8510,
+      56831,
+      34602,
+      34602,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      58240,
+      1307,
+      7484,
+      7484,
+      7484,
+      7484
+    ]
+  },
+  {
+    "file": "NightR16.asd",
+    "sha256": "3683ba5e947381db0b5c0afb93cdbd83be87d2dbe6455ff53bd1896427309bf1",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300120,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 312,
+        "crc": 888234515
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1024,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      19328,
+      18492,
+      24456,
+      20899,
+      24218,
+      19347,
+      24259,
+      71510,
+      70889,
+      43436,
+      36625
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      19246,
+      19246,
+      26897,
+      26897,
+      26897,
+      26897
+    ]
+  },
+  {
+    "file": "NightR17.asd",
+    "sha256": "3bb542ba1030fba48d953a86641b058d0ae00212586503216bcb610578cd9800",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7044352,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 900,
+        "crc": 2606733843
+      },
+      {
+        "address": 5659796,
+        "name": "L_DungeonManager::RunRundomDungeon(int)",
+        "offset": 198,
+        "crc": 2769154311
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6355412,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2468,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1013,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      19246,
+      19328,
+      21815,
+      53909,
+      23366,
+      56993,
+      68744,
+      8445,
+      71389,
+      56143,
+      70622
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      24485,
+      15083,
+      15083,
+      15083,
+      15083
+    ]
+  },
+  {
+    "file": "NightR18.asd",
+    "sha256": "a6f5939c479b23ec8d5212c9f5041dcbac98af747203f3f8fcc48f9be185485f",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300120,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 312,
+        "crc": 888234515
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1024,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      17532,
+      34679,
+      20927,
+      18372,
+      25841,
+      21564,
+      49636,
+      72290,
+      73110,
+      35801,
+      55662
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      25054,
+      25054,
+      55784,
+      55784,
+      55784,
+      55784
+    ]
+  },
+  {
+    "file": "NightR19.asd",
+    "sha256": "c754c69ec7c25afc9b8bdf9034159f3dd6c13b1a9e8848a54592bda212de8f42",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7044352,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 900,
+        "crc": 2606733843
+      },
+      {
+        "address": 5659796,
+        "name": "L_DungeonManager::RunRundomDungeon(int)",
+        "offset": 198,
+        "crc": 2769154311
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6355412,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2468,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1013,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      17532,
+      25054,
+      36250,
+      34679,
+      69310,
+      33495,
+      55542,
+      67654,
+      67764,
+      33648,
+      69383
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      24119,
+      56173,
+      56173,
+      56173,
+      56173
+    ]
+  },
+  {
+    "file": "NightR20.asd",
+    "sha256": "8f620b793fa0f8edac7d77340da686e6ba096b603e89d7448c7d03aeb724d3eb",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7044352,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 900,
+        "crc": 2606733843
+      },
+      {
+        "address": 5659796,
+        "name": "L_DungeonManager::RunRundomDungeon(int)",
+        "offset": 198,
+        "crc": 2769154311
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6355412,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2468,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1013,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      54312,
+      8799,
+      12744,
+      72710,
+      72953,
+      24264,
+      69218,
+      68079,
+      72731,
+      69503,
+      69193
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      10784,
+      69139,
+      69139,
+      69139,
+      69139
+    ]
+  },
+  {
+    "file": "NightR21.asd",
+    "sha256": "c00b18d0adf99d475a506e076944cc4a065666d618314ecfa5f764b060831392",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7044352,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 900,
+        "crc": 2606733843
+      },
+      {
+        "address": 5659796,
+        "name": "L_DungeonManager::RunRundomDungeon(int)",
+        "offset": 198,
+        "crc": 2769154311
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6355412,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2468,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1013,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      54312,
+      8799,
+      12744,
+      72343,
+      68156,
+      67402,
+      68087,
+      69183,
+      67512,
+      66770,
+      67760
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      10784,
+      67144,
+      67144,
+      67144,
+      67144
+    ]
+  },
+  {
+    "file": "NightR22.asd",
+    "sha256": "5759cf8a70385132da37ab7d2fcef57d7d7c96034162d045274d8fb3ffd60078",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038764,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 880,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045922,
+        "name": "呼出／火～金曜実行(ref C_GameDate)",
+        "offset": 128,
+        "crc": 3123639665
+      },
+      {
+        "address": 5474134,
+        "name": "L_EventCall::Check(ref int, int, bool, bool)",
+        "offset": 3212,
+        "crc": 2027926776
+      },
+      {
+        "address": 5479506,
+        "name": "L_EventCall::UnconditionalCall(int, int, int, int)",
+        "offset": 192,
+        "crc": 2241986563
+      },
+      {
+        "address": 5479290,
+        "name": "L_EventCall::Call(int)",
+        "offset": 78,
+        "crc": 2286322700
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7338924,
+        "name": "ＥＶ／元／E00069()",
+        "offset": 12776,
+        "crc": 1235721941
+      },
+      {
+        "address": 5926094,
+        "name": "■選択メッセージ／実行(bool, int)",
+        "offset": 182,
+        "crc": 870890172
+      },
+      {
+        "address": 5938802,
+        "name": "C_SelectMessage@Run(bool, int, bool)",
+        "offset": 114,
+        "crc": 3307550980
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 9739392,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 818,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2479,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      19633,
+      21460,
+      15036,
+      18544,
+      12084,
+      18482,
+      30668,
+      30992,
+      30169,
+      54982,
+      8442,
+      20148,
+      70096,
+      8506,
+      27297,
+      25075,
+      54703,
+      7421,
+      8304,
+      54648,
+      30870,
+      7909,
+      54596,
+      26427,
+      54602,
+      36349,
+      23468,
+      28182
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      30346,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      7973,
+      1307,
+      54604,
+      54604,
+      54604,
+      54604
+    ]
+  },
+  {
+    "file": "NightR23.asd",
+    "sha256": "7796190f83b5689a92b142b5f9410bd56d4a13ebe1e0639549fae20510f92a8b",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300730,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 922,
+        "crc": 888234515
+      },
+      {
+        "address": 6308562,
+        "name": "C_SceneHomebase@RunMapSelect()",
+        "offset": 784,
+        "crc": 1385325298
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1087,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      54306,
+      11545,
+      32313,
+      10006,
+      25427,
+      12180,
+      24451,
+      11116,
+      67438,
+      9325,
+      27691,
+      55248
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      73611,
+      73611,
+      73611,
+      23482,
+      23482,
+      23482,
+      23482
+    ]
+  },
+  {
+    "file": "NightR24.asd",
+    "sha256": "f84a3b90138e2e26a6feabe67d6ec2accc80c904386d8019affd85f17a1810cf",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300730,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 922,
+        "crc": 888234515
+      },
+      {
+        "address": 6308562,
+        "name": "C_SceneHomebase@RunMapSelect()",
+        "offset": 784,
+        "crc": 1385325298
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1087,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      54306,
+      11545,
+      32313,
+      24676,
+      31389,
+      11880,
+      68908,
+      10270,
+      23763,
+      12821,
+      24998,
+      28078
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      73611,
+      73611,
+      73611,
+      73599,
+      73599,
+      73599,
+      73599
+    ]
+  },
+  {
+    "file": "NightR25.asd",
+    "sha256": "ca77869feb2b02a75c81707f6cb06bee53d16c9cff0fcc62298a468d41d24c43",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038764,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 880,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045922,
+        "name": "呼出／火～金曜実行(ref C_GameDate)",
+        "offset": 128,
+        "crc": 3123639665
+      },
+      {
+        "address": 5474550,
+        "name": "L_EventCall::Check(ref int, int, bool, bool)",
+        "offset": 3628,
+        "crc": 2027926776
+      },
+      {
+        "address": 5660196,
+        "name": "L_DungeonManager::RunEventDungeon(int, int)",
+        "offset": 330,
+        "crc": 2537500279
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 9850200,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 334,
+        "crc": 1363059240
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064312,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 300,
+        "crc": 105597897
+      },
+      {
+        "address": 9849154,
+        "name": "C_SceneDungeon@ExecMoveDungeon()",
+        "offset": 1896,
+        "crc": 4259883813
+      },
+      {
+        "address": 9794852,
+        "name": "C_SceneDungeon@StepedOnCell(int, int, E_CharaDir, ref int, ref bool, ref bool)",
+        "offset": 4104,
+        "crc": 671924210
+      },
+      {
+        "address": 6536298,
+        "name": "C_InnerEventDungeon@SteppedOnEvent(bool, int, ref I_EventDungeon)",
+        "offset": 298,
+        "crc": 2512189798
+      },
+      {
+        "address": 6489842,
+        "name": "C_EventDungeon0303@RunEventR(int)",
+        "offset": 40,
+        "crc": 2109378352
+      },
+      {
+        "address": 6490548,
+        "name": "C_EventDungeon0303@RunEventR1()",
+        "offset": 618,
+        "crc": 1913489760
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7455406,
+        "name": "ＥＶ／元／E00097()",
+        "offset": 16284,
+        "crc": 1612000079
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 9739392,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 818,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 3431,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      58407,
+      58068,
+      7861,
+      7961,
+      65714,
+      9553,
+      69166,
+      67699,
+      67626,
+      67647,
+      67619,
+      67543,
+      66314,
+      29512,
+      19420,
+      21229,
+      30024,
+      18176,
+      9202,
+      25070,
+      54664,
+      70247,
+      31314,
+      29837,
+      56098,
+      31842,
+      9210,
+      29858,
+      7671,
+      7608,
+      36156,
+      36108,
+      9405,
+      54564,
+      7767,
+      8581,
+      67907,
+      64897,
+      67567,
+      70115
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      54306,
+      54306,
+      54306,
+      65630,
+      54890,
+      54890,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      18583,
+      1307,
+      7703,
+      7703,
+      7703,
+      7703
+    ]
+  },
+  {
+    "file": "NightR26.asd",
+    "sha256": "8ad975f716c0b7d731ac3fdc34d8575cc3c1c78e86467d5c0cd90cadfb96585f",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300120,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 312,
+        "crc": 888234515
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1024,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      29249,
+      30742,
+      18330,
+      19496,
+      30206,
+      7867,
+      29475,
+      26215,
+      28163,
+      31634,
+      77614
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      70183,
+      70183,
+      17571,
+      17571,
+      17571,
+      17571
+    ]
+  },
+  {
+    "file": "NightR27.asd",
+    "sha256": "efd4d6b74b8d6abf7b6af0aa2b58b17be767a7734d259227771e16aef0ca45d0",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038346,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 462,
+        "crc": 1418568915
+      },
+      {
+        "address": 7042160,
+        "name": "呼出／ライブハウス実行(ref C_GameDate)",
+        "offset": 218,
+        "crc": 1641354326
+      },
+      {
+        "address": 5660196,
+        "name": "L_DungeonManager::RunEventDungeon(int, int)",
+        "offset": 330,
+        "crc": 2537500279
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 9852396,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2530,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1025,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      27464,
+      25024,
+      12045,
+      66151,
+      9507,
+      69281,
+      75566,
+      75724,
+      16402,
+      75555,
+      67381
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      20850,
+      9048,
+      9048,
+      9048,
+      9048
+    ]
+  },
+  {
+    "file": "NightR28.asd",
+    "sha256": "1b345849fd57458d86c9c9d3c352c74707b7f5f8ea79b66099f1877dbdda70b3",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038790,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 906,
+        "crc": 1418568915
+      },
+      {
+        "address": 7046360,
+        "name": "呼出／土曜実行(ref C_GameDate)",
+        "offset": 252,
+        "crc": 908253133
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6061886,
+        "name": "C_SceneTraining@Run()",
+        "offset": 712,
+        "crc": 3012182373
+      },
+      {
+        "address": 6073484,
+        "name": "C_SceneTraining@RunAnim(int, int)",
+        "offset": 1770,
+        "crc": 4227892999
+      },
+      {
+        "address": 5497112,
+        "name": "L_RandomScenario::CallAfterTraining(int)",
+        "offset": 220,
+        "crc": 2222927207
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 8363138,
+        "name": "ＥＶ／元／E30021()",
+        "offset": 3278,
+        "crc": 3993096581
+      },
+      {
+        "address": 5926094,
+        "name": "■選択メッセージ／実行(bool, int)",
+        "offset": 182,
+        "crc": 870890172
+      },
+      {
+        "address": 5938802,
+        "name": "C_SelectMessage@Run(bool, int, bool)",
+        "offset": 114,
+        "crc": 3307550980
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 9739392,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 818,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2534,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      26598,
+      8727,
+      31767,
+      11368,
+      51052,
+      7695,
+      13342,
+      14599,
+      34427,
+      11966,
+      49856,
+      68507,
+      67433,
+      72722,
+      73055,
+      13841,
+      15412,
+      15130,
+      72479,
+      10969,
+      15237,
+      22533,
+      10369,
+      13972,
+      77085,
+      15294,
+      66934,
+      9686,
+      66740
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      70095,
+      70095,
+      56443,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      8883,
+      1307,
+      26589,
+      26589,
+      26589,
+      26589
+    ]
+  },
+  {
+    "file": "NightR29.asd",
+    "sha256": "bd6bb8f74a8a949e812a6352951a14c4cdcea1b7533dfa44c387835cb0a27063",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038738,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 854,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045778,
+        "name": "呼出／月曜実行(ref C_GameDate)",
+        "offset": 326,
+        "crc": 110260755
+      },
+      {
+        "address": 5475466,
+        "name": "L_EventCall::Check(ref int, int, bool, bool)",
+        "offset": 4544,
+        "crc": 2027926776
+      },
+      {
+        "address": 5483380,
+        "name": "L_EventCall::E20164(ref int, bool)",
+        "offset": 350,
+        "crc": 743681245
+      },
+      {
+        "address": 5660196,
+        "name": "L_DungeonManager::RunEventDungeon(int, int)",
+        "offset": 330,
+        "crc": 2537500279
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 9850200,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 334,
+        "crc": 1363059240
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064312,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 300,
+        "crc": 105597897
+      },
+      {
+        "address": 9849154,
+        "name": "C_SceneDungeon@ExecMoveDungeon()",
+        "offset": 1896,
+        "crc": 4259883813
+      },
+      {
+        "address": 9794852,
+        "name": "C_SceneDungeon@StepedOnCell(int, int, E_CharaDir, ref int, ref bool, ref bool)",
+        "offset": 4104,
+        "crc": 671924210
+      },
+      {
+        "address": 9883876,
+        "name": "C_InnerEventDungeon@SteppedOnEvent(bool, int, ref I_EventDungeon)",
+        "offset": 298,
+        "crc": 2512189798
+      },
+      {
+        "address": 6509324,
+        "name": "C_EventDungeon0503@RunEventR(int)",
+        "offset": 290,
+        "crc": 1284218105
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 8236644,
+        "name": "ＥＶ／元／E20170()",
+        "offset": 768,
+        "crc": 1306685226
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 9739392,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 818,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 3426,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      63933,
+      27140,
+      65215,
+      20922,
+      27213,
+      62795,
+      23004,
+      62775,
+      63124,
+      27529,
+      26029,
+      27966,
+      21852,
+      70229,
+      59892,
+      59807,
+      59849,
+      28925,
+      50200,
+      77860,
+      25683,
+      29307,
+      31511,
+      77862,
+      73189,
+      27470,
+      29959,
+      59919,
+      23823,
+      60959,
+      28368,
+      77857,
+      29623,
+      28939,
+      31271,
+      60665,
+      30511,
+      30254,
+      60515,
+      7684
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      50578,
+      50578,
+      50578,
+      61859,
+      82746,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      60133,
+      1307,
+      77863,
+      77863,
+      77863,
+      77863
+    ]
+  },
+  {
+    "file": "NightR30.asd",
+    "sha256": "cd7c102f742a088d6205fb58afb19f38b961af4afc4d709c5494fcb8cefaf4f1",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038738,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 854,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045580,
+        "name": "呼出／月曜実行(ref C_GameDate)",
+        "offset": 128,
+        "crc": 110260755
+      },
+      {
+        "address": 5475732,
+        "name": "L_EventCall::Check(ref int, int, bool, bool)",
+        "offset": 4810,
+        "crc": 2027926776
+      },
+      {
+        "address": 5479506,
+        "name": "L_EventCall::UnconditionalCall(int, int, int, int)",
+        "offset": 192,
+        "crc": 2241986563
+      },
+      {
+        "address": 5479290,
+        "name": "L_EventCall::Call(int)",
+        "offset": 78,
+        "crc": 2286322700
+      },
+      {
+        "address": 5469642,
+        "name": "LSys3xScript::RunEvent()",
+        "offset": 786,
+        "crc": 4049231495
+      },
+      {
+        "address": 7583134,
+        "name": "ＥＶ／元／E00201()",
+        "offset": 2754,
+        "crc": 951537159
+      },
+      {
+        "address": 2452158,
+        "name": "A()",
+        "offset": 112,
+        "crc": 410431820
+      },
+      {
+        "address": 2447726,
+        "name": "AFL_Message_A()",
+        "offset": 6,
+        "crc": 105458298
+      },
+      {
+        "address": 2499734,
+        "name": "message::detail::A()",
+        "offset": 38,
+        "crc": 3134875909
+      },
+      {
+        "address": 2502850,
+        "name": "message::detail::メッセージ表示(bool, bool)",
+        "offset": 180,
+        "crc": 2465155071
+      },
+      {
+        "address": 2478596,
+        "name": "message::detail::CMessageTextView@Draw(message::detail::CMessageTextModel&, bool, bool)",
+        "offset": 284,
+        "crc": 4171485089
+      },
+      {
+        "address": 2480944,
+        "name": "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>()",
+        "offset": 702,
+        "crc": 2435295040
+      },
+      {
+        "address": 2812032,
+        "name": "AFL_Parts_WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 36,
+        "crc": 1018761851
+      },
+      {
+        "address": 3064324,
+        "name": "parts::detail::WaitForClick(FTPARTS_WaitForClickCallback, bool)",
+        "offset": 312,
+        "crc": 105597897
+      },
+      {
+        "address": 4907122,
+        "name": "AFL_View_Update()",
+        "offset": 24,
+        "crc": 3730646581
+      },
+      {
+        "address": 9739392,
+        "name": "view::detail::View_Update(bool, bool, float)",
+        "offset": 818,
+        "crc": 1390237041
+      },
+      {
+        "address": 3062816,
+        "name": "parts::detail::UpdateMessage()",
+        "offset": 26,
+        "crc": 225949815
+      },
+      {
+        "address": 2914788,
+        "name": "parts::detail::CPartsMessageManager@Update()",
+        "offset": 78,
+        "crc": 205601154
+      },
+      {
+        "address": 2912662,
+        "name": "parts::detail::CPartsMessageManager@CallDelegate(int)",
+        "offset": 622,
+        "crc": 1952992687
+      },
+      {
+        "address": 5305096,
+        "name": "parts::detail::CPartsMessageManager@CallEvent3<int, int, int>(DG_Func<int, int, int, void>)",
+        "offset": 212,
+        "crc": 3430922932
+      },
+      {
+        "address": 2907162,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 114,
+        "crc": 2372536397
+      },
+      {
+        "address": 5343016,
+        "name": "OptionalExtensions::MatchSome<DG_MouseClickHandler>(DG_MouseClickHandler?&, DG_Func<DG_MouseClickHandler&, void>)",
+        "offset": 202,
+        "crc": 1803840280
+      },
+      {
+        "address": 2907124,
+        "name": "parts::detail::CPartsFunctionSet@<lambda : parts::detail::CPartsFunctionSet@CallFunctionMouseClick(int, int, int)(185, 68)>(DG_MouseClickHandler&)",
+        "offset": 76,
+        "crc": 2372536397
+      },
+      {
+        "address": 2457178,
+        "name": "message::detail::CSystemButton@MouseLClickEvent(int, int, int)",
+        "offset": 56,
+        "crc": 78036664
+      },
+      {
+        "address": 6011702,
+        "name": "C_SysButton@ExecSave()",
+        "offset": 12,
+        "crc": 3726595996
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 2804,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      63812,
+      9555,
+      8050,
+      7764,
+      10388,
+      69729,
+      27453,
+      11217,
+      8544,
+      75716,
+      11444,
+      23874,
+      26273,
+      11612,
+      65045,
+      12304,
+      72932,
+      53987,
+      25646,
+      64939,
+      67523,
+      12673,
+      17606,
+      10919,
+      27528,
+      67376,
+      7656,
+      13903,
+      23109,
+      70014,
+      63320,
+      28318
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      215,
+      215,
+      3,
+      3,
+      3,
+      1388,
+      1388,
+      67402,
+      1307,
+      53552,
+      53552,
+      53552,
+      53552
+    ]
+  },
+  {
+    "file": "NightR31.asd",
+    "sha256": "16fef080b3e9c6ea24ca249fe8289f362477f899896d195c190ba597a8610f18",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300120,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 312,
+        "crc": 888234515
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1024,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      19149,
+      16441,
+      29650,
+      81532,
+      60818,
+      61886,
+      81443,
+      25067,
+      71548,
+      10723,
+      81428
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      23722,
+      23722,
+      72820,
+      72820,
+      72820,
+      72820
+    ]
+  },
+  {
+    "file": "NightR32.asd",
+    "sha256": "7ce45db436f8c280e46ae86697a54dfde1548273ae586fdddffaa89cae047fed",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038738,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 854,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045682,
+        "name": "呼出／月曜実行(ref C_GameDate)",
+        "offset": 230,
+        "crc": 110260755
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6061378,
+        "name": "C_SceneTraining@Run()",
+        "offset": 204,
+        "crc": 3012182373
+      },
+      {
+        "address": 6063218,
+        "name": "C_SceneTraining@<lambda : C_SceneTraining@RunSelect()(114, 40)>(int)",
+        "offset": 264,
+        "crc": 2264583604
+      },
+      {
+        "address": 6067460,
+        "name": "C_SceneTraining@CheckResSysButton(int)",
+        "offset": 152,
+        "crc": 2464681188
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1118,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      36191,
+      81454,
+      26464,
+      80659,
+      80675,
+      26133,
+      80695,
+      60864,
+      25705,
+      80171,
+      79822,
+      80131
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      19149,
+      19149,
+      19149,
+      80699,
+      80699,
+      80699,
+      80699
+    ]
+  },
+  {
+    "file": "NightR33.asd",
+    "sha256": "9cdcf2ecb93ae0453d9a4340b623a07f86c7272cedddecc135a87404492d590b",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7043886,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 434,
+        "crc": 2606733843
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6300120,
+        "name": "C_SceneHomebase@Run()",
+        "offset": 312,
+        "crc": 888234515
+      },
+      {
+        "address": 6313926,
+        "name": "C_SceneHomebase@CheckGameSysButtons(int, int)",
+        "offset": 112,
+        "crc": 3109813219
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1024,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      72262,
+      29414,
+      11555,
+      67863,
+      64361,
+      58548,
+      66107,
+      12996,
+      27681,
+      80251,
+      32383
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      10054,
+      10054,
+      30939,
+      30939,
+      30939,
+      30939
+    ]
+  },
+  {
+    "file": "NightR34.asd",
+    "sha256": "a8d2bee04cf1fc7cf367b457cd5d530041c15f2d7d98e2500e45677a3176cc67",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038790,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 906,
+        "crc": 1418568915
+      },
+      {
+        "address": 7046360,
+        "name": "呼出／土曜実行(ref C_GameDate)",
+        "offset": 252,
+        "crc": 908253133
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6061486,
+        "name": "C_SceneTraining@Run()",
+        "offset": 312,
+        "crc": 3012182373
+      },
+      {
+        "address": 6066262,
+        "name": "C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>()",
+        "offset": 212,
+        "crc": 1904126553
+      },
+      {
+        "address": 6067460,
+        "name": "C_SceneTraining@CheckResSysButton(int)",
+        "offset": 152,
+        "crc": 2464681188
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1122,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      66585,
+      19289,
+      12150,
+      64081,
+      21469,
+      15998,
+      25971,
+      32201,
+      69362,
+      20093,
+      31726,
+      82440
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      37006,
+      37006,
+      37006,
+      9197,
+      9197,
+      9197,
+      9197
+    ]
+  },
+  {
+    "file": "NightR35.asd",
+    "sha256": "c15cbf179b07d697c0d86c4ffce80832af0d544de732fefe69202dcaac978cac",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038738,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 854,
+        "crc": 1418568915
+      },
+      {
+        "address": 7045682,
+        "name": "呼出／月曜実行(ref C_GameDate)",
+        "offset": 230,
+        "crc": 110260755
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 6061378,
+        "name": "C_SceneTraining@Run()",
+        "offset": 204,
+        "crc": 3012182373
+      },
+      {
+        "address": 6063218,
+        "name": "C_SceneTraining@<lambda : C_SceneTraining@RunSelect()(114, 40)>(int)",
+        "offset": 264,
+        "crc": 2264583604
+      },
+      {
+        "address": 6067460,
+        "name": "C_SceneTraining@CheckResSysButton(int)",
+        "offset": 152,
+        "crc": 2464681188
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1118,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      66585,
+      22743,
+      21497,
+      65122,
+      40278,
+      80134,
+      17120,
+      58645,
+      80474,
+      80259,
+      7851,
+      23185
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      73743,
+      73743,
+      73743,
+      51099,
+      51099,
+      51099,
+      51099
+    ]
+  },
+  {
+    "file": "NightR36.asd",
+    "sha256": "09c970b9dd0414b2924b03310b0e5dad9a81478c4766ba619b81e640ee437f7e",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038712,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 828,
+        "crc": 1418568915
+      },
+      {
+        "address": 7044352,
+        "name": "呼出／日曜実行(ref C_GameDate)",
+        "offset": 900,
+        "crc": 2606733843
+      },
+      {
+        "address": 5659796,
+        "name": "L_DungeonManager::RunRundomDungeon(int)",
+        "offset": 198,
+        "crc": 2769154311
+      },
+      {
+        "address": 6035976,
+        "name": "C_SceneGame@_BeginGameScene(E_SceneType)",
+        "offset": 1618,
+        "crc": 3766003842
+      },
+      {
+        "address": 9852396,
+        "name": "C_SceneDungeon@Run()",
+        "offset": 2530,
+        "crc": 1363059240
+      },
+      {
+        "address": 5383618,
+        "name": "■セーブ／セーブ画面実行()",
+        "offset": 128,
+        "crc": 3236483348
+      },
+      {
+        "address": 6797978,
+        "name": "C_SceneSaveLoad@RunSave()",
+        "offset": 36,
+        "crc": 2204810403
+      },
+      {
+        "address": 6798558,
+        "name": "C_SceneSaveLoad@RunCommon()",
+        "offset": 446,
+        "crc": 4189291783
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 1013,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      51020,
+      25209,
+      25421,
+      55345,
+      56741,
+      56340,
+      53699,
+      32745,
+      50128,
+      33759,
+      50399
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      1281,
+      24078,
+      36629,
+      36629,
+      36629,
+      36629
+    ]
+  },
+  {
+    "file": "NightR999.asd",
+    "sha256": "1bd7fe34656b29d989fb6cceb610bbe044f8619d50dc5c4577345b06491db9ee",
+    "ip": {
+      "address": 2269372,
+      "name": "gamesave::detail::セーブ実行(string, string, string, bool)",
+      "offset": 802,
+      "crc": 322405343
+    },
+    "returns": [
+      {
+        "address": -1
+      },
+      {
+        "address": 4826338,
+        "name": "main()",
+        "offset": 1062,
+        "crc": 2864840060
+      },
+      {
+        "address": 5357506,
+        "name": "game_main()",
+        "offset": 254,
+        "crc": 4131044637
+      },
+      {
+        "address": 5807038,
+        "name": "C_GameMain@Run(bool)",
+        "offset": 192,
+        "crc": 1110266204
+      },
+      {
+        "address": 6042270,
+        "name": "C_SceneManager@Run()",
+        "offset": 152,
+        "crc": 3303998270
+      },
+      {
+        "address": 6032194,
+        "name": "C_SceneGame@Run()",
+        "offset": 182,
+        "crc": 2844760567
+      },
+      {
+        "address": 7038238,
+        "name": "呼出／１日の始まり(ref C_GameDate)",
+        "offset": 354,
+        "crc": 1418568915
+      },
+      {
+        "address": 5383416,
+        "name": "■セーブ／オートセーブ実行(int)",
+        "offset": 142,
+        "crc": 280747200
+      },
+      {
+        "address": 6798056,
+        "name": "C_SceneSaveLoad@RunAutoSave(int)",
+        "offset": 70,
+        "crc": 1740135972
+      },
+      {
+        "address": 6798764,
+        "name": "C_SceneSaveLoad@ExecSave(int, bool)",
+        "offset": 106,
+        "crc": 2010650947
+      },
+      {
+        "address": 6800348,
+        "name": "C_SceneSaveLoad@Save(int)",
+        "offset": 96,
+        "crc": 2190288663
+      },
+      {
+        "address": 2259736,
+        "name": "AFL_GameSave_Save(int, string)",
+        "offset": 36,
+        "crc": 1907526007
+      },
+      {
+        "address": 2276658,
+        "name": "gamesave::detail::Save(int, string)",
+        "offset": 84,
+        "crc": 2312966268
+      }
+    ],
+    "header_end": 744,
+    "types": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "locals": [
+      -1,
+      1,
+      1283,
+      1286,
+      1289,
+      1292,
+      1313,
+      1426,
+      77653,
+      25209,
+      32683,
+      28789,
+      19961,
+      29787
+    ],
+    "structs": [
+      1282,
+      1279,
+      1281,
+      81210,
+      81210,
+      81210
+    ]
+  }
+]

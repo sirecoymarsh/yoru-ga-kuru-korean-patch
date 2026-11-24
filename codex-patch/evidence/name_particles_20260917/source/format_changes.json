@@ -1,0 +1,97 @@
+[
+  {
+    "id": 3404,
+    "before": "%s는 히카리의 기척을 감지했다",
+    "after": "%s{YORU_KR_JOSA:n} 히카리의 기척을 감지했다"
+  },
+  {
+    "id": 3405,
+    "before": "%s는 함정의 기척을 감지했다",
+    "after": "%s{YORU_KR_JOSA:n} 함정의 기척을 감지했다"
+  },
+  {
+    "id": 3406,
+    "before": "%s는 보물의 기척을 감지했다",
+    "after": "%s{YORU_KR_JOSA:n} 보물의 기척을 감지했다"
+  },
+  {
+    "id": 3407,
+    "before": "%s가 함정을 해제하는 중",
+    "after": "%s{YORU_KR_JOSA:g} 함정을 해제하는 중"
+  },
+  {
+    "id": 3410,
+    "before": "%s는 독으로 쓰러졌다",
+    "after": "%s{YORU_KR_JOSA:n} 독으로 쓰러졌다"
+  },
+  {
+    "id": 3440,
+    "before": "%s는 회피했다",
+    "after": "%s{YORU_KR_JOSA:n} 회피했다"
+  },
+  {
+    "id": 3444,
+    "before": "%s는 독에 걸렸다",
+    "after": "%s{YORU_KR_JOSA:n} 독에 걸렸다"
+  },
+  {
+    "id": 3445,
+    "before": "%s는 마비됐다",
+    "after": "%s{YORU_KR_JOSA:n} 마비됐다"
+  },
+  {
+    "id": 3446,
+    "before": "%s는 다운됐다",
+    "after": "%s{YORU_KR_JOSA:n} 다운됐다"
+  },
+  {
+    "id": 3486,
+    "before": "회복 아이템「%s」을 손에 넣었다",
+    "after": "회복 아이템「%s」{YORU_KR_JOSA:O} 손에 넣었다"
+  },
+  {
+    "id": 3491,
+    "before": "장비 아이템「%s」을 손에 넣었다",
+    "after": "장비 아이템「%s」{YORU_KR_JOSA:O} 손에 넣었다"
+  },
+  {
+    "id": 4144,
+    "before": "%s와 함께 싸울 멤버를",
+    "after": "%s{YORU_KR_JOSA:w} 함께 싸울 멤버를"
+  },
+  {
+    "id": 4268,
+    "before": "%s는 벽을 만져 보았다.",
+    "after": "%s{YORU_KR_JOSA:n} 벽을 만져 보았다."
+  },
+  {
+    "id": 4425,
+    "before": "%s가 %s로 %s을(를) 공격",
+    "after": "%s{YORU_KR_JOSA:g} %s{YORU_KR_JOSA:r} %s{YORU_KR_JOSA:q} 공격"
+  },
+  {
+    "id": 4426,
+    "before": "%s가 %s로 공격",
+    "after": "%s{YORU_KR_JOSA:g} %s{YORU_KR_JOSA:r} 공격"
+  },
+  {
+    "id": 4429,
+    "before": "%s는 방어 중",
+    "after": "%s{YORU_KR_JOSA:n} 방어 중"
+  },
+  {
+    "id": 4446,
+    "before": "%s는 %s",
+    "after": "%s{YORU_KR_JOSA:n} %s"
+  },
+  {
+    "id": 4449,
+    "before": "%s가 %s%s",
+    "after": "%s{YORU_KR_JOSA:g} %s%s"
+  },
+  {
+    "id": 4450,
+    "before": "%s가 %s",
+    "after": "%s{YORU_KR_JOSA:g} %s"
+  }
+]

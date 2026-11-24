@@ -1,0 +1,36 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_title_20261018\\work\\복구 검증 rud4lw8w",
+  "payload": {
+    "NightRemaster.ain": "9be1a952441336b80be40cd5300addec04620a80da17885e47e3e4daf2553729"
+  },
+  "install_restore": true,
+  "idempotent_restore": true,
+  "hard_link_not_written_through": true,
+  "runtime_scratch_folder_ignored": true,
+  "injected_failure_rollback": true,
+  "known_mixed_and_interruption_restore": true,
+  "partial_incoming_copy_recovered": true,
+  "tampered_payload_baseline_backup_rejected": true,
+  "exact_process_path_filter": true,
+  "unicode_spaces_path": true,
+  "interrupted_metadata_restoration_resumable": true,
+  "whole_transaction": {
+    "committed": true,
+    "recovery_hashed": [
+      "NightRemaster.ain"
+    ],
+    "recovery_lacks": [],
+    "restored_exact": true,
+    "restore_idempotent": true,
+    "scratch_folder_ignored": true,
+    "rolled_back_after_files": true,
+    "rolled_back_after_contracts": true,
+    "rolled_back_recovery_changed": true,
+    "interrupted_restore_resumable": true
+  },
+  "no_incoming_residue": true,
+  "files": [
+    "NightRemaster.ain"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "translator_model": "Codex internal",
+ "author": "/root",
+ "reviewer": "/root/april_summary_review",
+ "reviewed_events": 146,
+ "reviewed_japanese_messages": 7049,
+ "source_sha256": "07ddc15dfe814abf526902c83a03b7d28654eada16af55239197545afa230942",
+ "summary_sha256": "0c62191f5b1e17f6f8dbd6ffd648f51330761b12b35f7df47f6d7074ab60b552",
+ "findings": [
+  {
+   "no": 1506,
+   "message_id": 99992,
+   "severity": "P3",
+   "source": "昨日、ちょっと夜更かしして",
+   "before": "밤을 새운",
+   "after": "전날 늦게 잠든",
+   "status": "resolved by primary"
+  }
+ ],
+ "group_e00004_scope": "E4 only: message IDs 5131–5149",
+ "unresolved": []
+}

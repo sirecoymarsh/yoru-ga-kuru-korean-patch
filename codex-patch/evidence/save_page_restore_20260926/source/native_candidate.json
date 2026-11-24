@@ -1,0 +1,43 @@
+{
+  "mode": "candidate",
+  "source_sha256": "a7d680e7774e7e7ca438bd8b26f3e4b9698065215921342ff8843cc71c4a74b2",
+  "manifest": {
+    "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\save_page_restore_20260926\\NightRemaster.ain",
+    "source_sha256": "a7d680e7774e7e7ca438bd8b26f3e4b9698065215921342ff8843cc71c4a74b2",
+    "probe_sha256": "92bc1829e91970481caaabfc628596d58e7ba2d10cc94e3ad390522b174670b9",
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "input": "Muted copy of dungeon save36; actual save/load screens and actual newest-manual selector. Only private copies are copied/deleted.",
+    "save_folder": "SaveData_KR_SavePage_20260926_214629",
+    "author": "Codex internal"
+  },
+  "native": {
+    "pid": 52096,
+    "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+    "ain_sha256": "92bc1829e91970481caaabfc628596d58e7ba2d10cc94e3ad390522b174670b9",
+    "events": [],
+    "exit_code": 0,
+    "log": [
+      "LATEST=49 PAGE=9",
+      "OBSERVED=9 EXPECTED=9",
+      "SHOT load_49.bmp",
+      "OBSERVED=9 EXPECTED=9",
+      "SHOT save_49.bmp",
+      "LATEST=5 PAGE=1",
+      "OBSERVED=1 EXPECTED=1",
+      "OBSERVED=1 EXPECTED=1",
+      "LATEST=4 PAGE=0",
+      "OBSERVED=0 EXPECTED=0",
+      "OBSERVED=0 EXPECTED=0",
+      "LATEST=1 PAGE=0",
+      "OBSERVED=0 EXPECTED=0",
+      "OBSERVED=0 EXPECTED=0",
+      "LATEST=-1 PAGE=0",
+      "OBSERVED=0 EXPECTED=0",
+      "SHOT load_-1.bmp",
+      "OBSERVED=0 EXPECTED=0",
+      "SHOT save_-1.bmp",
+      "PASS 49,5,4,1,auto-only; both native screens; no user save writes"
+    ]
+  },
+  "real_saves_unchanged": true
+}

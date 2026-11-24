@@ -1,0 +1,17 @@
+{
+  "status": "CALENDAR_LIST_20261018_INSTALLED_NATIVE_PASS",
+  "files": {
+    "NightRemaster.ain": "fe4b6db8a7e59813f14901feda812d9ab4451f6c4493bfb1877b75a57bc4a855"
+  },
+  "manifest_sha256": "1ccbab7f0557497968c29f0f56148bc1817817cbb4c5fc1bb01696eadbd45d39",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "unchanged_save_files": 524,
+  "recovery_unchanged": true,
+  "recovery_hashed": [
+    "NightRemaster.ain"
+  ],
+  "recovery_lacks": [],
+  "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\calendar_list_20261018",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}
+

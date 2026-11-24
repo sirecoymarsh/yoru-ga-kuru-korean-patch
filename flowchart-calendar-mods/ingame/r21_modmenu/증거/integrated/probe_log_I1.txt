@@ -1,0 +1,54 @@
+SAVEFOLDER P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\r21_modmenu\probe\run\SaveData_R21Integrated_20260928_044311
+resume loading NightR44.asd run=I1
+HOME I1 date=10/14 armed=1 menu=P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\r21_modmenu\probe\run\KRMenu save=P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\r21_modmenu\probe\run\SaveData_R21Integrated_20260928_044311
+PANEL I1_HOME <<<
+대사　　 ${font r=128 g=224 b=255}42.7%${/font}
+ＣＧ　　 ${font r=128 g=224 b=255}48.3%${/font}
+회상　　 ${font r=128 g=224 b=255}53.0%${/font}
+엔딩　　 ${font r=128 g=224 b=255}0 / 5${/font}
+전체　　 ${font r=128 g=224 b=255}17.4%${/font}
+본편　틈 이후
+${font r=255 g=224 b=96}캐릭터별 이벤트${/font}
+이즈미　 ${font r=128 g=224 b=255}9.5%${/font}
+쿄카　　 ${font r=128 g=224 b=255}10.0%${/font}
+마나미　 ${font r=128 g=224 b=255}8.2%${/font}
+마코토　 ${font r=128 g=224 b=255}10.0%${/font}
+신카이　 ${font r=128 g=224 b=255}4.5%${/font}
+호시카와 ${font r=128 g=224 b=255}3.7%${/font}
+모모세　 ${font r=128 g=224 b=255}5.5%${/font}
+>>>
+SHOT int_home_1.bmp
+READY 1 chart request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=0 unlock=0 off=
+TITLE CHART <<<
+〓모드 메뉴
+†이벤트 플로우 차트는 다음 단계에서 열립니다
+>>>
+SHOWN CHART after 672 ms, 12 frames of this window; request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=0 unlock=0 off=
+SHOT int_chart.bmp
+READY 2 unlock_all request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=0 unlock=0 off=
+TITLE UNLOCK_ALL <<<
+〓모드 메뉴
+†전체 개방: 안 본 이벤트도 열람·재생됩니다
+>>>
+SHOWN UNLOCK_ALL after 518 ms, 3 frames of this window; request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=1 off=
+SHOT int_unlock_all.bmp
+READY 3 unlock_revert request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=1 off=
+TITLE UNLOCK_REVERT <<<
+〓모드 메뉴
+†전체 개방 되돌리기: 이 저장에서 본 이벤트만 열람·재생됩니다
+>>>
+SHOWN UNLOCK_REVERT after 525 ms, 3 frames of this window; request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+SHOT int_unlock_revert.bmp
+READY 4 reset_no request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+AFTER MESSAGEBOX NO 60 frames home=1 request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+SHOT int_after_msgbox_no.bmp
+READY 5 reset_yes request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+TITLE RESET_CONFIRM <<<
+〓전체 리셋
+†전역 진행 기록을 초기화합니다.
+†백업을 만든 뒤 게임을 종료합니다.
+†세이브 파일과 설정은 남습니다.
+>>>
+SHOWN RESET_CONFIRM after 774 ms, 5 frames of this window; request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+SHOT int_reset_confirm.bmp
+ANSWER YES reset (the next thing is the game's exit)

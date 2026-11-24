@@ -1,0 +1,43 @@
+{
+  "status": "MOD_MENU_STYLE_FIXTURES_PASS",
+  "files": {
+    "NightRemaster.ain": "76194a9057a413838bbe03e78e4baa8ab5ef20e0f9ebf087f6e3fc82082ee659",
+    "NightRemasterPact.afa": "3c53dd8dbdb211374ff48a75b76fe3cd46ddbac6048a8c91944982cf18aac36d"
+  },
+  "renderer_cases": 60,
+  "unrelated_dialog_types_exact": true,
+  "all_cells_hitbox48": true,
+  "margin_and_root_centers_agree": true,
+  "commands_before_Build": true,
+  "title_color_restored": true,
+  "disabled_and_callbacks_unchanged": true,
+  "native_glyph_states_checked": 125,
+  "proofs": [
+    {
+      "name": "sweep",
+      "size": [
+        688,
+        244
+      ],
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_menu_style_20260917\\sweep_proof.png"
+    },
+    {
+      "name": "gear",
+      "size": [
+        604,
+        396
+      ],
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_menu_style_20260917\\gear_proof.png"
+    },
+    {
+      "name": "stone",
+      "size": [
+        504,
+        312
+      ],
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\mod_menu_style_20260917\\stone_proof.png"
+    }
+  ],
+  "native_gameplay_verified": false,
+  "boundaries": "Native Parts/CG commands and font metrics are fixture boundaries; exact compiled renderer branches execute. Proofs are reconstructions, not game screenshots."
+}

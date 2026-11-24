@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript" src="menu.js"></script>
+<title>밤이 온다! -Square of the MOON- Remastered 플레이 매뉴얼</title>
+</head>
+<body>
+
+<!-- menu -->
+<div id="menu">
+<div class="menutxt">
+<p class="bold">■<a href="index.html">표지</a></p>
+<p class="p2 bold">■<a href="startup.html">시작 안내서</a></p>
+
+<p class="bold">■플레이 매뉴얼</p>
+<p>１．<a href="01.html">게임 개요</a></p>
+
+<p>２．<a href="02.html">시작 메뉴</a></p>
+
+<p>３．<a href="03.html">모드 선택</a></p>
+
+<p>４．<a href="04.html">일반 대화 및 이벤트 화면</a></p>
+
+<p>５．<a href="javaScript:treeMenu('pm05')"><span class="subpoint">[+] </span>게임의 기본 흐름</a></p>
+<div id="pm05" style="display:none;">
+　5-1．<a href="05.html#01">개인 훈련(월~금)</a><br />
+　5-2．<a href="05.html#02">동료와 특훈(토)</a><br />
+　5-3．<a href="05.html#03">‘하자마’에서 훈련(일)</a><br />
+</div>
+
+<p>６．<a href="javaScript:treeMenu('pm06')"><span class="subpoint">[+] </span>본거지 메뉴</a></p>
+<div id="pm06" style="display:none;">
+　6-1．<a href="06.html#01">멤버 선택</a><br />
+　6-2．<a href="06.html#02">스테이터스</a><br />
+　6-3．<a href="06.html#03">아이템과 스킬</a><br />
+　6-4．<a href="06.html#04">무기 가공</a><br />
+　6-5．<a href="06.html#05">무기에 관하여</a><br />
+　6-6．<a href="06.html#06">아이템 가공</a><br />
+</div>
+
+
+<p>７．<a href="javaScript:treeMenu('pm07')"><span class="subpoint">[+] </span>‘하자마(던전)’</a></p>
+<div id="pm07" style="display:block;">
+　7-1．<a href="07.html#01">던전</a><br />
+　7-2．<a href="07.html#02">전투 화면</a><br />
+　7-3．<a href="07.html#03">행동 선택 메뉴 설명</a><br />
+　7-4．<a href="07.html#04">전투 종료</a><br />
+　7-5．<a href="07.html#05">레벨 업</a><br />
+</div>
+
+<p>８．<a href="08.html">저장</a></p>
+
+<p>９．<a href="09.html">2회차 이후 플레이</a></p>
+
+<p>10．<a href="10.html">음악, CG, 장면 회상</a></p>
+
+
+<p class="p2">
+
+<p class="bold">■<a href="config.html">환경 설정</a></p>
+<p class="bold">■<a href="faq.html">ＦＡＱ</a></p>
+<p class="bold">■<a href="staff.html">크레디트</a></p>
+<p class="bold">■<a href="pub.html">판권 정보</a></p>
+</div>
+</div>
+<!-- menu -->
+
+
+
+<a name="top" id="top">&nbsp;</a>
+<div class="main">
+
+<h3 class="hback">7. ‘하자마(던전)’</h3>
+
+<div class="txtm">
+<p>‘하자마’의 문은 일정 시간 동안만 열어 둘 수 있습니다.<br>
+한정된 시간을 효율적으로 활용하여 경험을 쌓으십시오.</p>
+</div>
+
+<div class="txtm">
+<a name="01" id="01"></a>
+<h3 class="hback">던전</h3>
+</div>
+
+<p class="txtm"><img src="img/pm07_1a.png" width="550" height="353" border="2" alt="던전 ②"></p>
+
+<div class="txtm">
+<p>① 던전 화면입니다.</p>
+<br>
+<p>② 주인공을 이동시키거나 주변을 조사합니다.</p>
+<br>
+<p>③ 파티를 편성한 동료입니다. 현재 레벨과 영력이 표시됩니다.<br>
+얼굴 CG를 왼쪽 클릭하면 파티 편성 때와 마찬가지로 스테이터스 화면을 열 수 있습니다.<br>
+단, 던전 안에서는 아이템을 장비하거나 변경할 수 없습니다.</p>
+<br>
+<p>④ ‘휴식’하면 영력이 회복되고, 기절 이외의 상태 이상도 치료됩니다.<br>
+휴식하면 행동 시간이 감소합니다.</p>
+<p>이벤트 던전 등에서는 ‘휴식 지점’에 서면 회복할 수 있습니다.</p>
+<p>영력은 전투나 함정으로 피해를 입거나 ‘술법’을 사용하여 소모할 때마다 감소합니다.<br>
+던전을 걷거나 전투 중에 영력이 0이 되면 ‘기절’ 상태가 되며,<br>
+이는 ‘휴식’해도 회복되지 않습니다.</p>
+<p>파티 전원이 기절 상태가 되면 훈련 중에는 강제로 ‘하자마’에서 쫓겨나고,<br>
+남은 행동 시간을 크게 소비합니다.</p>
+<br>
+<p>⑤ 보유한 아이템을 사용할 수 있습니다.</p>
+<br>
+<p>⑥ 던전 축소 지도입니다.<br>
+지나간 범위가 차례로 표시되며,<br>
+한 번 지나간 장소는 왼쪽 클릭하면 자동으로 이동합니다.</p>
+<br>
+<p>⑦ 현재 활동 중인 던전의 이름과 층수입니다.</p>
+<br>
+<p>⑧ 던전에서 행동할 수 있는 남은 시간입니다.<br>
+던전에서는 행동할 때마다 시간이 흐르며,<br>
+행동 가능 시간의 카운트다운이 ‘0’이 되면 강제로 현실 세계로 돌아갑니다.<br>
+(이벤트 등 제한 시간이 없는 던전도 있습니다.)</p>
+<p>⑨ ‘?’를 클릭하면 튜토리얼을 확인할 수 있습니다. (모던 모드 전용)</p>
+</div>
+
+<p class="txtm"><img src="img/pm07_1b.png" width="512" height="309" border="2" alt="이동 방향 지시"></p>
+
+<div class="txtm">
+<p>던전에서는 화면 왼쪽 위 지도에서 가고 싶은 방향을 왼쪽 클릭하십시오.<br>
+(흰색 원 부분입니다.)<br>
+가고 싶은 방향을 왼쪽 클릭하거나 누르고 있으면 해당 방향으로 이동합니다.</p>
+</div>
+
+<p class="txtm"><img src="img/pm07_1c.png" width="550" height="341" border="2" alt="함정 발견"></p>
+
+<div class="txtm">
+<p>마우스 오른쪽 버튼을 클릭하면 인물 유닛 주변을 조사할 수 있습니다.<br>
+던전 안에는 다양한 것이 있지만 항상 ‘보이는’ 것은 아닙니다.<br>
+지도에 숨은 함정이나 몬스터도 있으므로, 발견하지 못한 채 접촉하면<br>
+불리한 상태에서 대처해야 합니다.</p>
+
+<br>
+
+<p class="txtm"><img src="img/pm07_1d.png" width="100" height="98" border="2" alt="방향키">　
+화면 오른쪽의 방향키로도 조작하거나 ‘조사’할 수 있습니다.</p>
+
+<br>
+
+<p class="txtm"><img src="img/pm07_1e.png" width="213" height="98" border="1" alt="단계" ></p>
+<p><b>계단……</b>한 층 아래로 내려가거나 현실 세계로 돌아갈 수 있습니다.</p>
+
+<br>
+
+<p class="txtm"><img src="img/pm07_1g.png" width="79" height="106" border="2" alt="적 아이콘" ></p>
+<p><b>몬스터……</b>접촉하면 전투에 돌입합니다.<br>
+항상 지도에 보이는 것은 아닙니다.<br>
+숨어 있는 몬스터와 접촉하면 ‘기습’을 당해 불리한 상태로 전투합니다.<br>
+미리 발견하고 상대가 알아차리지 못했다면 ‘선제공격’으로 유리하게 전투를 시작합니다.</p>
+
+<br>
+
+<p class="txtm"><img src="img/pm07_1h.png" width="77" height="90" border="2" alt="함정 아이콘" ></p>
+<p><b>함정……</b>지도에 숨겨져 있으며, 그대로 지나가면 함정에 걸립니다.<br>
+‘조사’로 발견했다면 해제할 수도 있습니다.<br>
+(단, 항상 해제할 수 있는 것은 아닙니다.)</p>
+
+<br>
+
+<p class="txtm"><img src="img/pm07_1i.png" width="79" height="80" border="2" alt="보물 상자 아이콘" ></p>
+<p><b>보물 상자……</b>아이템 등이 들어 있습니다.<br>
+숨겨진 것도 있으며, 이는 ‘조사’로 발견해야 얻을 수 있습니다.</p>
+
+<div class="return"><a href="#top">▲ 맨 위로</a></div>
+</div>
+
+
+<div class="txtm">
+<a name="02" id="02"></a>
+<h3 class="hback">전투 화면</h3>
+</div>
+
+<p class="txtm"><img src="img/pm07_3a.png" width="549" height="308" border="2" alt="전투 화면 전체" ></p>
+
+<div class="txtm">
+<p><b>①</b>　시간 경과를 나타내는 게이지입니다.<br>
+　　적과 아군의 행동과 관계없이 일정한 속도로 시간이 흐르며,<br>
+　　게이지가 가득 차면 다음 턴으로 넘어갑니다.</p>
+	
+<p><b>②</b>　현재 전투가 몇 번째 턴인지 나타냅니다.</p>
+</div>
+
+<br>
+
+<p class="txtm"><img src="img/pm07_3b.png" width="156" height="134" border="2" alt="적 정보" ></p>	
+
+<div class="txtm">
+    <p><b>③</b>　적 정보입니다.<br>
+　　공격할 때 등 선택한 적의 정보가 표시됩니다.</p>
+	
+<p><b>④</b>　적입니다.</p>
+	
+<p><b>⑤</b>　아군이 취할 행동을 선택하는 아이콘입니다.</p>
+	
+<p><b>⑥</b>　켜면 자동으로 공격합니다.<br>
+　　환경 설정에서 ‘전투 종료 후에도 자동 전투 계속’을 지정할 수도 있습니다.</p>
+	
+	
+<p><b>⑦</b>　행동할 인물의 무기 정보입니다.<br>
+　　특수기를 선택하면 해당 특수기 정보가 표시됩니다.</p>
+	
+<p><b>⑧</b>　아군입니다.</p>
+
+<p><b>⑨</b>　‘?’를 클릭하면 튜토리얼을 확인할 수 있습니다. (모던 모드 전용)</p>
+
+
+<h5 class="h5back">아군 표시</h5>
+<p class="txtm"><img src="img/pm07_3_1a.png" width="245" height="235" border="2" alt="아군 표시" ></p>
+
+<br>
+
+<p><b>①</b>　적의 공격이나 함정 때문에 인물의 정신이나 몸 상태에 이상이 생기면<br>
+　　이를 나타내는 상태 이상 아이콘이 표시됩니다.</p>
+	
+<p><b>②</b>　선택한 행동을 실행하기까지의 ‘발동 시간’을 나타내는 게이지입니다.</p>
+	
+<p><b>③</b>　행동 실행 후 다음 행동으로 넘어가기까지의 ‘경직 시간’을 나타내는 게이지입니다.</p>
+	
+<p><b>④</b>　영력의 최대치와 현재치입니다.</p>
+
+<br>
+
+<p>　<img src="img/pm07_3_1b.png" width="36" height="36" class="border60"><b>……수면</b>　몇 턴 동안 아무 행동도 할 수 없으며, 피해를 받으면 깨어납니다.</p>
+<p><img src="img/pm07_3_1c.png" width="34" height="33" class="border60"><b>……혼란</b>　몇 턴 동안 무작위 적 공격, 방어, 이동 중 하나의 행동을 합니다.</p>
+<p>　<img src="img/pm07_3_1d.png" width="36" height="35" class="border60"><b>……속박</b>　몇 턴 동안 아무 행동도 할 수 없습니다.</p>
+<p><img src="img/pm07_3_1e.png" width="34" height="34" class="border60"><b>……독</b>　턴이 지날 때마다 영력이 서서히 감소합니다.</p>
+<p>　<img src="img/pm07_3_1f.png" width="37" height="36" class="border60"><b>……마비</b>　아무 행동도 할 수 없습니다.</p>
+<p><img src="img/pm07_3_1g.png" width="37" height="33" class="border60"><b>……기절</b>　영력이 0이 된 상태입니다.</p>
+
+<br>
+
+<p>독, 마비, 기절은 전투가 끝나도 계속됩니다.<br>
+독에 걸리면 던전 안을 걷는 것만으로도 영력이 감소합니다.</p>
+
+<p>독, 마비, 기절은 아이템을 쓰지 않아도 휴식 지점에서 회복할 수 있습니다.<br>
+(단, 일요일 던전의 휴식으로는 기절만 회복되지 않습니다.)</p>
+
+<p>전원이 마비 또는 기절 상태가 되면 전멸하여 현실 세계로 돌아가거나<br>
+게임 오버가 됩니다.</p>
+
+
+<h5 class="h5back">적 표시</h5>
+<p class="txtm"><img src="img/pm07_3_2a.png" width="244" height="244" border="2" alt="적 표시" ></p>
+<p><b>①</b>　파티 인물과 마찬가지로 적 행동의 발동 시간과 경직 시간을 나타내는 막대입니다.</p>
+	
+<p><b>②</b>　적의 생명력을 나타내는 막대입니다.</p>
+
+<div class="return"><a href="#top">▲ 맨 위로</a></div>
+</div>
+
+<div class="txtm">
+<a name="03" id="03"></a>
+<h3 class="hback">행동 선택 메뉴 설명</h3>
+</div>
+
+<div class="txtm">
+<p>전투 중 주인공(플레이어)과 아군의 행동은<br>
+행동 선택 메뉴의 아이콘을 클릭하여 결정하고 실행합니다.</p>
+
+<p class="txtm"><img src="img/pm07_4_1a.png" width="276" height="155" border="2" alt="전투 명령" ></p>
+
+<h5 class="h5back">이동</h5>
+<p><b>파티 안에서 전열과 후열 사이로 위치를 변경합니다.</b></p>
+
+<p>적과 아군의 모든 공격에는 ‘사거리(공격이 닿는 거리)’가 있습니다.</p>
+<p>후열로 물러나 적의 사거리에서 벗어나면<br>
+해당 인물은 공격 대상에서 제외됩니다.</p>
+
+<p>단, 사거리가 짧은 무기를 장비했다면 아군 공격도 닿지 않게 됩니다.</p>
+
+<p>전원이 후열로 물러날 수는 없습니다.<br>
+기절 등으로 전열에 아무도 남지 않으면<br>
+후열의 인물이 자동으로 앞으로 나옵니다.</p>
+
+<h5 class="h5back">공격</h5>
+<p><b>장비한 무기로 적을 공격합니다.</b></p>
+<p>보유 무기의 공격 가능 거리가 ‘1’이면 후열에서는 공격할 수 없습니다.</p>
+
+<h5 class="h5back">특수기</h5>
+<p><b>특수 능력으로 적을 특수 공격하거나 아군을 회복합니다.</b></p>
+<p>기술과 술법은 일반 공격보다 강력하지만 영력을 소비하니 주의하십시오.</p>
+
+<h5 class="h5back">아이템</h5>
+<p><b>도구(아이템)를 사용하여 아군을 회복합니다.</b></p>
+<p>보유 아이템 목록에서 사용할 회복 아이템과 대상을 선택하십시오.</p>
+
+<h5 class="h5back">대상 선택</h5>
+<p>무기, 기술, 술법을 이용한 모든 공격에는 ‘사거리(공격이 닿는 거리)’가 있습니다.</p>
+<p>또한 ‘공격 범위(한 번에 공격할 수 있는 범위)’를 지닌 것도 있습니다.</p>
+
+<h5 class="h5back">방어</h5>
+<p><b>방어 자세를 취합니다. 받는 피해가 조금 감소합니다.</b></p>
+
+<h5 class="h5back">도주</h5>
+<p><b>특수한 전투가 아니면 반드시 도주할 수 있지만 행동 시간이 감소합니다.</b></p>
+
+<div class="return"><a href="#top">▲ 맨 위로</a></div>
+</div>
+
+<div class="txtm">
+<a name="04" id="04"></a>
+<h3 class="hback">전투 종료</h3>
+</div>
+
+<div class="txtm">
+<p>모든 적을 쓰러뜨리면 전투가 끝나고 경험치, 훈련치, 달조각을 얻습니다.<br>
+단, 이벤트 등 훈련이 아닌 던전의 전투에서는 훈련치를 얻지 못합니다.</p>
+
+<div class="return"><a href="#top">▲ 맨 위로</a></div>
+</div>
+
+
+<div class="txtm">
+<a name="05" id="05"></a>
+<h3 class="hback">레벨 업</h3>
+</div>
+
+<div class="txtm">
+<p>필요한 만큼 경험치가 쌓이면 레벨이 오릅니다.</p>
+<p>영력 최대치가 늘고 새로운 기술이나 술법을 사용할 수 있게 되기도 합니다.<br>
+이미 사용할 수 있는 기술과 술법도 위력과 필요 영력이 증가합니다.</p>
+
+<br>
+
+<div class="return"><a href="#top">▲ 맨 위로</a></div>
+<p class="cent">■</p>
+
+</div>
+
+</div>
+</body>
+</html>

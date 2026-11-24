@@ -1,0 +1,127 @@
+{
+  "status": "AUTOEQUIP_STAGED_UNVERIFIED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "276c55c9dd74b55fd1a89b27e344fa1cef658d312356c0435e73e30d11afae2c",
+    "status": "PUZZLE_ROUTE_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "75d721bc318296fa1e2f4d1e4a86bd220c5d1c7977d753473bf12962b4711b07",
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8"
+  },
+  "files": {
+    "NightRemaster.ain": "16025aab9b654a3a1470fa58cd0459165b26d64cdabd7f76c2d9a69c26a12f07",
+    "NightRemasterPact.afa": "4ed2e66c779aa884ec5786a52319be8d01e1d7638a89a0683d1b06f9fe85ff58"
+  },
+  "unchanged_files": {
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+    "NightRemaster.exe": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e",
+    "NightRemasterFont.fnl": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf"
+  },
+  "AIN": {
+    "patched_existing": [
+      28003,
+      28430,
+      28504,
+      28585,
+      29817,
+      29818,
+      31558,
+      31559,
+      31560,
+      31561,
+      31562,
+      31563,
+      31564,
+      31602,
+      31603,
+      31604,
+      31605,
+      31606,
+      31607,
+      31608,
+      31609,
+      31610,
+      31618
+    ],
+    "added_functions": {
+      "KR_GetAutoEquip": 31914,
+      "KR_SetAutoEquip": 31915,
+      "KR_AutoEquipClick": 31916,
+      "KR_AutoStoneClick": 31917,
+      "KR_AutoEquipVisible": 31918,
+      "KR_AutoStoneVisible": 31919,
+      "KR_AutoMenu": 31920,
+      "KR_AutoInfo": 31921,
+      "KR_AutoConfirm": 31922,
+      "KR_AutoProfile": 31923,
+      "KR_AutoBindAbilityMarker": 31924,
+      "KR_AutoBindWeaponMarker": 31925,
+      "KR_AutoValidAbility": 31926,
+      "KR_AutoCopyAbility": 31927,
+      "KR_AutoItemId": 31928,
+      "KR_AutoItemField": 31929,
+      "KR_AutoItemCount": 31930,
+      "KR_AutoItemName": 31931,
+      "KR_AutoW": 31932,
+      "KR_AutoWName": 31933,
+      "KR_AutoStock": 31934,
+      "KR_AutoCraftRoom": 31935,
+      "KR_AutoCount": 31936,
+      "KR_AutoFind": 31937,
+      "KR_AutoSame": 31938,
+      "KR_AutoBound": 31939,
+      "KR_AutoUtility": 31940,
+      "KR_AutoWeaponSkill": 31941,
+      "KR_AutoCombatValue": 31942,
+      "KR_AutoScoreGear": 31943,
+      "KR_AutoGearApply": 31944,
+      "KR_AutoGearRun": 31945,
+      "KR_AutoStoneName": 31946,
+      "KR_AutoStoneAvailable": 31947,
+      "KR_AutoMakeWeapon": 31948,
+      "KR_AutoScoreWeapon": 31949,
+      "KR_AutoStoneEvaluate": 31950,
+      "KR_AutoStoneRun": 31951
+    },
+    "serialized_metadata_exact": true,
+    "old_CODE_STR0_MSG1_exact": true
+  },
+  "PACT": {
+    "changed_entries": [
+      153,
+      154,
+      185
+    ],
+    "archive": {
+      "source_sha256": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8",
+      "candidate_sha256": "4ed2e66c779aa884ec5786a52319be8d01e1d7638a89a0683d1b06f9fe85ff58",
+      "original_entries_preserved": 187,
+      "replaced_ids": [
+        153,
+        154,
+        185
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\autoequip_20260917\\NightRemasterPact.afa"
+    },
+    "raster_font_unchanged": true
+  },
+  "translator_model": "Codex internal",
+  "native_gameplay_verified": false,
+  "profiles": [
+    "균형",
+    "공격",
+    "생존",
+    "유틸리티"
+  ],
+  "live_state_mutated_during_search": false,
+  "slot_locks_scope": "current operation",
+  "stock_scope": "unassigned inventory plus this character/selection only"
+}

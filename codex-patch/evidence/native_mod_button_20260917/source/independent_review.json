@@ -1,0 +1,17 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemasterPact.afa": "335e063313527913d0a7b5197e66e6a3ef31b9a2ab508a21d3a8b062e084be92",
+    "NightRemasterCG.afa": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e"
+  },
+  "reviewer": "/root/mod_graphics_failure_review",
+  "review_kind": "read-only final persisted artifacts and visual comparison",
+  "findings": [
+    "original rest116x55 sweep scale1 x1142 y381 pitch55",
+    "original border/glow Normal/Hover/Down with only yellow label difference",
+    "autoequip/stone42px heights preserved; equip ends719",
+    "2820 original CG entries byte identical,4 appended states exact approved plates",
+    "PACT only153/154/161; AIN and button callbacks unchanged"
+  ],
+  "native_verified": false
+}

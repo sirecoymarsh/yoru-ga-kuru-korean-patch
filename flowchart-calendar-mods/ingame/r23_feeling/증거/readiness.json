@@ -1,0 +1,31 @@
+{
+  "status": "FEELING_R23_STATIC_VM_NATIVE_PASS_NOT_INSTALLED",
+  "candidate": {
+    "NightRemaster.ain": "b5ec7f01ce25704c505f9f5eabb3f2873ab9aa1fda0d2a1b10b95102346713d3"
+  },
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "base": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "6c97c5f2266e5ddac09a4dec554a839dde1b60d3c5205aa960e0b76cce003a23",
+    "status": "MOD_MENU_R2_INSTALLED_NATIVE_PASS",
+    "ain_sha256": "af1026bb5ea14a2ae3daf048f118d5b3f63728af54ca2c0852bdc8ae7e07bddd",
+    "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+    "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+    "winmm_sha256": "a72b1b9d386107bb6370f4ff3f0ff9bd857fbf6223e7d0b1f5399604cd64e199",
+    "chart_sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+    "r22_installed": true,
+    "hook_r2_installed": true,
+    "checked_at_start_and_end": true
+  },
+  "issues": [],
+  "game_running": false,
+  "contracts_now": 79,
+  "recovery_runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\itemenemy_9301f9bcc853\\runtime",
+  "recovery_has": [
+    "NightRemaster.ain"
+  ],
+  "install_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\publish_feeling_r23.py\" --install",
+  "restore_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r23_feeling\\publish_feeling_r23.py\" --restore",
+  "checked": "2026-09-28T17:47:10.714769+09:00"
+}

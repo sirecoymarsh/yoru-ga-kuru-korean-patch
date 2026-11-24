@@ -1,0 +1,20 @@
+{
+    "status":  "SCANNED_NO_TARGET_DETECTIONS",
+    "started":  "2026-09-29T03:58:58.5749233+09:00",
+    "ended":  "2026-09-29T03:59:00.4774691+09:00",
+    "target":  "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_portraits_20260929\\candidate\\scan_payload_5f9b4cb43e39",
+    "files":  {
+                  "winmm.dll":  "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+                  "NightRemaster.ain":  "5f9b4cb43e393f6a9a9f269c3ac71e32e9262497f4495a034bbc2d50fe27d459"
+              },
+    "engine":  "1.1.26080.3",
+    "platform":  "4.18.26080.4",
+    "signatures":  "1.459.447.0",
+    "antivirusEnabled":  true,
+    "before":  [
+
+               ],
+    "after":  [
+
+              ]
+}

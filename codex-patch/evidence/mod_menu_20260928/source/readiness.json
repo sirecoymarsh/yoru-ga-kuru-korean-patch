@@ -1,0 +1,13 @@
+{
+  "status": "MOD_MENU_READY_NOT_INSTALLED",
+  "candidate": {
+    "winmm.dll": "a4dd91102fbea2e1a7992974e53d45ffbeec8e79dc9981c5cc7c5201a01ab053"
+  },
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "issues": [],
+  "game_running": false,
+  "contracts_now": 76,
+  "install_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_modmenu\\publish_mod_menu.py\" --install",
+  "restore_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_modmenu\\publish_mod_menu.py\" --restore",
+  "checked": "2026-09-28T05:57:28.522307+09:00"
+}

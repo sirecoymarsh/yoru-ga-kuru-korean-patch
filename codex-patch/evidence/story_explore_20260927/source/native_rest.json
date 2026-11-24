@@ -1,0 +1,19 @@
+{
+ "pid": 81436,
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "ain_sha256": "bc924c5ee9be4e767a543f44e473fa2423382d6dca612f7799fb61a4d5b0a4b9",
+ "events": [],
+ "exit_code": 0,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\story_explore_20260927\\native_rest\\run\\SaveData_StoryProbe",
+  "RESUMED map=605 floor=5 at=1,14 flag=0 pending=0 queue=0",
+  "RETURNED HANDLER 8 map=605 floor=5 at=1,15 flag=2026092203 pending=0 queue=1",
+  "PASS native rest fully recovered and exploration replanned",
+  "SHOT cal_rest_resumed.bmp",
+  "END"
+ ],
+ "source_sha256": "cbed62c2aa3bd33c8471a098cc1f6a3e7f83c60c32d02b2cbf2b0dd63bc24a9f",
+ "probe_sha256": "bc924c5ee9be4e767a543f44e473fa2423382d6dca612f7799fb61a4d5b0a4b9",
+ "real_saves_unchanged": true,
+ "save": "NightR45.asd"
+}

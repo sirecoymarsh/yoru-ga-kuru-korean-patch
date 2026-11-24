@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "candidate_sha256": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+  "screens": {
+    "label_calendar.png": "9ac9257d1919cb803ac373794fa909b866849c1148b486df99f51c9eacd2f5df",
+    "label_other_names.png": "4d7586e2ee9aeff9ea5ec30799544ab0c55a3e45295cef902ea80cc43862ba75",
+    "label_unread.png": "14b4d2aa1bc957afe92b549135c656777ac707c4e0d76a03eeabfc2dd9fe6f6f"
+  },
+  "review": "Actual native screenshots inspected: dangling particles absent, 호시카와 retained, E IDs and states retained, unread names hidden, no clipping. Old non-April state symbols unchanged (outside label-only scope)."
+}

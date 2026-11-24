@@ -1,0 +1,21 @@
+{
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e",
+  "ain_sha256": "5429a0f4c2e50342e852e0c2e0279d8a5c6471571110b899ba7984e49eddb822",
+  "native_dispatch": "0x667ef0/map0x668adc/table0x668920/default0x66888d",
+  "active_functions": 1,
+  "instruction_sites": 170,
+  "opcodes": {
+    "5": "PUSHLOCALPAGE",
+    "0": "PUSH",
+    "268": "X_REF",
+    "24": "EQUALE",
+    "46": "IFNZ",
+    "45": "IFZ",
+    "47": "RETURN",
+    "22": "GTE",
+    "21": "LTE",
+    "44": "JUMP"
+  },
+  "unsupported": [],
+  "all_active_opcodes_supported": true
+}

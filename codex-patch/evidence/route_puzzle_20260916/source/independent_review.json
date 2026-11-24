@@ -1,0 +1,20 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "75d721bc318296fa1e2f4d1e4a86bd220c5d1c7977d753473bf12962b4711b07"
+  },
+  "reviewer": "/root/exact_ui_review",
+  "review_type": "Read-only exact candidate binary/stdout redump, metadata, original delegate-call patterns and additional state-chain fixtures",
+  "findings": [
+    "Only29176/31860 original function addresses changed; appended31910..31913; original CODE prefix/MSG1 suffix/non-function metadata exact",
+    "GetActiveScene owned object plus interface offset ABI correct; reference lifetime balanced",
+    "Scene/event vtable and map/view identity guards protect field accesses",
+    "29176 original control flow preserved except final refresh;31860 cache and ordinary map branch preserved",
+    "401 repeated visits/manual-open priority,403 reopened-choice/reset/B7 crossing,405 warp avoidance agree with original event conditions",
+    "Additional stdout-only reviewer fixtures verified modal scene/map/dungeonView changes and malformed403 arrays fail closed without scan/draw/failure cache and balance refs",
+    "A valid replacement minimap receives the refreshed path; old minimap is not redrawn"
+  ],
+  "required_changes": [],
+  "native_gameplay_verified": false,
+  "native_performance_measured": false
+}

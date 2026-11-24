@@ -1,0 +1,107 @@
+{
+  "status": "LOOT_NOTICE_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "c8fc177b54b2528485f36459bde31c1d1e5155e1798d542eae553e34b4683026",
+    "status": "INSTANT_LOOT_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "e12a6cc123471e3dd445839f7559ebbc6e5ea889bdae4e0cfc2db15c69ec52a6",
+    "NightRemasterPact.afa": "747206f05a8ad987c0c270e4ff5277757d0d8609ee0fca9c08529289ea9238e6"
+  },
+  "files": {
+    "NightRemaster.ain": "f3a82e856b75cbb10b455cf3575f10964c0a7218ef86c1a601c3da66404fd538",
+    "NightRemasterPact.afa": "298e436ad8f4bd8eefc2bdc740dae2daa440daa6648dc052b0183706b66159b3"
+  },
+  "AIN": {
+    "patched_existing": [
+      28664,
+      28736,
+      28739,
+      28751,
+      29813
+    ],
+    "added_functions": {
+      "KR_NoticeStat": 31871,
+      "KR_NoticeName": 31872,
+      "KR_NoticeParse": 31873,
+      "KR_NoticeRegister": 31874,
+      "KR_NoticeLoad": 31875,
+      "KR_NoticeId": 31876,
+      "KR_NoticeExists": 31877,
+      "KR_NoticeReady": 31878,
+      "KR_NoticeClear": 31879,
+      "KR_NoticeTick": 31880,
+      "KR_NoticeShow": 31881,
+      "KR_NoticeTotal": 31882,
+      "KR_NoticeInstant": 31883
+    },
+    "relocated_switches": [
+      450,
+      451
+    ],
+    "save_schema_unchanged": true,
+    "native_payout_unchanged": true
+  },
+  "PACT": {
+    "archive": {
+      "source_sha256": "747206f05a8ad987c0c270e4ff5277757d0d8609ee0fca9c08529289ea9238e6",
+      "candidate_sha256": "298e436ad8f4bd8eefc2bdc740dae2daa440daa6648dc052b0183706b66159b3",
+      "original_entries_preserved": 186,
+      "replaced_ids": [],
+      "appended": [
+        {
+          "id": 186,
+          "name": "Asra/LootNotice.pactex",
+          "sha256": "f3e84cc12970d45c8637484ff9fd85bfbeb865a4eab793fb13bb81e0ffd307c0"
+        }
+      ],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "loot_notice_20260915\\NightRemasterPact.afa"
+    },
+    "appended_entry": 186,
+    "source_recipe_rectangles": [
+      [
+        0,
+        0,
+        0,
+        0,
+        300,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        298,
+        34
+      ]
+    ],
+    "notice_bounds": [
+      220,
+      24,
+      570,
+      188
+    ],
+    "font": 259,
+    "seconds": 6,
+    "old_entries_unchanged": true
+  },
+  "translator_model": "Codex internal",
+  "native_gameplay_verified": false,
+  "EX_unchanged_sha256": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4"
+}

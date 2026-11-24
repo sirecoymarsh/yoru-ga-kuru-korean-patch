@@ -1,0 +1,56 @@
+{
+  "schema": "contextual-game-localization.wansung-extension-plan.v1",
+  "inputs": {
+    "current_map": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_compat_v2\\build\\results_v2_fnl_proxy_map_compat.json",
+      "sha256": "396c44773a4d7f064ad8558b62e351babbd4181cd777ed678e751e0287bdd12e",
+      "mapping_count": 1524,
+      "mapping_canonical_sha256": "45687e2242489efb1b33c05dcd62226fae61ed47ab157e0a07d5adbb9fba2149",
+      "assignment_bytes_sha256": "a6399dbc3e653b8a1c9baf78ac79060e4fd8452a0ae7c780797ee8049065153e"
+    },
+    "proxy_capacity": {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_compat_v2\\inputs\\proxy_capacity_alice_cp932.json",
+      "sha256": "b8efb147fb27f20e32252176e43c76145e49b931eefb977c4ce8e66866f89a21"
+    }
+  },
+  "wansung": {
+    "cp949_byte_range": "B0A1-C8FE (lead B0-C8, trail A1-FE)",
+    "count": 2350,
+    "utf8_sequence_sha256": "a2ad322f6152c68feff8c74f85063e9d754c22df425fb8433a389af6ab76f074",
+    "first": {
+      "character": "가",
+      "codepoint": "U+AC00"
+    },
+    "last": {
+      "character": "힝",
+      "codepoint": "U+D79D"
+    },
+    "already_mapped_count": 1506,
+    "missing_count": 844,
+    "missing_utf8_sequence_sha256": "79fa0fabd2209b00db9eea34eb80460f2a957622897ab044f306549207548b71"
+  },
+  "capacity": {
+    "eligible_unused_candidate_count": 1357,
+    "consumed_candidate_count": 844,
+    "remaining_headroom": 513
+  },
+  "expected_build": {
+    "retained_base_mapping_count": 1524,
+    "extension_mapping_count": 844,
+    "union_mapping_count": 2368,
+    "forced_proxy_target_count": 0,
+    "capacity_headroom": 513
+  },
+  "generated": {
+    "translation": {
+      "path": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\hangul_ime_wansung_agent\\wansung_2350_reviewed_translation.json",
+      "sha256": "1b4ba25d04edc3f176b0e5aba55ff131379094f0d3723b143e1d15699bfb7801"
+    },
+    "expected_extension": {
+      "path": "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\hangul_ime_wansung_agent\\wansung_expected_extension_assignments.json",
+      "sha256": "5f16eae86a21bb216aa929dba95153bfc96d7138bc53e4b4e9d107528b3fc720",
+      "mapping_canonical_sha256": "e06409e35b66768e5f5234cbe60d182efa152ae9c8829d73a3acaf9c51f4c5b1"
+    }
+  },
+  "verdict": "pass"
+}

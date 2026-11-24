@@ -1,0 +1,22 @@
+resume loading NightR36.asd
+RESUMED at 21,6 flag=0 queue=0 pending=0 walk=67 floorMessage=0 auto=0
+SHOT talk_probe_0.bmp
+ARMED walk=300 floorMessage=0
+START ok=1 at 21,6 flag=2026092203 queue=21 pending=0 walk=300
+TALK BEGIN at 22,6 flag=2026092203 queue=20 pending=0 walk=301 auto=0
+after begin flag=2026092203 queue=20 auto=0 TalkFlag=2026092203 TalkAuto=
+MSG WAIT 1 auto=1
+SHOT talk_probe_msg_1.bmp
+MSG WAIT 2 auto=1
+SHOT talk_probe_msg_2.bmp
+MSG WAIT 3 auto=1
+SHOT talk_probe_msg_3.bmp
+TALK END waits=6 flag=-2026092203 auto=0
+after end flag=2026092203 auto=0 own=1
+SHOT talk_probe_end.bmp
+STEP after 1 at 22,6 flag=2026092203 queue=20 pending=0 walk=301
+STEP after 2 at 23,6 flag=2026092203 queue=19 pending=0 walk=302
+STEP after 3 at 23,7 flag=2026092203 queue=18 pending=0 walk=303
+CONTINUED 3 moves after the talk at 23,7 flag=2026092203 queue=18 pending=0 walk=303
+SHOT talk_probe_after.bmp
+END

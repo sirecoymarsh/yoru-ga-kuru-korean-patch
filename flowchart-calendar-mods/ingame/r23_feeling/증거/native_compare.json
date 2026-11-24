@@ -1,0 +1,448 @@
+{
+ "schema": "yoru-feeling-r23.native-compare.v1",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "candidate_sha256": "b5ec7f01ce25704c505f9f5eabb3f2873ab9aa1fda0d2a1b10b95102346713d3",
+ "blocks": {
+  "TITLE LANE 10 1": "identical",
+  "ROWS LANE 10 1 p1": "identical",
+  "TITLE MONTH 10": "identical",
+  "MONTH 10 marks": "▲○●",
+  "TITLE SUMMARY": "identical",
+  "TITLE MONTH 10 back": "identical",
+  "MONTH 10 back marks": "▲○●",
+  "TITLE MONTH 9": "identical",
+  "MONTH 9 marks": "▲○",
+  "TITLE LANE 10 3 p1": "identical",
+  "ROWS LANE 10 3 p1": "identical",
+  "TITLE LANE 10 3 p2": "identical",
+  "ROWS LANE 10 3 p2": "identical",
+  "TITLE MEM": "identical",
+  "ROWS MEM": "identical",
+  "TITLE LANE 4 8": "identical",
+  "ROWS LANE 4 8 p1": "identical",
+  "TITLE LANE 10 8": "identical",
+  "ROWS LANE 10 8 p1": "identical",
+  "TITLE DCARD 114 10": "identical",
+  "TITLE DSTAGES 114 10": "identical",
+  "ROWS STAGELIST 114 p1": "identical",
+  "TITLE DRAWER 33": "identical",
+  "ROWS DRAWER 33 p1": "identical",
+  "TITLE SCENE 33 0": "identical",
+  "TITLE DRAWER 1": "identical",
+  "ROWS DRAWER 1 p1": "identical",
+  "TITLE SCENE 1 0": "identical",
+  "TITLE LOCKCARD 0 19 5": "identical",
+  "TITLE LOCKCARD 1 82 10": "identical",
+  "TITLE OPENCARD 69 9": "identical",
+  "TITLE STAGES": "identical",
+  "ROWS STAGELIST 69 p1": "identical",
+  "TITLE OPENEVENT 273": "identical",
+  "panel_same_save": {
+   "panel_native": "전체 17.4%",
+   "summary_native": "달성도　전체 ■■□□□□□□□□ 182/1043 (17.4%)",
+   "vm_panel": "182/1043 17.4%",
+   "after_sandbox": "전체 17.4%",
+   "after_midload": "전체 17.4%"
+  },
+  "save": "NightR44.asd",
+  "today": "10/14",
+  "sandbox": {
+   "target": "E00273 (stage 2 of E00258, 27 messages)",
+   "states": [
+    "AFTER",
+    "HOME",
+    "MIDLOAD",
+    "MIDREPLAY",
+    "PREPLAY"
+   ],
+   "home_vs_after_outside_allow_list": {},
+   "allowed_differences": {
+    "marker": [
+     "",
+     "during-replay"
+    ],
+    "slot90": [
+     "0",
+     "1"
+    ]
+   },
+   "feel": {
+    "HOME": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "PREPLAY": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "MIDREPLAY": [
+     0,
+     13438,
+     35649,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "AFTER": [
+     0,
+     13438,
+     35349,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ],
+    "MIDLOAD": [
+     0,
+     13438,
+     35649,
+     28192,
+     11000,
+     2500,
+     16356,
+     2750
+    ]
+   },
+   "midload_change": {
+    "3": 300
+   },
+   "session_variables_restored_by_resumeload": false,
+   "temp_files": {
+    "midreplay": [
+     "1",
+     "1"
+    ],
+    "after": [
+     "0",
+     "0"
+    ],
+    "midload": [
+     "0",
+     "0"
+    ],
+    "on_disk_at_end": []
+   },
+   "home_pixels_before_after": 0,
+   "home_pixels_before_midload": 0,
+   "lock_pages": [
+    "LOCKCARD entry=24 state=0 size=6",
+    "LOCKCARD entry=329 state=1 size=1"
+   ],
+   "lock_after_13": [
+    "LOCK AFTER 13 head=〓5월 · 던전　†카드 4 · 서랍 0 play= unwind= prevset=",
+    "LOCK AFTER 13 head=〓10월 · 본편　†카드 19 · 서랍 0　〓1/3쪽 play= unwind= prevset="
+   ]
+  },
+  "r20_status": {
+   "persons": {
+    "A": 6,
+    "B": 8,
+    "C": 2
+   },
+   "texts_equal_vm": 3,
+   "part_counts": {
+    "home_before": 0,
+    "page1": 0,
+    "page4": 2,
+    "page4_next_person": 2,
+    "page3_from4": 0,
+    "page4_from3": 2,
+    "page1_from4": 0,
+    "page4_from1": 2,
+    "after_exit1": 0,
+    "second_entry_page4": 2,
+    "after_exit2": 0,
+    "home_after": 0
+   },
+   "charastatus_parts": 99,
+   "home_pixels_before_after_member": 0,
+   "event_page_ms": "EVENT PAGE shown after 462 ms (click to shown, incl. counting)"
+  },
+  "r20_partner": {
+   "save": "NightR40.asd",
+   "today": "9/22",
+   "shown": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   "hover": [
+    3,
+    8
+   ],
+   "labels_equal_vm": 24,
+   "brightness": {
+    "P0": {
+     "2": [
+      255,
+      1
+     ],
+     "3": [
+      255,
+      1
+     ],
+     "4": [
+      255,
+      1
+     ],
+     "5": [
+      255,
+      1
+     ],
+     "6": [
+      255,
+      1
+     ],
+     "8": [
+      255,
+      1
+     ]
+    },
+    "PA": {
+     "2": [
+      128,
+      1
+     ],
+     "3": [
+      255,
+      1
+     ],
+     "4": [
+      128,
+      1
+     ],
+     "5": [
+      128,
+      1
+     ],
+     "6": [
+      128,
+      1
+     ],
+     "8": [
+      128,
+      1
+     ]
+    },
+    "PB": {
+     "2": [
+      128,
+      1
+     ],
+     "3": [
+      128,
+      1
+     ],
+     "4": [
+      128,
+      1
+     ],
+     "5": [
+      128,
+      1
+     ],
+     "6": [
+      128,
+      1
+     ],
+     "8": [
+      255,
+      1
+     ]
+    },
+    "P2": {
+     "2": [
+      128,
+      1
+     ],
+     "3": [
+      128,
+      1
+     ],
+     "4": [
+      128,
+      1
+     ],
+     "5": [
+      128,
+      1
+     ],
+     "6": [
+      128,
+      1
+     ],
+     "8": [
+      255,
+      1
+     ]
+    }
+   },
+   "part_counts": {
+    "first": 12,
+    "dialog1": 0,
+    "again": 12,
+    "dialog2": 0,
+    "after_screen": 0
+   },
+   "selectally_parts": 17
+  },
+  "r20_dungeon": {
+   "save": "NightR20.asd",
+   "today": "6/3",
+   "person": 4,
+   "text_equal_vm": true,
+   "part_counts": {
+    "before": 0,
+    "page1": 0,
+    "page4": 2,
+    "after": 0
+   },
+   "charastatus_parts": 99,
+   "opened_by": "C_SceneDungeon@Run > C_Status::RunStatusInDungeon > C_Status::RunStatus"
+  }
+ },
+ "r22": {
+  "title": {
+   "pages": 7,
+   "replayed": 1101,
+   "relocked": 1102,
+   "title_after_chart_vs_after_replay_px": 0,
+   "title_after_chart_vs_after_reset_no_px": 0,
+   "seconds": 45.5
+  },
+  "home": {
+   "home_before_vs_after_px": 0,
+   "seconds": 32.9
+  },
+  "kinds": {
+   "dated": "ok",
+   "stage_dated": "ok",
+   "dungeon": "ok",
+   "stage_dungeon": "ok",
+   "pool_talk": "ok",
+   "pool_invite": "ok",
+   "pool_walk": "ok",
+   "memory": "ok",
+   "unused": "ok",
+   "system": "ok",
+   "choice": "ok",
+   "battle": "fail"
+  }
+ },
+ "r23": {
+  "moon": {
+   "man_preview": {
+    "person": 6,
+    "page": 0,
+    "text": null
+   },
+   "man_p1": {
+    "person": 6,
+    "page": 1,
+    "text": null
+   },
+   "heroine_a_preview": {
+    "person": 2,
+    "page": 0,
+    "text": "31 / 120 / ${font size=16}단계 3/5${/font}"
+   },
+   "heroine_a_p1": {
+    "person": 2,
+    "page": 1,
+    "text": "31 / 120 / ${font size=16}단계 3/5${/font}"
+   },
+   "heroine_a_p4": {
+    "person": 2,
+    "page": 4,
+    "text": null
+   },
+   "after_exit2": {
+    "person": 2,
+    "page": 0,
+    "text": "31 / 120 / ${font size=16}단계 3/5${/font}"
+   },
+   "heroine_b_preview": {
+    "person": 4,
+    "page": 0,
+    "text": "76 / 120 / ${font size=16}단계 5/5${/font}"
+   },
+   "heroine_b_p1": {
+    "person": 4,
+    "page": 1,
+    "text": "76 / 120 / ${font size=16}단계 5/5${/font}"
+   },
+   "heroine_b_p4": {
+    "person": 4,
+    "page": 4,
+    "text": null
+   },
+   "dungeon_p1": {
+    "person": 4,
+    "page": 1,
+    "text": "10 / 120 / ${font size=16}단계 1/5${/font}"
+   }
+  },
+  "page4": {
+   "C": {
+    "person": 2,
+    "panel_h": 538,
+    "text_h": 498,
+    "text_w": 298,
+    "first_line": "친밀도 31 (3/5) · 다음 조건 없음"
+   },
+   "M": {
+    "person": 4,
+    "panel_h": 538,
+    "text_h": 498,
+    "text_w": 298,
+    "first_line": "친밀도 76 (5/5) · 다음 조건 없음"
+   },
+   "D": {
+    "person": 4,
+    "panel_h": 564,
+    "text_h": 460,
+    "text_w": 284
+   }
+  },
+  "leak": {
+   "after_member": 0,
+   "after_dungeon": 0
+  }
+ },
+ "counts": {
+  "N_r19_card_pages": 1,
+  "N_r19_stage_lists": 3,
+  "N_r19_drawer_lists": 4,
+  "N_r19_scene_pages": 2,
+  "N_lock_pages_identical": 2,
+  "N_blocks_identical": 34,
+  "N_sandbox_state_equal": 1,
+  "N_r20_blocks_identical": 28,
+  "R22N_pages_equal_vm": 7,
+  "R22N_title_reset_no": 1,
+  "R22N_title_tour": 1,
+  "R22N_home_tour": 1,
+  "R22N_kinds": 14,
+  "R23N_moon_texts_equal": 6,
+  "R23N_page4_equal": 2,
+  "R23N_leak_checks": 2
+ }
+}

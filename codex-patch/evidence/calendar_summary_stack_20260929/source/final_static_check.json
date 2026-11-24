@@ -1,0 +1,40 @@
+{
+ "w29_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "final_sha256": "abae5787031cbf8330a429a4b5d9683241268d87f077d88de24974465ff5c109",
+ "live_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "changed_functions": [
+  "KR_P29CellCond",
+  "KR_P29CellName",
+  "KR_P29Mask",
+  "KR_P29ShortCond",
+  "KR_T19CardCond",
+  "KR_T19EvWhen",
+  "KR_W29Board",
+  "KR_W29Cell",
+  "KR_W29HeadWrap",
+  "KR_W29Info",
+  "KR_W29StageItem",
+  "KR_W29Story",
+  "KR_W29Title"
+ ],
+ "appended_functions": 61,
+ "w29_code_strings_messages_exact": true,
+ "live_code_strings_messages_exact": true,
+ "pinned_unchanged": [
+  "KR_T9HomeCasual",
+  "KR_T9HomeConfig",
+  "C_SceneHomebase@CheckGameSysButtons",
+  "C_SceneHomebase@Run",
+  "LSys3xScript::RunEvent",
+  "KR_T18RunSandboxed"
+ ],
+ "opcode_audit": {
+  "active_functions": 31033,
+  "instruction_sites": 2211913,
+  "supported": true
+ },
+ "dll_unchanged": true,
+ "status": "FINAL_STATIC_PASS",
+ "time": "2026-09-29T23:31:47.690860+09:00",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

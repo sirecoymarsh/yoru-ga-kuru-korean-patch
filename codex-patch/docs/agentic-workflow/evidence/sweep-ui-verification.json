@@ -1,0 +1,63 @@
+{
+  "status": "SWEEP_UI_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "edf32d46d6ee1baa1c2101c6fca39a74aaa53f5e91033c9f03c3f3ee2a5e50b5"
+  },
+  "compiled_confirm_cases": 80,
+  "cancel_and_success_codes_verified": true,
+  "config_lock_restored": true,
+  "no_reward_changes": true,
+  "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+  "glyphs_checked": 55,
+  "samples": [
+    {
+      "width": 664,
+      "title_height": 168,
+      "max_text_width": 441.666667,
+      "glyph_height": 24.0
+    },
+    {
+      "width": 664,
+      "title_height": 168,
+      "max_text_width": 441.666667,
+      "glyph_height": 24.0
+    },
+    {
+      "width": 664,
+      "title_height": 168,
+      "max_text_width": 441.666667,
+      "glyph_height": 24.0
+    },
+    {
+      "width": 664,
+      "title_height": 168,
+      "max_text_width": 441.666667,
+      "glyph_height": 24.0
+    },
+    {
+      "width": 664,
+      "title_height": 168,
+      "max_text_width": 441.666667,
+      "glyph_height": 24.0
+    },
+    {
+      "width": 664,
+      "title_height": 168,
+      "max_text_width": 441.666667,
+      "glyph_height": 24.0
+    },
+    {
+      "width": 664,
+      "title_height": 168,
+      "max_text_width": 441.666667,
+      "glyph_height": 24.0
+    },
+    {
+      "width": 664,
+      "title_height": 168,
+      "max_text_width": 441.666667,
+      "glyph_height": 24.0
+    }
+  ],
+  "native_gameplay_verified": false
+}

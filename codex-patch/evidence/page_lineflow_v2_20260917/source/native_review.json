@@ -1,0 +1,16 @@
+{
+  "status": "USER_TOOK_OVER_TEST_WINDOW",
+  "production_ain_sha256": "e775f61d6caf2fdec00623d69cd3241f3034881488981bc07744253d108602ed",
+  "qa_ain_sha256": "758fd33b549a923fd52afe410d98ff20aac6f6532319bcba9f222c78af376555",
+  "time": "2026-09-17T04:15:39.634708+09:00",
+  "dialogue_verified": false,
+  "backlog_verified": false,
+  "face_window_verified": false,
+  "launch_observed": true,
+  "generic_backlog_observed": true,
+  "target_examples_observed": false,
+  "note": "User explicitly instructed to stop automated control while inspecting the isolated test. No further app input performed. Final target examples, empty-tail behavior, and backlog rendering are not claimed as verified.",
+  "live_save_files_unchanged_during_QA": 246,
+  "user_report": "User confirmed visible layout changed, then explicitly requested merging into normal progress build with backup, emphasizing saves.",
+  "user_visible_change_confirmed": true
+}

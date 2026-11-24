@@ -1,0 +1,12 @@
+{
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "started": "2026-09-26T21:34:04.9715061+09:00",
+  "ended": "2026-09-26T21:34:08.4485883+09:00",
+  "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\enemy_firearms_20260926\\NightRemasterEX.ex",
+  "files": {
+    "NightRemasterEX.ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6"
+  },
+  "engine": "1.1.26080.3",
+  "signatures": "1.459.408.0",
+  "detections": []
+}

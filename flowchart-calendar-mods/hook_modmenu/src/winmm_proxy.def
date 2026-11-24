@@ -1,0 +1,6 @@
+LIBRARY winmm
+EXPORTS
+    timeGetDevCaps=_timeGetDevCaps@8
+    timeGetTime=_timeGetTime@0
+    timeBeginPeriod=_timeBeginPeriod@4
+    timeEndPeriod=_timeEndPeriod@4

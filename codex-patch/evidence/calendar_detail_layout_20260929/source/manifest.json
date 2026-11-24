@@ -1,0 +1,51 @@
+{
+ "status": "STAGED_NATIVE_PENDING",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "acb3e7abefcd37d58dbc8ac7d6bc38c01c5bec7b5ee244580c2f62ce989cdb3c"
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+  }
+ },
+ "source_sha256": "5f9b4cb43e393f6a9a9f269c3ac71e32e9262497f4495a034bbc2d50fe27d459",
+ "forwarded": {
+  "KR_P29Board": "KR_B29Board",
+  "KR_P29Buttons": "KR_B29Buttons"
+ },
+ "added_functions": {
+  "KR_B29Card": 32782,
+  "KR_B29Flat": 32783,
+  "KR_B29Wrap": 32784,
+  "KR_B29Field": 32785,
+  "KR_B29StageLine": 32786,
+  "KR_B29Info": 32787,
+  "KR_B29Buttons": 32788,
+  "KR_B29Board": 32789
+ },
+ "new_globals": 0,
+ "serialized_schema_changes": 0,
+ "old_code_prefix_exact": true,
+ "messages_exact": true,
+ "dll_unchanged": true,
+ "mini_size": [
+  32,
+  40
+ ],
+ "detail_size": [
+  104,
+  130
+ ],
+ "summary_events": [
+  11
+ ],
+ "restored_fields": [
+  "when",
+  "who",
+  "read_state",
+  "read_stages/total_stages",
+  "conditions",
+  "no_replay_reason"
+ ],
+ "translator_model": "Codex internal"
+}

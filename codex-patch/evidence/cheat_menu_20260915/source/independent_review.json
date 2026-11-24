@@ -1,0 +1,19 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "e103f27fed0474d830842a017718d0b3aa60955b3880013332654aa0e07eff68",
+    "NightRemasterPact.afa": "f59299bccb9cc69c06262b5276033ca8e49ac1aa241892b6a3999e87c7369ee9"
+  },
+  "read_only": true,
+  "reviewers": [
+    "/root/quick_battle_feasibility_review",
+    "/root/cheat_menu_ui_review"
+  ],
+  "findings": [],
+  "scope": {
+    "AIN": "Final e103 independently re-dumped. Typed stack review of trap/auto setters; final explicit disarm27143 bool fast-path balanced, OFF exact original. 14 original address changes/25 helpers, original non-address metadata exact. Route signatures/buffer ownership and quick presentation/watchdog reviewed.",
+    "PACT": "Final f59299: only123 of185 entries changed; normalized inverse exactly source, native control states/font/CG retained, leading U+3000 checkbox padding restored, structural geometry clear."
+  },
+  "superseded_rejected_ain": "1782d5d6fa41ce00fcf3cb935bd928d12b077f07097281ea048a5b1776ac58cc",
+  "native_verified": false
+}

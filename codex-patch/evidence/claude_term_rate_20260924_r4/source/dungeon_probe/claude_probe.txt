@@ -1,0 +1,4 @@
+resume loading
+SHOT dungeon_probe_0.bmp
+SHOT dungeon_probe_1.bmp
+SHOT dungeon_probe_2.bmp

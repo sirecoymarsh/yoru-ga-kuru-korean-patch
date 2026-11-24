@@ -1,0 +1,112 @@
+{
+ "zoom_mod_chart.png": {
+  "source": "mod_chart.png",
+  "box": [
+   80,
+   150,
+   1200,
+   560
+  ],
+  "sha256": "68b6040c96ec9a44d289b28c22a847f7dfd030c1a360adea86d57279b44f3ab9"
+ },
+ "zoom_mod_unlock_all.png": {
+  "source": "mod_unlock_all.png",
+  "box": [
+   80,
+   150,
+   1200,
+   560
+  ],
+  "sha256": "1bedd0737c80de00af4d791ad1b846f3cad79a8c1aa976243b9902455d124d9f"
+ },
+ "zoom_mod_unlock_revert.png": {
+  "source": "mod_unlock_revert.png",
+  "box": [
+   80,
+   150,
+   1200,
+   560
+  ],
+  "sha256": "b63543ce3ae074af0a6aa5493bfb3d4b0bdf16880c04b5c8a98796b0106a8b34"
+ },
+ "zoom_mod_last_result.png": {
+  "source": "mod_last_result.png",
+  "box": [
+   80,
+   150,
+   1200,
+   560
+  ],
+  "sha256": "c5c6c1e0ca3965a9a6a6271752d607569e6ba896b8cb8f14dab2696626c3d668"
+ },
+ "zoom_mod_reset_confirm.png": {
+  "source": "mod_reset_confirm.png",
+  "box": [
+   80,
+   150,
+   1200,
+   560
+  ],
+  "sha256": "24ddb443924b0b907f88366eb386115190af4248ab15b961b36f338191b792c7"
+ },
+ "zoom_mod_restore_confirm.png": {
+  "source": "mod_restore_confirm.png",
+  "box": [
+   80,
+   150,
+   1200,
+   560
+  ],
+  "sha256": "92781a53163ace41b2efa888c92aa24f75e942610232bfd7aa268012b59407b4"
+ },
+ "zoom_mod_outside_home_pending.png": {
+  "source": "mod_outside_home_pending.png",
+  "box": [
+   80,
+   150,
+   1200,
+   560
+  ],
+  "sha256": "9a1449af7e33e1c215340ea58cfd54c40086fe8a880e83efa744a28e2799ba79"
+ },
+ "zoom_status_event_a.png": {
+  "source": "cal_status_event_a.png",
+  "box": [
+   180,
+   20,
+   560,
+   520
+  ],
+  "sha256": "594c3b5449e1375c748ee5eff955df39a74afac2592a74d33135d3a6e84b8474"
+ },
+ "zoom_partner_hover_a.png": {
+  "source": "cal_partner_hover_a.png",
+  "box": [
+   170,
+   480,
+   990,
+   720
+  ],
+  "sha256": "6959f6c30957fffc3b6cae0fc66b0c59b8989335071a5722abdf454513b828b2"
+ },
+ "zoom_home_before_panel.png": {
+  "source": "cal_home_before.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ },
+ "zoom_home_after_panel.png": {
+  "source": "cal_home_after.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ }
+}

@@ -1,0 +1,53 @@
+SAVEFOLDER P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\r21_modmenu\probe\run\SaveData_R21Integrated_20260928_044311
+resume loading NightR44.asd run=I2
+HOME I2 date=10/14 save=P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\r21_modmenu\probe\run\SaveData_R21Integrated_20260928_044311
+TITLE RESET_RESULT <<<
+〓모드 메뉴 결과
+†reset ok KR_reset_20260928_044354
+>>>
+SHOWN RESET_RESULT after 3873 ms, 2 frames of this window; request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+PANEL RESET_RESULT <<<
+대사　　 ${font r=128 g=224 b=255}0.0%${/font}
+ＣＧ　　 ${font r=128 g=224 b=255}0.0%${/font}
+회상　　 ${font r=128 g=224 b=255}0.0%${/font}
+엔딩　　 ${font r=128 g=224 b=255}0 / 5${/font}
+전체　　 ${font r=128 g=224 b=255}17.4%${/font}
+본편　틈 이후
+${font r=255 g=224 b=96}캐릭터별 이벤트${/font}
+이즈미　 ${font r=128 g=224 b=255}9.5%${/font}
+쿄카　　 ${font r=128 g=224 b=255}10.0%${/font}
+마나미　 ${font r=128 g=224 b=255}8.2%${/font}
+마코토　 ${font r=128 g=224 b=255}10.0%${/font}
+신카이　 ${font r=128 g=224 b=255}4.5%${/font}
+호시카와 ${font r=128 g=224 b=255}3.7%${/font}
+모모세　 ${font r=128 g=224 b=255}5.5%${/font}
+>>>
+SHOT int_reset_result.bmp
+BACK HOME I2 request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+PANEL I2_HOME <<<
+대사　　 ${font r=128 g=224 b=255}0.0%${/font}
+ＣＧ　　 ${font r=128 g=224 b=255}0.0%${/font}
+회상　　 ${font r=128 g=224 b=255}0.0%${/font}
+엔딩　　 ${font r=128 g=224 b=255}0 / 5${/font}
+전체　　 ${font r=128 g=224 b=255}17.4%${/font}
+본편　틈 이후
+${font r=255 g=224 b=96}캐릭터별 이벤트${/font}
+이즈미　 ${font r=128 g=224 b=255}9.5%${/font}
+쿄카　　 ${font r=128 g=224 b=255}10.0%${/font}
+마나미　 ${font r=128 g=224 b=255}8.2%${/font}
+마코토　 ${font r=128 g=224 b=255}10.0%${/font}
+신카이　 ${font r=128 g=224 b=255}4.5%${/font}
+호시카와 ${font r=128 g=224 b=255}3.7%${/font}
+모모세　 ${font r=128 g=224 b=255}5.5%${/font}
+>>>
+SHOT int_home_after_reset.bmp
+READY 1 restore_yes request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+TITLE RESTORE_CONFIRM <<<
+〓전체 리셋 되돌리기
+†가장 최근 전체 리셋의 백업을 되돌립니다.
+†게임을 종료합니다. 다시 켜면 되돌린 기록으로 시작합니다.
+†세이브 파일과 설정은 남습니다.
+>>>
+SHOWN RESTORE_CONFIRM after 935 ms, 15 frames of this window; request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+SHOT int_restore_confirm.bmp
+ANSWER YES restore (the next thing is the game's exit)

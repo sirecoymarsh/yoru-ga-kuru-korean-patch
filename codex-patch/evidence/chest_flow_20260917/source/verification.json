@@ -1,0 +1,24 @@
+{
+  "status": "CHEST_FLOW_COMPILED_PASS",
+  "files": {
+    "NightRemaster.ain": "9d8fee1e3e4914ed0ba0f2898b0c30ab55e4cdda5ddc1f9bf8f4d09bf8e165e3",
+    "NightRemasterPact.afa": "84c49f09c48e2249fd64fbdffebb4b938f8f07caa48cc5e4541560a8259e80f3"
+  },
+  "compiled_cases": 93,
+  "structure": {
+    "unchanged_pact_entries": 186,
+    "original_subtree_inverse": true,
+    "hook_inverses": 6,
+    "no_wait_or_frame_pump": true
+  },
+  "font": {
+    "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+    "max_message_width": 462.0,
+    "width_budget": 592,
+    "messages": 14,
+    "glyph_states": 69,
+    "proof_kind": "native construction colors and FNL layout reconstruction; not game capture"
+  },
+  "native_verified": false,
+  "boundaries": "Scene delegate and PartsEngine are explicit fixture boundaries; final compiled helpers and real josa code execute. Not a game run."
+}

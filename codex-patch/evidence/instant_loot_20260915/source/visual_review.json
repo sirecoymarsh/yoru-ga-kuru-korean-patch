@@ -1,0 +1,19 @@
+{
+  "files": {
+    "NightRemaster.ain": "e12a6cc123471e3dd445839f7559ebbc6e5ea889bdae4e0cfc2db15c69ec52a6",
+    "NightRemasterPact.afa": "747206f05a8ad987c0c270e4ff5277757d0d8609ee0fca9c08529289ea9238e6"
+  },
+  "time": "2026-09-15T22:20:18.212497+09:00",
+  "native_gameplay_verified": false,
+  "actual_save_reload_verified": false,
+  "status": "STATIC_FONT_GEOMETRY_VISUAL_PASS",
+  "reviewer": "primary Codex internal",
+  "proof_sha256": "e7962b9db843cee963937a2e1a5b0f03dd57d31b44a9a2ec12105e69191cbf7f",
+  "scope": "Viewed final PACT747206 FNL glyph/native-control-geometry proof. PACT unchanged by subsequent AIN-only pair-writer correction. Not a game capture.",
+  "checks": [
+    "Ninth control visible below next-floor route",
+    "Four right-column checkboxes and two hint lines clear of footer",
+    "Font glyphs legible and text within native geometry"
+  ],
+  "native_visual_verified": false
+}

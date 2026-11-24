@@ -1,0 +1,420 @@
+{
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:31:47.781392+09:00",
+ "dry_run": false,
+ "w29": {
+  "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_all_tabs_20260929",
+  "sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+  "status": "ALL_TABS_PREFLIGHT_PASS_NOT_INSTALLED"
+ },
+ "order": [
+  "W29 r2 (installed)",
+  "label fix KR_L30",
+  "board SB29",
+  "summaries 04 05 06 07 08 09 OT 10 11 ME",
+  "copy_of cast ST29Mask",
+  "term link KR_TF29 (top)"
+ ],
+ "story_getter_of_summary_layers": "KR_W29Story",
+ "layers": [
+  {
+   "name": "label_fix_KR_L30",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\02_L30",
+   "sha256": "5d725efff0e02fef8a8edfc5198143b35dba1412ad4bb209c5dd363296a62573",
+   "changed": [
+    "KR_P29CellName",
+    "KR_P29CellCond",
+    "KR_P29ShortCond",
+    "KR_T19EvWhen",
+    "KR_T19CardCond"
+   ],
+   "added": [
+    "KR_L30CardCond",
+    "KR_L30CardCondBase",
+    "KR_L30CellCond",
+    "KR_L30CellCondBase",
+    "KR_L30CellName",
+    "KR_L30CellNameBase",
+    "KR_L30EvWhen",
+    "KR_L30EvWhenBase",
+    "KR_L30ShortCond",
+    "KR_L30ShortCondBase"
+   ],
+   "provenance": {
+    "author": "Claude Opus 5.5 (claude-opus-5-5)",
+    "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+    "label_patch_sha256": "3f8e90a2447b8f1b25664e869de6cbe7fcd312f233f3a739a1a0dd1afd293fab",
+    "rows": 107,
+    "counts": {
+     "cell_name": 23,
+     "cell_cond": 24,
+     "short_cond": 20,
+     "ev_when": 36,
+     "card_cond": 4
+    }
+   },
+   "status": "EXTERNAL_LAYER_ADOPTED_NATIVE_PENDING"
+  },
+  {
+   "name": "board_SB29",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\03_SB29",
+   "sha256": "32dbe25d0fa7dba14df7124914e12e36b9fa8bb3345b9205814226e1a2974a69",
+   "changed": [
+    "KR_W29Board"
+   ],
+   "added": [
+    "KR_SB29Board"
+   ],
+   "provenance": null,
+   "status": "BOARD_LAYER_STAGED_NATIVE_PENDING"
+  },
+  {
+   "name": "summaries_04",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\04_04",
+   "sha256": "d828816d624c117ea887c02f3f72aa63de50d3a8096ae203d94652b192ce66d3",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_ST04Story",
+    "KR_ST04StoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Codex internal"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_edit": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+    "ko": "원문 요약 Codex internal, 용어 정합 수정 Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 17,
+   "copies": 0,
+   "term_changed": 17
+  },
+  {
+   "name": "summaries_05",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\05_05",
+   "sha256": "a46719e462381b8f59825a89df08e49aa9c0482726fb7bfc8e3a9b07a7229d91",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_ST05Story",
+    "KR_ST05StoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_edit": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+    "ko": "원문 요약 Claude Opus 5.5 (claude-opus-5-5), 용어 정합 수정 Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 150,
+   "copies": 0,
+   "term_changed": 20
+  },
+  {
+   "name": "summaries_06",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\06_06",
+   "sha256": "c1530397f1ecbbce09ddaba077632ec0299268a89d39dc4fc76e7cd18041f8d9",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_ST06Story",
+    "KR_ST06StoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 232,
+   "copies": 0,
+   "term_changed": 0
+  },
+  {
+   "name": "summaries_07",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\07_07",
+   "sha256": "13f6b633c7b110c919875232fb14c925e7a6c3d0445d542ea34501e6594fdfc0",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_ST07Story",
+    "KR_ST07StoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_edit": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+    "ko": "원문 요약 Claude Opus 5.5 (claude-opus-5-5), 용어 정합 수정 Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 106,
+   "copies": 0,
+   "term_changed": 2
+  },
+  {
+   "name": "summaries_08",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\08_08",
+   "sha256": "48b367fa41f870629a1d8fe329333bb68b7293010a91c82afd399a363ba1b78b",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_ST08Story",
+    "KR_ST08StoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 68,
+   "copies": 0,
+   "term_changed": 0
+  },
+  {
+   "name": "summaries_09",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\09_09",
+   "sha256": "e8b8414cd73bfa575f2b3c514bd228efa009576ba39b27adafdcb1e805e0101f",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_ST09Story",
+    "KR_ST09StoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_edit": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+    "ko": "원문 요약 Claude Opus 5.5 (claude-opus-5-5), 용어 정합 수정 Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 62,
+   "copies": 0,
+   "term_changed": 2
+  },
+  {
+   "name": "summaries_OT",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\10_OT",
+   "sha256": "4fb0baea5c3fa982874573172fbfca1e7eb02b150aad3d8f27d9c7ccb048387d",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_STOTStory",
+    "KR_STOTStoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_edit": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+    "ko": "원문 요약 Claude Opus 5.5 (claude-opus-5-5), 용어 정합 수정 Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 27,
+   "copies": 0,
+   "term_changed": 1
+  },
+  {
+   "name": "summaries_10",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\11_10",
+   "sha256": "def70b5bad4af61f6bd0ea0c227c259316dae6d503833d13b50b125e419bb683",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_ST10Story",
+    "KR_ST10StoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 128,
+   "copies": 0,
+   "term_changed": 0
+  },
+  {
+   "name": "summaries_11",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\12_11",
+   "sha256": "f661b78c3dd4936fb2439f1132d01ee1823762333aa89bfc61c56f91643f5922",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_ST11Story",
+    "KR_ST11StoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_edit": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+    "ko": "원문 요약 Claude Opus 5.5 (claude-opus-5-5), 용어 정합 수정 Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 152,
+   "copies": 0,
+   "term_changed": 21
+  },
+  {
+   "name": "summaries_ME",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\13_ME",
+   "sha256": "35f775c195d9d953e893809b51fa49461dd0641eef51e31fc011fdc9b771604a",
+   "changed": [
+    "KR_W29Story"
+   ],
+   "added": [
+    "KR_STMEStory",
+    "KR_STMEStoryBase"
+   ],
+   "provenance": {
+    "summary_text": [
+     "Claude Opus 5.5 (claude-opus-5-5)"
+    ],
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_edit": "Claude Opus 5.5 (claude-opus-5-5)",
+    "term_alignment_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+    "ko": "원문 요약 Claude Opus 5.5 (claude-opus-5-5), 용어 정합 수정 Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "SUMMARY_LAYER_STAGED_NATIVE_PENDING",
+   "texts": 55,
+   "copies": 30,
+   "term_changed": 3
+  },
+  {
+   "name": "copy_cast_ST29Mask",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\14_MASK",
+   "sha256": "b5e138496ae14ef3174ceca9000ba558083ef76714c2cc301572641c5f393b9a",
+   "changed": [
+    "KR_P29Mask"
+   ],
+   "added": [
+    "KR_ST29Mask",
+    "KR_ST29MaskBase"
+   ],
+   "provenance": {
+    "layer_build": "Claude Opus 5.5 (claude-opus-5-5)",
+    "source": "copy_of rows of the summary layers (recollection replays)"
+   },
+   "status": "MASK_LAYER_STAGED_NATIVE_PENDING"
+  },
+  {
+   "name": "term_free_KR_TF29",
+   "folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\15_TF29",
+   "sha256": "abae5787031cbf8330a429a4b5d9683241268d87f077d88de24974465ff5c109",
+   "changed": [
+    "KR_W29HeadWrap",
+    "KR_W29Info",
+    "KR_W29Story",
+    "KR_W29Title",
+    "KR_W29StageItem",
+    "KR_W29Cell"
+   ],
+   "added": [
+    "KR_TF29Apply",
+    "KR_TF29Cell",
+    "KR_TF29Cond",
+    "KR_TF29CondOf",
+    "KR_TF29Field",
+    "KR_TF29Fixed",
+    "KR_TF29Half",
+    "KR_TF29Hangul",
+    "KR_TF29HeadWrap",
+    "KR_TF29HeadWrapBase",
+    "KR_TF29Info",
+    "KR_TF29Name",
+    "KR_TF29PairC",
+    "KR_TF29PairV",
+    "KR_TF29Pairs",
+    "KR_TF29RightOK",
+    "KR_TF29Short",
+    "KR_TF29StageItem",
+    "KR_TF29StageItemBase",
+    "KR_TF29Story",
+    "KR_TF29StoryBase",
+    "KR_TF29Swap",
+    "KR_TF29Tail",
+    "KR_TF29Text",
+    "KR_TF29Title",
+    "KR_TF29TitleBase",
+    "KR_TF29TitleFits",
+    "KR_TF29Vowel"
+   ],
+   "provenance": {
+    "author": "Claude Opus 5.5 (claude-opus-5-5)",
+    "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+   },
+   "status": "EXTERNAL_LAYER_ADOPTED_NATIVE_PENDING"
+  }
+ ],
+ "pending": [],
+ "top": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\15_TF29",
+ "final": {
+  "w29_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+  "final_sha256": "abae5787031cbf8330a429a4b5d9683241268d87f077d88de24974465ff5c109",
+  "live_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+  "changed_functions": [
+   "KR_P29CellCond",
+   "KR_P29CellName",
+   "KR_P29Mask",
+   "KR_P29ShortCond",
+   "KR_T19CardCond",
+   "KR_T19EvWhen",
+   "KR_W29Board",
+   "KR_W29Cell",
+   "KR_W29HeadWrap",
+   "KR_W29Info",
+   "KR_W29StageItem",
+   "KR_W29Story",
+   "KR_W29Title"
+  ],
+  "appended_functions": 61,
+  "w29_code_strings_messages_exact": true,
+  "live_code_strings_messages_exact": true,
+  "pinned_unchanged": [
+   "KR_T9HomeCasual",
+   "KR_T9HomeConfig",
+   "C_SceneHomebase@CheckGameSysButtons",
+   "C_SceneHomebase@Run",
+   "LSys3xScript::RunEvent",
+   "KR_T18RunSandboxed"
+  ],
+  "opcode_audit": {
+   "active_functions": 31033,
+   "instruction_sites": 2211913,
+   "supported": true
+  },
+  "dll_unchanged": true,
+  "status": "FINAL_STATIC_PASS",
+  "time": "2026-09-29T23:31:47.690860+09:00",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+ }
+}

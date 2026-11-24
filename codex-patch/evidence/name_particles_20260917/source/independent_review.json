@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "ain_sha256": "93b052dbd64037588a8c68220d6c3602c948897404c7f84328bee300d2bb92da",
+  "reviewer": "/root/polish_review",
+  "method": "Independent read-only review of final source, output hooks, metadata, MSG1, and input contract",
+  "confirmed": [
+    "Original CODE prefix and MSG1 exact; globals, structures and old signatures unchanged",
+    "Three existing function addresses changed; original replacement iteration and non-player keys preserved",
+    "Party and timed-dialog output consumers pass through the Create resolver",
+    "Marker prefix is 14 characters (16 including kind/end), longer than the five-cell input even when counted as ten ASCII characters",
+    "Truncated marker returns original text before slicing outside bounds",
+    "Both current sentinel+야 sources are Japanese だよ copulas"
+  ],
+  "native_verified": false,
+  "limitations": "String HLL implementations have not been run in the native game in this task."
+}

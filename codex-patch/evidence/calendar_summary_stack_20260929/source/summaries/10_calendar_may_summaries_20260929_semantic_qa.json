@@ -1,0 +1,149 @@
+{
+ "status": "SEMANTIC_QA_DONE_ALL_FINDINGS_RESOLVED",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "author": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - read-only second pass by the drafting model itself (no subagent, per task instruction); not an independent reviewer, WI-010 still asks for an independent read-only QA",
+ "reviewed_at": "2026-09-29T21:05:30.045123+09:00",
+ "method": "every scene re-opened from the frozen source/scenarios.json (work/qa_view.py renders each summary above all of its source lines, speaker tags merged) and checked for (a) only facts that are in the scene, (b) actors not swapped, (c) no other scene or branch mixed in; fixes change only the problem words (work/apply_qa_fixes.py asserts the old words occur exactly once)",
+ "reviewed_events": 150,
+ "reviewed_japanese_messages": 9022,
+ "reviewed_japanese_text_lines": 8914,
+ "source_sha256": "49781f8447887fcd84ec328ea3d5529143b9df5b6cb888c94b946af9f68690a2",
+ "summary_sha256": "cea1a50df7381c9397134119ee4048afc5bdf334a37aba98ebfdd117b10163bf",
+ "findings": [
+  {
+   "no": 16,
+   "message_id": 7126,
+   "severity": "P3",
+   "check": "a (only facts in the source)",
+   "source": "『連続ブティック放火魔!? … 不審人物は３メートルの塀を飛び越え逃走…』",
+   "issue": "the newspaper article only reports the 3 m jump; the possession guess is the club members' inference (7135-7141), not the article's claim",
+   "before": "연쇄 방화범이 적에게 씌었을 수 있다는 기사를 보여 준다",
+   "after": "연쇄 방화범 기사를 보여 주며 적에게 씌었을 수 있다고 한다",
+   "status": "resolved by author"
+  },
+  {
+   "no": 21,
+   "message_id": 7901,
+   "severity": "P3",
+   "check": "b (actor/relationship)",
+   "source": "「このクラスに三輪坂さんて子がいると思うんだけど…」",
+   "issue": "the girl is a student of Manami's class; with the protagonist as subject, 반 친구 reads as the protagonist's classmate",
+   "before": "반 친구의 귀띔으로",
+   "after": "마나미네 반 학생의 귀띔으로",
+   "status": "resolved by author"
+  },
+  {
+   "no": 33,
+   "message_id": 8593,
+   "severity": "P3",
+   "check": "a (only facts in the source)",
+   "source": "『…………ひかり…』",
+   "issue": "Manami murmurs a word before hanging up, so 말없이 (without a word) is wrong",
+   "before": "묻고는 말없이 끊는다",
+   "after": "묻고는 끊는다",
+   "status": "resolved by author"
+  },
+  {
+   "no": 34,
+   "message_id": 8648,
+   "severity": "P3",
+   "check": "a (order of events)",
+   "source": "「いたよ西館！　あそこの角を赤い光が…」",
+   "issue": "Izumi spots the red light while the call is still going on; the call is cut afterwards (8657)",
+   "before": "통화가 끊긴 사이",
+   "after": "통화 도중",
+   "status": "resolved by author"
+  },
+  {
+   "no": 41,
+   "message_id": 8774,
+   "severity": "P3",
+   "check": "a (certainty)",
+   "source": "「この武器でも、彼女を傷つける可能性があるわ」",
+   "issue": "Kyoka says the woman might be hurt, not that she will be",
+   "before": "여자도 다친다고",
+   "after": "여자도 다칠 수 있다고",
+   "status": "resolved by author"
+  },
+  {
+   "no": 51,
+   "message_id": 9481,
+   "severity": "P3",
+   "check": "b (actor clarity)",
+   "source": "すんでの所で身をかわしたいずみさんの前髪をかすめ、赤い光狩の群は再び女の口の中へと戻る。",
+   "issue": "the attack grazes Izumi's bangs; 이즈미는 앞머리를 스치며 reads as if Izumi were the one grazing",
+   "before": "앞머리를 스치며 피한다",
+   "after": "앞머리만 스친 채 피한다",
+   "status": "resolved by author"
+  },
+  {
+   "no": 61,
+   "message_id": 10211,
+   "severity": "P3",
+   "check": "a (only facts in the source)",
+   "source": "「いや、消えてない…まだ息があるぜ」",
+   "issue": "the enemy really had collapsed and was known to be still breathing; 쓰러진 줄 알았던 (thought it had collapsed) misstates it",
+   "before": "쓰러진 줄 알았던 적이",
+   "after": "아직 숨이 붙어 있던 적이",
+   "status": "resolved by author"
+  },
+  {
+   "no": 1111,
+   "message_id": 89821,
+   "severity": "P3",
+   "check": "a (only facts in the source)",
+   "source": "「ありがと。なんか得した気分だよ」",
+   "issue": "Izumi thanks the protagonist; no laugh is written",
+   "before": "득 본 기분이라며 웃는다",
+   "after": "득 본 기분이라며 고마워한다",
+   "status": "resolved by author"
+  },
+  {
+   "no": 2122,
+   "message_id": 96187,
+   "severity": "P3",
+   "check": "b (actor clarity)",
+   "source": "「扉のとこにガンガン蹴り入れてたら、新さんが気付いてくれて。やっと開けて貰えたの」",
+   "issue": "Kyoka kicked the door and Shinkai noticed and opened it; 문을 걷어차 신카이가 can read as Shinkai kicking",
+   "before": "문을 걷어차 신카이가",
+   "after": "문을 걷어차자 신카이가",
+   "status": "resolved by author"
+  },
+  {
+   "no": 2129,
+   "message_id": 96359,
+   "severity": "P2",
+   "check": "b (actor)",
+   "source": "【真言美】「外れてたらどうするんですか？」 / 【鏡花】「なんもなしよ」",
+   "issue": "Manami, not the protagonist, asks what happens if the hunch is wrong; the protagonist only calls it unfair (96363)",
+   "before": "쿄카에게 주인공은 틀려도 아무것도 없느냐며",
+   "after": "쿄카가 틀려도 아무것도 없다고 하자 주인공은",
+   "status": "resolved by author"
+  },
+  {
+   "no": 2241,
+   "message_id": 97610,
+   "severity": "P3",
+   "check": "a (only facts in the source)",
+   "source": "「あ、いや。俺は遠慮しておくよ…」",
+   "issue": "a single polite refusal; 한사코 (stubbornly, repeatedly) overstates it",
+   "before": "한사코 사양한다",
+   "after": "사양한다",
+   "status": "resolved by author"
+  }
+ ],
+ "finding_counts": {
+  "total": 11,
+  "by_severity": {
+   "P2": 1,
+   "P3": 10
+  },
+  "by_check": {
+   "a": 7,
+   "b": 4,
+   "c": 0
+  }
+ },
+ "unresolved": []
+}

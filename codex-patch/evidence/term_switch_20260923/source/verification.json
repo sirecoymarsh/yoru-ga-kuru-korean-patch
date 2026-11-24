@@ -1,0 +1,88 @@
+{
+  "status": "TERM_SWITCH_COMPILED_PASS",
+  "files": {
+    "NightRemaster.ain": "81bed991606129a555c54acb2a7f5ad6f0ea232994e80990c31b3d535c0739b4",
+    "NightRemasterPact.afa": "5c41b8feca864f13fe09f7cd736de82ed8d99837093da55a37c672e1cf2e83aa"
+  },
+  "counts": {
+    "default_all_MSG1": 100944,
+    "compiled_term_rows": 5358,
+    "complete_dynamic_pages": 72,
+    "false_positive_unchanged": 6,
+    "invalid_custom_rejected": 11,
+    "cross_term_collision_rejected": 42,
+    "valid_custom": 5,
+    "display_idempotent": 72,
+    "save_reload": 1,
+    "failed_write_preserves_previous": 1,
+    "corrupt_primary_backup_restore": 1,
+    "invalid_main_never_overwrites_valid_backup": 1,
+    "preferences_in_engine_save_folder": 1,
+    "menu_cancel_no_write": 2,
+    "menu_preset_saved_reloaded": 1,
+    "menu_restore_defaults": 1,
+    "active_native_choice_not_deleted": 1
+  },
+  "steps": 10186755,
+  "native_verified": false,
+  "examples": [
+    {
+      "settings": [
+        "광수",
+        "화자",
+        "쉭쉭이",
+        "하자마",
+        "토야",
+        "진월",
+        "진야"
+      ],
+      "examples": {
+        "10455": "「어째서 토야나 광수 같은 말을 알지?」",
+        "25440": "　광수였던 거구나!」",
+        "33021": "「토야는 광수가 만든 결계고,",
+        "33022": "　진야는 그들이 사는 세계 자체다」",
+        "51101": "「적이든 아군이든, 사람이든 광수든,",
+        "51102": "　힘은 반드시 누군가를 다치게 한다」"
+      }
+    },
+    {
+      "settings": [
+        "빛잡이",
+        "불지기",
+        "쉭쉭이",
+        "틈",
+        "동야",
+        "참달",
+        "참밤"
+      ],
+      "examples": {
+        "10455": "「어째서 동야나 빛잡이 같은 말을 알지?」",
+        "25440": "　빛잡이였던 거구나!」",
+        "33021": "「동야는 빛잡이가 만든 결계고,",
+        "33022": "　참밤은 그들이 사는 세계 자체다」",
+        "51101": "「적이든 아군이든, 사람이든 빛잡이든,",
+        "51102": "　힘은 반드시 누군가를 다치게 한다」"
+      }
+    },
+    {
+      "settings": [
+        "광군",
+        "화군",
+        "하늘",
+        "공간",
+        "차디찬 겨울",
+        "푸른 별",
+        "깊은 밤"
+      ],
+      "examples": {
+        "10455": "「어째서 차디찬 겨울이나 광군 같은 말을 알지?」",
+        "25440": "　광군이었던 거구나!」",
+        "33021": "「차디찬 겨울은 광군이 만든 결계고,",
+        "33022": "　깊은 밤은 그들이 사는 세계 자체다」",
+        "51101": "「적이든 아군이든, 사람이든 광군이든,",
+        "51102": "　힘은 반드시 누군가를 다치게 한다」"
+      }
+    }
+  ],
+  "limits": "Actual compiled bytecode executed in bounded VM; native String/VSFile/GUI methods modeled. Native modal input and persistence not yet observed."
+}

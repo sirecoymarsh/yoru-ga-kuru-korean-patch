@@ -1,0 +1,3 @@
+resume loading NightR49.asd
+RESUMED weekly autosave; exists49=1
+SHOT auto_probe_resumed.bmp

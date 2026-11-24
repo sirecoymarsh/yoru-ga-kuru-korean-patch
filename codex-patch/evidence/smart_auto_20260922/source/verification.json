@@ -1,0 +1,24 @@
+{
+  "status": "SMART_AUTO_COMPILED_PASS",
+  "files": {
+    "NightRemaster.ain": "f331f7303175e9d7c9fbbcd3e032973717654e223d2ab2f9969638900b08022c",
+    "NightRemasterPact.afa": "9159e5a340e6d436f7932d094ce966a66b48c36dc9ed3885109b690bceee3404"
+  },
+  "tests": {
+    "default_off_toggle_idempotent_story82_preserved": true,
+    "vanilla_fallback_special_event_types": true,
+    "weakness_immunity_selection": true,
+    "HP_floor_and_basic_repeat_EX_scaling": true,
+    "AOE_coverage": true,
+    "finish_and_no_first_index_bias": true,
+    "range_dead_null_array_index_fixedID": true,
+    "speed_and_no_heal_buff_consumption": true,
+    "crafted_stats_passives_last_commit_failure": true,
+    "candidate_array_mask_bounds": true,
+    "damage_distribution_known_vectors": 103,
+    "PACT_reverse_exact": true,
+    "original_hook_bodies_exact": true
+  },
+  "native_gameplay_verified": false,
+  "boundaries": "Native table lookup, Copy, crafted RestoreWeapon, attribute/shape query, ChangePlayerWeapon, display bars; compiled decision/formula/control/bridges executed"
+}

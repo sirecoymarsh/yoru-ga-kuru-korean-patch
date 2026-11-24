@@ -1,0 +1,16 @@
+{
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "started": "2026-09-17T06:21:58.5862643+09:00",
+  "ended": "2026-09-17T06:22:02.0149010+09:00",
+  "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\chest_flow_20260917\\scan_payload",
+  "files": {
+    "NightRemaster.ain": "9d8fee1e3e4914ed0ba0f2898b0c30ab55e4cdda5ddc1f9bf8f4d09bf8e165e3",
+    "NightRemasterPact.afa": "84c49f09c48e2249fd64fbdffebb4b938f8f07caa48cc5e4541560a8259e80f3"
+  },
+  "engine": "1.1.26080.3",
+  "platform": "4.18.26080.3",
+  "signatures": "1.459.241.0",
+  "antivirusEnabled": true,
+  "before": [],
+  "after": []
+}

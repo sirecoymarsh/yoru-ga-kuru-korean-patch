@@ -1,0 +1,293 @@
+{
+ "schema": "yoru-calendar-r19.candidate.v1",
+ "status": "CALENDAR_R19_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-09-27T21:01:11",
+ "seconds": 46,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "e24243319ff6a1a90afb7956ce75a92241db6eb3e6053bee117fd967cfc6b78c",
+  "status": "CALENDAR_R18_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "1f60b6853151e6f62d8803b669da5ae92b285628e89c504c2b9ac90a74038888",
+  "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "r18_installed": true,
+  "checked_at_start_and_end": true
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "1d6081e94cbba5a1e33a12cfad2e542bfa7b689b89373f5386475675c53a1948",
+   "size": 3788713
+  },
+  "Manual/chart/yoru_flowchart_v2.html": {
+   "sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+   "size": 5474616
+  }
+ },
+ "chart_runtime_before_sha256": "d5bb5c43084f3c503a974b89bdb47910d14adc4cdb1f7d610ffcd01c45823149",
+ "pact_changed": false,
+ "ex_changed": false,
+ "chart": {
+  "published_chart_sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+  "same_as_published": {
+   "cards": true,
+   "chips": true,
+   "join": true,
+   "pages": true,
+   "names": true
+  },
+  "builder_sha256": "3823f32a34a789b4f0029fbc43a699a562acca8845778f316eb5d87ebc4b383c",
+  "schedule_sha256": "f9669421f182976b230732e668bd30d1a9821039ca2c8133592a5227ae49ae16"
+ },
+ "r15_tables": {
+  "r15_tables_sha256": "40cb849997fce12758fbfed0f70058bc146c9f49c9b7baf66f10885bc88507c2",
+  "identical_except_rule11": true,
+  "rule11_when_changed": 23,
+  "rule11_cond_changed": [
+   "G30157",
+   "G30158",
+   "G30159",
+   "G30160",
+   "G30161",
+   "G30162",
+   "G30163",
+   "G30164"
+  ]
+ },
+ "names": {
+  "when_fixed": 204,
+  "when_fixed_e_refs": 187,
+  "when_fixed_rule11": [
+   401,
+   10001,
+   10021,
+   10041,
+   10061,
+   10501,
+   20021,
+   20041,
+   20501,
+   30001,
+   30021,
+   30157,
+   30158,
+   30159,
+   30160,
+   30161,
+   30162,
+   30163,
+   30164,
+   30501,
+   40001,
+   40021,
+   40041,
+   40061,
+   40501
+  ],
+  "tails": 28,
+  "lane_rows_unique": true,
+  "widest_list_units": 11.5,
+  "stage_lists_two_columns": [],
+  "drawer_lists_two_columns": [],
+  "affinity_events": 28,
+  "longest_head": 37,
+  "longest_row": 36
+ },
+ "added_functions": {
+  "KR_T19CardHead": 32549,
+  "KR_T19CardTail": 32550,
+  "KR_T19CardCond": 32551,
+  "KR_T19EvHead": 32552,
+  "KR_T19EvShort": 32553,
+  "KR_T19WhenFix": 32554,
+  "KR_T19SceneAt": 32555,
+  "KR_T19StageCols": 32556,
+  "KR_T19ChipCols": 32557,
+  "KR_T19EvWhen": 32558,
+  "KR_T19CardRow": 32559,
+  "KR_T19CardTitle": 32560,
+  "KR_T19EventTitle": 32561,
+  "KR_T19ListItem": 32562,
+  "KR_T19ListPer": 32563,
+  "KR_T19StagePage": 32564,
+  "KR_T19ChipPage": 32565
+ },
+ "forwarded_functions": {
+  "KR_T18CardRow": {
+   "index": 32533,
+   "base_address": 12312902,
+   "target": "KR_T19CardRow",
+   "target_index": 32559
+  },
+  "KR_T18CardTitle": {
+   "index": 32538,
+   "base_address": 12313666,
+   "target": "KR_T19CardTitle",
+   "target_index": 32560
+  },
+  "KR_T18EventTitle": {
+   "index": 32540,
+   "base_address": 12315460,
+   "target": "KR_T19EventTitle",
+   "target_index": 32561
+  },
+  "KR_T9StagePage": {
+   "index": 32460,
+   "base_address": 12231016,
+   "target": "KR_T19StagePage",
+   "target_index": 32564
+  },
+  "KR_T9ChipPage": {
+   "index": 32459,
+   "base_address": 12229480,
+   "target": "KR_T19ChipPage",
+   "target_index": 32565
+  }
+ },
+ "r18_forwarders_kept": [
+  "KR_T9CardPage",
+  "KR_T9CardRow",
+  "KR_T9ChipRow",
+  "KR_T9EventPage",
+  "KR_T9LaneTitle",
+  "KR_T9MemPage",
+  "KR_T9MonthChips",
+  "KR_T9MonthPage"
+ ],
+ "same_length_sites": [],
+ "same_length_sites_kept": 10,
+ "relocated_original_functions": [],
+ "pinned_functions": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "code_bytes": 232,
+   "bytes_differing": 0
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "code_bytes": 298,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "code_bytes": 550,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "code_bytes": 1104,
+   "bytes_differing": 0
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "code_bytes": 1292,
+   "bytes_differing": 0
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890,
+   "code_bytes": 440,
+   "bytes_differing": 0
+  }
+ },
+ "invariance": {
+  "original_function_entries_identical_except_forwarded": true,
+  "forwarded": [
+   "KR_T18CardRow",
+   "KR_T18CardTitle",
+   "KR_T18EventTitle",
+   "KR_T9ChipPage",
+   "KR_T9StagePage"
+  ],
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 0,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 1753,
+  "functions_added": 17,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 232,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 298,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 550,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1104,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1292,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 440,
+    "bytes_differing": 0
+   }
+  },
+  "same_length_sites_kept": 10,
+  "kr_t9_functions": 93,
+  "kr_t18_functions": 51
+ },
+ "native_opcode_audit": {
+  "active_functions": 30679,
+  "instruction_sites": 2076176,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "session_variables": [
+  "YoruKR.T9.Ctx",
+  "YoruKR.T9.Req",
+  "YoruKR.T9.Play",
+  "YoruKR.T9.Playing",
+  "YoruKR.T9.Unwind",
+  "YoruKR.T9.Open",
+  "YoruKR.T9.Lane",
+  "YoruKR.T18.PrevSet",
+  "YoruKR.T18.PrevFn",
+  "YoruKR.T18.PrevSys"
+ ],
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "7a9b2d0397d37db86c6327d23500e585ef031723e7e5e725e6382946ecc51bc2",
+ "build_script_sha256": "ef50e6dd81427b90fe7ce3304965b637defcc0333c5f9b88024a46b0dfa90526"
+}

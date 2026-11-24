@@ -1,0 +1,30 @@
+{
+ "status": "PASS",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T22:11:01.172898+09:00",
+ "translation_map": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_all_tabs_20260929\\design\\wording_map.json",
+ "translation_map_sha256": "2d78c1a9fbeabc9c19c5e09ab13cdab846d2fb087f9776fc96f6bbb3400713bb",
+ "reviewed_fields": 522,
+ "counts": {
+  "list_names": 35,
+  "list_conditions": 30,
+  "card_heads": 35,
+  "scene_heads": 249,
+  "when": 138,
+  "card_conditions": 1,
+  "picker_titles": 34
+ },
+ "unresolved": [],
+ "checks": [
+  "Every changed display string equals the rule applied to its r19 / chart source, and both reduce to the same text when every stage number spelling (N단계 / 장면 N / 장면 N개) is reduced to N: no other character changes.",
+  "언제 only: the r19 dialog-title continuation 「\\n† + full-width indent」 (23 events, 46 read / unread strings) becomes 「 · 」 (KR_W29Clean); no colour mark († ‡ ¶ 〓) is left in any changed string.",
+  "No 단계 left in any changed string; digits preserved.",
+  "Group list names lose exactly the stage-count tail (\" · N단계\" / \"\\nN단계\"); the count is on the state line.",
+  "r2 (review F-04): every generic picker title (34 groups; card 6 keeps the approved April picker) loses exactly its trailing 「 · 장면 N개」 (the count is on the second title line).",
+  "r2 (review F-01): list conditions keep every character - a two-line-name cell shows the short condition joined on one line at 13 px instead of its first line (native probe: whole-condition comparison on 4,575 cells).",
+  "Unread masks of KR_R29 / KR_S29 / KR_N29 untouched (no 단계 in them); choice wording, dates and join descriptions reach the board through the existing getters (native probe: 20 choice scenes read / unread).",
+  "The full wording map was read by the author: readable Korean; 「보스 장면 16 본 뒤」 style conditions keep the source order."
+ ],
+ "review_scope": "Automated inverse-rule review of every changed field + the author's full read; the native probe verified every rendered cell / board / picker. No independent reviewer (the task forbade sub-agents)."
+}

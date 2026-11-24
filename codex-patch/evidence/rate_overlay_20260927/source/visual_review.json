@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "files": {
+    "NightRemaster.ain": "3a1567fc0c002275885585e0f181eef657fea4ebaad0b7358bdf6254e4449b25",
+    "NightRemasterPact.afa": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403"
+  },
+  "reviewer": "Codex internal",
+  "reviewed": [
+    "native_home/cal_on.png",
+    "native_dungeon/cal_on.png",
+    "native_dialogue/cal_on.png",
+    "native_battle/cal_on.png",
+    "native_dungeon/cal_off.png"
+  ],
+  "findings": [
+    "All 14 rows stay within the left margin and above the system/battle detail controls.",
+    "Shortened overall-event label avoids the prior right edge overflow; values and denominators retained.",
+    "Disabled panel disappears; normal gameplay UI remains visible."
+  ],
+  "limits": [
+    "Battle capture is the entry presentation, not a completed combat."
+  ]
+}

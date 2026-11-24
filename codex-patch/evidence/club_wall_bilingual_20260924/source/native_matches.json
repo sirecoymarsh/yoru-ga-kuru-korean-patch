@@ -1,0 +1,34 @@
+{
+  "status": "ENGINE_RENDER_PASS",
+  "files": {
+    "NightRemasterCG.afa": "7d8955c039b34627b646cd4982f521dface02f0df7abea681e70e759ecfc473e"
+  },
+  "matches": [
+    {
+      "id": 485,
+      "opaque_pixel_match": 1.0,
+      "screenshot": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\native_final\\CG4014.png"
+    },
+    {
+      "id": 981,
+      "opaque_pixel_match": 1.0,
+      "screenshot": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\native_final\\CG4013.png"
+    },
+    {
+      "id": 1004,
+      "opaque_pixel_match": 1.0,
+      "screenshot": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\native_final\\CG5070.png"
+    },
+    {
+      "id": 1318,
+      "opaque_pixel_match": 1.0,
+      "screenshot": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\native_final\\CG1541.png"
+    },
+    {
+      "id": 1319,
+      "opaque_pixel_match": 1.0,
+      "screenshot": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\native_final\\CG1542.png"
+    }
+  ],
+  "scope": "Private native CG loader and renderer, not full battle animation or story playback; mute instrumented."
+}

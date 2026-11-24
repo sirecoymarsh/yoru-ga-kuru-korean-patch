@@ -1,0 +1,53 @@
+{
+  "status": "SEGMENT_FIX_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "2148bf9a58b14bba4386fe0b9440d516ae2e3719eec8c4ccf32dd1bd171cb1fd",
+    "status": "AUTO_EXPLORE_CALLBACK_FIX_INSTALLED_NATIVE_DISPATCH_PASS",
+    "runtime_verified": false,
+    "whole_ui_complete": false,
+    "auto_explore_click_fix_revision": {
+      "status": "AUTO_EXPLORE_CALLBACK_FIX_INSTALLED_NATIVE_DISPATCH_PASS",
+      "time": "2026-09-23T19:29:38.996434+09:00",
+      "files": {
+        "NightRemaster.ain": "2c1b0174ddefda36b00ab864146eefe070971e9c6cc914df6ef14a2e560dfc86"
+      },
+      "source_files": {
+        "NightRemaster.ain": "343c9997a2a17478583b40b43a91d5b7f552eecb6644b73af5720b855a347d4a"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\auto_explore_click_fix_20260923",
+      "patched_existing": [
+        32030
+      ],
+      "added_helpers": 3,
+      "old_CODE_exact": true,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "STR0_prefix_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "native_dispatch_verified": true,
+      "os_mouse_hit_test_verified": false,
+      "existing_saves_checked": 37,
+      "frames_checked": 950
+    }
+  },
+  "source_files": {
+    "NightRemaster.ain": "2c1b0174ddefda36b00ab864146eefe070971e9c6cc914df6ef14a2e560dfc86"
+  },
+  "files": {
+    "NightRemaster.ain": "e6d47c4356d5d12118e8424b002ebe07dbc5cc38591a4bcb5907a544e5c21250"
+  },
+  "patched_existing": [
+    28658
+  ],
+  "added_functions": {
+    "KR_ExploreSegmentEnd": 32198
+  },
+  "old_CODE_exact": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "save_schema_changes": 0,
+  "save_writes": 0
+}

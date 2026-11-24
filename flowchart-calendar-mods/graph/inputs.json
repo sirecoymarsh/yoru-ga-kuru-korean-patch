@@ -1,0 +1,20 @@
+{
+ "schema": "yoru-inputs.v1",
+ "generated": "2026-09-27T20:03:55",
+ "files": {
+  "NightRemaster.ain": {
+   "path": "P:\\GAME\\Compacted Files\\[Ryuugames] RY-r119676\\夜が来る！-Square of the MOON- Remastered\\NightRemaster.ain",
+   "sha256": "9261bad0dd0eadd42f53eca8eb86ca407f6ddf3f5be3bedf6a6d965acdf49c40"
+  },
+  "NightRemasterEX.ex": {
+   "path": "P:\\GAME\\Compacted Files\\[Ryuugames] RY-r119676\\夜が来る！-Square of the MOON- Remastered\\NightRemasterEX.ex",
+   "sha256": "b0eab64000fecf3ffe8117614276f7c8c09e6d011f72654d9b6fc63b27648899"
+  }
+ },
+ "derived": {
+  "code.jam": "e504cf78753ec3c3f7acecb0906b74baf5f94f97842b6f627b3bd38374330b0e",
+  "functions.txt": "31c91807c26cb58eb7946388ceaf61b5b2fa380ab9eb266ce604047a20695a62",
+  "ex.x": "eff3a22b5d37a10008bd13174fdf175388e03fdb0dff383973115cce3aa7976d"
+ },
+ "tool": "alice-tools-0.13.0 (alice.exe)"
+}

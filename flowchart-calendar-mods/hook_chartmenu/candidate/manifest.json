@@ -1,0 +1,31 @@
+{
+  "schema": "chart-menu-hook.candidate.v1",
+  "author": "Claude Fable 5.1 (claude-fable-5-1)",
+  "time": "2026-09-27T17:52:48.844241+09:00",
+  "files": {
+    "winmm.dll": {
+      "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_chartmenu\\build_release\\winmm.dll",
+      "sha256": "378a78345dc8a8a625d351ca622aa35ee8a3b6d6d1023b922d88d7e7bc511fda",
+      "size": 109568
+    },
+    "Manual/chart/yoru_flowchart_v2.html": {
+      "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\chart\\yoru_flowchart_v2.html",
+      "sha256": "d5bb5c43084f3c503a974b89bdb47910d14adc4cdb1f7d610ffcd01c45823149",
+      "size": 5313206
+    }
+  },
+  "base_dll_sha256": "e81cfca5e7a84841affaf55cdcac3912a5b471c4073b2114e8c503dad41d0ed4",
+  "proxy_header_sha256": "757865b39d9991d321d5a4a239c64e9f159a9f190b03c67fe7d28607229871d1",
+  "proxy_header_rows": 2364,
+  "source_sha256": {
+    "build.ps1": "a200aef7c467d6bc4024166a6eeea659edef88a75a3058e7b3688ff4d3b3f31c",
+    "build_x86.cmd": "8474e15a92770b10b6f0ecca183d8e4a79247cfd59d4e670e542cbb9d5c28cf7",
+    "generate_proxy_table.py": "51e8ef34907d91ef74bd07060c066fdbd2adfe6a44cdd3d626e3b7ed78b12ce4",
+    "hangul_proxy_table.generated.h": "757865b39d9991d321d5a4a239c64e9f159a9f190b03c67fe7d28607229871d1",
+    "README.md": "3c168d031a4956a3faba960f20bea1ace09f89bea1fa5b9b9fe560cefae0dde9",
+    "unit_harness.cpp": "e01aa43df6886d6284d150aa2db39ae286f5419718710a636e4056dbfdea3549",
+    "winmm_proxy.cpp": "fa6adfff3b746d79c7bbd17bd1e5aec288abe565dc5d2bfcbdc4ab016e39d346",
+    "winmm_proxy.def": "b4d7c3fec508e18efefeb770f76d9cc4d37fe1fea9390b94ec327a4d4ac0dbdd"
+  },
+  "build_log_sha256": "b10e1fb1daee35b9ce330ce3359f3f5c1ca51f227b31597cd57c3d39ec40dc47"
+}

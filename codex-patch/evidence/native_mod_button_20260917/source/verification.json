@@ -1,0 +1,16 @@
+{
+  "status": "NATIVE_MOD_BUTTON_COMPILED_PASS",
+  "files": {
+    "NightRemasterPact.afa": "335e063313527913d0a7b5197e66e6a3ef31b9a2ab508a21d3a8b062e084be92",
+    "NightRemasterCG.afa": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e"
+  },
+  "original_CG_entries_unchanged": true,
+  "new_CG_states": 4,
+  "clean_to_payload_pixel_diff": 0,
+  "original_protected_pixel_diff": 0,
+  "original_rest_canvas_preserved": true,
+  "button_keys_callbacks_unchanged": true,
+  "ain_unchanged": true,
+  "all_three_PACT_entries_reparsed": true,
+  "native_verified": false
+}

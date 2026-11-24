@@ -1,0 +1,201 @@
+==================== ; L_EventCall::E30152 FUNC 26403
+; L_EventCall::E30152
+; VAR  0: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; VAR  1: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; VAR  2: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; VAR  3: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; RETURN: bool
+FUNC 26403
+	.GLOBALREF L_EventCall::m_nMonth
+	PUSH 10
+	NOTE
+	IFNZ 0x53abae
+	JUMP 0x53abb6
+0x53abae:
+	PUSH 0
+	RETURN
+0x53abb6:
+	.GLOBALREF L_EventCall::m_nDay
+	PUSH 11
+	NOTE
+	IFNZ 0x53abd8
+	JUMP 0x53abe0
+0x53abd8:
+	PUSH 0
+	RETURN
+0x53abe0:
+	.GLOBALREF L_EventCall::m_nTimeID
+	PUSH 1
+	NOTE
+	IFNZ 0x53ac02
+	JUMP 0x53ac0a
+0x53ac02:
+	PUSH 0
+	RETURN
+0x53ac0a:
+	PUSH 30152    ; ＥＶ／元／E00049
+	CALLFUNC L_EventCall::Call
+	POP
+	S_PUSH "E30153"
+	CALLFUNC LEventFlag::GetOnce
+	IFNZ 0x53ac30
+	JUMP 0x53ad60
+0x53ac30:
+	PUSH 2
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 0
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53ac9a
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53aca8
+0x53ac9a:
+	POP
+	PUSH -1
+	PUSH 1
+0x53aca8:
+	PUSH 1
+	GTE
+	IFZ 0x53acbe
+	POP
+	PUSH 0
+0x53acbe:
+	PUSH 50
+	LT
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+	IFNZ 0x53ad1a
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+	JUMP 0x53ad52
+0x53ad1a:
+	PUSH 30157    ; ＥＶ／元／E00055
+	CALLFUNC L_EventCall::Call
+	POP
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+	JUMP 0x53ad60
+0x53ad52:
+	PUSH 30158    ; ＥＶ／元／E00056
+	CALLFUNC L_EventCall::Call
+	POP
+0x53ad60:
+	S_PUSH "E30154"
+	CALLFUNC LEventFlag::GetOnce
+	IFNZ 0x53ad78
+	JUMP 0x53aea8
+0x53ad78:
+	PUSH 3
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 1
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53ade2
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53adf0
+0x53ade2:
+	POP
+	PUSH -1
+	PUSH 1
+0x53adf0:
+	PUSH 1
+	GTE
+	IFZ 0x53ae06
+	POP
+	PUSH 0
+0x53ae06:
+	PUSH 50
+	LT
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#1"
+	IFNZ 0x53ae62
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#1"
+	JUMP 0x53ae9a
+0x53ae62:
+	PUSH 30159    ; ＥＶ／元／E00057
+	CALLFUNC L_EventCall::Call
+	POP
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#1"
+	JUMP 0x53aea8
+0x53ae9a:
+	PUSH 30160    ; ＥＶ／元／E00058
+	CALLFUNC L_EventCall::Call
+	POP
+0x53aea8:
+	S_PUSH "E30155"
+	CALLFUNC LEventFlag::GetOnce
+	IFNZ 0x53aec0
+	JUMP 0x53aff0
+0x53aec0:
+	PUSH 4
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>#2"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 2
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x53af2a
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x53af38
+0x53af2a:
+	POP
+	PUSH -1
+	PUSH 1
+0x53af38:
+	PUSH 1
+	GTE
+	IFZ 0x53af4e
+	POP
+	PUSH 0
+0x53af4e:
+	PUSH 50
+	LT
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#2"
+	IFNZ 0x53afaa
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#2"
+	JUMP 0x53afe2
+0x53afaa:
+	PUSH 30161    ; ＥＶ／元／E00801
+	CALLFUNC L_EventCall::Call
+	POP
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>#2"
+	JUMP 0x53aff0
+0x53afe2:
+	PUSH 30162    ; ＥＶ／元／E00802
+	CALLFUNC L_EventCall::Call
+	POP
+0x53aff0:
+	S_PUSH "E30156"
+	CALLFUNC LEventFlag::GetOnce
+	IFNZ 0x53b008
+	JUMP 0x53b138
+0x53b008:
+	PUSH 5
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>#3"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 3
+	X_MOV 3 2
+	X_ASSIGN 1

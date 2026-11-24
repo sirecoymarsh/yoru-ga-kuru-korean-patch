@@ -1,0 +1,142 @@
+{
+ "달 쪽 (2열)": {
+  "dialogs": 112,
+  "title_lines": 8,
+  "title_chars": 37,
+  "items": 14,
+  "rows": 7,
+  "height": 672,
+  "item_units": 15.0,
+  "width_px": 1106,
+  "cols": [
+   2
+  ]
+ },
+ "달 쪽 (3열)": {
+  "dialogs": 16,
+  "title_lines": 9,
+  "title_chars": 34,
+  "items": 13,
+  "rows": 5,
+  "height": 610,
+  "item_units": 11.5,
+  "width_px": 1126,
+  "cols": [
+   3
+  ]
+ },
+ "달성도 요약 쪽": {
+  "dialogs": 4,
+  "title_lines": 11,
+  "title_chars": 37,
+  "items": 1,
+  "rows": 1,
+  "height": 486,
+  "item_units": 4.0,
+  "width_px": 1106,
+  "cols": [
+   1
+  ]
+ },
+ "회상 · 그 밖": {
+  "dialogs": 4,
+  "title_lines": 2,
+  "title_chars": 35,
+  "items": 10,
+  "rows": 10,
+  "height": 612,
+  "item_units": 15.0,
+  "width_px": 1049,
+  "cols": [
+   1
+  ]
+ },
+ "레인 쪽": {
+  "dialogs": 292,
+  "title_lines": 2,
+  "title_chars": 38,
+  "items": 11,
+  "rows": 11,
+  "height": 660,
+  "item_units": 24.0,
+  "width_px": 1135,
+  "cols": [
+   1
+  ]
+ },
+ "이달의 서랍": {
+  "dialogs": 52,
+  "title_lines": 2,
+  "title_chars": 30,
+  "items": 11,
+  "rows": 11,
+  "height": 660,
+  "item_units": 19.0,
+  "width_px": 907,
+  "cols": [
+   1
+  ]
+ },
+ "카드 쪽": {
+  "dialogs": 1860,
+  "title_lines": 7,
+  "title_chars": 36,
+  "items": 3,
+  "rows": 3,
+  "height": 446,
+  "item_units": 10.0,
+  "width_px": 1078,
+  "cols": [
+   1
+  ]
+ },
+ "단계 목록": {
+  "dialogs": 148,
+  "title_lines": 2,
+  "title_chars": 36,
+  "items": 33,
+  "rows": 11,
+  "height": 660,
+  "item_units": 6.5,
+  "width_px": 1078,
+  "cols": [
+   3
+  ]
+ },
+ "서랍 장면 목록": {
+  "dialogs": 388,
+  "title_lines": 2,
+  "title_chars": 36,
+  "items": 33,
+  "rows": 11,
+  "height": 660,
+  "item_units": 5.0,
+  "width_px": 1078,
+  "cols": [
+   3
+  ]
+ },
+ "장면 쪽": {
+  "dialogs": 3492,
+  "title_lines": 7,
+  "title_chars": 36,
+  "items": 2,
+  "rows": 2,
+  "height": 398,
+  "item_units": 6.0,
+  "width_px": 1078,
+  "cols": [
+   1
+  ]
+ },
+ "_limits": {
+  "title_chars": 38,
+  "height": 704,
+  "width_px": 1280,
+  "item_units": {
+   "1": 38,
+   "2": 20,
+   "3": 13
+  }
+ }
+}

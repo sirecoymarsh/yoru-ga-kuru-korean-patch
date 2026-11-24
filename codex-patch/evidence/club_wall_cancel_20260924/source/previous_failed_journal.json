@@ -1,0 +1,368 @@
+{
+  "status": "ROLLED_BACK",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "before": {
+    "NightRemasterCG.afa": "7d8955c039b34627b646cd4982f521dface02f0df7abea681e70e759ecfc473e"
+  },
+  "after": {
+    "NightRemasterCG.afa": "9a54dc07dc92e56b9d3caa667fca296d481e1601e9f14146d7037453ec151a0b"
+  },
+  "metadata": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+      "name": "manifest.json",
+      "existed": true,
+      "sha256": "fbb80b74a61071a8624d2496ee957876ee8b171964461b329be242a14af3a966"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\current.json",
+      "name": "current.json",
+      "existed": true,
+      "sha256": "8782efed2f4ae35bf7fb47fa5f738af065404fd21dabe1b67c092f3edc4d9b52"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_integration_registry.json",
+      "name": "ui_integration_registry.json",
+      "existed": true,
+      "sha256": "c5fb87d2a8246414df5729623e58fef0d0ba93d95f3e139c46711ec582c1ebb2"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\latest_worked_translation.json",
+      "name": "latest_worked_translation.json",
+      "existed": true,
+      "sha256": "e04d718afa1b441799f8053ca7c6e19b7c075cb75a354ec796a0a373f6f72693"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\progress.md",
+      "name": "progress.md",
+      "existed": true,
+      "sha256": "c852d4e8bc505663836c576869e4b5cca772ba514c2f42aa103a079074e4ccee"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_club_wall_cancel_20260924.json",
+      "name": "required_club_wall_cancel_20260924.json",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_auto_explore_20260923.json",
+      "name": "required_auto_explore_20260923.json",
+      "existed": true,
+      "sha256": "a33e2dab5686e2f9389e814bb50cf2b1cb12e61ff1e4153b74d89158330e2295"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_auto_explore_click_fix_20260923.json",
+      "name": "required_auto_explore_click_fix_20260923.json",
+      "existed": true,
+      "sha256": "abf6228e318acb9d31d982e7e5a45e475406d649a707ab1da0f133328d1ce2bb"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_auto_explore_segment_fix_20260923.json",
+      "name": "required_auto_explore_segment_fix_20260923.json",
+      "existed": true,
+      "sha256": "aa8c3f1632a9b71904e2594301cf76b1ea2f118474841988f958480dc8a7fbb5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_auto_items.json",
+      "name": "required_auto_items.json",
+      "existed": true,
+      "sha256": "49004227b3ed97b30f37317a750ff759bff9f57fb9bdd43b6ed7fca6e078f080"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_auto_walk.json",
+      "name": "required_auto_walk.json",
+      "existed": true,
+      "sha256": "e81d03bc6dd33b0a1fbeea691040d25ed95f8b2313d747ef57851e231fc9d53a"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_autoequip.json",
+      "name": "required_autoequip.json",
+      "existed": true,
+      "sha256": "9bc6d3d2d8f386ed140301dbd8a94e5a3fabbb1759d2c7b39c209b754be25c11"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_build_retention.json",
+      "name": "required_build_retention.json",
+      "existed": true,
+      "sha256": "f2a332eb4cb5e318f6477386c5b77294c26d4e11b35383c6c997e74094a0c88e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_cheat_menu.json",
+      "name": "required_cheat_menu.json",
+      "existed": true,
+      "sha256": "7cf2b82968f19d72ef143a3b882dd2767e84b5de380524478e91feef5e1e6e12"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_chest_flow.json",
+      "name": "required_chest_flow.json",
+      "existed": true,
+      "sha256": "d70c2c2d9e4d4877914f5366b53b6fe9616909b086180dc0d5e3458999dbfb32"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_claude_revision_20260923.json",
+      "name": "required_claude_revision_20260923.json",
+      "existed": true,
+      "sha256": "e80750c8f590fb428bd3cda8ef5d382bdc4245ade1fa07f117c2b67ce1dd3029"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_claude_term_rate_20260924.json",
+      "name": "required_claude_term_rate_20260924.json",
+      "existed": true,
+      "sha256": "f12fa578108a3c8ba808c62b22edecb5d289bbf1efcd5975ba862881154f5b5d"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_claude_term_rate_20260924_r2.json",
+      "name": "required_claude_term_rate_20260924_r2.json",
+      "existed": true,
+      "sha256": "da331a384969cd8e86ed5e594a0d4d3a37c43a67a8ae3f118006c3f43c3df0f4"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_claude_term_rate_20260924_r3.json",
+      "name": "required_claude_term_rate_20260924_r3.json",
+      "existed": true,
+      "sha256": "7c1c8306262cfd1ee25b18311e427c8741470b5b8ecb15fd037fb94588a2d5d6"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_claude_term_rate_20260924_r4.json",
+      "name": "required_claude_term_rate_20260924_r4.json",
+      "existed": true,
+      "sha256": "07c9f596b45916d135d6bf73597699c875207445e61fc46f3f5370c993bcdced"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_claude_term_rate_20260924_r5.json",
+      "name": "required_claude_term_rate_20260924_r5.json",
+      "existed": true,
+      "sha256": "e00d2bf7d70f2390f9baaad4939149fd1f63fcce0dd89f9bc7fef1cc361493d0"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_claude_term_rate_20260924_r6.json",
+      "name": "required_claude_term_rate_20260924_r6.json",
+      "existed": true,
+      "sha256": "494783e7dfc4bcfe6e321ae56268c19627a4c67f896076a1350d5a2e8a89fc24"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_club_wall_bilingual_20260924.json",
+      "name": "required_club_wall_bilingual_20260924.json",
+      "existed": true,
+      "sha256": "35a760f8211767c4c61e1917c58a1f58da55c943fcd141acd7ffd298bf8f4c0f"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_consumable_display_fix.json",
+      "name": "required_consumable_display_fix.json",
+      "existed": true,
+      "sha256": "7b3827d9d1abb93badc535f244e7fb2584f363bb427266d549748b916251098f"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_department_route.json",
+      "name": "required_department_route.json",
+      "existed": true,
+      "sha256": "ddbd35d45d67eeb6b7585e4a07e76c92cef890e989fbafbac801729fb3f3aa17"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_dungeon_sweep.json",
+      "name": "required_dungeon_sweep.json",
+      "existed": true,
+      "sha256": "accea3ad77a915a81f57b42b12081f9907d2bddec1fb29c417ec8c7bccab9908"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_dynamic_ui_text_fix.json",
+      "name": "required_dynamic_ui_text_fix.json",
+      "existed": true,
+      "sha256": "7f0764a61c9e0b30dd66364fe05b4aff4fc4c5224afaaa199ab0886023ae2810"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_instant_loot.json",
+      "name": "required_instant_loot.json",
+      "existed": true,
+      "sha256": "b0c0031df90b3e41fa31bf7927361756b175a353f9701ff693551a39397d7039"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_item_skill_names.json",
+      "name": "required_item_skill_names.json",
+      "existed": true,
+      "sha256": "a666a974cc7a8155196ffab41cecc56dd6f76fef77baf98dfc3bbe2687eba254"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_location_card_aura_fix.json",
+      "name": "required_location_card_aura_fix.json",
+      "existed": true,
+      "sha256": "12c9a71484435a7711b9bde24d01a1316edf6ee64e0e440d7bb017690299c63f"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_loot_notice.json",
+      "name": "required_loot_notice.json",
+      "existed": true,
+      "sha256": "cbecff471bf40b0962e0cd31325f23a8905b50ce0b5df2c668a79cfb71b038fb"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_map_marker_axis_fix.json",
+      "name": "required_map_marker_axis_fix.json",
+      "existed": true,
+      "sha256": "2937d44f9df1bfe2ca58f476d60dbb903914493371345728aae40cd0932082c2"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_mod_menu_style.json",
+      "name": "required_mod_menu_style.json",
+      "existed": true,
+      "sha256": "d2fc9d46f01be87d96a8d9d98615634a150c244f138d382ec34b2e9fabef211e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_mod_native_style_20260923.json",
+      "name": "required_mod_native_style_20260923.json",
+      "existed": true,
+      "sha256": "2301618cdd0b5fea606a5a09c3da5aa7d3c39bdef58a06ac2c69173cc49e4167"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_mod_tab.json",
+      "name": "required_mod_tab.json",
+      "existed": true,
+      "sha256": "fec9f3efe65495820e1fce5bc322a439dbc27f515559ce5b9663613514bceded"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_name_particles.json",
+      "name": "required_name_particles.json",
+      "existed": true,
+      "sha256": "57c4ae2d3203dfb0829f2ce78ed3f1484765a21c4bf2bc1488d9030eb86cf61a"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_native_mod_button.json",
+      "name": "required_native_mod_button.json",
+      "existed": true,
+      "sha256": "b6b1a5d592998a172f65262a3ecea9721d455c4382ec7e9e7a368d43f5c899d5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_native_opcode_fix.json",
+      "name": "required_native_opcode_fix.json",
+      "existed": true,
+      "sha256": "d5218db82c3662d30f941c28309efbbd6a02ebc886572dfa391d6c358a92c849"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_notice_depth.json",
+      "name": "required_notice_depth.json",
+      "existed": true,
+      "sha256": "61b7846919c955968a59a19e07846f840cc65abce9cbf2b9b5cabb625406271a"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_notice_duration.json",
+      "name": "required_notice_duration.json",
+      "existed": true,
+      "sha256": "cb6925b01e1a463a4c07c94f6ad4da7fd1da3461186b9ee9c29bd75f748ca967"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_notice_repair.json",
+      "name": "required_notice_repair.json",
+      "existed": true,
+      "sha256": "d01ebea2049c2b901c69e2639f0932227bd0d4da2f274a8d9a45db665ec308a4"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_page_lineflow_v2.json",
+      "name": "required_page_lineflow_v2.json",
+      "existed": true,
+      "sha256": "67d2689f10a228208505f6b4f32f33a49481756cf4737f781c0182bb97e41dac"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_player_tools_20260923.json",
+      "name": "required_player_tools_20260923.json",
+      "existed": true,
+      "sha256": "8bb9e2cd0bdf24fa393c827e0629473fc13766ee13674d70cb95448882fc7f63"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_remaster_multiplier.json",
+      "name": "required_remaster_multiplier.json",
+      "existed": true,
+      "sha256": "edb4ac17f84825ea1b3186de8e852118b95c0fe86ba247173098b7c06955f95a"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_resume_compat_20260923.json",
+      "name": "required_resume_compat_20260923.json",
+      "existed": true,
+      "sha256": "41c2cb89d1c84325318acb7e7595e68c2aa946423687a6507c1d220af00c615f"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_route_cache_fix.json",
+      "name": "required_route_cache_fix.json",
+      "existed": true,
+      "sha256": "423aa3b26c0277504aa3cf074a7ad03315fb4e90f794164eb084279fd1c496c0"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_route_linear_fix.json",
+      "name": "required_route_linear_fix.json",
+      "existed": true,
+      "sha256": "54e653e6c2fe8bc18568b2c2036d1c7c3df47bcacd8425ee9f55cd77ca24c83f"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_route_map_refresh.json",
+      "name": "required_route_map_refresh.json",
+      "existed": true,
+      "sha256": "a36de3a48afa2ede47af5cf02cf69b76ac3f1af2e0356f657189c0404d575bbc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_route_puzzle_guide.json",
+      "name": "required_route_puzzle_guide.json",
+      "existed": true,
+      "sha256": "f9d107536bd48f44c518f35f85d332755de5431fb771b60e80b79f8af68c7ec1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_runtime_keyfix20.json",
+      "name": "required_runtime_keyfix20.json",
+      "existed": true,
+      "sha256": "a20799f2a30f67b4665318eb5b930f6a620eb383fd82265b9254c451526303dd"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_runtime_repairs_20260923.json",
+      "name": "required_runtime_repairs_20260923.json",
+      "existed": true,
+      "sha256": "4ddeb110fe4d6e0c1901e1a24758bc1a25748cd5299101b5a507a5fdd65b85ac"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_saved_display_refresh.json",
+      "name": "required_saved_display_refresh.json",
+      "existed": true,
+      "sha256": "5a93c9c99288041f5dbced575fd3e37bdec354d7af6c2e5d93291ca23d85c34b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_smart_auto.json",
+      "name": "required_smart_auto.json",
+      "existed": true,
+      "sha256": "d06e45bae45ae5d31794bb26aac974aa504295081aab188db303aa74b853a9e7"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_smart_auto_fix.json",
+      "name": "required_smart_auto_fix.json",
+      "existed": true,
+      "sha256": "b5f2faae732fd718f70034cc2b50afa958ac75a2efa691f0e86b68c4b2318c87"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_sweep_infinite_fix.json",
+      "name": "required_sweep_infinite_fix.json",
+      "existed": true,
+      "sha256": "b1a6b04899f8e09ec33e2b09faebc6bb06eccbebcda8fe7e7ca1f174376018ff"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_sweep_ui_fix.json",
+      "name": "required_sweep_ui_fix.json",
+      "existed": true,
+      "sha256": "57efddcd4cd932e39b57ff1d8ab6d9984355e1f181f01b83eb7c9c3e5a2f0d70"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_term_switch_20260923.json",
+      "name": "required_term_switch_20260923.json",
+      "existed": true,
+      "sha256": "802e3c0d53945d8b2955891d197183163a9b457eeb71e176cc13dbd2d6fefb8d"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_training_lookup_fix.json",
+      "name": "required_training_lookup_fix.json",
+      "existed": true,
+      "sha256": "a5e2f00f81e769cc156af540c36f6f0700a046f220803aa06d8c4315259bc74f"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\required_translation_polish_lineflow.json",
+      "name": "required_translation_polish_lineflow.json",
+      "existed": true,
+      "sha256": "8b597525ede3e516b6bb1a65eb5cd71536b45e82822b84dddd1fefbf6abf2b86"
+    }
+  ],
+  "error": "OSError(28, 'No space left on device')",
+  "rollback_errors": []
+}

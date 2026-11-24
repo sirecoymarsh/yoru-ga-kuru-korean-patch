@@ -1,0 +1,1317 @@
+{
+  "status": "PUZZLE_ROUTE_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "75d721bc318296fa1e2f4d1e4a86bd220c5d1c7977d753473bf12962b4711b07"
+  },
+  "scope": [
+    401,
+    403,
+    405
+  ],
+  "ordinary_compiled_cases": 152,
+  "ordinary_setter_cases": 24,
+  "puzzle_cases": [
+    {
+      "case": "401 partial counts [0, 0, 0, 0]",
+      "segments": [
+        {
+          "from": [
+            15,
+            2
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 24
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            25,
+            25
+          ],
+          "length": 26
+        },
+        {
+          "from": [
+            25,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 26
+        },
+        {
+          "from": [
+            15,
+            22
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            15,
+            22
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            15,
+            22
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 7
+        },
+        {
+          "from": [
+            15,
+            17
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 2
+        }
+      ],
+      "walking_steps": 125,
+      "completed": true
+    },
+    {
+      "case": "401 partial counts [1, 0, 2, 0]",
+      "segments": [
+        {
+          "from": [
+            19,
+            27
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 22
+        },
+        {
+          "from": [
+            15,
+            22
+          ],
+          "goal": [
+            5,
+            25
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 50
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 24
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            15,
+            22
+          ],
+          "length": 39
+        },
+        {
+          "from": [
+            25,
+            25
+          ],
+          "goal": [
+            15,
+            22
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            15,
+            22
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 7
+        },
+        {
+          "from": [
+            15,
+            17
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 2
+        }
+      ],
+      "walking_steps": 130,
+      "completed": true
+    },
+    {
+      "case": "401 partial counts [1, 1, 1, 1]",
+      "segments": [
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            5,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            5,
+            5
+          ],
+          "goal": [
+            15,
+            22
+          ],
+          "length": 39
+        },
+        {
+          "from": [
+            5,
+            25
+          ],
+          "goal": [
+            15,
+            22
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            15,
+            22
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 7
+        },
+        {
+          "from": [
+            15,
+            17
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 2
+        }
+      ],
+      "walking_steps": 62,
+      "completed": true
+    },
+    {
+      "case": "401 partial counts [3, 3, 3, 2]",
+      "segments": [
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            25,
+            5
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            25,
+            5
+          ],
+          "goal": [
+            15,
+            22
+          ],
+          "length": 39
+        },
+        {
+          "from": [
+            25,
+            25
+          ],
+          "goal": [
+            15,
+            22
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            15,
+            22
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 7
+        },
+        {
+          "from": [
+            15,
+            17
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 2
+        }
+      ],
+      "walking_steps": 48,
+      "completed": true
+    },
+    {
+      "case": "401 partial counts [3, 3, 3, 3]",
+      "segments": [
+        {
+          "from": [
+            15,
+            22
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 7
+        },
+        {
+          "from": [
+            15,
+            17
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 2
+        }
+      ],
+      "walking_steps": 7,
+      "completed": true
+    },
+    {
+      "case": "401 manually inspected wall already open",
+      "segments": [
+        {
+          "from": [
+            19,
+            27
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 16
+        },
+        {
+          "from": [
+            15,
+            22
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 7
+        },
+        {
+          "from": [
+            15,
+            17
+          ],
+          "goal": [
+            15,
+            15
+          ],
+          "length": 2
+        }
+      ],
+      "walking_steps": 16,
+      "completed": true
+    },
+    {
+      "case": "403 six correct branches",
+      "segments": [
+        {
+          "from": [
+            3,
+            3
+          ],
+          "goal": [
+            7,
+            11
+          ],
+          "length": 12
+        },
+        {
+          "from": [
+            7,
+            11
+          ],
+          "goal": [
+            9,
+            27
+          ],
+          "length": 18
+        },
+        {
+          "from": [
+            9,
+            27
+          ],
+          "goal": [
+            11,
+            27
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            11,
+            27
+          ],
+          "goal": [
+            13,
+            19
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            13,
+            19
+          ],
+          "goal": [
+            15,
+            11
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            15,
+            11
+          ],
+          "goal": [
+            17,
+            11
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            17,
+            11
+          ],
+          "goal": [
+            20,
+            1
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            20,
+            1
+          ],
+          "goal": [
+            24,
+            21
+          ],
+          "length": 24
+        }
+      ],
+      "walking_steps": 91,
+      "completed": true
+    },
+    {
+      "case": "403 wrong branch 0, reset then solve",
+      "segments": [
+        {
+          "from": [
+            7,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 37
+        },
+        {
+          "from": [
+            9,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 35
+        },
+        {
+          "from": [
+            11,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 33
+        },
+        {
+          "from": [
+            13,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 31
+        },
+        {
+          "from": [
+            15,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 29
+        },
+        {
+          "from": [
+            17,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 27
+        },
+        {
+          "from": [
+            3,
+            3
+          ],
+          "goal": [
+            7,
+            11
+          ],
+          "length": 12
+        },
+        {
+          "from": [
+            7,
+            11
+          ],
+          "goal": [
+            9,
+            27
+          ],
+          "length": 18
+        },
+        {
+          "from": [
+            9,
+            27
+          ],
+          "goal": [
+            11,
+            27
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            11,
+            27
+          ],
+          "goal": [
+            13,
+            19
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            13,
+            19
+          ],
+          "goal": [
+            15,
+            11
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            15,
+            11
+          ],
+          "goal": [
+            17,
+            11
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            17,
+            11
+          ],
+          "goal": [
+            20,
+            1
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            20,
+            1
+          ],
+          "goal": [
+            24,
+            21
+          ],
+          "length": 24
+        }
+      ],
+      "walking_steps": 128,
+      "completed": true
+    },
+    {
+      "case": "403 wrong branch 2, reset then solve",
+      "segments": [
+        {
+          "from": [
+            11,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 33
+        },
+        {
+          "from": [
+            13,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 31
+        },
+        {
+          "from": [
+            15,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 29
+        },
+        {
+          "from": [
+            17,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 27
+        },
+        {
+          "from": [
+            3,
+            3
+          ],
+          "goal": [
+            7,
+            11
+          ],
+          "length": 12
+        },
+        {
+          "from": [
+            7,
+            11
+          ],
+          "goal": [
+            9,
+            27
+          ],
+          "length": 18
+        },
+        {
+          "from": [
+            9,
+            27
+          ],
+          "goal": [
+            11,
+            27
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            11,
+            27
+          ],
+          "goal": [
+            13,
+            19
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            13,
+            19
+          ],
+          "goal": [
+            15,
+            11
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            15,
+            11
+          ],
+          "goal": [
+            17,
+            11
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            17,
+            11
+          ],
+          "goal": [
+            20,
+            1
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            20,
+            1
+          ],
+          "goal": [
+            24,
+            21
+          ],
+          "length": 24
+        }
+      ],
+      "walking_steps": 124,
+      "completed": true
+    },
+    {
+      "case": "403 wrong branch 5, reset then solve",
+      "segments": [
+        {
+          "from": [
+            17,
+            3
+          ],
+          "goal": [
+            24,
+            19
+          ],
+          "length": 27
+        },
+        {
+          "from": [
+            3,
+            3
+          ],
+          "goal": [
+            7,
+            11
+          ],
+          "length": 12
+        },
+        {
+          "from": [
+            7,
+            11
+          ],
+          "goal": [
+            9,
+            27
+          ],
+          "length": 18
+        },
+        {
+          "from": [
+            9,
+            27
+          ],
+          "goal": [
+            11,
+            27
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            11,
+            27
+          ],
+          "goal": [
+            13,
+            19
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            13,
+            19
+          ],
+          "goal": [
+            15,
+            11
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            15,
+            11
+          ],
+          "goal": [
+            17,
+            11
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            17,
+            11
+          ],
+          "goal": [
+            20,
+            1
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            20,
+            1
+          ],
+          "goal": [
+            24,
+            21
+          ],
+          "length": 24
+        }
+      ],
+      "walking_steps": 118,
+      "completed": true
+    },
+    {
+      "case": "403 reset retains old true answers but choices reopened",
+      "segments": [
+        {
+          "from": [
+            3,
+            3
+          ],
+          "goal": [
+            7,
+            11
+          ],
+          "length": 12
+        },
+        {
+          "from": [
+            7,
+            11
+          ],
+          "goal": [
+            9,
+            27
+          ],
+          "length": 18
+        },
+        {
+          "from": [
+            9,
+            27
+          ],
+          "goal": [
+            11,
+            27
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            11,
+            27
+          ],
+          "goal": [
+            13,
+            19
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            13,
+            19
+          ],
+          "goal": [
+            15,
+            11
+          ],
+          "length": 10
+        },
+        {
+          "from": [
+            15,
+            11
+          ],
+          "goal": [
+            17,
+            11
+          ],
+          "length": 2
+        },
+        {
+          "from": [
+            17,
+            11
+          ],
+          "goal": [
+            20,
+            1
+          ],
+          "length": 13
+        },
+        {
+          "from": [
+            20,
+            1
+          ],
+          "goal": [
+            24,
+            21
+          ],
+          "length": 24
+        }
+      ],
+      "walking_steps": 91,
+      "completed": true
+    },
+    {
+      "case": "403 all answers complete awaiting B7",
+      "segments": [
+        {
+          "from": [
+            18,
+            11
+          ],
+          "goal": [
+            20,
+            1
+          ],
+          "length": 12
+        },
+        {
+          "from": [
+            20,
+            1
+          ],
+          "goal": [
+            24,
+            21
+          ],
+          "length": 24
+        }
+      ],
+      "walking_steps": 36,
+      "completed": true
+    },
+    {
+      "case": "405 avoid warp traps from (22, 12)",
+      "segments": [
+        {
+          "from": [
+            22,
+            12
+          ],
+          "goal": [
+            7,
+            28
+          ],
+          "length": 67
+        }
+      ],
+      "walking_steps": 67,
+      "reached_native_boss": true
+    },
+    {
+      "case": "405 avoid warp traps from (6, 13)",
+      "segments": [
+        {
+          "from": [
+            6,
+            13
+          ],
+          "goal": [
+            7,
+            28
+          ],
+          "length": 36
+        }
+      ],
+      "walking_steps": 36,
+      "reached_native_boss": true
+    }
+  ],
+  "state_query_fail_closed_cases": [
+    "empty delegate",
+    "multiple delegates",
+    "null outer",
+    "wrong outer",
+    "null scene",
+    "wrong scene",
+    "scene map mismatch",
+    "view mismatch",
+    "null event",
+    "wrong event",
+    "event map mismatch",
+    "null inner",
+    "inner map mismatch",
+    "inner view mismatch",
+    "short counters",
+    "bad counter"
+  ],
+  "reference_lifetimes_balanced": true,
+  "compiled_post_event_refresh_tested": true,
+  "failed_query_not_cached": true,
+  "same_position_1000_updates_additional_scans": 0,
+  "game_state_unchanged_by_solver": true,
+  "save_schema_exact": true,
+  "native_gameplay_verified": false,
+  "native_performance_measured": false,
+  "verification_scope": "Exact compiled new helpers and SteppedOnEvent hook. Native scene-delegate/getter/draw and original event effects are fixtures, not native playthrough."
+}

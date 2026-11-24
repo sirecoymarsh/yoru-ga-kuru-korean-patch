@@ -1,0 +1,73 @@
+{
+  "status": "STAGED_CONSUMABLE_DISPLAY_STATIC_PASS_REVIEW_PENDING",
+  "time": "2026-09-15T18:06:44.310405+09:00",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "d5ed7733933f656ec42cc2bce527ff537df4959166431925f3a76274766e850d",
+    "status": "SAVED_DISPLAY_REFRESH_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "fd2920d8252b6e973b321b35aa654e6e14c9787721e172f6e1412b7c34dc3365"
+  },
+  "files": {
+    "NightRemaster.ain": "e144757005642031e155c08c8ab9d6c51582868f86b513a6f45d83438266c931"
+  },
+  "patched_function_ids": [
+    26668,
+    26669,
+    26671,
+    26672,
+    26680,
+    26681,
+    31454,
+    31481
+  ],
+  "consumable_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "display_fields": [
+    "name",
+    "padded_mold_name",
+    "description"
+  ],
+  "new_functions": 0,
+  "existing_signatures_globals_structs_metadata_exact": true,
+  "original_CODE_prefix_exact": true,
+  "MSG1_all100944_exact": true,
+  "original_STR0_prefix_exact": true,
+  "added_STR0_entries": 4,
+  "original_constructor_and_all_mechanics_exact": true,
+  "additional_UI_description_operands": [
+    {
+      "stable_id": "AIN:function:31454:material_description",
+      "source": "武器強化素材",
+      "target": "무기 강화 재료",
+      "consumer": "C_SimpleDiscript@SetText(string)",
+      "context": "Description for element-stone IDs10..13 in consumable/crafting selection",
+      "translator_model": "Codex internal"
+    },
+    {
+      "stable_id": "AIN:function:31481:material_description",
+      "source": "武器強化素材",
+      "target": "무기 강화 재료",
+      "consumer": "C_SimpleDiscript@SetText(string)",
+      "context": "Description for element-stone IDs10..13 in consumable/crafting selection",
+      "translator_model": "Codex internal"
+    }
+  ],
+  "no_inventory_count_rank_found_stat_or_saved_multiplier_writes": true,
+  "prior16_EX_getters_and_weapon_comment_refresh_exact": true,
+  "negative_unknown_ID_fallback": "Original corresponding stored field",
+  "source_catalog_sha256": "f349853e3c40f36bbb87e99048e6f5172a8091ceffdad6b646922114227c5ab9",
+  "translator_model": "Codex internal",
+  "semantic_translation_changes": "Two identical adjacent element-stone description display operands only; consumable catalog wording unchanged",
+  "native_verified": false,
+  "game_or_saves_modified": false
+}

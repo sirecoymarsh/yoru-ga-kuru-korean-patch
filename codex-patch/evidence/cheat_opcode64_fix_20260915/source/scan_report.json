@@ -1,0 +1,19 @@
+{
+    "status":  "SCANNED_NO_TARGET_DETECTIONS",
+    "started":  "2026-09-15T19:46:45.0315603+09:00",
+    "ended":  "2026-09-15T19:46:47.1136215+09:00",
+    "target":  "C:\\Users\\CadriacLord\\OneDrive\\문서\\ChatGPT\\밤이 온다 한국어화\\cheat_opcode64_fix_20260915\\scan_payload",
+    "files":  {
+                  "NightRemaster.ain":  "537a684b60828bdf3b19252e3e6b32c3ebffb8812de70b323805b479fea05e2a"
+              },
+    "engine":  "1.1.26080.3",
+    "platform":  "4.18.26080.3",
+    "signatures":  "1.459.213.0",
+    "antivirusEnabled":  true,
+    "before":  [
+
+               ],
+    "after":  [
+
+              ]
+}

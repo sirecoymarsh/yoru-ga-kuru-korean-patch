@@ -1,0 +1,363 @@
+{
+  "schema": "yorugakuru.ko-patch.package-files.v1",
+  "build_tag": "KOFC03",
+  "file_count": 71,
+  "total_bytes": 544225391,
+  "files": [
+    {
+      "path": "Install_Korean_Patch.bat",
+      "size": 110,
+      "sha256": "89e73ef8741f54adcdcb449414164e7e75e7d1f4e40a17fc7798bd9336e0d779"
+    },
+    {
+      "path": "Install_Korean_Patch.ps1",
+      "size": 14148,
+      "sha256": "a0689ff58a9732dd35f12dde257c4c503f86e884fe06183332756e1d5555ab62"
+    },
+    {
+      "path": "manifest/install_manifest.json",
+      "size": 21438,
+      "sha256": "9191111dc7876f3141470a8fd2dd8c5a00618f122ab59d646ce175a81f94a500"
+    },
+    {
+      "path": "payload/AliceStart.ini",
+      "size": 433,
+      "sha256": "5f3de93ea764c49d246fff07c659916edefea84b8da12cf09da731a36d2c40b3"
+    },
+    {
+      "path": "payload/Manual/01.html",
+      "size": 3831,
+      "sha256": "8f791e8a53d53e84a960ba0684136c704e7e041cdae8b4555f09a55383edcbc0"
+    },
+    {
+      "path": "payload/Manual/02.html",
+      "size": 3693,
+      "sha256": "9891d03026ebbec848b1c1db4f1ed1239fafb7a50a9ae04559d50bddae7d6f5d"
+    },
+    {
+      "path": "payload/Manual/03.html",
+      "size": 3599,
+      "sha256": "b44b5f9caf72658f1948efad810a5b915bafda2ab569e949154f2a599625444d"
+    },
+    {
+      "path": "payload/Manual/04.html",
+      "size": 5280,
+      "sha256": "29b07f4f2c108a94d36053a564efaaee3ffe475891b9a7fd5302803766f78cbd"
+    },
+    {
+      "path": "payload/Manual/05.html",
+      "size": 7851,
+      "sha256": "bebbb58e88b4deab7b0ae70ad0dbf1027c268a3615d4ebf684ea8aa7e3c519c0"
+    },
+    {
+      "path": "payload/Manual/06.html",
+      "size": 14610,
+      "sha256": "b21d295ba118e4758858283e10281bf8f620b0512e6eb79359e14b35d7280e95"
+    },
+    {
+      "path": "payload/Manual/07.html",
+      "size": 14419,
+      "sha256": "119b95e42a48db03b3cf051710e6645928e3e02dd20424043935666c6f19cade"
+    },
+    {
+      "path": "payload/Manual/08.html",
+      "size": 3994,
+      "sha256": "22c52dc46a0934f605b1f1f27cff912a0c847629c93c0f09889b80efa14bd41b"
+    },
+    {
+      "path": "payload/Manual/09.html",
+      "size": 3810,
+      "sha256": "74cd20e546a26c15bf44113e291687dab0caae6b88d34c7d9488d7b96b3bfff9"
+    },
+    {
+      "path": "payload/Manual/10.html",
+      "size": 3070,
+      "sha256": "f2d1b3135bddae9d1fac0dc11dde85bf9956859b051d604d94ccc3f0ed784f00"
+    },
+    {
+      "path": "payload/Manual/config.html",
+      "size": 4372,
+      "sha256": "aafb31f3636e4c29596c2e51b4bd6df0e42da5cd1ac5d8406606d85864d80da7"
+    },
+    {
+      "path": "payload/Manual/faq.html",
+      "size": 3916,
+      "sha256": "af024c737ae7d613d872ff697e4e4b02958b6c1db8c795cc179068221d0403b4"
+    },
+    {
+      "path": "payload/Manual/img/bnr_yorugakurur.png",
+      "size": 3898,
+      "sha256": "7e3f720f8c89a3b9ce90e5eb5e4c8252f1f0d93510cc064c2cc15ea84e7e1b82"
+    },
+    {
+      "path": "payload/Manual/img/ct.png",
+      "size": 3027,
+      "sha256": "6de35a65a20834640e21ca9554885c3ffc9ca2a1ac3e7156dbfddc9bcf2a4348"
+    },
+    {
+      "path": "payload/Manual/img/ct_.png",
+      "size": 2947,
+      "sha256": "9285ed6d422235ef9bd15b77873230cad8634a5b8ceb8e22333b5f123309a60c"
+    },
+    {
+      "path": "payload/Manual/img/logo.png",
+      "size": 18556,
+      "sha256": "5491f6463e7b8adb8551c46c966d8c293217095ba86631df47b5a28c87edcaa2"
+    },
+    {
+      "path": "payload/Manual/img/pm02.png",
+      "size": 28236,
+      "sha256": "7bb28da9d91d61b1c5a994ee73693b167b7742a65f7826db44a41e07bf683266"
+    },
+    {
+      "path": "payload/Manual/img/pm03.png",
+      "size": 17042,
+      "sha256": "da1dcbbd59405cc0d8d46078791a1796f0bce594f448d963ff885a8b90bce8c6"
+    },
+    {
+      "path": "payload/Manual/img/pm04.png",
+      "size": 202883,
+      "sha256": "3523f9d2bf6b046b3106633ace6b1c98dcf9af230c2f5d32d56bf83d83daa24b"
+    },
+    {
+      "path": "payload/Manual/img/pm04_1c.png",
+      "size": 9451,
+      "sha256": "0c27666b62c25dd56ab8fc62f39a331d8698c5ad240de6d395d4768623ab87eb"
+    },
+    {
+      "path": "payload/Manual/img/pm04_1d.gif",
+      "size": 13733,
+      "sha256": "0bf322528edcd5fd18f6a35967d74519415cb799f8f57911cf91e111a2ae24fb"
+    },
+    {
+      "path": "payload/Manual/img/pm05.png",
+      "size": 25314,
+      "sha256": "765058d2042d3f71569e801e459a874fc07e1b32641f27e3aa42ef7e25001304"
+    },
+    {
+      "path": "payload/Manual/img/pm05_1a.png",
+      "size": 3380,
+      "sha256": "427eba0416ae1fdc0172d3046ccc3dc6166660b19ab812d36a26548e93651849"
+    },
+    {
+      "path": "payload/Manual/img/pm05_1b.png",
+      "size": 18895,
+      "sha256": "c39ffbbb27a0930b2770ec4d7a55f69c9e7d17ebaa2994a1097e7d52d9bcea43"
+    },
+    {
+      "path": "payload/Manual/img/pm05_1c.png",
+      "size": 12630,
+      "sha256": "6e031270f287b1e8a862e9c390612b73c0a260f2ac5acbea8ad3cc28791a1b8f"
+    },
+    {
+      "path": "payload/Manual/img/pm05_1d.png",
+      "size": 19868,
+      "sha256": "ffea7af8be80bbfb9ab5f9d43b557a0e154e288f24c151d535207582e626b9c5"
+    },
+    {
+      "path": "payload/Manual/img/pm05_1e.png",
+      "size": 23694,
+      "sha256": "a282986a0c22b39bf315817377a20ba98d14bf0cf2a2719a345bac0c7a5b40d6"
+    },
+    {
+      "path": "payload/Manual/img/pm05_1f.png",
+      "size": 20797,
+      "sha256": "642a75dd74950cb7cb995eea8a4443b016bbc677e7e8c32d7e0299ffcae744b7"
+    },
+    {
+      "path": "payload/Manual/img/pm06_2a.png",
+      "size": 21588,
+      "sha256": "49025aede0c62637c1b8781b3f58ebb5cc169be0510a2a297508bfb8e6cb7a23"
+    },
+    {
+      "path": "payload/Manual/img/pm06_2b.png",
+      "size": 16920,
+      "sha256": "e893cb53c4b747ef155589f2cfd9064ed1aad5c72155c1e7af3c934295919cdb"
+    },
+    {
+      "path": "payload/Manual/img/pm06_2c.png",
+      "size": 17635,
+      "sha256": "d5df044ddefe36ac4ce721b1598517377d878cd79cfcd2f5122bf5bb1ad3a3d6"
+    },
+    {
+      "path": "payload/Manual/img/pm06_2d.png",
+      "size": 14642,
+      "sha256": "a23b0f499a0f8fe26e13d36d8c98288c803f668ca0462ad5d242327cc033f10c"
+    },
+    {
+      "path": "payload/Manual/img/pm06_2e.png",
+      "size": 21751,
+      "sha256": "917fbeec5ee3728ad4369fd783020d06984f63bf19a2ad783cb9c057eb25792c"
+    },
+    {
+      "path": "payload/Manual/img/pm06_3a.png",
+      "size": 18702,
+      "sha256": "147457a4c56a92c6c468a4eebc2191f8fe79af260720966abd82bdfe0ea67476"
+    },
+    {
+      "path": "payload/Manual/img/pm06_3b.png",
+      "size": 19834,
+      "sha256": "540a5bc5ac17830dba0fe5da7b3c4b3d80e84fd392494d46d0a3f8c877e5fef0"
+    },
+    {
+      "path": "payload/Manual/img/pm06_4a.png",
+      "size": 14030,
+      "sha256": "de89fe444f3baa4367a8c6598aa3d3b3db04698fa7e832ec7bae1c3df9183651"
+    },
+    {
+      "path": "payload/Manual/img/pm07_1a.png",
+      "size": 19488,
+      "sha256": "d6c8b1f160d940a54e9ec39ffbf7f2b3c97cb153f39400e902bfb3144dc0c75b"
+    },
+    {
+      "path": "payload/Manual/img/pm07_1c.png",
+      "size": 344324,
+      "sha256": "c5a1ae31ab5ce811b4fa95c51410bbd37ebc06fb00452e7ae5bb853dc8b490f4"
+    },
+    {
+      "path": "payload/Manual/img/pm07_3_1b.png",
+      "size": 959,
+      "sha256": "3871c8362f20984526904d3937ff3cec16af032cead93e6028c0bbcd201b9c6a"
+    },
+    {
+      "path": "payload/Manual/img/pm07_3_1c.png",
+      "size": 953,
+      "sha256": "ef68c7f625144aadcb2b2f09079797f3654b66886a438198173cf435d33a6323"
+    },
+    {
+      "path": "payload/Manual/img/pm07_3_1d.png",
+      "size": 915,
+      "sha256": "4f9ff2abb12853de0715044a183ad3771c9d79e1e004658477b8cc3ea483aad2"
+    },
+    {
+      "path": "payload/Manual/img/pm07_3_1e.png",
+      "size": 686,
+      "sha256": "483fc62a6d7a883bb8a3eac0cf8afd141ae081f9badf7cef55a59721d4288506"
+    },
+    {
+      "path": "payload/Manual/img/pm07_3_1f.png",
+      "size": 810,
+      "sha256": "a45d83317d55faa5f3fa339902fab8c8e412a307edbeba5cd06f73d061fc9d79"
+    },
+    {
+      "path": "payload/Manual/img/pm07_3_1g.png",
+      "size": 956,
+      "sha256": "379607f92791fd4ededab0749868f579aae017d1fb927ef07410a1bb6c3d0e1d"
+    },
+    {
+      "path": "payload/Manual/img/pm07_3a.png",
+      "size": 17897,
+      "sha256": "cd0575cea64807e5d800d29ddcae1b8cb6a9b920bbfb2dec75816367275ea4ec"
+    },
+    {
+      "path": "payload/Manual/img/pm07_3b.png",
+      "size": 4117,
+      "sha256": "1a95f185a6f40cd1863aaf7710d07562bf59e3e81af2a147a6e3897e1d523656"
+    },
+    {
+      "path": "payload/Manual/img/pm07_4_1a.png",
+      "size": 6714,
+      "sha256": "24bf8ffec1205d0802bee9f72e08a9327d63fb7b52a47727dec395c44c3f6e6d"
+    },
+    {
+      "path": "payload/Manual/img/pm08_1_1a.png",
+      "size": 14993,
+      "sha256": "7ba873e68f27b42bb39dfb5bd4259e7e96de13b03891fceb4872c1ccfa0fccb6"
+    },
+    {
+      "path": "payload/Manual/index.css",
+      "size": 3356,
+      "sha256": "0f4a41d987225fde1574136c320250410626ace0c31dd595a5a0cf91c0baa815"
+    },
+    {
+      "path": "payload/Manual/index.html",
+      "size": 4098,
+      "sha256": "a38dce8cd459483cf54955a6675df29657a6e37ee30f69af36b8d48c0ec1e194"
+    },
+    {
+      "path": "payload/Manual/pub.html",
+      "size": 3329,
+      "sha256": "5e5154cfd5ca3fd00fd82c3268b312fcc175e0443a5d15dea415bfb81d59cc28"
+    },
+    {
+      "path": "payload/Manual/staff.html",
+      "size": 6870,
+      "sha256": "c6ac5e00c905dbeb6d0deb32e2ebe14c09ccbeb99ee8bd3d3ac1bc619cce4346"
+    },
+    {
+      "path": "payload/Manual/startup.html",
+      "size": 12680,
+      "sha256": "25d3b96b3297810eaa5d79e4b353c57481802ddcfc937b4badbe30a669a9bba5"
+    },
+    {
+      "path": "payload/NightRemaster.ain",
+      "size": 3759317,
+      "sha256": "fd989e7ac3750f6bf5c04961124f270da2d9736689c211ffb5cedc1604f9f275"
+    },
+    {
+      "path": "payload/NightRemaster.exe",
+      "size": 5214208,
+      "sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+    },
+    {
+      "path": "payload/NightRemasterCG.afa",
+      "size": 246483626,
+      "sha256": "19f7dc8843dd8d3dcfe5428c7d61efcc0cbc90582322fc2677b6ab84dcb70582"
+    },
+    {
+      "path": "payload/NightRemasterEX.ex",
+      "size": 58609,
+      "sha256": "60bfc4b4a57b3d7010c62b082fac27c7565c33f343be6990de1223a1bde5487b"
+    },
+    {
+      "path": "payload/NightRemasterFont.fnl",
+      "size": 286276385,
+      "sha256": "975c278d247f9d7430c208a78eb511c182064fcbe21d2df8a57861ef678639dd"
+    },
+    {
+      "path": "payload/NightRemasterPact.afa",
+      "size": 910064,
+      "sha256": "99149686df44c506210c59edd38c171e52df1654d2f32b47ca0b536536079d0f"
+    },
+    {
+      "path": "payload/OpenSaveFolder.exe",
+      "size": 140288,
+      "sha256": "c05360b49706cdfe33bccf77b43d227b4cf769de980d618b8890af40a47be98a"
+    },
+    {
+      "path": "payload/ResetConfig.exe",
+      "size": 144384,
+      "sha256": "c8950d8f16b3bb9591182ef191f5e92c1da86da19ae72df30afe55ebf323ca50"
+    },
+    {
+      "path": "payload/Uninstaller.exe",
+      "size": 107008,
+      "sha256": "d63cd53c317d95dfd02041bd96bb4abd7046a33fb507e4ac50d66e46f08a191f"
+    },
+    {
+      "path": "README_KO.txt",
+      "size": 1189,
+      "sha256": "eed82fc6ce795c7a63009e18a8ef020b4f675351369948c6f43776eb5fdbffc4"
+    },
+    {
+      "path": "Restore_Korean_Patch.bat",
+      "size": 110,
+      "sha256": "e0d0c4d6c0d0231f01d56ee55235c6cc1b8c5404264022d39823d92889dc889c"
+    },
+    {
+      "path": "Restore_Korean_Patch.ps1",
+      "size": 7467,
+      "sha256": "9ffca922e0e3eb0415a472c8cb95812329ba53fd5127d6578027d6d3c5c6f531"
+    },
+    {
+      "path": "Verify_Korean_Patch.bat",
+      "size": 109,
+      "sha256": "33068c18145951e2c46cf074b416e3c0d4fd73402bf454e76c12c4180b59c565"
+    },
+    {
+      "path": "Verify_Korean_Patch.ps1",
+      "size": 1455,
+      "sha256": "303b37831f33363cff8b5c73ba04ca2b0118af330127557655df1860436ba9f7"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+ "status": "STATIC_NATIVE_VISUAL_PASS",
+ "files": {
+  "NightRemaster.ain": "1a7bd3352132f123f2dd1cf8491b8faf16391b7361a57d6f76585843b4757542",
+  "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+ },
+ "existing_resume_saves": 51,
+ "saved_return_frames": 1256,
+ "metadata_forwarders": [
+  "KR_T19EvHead",
+  "KR_T19EvShort",
+  "KR_T19WhenFix",
+  "KR_B29Info"
+ ],
+ "old_code_prefix_exact": true,
+ "original_strings_prefix_exact": true,
+ "serialized_schema_changes": 0,
+ "original_messages_exact": true,
+ "dll_byte_exact": true,
+ "native_opcode_audit": true,
+ "original_fallback_getters_instruction_exact": true,
+ "native_rendered_list_detail_boards": 915,
+ "native_rendered_changed_detail_boards": 20,
+ "read_and_unread_getter_checks": 120,
+ "list_pixel_exact": true,
+ "unmodified_detail_pixel_exact": true,
+ "unread_even_unlocked_hidden": true,
+ "detail_native_cancel_play_stage": true,
+ "mini_size": [
+  32,
+  40
+ ],
+ "detail_size": [
+  104,
+  130
+ ],
+ "choice_scenes": 20,
+ "common_scenes": 0,
+ "changed_counts": {
+  "ev_head": 20,
+  "ev_short": 20,
+  "when_fix": 20
+ },
+ "translator_model": "Codex internal",
+ "limitations": [
+  "Scope: 20 character-selection branches and their details. Eighteen prior non-name choices and all seven common joins remain unchanged.",
+  "Native diagnostics use hidden muted private saves and scripted engine event-loop choices, not physical user input.",
+  "Display getters and a dedicated detail choice field only; original choice wording, scenario outcomes, ending logic, summaries, portraits and saved state are unchanged.",
+  "No all-route gameplay or all-ending replay claim."
+ ]
+}

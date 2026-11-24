@@ -1,0 +1,33 @@
+{
+  "status": "STATIC_FONT_GEOMETRY_PASS",
+  "files": {
+    "NightRemaster.ain": "81bed991606129a555c54acb2a7f5ad6f0ea232994e80990c31b3d535c0739b4",
+    "NightRemasterPact.afa": "5c41b8feca864f13fe09f7cd736de82ed8d99837093da55a37c672e1cf2e83aa"
+  },
+  "button": [
+    580,
+    622,
+    192,
+    30
+  ],
+  "label": {
+    "text": "용어 표기 설정",
+    "x": 621.5,
+    "y": 627.0,
+    "width": 109.0,
+    "height": 20.0
+  },
+  "original_blue_chrome": true,
+  "yellow_color": [
+    255,
+    230,
+    80
+  ],
+  "original_button_properties_exact_except_name_and_position": true,
+  "atlas_size": [
+    192,
+    42
+  ],
+  "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+  "native_capture": false
+}

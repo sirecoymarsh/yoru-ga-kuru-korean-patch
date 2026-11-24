@@ -1,0 +1,6118 @@
+{
+  "status": "CLAUDE_TERM_RATE_STAGED",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "ffdd30d722176d435b4377a9ad91c3f13191fcf3df2088ac35dba841535491f9",
+    "status": "CLAUDE_TERM_RATE_R9_INSTALLED_NATIVE_PASS",
+    "runtime_verified": false,
+    "whole_ui_complete": false,
+    "auto_explore_click_fix_revision": {
+      "status": "AUTO_EXPLORE_CALLBACK_FIX_INSTALLED_NATIVE_DISPATCH_PASS",
+      "time": "2026-09-23T19:29:38.996434+09:00",
+      "files": {
+        "NightRemaster.ain": "2c1b0174ddefda36b00ab864146eefe070971e9c6cc914df6ef14a2e560dfc86"
+      },
+      "source_files": {
+        "NightRemaster.ain": "343c9997a2a17478583b40b43a91d5b7f552eecb6644b73af5720b855a347d4a"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\auto_explore_click_fix_20260923",
+      "patched_existing": [
+        32030
+      ],
+      "added_helpers": 3,
+      "old_CODE_exact": true,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "STR0_prefix_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "native_dispatch_verified": true,
+      "os_mouse_hit_test_verified": false,
+      "existing_saves_checked": 37,
+      "frames_checked": 950
+    },
+    "auto_explore_segment_fix_revision": {
+      "status": "AUTO_EXPLORE_SEGMENT_FIX_INSTALLED_NATIVE_MOVEMENT_PASS",
+      "time": "2026-09-23T20:10:03.552970+09:00",
+      "files": {
+        "NightRemaster.ain": "e6d47c4356d5d12118e8424b002ebe07dbc5cc38591a4bcb5907a544e5c21250"
+      },
+      "source_files": {
+        "NightRemaster.ain": "2c1b0174ddefda36b00ab864146eefe070971e9c6cc914df6ef14a2e560dfc86"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\auto_explore_segment_fix_20260923",
+      "patched_existing": [
+        28658
+      ],
+      "added_helpers": 1,
+      "old_CODE_exact": true,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "STR0_prefix_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "native_dispatch_verified": true,
+      "os_mouse_hit_test_verified": false,
+      "existing_saves_checked": 37,
+      "frames_checked": 950
+    },
+    "mod_native_style_revision": {
+      "status": "MOD_NATIVE_STYLE_INSTALLED_ENGINE_RENDER_PASS",
+      "time": "2026-09-23T21:04:21.490276+09:00",
+      "files": {
+        "NightRemaster.ain": "bdcd8c8c8d1c2f606ee39f4180a3f377ea1db82818ba6a99f420bf518cdd6758",
+        "NightRemasterPact.afa": "4dc2e9e483e5c8a2e1f2f5f2219368d21429b42d837492ceae484289ff49bc35",
+        "NightRemasterCG.afa": "a77132655976e0c1eea1a3f5497f7ec75b45c7df11d008073955b2702ed1ab6e"
+      },
+      "source_files": {
+        "NightRemaster.ain": "e6d47c4356d5d12118e8424b002ebe07dbc5cc38591a4bcb5907a544e5c21250",
+        "NightRemasterPact.afa": "ff1a16663d65b4de95c72063709851f9615484ab610dac9787f6c1a098c7e30d",
+        "NightRemasterCG.afa": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\mod_native_style_20260923",
+      "native_render_verified": true,
+      "os_mouse_hit_test_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 38,
+      "frames_checked": 968,
+      "changed_PACT": [
+        154,
+        161
+      ],
+      "appended_CG": 12,
+      "old_CODE_allowlist": [
+        {
+          "fid": 31922,
+          "address": 9924166,
+          "before": "000002000000",
+          "after": "3000c77d0000",
+          "helper": "KR_ModConfirmColumns"
+        },
+        {
+          "fid": 31892,
+          "address": 9854076,
+          "before": "000001000000",
+          "after": "3000c87d0000",
+          "helper": "KR_ModConfirmCancelable"
+        },
+        {
+          "fid": 27928,
+          "address": 5902690,
+          "before": "000000000000",
+          "after": "3000c97d0000",
+          "helper": "KR_ModDefaultIndex"
+        }
+      ],
+      "relocated_helpers": [
+        31890,
+        31919,
+        32033
+      ],
+      "translator_model": "Codex internal"
+    },
+    "runtime_repairs_revision": {
+      "status": "RUNTIME_REPAIRS_INSTALLED_NATIVE_REGRESSION_PASS",
+      "time": "2026-09-23T23:27:54.746377+09:00",
+      "files": {
+        "NightRemaster.ain": "cfda0681fb0c55d2088aa7d08be4b00259d3cefd0be512d353cf69db831a6a3d",
+        "NightRemasterPact.afa": "efc527e804c4ae1abfd2b50ceca5a1bfa1384cc91afdc399cc6567468736ae49"
+      },
+      "source_files": {
+        "NightRemaster.ain": "bdcd8c8c8d1c2f606ee39f4180a3f377ea1db82818ba6a99f420bf518cdd6758",
+        "NightRemasterPact.afa": "4dc2e9e483e5c8a2e1f2f5f2219368d21429b42d837492ceae484289ff49bc35"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\runtime_repairs_20260923",
+      "native_render_verified": true,
+      "os_mouse_hit_test_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 38,
+      "frames_checked": 968,
+      "changed_PACT": [
+        154
+      ],
+      "old_CODE_allowlist": [
+        {
+          "fid": 32168,
+          "address": 10786436,
+          "before": "30006c6c0000",
+          "after": "3000d57d0000",
+          "helper": "KR_KoreanInputDialog"
+        },
+        {
+          "fid": 32160,
+          "address": 10700760,
+          "before": "30006c6c0000",
+          "after": "3000d57d0000",
+          "helper": "KR_KoreanInputDialog"
+        },
+        {
+          "fid": 29271,
+          "address": 6632806,
+          "before": "3000066c0000",
+          "after": "3000d77d0000",
+          "helper": "KR_ExploreResultEnter"
+        },
+        {
+          "fid": 27302,
+          "address": 9829758,
+          "before": "3000666c0000",
+          "after": "3000d87d0000",
+          "helper": "KR_ExploreLevelDialog"
+        },
+        {
+          "fid": 27776,
+          "address": 5850444,
+          "before": "3000066c0000",
+          "after": "3000d97d0000",
+          "helper": "KR_ExploreLevelEnter"
+        }
+      ],
+      "relocated_helpers": [
+        32062,
+        32064,
+        32189,
+        32195,
+        32205
+      ],
+      "translator_model": "Codex internal"
+    },
+    "claude_term_rate_revision": {
+      "status": "CLAUDE_TERM_RATE_INSTALLED_NATIVE_PROBE_PASS",
+      "time": "2026-09-24T01:15:40.208444+09:00",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "files": {
+        "NightRemaster.ain": "78cf272dd209822995246e5aeba82107a04622685372bb7c17a225d1e4a9ec3a",
+        "NightRemasterPact.afa": "9f349af29eb97d922e98248e103d35ec4d11d9e08b337c3e9c5994a35c620875"
+      },
+      "source_files": {
+        "NightRemaster.ain": "cfda0681fb0c55d2088aa7d08be4b00259d3cefd0be512d353cf69db831a6a3d",
+        "NightRemasterPact.afa": "efc527e804c4ae1abfd2b50ceca5a1bfa1384cc91afdc399cc6567468736ae49"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\claude_term_rate_20260924",
+      "native_probe_verified": true,
+      "screen_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 39,
+      "frames_checked": 986,
+      "changed_PACT": [
+        160
+      ],
+      "same_length_sites": [
+        {
+          "fid": 29214,
+          "name": "C_BattleMessageView@Printf",
+          "address": 10011098,
+          "before": "3000d47c0000",
+          "after": "3000e07d0000",
+          "why": "battle message Printf: term display before particle resolution"
+        },
+        {
+          "fid": 27141,
+          "name": "L_Dungeon::Sense",
+          "address": 5649310,
+          "before": "41004c0d0000",
+          "after": "3000df7d0000",
+          "why": "sense dialog format built with the chosen term"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699324,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699680,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699884,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LTE)"
+        },
+        {
+          "fid": 32061,
+          "name": "KR_TermRefresh",
+          "address": 10437688,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32063,
+          "name": "KR_TermLoad",
+          "address": 10438666,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10436540,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (GTE)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10437072,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        }
+      ],
+      "relocated": [
+        26671,
+        26672,
+        26902,
+        32055,
+        32056,
+        32057,
+        32158,
+        32159,
+        32171,
+        32207,
+        32208
+      ],
+      "terms": [
+        "히카리",
+        "카샤",
+        "치로",
+        "틈새",
+        "얼어붙은 밤",
+        "참된 달",
+        "참된 밤",
+        "호무라"
+      ],
+      "preference_file": "YoruKR.Terms.3 (8 values); v2 (7 values) still read, 호무라 default",
+      "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+    },
+    "claude_term_rate_r2_revision": {
+      "status": "CLAUDE_TERM_RATE_R2_INSTALLED_NATIVE_UI_PASS",
+      "time": "2026-09-24T02:24:59.432624+09:00",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "files": {
+        "NightRemaster.ain": "a156a887bc937d6bc29674847e09ac0754e0a6b63d8f3b7c6a8b49af3d104ffc",
+        "NightRemasterPact.afa": "9f349af29eb97d922e98248e103d35ec4d11d9e08b337c3e9c5994a35c620875"
+      },
+      "source_files": {
+        "NightRemaster.ain": "78cf272dd209822995246e5aeba82107a04622685372bb7c17a225d1e4a9ec3a",
+        "NightRemasterPact.afa": "9f349af29eb97d922e98248e103d35ec4d11d9e08b337c3e9c5994a35c620875"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\claude_term_rate_20260924_r2",
+      "review_fixed": [
+        "CT-RATE-001",
+        "CT-RATE-002"
+      ],
+      "review": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\reviews\\claude_term_rate_20260924_codex",
+      "native_probe_verified": true,
+      "native_ui_verified": true,
+      "screen_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 39,
+      "frames_checked": 986,
+      "changed_PACT": [
+        160
+      ],
+      "same_length_sites": [
+        {
+          "fid": 29214,
+          "name": "C_BattleMessageView@Printf",
+          "address": 10011098,
+          "before": "3000d47c0000",
+          "after": "3000e37d0000",
+          "why": "battle message Printf: term display before particle resolution"
+        },
+        {
+          "fid": 27141,
+          "name": "L_Dungeon::Sense",
+          "address": 5649310,
+          "before": "41004c0d0000",
+          "after": "3000e27d0000",
+          "why": "sense dialog format built with the chosen term"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699324,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699680,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699884,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LTE)"
+        },
+        {
+          "fid": 32061,
+          "name": "KR_TermRefresh",
+          "address": 10437688,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32063,
+          "name": "KR_TermLoad",
+          "address": 10438666,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10436540,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (GTE)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10437072,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699234,
+          "before": "30003f7d0000",
+          "after": "3000df7d0000",
+          "why": "term menu opening load reports v2 entries reset by the new default"
+        },
+        {
+          "fid": 27936,
+          "name": "C_SelectDialog@CreateParts",
+          "address": 10027116,
+          "before": "000030000000",
+          "after": "3000e07d0000",
+          "why": "select dialog type 2026091602 title padding from KR_T8TitlePad (48 unless an achievement page opted in)"
+        }
+      ],
+      "relocated": [
+        26671,
+        26672,
+        26902,
+        32055,
+        32056,
+        32057,
+        32158,
+        32159,
+        32171,
+        32207,
+        32208
+      ],
+      "terms": [
+        "히카리",
+        "카샤",
+        "치로",
+        "틈새",
+        "얼어붙은 밤",
+        "참된 달",
+        "참된 밤",
+        "호무라"
+      ],
+      "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+    },
+    "claude_term_rate_r3_revision": {
+      "status": "CLAUDE_TERM_RATE_R3_INSTALLED_NATIVE_UI_PASS",
+      "time": "2026-09-24T03:46:31.855108+09:00",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "files": {
+        "NightRemaster.ain": "6ccef5c5529430244cb997006157b836a46d05820da969cda32b5fb8b9ecdcb6",
+        "NightRemasterPact.afa": "9f349af29eb97d922e98248e103d35ec4d11d9e08b337c3e9c5994a35c620875"
+      },
+      "source_files": {
+        "NightRemaster.ain": "a156a887bc937d6bc29674847e09ac0754e0a6b63d8f3b7c6a8b49af3d104ffc",
+        "NightRemasterPact.afa": "9f349af29eb97d922e98248e103d35ec4d11d9e08b337c3e9c5994a35c620875"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\claude_term_rate_20260924_r3",
+      "changes": [
+        "term menu Japanese labels",
+        "text input keeps hook proxy text (rename 료 refused)"
+      ],
+      "native_probe_verified": true,
+      "native_ui_verified": true,
+      "screen_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 40,
+      "frames_checked": 1005,
+      "changed_PACT": [
+        160
+      ],
+      "same_length_sites": [
+        {
+          "fid": 29214,
+          "name": "C_BattleMessageView@Printf",
+          "address": 10011098,
+          "before": "3000d47c0000",
+          "after": "3000e67d0000",
+          "why": "battle message Printf: term display before particle resolution"
+        },
+        {
+          "fid": 27141,
+          "name": "L_Dungeon::Sense",
+          "address": 5649310,
+          "before": "41004c0d0000",
+          "after": "3000e57d0000",
+          "why": "sense dialog format built with the chosen term"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699324,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699680,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699884,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LTE)"
+        },
+        {
+          "fid": 32061,
+          "name": "KR_TermRefresh",
+          "address": 10437688,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32063,
+          "name": "KR_TermLoad",
+          "address": 10438666,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10436540,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (GTE)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10437072,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699234,
+          "before": "30003f7d0000",
+          "after": "3000e27d0000",
+          "why": "term menu opening load reports v2 entries reset by the new default"
+        },
+        {
+          "fid": 27936,
+          "name": "C_SelectDialog@CreateParts",
+          "address": 10027116,
+          "before": "000030000000",
+          "after": "3000e37d0000",
+          "why": "select dialog type 2026091602 title padding from KR_T8TitlePad (48 unless an achievement page opted in)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699420,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699992,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32168,
+          "name": "KR_PlayerRename",
+          "address": 10786436,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10700760,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        }
+      ],
+      "relocated": [
+        26671,
+        26672,
+        26902,
+        32055,
+        32056,
+        32057,
+        32158,
+        32159,
+        32171,
+        32207,
+        32208
+      ],
+      "terms": [
+        "히카리",
+        "카샤",
+        "치로",
+        "틈새",
+        "얼어붙은 밤",
+        "참된 달",
+        "참된 밤",
+        "호무라"
+      ],
+      "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+    },
+    "claude_term_rate_r4_revision": {
+      "status": "CLAUDE_TERM_RATE_R4_INSTALLED_NATIVE_PASS",
+      "time": "2026-09-24T06:58:02.405441+09:00",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "files": {
+        "NightRemaster.ain": "149bd576d95628f1182754f1bdaf329fa05fe72a58eedf18cabe90f1581c4acc",
+        "NightRemasterPact.afa": "7eba04906802b39fb6076557fb7ca02b8ae26498299cdac66ffcc7e669bf2a84"
+      },
+      "source_files": {
+        "NightRemaster.ain": "6ccef5c5529430244cb997006157b836a46d05820da969cda32b5fb8b9ecdcb6",
+        "NightRemasterPact.afa": "9f349af29eb97d922e98248e103d35ec4d11d9e08b337c3e9c5994a35c620875"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\claude_term_rate_20260924_r4",
+      "changes": [
+        "trap results kept as dungeon notice lines (instant disarm, disarm attempt, every trap effect dialog); notice title 보물상자 · 함정",
+        "homebase achievement panel in the left margin, mods-tab checkbox 본거지에 달성률 표시 (default off)"
+      ],
+      "native_probe_verified": true,
+      "native_ui_verified": true,
+      "screen_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 40,
+      "frames_checked": 1005,
+      "changed_PACT": [
+        160,
+        177,
+        185
+      ],
+      "same_length_sites": [
+        {
+          "fid": 29214,
+          "name": "C_BattleMessageView@Printf",
+          "address": 10011098,
+          "before": "3000d47c0000",
+          "after": "3000e67d0000",
+          "why": "battle message Printf: term display before particle resolution"
+        },
+        {
+          "fid": 27141,
+          "name": "L_Dungeon::Sense",
+          "address": 5649310,
+          "before": "41004c0d0000",
+          "after": "3000e57d0000",
+          "why": "sense dialog format built with the chosen term"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699324,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699680,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699884,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LTE)"
+        },
+        {
+          "fid": 32061,
+          "name": "KR_TermRefresh",
+          "address": 10437688,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32063,
+          "name": "KR_TermLoad",
+          "address": 10438666,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10436540,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (GTE)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10437072,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699234,
+          "before": "30003f7d0000",
+          "after": "3000e27d0000",
+          "why": "term menu opening load reports v2 entries reset by the new default"
+        },
+        {
+          "fid": 27936,
+          "name": "C_SelectDialog@CreateParts",
+          "address": 10027116,
+          "before": "000030000000",
+          "after": "3000e37d0000",
+          "why": "select dialog type 2026091602 title padding from KR_T8TitlePad (48 unless an achievement page opted in)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699420,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699992,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32168,
+          "name": "KR_PlayerRename",
+          "address": 10786436,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10700760,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 28664,
+          "name": "C_SceneDungeon@StepedOnCell",
+          "address": 10866430,
+          "before": "30008b7c0000",
+          "after": "3000f57d0000",
+          "why": "instant disarm posts a notice (that path has no dialog)"
+        },
+        {
+          "fid": 28654,
+          "name": "C_SceneDungeon@Trap",
+          "address": 6373242,
+          "before": "3000076a0000",
+          "after": "3000f67d0000",
+          "why": "disarm result kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5667784,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5668964,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669476,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669904,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5670358,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670852,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670878,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672436,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672556,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672710,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672864,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673760,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673786,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675018,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675138,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675292,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675446,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27166,
+          "name": "L_Trap::Execute05",
+          "address": 5677188,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27167,
+          "name": "L_Trap::Execute06",
+          "address": 5677798,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27168,
+          "name": "L_Trap::Execute07",
+          "address": 5677902,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27169,
+          "name": "L_Trap::Execute08",
+          "address": 5678006,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27170,
+          "name": "L_Trap::Execute09",
+          "address": 5678110,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27171,
+          "name": "L_Trap::Execute10",
+          "address": 5678214,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27172,
+          "name": "L_Trap::Execute11",
+          "address": 5678318,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27173,
+          "name": "L_Trap::Execute12",
+          "address": 5678422,
+          "before": "3000666c0000",
+          "after": "3000f77d0000",
+          "why": "trap effect dialog also kept as a notice line"
+        }
+      ],
+      "relocated": [
+        26671,
+        26672,
+        26902,
+        28571,
+        28572,
+        29817,
+        29818,
+        32055,
+        32056,
+        32057,
+        32158,
+        32159,
+        32171,
+        32207,
+        32208
+      ],
+      "terms": [
+        "히카리",
+        "카샤",
+        "치로",
+        "틈새",
+        "얼어붙은 밤",
+        "참된 달",
+        "참된 밤",
+        "호무라"
+      ],
+      "home_panel": {
+        "pact_entry": 177,
+        "group": "KR_HomeRate",
+        "parts": [
+          "KR_HomeRateTitle",
+          "KR_HomeRateBody"
+        ],
+        "origin": [
+          0,
+          20
+        ],
+        "font_type": 259,
+        "toggle": "KR_HomeRateToggle",
+        "toggle_pos": [
+          783,
+          38
+        ],
+        "toggle_label": "본거지에 달성률 표시",
+        "preference_file": "YoruKR_HomeRate.dat",
+        "default": "off",
+        "shown_by": "C_SceneHomebaseView@BeginTop (prepended KR_T8HomeEnter)",
+        "hidden_by": "C_SceneHomebaseView@EndTop (prepended KR_T8HomeLeave)"
+      },
+      "trap_notice": {
+        "instant_site": "C_SceneDungeon@StepedOnCell",
+        "relieve_site": "C_SceneDungeon@Trap",
+        "dialog_sites": 25,
+        "notice": "KR_ChestShow (Codex dungeon notice, 3 lines, 4.5 s)"
+      },
+      "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+    },
+    "claude_term_rate_r5_revision": {
+      "status": "CLAUDE_TERM_RATE_R5_INSTALLED_NATIVE_PASS",
+      "time": "2026-09-24T07:46:56.151628+09:00",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "files": {
+        "NightRemaster.ain": "32bdf7050a4adac030e609c89e321a8e10cad9baaeae89111ca2e7077579a80b",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e"
+      },
+      "source_files": {
+        "NightRemaster.ain": "149bd576d95628f1182754f1bdaf329fa05fe72a58eedf18cabe90f1581c4acc",
+        "NightRemasterPact.afa": "7eba04906802b39fb6076557fb7ca02b8ae26498299cdac66ffcc7e669bf2a84"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\claude_term_rate_20260924_r5",
+      "changes": [
+        "result texts coloured with engine font tags: treasure and trap lines, instant-kill receipt, sweep report (dialog tag processing only for tagged text)",
+        "homebase panel: per-character event rates of this save (7 party members, two-person dungeon walks count for both)"
+      ],
+      "native_probe_verified": true,
+      "native_ui_verified": true,
+      "screen_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 40,
+      "frames_checked": 1005,
+      "changed_PACT": [
+        160,
+        177,
+        185
+      ],
+      "same_length_sites": [
+        {
+          "fid": 29214,
+          "name": "C_BattleMessageView@Printf",
+          "address": 10011098,
+          "before": "3000d47c0000",
+          "after": "3000e67d0000",
+          "why": "battle message Printf: term display before particle resolution"
+        },
+        {
+          "fid": 27141,
+          "name": "L_Dungeon::Sense",
+          "address": 5649310,
+          "before": "41004c0d0000",
+          "after": "3000e57d0000",
+          "why": "sense dialog format built with the chosen term"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699324,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699680,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699884,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LTE)"
+        },
+        {
+          "fid": 32061,
+          "name": "KR_TermRefresh",
+          "address": 10437688,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32063,
+          "name": "KR_TermLoad",
+          "address": 10438666,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10436540,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (GTE)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10437072,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699234,
+          "before": "30003f7d0000",
+          "after": "3000e27d0000",
+          "why": "term menu opening load reports v2 entries reset by the new default"
+        },
+        {
+          "fid": 27936,
+          "name": "C_SelectDialog@CreateParts",
+          "address": 10027116,
+          "before": "000030000000",
+          "after": "3000e37d0000",
+          "why": "select dialog type 2026091602 title padding from KR_T8TitlePad (48 unless an achievement page opted in)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699420,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699992,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32168,
+          "name": "KR_PlayerRename",
+          "address": 10786436,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10700760,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 28664,
+          "name": "C_SceneDungeon@StepedOnCell",
+          "address": 10866430,
+          "before": "30008b7c0000",
+          "after": "30000d7e0000",
+          "why": "instant disarm posts a notice (that path has no dialog)"
+        },
+        {
+          "fid": 28654,
+          "name": "C_SceneDungeon@Trap",
+          "address": 6373242,
+          "before": "3000076a0000",
+          "after": "30000e7e0000",
+          "why": "disarm result kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5667784,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5668964,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669476,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669904,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5670358,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670852,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670878,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672436,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672556,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672710,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672864,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673760,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673786,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675018,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675138,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675292,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675446,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27166,
+          "name": "L_Trap::Execute05",
+          "address": 5677188,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27167,
+          "name": "L_Trap::Execute06",
+          "address": 5677798,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27168,
+          "name": "L_Trap::Execute07",
+          "address": 5677902,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27169,
+          "name": "L_Trap::Execute08",
+          "address": 5678006,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27170,
+          "name": "L_Trap::Execute09",
+          "address": 5678110,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27171,
+          "name": "L_Trap::Execute10",
+          "address": 5678214,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27172,
+          "name": "L_Trap::Execute11",
+          "address": 5678318,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27173,
+          "name": "L_Trap::Execute12",
+          "address": 5678422,
+          "before": "3000666c0000",
+          "after": "30000f7e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        }
+      ],
+      "relocated": [
+        26671,
+        26672,
+        26902,
+        27778,
+        28571,
+        28572,
+        29817,
+        29818,
+        31881,
+        31904,
+        31968,
+        32055,
+        32056,
+        32057,
+        32158,
+        32159,
+        32171,
+        32207,
+        32208
+      ],
+      "terms": [
+        "히카리",
+        "카샤",
+        "치로",
+        "틈새",
+        "얼어붙은 밤",
+        "참된 달",
+        "참된 밤",
+        "호무라"
+      ],
+      "home_panel": {
+        "pact_entry": 177,
+        "group": "KR_HomeRate",
+        "parts": [
+          "KR_HomeRateTitle",
+          "KR_HomeRateBody"
+        ],
+        "origin": [
+          0,
+          20
+        ],
+        "font_type": 259,
+        "toggle": "KR_HomeRateToggle",
+        "toggle_pos": [
+          783,
+          38
+        ],
+        "toggle_label": "본거지에 달성률 표시",
+        "preference_file": "YoruKR_HomeRate.dat",
+        "default": "off",
+        "shown_by": "C_SceneHomebaseView@BeginTop (prepended KR_T8HomeEnter)",
+        "hidden_by": "C_SceneHomebaseView@EndTop (prepended KR_T8HomeLeave)"
+      },
+      "trap_notice": {
+        "instant_site": "C_SceneDungeon@StepedOnCell",
+        "relieve_site": "C_SceneDungeon@Trap",
+        "dialog_sites": 25,
+        "notice": "KR_ChestShow (Codex dungeon notice, 3 lines, 4.5 s)"
+      },
+      "colors": {
+        "prepended": {
+          "KR_ChestShow": "KR_T8ChestColor",
+          "KR_NoticeShow": "KR_T8ReceiptColor",
+          "KR_SweepReport": "KR_T8SweepColor"
+        },
+        "message_dialog": "C_MessageDialog@Create: Tag::set(true) (vtable slot 25) before Text::set when the text contains ${font",
+        "pact160": {
+          "KR_ChestLine1": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ChestLine2": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ChestLine3": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ReceiptBody": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          }
+        }
+      },
+      "char_events": {
+        "rows": [
+          {
+            "person": 2,
+            "name": "이즈미",
+            "events": 126,
+            "by_group": {
+              "0": 1,
+              "1": 62,
+              "2": 6,
+              "3": 57
+            }
+          },
+          {
+            "person": 3,
+            "name": "쿄카",
+            "events": 129,
+            "by_group": {
+              "0": 1,
+              "1": 54,
+              "2": 6,
+              "3": 68
+            }
+          },
+          {
+            "person": 4,
+            "name": "마나미",
+            "events": 121,
+            "by_group": {
+              "0": 1,
+              "1": 46,
+              "2": 6,
+              "3": 68
+            }
+          },
+          {
+            "person": 5,
+            "name": "마코토",
+            "events": 109,
+            "by_group": {
+              "0": 1,
+              "1": 42,
+              "2": 6,
+              "3": 60
+            }
+          },
+          {
+            "person": 6,
+            "name": "신카이",
+            "events": 109,
+            "by_group": {
+              "1": 43,
+              "2": 6,
+              "3": 60
+            }
+          },
+          {
+            "person": 7,
+            "name": "호시카와",
+            "events": 132,
+            "by_group": {
+              "1": 65,
+              "2": 6,
+              "3": 61
+            }
+          },
+          {
+            "person": 8,
+            "name": "모모세",
+            "events": 108,
+            "by_group": {
+              "1": 35,
+              "2": 6,
+              "3": 67
+            }
+          }
+        ],
+        "basis": "catalog triggers naming the person (person or person2); this save (IsRegisteredEvent)"
+      },
+      "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+    },
+    "claude_term_rate_r6_revision": {
+      "status": "CLAUDE_TERM_RATE_R6_INSTALLED_NATIVE_PASS",
+      "time": "2026-09-24T08:03:33.778414+09:00",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "files": {
+        "NightRemaster.ain": "a1f494a2974a2e2addb8fb7d44aa41ee6410190453be349a6a414a91612d76db",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e"
+      },
+      "source_files": {
+        "NightRemaster.ain": "32bdf7050a4adac030e609c89e321a8e10cad9baaeae89111ca2e7077579a80b",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\claude_term_rate_20260924_r6",
+      "changes": [
+        "sweep report lists the rewards the carry limit kept out (consumables at their cap; stones clamped at 99) instead of a fixed line",
+        "sweep report stone lines keep their element colour",
+        "r5: coloured result texts, per-character event rates"
+      ],
+      "native_probe_verified": true,
+      "native_ui_verified": true,
+      "screen_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 40,
+      "frames_checked": 1005,
+      "changed_PACT": [
+        160,
+        177,
+        185
+      ],
+      "same_length_sites": [
+        {
+          "fid": 29214,
+          "name": "C_BattleMessageView@Printf",
+          "address": 10011098,
+          "before": "3000d47c0000",
+          "after": "3000e67d0000",
+          "why": "battle message Printf: term display before particle resolution"
+        },
+        {
+          "fid": 27141,
+          "name": "L_Dungeon::Sense",
+          "address": 5649310,
+          "before": "41004c0d0000",
+          "after": "3000e57d0000",
+          "why": "sense dialog format built with the chosen term"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699324,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699680,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699884,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LTE)"
+        },
+        {
+          "fid": 32061,
+          "name": "KR_TermRefresh",
+          "address": 10437688,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32063,
+          "name": "KR_TermLoad",
+          "address": 10438666,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10436540,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (GTE)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10437072,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699234,
+          "before": "30003f7d0000",
+          "after": "3000e27d0000",
+          "why": "term menu opening load reports v2 entries reset by the new default"
+        },
+        {
+          "fid": 27936,
+          "name": "C_SelectDialog@CreateParts",
+          "address": 10027116,
+          "before": "000030000000",
+          "after": "3000e37d0000",
+          "why": "select dialog type 2026091602 title padding from KR_T8TitlePad (48 unless an achievement page opted in)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699420,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699992,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32168,
+          "name": "KR_PlayerRename",
+          "address": 10786436,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10700760,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 28664,
+          "name": "C_SceneDungeon@StepedOnCell",
+          "address": 10866430,
+          "before": "30008b7c0000",
+          "after": "3000167e0000",
+          "why": "instant disarm posts a notice (that path has no dialog)"
+        },
+        {
+          "fid": 28654,
+          "name": "C_SceneDungeon@Trap",
+          "address": 6373242,
+          "before": "3000076a0000",
+          "after": "3000177e0000",
+          "why": "disarm result kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5667784,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5668964,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669476,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669904,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5670358,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670852,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670878,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672436,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672556,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672710,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672864,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673760,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673786,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675018,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675138,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675292,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675446,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27166,
+          "name": "L_Trap::Execute05",
+          "address": 5677188,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27167,
+          "name": "L_Trap::Execute06",
+          "address": 5677798,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27168,
+          "name": "L_Trap::Execute07",
+          "address": 5677902,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27169,
+          "name": "L_Trap::Execute08",
+          "address": 5678006,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27170,
+          "name": "L_Trap::Execute09",
+          "address": 5678110,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27171,
+          "name": "L_Trap::Execute10",
+          "address": 5678214,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27172,
+          "name": "L_Trap::Execute11",
+          "address": 5678318,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27173,
+          "name": "L_Trap::Execute12",
+          "address": 5678422,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        }
+      ],
+      "relocated": [
+        26671,
+        26672,
+        26902,
+        27194,
+        27778,
+        28571,
+        28572,
+        29817,
+        29818,
+        31881,
+        31904,
+        31905,
+        31968,
+        32055,
+        32056,
+        32057,
+        32158,
+        32159,
+        32171,
+        32207,
+        32208
+      ],
+      "terms": [
+        "히카리",
+        "카샤",
+        "치로",
+        "틈새",
+        "얼어붙은 밤",
+        "참된 달",
+        "참된 밤",
+        "호무라"
+      ],
+      "home_panel": {
+        "pact_entry": 177,
+        "group": "KR_HomeRate",
+        "parts": [
+          "KR_HomeRateTitle",
+          "KR_HomeRateBody"
+        ],
+        "origin": [
+          0,
+          20
+        ],
+        "font_type": 259,
+        "toggle": "KR_HomeRateToggle",
+        "toggle_pos": [
+          783,
+          38
+        ],
+        "toggle_label": "본거지에 달성률 표시",
+        "preference_file": "YoruKR_HomeRate.dat",
+        "default": "off",
+        "shown_by": "C_SceneHomebaseView@BeginTop (prepended KR_T8HomeEnter)",
+        "hidden_by": "C_SceneHomebaseView@EndTop (prepended KR_T8HomeLeave)"
+      },
+      "trap_notice": {
+        "instant_site": "C_SceneDungeon@StepedOnCell",
+        "relieve_site": "C_SceneDungeon@Trap",
+        "dialog_sites": 25,
+        "notice": "KR_ChestShow (Codex dungeon notice, 3 lines, 4.5 s)"
+      },
+      "colors": {
+        "prepended": {
+          "KR_ChestShow": "KR_T8ChestColor",
+          "KR_NoticeShow": "KR_T8ReceiptColor",
+          "KR_SweepReport": "KR_T8SweepColor"
+        },
+        "message_dialog": "C_MessageDialog@Create: Tag::set(true) (vtable slot 25) before Text::set when the text contains ${font",
+        "pact160": {
+          "KR_ChestLine1": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ChestLine2": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ChestLine3": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ReceiptBody": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          }
+        }
+      },
+      "char_events": {
+        "rows": [
+          {
+            "person": 2,
+            "name": "이즈미",
+            "events": 126,
+            "by_group": {
+              "0": 1,
+              "1": 62,
+              "2": 6,
+              "3": 57
+            }
+          },
+          {
+            "person": 3,
+            "name": "쿄카",
+            "events": 129,
+            "by_group": {
+              "0": 1,
+              "1": 54,
+              "2": 6,
+              "3": 68
+            }
+          },
+          {
+            "person": 4,
+            "name": "마나미",
+            "events": 121,
+            "by_group": {
+              "0": 1,
+              "1": 46,
+              "2": 6,
+              "3": 68
+            }
+          },
+          {
+            "person": 5,
+            "name": "마코토",
+            "events": 109,
+            "by_group": {
+              "0": 1,
+              "1": 42,
+              "2": 6,
+              "3": 60
+            }
+          },
+          {
+            "person": 6,
+            "name": "신카이",
+            "events": 109,
+            "by_group": {
+              "1": 43,
+              "2": 6,
+              "3": 60
+            }
+          },
+          {
+            "person": 7,
+            "name": "호시카와",
+            "events": 132,
+            "by_group": {
+              "1": 65,
+              "2": 6,
+              "3": 61
+            }
+          },
+          {
+            "person": 8,
+            "name": "모모세",
+            "events": 108,
+            "by_group": {
+              "1": 35,
+              "2": 6,
+              "3": 67
+            }
+          }
+        ],
+        "basis": "catalog triggers naming the person (person or person2); this save (IsRegisteredEvent)"
+      },
+      "sweep_lost": {
+        "recorder": "L_TreasureBox::ShowGetDialog (prepended KR_T8SweepChest(txt); records only while KR_SweepActive)",
+        "reset": "KR_SweepPay (prepended KR_T8SweepLostReset)",
+        "report": "KR_T8SweepColor: KR_SweepItems fixed line replaced by the lost list"
+      },
+      "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+    },
+    "club_wall_bilingual_revision": {
+      "status": "CLUB_WALL_BILINGUAL_INSTALLED_ENGINE_PASS",
+      "time": "2026-09-24T08:46:50.826178+09:00",
+      "files": {
+        "NightRemasterCG.afa": "7d8955c039b34627b646cd4982f521dface02f0df7abea681e70e759ecfc473e"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\club_wall_bilingual_20260924",
+      "changed_entries": [
+        485,
+        981,
+        1004,
+        1318,
+        1319
+      ],
+      "unchanged_code": {
+        "NightRemaster.ain": "a1f494a2974a2e2addb8fb7d44aa41ee6410190453be349a6a414a91612d76db",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e"
+      },
+      "save_writes": 0,
+      "translator_model": "Codex internal",
+      "engine_render_verified": true,
+      "gameplay_verified": false
+    },
+    "club_wall_cancel_revision": {
+      "status": "BILINGUAL_BANNERS_INSTALLED_CLUB_WALL_ORIGINAL",
+      "time": "2026-09-24T08:53:31.090667+09:00",
+      "reason": "User explicitly cancelled clubroom placard localization.",
+      "restored_entries": [
+        1318,
+        1319
+      ],
+      "retained_bilingual_entries": [
+        485,
+        981,
+        1004
+      ],
+      "files": {
+        "NightRemasterCG.afa": "9a54dc07dc92e56b9d3caa667fca296d481e1601e9f14146d7037453ec151a0b"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\club_wall_cancel_20260924",
+      "code_unchanged": {
+        "NightRemaster.ain": "a1f494a2974a2e2addb8fb7d44aa41ee6410190453be349a6a414a91612d76db",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e"
+      },
+      "save_writes": 0
+    },
+    "claude_term_rate_r7_revision": {
+      "status": "CLAUDE_TERM_RATE_R7_INSTALLED_NATIVE_PASS",
+      "time": "2026-09-24T09:49:15.578979+09:00",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "files": {
+        "NightRemaster.ain": "91ec9dab81c994d1ba8c95ee520bb558cbc28fdedb5cfd551c3a5b319fe075eb",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e",
+        "NightRemasterEX.ex": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0"
+      },
+      "source_files": {
+        "NightRemaster.ain": "a1f494a2974a2e2addb8fb7d44aa41ee6410190453be349a6a414a91612d76db",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e",
+        "NightRemasterEX.ex": "83304ebe454b756c46778de9d3e746b2cce59adad2943b96fb0a48015416072a"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\claude_term_rate_20260924_r7",
+      "changes": [
+        "monster names localized (EX block 7): 바쿠→맥, 베로베로→날름날름, 어우두→소머리, 무지개빛 새→무지갯빛 새, 케무질러→털뭉치, 케무게라→푸른 털뭉치, 샤치토라→범고래호랑이, 염원라→불바퀴",
+        "Codex CT-RATE-003: home-rate toggle commits only after a verified write; failed write keeps the previous state; retried after the player changes it",
+        "r6: sweep carry-limit list; r5: coloured result texts, per-character event rates"
+      ],
+      "native_probe_verified": true,
+      "native_ui_verified": true,
+      "screen_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 40,
+      "frames_checked": 1005,
+      "changed_PACT": [
+        160,
+        177,
+        185
+      ],
+      "same_length_sites": [
+        {
+          "fid": 29214,
+          "name": "C_BattleMessageView@Printf",
+          "address": 10011098,
+          "before": "3000d47c0000",
+          "after": "3000e67d0000",
+          "why": "battle message Printf: term display before particle resolution"
+        },
+        {
+          "fid": 27141,
+          "name": "L_Dungeon::Sense",
+          "address": 5649310,
+          "before": "41004c0d0000",
+          "after": "3000e57d0000",
+          "why": "sense dialog format built with the chosen term"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699324,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699680,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699884,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LTE)"
+        },
+        {
+          "fid": 32061,
+          "name": "KR_TermRefresh",
+          "address": 10437688,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32063,
+          "name": "KR_TermLoad",
+          "address": 10438666,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10436540,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (GTE)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10437072,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699234,
+          "before": "30003f7d0000",
+          "after": "3000e27d0000",
+          "why": "term menu opening load reports v2 entries reset by the new default"
+        },
+        {
+          "fid": 27936,
+          "name": "C_SelectDialog@CreateParts",
+          "address": 10027116,
+          "before": "000030000000",
+          "after": "3000e37d0000",
+          "why": "select dialog type 2026091602 title padding from KR_T8TitlePad (48 unless an achievement page opted in)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699420,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699992,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32168,
+          "name": "KR_PlayerRename",
+          "address": 10786436,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10700760,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 28664,
+          "name": "C_SceneDungeon@StepedOnCell",
+          "address": 10866430,
+          "before": "30008b7c0000",
+          "after": "3000167e0000",
+          "why": "instant disarm posts a notice (that path has no dialog)"
+        },
+        {
+          "fid": 28654,
+          "name": "C_SceneDungeon@Trap",
+          "address": 6373242,
+          "before": "3000076a0000",
+          "after": "3000177e0000",
+          "why": "disarm result kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5667784,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5668964,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669476,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669904,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5670358,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670852,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670878,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672436,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672556,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672710,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672864,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673760,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673786,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675018,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675138,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675292,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675446,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27166,
+          "name": "L_Trap::Execute05",
+          "address": 5677188,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27167,
+          "name": "L_Trap::Execute06",
+          "address": 5677798,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27168,
+          "name": "L_Trap::Execute07",
+          "address": 5677902,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27169,
+          "name": "L_Trap::Execute08",
+          "address": 5678006,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27170,
+          "name": "L_Trap::Execute09",
+          "address": 5678110,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27171,
+          "name": "L_Trap::Execute10",
+          "address": 5678214,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27172,
+          "name": "L_Trap::Execute11",
+          "address": 5678318,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27173,
+          "name": "L_Trap::Execute12",
+          "address": 5678422,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        }
+      ],
+      "relocated": [
+        26671,
+        26672,
+        26902,
+        27194,
+        27778,
+        28571,
+        28572,
+        29817,
+        29818,
+        31881,
+        31904,
+        31905,
+        31968,
+        32055,
+        32056,
+        32057,
+        32158,
+        32159,
+        32171,
+        32207,
+        32208
+      ],
+      "terms": [
+        "히카리",
+        "카샤",
+        "치로",
+        "틈새",
+        "얼어붙은 밤",
+        "참된 달",
+        "참된 밤",
+        "호무라"
+      ],
+      "home_panel": {
+        "pact_entry": 177,
+        "group": "KR_HomeRate",
+        "parts": [
+          "KR_HomeRateTitle",
+          "KR_HomeRateBody"
+        ],
+        "origin": [
+          0,
+          20
+        ],
+        "font_type": 259,
+        "toggle": "KR_HomeRateToggle",
+        "toggle_pos": [
+          783,
+          38
+        ],
+        "toggle_label": "본거지에 달성률 표시",
+        "preference_file": "YoruKR_HomeRate.dat",
+        "default": "off",
+        "shown_by": "C_SceneHomebaseView@BeginTop (prepended KR_T8HomeEnter)",
+        "hidden_by": "C_SceneHomebaseView@EndTop (prepended KR_T8HomeLeave)"
+      },
+      "trap_notice": {
+        "instant_site": "C_SceneDungeon@StepedOnCell",
+        "relieve_site": "C_SceneDungeon@Trap",
+        "dialog_sites": 25,
+        "notice": "KR_ChestShow (Codex dungeon notice, 3 lines, 4.5 s)"
+      },
+      "colors": {
+        "prepended": {
+          "KR_ChestShow": "KR_T8ChestColor",
+          "KR_NoticeShow": "KR_T8ReceiptColor",
+          "KR_SweepReport": "KR_T8SweepColor"
+        },
+        "message_dialog": "C_MessageDialog@Create: Tag::set(true) (vtable slot 25) before Text::set when the text contains ${font",
+        "pact160": {
+          "KR_ChestLine1": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ChestLine2": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ChestLine3": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ReceiptBody": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          }
+        }
+      },
+      "char_events": {
+        "rows": [
+          {
+            "person": 2,
+            "name": "이즈미",
+            "events": 126,
+            "by_group": {
+              "0": 1,
+              "1": 62,
+              "2": 6,
+              "3": 57
+            }
+          },
+          {
+            "person": 3,
+            "name": "쿄카",
+            "events": 129,
+            "by_group": {
+              "0": 1,
+              "1": 54,
+              "2": 6,
+              "3": 68
+            }
+          },
+          {
+            "person": 4,
+            "name": "마나미",
+            "events": 121,
+            "by_group": {
+              "0": 1,
+              "1": 46,
+              "2": 6,
+              "3": 68
+            }
+          },
+          {
+            "person": 5,
+            "name": "마코토",
+            "events": 109,
+            "by_group": {
+              "0": 1,
+              "1": 42,
+              "2": 6,
+              "3": 60
+            }
+          },
+          {
+            "person": 6,
+            "name": "신카이",
+            "events": 109,
+            "by_group": {
+              "1": 43,
+              "2": 6,
+              "3": 60
+            }
+          },
+          {
+            "person": 7,
+            "name": "호시카와",
+            "events": 132,
+            "by_group": {
+              "1": 65,
+              "2": 6,
+              "3": 61
+            }
+          },
+          {
+            "person": 8,
+            "name": "모모세",
+            "events": 108,
+            "by_group": {
+              "1": 35,
+              "2": 6,
+              "3": 67
+            }
+          }
+        ],
+        "basis": "catalog triggers naming the person (person or person2); this save (IsRegisteredEvent)"
+      },
+      "sweep_lost": {
+        "recorder": "L_TreasureBox::ShowGetDialog (prepended KR_T8SweepChest(txt); records only while KR_SweepActive)",
+        "reset": "KR_SweepPay (prepended KR_T8SweepLostReset)",
+        "report": "KR_T8SweepColor: KR_SweepItems fixed line replaced by the lost list"
+      },
+      "monster_names": {
+        "edits": [
+          {
+            "stable_id": "EX:7:17:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              16,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "바쿠",
+            "source": "獏",
+            "target": "맥",
+            "category": "enemy_name",
+            "reason": "꿈을 먹는 맥(獏); 사용자 예시",
+            "width_px": 15.5
+          },
+          {
+            "stable_id": "EX:7:28:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              27,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "베로베로",
+            "source": "ベロベロ",
+            "target": "날름날름",
+            "category": "enemy_name",
+            "reason": "혀로 핥는 의태어 べろべろ; 공격도 핥기",
+            "width_px": 62.0
+          },
+          {
+            "stable_id": "EX:7:23:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              22,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "어우두",
+            "source": "御牛頭",
+            "target": "소머리",
+            "category": "enemy_name",
+            "reason": "지옥의 소머리 귀신(牛頭); 짝인 牝馬頭가 이미 암말머리",
+            "width_px": 46.5
+          },
+          {
+            "stable_id": "EX:7:27:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              26,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "무지개빛 새",
+            "source": "虹光鳥",
+            "target": "무지갯빛 새",
+            "category": "enemy_name",
+            "reason": "맞춤법(사이시옷)",
+            "width_px": 82.5
+          },
+          {
+            "stable_id": "EX:7:3:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              2,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "케무질러",
+            "source": "ケムジラー",
+            "target": "털뭉치",
+            "category": "enemy_name",
+            "reason": "毛むくじゃら(털북숭이)에서 온 이름, 갈색 털 뭉치 그림",
+            "width_px": 46.5
+          },
+          {
+            "stable_id": "EX:7:21:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              20,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "케무게라",
+            "source": "ケムゲラー",
+            "target": "푸른 털뭉치",
+            "category": "enemy_name",
+            "reason": "같은 계열의 파란 털 뭉치(번개)",
+            "width_px": 82.5
+          },
+          {
+            "stable_id": "EX:7:6:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              5,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "샤치토라",
+            "source": "車地虎",
+            "target": "범고래호랑이",
+            "category": "enemy_name",
+            "reason": "シャチ(범고래)+トラ(호랑이), 호랑이 머리에 물고기 꼬리",
+            "width_px": 93.0
+          },
+          {
+            "stable_id": "EX:7:18:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              17,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "염원라",
+            "source": "炎円羅",
+            "target": "불바퀴",
+            "category": "enemy_name",
+            "reason": "炎(불)+円(둥근 바퀴), 불타는 바퀴 그림; 煙々羅 말장난",
+            "width_px": 46.5
+          }
+        ],
+        "ex": {
+          "source_sha256": "83304ebe454b756c46778de9d3e746b2cce59adad2943b96fb0a48015416072a",
+          "candidate_sha256": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0",
+          "changed_display_leaves": 8,
+          "structure_and_all_scalars_exact": true,
+          "exact_inverse_pass": true,
+          "deterministic": true
+        },
+        "budget": "font 1, 20px, 140px (Codex enemy-name layout check)"
+      },
+      "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+    },
+    "claude_term_rate_r9_revision": {
+      "status": "CLAUDE_TERM_RATE_R9_INSTALLED_NATIVE_PASS",
+      "time": "2026-09-24T18:34:47.628266+09:00",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "files": {
+        "NightRemaster.ain": "03db910af41b31d2d183dff907aa28c27026f57b3c49d90ec232893667490850",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e",
+        "NightRemasterEX.ex": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0"
+      },
+      "source_files": {
+        "NightRemaster.ain": "91ec9dab81c994d1ba8c95ee520bb558cbc28fdedb5cfd551c3a5b319fe075eb",
+        "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e",
+        "NightRemasterEX.ex": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0"
+      },
+      "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\claude_term_rate_20260924_r9",
+      "changes": [
+        "캐릭터별 남은 이벤트 (플레이 정보): per character, unseen events of this save by month and kind, date windows and intimacy conditions of personal/story events, 지남 once passed",
+        "daily and weekly autosaves: every morning the game's own autosave runs; Monday -> weekly slot 49 (page 10, 주간), other days -> 999 (일간); rest cells/ending keep 999",
+        "weekly slot locked in the save screen, skipped by the newest-manual search, same label font and save comment as 999; game-over resume loads the newer autosave",
+        "r7: monster names, CT-RATE-003; r6: sweep carry-limit list; r5: coloured result texts, per-character event rates"
+      ],
+      "native_probe_verified": true,
+      "native_ui_verified": true,
+      "screen_verified": false,
+      "persistent_return_offsets_exact": true,
+      "MSG1_exact": true,
+      "save_schema_changes": 0,
+      "save_writes": 0,
+      "existing_saves_checked": 40,
+      "frames_checked": 1005,
+      "changed_PACT": [
+        160,
+        177,
+        185
+      ],
+      "same_length_sites": [
+        {
+          "fid": 29214,
+          "name": "C_BattleMessageView@Printf",
+          "address": 10011098,
+          "before": "3000d47c0000",
+          "after": "3000e67d0000",
+          "why": "battle message Printf: term display before particle resolution"
+        },
+        {
+          "fid": 27141,
+          "name": "L_Dungeon::Sense",
+          "address": 5649310,
+          "before": "41004c0d0000",
+          "after": "3000e57d0000",
+          "why": "sense dialog format built with the chosen term"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699324,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699680,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699884,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LTE)"
+        },
+        {
+          "fid": 32061,
+          "name": "KR_TermRefresh",
+          "address": 10437688,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32063,
+          "name": "KR_TermLoad",
+          "address": 10438666,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10436540,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (GTE)"
+        },
+        {
+          "fid": 32060,
+          "name": "KR_TermValid",
+          "address": 10437072,
+          "before": "000007000000",
+          "after": "000008000000",
+          "why": "term count 7 -> 8 (LT)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699234,
+          "before": "30003f7d0000",
+          "after": "3000e27d0000",
+          "why": "term menu opening load reports v2 entries reset by the new default"
+        },
+        {
+          "fid": 27936,
+          "name": "C_SelectDialog@CreateParts",
+          "address": 10027116,
+          "before": "000030000000",
+          "after": "3000e37d0000",
+          "why": "select dialog type 2026091602 title padding from KR_T8TitlePad (48 unless an achievement page opted in)"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699420,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10699992,
+          "before": "3000377d0000",
+          "after": "3000db7d0000",
+          "why": "term menu row/preset title shows the original Japanese word"
+        },
+        {
+          "fid": 32168,
+          "name": "KR_PlayerRename",
+          "address": 10786436,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 32160,
+          "name": "KR_TermMenu",
+          "address": 10700760,
+          "before": "3000d57d0000",
+          "after": "3000dd7d0000",
+          "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+        },
+        {
+          "fid": 28664,
+          "name": "C_SceneDungeon@StepedOnCell",
+          "address": 10866430,
+          "before": "30008b7c0000",
+          "after": "3000167e0000",
+          "why": "instant disarm posts a notice (that path has no dialog)"
+        },
+        {
+          "fid": 28654,
+          "name": "C_SceneDungeon@Trap",
+          "address": 6373242,
+          "before": "3000076a0000",
+          "after": "3000177e0000",
+          "why": "disarm result kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5667784,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27162,
+          "name": "L_Trap::Execute01",
+          "address": 5668964,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669476,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5669904,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27163,
+          "name": "L_Trap::Execute02",
+          "address": 5670358,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670852,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5670878,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672436,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672556,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672710,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27164,
+          "name": "L_Trap::Execute03",
+          "address": 5672864,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673760,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5673786,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675018,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675138,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675292,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27165,
+          "name": "L_Trap::Execute04",
+          "address": 5675446,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27166,
+          "name": "L_Trap::Execute05",
+          "address": 5677188,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27167,
+          "name": "L_Trap::Execute06",
+          "address": 5677798,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27168,
+          "name": "L_Trap::Execute07",
+          "address": 5677902,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27169,
+          "name": "L_Trap::Execute08",
+          "address": 5678006,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27170,
+          "name": "L_Trap::Execute09",
+          "address": 5678110,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27171,
+          "name": "L_Trap::Execute10",
+          "address": 5678214,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27172,
+          "name": "L_Trap::Execute11",
+          "address": 5678318,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 27173,
+          "name": "L_Trap::Execute12",
+          "address": 5678422,
+          "before": "3000666c0000",
+          "after": "3000187e0000",
+          "why": "trap effect dialog also kept as a notice line"
+        },
+        {
+          "fid": 30087,
+          "name": "呼出／１日の始まり",
+          "address": 7038200,
+          "before": "30005b6b0000",
+          "after": "3000287e0000",
+          "why": "day-start autosave every morning (was Mondays only)"
+        },
+        {
+          "fid": 30087,
+          "name": "呼出／１日の始まり",
+          "address": 7038226,
+          "before": "0000e7030000",
+          "after": "3000297e0000",
+          "why": "day-start autosave slot: Monday -> weekly slot 49, other days -> 999"
+        },
+        {
+          "fid": 29554,
+          "name": "C_SceneSaveLoad@IsExecLoad",
+          "address": 6800070,
+          "before": "3000d76c0000",
+          "after": "30002e7e0000",
+          "why": "load confirm title names the daily/weekly autosave"
+        },
+        {
+          "fid": 28180,
+          "name": "C_SceneGame@ExecGameOver",
+          "address": 6037622,
+          "before": "0000e7030000",
+          "after": "3000307e0000",
+          "why": "game-over resume: the newer of the daily/weekly autosave"
+        },
+        {
+          "fid": 28180,
+          "name": "C_SceneGame@ExecGameOver",
+          "address": 6038030,
+          "before": "0000e7030000",
+          "after": "3000307e0000",
+          "why": "game-over resume: the newer of the daily/weekly autosave"
+        }
+      ],
+      "relocated": [
+        26671,
+        26672,
+        26902,
+        27194,
+        27778,
+        28571,
+        28572,
+        29574,
+        29577,
+        29602,
+        29603,
+        29648,
+        29817,
+        29818,
+        31881,
+        31904,
+        31905,
+        31968,
+        32055,
+        32056,
+        32057,
+        32158,
+        32159,
+        32171,
+        32207,
+        32208
+      ],
+      "terms": [
+        "히카리",
+        "카샤",
+        "치로",
+        "틈새",
+        "얼어붙은 밤",
+        "참된 달",
+        "참된 밤",
+        "호무라"
+      ],
+      "home_panel": {
+        "pact_entry": 177,
+        "group": "KR_HomeRate",
+        "parts": [
+          "KR_HomeRateTitle",
+          "KR_HomeRateBody"
+        ],
+        "origin": [
+          0,
+          20
+        ],
+        "font_type": 259,
+        "toggle": "KR_HomeRateToggle",
+        "toggle_pos": [
+          783,
+          38
+        ],
+        "toggle_label": "본거지에 달성률 표시",
+        "preference_file": "YoruKR_HomeRate.dat",
+        "default": "off",
+        "shown_by": "C_SceneHomebaseView@BeginTop (prepended KR_T8HomeEnter)",
+        "hidden_by": "C_SceneHomebaseView@EndTop (prepended KR_T8HomeLeave)"
+      },
+      "trap_notice": {
+        "instant_site": "C_SceneDungeon@StepedOnCell",
+        "relieve_site": "C_SceneDungeon@Trap",
+        "dialog_sites": 25,
+        "notice": "KR_ChestShow (Codex dungeon notice, 3 lines, 4.5 s)"
+      },
+      "colors": {
+        "prepended": {
+          "KR_ChestShow": "KR_T8ChestColor",
+          "KR_NoticeShow": "KR_T8ReceiptColor",
+          "KR_SweepReport": "KR_T8SweepColor"
+        },
+        "message_dialog": "C_MessageDialog@Create: Tag::set(true) (vtable slot 25) before Text::set when the text contains ${font",
+        "pact160": {
+          "KR_ChestLine1": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ChestLine2": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ChestLine3": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          },
+          "KR_ReceiptBody": {
+            "tag_before": 0,
+            "color_before": [
+              255,
+              224,
+              96
+            ],
+            "tag_after": 1,
+            "color_after": [
+              255,
+              255,
+              255
+            ]
+          }
+        }
+      },
+      "char_events": {
+        "rows": [
+          {
+            "person": 2,
+            "name": "이즈미",
+            "events": 126,
+            "by_group": {
+              "0": 1,
+              "1": 62,
+              "2": 6,
+              "3": 57
+            }
+          },
+          {
+            "person": 3,
+            "name": "쿄카",
+            "events": 129,
+            "by_group": {
+              "0": 1,
+              "1": 54,
+              "2": 6,
+              "3": 68
+            }
+          },
+          {
+            "person": 4,
+            "name": "마나미",
+            "events": 121,
+            "by_group": {
+              "0": 1,
+              "1": 46,
+              "2": 6,
+              "3": 68
+            }
+          },
+          {
+            "person": 5,
+            "name": "마코토",
+            "events": 109,
+            "by_group": {
+              "0": 1,
+              "1": 42,
+              "2": 6,
+              "3": 60
+            }
+          },
+          {
+            "person": 6,
+            "name": "신카이",
+            "events": 109,
+            "by_group": {
+              "1": 43,
+              "2": 6,
+              "3": 60
+            }
+          },
+          {
+            "person": 7,
+            "name": "호시카와",
+            "events": 132,
+            "by_group": {
+              "1": 65,
+              "2": 6,
+              "3": 61
+            }
+          },
+          {
+            "person": 8,
+            "name": "모모세",
+            "events": 108,
+            "by_group": {
+              "1": 35,
+              "2": 6,
+              "3": 67
+            }
+          }
+        ],
+        "basis": "catalog triggers naming the person (person or person2); this save (IsRegisteredEvent)"
+      },
+      "sweep_lost": {
+        "recorder": "L_TreasureBox::ShowGetDialog (prepended KR_T8SweepChest(txt); records only while KR_SweepActive)",
+        "reset": "KR_SweepPay (prepended KR_T8SweepLostReset)",
+        "report": "KR_T8SweepColor: KR_SweepItems fixed line replaced by the lost list"
+      },
+      "monster_names": {
+        "edits": [
+          {
+            "stable_id": "EX:7:17:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              16,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "바쿠",
+            "source": "獏",
+            "target": "맥",
+            "category": "enemy_name",
+            "reason": "꿈을 먹는 맥(獏); 사용자 예시",
+            "width_px": 15.5
+          },
+          {
+            "stable_id": "EX:7:28:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              27,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "베로베로",
+            "source": "ベロベロ",
+            "target": "날름날름",
+            "category": "enemy_name",
+            "reason": "혀로 핥는 의태어 べろべろ; 공격도 핥기",
+            "width_px": 62.0
+          },
+          {
+            "stable_id": "EX:7:23:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              22,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "어우두",
+            "source": "御牛頭",
+            "target": "소머리",
+            "category": "enemy_name",
+            "reason": "지옥의 소머리 귀신(牛頭); 짝인 牝馬頭가 이미 암말머리",
+            "width_px": 46.5
+          },
+          {
+            "stable_id": "EX:7:27:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              26,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "무지개빛 새",
+            "source": "虹光鳥",
+            "target": "무지갯빛 새",
+            "category": "enemy_name",
+            "reason": "맞춤법(사이시옷)",
+            "width_px": 82.5
+          },
+          {
+            "stable_id": "EX:7:3:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              2,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "케무질러",
+            "source": "ケムジラー",
+            "target": "털뭉치",
+            "category": "enemy_name",
+            "reason": "毛むくじゃら(털북숭이)에서 온 이름, 갈색 털 뭉치 그림",
+            "width_px": 46.5
+          },
+          {
+            "stable_id": "EX:7:21:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              20,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "케무게라",
+            "source": "ケムゲラー",
+            "target": "푸른 털뭉치",
+            "category": "enemy_name",
+            "reason": "같은 계열의 파란 털 뭉치(번개)",
+            "width_px": 82.5
+          },
+          {
+            "stable_id": "EX:7:6:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              5,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "샤치토라",
+            "source": "車地虎",
+            "target": "범고래호랑이",
+            "category": "enemy_name",
+            "reason": "シャチ(범고래)+トラ(호랑이), 호랑이 머리에 물고기 꼬리",
+            "width_px": 93.0
+          },
+          {
+            "stable_id": "EX:7:18:name",
+            "path": [
+              "block",
+              7,
+              "value",
+              "child",
+              17,
+              "leaf_value",
+              "item",
+              2,
+              "value"
+            ],
+            "before": "염원라",
+            "source": "炎円羅",
+            "target": "불바퀴",
+            "category": "enemy_name",
+            "reason": "炎(불)+円(둥근 바퀴), 불타는 바퀴 그림; 煙々羅 말장난",
+            "width_px": 46.5
+          }
+        ],
+        "ex": {
+          "source_sha256": "83304ebe454b756c46778de9d3e746b2cce59adad2943b96fb0a48015416072a",
+          "candidate_sha256": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0",
+          "changed_display_leaves": 8,
+          "structure_and_all_scalars_exact": true,
+          "exact_inverse_pass": true,
+          "deterministic": true
+        },
+        "budget": "font 1, 20px, 140px (Codex enemy-name layout check)"
+      },
+      "autosave": {
+        "relocated": {
+          "C_SaveLoadViewCell@GetDispSaveNo": "redirect to KR_T8DispSaveNo",
+          "C_SaveLoadViewCell@GetSaveNoFont": "prepend saveNo = KR_T8AutoAlias(saveNo)",
+          "C_SceneSaveLoadView@GetSaveComment": "prepend saveNo = KR_T8AutoAlias(saveNo)",
+          "C_SceneSaveLoadView@Update": "3x (saveNo != 999) -> KR_T8IsManualSlot(saveNo) in the save-mode branch",
+          "N_SaveLoad::GetNewDataNo": "IsExistFile(chkDataNo) -> KR_T8NewestExists(chkDataNo, bAuto)"
+        },
+        "function": "呼出／１日の始まり",
+        "fid": 30087,
+        "site_offset": 316,
+        "slot_offset": 342,
+        "autosave_call_offset": 348,
+        "autosave_return_offset": 354,
+        "kept_day_of_week_call_offset": 790,
+        "daily_slot": 999,
+        "weekly_slot": 49,
+        "is_exec_load": {
+          "fid": 29554,
+          "site": 6800070
+        },
+        "game_over": {
+          "fid": 28180,
+          "sites": [
+            6037622,
+            6038030
+          ]
+        },
+        "schedule": "Monday morning -> weekly slot 49; other mornings, dungeon rest cells, before an ending -> 999",
+        "labels": {
+          "999": "일간",
+          "49": "주간"
+        },
+        "original": "GetDayOfWeek()==1 (Monday; 0 = Sunday in C_GameDate@GetDateString) -> 999",
+        "saved_stack": "C_SceneGame@Run > 呼出／１日の始まり > ■セーブ／オートセーブ実行 > C_SceneSaveLoad@RunAutoSave > ExecSave > Save (all original)"
+      },
+      "char_missing": {
+        "dated": [
+          {
+            "person": 2,
+            "key": "E10001",
+            "kind": "personal",
+            "text": "개인 4/21～6/16 친밀도 5 이상",
+            "to": [
+              6,
+              16
+            ]
+          },
+          {
+            "person": 2,
+            "key": "E10021",
+            "kind": "personal",
+            "text": "개인 5/5～6/30 친밀도 15 이상 · 앞 이벤트 뒤",
+            "to": [
+              6,
+              30
+            ]
+          },
+          {
+            "person": 2,
+            "key": "E10061",
+            "kind": "personal",
+            "text": "개인 8/4～8/24 친밀도 20 이상 · 앞 이벤트 뒤",
+            "to": [
+              8,
+              24
+            ]
+          },
+          {
+            "person": 2,
+            "key": "E10041",
+            "kind": "personal",
+            "text": "개인 9/8부터 친밀도 30 이상 · 앞 이벤트 뒤",
+            "to": null
+          },
+          {
+            "person": 2,
+            "key": "E10101",
+            "kind": "personal",
+            "text": "개인 10/27 반한 상태",
+            "to": [
+              10,
+              27
+            ]
+          },
+          {
+            "person": 2,
+            "key": "E10081",
+            "kind": "story",
+            "text": "본편 8/30 친밀도 22 이상",
+            "to": [
+              8,
+              30
+            ]
+          },
+          {
+            "person": 3,
+            "key": "E20021",
+            "kind": "personal",
+            "text": "개인 5/5～6/30 친밀도 15 이상",
+            "to": [
+              6,
+              30
+            ]
+          },
+          {
+            "person": 3,
+            "key": "E20041",
+            "kind": "personal",
+            "text": "개인 5/26～6/30 친밀도 25 이상 · 앞 이벤트 뒤",
+            "to": [
+              6,
+              30
+            ]
+          },
+          {
+            "person": 3,
+            "key": "E20061",
+            "kind": "story",
+            "text": "본편 7/27 친밀도 30 이상",
+            "to": [
+              7,
+              27
+            ]
+          },
+          {
+            "person": 3,
+            "key": "E20162",
+            "kind": "story",
+            "text": "본편 8/3 친밀도 35 이상",
+            "to": [
+              8,
+              3
+            ]
+          },
+          {
+            "person": 3,
+            "key": "E20163",
+            "kind": "story",
+            "text": "본편 8/6 앞 이벤트 뒤",
+            "to": [
+              8,
+              6
+            ]
+          },
+          {
+            "person": 3,
+            "key": "E20164",
+            "kind": "story",
+            "text": "본편 8/6 앞 이벤트 뒤",
+            "to": [
+              8,
+              6
+            ]
+          },
+          {
+            "person": 3,
+            "key": "E20171",
+            "kind": "story",
+            "text": "본편 8/7 앞 이벤트 뒤",
+            "to": [
+              8,
+              7
+            ]
+          },
+          {
+            "person": 3,
+            "key": "E20081",
+            "kind": "story",
+            "text": "본편 10/14 앞 이벤트 뒤",
+            "to": [
+              10,
+              14
+            ]
+          },
+          {
+            "person": 4,
+            "key": "E30001",
+            "kind": "personal",
+            "text": "개인 5/26～6/9 친밀도 5 이상",
+            "to": [
+              6,
+              9
+            ]
+          },
+          {
+            "person": 4,
+            "key": "E30021",
+            "kind": "personal",
+            "text": "개인 6/15～9/30 친밀도 15 이상",
+            "to": [
+              9,
+              30
+            ]
+          },
+          {
+            "person": 4,
+            "key": "E30061",
+            "kind": "story",
+            "text": "본편 10/14 앞 이벤트 뒤",
+            "to": [
+              10,
+              14
+            ]
+          },
+          {
+            "person": 4,
+            "key": "E00401",
+            "kind": "story",
+            "text": "본편 10/15 친밀도 60 이상 · 앞 이벤트 뒤",
+            "to": [
+              10,
+              15
+            ]
+          },
+          {
+            "person": 4,
+            "key": "E00402",
+            "kind": "story",
+            "text": "본편 10/17 앞 이벤트 뒤",
+            "to": [
+              10,
+              17
+            ]
+          },
+          {
+            "person": 4,
+            "key": "E00403",
+            "kind": "story",
+            "text": "본편 10/18 앞 이벤트 뒤",
+            "to": [
+              10,
+              18
+            ]
+          },
+          {
+            "person": 5,
+            "key": "E40001",
+            "kind": "personal",
+            "text": "개인 7/7～9/1 친밀도 10 이상",
+            "to": [
+              9,
+              1
+            ]
+          },
+          {
+            "person": 5,
+            "key": "E40021",
+            "kind": "personal",
+            "text": "개인 7/14～9/8 친밀도 15 이상 · 앞 이벤트 뒤",
+            "to": [
+              9,
+              8
+            ]
+          },
+          {
+            "person": 5,
+            "key": "E40041",
+            "kind": "personal",
+            "text": "개인 8/4～9/15 친밀도 20 이상 · 앞 이벤트 뒤",
+            "to": [
+              9,
+              15
+            ]
+          },
+          {
+            "person": 5,
+            "key": "E40101",
+            "kind": "personal",
+            "text": "개인 10/6～10/20 앞 이벤트 뒤",
+            "to": [
+              10,
+              20
+            ]
+          },
+          {
+            "person": 5,
+            "key": "E40061",
+            "kind": "story",
+            "text": "본편 8/11～9/15 친밀도 30 이상 · 앞 이벤트 뒤",
+            "to": [
+              9,
+              15
+            ]
+          }
+        ],
+        "rows": [
+          {
+            "person": 2,
+            "name": "이즈미",
+            "total": 126,
+            "categories": {
+              "104": 6,
+              "105": 7,
+              "106": 6,
+              "107": 8,
+              "108": 7,
+              "109": 8,
+              "110": 5,
+              "111": 6,
+              "200": 3,
+              "201": 7,
+              "202": 1,
+              "203": 1,
+              "300": 5,
+              "303": 9,
+              "304": 11,
+              "305": 9,
+              "306": 7,
+              "307": 7,
+              "308": 8
+            },
+            "personal": 5,
+            "story": 1
+          },
+          {
+            "person": 3,
+            "name": "쿄카",
+            "total": 129,
+            "categories": {
+              "104": 7,
+              "105": 7,
+              "106": 6,
+              "107": 7,
+              "108": 6,
+              "109": 5,
+              "110": 6,
+              "111": 4,
+              "200": 3,
+              "201": 7,
+              "202": 1,
+              "203": 1,
+              "300": 5,
+              "302": 9,
+              "304": 10,
+              "305": 8,
+              "306": 9,
+              "307": 14,
+              "308": 12
+            },
+            "personal": 2,
+            "story": 6
+          },
+          {
+            "person": 4,
+            "name": "마나미",
+            "total": 121,
+            "categories": {
+              "104": 3,
+              "105": 4,
+              "106": 7,
+              "107": 5,
+              "108": 5,
+              "109": 8,
+              "110": 5,
+              "111": 3,
+              "200": 3,
+              "201": 7,
+              "202": 1,
+              "300": 5,
+              "302": 11,
+              "303": 10,
+              "305": 12,
+              "306": 12,
+              "307": 8,
+              "308": 10
+            },
+            "personal": 2,
+            "story": 4
+          },
+          {
+            "person": 5,
+            "name": "마코토",
+            "total": 109,
+            "categories": {
+              "104": 3,
+              "105": 3,
+              "106": 6,
+              "108": 5,
+              "109": 5,
+              "110": 5,
+              "111": 5,
+              "200": 5,
+              "201": 7,
+              "202": 1,
+              "300": 5,
+              "302": 9,
+              "303": 8,
+              "304": 12,
+              "306": 8,
+              "307": 8,
+              "308": 10
+            },
+            "personal": 4,
+            "story": 1
+          },
+          {
+            "person": 6,
+            "name": "신카이",
+            "total": 109,
+            "categories": {
+              "104": 6,
+              "105": 6,
+              "106": 6,
+              "107": 5,
+              "108": 5,
+              "109": 5,
+              "110": 5,
+              "111": 5,
+              "201": 6,
+              "203": 1,
+              "300": 5,
+              "302": 7,
+              "303": 9,
+              "304": 12,
+              "305": 8,
+              "307": 8,
+              "308": 10
+            },
+            "personal": 0,
+            "story": 0
+          },
+          {
+            "person": 7,
+            "name": "호시카와",
+            "total": 132,
+            "categories": {
+              "104": 10,
+              "105": 10,
+              "106": 10,
+              "107": 10,
+              "108": 9,
+              "109": 6,
+              "110": 5,
+              "111": 5,
+              "201": 6,
+              "203": 1,
+              "300": 5,
+              "302": 7,
+              "303": 14,
+              "304": 8,
+              "305": 8,
+              "306": 8,
+              "308": 10
+            },
+            "personal": 0,
+            "story": 0
+          },
+          {
+            "person": 8,
+            "name": "모모세",
+            "total": 108,
+            "categories": {
+              "104": 3,
+              "105": 3,
+              "106": 3,
+              "107": 5,
+              "108": 5,
+              "109": 6,
+              "110": 5,
+              "111": 5,
+              "201": 6,
+              "300": 7,
+              "302": 8,
+              "303": 12,
+              "304": 10,
+              "305": 10,
+              "306": 10,
+              "307": 10
+            },
+            "personal": 0,
+            "story": 0
+          }
+        ],
+        "basis": "same attribution as the per-character rate (triggers naming the person); story = conditional events whose feeling person is the character (not in the rate)"
+      },
+      "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+    }
+  },
+  "source_files": {
+    "NightRemaster.ain": "03db910af41b31d2d183dff907aa28c27026f57b3c49d90ec232893667490850",
+    "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e",
+    "NightRemasterEX.ex": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0"
+  },
+  "files": {
+    "NightRemaster.ain": "292ec3867b688c81a0effbcb3fd1fda2f396f1909b0a5a096887e18c585e5bf2",
+    "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e",
+    "NightRemasterEX.ex": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0"
+  },
+  "added_functions": {
+    "KR_T8Default": 32218,
+    "KR_T8Label": 32219,
+    "KR_T8InputValue": 32220,
+    "KR_T8InputDialog": 32221,
+    "KR_T8Preset": 32222,
+    "KR_T8Cap": 32223,
+    "KR_T8ValidN": 32224,
+    "KR_T8ReadSafe": 32225,
+    "KR_T8MenuLoad": 32226,
+    "KR_T8TitlePad": 32227,
+    "KR_T8SaveSafe": 32228,
+    "KR_T8SenseFormat": 32229,
+    "KR_T8BattleText": 32230,
+    "KR_T8Dungeon": 32231,
+    "KR_T8Display": 32232,
+    "KR_T8Message": 32233,
+    "KR_T8ReadRange": 32234,
+    "KR_T8Read0": 32235,
+    "KR_T8ReadCount": 32236,
+    "KR_T8CgCount": 32237,
+    "KR_T8SceneCount": 32238,
+    "KR_T8EndingText": 32239,
+    "KR_T8EventDetail": 32240,
+    "KR_T8PlayerInfoMenu": 32241,
+    "KR_T8Tint": 32242,
+    "KR_T8Gold": 32243,
+    "KR_T8Cyan": 32244,
+    "KR_T8Green": 32245,
+    "KR_T8Red": 32246,
+    "KR_T8Orange": 32247,
+    "KR_T8Purple": 32248,
+    "KR_T8Yellow": 32249,
+    "KR_T8Gray": 32250,
+    "KR_T8At": 32251,
+    "KR_T8Has": 32252,
+    "KR_T8Tail": 32253,
+    "KR_T8WordAll": 32254,
+    "KR_T8Bracket": 32255,
+    "KR_T8Digits": 32256,
+    "KR_T8StoneColor": 32257,
+    "KR_T8TreasureLine": 32258,
+    "KR_T8TrapLine": 32259,
+    "KR_T8SweepItemColor": 32260,
+    "KR_T8Line": 32261,
+    "KR_T8Colorize": 32262,
+    "KR_T8TagPart": 32263,
+    "KR_T8ChestColor": 32264,
+    "KR_T8ReceiptColor": 32265,
+    "KR_T8SweepLostReset": 32266,
+    "KR_T8SweepAppend": 32267,
+    "KR_T8Number": 32268,
+    "KR_T8SweepChest": 32269,
+    "KR_T8LineCount": 32270,
+    "KR_T8Gained": 32271,
+    "KR_T8SweepLostLines": 32272,
+    "KR_T8SweepLostApply": 32273,
+    "KR_T8SweepColor": 32274,
+    "KR_T8TrapClear": 32275,
+    "KR_T8TrapNotice": 32276,
+    "KR_T8TrapCell": 32277,
+    "KR_T8NoticeInstant": 32278,
+    "KR_T8RelieveTrap": 32279,
+    "KR_T8TrapDialog": 32280,
+    "KR_T8HomeRateOn": 32281,
+    "KR_T8HomeRateGet": 32282,
+    "KR_T8HomeRateSet": 32283,
+    "KR_T8Pct": 32284,
+    "KR_T8EndingCount": 32285,
+    "KR_T8CharEvents": 32286,
+    "KR_T8CharTotal": 32287,
+    "KR_T8CharLabel": 32288,
+    "KR_T8HomeValue": 32289,
+    "KR_T8HomeRateText": 32290,
+    "KR_T8AreaName": 32291,
+    "KR_T8HomeShow": 32292,
+    "KR_T8HomeEnter": 32293,
+    "KR_T8HomeLeave": 32294,
+    "KR_T8WeeklySlot": 32295,
+    "KR_T8AutoSaveDay": 32296,
+    "KR_T8AutoSaveSlot": 32297,
+    "KR_T8IsManualSlot": 32298,
+    "KR_T8DispSaveNo": 32299,
+    "KR_T8AutoAlias": 32300,
+    "KR_T8NewestExists": 32301,
+    "KR_T8SlotTitle": 32302,
+    "KR_T8SaveStamp": 32303,
+    "KR_T8NewestAutoSlot": 32304,
+    "KR_T8Seen": 32305,
+    "KR_T8Open": 32306,
+    "KR_T8CurMonth": 32307,
+    "KR_T8Num": 32308,
+    "KR_T8Row": 32309,
+    "KR_T8CharName": 32310,
+    "KR_T8MissCount": 32311,
+    "KR_T8DatedOpen": 32312,
+    "KR_T8DatedPassed": 32313,
+    "KR_T8DatedInMonth": 32314,
+    "KR_T8DatedLines": 32315,
+    "KR_T8TalkOpen": 32316,
+    "KR_T8TalkPassed": 32317,
+    "KR_T8WalkTotal": 32318,
+    "KR_T8PlaceText": 32319,
+    "KR_T8DateText": 32320,
+    "KR_T8CondText": 32321,
+    "KR_T8PartyText": 32322,
+    "KR_T8InfoPage": 32323,
+    "KR_T8CharDatePage": 32324,
+    "KR_T8CharMissingPage": 32325,
+    "KR_T8CharMissingMenu": 32326
+  },
+  "relocated": [
+    26671,
+    26672,
+    26902,
+    27194,
+    27778,
+    28571,
+    28572,
+    29574,
+    29577,
+    29602,
+    29603,
+    29648,
+    29817,
+    29818,
+    31881,
+    31904,
+    31905,
+    31968,
+    32055,
+    32056,
+    32057,
+    32158,
+    32159,
+    32171,
+    32207,
+    32208
+  ],
+  "same_length_sites": [
+    {
+      "fid": 29214,
+      "name": "C_BattleMessageView@Printf",
+      "address": 10011098,
+      "before": "3000d47c0000",
+      "after": "3000e67d0000",
+      "why": "battle message Printf: term display before particle resolution"
+    },
+    {
+      "fid": 27141,
+      "name": "L_Dungeon::Sense",
+      "address": 5649310,
+      "before": "41004c0d0000",
+      "after": "3000e57d0000",
+      "why": "sense dialog format built with the chosen term"
+    },
+    {
+      "fid": 32160,
+      "name": "KR_TermMenu",
+      "address": 10699324,
+      "before": "000007000000",
+      "after": "000008000000",
+      "why": "term count 7 -> 8 (LT)"
+    },
+    {
+      "fid": 32160,
+      "name": "KR_TermMenu",
+      "address": 10699680,
+      "before": "000007000000",
+      "after": "000008000000",
+      "why": "term count 7 -> 8 (LT)"
+    },
+    {
+      "fid": 32160,
+      "name": "KR_TermMenu",
+      "address": 10699884,
+      "before": "000007000000",
+      "after": "000008000000",
+      "why": "term count 7 -> 8 (LTE)"
+    },
+    {
+      "fid": 32061,
+      "name": "KR_TermRefresh",
+      "address": 10437688,
+      "before": "000007000000",
+      "after": "000008000000",
+      "why": "term count 7 -> 8 (LT)"
+    },
+    {
+      "fid": 32063,
+      "name": "KR_TermLoad",
+      "address": 10438666,
+      "before": "000007000000",
+      "after": "000008000000",
+      "why": "term count 7 -> 8 (LT)"
+    },
+    {
+      "fid": 32060,
+      "name": "KR_TermValid",
+      "address": 10436540,
+      "before": "000007000000",
+      "after": "000008000000",
+      "why": "term count 7 -> 8 (GTE)"
+    },
+    {
+      "fid": 32060,
+      "name": "KR_TermValid",
+      "address": 10437072,
+      "before": "000007000000",
+      "after": "000008000000",
+      "why": "term count 7 -> 8 (LT)"
+    },
+    {
+      "fid": 32160,
+      "name": "KR_TermMenu",
+      "address": 10699234,
+      "before": "30003f7d0000",
+      "after": "3000e27d0000",
+      "why": "term menu opening load reports v2 entries reset by the new default"
+    },
+    {
+      "fid": 27936,
+      "name": "C_SelectDialog@CreateParts",
+      "address": 10027116,
+      "before": "000030000000",
+      "after": "3000e37d0000",
+      "why": "select dialog type 2026091602 title padding from KR_T8TitlePad (48 unless an achievement page opted in)"
+    },
+    {
+      "fid": 32160,
+      "name": "KR_TermMenu",
+      "address": 10699420,
+      "before": "3000377d0000",
+      "after": "3000db7d0000",
+      "why": "term menu row/preset title shows the original Japanese word"
+    },
+    {
+      "fid": 32160,
+      "name": "KR_TermMenu",
+      "address": 10699992,
+      "before": "3000377d0000",
+      "after": "3000db7d0000",
+      "why": "term menu row/preset title shows the original Japanese word"
+    },
+    {
+      "fid": 32168,
+      "name": "KR_PlayerRename",
+      "address": 10786436,
+      "before": "3000d57d0000",
+      "after": "3000dd7d0000",
+      "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+    },
+    {
+      "fid": 32160,
+      "name": "KR_TermMenu",
+      "address": 10700760,
+      "before": "3000d57d0000",
+      "after": "3000dd7d0000",
+      "why": "text input keeps the hook-delivered proxy text; CP949 still converted"
+    },
+    {
+      "fid": 28664,
+      "name": "C_SceneDungeon@StepedOnCell",
+      "address": 10866430,
+      "before": "30008b7c0000",
+      "after": "3000167e0000",
+      "why": "instant disarm posts a notice (that path has no dialog)"
+    },
+    {
+      "fid": 28654,
+      "name": "C_SceneDungeon@Trap",
+      "address": 6373242,
+      "before": "3000076a0000",
+      "after": "3000177e0000",
+      "why": "disarm result kept as a notice line"
+    },
+    {
+      "fid": 27162,
+      "name": "L_Trap::Execute01",
+      "address": 5667784,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27162,
+      "name": "L_Trap::Execute01",
+      "address": 5668964,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27163,
+      "name": "L_Trap::Execute02",
+      "address": 5669476,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27163,
+      "name": "L_Trap::Execute02",
+      "address": 5669904,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27163,
+      "name": "L_Trap::Execute02",
+      "address": 5670358,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27164,
+      "name": "L_Trap::Execute03",
+      "address": 5670852,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27164,
+      "name": "L_Trap::Execute03",
+      "address": 5670878,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27164,
+      "name": "L_Trap::Execute03",
+      "address": 5672436,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27164,
+      "name": "L_Trap::Execute03",
+      "address": 5672556,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27164,
+      "name": "L_Trap::Execute03",
+      "address": 5672710,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27164,
+      "name": "L_Trap::Execute03",
+      "address": 5672864,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27165,
+      "name": "L_Trap::Execute04",
+      "address": 5673760,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27165,
+      "name": "L_Trap::Execute04",
+      "address": 5673786,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27165,
+      "name": "L_Trap::Execute04",
+      "address": 5675018,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27165,
+      "name": "L_Trap::Execute04",
+      "address": 5675138,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27165,
+      "name": "L_Trap::Execute04",
+      "address": 5675292,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27165,
+      "name": "L_Trap::Execute04",
+      "address": 5675446,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27166,
+      "name": "L_Trap::Execute05",
+      "address": 5677188,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27167,
+      "name": "L_Trap::Execute06",
+      "address": 5677798,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27168,
+      "name": "L_Trap::Execute07",
+      "address": 5677902,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27169,
+      "name": "L_Trap::Execute08",
+      "address": 5678006,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27170,
+      "name": "L_Trap::Execute09",
+      "address": 5678110,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27171,
+      "name": "L_Trap::Execute10",
+      "address": 5678214,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27172,
+      "name": "L_Trap::Execute11",
+      "address": 5678318,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 27173,
+      "name": "L_Trap::Execute12",
+      "address": 5678422,
+      "before": "3000666c0000",
+      "after": "3000187e0000",
+      "why": "trap effect dialog also kept as a notice line"
+    },
+    {
+      "fid": 30087,
+      "name": "呼出／１日の始まり",
+      "address": 7038200,
+      "before": "30005b6b0000",
+      "after": "3000287e0000",
+      "why": "day-start autosave every morning (was Mondays only)"
+    },
+    {
+      "fid": 30087,
+      "name": "呼出／１日の始まり",
+      "address": 7038226,
+      "before": "0000e7030000",
+      "after": "3000297e0000",
+      "why": "day-start autosave slot: Monday -> weekly slot 49, other days -> 999"
+    },
+    {
+      "fid": 29554,
+      "name": "C_SceneSaveLoad@IsExecLoad",
+      "address": 6800070,
+      "before": "3000d76c0000",
+      "after": "30002e7e0000",
+      "why": "load confirm title names the daily/weekly autosave"
+    },
+    {
+      "fid": 28180,
+      "name": "C_SceneGame@ExecGameOver",
+      "address": 6037622,
+      "before": "0000e7030000",
+      "after": "3000307e0000",
+      "why": "game-over resume: the newer of the daily/weekly autosave"
+    },
+    {
+      "fid": 28180,
+      "name": "C_SceneGame@ExecGameOver",
+      "address": 6038030,
+      "before": "0000e7030000",
+      "after": "3000307e0000",
+      "why": "game-over resume: the newer of the daily/weekly autosave"
+    }
+  ],
+  "terms": [
+    "히카리",
+    "카샤",
+    "치로",
+    "틈새",
+    "얼어붙은 밤",
+    "참된 달",
+    "참된 밤",
+    "호무라"
+  ],
+  "read_total": 74966,
+  "cg_cells": 60,
+  "scene_numbers": 66,
+  "PACT": {
+    "map_name": {
+      "entry": 160,
+      "name": "Game/Scenes/5000Dungeon/SceneDungeon.pactex",
+      "changes": [
+        {
+          "command": 0,
+          "before": 300,
+          "after": 324,
+          "height": 36
+        },
+        {
+          "command": 2,
+          "before": 298,
+          "after": 322,
+          "height": 34
+        }
+      ],
+      "reverse_exact": true
+    },
+    "dungeon_notice": {
+      "entry": 160,
+      "part": "KR_ChestTitle",
+      "before": "보물상자",
+      "after": "보물상자 · 함정",
+      "reverse_exact": true
+    },
+    "add_area": {
+      "entry": 177,
+      "added": "KR_HomeRate",
+      "reverse_exact": true
+    },
+    "mods": {
+      "entry": 185,
+      "added": "KR_HomeRateToggle",
+      "reverse_exact": true
+    },
+    "archive": {
+      "source_sha256": "efc527e804c4ae1abfd2b50ceca5a1bfa1384cc91afdc399cc6567468736ae49",
+      "candidate_sha256": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e",
+      "original_entries_preserved": 188,
+      "replaced_ids": [
+        160,
+        177,
+        185
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_term_rate_20260924_r10\\NightRemasterPact.afa"
+    }
+  },
+  "home_panel": {
+    "pact_entry": 177,
+    "group": "KR_HomeRate",
+    "parts": [
+      "KR_HomeRateTitle",
+      "KR_HomeRateBody"
+    ],
+    "origin": [
+      0,
+      20
+    ],
+    "font_type": 259,
+    "toggle": "KR_HomeRateToggle",
+    "toggle_pos": [
+      783,
+      38
+    ],
+    "toggle_label": "본거지에 달성률 표시",
+    "preference_file": "YoruKR_HomeRate.dat",
+    "default": "off",
+    "shown_by": "C_SceneHomebaseView@BeginTop (prepended KR_T8HomeEnter)",
+    "hidden_by": "C_SceneHomebaseView@EndTop (prepended KR_T8HomeLeave)"
+  },
+  "trap_notice": {
+    "instant_site": "C_SceneDungeon@StepedOnCell",
+    "relieve_site": "C_SceneDungeon@Trap",
+    "dialog_sites": 25,
+    "notice": "KR_ChestShow (Codex dungeon notice, 3 lines, 4.5 s)"
+  },
+  "colors": {
+    "prepended": {
+      "KR_ChestShow": "KR_T8ChestColor",
+      "KR_NoticeShow": "KR_T8ReceiptColor",
+      "KR_SweepReport": "KR_T8SweepColor"
+    },
+    "message_dialog": "C_MessageDialog@Create: Tag::set(true) (vtable slot 25) before Text::set when the text contains ${font",
+    "pact160": {
+      "KR_ChestLine1": {
+        "tag_before": 0,
+        "color_before": [
+          255,
+          224,
+          96
+        ],
+        "tag_after": 1,
+        "color_after": [
+          255,
+          255,
+          255
+        ]
+      },
+      "KR_ChestLine2": {
+        "tag_before": 0,
+        "color_before": [
+          255,
+          224,
+          96
+        ],
+        "tag_after": 1,
+        "color_after": [
+          255,
+          255,
+          255
+        ]
+      },
+      "KR_ChestLine3": {
+        "tag_before": 0,
+        "color_before": [
+          255,
+          224,
+          96
+        ],
+        "tag_after": 1,
+        "color_after": [
+          255,
+          255,
+          255
+        ]
+      },
+      "KR_ReceiptBody": {
+        "tag_before": 0,
+        "color_before": [
+          255,
+          224,
+          96
+        ],
+        "tag_after": 1,
+        "color_after": [
+          255,
+          255,
+          255
+        ]
+      }
+    }
+  },
+  "char_events": {
+    "rows": [
+      {
+        "person": 2,
+        "name": "이즈미",
+        "events": 126,
+        "by_group": {
+          "0": 1,
+          "1": 62,
+          "2": 6,
+          "3": 57
+        }
+      },
+      {
+        "person": 3,
+        "name": "쿄카",
+        "events": 129,
+        "by_group": {
+          "0": 1,
+          "1": 54,
+          "2": 6,
+          "3": 68
+        }
+      },
+      {
+        "person": 4,
+        "name": "마나미",
+        "events": 121,
+        "by_group": {
+          "0": 1,
+          "1": 46,
+          "2": 6,
+          "3": 68
+        }
+      },
+      {
+        "person": 5,
+        "name": "마코토",
+        "events": 109,
+        "by_group": {
+          "0": 1,
+          "1": 42,
+          "2": 6,
+          "3": 60
+        }
+      },
+      {
+        "person": 6,
+        "name": "신카이",
+        "events": 109,
+        "by_group": {
+          "1": 43,
+          "2": 6,
+          "3": 60
+        }
+      },
+      {
+        "person": 7,
+        "name": "호시카와",
+        "events": 132,
+        "by_group": {
+          "1": 65,
+          "2": 6,
+          "3": 61
+        }
+      },
+      {
+        "person": 8,
+        "name": "모모세",
+        "events": 108,
+        "by_group": {
+          "1": 35,
+          "2": 6,
+          "3": 67
+        }
+      }
+    ],
+    "basis": "catalog triggers naming the person (person or person2); this save (IsRegisteredEvent)"
+  },
+  "sweep_lost": {
+    "recorder": "L_TreasureBox::ShowGetDialog (prepended KR_T8SweepChest(txt); records only while KR_SweepActive)",
+    "reset": "KR_SweepPay (prepended KR_T8SweepLostReset)",
+    "report": "KR_T8SweepColor: KR_SweepItems fixed line replaced by the lost list"
+  },
+  "monster_names": {
+    "edits": [
+      {
+        "stable_id": "EX:7:17:name",
+        "path": [
+          "block",
+          7,
+          "value",
+          "child",
+          16,
+          "leaf_value",
+          "item",
+          2,
+          "value"
+        ],
+        "before": "바쿠",
+        "source": "獏",
+        "target": "맥",
+        "category": "enemy_name",
+        "reason": "꿈을 먹는 맥(獏); 사용자 예시",
+        "width_px": 15.5
+      },
+      {
+        "stable_id": "EX:7:28:name",
+        "path": [
+          "block",
+          7,
+          "value",
+          "child",
+          27,
+          "leaf_value",
+          "item",
+          2,
+          "value"
+        ],
+        "before": "베로베로",
+        "source": "ベロベロ",
+        "target": "날름날름",
+        "category": "enemy_name",
+        "reason": "혀로 핥는 의태어 べろべろ; 공격도 핥기",
+        "width_px": 62.0
+      },
+      {
+        "stable_id": "EX:7:23:name",
+        "path": [
+          "block",
+          7,
+          "value",
+          "child",
+          22,
+          "leaf_value",
+          "item",
+          2,
+          "value"
+        ],
+        "before": "어우두",
+        "source": "御牛頭",
+        "target": "소머리",
+        "category": "enemy_name",
+        "reason": "지옥의 소머리 귀신(牛頭); 짝인 牝馬頭가 이미 암말머리",
+        "width_px": 46.5
+      },
+      {
+        "stable_id": "EX:7:27:name",
+        "path": [
+          "block",
+          7,
+          "value",
+          "child",
+          26,
+          "leaf_value",
+          "item",
+          2,
+          "value"
+        ],
+        "before": "무지개빛 새",
+        "source": "虹光鳥",
+        "target": "무지갯빛 새",
+        "category": "enemy_name",
+        "reason": "맞춤법(사이시옷)",
+        "width_px": 82.5
+      },
+      {
+        "stable_id": "EX:7:3:name",
+        "path": [
+          "block",
+          7,
+          "value",
+          "child",
+          2,
+          "leaf_value",
+          "item",
+          2,
+          "value"
+        ],
+        "before": "케무질러",
+        "source": "ケムジラー",
+        "target": "털뭉치",
+        "category": "enemy_name",
+        "reason": "毛むくじゃら(털북숭이)에서 온 이름, 갈색 털 뭉치 그림",
+        "width_px": 46.5
+      },
+      {
+        "stable_id": "EX:7:21:name",
+        "path": [
+          "block",
+          7,
+          "value",
+          "child",
+          20,
+          "leaf_value",
+          "item",
+          2,
+          "value"
+        ],
+        "before": "케무게라",
+        "source": "ケムゲラー",
+        "target": "푸른 털뭉치",
+        "category": "enemy_name",
+        "reason": "같은 계열의 파란 털 뭉치(번개)",
+        "width_px": 82.5
+      },
+      {
+        "stable_id": "EX:7:6:name",
+        "path": [
+          "block",
+          7,
+          "value",
+          "child",
+          5,
+          "leaf_value",
+          "item",
+          2,
+          "value"
+        ],
+        "before": "샤치토라",
+        "source": "車地虎",
+        "target": "범고래호랑이",
+        "category": "enemy_name",
+        "reason": "シャチ(범고래)+トラ(호랑이), 호랑이 머리에 물고기 꼬리",
+        "width_px": 93.0
+      },
+      {
+        "stable_id": "EX:7:18:name",
+        "path": [
+          "block",
+          7,
+          "value",
+          "child",
+          17,
+          "leaf_value",
+          "item",
+          2,
+          "value"
+        ],
+        "before": "염원라",
+        "source": "炎円羅",
+        "target": "불바퀴",
+        "category": "enemy_name",
+        "reason": "炎(불)+円(둥근 바퀴), 불타는 바퀴 그림; 煙々羅 말장난",
+        "width_px": 46.5
+      }
+    ],
+    "ex": {
+      "source_sha256": "83304ebe454b756c46778de9d3e746b2cce59adad2943b96fb0a48015416072a",
+      "candidate_sha256": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0",
+      "changed_display_leaves": 8,
+      "structure_and_all_scalars_exact": true,
+      "exact_inverse_pass": true,
+      "deterministic": true
+    },
+    "budget": "font 1, 20px, 140px (Codex enemy-name layout check)"
+  },
+  "autosave": {
+    "relocated": {
+      "C_SaveLoadViewCell@GetDispSaveNo": "redirect to KR_T8DispSaveNo",
+      "C_SaveLoadViewCell@GetSaveNoFont": "prepend saveNo = KR_T8AutoAlias(saveNo)",
+      "C_SceneSaveLoadView@GetSaveComment": "prepend saveNo = KR_T8AutoAlias(saveNo)",
+      "C_SceneSaveLoadView@Update": "3x (saveNo != 999) -> KR_T8IsManualSlot(saveNo) in the save-mode branch",
+      "N_SaveLoad::GetNewDataNo": "IsExistFile(chkDataNo) -> KR_T8NewestExists(chkDataNo, bAuto)"
+    },
+    "function": "呼出／１日の始まり",
+    "fid": 30087,
+    "site_offset": 316,
+    "slot_offset": 342,
+    "autosave_call_offset": 348,
+    "autosave_return_offset": 354,
+    "kept_day_of_week_call_offset": 790,
+    "daily_slot": 999,
+    "weekly_slot": 49,
+    "is_exec_load": {
+      "fid": 29554,
+      "site": 6800070
+    },
+    "game_over": {
+      "fid": 28180,
+      "sites": [
+        6037622,
+        6038030
+      ]
+    },
+    "schedule": "Monday morning -> weekly slot 49; other mornings, dungeon rest cells, before an ending -> 999",
+    "labels": {
+      "999": "일간",
+      "49": "주간"
+    },
+    "original": "GetDayOfWeek()==1 (Monday; 0 = Sunday in C_GameDate@GetDateString) -> 999",
+    "saved_stack": "C_SceneGame@Run > 呼出／１日の始まり > ■セーブ／オートセーブ実行 > C_SceneSaveLoad@RunAutoSave > ExecSave > Save (all original)"
+  },
+  "char_missing": {
+    "dated": [
+      {
+        "person": 2,
+        "key": "E10001",
+        "kind": "personal",
+        "text": "개인 4/21～6/16 친밀도 5 이상",
+        "to": [
+          6,
+          16
+        ]
+      },
+      {
+        "person": 2,
+        "key": "E10021",
+        "kind": "personal",
+        "text": "개인 5/5～6/30 친밀도 15 이상 · 앞 이벤트 뒤",
+        "to": [
+          6,
+          30
+        ]
+      },
+      {
+        "person": 2,
+        "key": "E10061",
+        "kind": "personal",
+        "text": "개인 8/4～8/24 친밀도 20 이상 · 앞 이벤트 뒤",
+        "to": [
+          8,
+          24
+        ]
+      },
+      {
+        "person": 2,
+        "key": "E10041",
+        "kind": "personal",
+        "text": "개인 9/8부터 친밀도 30 이상 · 앞 이벤트 뒤",
+        "to": null
+      },
+      {
+        "person": 2,
+        "key": "E10101",
+        "kind": "personal",
+        "text": "개인 10/27 반한 상태",
+        "to": [
+          10,
+          27
+        ]
+      },
+      {
+        "person": 2,
+        "key": "E10081",
+        "kind": "story",
+        "text": "본편 8/30 친밀도 22 이상",
+        "to": [
+          8,
+          30
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20021",
+        "kind": "personal",
+        "text": "개인 5/5～6/30 친밀도 15 이상",
+        "to": [
+          6,
+          30
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20041",
+        "kind": "personal",
+        "text": "개인 5/26～6/30 친밀도 25 이상 · 앞 이벤트 뒤",
+        "to": [
+          6,
+          30
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20061",
+        "kind": "story",
+        "text": "본편 7/27 친밀도 30 이상",
+        "to": [
+          7,
+          27
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20162",
+        "kind": "story",
+        "text": "본편 8/3 친밀도 35 이상",
+        "to": [
+          8,
+          3
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20163",
+        "kind": "story",
+        "text": "본편 8/6 앞 이벤트 뒤",
+        "to": [
+          8,
+          6
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20164",
+        "kind": "story",
+        "text": "본편 8/6 앞 이벤트 뒤",
+        "to": [
+          8,
+          6
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20171",
+        "kind": "story",
+        "text": "본편 8/7 앞 이벤트 뒤",
+        "to": [
+          8,
+          7
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20081",
+        "kind": "story",
+        "text": "본편 10/14 앞 이벤트 뒤",
+        "to": [
+          10,
+          14
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E30001",
+        "kind": "personal",
+        "text": "개인 5/26～6/9 친밀도 5 이상",
+        "to": [
+          6,
+          9
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E30021",
+        "kind": "personal",
+        "text": "개인 6/15～9/30 친밀도 15 이상",
+        "to": [
+          9,
+          30
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E30061",
+        "kind": "story",
+        "text": "본편 10/14 앞 이벤트 뒤",
+        "to": [
+          10,
+          14
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E00401",
+        "kind": "story",
+        "text": "본편 10/15 친밀도 60 이상 · 앞 이벤트 뒤",
+        "to": [
+          10,
+          15
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E00402",
+        "kind": "story",
+        "text": "본편 10/17 앞 이벤트 뒤",
+        "to": [
+          10,
+          17
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E00403",
+        "kind": "story",
+        "text": "본편 10/18 앞 이벤트 뒤",
+        "to": [
+          10,
+          18
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40001",
+        "kind": "personal",
+        "text": "개인 7/7～9/1 친밀도 10 이상",
+        "to": [
+          9,
+          1
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40021",
+        "kind": "personal",
+        "text": "개인 7/14～9/8 친밀도 15 이상 · 앞 이벤트 뒤",
+        "to": [
+          9,
+          8
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40041",
+        "kind": "personal",
+        "text": "개인 8/4～9/15 친밀도 20 이상 · 앞 이벤트 뒤",
+        "to": [
+          9,
+          15
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40101",
+        "kind": "personal",
+        "text": "개인 10/6～10/20 앞 이벤트 뒤",
+        "to": [
+          10,
+          20
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40061",
+        "kind": "story",
+        "text": "본편 8/11～9/15 친밀도 30 이상 · 앞 이벤트 뒤",
+        "to": [
+          9,
+          15
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "person": 2,
+        "name": "이즈미",
+        "total": 126,
+        "categories": {
+          "104": 6,
+          "105": 7,
+          "106": 6,
+          "107": 8,
+          "108": 7,
+          "109": 8,
+          "110": 5,
+          "111": 6,
+          "200": 3,
+          "201": 7,
+          "202": 1,
+          "203": 1,
+          "300": 5,
+          "303": 9,
+          "304": 11,
+          "305": 9,
+          "306": 7,
+          "307": 7,
+          "308": 8
+        },
+        "personal": 5,
+        "story": 1
+      },
+      {
+        "person": 3,
+        "name": "쿄카",
+        "total": 129,
+        "categories": {
+          "104": 7,
+          "105": 7,
+          "106": 6,
+          "107": 7,
+          "108": 6,
+          "109": 5,
+          "110": 6,
+          "111": 4,
+          "200": 3,
+          "201": 7,
+          "202": 1,
+          "203": 1,
+          "300": 5,
+          "302": 9,
+          "304": 10,
+          "305": 8,
+          "306": 9,
+          "307": 14,
+          "308": 12
+        },
+        "personal": 2,
+        "story": 6
+      },
+      {
+        "person": 4,
+        "name": "마나미",
+        "total": 121,
+        "categories": {
+          "104": 3,
+          "105": 4,
+          "106": 7,
+          "107": 5,
+          "108": 5,
+          "109": 8,
+          "110": 5,
+          "111": 3,
+          "200": 3,
+          "201": 7,
+          "202": 1,
+          "300": 5,
+          "302": 11,
+          "303": 10,
+          "305": 12,
+          "306": 12,
+          "307": 8,
+          "308": 10
+        },
+        "personal": 2,
+        "story": 4
+      },
+      {
+        "person": 5,
+        "name": "마코토",
+        "total": 109,
+        "categories": {
+          "104": 3,
+          "105": 3,
+          "106": 6,
+          "108": 5,
+          "109": 5,
+          "110": 5,
+          "111": 5,
+          "200": 5,
+          "201": 7,
+          "202": 1,
+          "300": 5,
+          "302": 9,
+          "303": 8,
+          "304": 12,
+          "306": 8,
+          "307": 8,
+          "308": 10
+        },
+        "personal": 4,
+        "story": 1
+      },
+      {
+        "person": 6,
+        "name": "신카이",
+        "total": 109,
+        "categories": {
+          "104": 6,
+          "105": 6,
+          "106": 6,
+          "107": 5,
+          "108": 5,
+          "109": 5,
+          "110": 5,
+          "111": 5,
+          "201": 6,
+          "203": 1,
+          "300": 5,
+          "302": 7,
+          "303": 9,
+          "304": 12,
+          "305": 8,
+          "307": 8,
+          "308": 10
+        },
+        "personal": 0,
+        "story": 0
+      },
+      {
+        "person": 7,
+        "name": "호시카와",
+        "total": 132,
+        "categories": {
+          "104": 10,
+          "105": 10,
+          "106": 10,
+          "107": 10,
+          "108": 9,
+          "109": 6,
+          "110": 5,
+          "111": 5,
+          "201": 6,
+          "203": 1,
+          "300": 5,
+          "302": 7,
+          "303": 14,
+          "304": 8,
+          "305": 8,
+          "306": 8,
+          "308": 10
+        },
+        "personal": 0,
+        "story": 0
+      },
+      {
+        "person": 8,
+        "name": "모모세",
+        "total": 108,
+        "categories": {
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 5,
+          "108": 5,
+          "109": 6,
+          "110": 5,
+          "111": 5,
+          "201": 6,
+          "300": 7,
+          "302": 8,
+          "303": 12,
+          "304": 10,
+          "305": 10,
+          "306": 10,
+          "307": 10
+        },
+        "personal": 0,
+        "story": 0
+      }
+    ],
+    "basis": "same attribution as the per-character rate (triggers naming the person); story = conditional events whose feeling person is the character (not in the rate)"
+  },
+  "char_missing_r10": {
+    "dated": [
+      {
+        "person": 2,
+        "key": "E10001",
+        "kind": "personal",
+        "open": "　4/21～6/16　친밀도 5 이상",
+        "passed": "　4/21～6/16　친밀도 5 이상　(지남)",
+        "frm": [
+          4,
+          21
+        ],
+        "to": [
+          6,
+          16
+        ]
+      },
+      {
+        "person": 2,
+        "key": "E10021",
+        "kind": "personal",
+        "open": "　5/5～6/30　친밀도 15 이상 · 앞 이벤트 뒤",
+        "passed": "　5/5～6/30　친밀도 15 이상 · 앞 이벤트 뒤　(지남)",
+        "frm": [
+          5,
+          5
+        ],
+        "to": [
+          6,
+          30
+        ]
+      },
+      {
+        "person": 2,
+        "key": "E10061",
+        "kind": "personal",
+        "open": "　8/4～8/24　친밀도 20 이상 · 앞 이벤트 뒤",
+        "passed": "　8/4～8/24　친밀도 20 이상 · 앞 이벤트 뒤　(지남)",
+        "frm": [
+          8,
+          4
+        ],
+        "to": [
+          8,
+          24
+        ]
+      },
+      {
+        "person": 2,
+        "key": "E10041",
+        "kind": "personal",
+        "open": "　9/8부터　친밀도 30 이상 · 앞 이벤트 뒤",
+        "passed": null,
+        "frm": [
+          9,
+          8
+        ],
+        "to": null
+      },
+      {
+        "person": 2,
+        "key": "E10101",
+        "kind": "personal",
+        "open": "　10/27　반한 상태",
+        "passed": "　10/27　반한 상태　(지남)",
+        "frm": [
+          10,
+          27
+        ],
+        "to": [
+          10,
+          27
+        ]
+      },
+      {
+        "person": 2,
+        "key": "E10081",
+        "kind": "story",
+        "open": "　8/30　친밀도 22 이상",
+        "passed": "　8/30　친밀도 22 이상　(지남)",
+        "frm": [
+          8,
+          30
+        ],
+        "to": [
+          8,
+          30
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20021",
+        "kind": "personal",
+        "open": "　5/5～6/30　친밀도 15 이상",
+        "passed": "　5/5～6/30　친밀도 15 이상　(지남)",
+        "frm": [
+          5,
+          5
+        ],
+        "to": [
+          6,
+          30
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20041",
+        "kind": "personal",
+        "open": "　5/26～6/30　친밀도 25 이상 · 앞 이벤트 뒤",
+        "passed": "　5/26～6/30　친밀도 25 이상 · 앞 이벤트 뒤　(지남)",
+        "frm": [
+          5,
+          26
+        ],
+        "to": [
+          6,
+          30
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20061",
+        "kind": "story",
+        "open": "　7/27　친밀도 30 이상",
+        "passed": "　7/27　친밀도 30 이상　(지남)",
+        "frm": [
+          7,
+          27
+        ],
+        "to": [
+          7,
+          27
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20162",
+        "kind": "story",
+        "open": "　8/3　친밀도 35 이상",
+        "passed": "　8/3　친밀도 35 이상　(지남)",
+        "frm": [
+          8,
+          3
+        ],
+        "to": [
+          8,
+          3
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20163",
+        "kind": "story",
+        "open": "　8/6　앞 이벤트 뒤",
+        "passed": "　8/6　앞 이벤트 뒤　(지남)",
+        "frm": [
+          8,
+          6
+        ],
+        "to": [
+          8,
+          6
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20164",
+        "kind": "story",
+        "open": "　8/6　앞 이벤트 뒤",
+        "passed": "　8/6　앞 이벤트 뒤　(지남)",
+        "frm": [
+          8,
+          6
+        ],
+        "to": [
+          8,
+          6
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20171",
+        "kind": "story",
+        "open": "　8/7　앞 이벤트 뒤",
+        "passed": "　8/7　앞 이벤트 뒤　(지남)",
+        "frm": [
+          8,
+          7
+        ],
+        "to": [
+          8,
+          7
+        ]
+      },
+      {
+        "person": 3,
+        "key": "E20081",
+        "kind": "story",
+        "open": "　10/14　앞 이벤트 뒤",
+        "passed": "　10/14　앞 이벤트 뒤　(지남)",
+        "frm": [
+          10,
+          14
+        ],
+        "to": [
+          10,
+          14
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E30001",
+        "kind": "personal",
+        "open": "　5/26～6/9　친밀도 5 이상",
+        "passed": "　5/26～6/9　친밀도 5 이상　(지남)",
+        "frm": [
+          5,
+          26
+        ],
+        "to": [
+          6,
+          9
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E30021",
+        "kind": "personal",
+        "open": "　6/15～9/30　친밀도 15 이상",
+        "passed": "　6/15～9/30　친밀도 15 이상　(지남)",
+        "frm": [
+          6,
+          15
+        ],
+        "to": [
+          9,
+          30
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E30061",
+        "kind": "story",
+        "open": "　10/14　앞 이벤트 뒤",
+        "passed": "　10/14　앞 이벤트 뒤　(지남)",
+        "frm": [
+          10,
+          14
+        ],
+        "to": [
+          10,
+          14
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E00401",
+        "kind": "story",
+        "open": "　10/15　친밀도 60 이상 · 앞 이벤트 뒤",
+        "passed": "　10/15　친밀도 60 이상 · 앞 이벤트 뒤　(지남)",
+        "frm": [
+          10,
+          15
+        ],
+        "to": [
+          10,
+          15
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E00402",
+        "kind": "story",
+        "open": "　10/17　앞 이벤트 뒤",
+        "passed": "　10/17　앞 이벤트 뒤　(지남)",
+        "frm": [
+          10,
+          17
+        ],
+        "to": [
+          10,
+          17
+        ]
+      },
+      {
+        "person": 4,
+        "key": "E00403",
+        "kind": "story",
+        "open": "　10/18　앞 이벤트 뒤",
+        "passed": "　10/18　앞 이벤트 뒤　(지남)",
+        "frm": [
+          10,
+          18
+        ],
+        "to": [
+          10,
+          18
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40001",
+        "kind": "personal",
+        "open": "　7/7～9/1　친밀도 10 이상",
+        "passed": "　7/7～9/1　친밀도 10 이상　(지남)",
+        "frm": [
+          7,
+          7
+        ],
+        "to": [
+          9,
+          1
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40021",
+        "kind": "personal",
+        "open": "　7/14～9/8　친밀도 15 이상 · 앞 이벤트 뒤",
+        "passed": "　7/14～9/8　친밀도 15 이상 · 앞 이벤트 뒤　(지남)",
+        "frm": [
+          7,
+          14
+        ],
+        "to": [
+          9,
+          8
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40041",
+        "kind": "personal",
+        "open": "　8/4～9/15　친밀도 20 이상 · 앞 이벤트 뒤",
+        "passed": "　8/4～9/15　친밀도 20 이상 · 앞 이벤트 뒤　(지남)",
+        "frm": [
+          8,
+          4
+        ],
+        "to": [
+          9,
+          15
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40101",
+        "kind": "personal",
+        "open": "　10/6～10/20　앞 이벤트 뒤",
+        "passed": "　10/6～10/20　앞 이벤트 뒤　(지남)",
+        "frm": [
+          10,
+          6
+        ],
+        "to": [
+          10,
+          20
+        ]
+      },
+      {
+        "person": 5,
+        "key": "E40061",
+        "kind": "story",
+        "open": "　8/11～9/15　친밀도 30 이상 · 앞 이벤트 뒤",
+        "passed": "　8/11～9/15　친밀도 30 이상 · 앞 이벤트 뒤　(지남)",
+        "frm": [
+          8,
+          11
+        ],
+        "to": [
+          9,
+          15
+        ]
+      }
+    ],
+    "heads": {
+      "personal": "개인 이벤트 (특훈 뒤에 나옴)",
+      "story": "본편 이벤트 (달성률에는 넣지 않음)"
+    }
+  },
+  "endings": [
+    "이즈미",
+    "쿄카",
+    "마나미",
+    "마코토",
+    "보통 결말"
+  ],
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "serialized_schema_changes": 0,
+  "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+}

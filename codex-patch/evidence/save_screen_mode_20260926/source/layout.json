@@ -1,0 +1,42 @@
+{
+  "archive": {
+    "source_sha256": "eed0fa72dda21f24de9a9f238c1210663981d132e7c4012ead38f74c1f3fb4b4",
+    "candidate_sha256": "a71410488777ea2e9189f959065334215b51972fc6915eb0ab21d7b46e6372c4",
+    "original_entries_preserved": 188,
+    "replaced_ids": [
+      185
+    ],
+    "appended": [
+      {
+        "id": 188,
+        "name": "Asra/SaveOriginalCell.pactex",
+        "sha256": "c5aef0c80ab7b381f130828bdcb46f3d3d780c34181d8c96098ba1e94329b106"
+      },
+      {
+        "id": 189,
+        "name": "Asra/SaveOriginalScene.pactex",
+        "sha256": "7cbb810c7f8191a471c5c3852f00fca0b8134a25b82c8c10bc0724f7b9dc2934"
+      }
+    ],
+    "wrapper": "AFA3",
+    "metadata_identity": "PASS (names/order/unknown fields)",
+    "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+    "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\save_screen_mode_20260926\\NightRemasterPact.afa"
+  },
+  "changed": [
+    185
+  ],
+  "original_assets_exact": {
+    "168": "c5aef0c80ab7b381f130828bdcb46f3d3d780c34181d8c96098ba1e94329b106",
+    "169": "7cbb810c7f8191a471c5c3852f00fca0b8134a25b82c8c10bc0724f7b9dc2934"
+  },
+  "existing_alternative_assets_exact": true,
+  "mods_button": [
+    563,
+    34,
+    192,
+    30
+  ],
+  "mods_label": "저장 화면 설정",
+  "reverse_exact": true
+}

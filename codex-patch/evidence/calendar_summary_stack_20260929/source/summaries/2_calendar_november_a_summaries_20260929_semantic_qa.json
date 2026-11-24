@@ -1,0 +1,208 @@
+{
+ "status": "pass_with_fixes",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "author": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) — read-only second pass, self-review (same model as author)",
+ "checked_at": "2026-09-29T21:27:04.102208+09:00",
+ "team": "A (batches.json odd indices)",
+ "reviewed_events": 105,
+ "reviewed_japanese_messages": 11895,
+ "method": "every scene re-opened from source/scenarios.json (work/review_view.py); scenes of the templated dungeon groups 913-917, 918-922, 931-940, 941-945, 951-955, 961-970 checked as base scene in full plus every line that differs from the base (work/review_diff.py), so each companion-specific fact in a summary was compared with its own source lines. Checks: (a) only facts in the source, (b) no actor or outcome swapped, (c) no other scene or branch mixed in. Fixes change only the problem words.",
+ "source_sha256": "79ea0d9bc1e4f3e3961298e37523e12ecedf15dd981f521413e8394837051f78",
+ "summary_sha256": "45b38cd7f010e39fcfaecad7712b31cac7a85f70a4c8804317322b64d90f081f",
+ "findings": [
+  {
+   "no": 602,
+   "message_id": 30665,
+   "severity": "P3",
+   "kind": "fact_precision",
+   "source": "こぞってルージュが引かれていたのだ。",
+   "before": "여장한 남자 부원들이",
+   "after": "립스틱까지 바르고 분장한 남자 부원들이",
+   "reason": "신카이는 여장이 아니라 고양이 귀 분장이고, 세 사람 모두 립스틱을 발랐다(원문 ルージュ・猫耳).",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 913,
+   "message_id": 35413,
+   "severity": "P3",
+   "kind": "fact_precision",
+   "source": "破紋をかざしたソウジの手の中に一振りの剣が",
+   "before": "소지가 검을 겨누고",
+   "after": "소지가 검을 꺼내 들고",
+   "reason": "원문은 파문을 치켜들자 손에 검이 생겨나는 장면(剣が生まれる)이고 검을 겨누는 묘사는 없다.",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 917,
+   "message_id": 35775,
+   "severity": "P3",
+   "kind": "paraphrase_accuracy",
+   "source": "「戦って死ぬ気ならば、",
+   "before": "신카이 앞에 검은 옷의 소지가 나선다. 싸우거나 죽으라는 소지의 말에",
+   "after": "신카이 앞에 소지가 나선다. 싸우다 죽을 거라면 무기를 들라는 소지의 말에",
+   "reason": "원문(戦って死ぬ気ならば、武器をとれ)과 뜻이 어긋난 요약을 바로잡고, 길이 한도 때문에 검은 옷의를 뺐다.",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 942,
+   "message_id": 36655,
+   "severity": "P2",
+   "kind": "actor_swap",
+   "source": "剣を杖代わりに、とうとうソウジがヒザをついた。",
+   "before": "마코토와 함께 싸워 이긴 소지가",
+   "after": "마코토와 함께 쓰러뜨린 소지가",
+   "reason": "소지가 마코토와 함께 싸워 이긴 것으로 읽혀 승패·행위자가 뒤바뀜. 쓰러진 쪽은 소지.",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 944,
+   "message_id": 37065,
+   "severity": "P2",
+   "kind": "actor_swap",
+   "source": "剣を杖代わりに、とうとうソウジがヒザをついた。",
+   "before": "모모세와 싸워 이긴 소지가",
+   "after": "모모세와 함께 쓰러뜨린 소지가",
+   "reason": "소지가 모모세와 싸워 이긴 것으로 읽혀 승패가 뒤바뀜. 주인공 일행이 소지를 쓰러뜨렸다.",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 1574,
+   "message_id": 100907,
+   "severity": "P2",
+   "kind": "actor_swap",
+   "source": "「だがそのおかげで、他団体の選手と",
+   "before": "다른 단체 선수와도 겨룰 수 있게 됐다며 내년 창단전에는 반드시 가겠다고",
+   "after": "다른 단체 선수와도 싸울 수 있게 된 하시모토를 반기며 신카이는 내년 창단전에 꼭 가겠다고",
+   "reason": "다른 단체 선수와 시합할 수 있게 된 사람은 하시모토인데 신카이가 주어로 읽혔다.",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 1674,
+   "message_id": 89563,
+   "severity": "P3",
+   "kind": "fact_precision",
+   "source": "「やっぱり拭こう…」",
+   "before": "결국 닦고 쓰겠다고 하자",
+   "after": "결국 닦아야겠다고 하자",
+   "reason": "원문은 やっぱり拭こう 뿐이고 쓰겠다는 말은 없다.",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 1675,
+   "message_id": 89578,
+   "severity": "P3",
+   "kind": "actor_precision",
+   "source": "「少しさみしくなるね……」",
+   "before": "두 사람을 매일 볼 수 없게 된다는 생각에 호시카와와 주인공은 쓸쓸해한다.",
+   "after": "두 사람을 매일 볼 수 없게 된다는 주인공의 말에 호시카와는 조금 쓸쓸해지겠다고 한다.",
+   "reason": "쓸쓸하다고 말한 사람은 호시카와뿐이고 매일 못 만난다는 말은 주인공이 했다.",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 10501,
+   "message_id": 45557,
+   "severity": "P3",
+   "kind": "fact_precision",
+   "source": "（新開さんの忘れ物かな……、",
+   "before": "신카이가 두고 간 물통을",
+   "after": "신카이가 두고 간 듯한 물통을",
+   "reason": "원문은 주인공의 추측(新開さんの忘れ物かな)이라 단정하지 않게 고침.",
+   "revision": "r1",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 602,
+   "message_id": 30684,
+   "severity": "P3",
+   "kind": "length_fit",
+   "source": "「猫耳というヤツらしいNEW。",
+   "before": "립스틱까지 바르고",
+   "after": "립스틱을 바르고",
+   "reason": "r1 수정으로 101자가 되어 100자 한도에 맞춤.",
+   "revision": "r2",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 917,
+   "message_id": 35786,
+   "severity": "P3",
+   "kind": "length_fit",
+   "source": "「話し合いで解決……、",
+   "before": "신카이도 대화로는 안 되겠다고 판단한다.",
+   "after": "신카이도 대화로는 무리라고 본다.",
+   "reason": "r1 수정으로 103자가 되어 100자 한도에 맞춤(원문 話し合いで解決…ってのはムリみたいだな).",
+   "revision": "r2",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 942,
+   "message_id": 36856,
+   "severity": "P3",
+   "kind": "wording_precision",
+   "source": "「私たちの手で…、",
+   "before": "빛을 되찾자며 일어선다.",
+   "after": "빛을 되찾자며 나선다.",
+   "reason": "원문은 앉았다 일어나는 동작이 없고 가자며 나서는 말(そうだね、行こう…光をとりもどさなきゃ)이라 문자 그대로 읽힐 수 있는 일어선다를 바꿈.",
+   "revision": "r3",
+   "status": "resolved by author (same model)"
+  },
+  {
+   "no": 1272,
+   "message_id": 92168,
+   "severity": "P3",
+   "kind": "fact_precision",
+   "source": "俺は天文部に入るまで、星座の名前なんて",
+   "before": "겨울 별자리를 하나씩 짚어 본다. 별자리 이름을 천문부에서 배웠다는",
+   "after": "겨울 별자리를 짚어 본다. 천문부에 들어오기 전엔 별자리를 몰랐다는",
+   "reason": "주인공은 천문부에서 배웠다고 하지 않고 들어오기 전엔 거의 몰랐다고만 말함(天文部に入るまで…ほとんど知らなかった). 길이 한도 때문에 하나씩을 뺐다.",
+   "revision": "r3",
+   "status": "resolved by author (same model)"
+  }
+ ],
+ "counts": {
+  "findings": 13,
+  "scenes_changed": 10,
+  "P2": 3,
+  "P3": 10
+ },
+ "unresolved": [
+  {
+   "nos": [
+    10501,
+    20141,
+    30081
+   ],
+   "item": "성적 장면의 표현 수위(음란한 꿈 / 몸을 섞는다 / 살을 맞댄다)는 사람이 정할 수 있음. 사실관계는 원문과 맞음."
+  },
+  {
+   "nos": [
+    50005,
+    50006
+   ],
+   "item": "화자 태그가 없는 괄호 독백을 주인공의 생각으로 적음(같은 카드 50003은 주인공 태그가 있는 같은 종류의 독백)."
+  },
+  {
+   "nos": [
+    50010
+   ],
+   "item": "엘리베이터가 센터 빌딩 안이라는 정보는 장면 본문이 아니라 카드 메타(CenterBuilding)에서 옴."
+  },
+  {
+   "nos": [],
+   "item": "작성자와 검토자가 같은 모델(자기 검토)이라 독립 검토가 아님. 사람 또는 다른 검토자의 통독 권장."
+  },
+  {
+   "nos": [],
+   "item": "B조(짝수 묶음) 요약과의 교차 유일성은 검사하지 않음(B조 폴더를 읽지 않음). 병합할 때 두 세트를 합쳐 같은 게이트를 다시 돌려야 함."
+  }
+ ]
+}

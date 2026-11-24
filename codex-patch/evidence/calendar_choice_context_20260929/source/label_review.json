@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "label_patch_sha256": "5315e84f1f487409d96e7c17aad0c778236d58a7ccf5703cd22b57ecf26310ff",
+  "reviewer": "/root/choice_context_review_0929",
+  "translator_model": "Codex internal",
+  "findings": [],
+  "scope": "20 source-bound character choices, 3 contexts; exact installed option strings, Japanese graph edges, preceding speaker and unread masking.",
+  "checks": {
+    "exact_installed_options": 20,
+    "graph_links": 20,
+    "unread_matches_prior": 20,
+    "replay_pairs": 8
+  },
+  "limitations": [
+    "Read-only semantic review; native build/layout verified separately."
+  ]
+}

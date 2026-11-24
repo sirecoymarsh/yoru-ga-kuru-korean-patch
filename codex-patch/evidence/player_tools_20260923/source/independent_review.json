@@ -1,0 +1,24 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "769d461aa51037eae34d48f7b15125ba6e8a4ae83126b17fb7b848ab41f9184c",
+    "NightRemasterPact.afa": "ff1a16663d65b4de95c72063709851f9615484ab610dac9787f6c1a098c7e30d"
+  },
+  "reviewer": "Codex internal primary separate review pass; no second agent used",
+  "scope": [
+    "Exact latest baseline, two PACT/config hooks, old code and translation preservation",
+    "Rename mutation allowlist: player name setter, exact replacement key, status-face refresh",
+    "Active-main-scene and replay/choice guards; local scene reference released on both paths",
+    "Native registration lookup reads only, exact01707 key, all-branch current-save denominator",
+    "Latest existing native fill renderer and FNL proof fits1280x720",
+    "Hash-bound stopped-process transactional install, save and recovery hash checks"
+  ],
+  "known_limits": [
+    "Native Korean IME and actual option/modal interaction not observed",
+    "Normal game save then process restart/name retention test pending",
+    "Percentage measures unique entered events across all branches, not story completion or full reading",
+    "2364 supported Hangul syllables plus ASCII names, five-character limit"
+  ],
+  "native_verified": false,
+  "chart_event_replay": false
+}

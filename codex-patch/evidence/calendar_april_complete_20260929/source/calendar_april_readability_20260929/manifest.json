@@ -1,0 +1,50 @@
+{
+  "status": "APRIL_READABILITY_NATIVE_PREVIEW_PASS_NOT_INSTALLED",
+  "source_sha256": "1a7bd3352132f123f2dd1cf8491b8faf16391b7361a57d6f76585843b4757542",
+  "files": {
+    "NightRemaster.ain": {
+      "sha256": "442c7eea651c605ce76e51b7efe24584da0059efb96d919fb85b74a0fc0df22d"
+    },
+    "winmm.dll": {
+      "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+    }
+  },
+  "changed_functions": [
+    "KR_P29Board",
+    "KR_P29Buttons",
+    "KR_CDraw",
+    "KR_T9StagePage"
+  ],
+  "added_functions": {
+    "KR_U29Field": 32810,
+    "KR_U29Head": 32811,
+    "KR_U29State": 32812,
+    "KR_U29Seen": 32813,
+    "KR_U29Group": 32814,
+    "KR_U29Info": 32815,
+    "KR_U29Buttons": 32816,
+    "KR_U29Draw": 32817,
+    "KR_U29StageItem": 32818,
+    "KR_U29StageBuild": 32819,
+    "KR_U29Stages": 32820,
+    "KR_U29Board": 32821,
+    "KR_U29April": 32822,
+    "KR_U29Router": 32823
+  },
+  "original_code_prefix_exact": true,
+  "original_strings_prefix_exact": true,
+  "messages_exact": true,
+  "serialized_schema_changes": 0,
+  "translator_model": "Codex internal",
+  "installed": false,
+  "verification": "../verification.json",
+  "visual_review": "../evidence/visual_review.json",
+  "frozen_inputs": {
+    "build_calendar_april_readability_20260929.py": "cb6a1ce223f794002b280ad73a49d34ed25e30fc83d5a8e755d0a2278f5a59fe",
+    "calendar_april_readability_20260929.jaf": "586828d57d09ace4ffc170339995ff500e519616de2a4cccace4de6084513494",
+    "fields_helpers.jaf": "73b63aa015dd3d59cd3f19ab44fb36d42555b3423215de48e5adf377df769db4",
+    "probe_calendar_april_readability_20260929.jaf": "251af697572b53dbd4c476d7b58fe47c6c0b743046c7ab4bf3092535d32dd254",
+    "probe_calendar_april_readability_20260929.py": "877e0357594cdccabf376dd083c379b83e20a6e2ddd357e338883bfb04c34bb2",
+    "verify_calendar_april_readability_20260929.py": "5c23e990c0bb75f3641fc7e9d4540a0149aeb4194a0539f835e283905159819d"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_term_rate_20260924_r13\\NightRemaster.ain",
+  "source_sha256": "2e4e3dff57fccd621158f0d48dbc84fe53cad1abdc0738ab9421a32091752688",
+  "probe_sha256": "14327702a1b24e2bbef346733876e80c12b754a5b42126ac0b249f4a8311c273",
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "input": "Resume of a copied NightR999.asd (the user's Monday autosave); every WaitForClick call (27) runs the autosave stages; launch B resumes the weekly autosave.",
+  "save_folder": "SaveData_KR_ClaudeAutoSaveProbe_20260924_215451",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "function": "KR_ItemsFriendCount",
+    "offset": 16052406
+  },
+  {
+    "function": "KR_ItemsFriend",
+    "offset": 16052490
+  },
+  {
+    "function": "KR_ItemsPending",
+    "offset": 16053010
+  },
+  {
+    "function": "KR_ItemsTry",
+    "offset": 16053291
+  }
+]

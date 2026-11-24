@@ -1,0 +1,108 @@
+{
+  "status": "EXACT_TWO_DISPLAY_LEAVES_PASS",
+  "EX": {
+    "source_sha256": "cb9362104b08e0c92cd33fab3ab2d2f779f3a21db294c4e3928697f031d620f0",
+    "candidate_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+    "changed_display_leaves": 2,
+    "structure_and_all_scalars_exact": true,
+    "exact_inverse_pass": true,
+    "deterministic": true
+  },
+  "edits": [
+    {
+      "stable_id": "EX:7:58:name",
+      "path": [
+        "block",
+        7,
+        "value",
+        "child",
+        57,
+        "leaf_value",
+        "item",
+        2,
+        "value"
+      ],
+      "source": "ライトアームズ",
+      "before": "경무장",
+      "target": "경화기",
+      "category": "enemy_name"
+    },
+    {
+      "stable_id": "EX:7:59:name",
+      "path": [
+        "block",
+        7,
+        "value",
+        "child",
+        58,
+        "leaf_value",
+        "item",
+        2,
+        "value"
+      ],
+      "source": "ヘビーアームズ",
+      "before": "중무장",
+      "target": "중화기",
+      "category": "enemy_name"
+    }
+  ],
+  "font": {
+    "font_sha256": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf",
+    "checks": [
+      {
+        "text": "경화기",
+        "size": 20,
+        "width": 46.5,
+        "budget": 140,
+        "nonempty_glyphs": true
+      },
+      {
+        "text": "중화기",
+        "size": 20,
+        "width": 46.5,
+        "budget": 140,
+        "nonempty_glyphs": true
+      },
+      {
+        "text": "경화기",
+        "size": 24,
+        "width": 56.0,
+        "budget": 140,
+        "nonempty_glyphs": true
+      },
+      {
+        "text": "중화기",
+        "size": 24,
+        "width": 56.0,
+        "budget": 140,
+        "nonempty_glyphs": true
+      },
+      {
+        "text": "경화기",
+        "size": 30,
+        "width": 69.75,
+        "budget": 140,
+        "nonempty_glyphs": true
+      },
+      {
+        "text": "중화기",
+        "size": 30,
+        "width": 69.75,
+        "budget": 140,
+        "nonempty_glyphs": true
+      }
+    ],
+    "native_screen_verified": false
+  },
+  "files": {
+    "NightRemasterEX.ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6"
+  },
+  "AIN_sha256": "c1014763926f31c79b161a70f55cdd6b24a5dde24ba79d1a73a56996d7f65bee",
+  "PACT_sha256": "b6c0253bffedc2853c7d800b59bdc4a673df3365f0c8f12b42c4e24a9871b2f8",
+  "no_code_or_save_schema_change": true,
+  "translator_model": "Codex internal",
+  "native_screen_verified": false,
+  "translation_map_sha256": "4ccf052636fc93e9e26b52000c1ed05d01484ac3ebe7cf33fa46fd4c73a632a7",
+  "display_edits_sha256": "7b263adc8ea743dd19fe7f2e9c254b2cff6f4f48e53a80552977f281350ece1c",
+  "semantic_review": "Source names, firearm sprites, and attack text reviewed. User approved both exact target names. Only display leaves differ; all keys and numbers unchanged."
+}

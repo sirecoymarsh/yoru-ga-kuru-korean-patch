@@ -1,0 +1,34 @@
+{
+  "status": "RELEASE_STATIC_PASS",
+  "files": {
+    "NightRemaster.ain": "16025aab9b654a3a1470fa58cd0459165b26d64cdabd7f76c2d9a69c26a12f07",
+    "NightRemasterPact.afa": "4ed2e66c779aa884ec5786a52319be8d01e1d7638a89a0683d1b06f9fe85ff58"
+  },
+  "original_pact_subtrees_exact": true,
+  "changed_archive_entries": [
+    153,
+    154,
+    185
+  ],
+  "unchanged_callbacks": 17,
+  "original_enum83_absent": true,
+  "native_font_glyph_states": 287,
+  "button_widths": [
+    {
+      "name": "KR_AutoEquipButtonLabel",
+      "text": "자동 장착",
+      "width": 74.875,
+      "container": 192,
+      "center_error": 0.0
+    },
+    {
+      "name": "KR_AutoStoneButtonLabel",
+      "text": "요소석 추천",
+      "width": 92.25,
+      "container": 138,
+      "center_error": 0.0
+    }
+  ],
+  "max_preview_width": 380.25,
+  "native_gameplay_verified": false
+}

@@ -1,0 +1,152 @@
+{
+ "zoom_card_main_title.png": {
+  "source": "cal_card_open.png",
+  "box": [
+   175,
+   180,
+   1095,
+   360
+  ],
+  "sha256": "a14e33eda41b2878c1e01b918ffcd09b8317d635b3a489b1d99be3311e2714c0"
+ },
+ "zoom_stages_main.png": {
+  "source": "cal_stages.png",
+  "box": [
+   150,
+   240,
+   1120,
+   470
+  ],
+  "sha256": "331e27c013dc7fa731b14de8b146026f0ee72a502b31af57aab69113b924fca6"
+ },
+ "zoom_card_dungeon_title.png": {
+  "source": "cal_card_dungeon.png",
+  "box": [
+   60,
+   200,
+   1210,
+   390
+  ],
+  "sha256": "f95c46fff45b3f56cec3e35a5835e250fb7b9a21f13b71b16a16b7c6ee8a9719"
+ },
+ "zoom_stages_dungeon.png": {
+  "source": "cal_stages_dungeon.png",
+  "box": [
+   60,
+   190,
+   1220,
+   520
+  ],
+  "sha256": "4b4e9e1d0f2057b5be1a4984613fa9337b31f6b9970615709d526031dd01bf3e"
+ },
+ "zoom_drawer_walk.png": {
+  "source": "cal_drawer_walk.png",
+  "box": [
+   120,
+   60,
+   1160,
+   640
+  ],
+  "sha256": "f0640ca93d617dc8c2da0007287c1a3e2102a82f5b1770205cedde95cc7f58c7"
+ },
+ "zoom_scene_walk_title.png": {
+  "source": "cal_scene_walk.png",
+  "box": [
+   250,
+   240,
+   1020,
+   400
+  ],
+  "sha256": "fd17891b05e0f25a1fab60730744abb87f4c854cdcaf17172766c25358539453"
+ },
+ "zoom_drawer_after.png": {
+  "source": "cal_drawer_after.png",
+  "box": [
+   60,
+   40,
+   1220,
+   660
+  ],
+  "sha256": "592105e65e92248d64f1c045b9d1fc08759134fbf6a107e3ac98e3e6cf696141"
+ },
+ "zoom_scene_after_title.png": {
+  "source": "cal_scene_after.png",
+  "box": [
+   60,
+   180,
+   1220,
+   480
+  ],
+  "sha256": "340f1bc491cf3272c6341f39b1b21e5d961eabbe720393dc50395f98dc0fab3c"
+ },
+ "zoom_oct_manami_rows.png": {
+  "source": "cal_lane_oct_manami_p1.png",
+  "box": [
+   240,
+   145,
+   1040,
+   525
+  ],
+  "sha256": "94fac409afb283705420fa5629e63a23b42b8a099c44dd4257bab6ac1bc85bd6"
+ },
+ "zoom_card_locked_unseen.png": {
+  "source": "cal_card_locked_unseen.png",
+  "box": [
+   130,
+   200,
+   1140,
+   500
+  ],
+  "sha256": "174fc4daa6919ab9275471f2a7c750f0c3539fb7e9d0cd738a36c6b2cf977a34"
+ },
+ "zoom_card_locked_other.png": {
+  "source": "cal_card_locked_other.png",
+  "box": [
+   80,
+   225,
+   1190,
+   480
+  ],
+  "sha256": "ce07dbb5c2d0a362145dcd72985b73b09685a1382f857bf8072bc9d70c01c680"
+ },
+ "zoom_event_open_note.png": {
+  "source": "cal_event_open.png",
+  "box": [
+   170,
+   185,
+   1100,
+   520
+  ],
+  "sha256": "85edd185a8aafb499c70fc1559d860bfa6ab0a784da6dbc27ed3571019d42254"
+ },
+ "zoom_home_before_panel.png": {
+  "source": "cal_home_before.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ },
+ "zoom_home_after_panel.png": {
+  "source": "cal_home_after.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ },
+ "zoom_home_midload_panel.png": {
+  "source": "cal_home_midload.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ }
+}

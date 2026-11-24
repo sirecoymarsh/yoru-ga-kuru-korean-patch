@@ -1,0 +1,6152 @@
+[
+ {
+  "path": "CG1751.qnt",
+  "state": "changed",
+  "size": 108834
+ },
+ {
+  "path": "CG1752.qnt",
+  "state": "changed",
+  "size": 906985
+ },
+ {
+  "path": "CG1753.qnt",
+  "state": "changed",
+  "size": 133896
+ },
+ {
+  "path": "CG1754.qnt",
+  "state": "changed",
+  "size": 99641
+ },
+ {
+  "path": "CG1755.dcf",
+  "state": "changed",
+  "size": 31990
+ },
+ {
+  "path": "CG1777.qnt",
+  "state": "changed",
+  "size": 248893
+ },
+ {
+  "path": "CG1778.qnt",
+  "state": "changed",
+  "size": 256617
+ },
+ {
+  "path": "CG1779.qnt",
+  "state": "changed",
+  "size": 221237
+ },
+ {
+  "path": "CG1780.qnt",
+  "state": "changed",
+  "size": 228762
+ },
+ {
+  "path": "CG1781.qnt",
+  "state": "changed",
+  "size": 304250
+ },
+ {
+  "path": "CG1782.qnt",
+  "state": "changed",
+  "size": 310777
+ },
+ {
+  "path": "CG1783.qnt",
+  "state": "changed",
+  "size": 306832
+ },
+ {
+  "path": "CG1784.qnt",
+  "state": "changed",
+  "size": 316809
+ },
+ {
+  "path": "CG1785.qnt",
+  "state": "changed",
+  "size": 277363
+ },
+ {
+  "path": "CG1786.qnt",
+  "state": "changed",
+  "size": 284855
+ },
+ {
+  "path": "CG2051_1.qnt",
+  "state": "changed",
+  "size": 24884
+ },
+ {
+  "path": "CG2062.qnt",
+  "state": "changed",
+  "size": 3313
+ },
+ {
+  "path": "CG2063.qnt",
+  "state": "changed",
+  "size": 3256
+ },
+ {
+  "path": "CG2064.qnt",
+  "state": "changed",
+  "size": 2978
+ },
+ {
+  "path": "CG2065.qnt",
+  "state": "changed",
+  "size": 3125
+ },
+ {
+  "path": "CG2066.qnt",
+  "state": "changed",
+  "size": 3085
+ },
+ {
+  "path": "CG2067.qnt",
+  "state": "changed",
+  "size": 3023
+ },
+ {
+  "path": "CG2068.qnt",
+  "state": "changed",
+  "size": 2587
+ },
+ {
+  "path": "CG2069.qnt",
+  "state": "changed",
+  "size": 2843
+ },
+ {
+  "path": "CG2070.qnt",
+  "state": "changed",
+  "size": 3961
+ },
+ {
+  "path": "CG2071.qnt",
+  "state": "changed",
+  "size": 3848
+ },
+ {
+  "path": "CG2072.qnt",
+  "state": "changed",
+  "size": 3851
+ },
+ {
+  "path": "CG2073.qnt",
+  "state": "changed",
+  "size": 3862
+ },
+ {
+  "path": "CG2074.qnt",
+  "state": "changed",
+  "size": 4042
+ },
+ {
+  "path": "CG2075.qnt",
+  "state": "changed",
+  "size": 3261
+ },
+ {
+  "path": "CG2076.qnt",
+  "state": "changed",
+  "size": 4206
+ },
+ {
+  "path": "CG2077.qnt",
+  "state": "changed",
+  "size": 3949
+ },
+ {
+  "path": "CG2078.qnt",
+  "state": "changed",
+  "size": 4856
+ },
+ {
+  "path": "CG2079.qnt",
+  "state": "changed",
+  "size": 3605
+ },
+ {
+  "path": "CG2080.qnt",
+  "state": "changed",
+  "size": 4656
+ },
+ {
+  "path": "CG2083.qnt",
+  "state": "changed",
+  "size": 43345
+ },
+ {
+  "path": "CG2085.qnt",
+  "state": "changed",
+  "size": 39361
+ },
+ {
+  "path": "CG4005.pcf",
+  "state": "changed",
+  "size": 69617
+ },
+ {
+  "path": "CG4013.pcf",
+  "state": "changed",
+  "size": 118280
+ },
+ {
+  "path": "CG4014.qnt",
+  "state": "changed",
+  "size": 122963
+ },
+ {
+  "path": "CG4031.qnt",
+  "state": "changed",
+  "size": 57536
+ },
+ {
+  "path": "CG4032.qnt",
+  "state": "changed",
+  "size": 53608
+ },
+ {
+  "path": "CG4033.qnt",
+  "state": "changed",
+  "size": 40080
+ },
+ {
+  "path": "CG5047.qnt",
+  "state": "changed",
+  "size": 32181
+ },
+ {
+  "path": "CG5049.qnt",
+  "state": "changed",
+  "size": 9001
+ },
+ {
+  "path": "CG5050.pcf",
+  "state": "changed",
+  "size": 27538
+ },
+ {
+  "path": "CG5051.pcf",
+  "state": "changed",
+  "size": 757873
+ },
+ {
+  "path": "CG5052.pcf",
+  "state": "changed",
+  "size": 627797
+ },
+ {
+  "path": "CG5053.pcf",
+  "state": "changed",
+  "size": 739830
+ },
+ {
+  "path": "CG5054.pcf",
+  "state": "changed",
+  "size": 687781
+ },
+ {
+  "path": "CG5055.pcf",
+  "state": "changed",
+  "size": 685921
+ },
+ {
+  "path": "CG5056.pcf",
+  "state": "changed",
+  "size": 675787
+ },
+ {
+  "path": "CG5057.pcf",
+  "state": "changed",
+  "size": 669178
+ },
+ {
+  "path": "CG5058.pcf",
+  "state": "changed",
+  "size": 647756
+ },
+ {
+  "path": "CG5059.qnt",
+  "state": "changed",
+  "size": 34630
+ },
+ {
+  "path": "CG5060.pcf",
+  "state": "changed",
+  "size": 35582
+ },
+ {
+  "path": "CG5068.qnt",
+  "state": "changed",
+  "size": 16888
+ },
+ {
+  "path": "CG5070.pcf",
+  "state": "changed",
+  "size": 77597
+ },
+ {
+  "path": "CG5120.qnt",
+  "state": "changed",
+  "size": 31701
+ },
+ {
+  "path": "CG5125.qnt",
+  "state": "changed",
+  "size": 5035
+ },
+ {
+  "path": "CG5129.qnt",
+  "state": "changed",
+  "size": 61579
+ },
+ {
+  "path": "CG5130.qnt",
+  "state": "changed",
+  "size": 62525
+ },
+ {
+  "path": "CG5131.qnt",
+  "state": "changed",
+  "size": 27769
+ },
+ {
+  "path": "CG5132.qnt",
+  "state": "changed",
+  "size": 33744
+ },
+ {
+  "path": "CG5141.pcf",
+  "state": "changed",
+  "size": 78914
+ },
+ {
+  "path": "CG5142.pcf",
+  "state": "changed",
+  "size": 79971
+ },
+ {
+  "path": "CG5143.pcf",
+  "state": "changed",
+  "size": 58340
+ },
+ {
+  "path": "CG5145.pcf",
+  "state": "changed",
+  "size": 41338
+ },
+ {
+  "path": "CG5150.qnt",
+  "state": "changed",
+  "size": 599511
+ },
+ {
+  "path": "CG5151.qnt",
+  "state": "changed",
+  "size": 1584
+ },
+ {
+  "path": "CG5152.qnt",
+  "state": "changed",
+  "size": 550336
+ },
+ {
+  "path": "CG5153.dcf",
+  "state": "changed",
+  "size": 551309
+ },
+ {
+  "path": "CG5154.dcf",
+  "state": "changed",
+  "size": 548026
+ },
+ {
+  "path": "CG5155.qnt",
+  "state": "changed",
+  "size": 32619
+ },
+ {
+  "path": "CG5159.qnt",
+  "state": "changed",
+  "size": 12263
+ },
+ {
+  "path": "CG5171.qnt",
+  "state": "changed",
+  "size": 47306
+ },
+ {
+  "path": "CG5172.qnt",
+  "state": "changed",
+  "size": 39880
+ },
+ {
+  "path": "CG5173.qnt",
+  "state": "changed",
+  "size": 39142
+ },
+ {
+  "path": "CG5174.qnt",
+  "state": "changed",
+  "size": 40417
+ },
+ {
+  "path": "CG5175.qnt",
+  "state": "changed",
+  "size": 43217
+ },
+ {
+  "path": "CG5176.qnt",
+  "state": "changed",
+  "size": 42286
+ },
+ {
+  "path": "CG5177.qnt",
+  "state": "changed",
+  "size": 48236
+ },
+ {
+  "path": "CG5178.qnt",
+  "state": "changed",
+  "size": 43722
+ },
+ {
+  "path": "CG5179.qnt",
+  "state": "changed",
+  "size": 43453
+ },
+ {
+  "path": "CG5180.qnt",
+  "state": "changed",
+  "size": 42763
+ },
+ {
+  "path": "CG5181.qnt",
+  "state": "changed",
+  "size": 50259
+ },
+ {
+  "path": "CG5183.qnt",
+  "state": "changed",
+  "size": 4300
+ },
+ {
+  "path": "CG5184.qnt",
+  "state": "changed",
+  "size": 4837
+ },
+ {
+  "path": "CG5185.qnt",
+  "state": "changed",
+  "size": 6113
+ },
+ {
+  "path": "CG5186.qnt",
+  "state": "changed",
+  "size": 5714
+ },
+ {
+  "path": "CG5187.qnt",
+  "state": "changed",
+  "size": 143787
+ },
+ {
+  "path": "CG5188.qnt",
+  "state": "changed",
+  "size": 5667
+ },
+ {
+  "path": "CG5191.qnt",
+  "state": "changed",
+  "size": 583824
+ },
+ {
+  "path": "CG5192.qnt",
+  "state": "changed",
+  "size": 584895
+ },
+ {
+  "path": "CG5193.dcf",
+  "state": "changed",
+  "size": 586159
+ },
+ {
+  "path": "CG5194.dcf",
+  "state": "changed",
+  "size": 583094
+ },
+ {
+  "path": "CG5301.pcf",
+  "state": "changed",
+  "size": 330194
+ },
+ {
+  "path": "CG5301_1.qnt",
+  "state": "changed",
+  "size": 87066
+ },
+ {
+  "path": "CG5308.pcf",
+  "state": "changed",
+  "size": 44329
+ },
+ {
+  "path": "CG5316.qnt",
+  "state": "changed",
+  "size": 25257
+ },
+ {
+  "path": "CG5321.qnt",
+  "state": "changed",
+  "size": 2178
+ },
+ {
+  "path": "CG5322.qnt",
+  "state": "changed",
+  "size": 2162
+ },
+ {
+  "path": "CG5323.qnt",
+  "state": "changed",
+  "size": 2343
+ },
+ {
+  "path": "CG5324.qnt",
+  "state": "changed",
+  "size": 2074
+ },
+ {
+  "path": "CG5325.qnt",
+  "state": "changed",
+  "size": 2104
+ },
+ {
+  "path": "CG5326.qnt",
+  "state": "changed",
+  "size": 2943
+ },
+ {
+  "path": "CG5401.qnt",
+  "state": "changed",
+  "size": 500886
+ },
+ {
+  "path": "CG5402.qnt",
+  "state": "changed",
+  "size": 63635
+ },
+ {
+  "path": "CG5403.qnt",
+  "state": "changed",
+  "size": 62043
+ },
+ {
+  "path": "CG5406.qnt",
+  "state": "changed",
+  "size": 61148
+ },
+ {
+  "path": "CG5408.qnt",
+  "state": "changed",
+  "size": 143958
+ },
+ {
+  "path": "CG5411.qnt",
+  "state": "changed",
+  "size": 1065152
+ },
+ {
+  "path": "CG5412.dcf",
+  "state": "changed",
+  "size": 1069445
+ },
+ {
+  "path": "CG5413.dcf",
+  "state": "changed",
+  "size": 1079855
+ },
+ {
+  "path": "CG5414.dcf",
+  "state": "changed",
+  "size": 1045041
+ },
+ {
+  "path": "CG5415.dcf",
+  "state": "changed",
+  "size": 1047967
+ },
+ {
+  "path": "CG5416.dcf",
+  "state": "changed",
+  "size": 1053165
+ },
+ {
+  "path": "CG5417.dcf",
+  "state": "changed",
+  "size": 1066394
+ },
+ {
+  "path": "CG5418.qnt",
+  "state": "changed",
+  "size": 733757
+ },
+ {
+  "path": "CG5420.qnt",
+  "state": "changed",
+  "size": 844572
+ },
+ {
+  "path": "CG5421.qnt",
+  "state": "changed",
+  "size": 846117
+ },
+ {
+  "path": "CG5422.qnt",
+  "state": "changed",
+  "size": 833881
+ },
+ {
+  "path": "CG5430.pcf",
+  "state": "changed",
+  "size": 26698
+ },
+ {
+  "path": "CG5431.qnt",
+  "state": "changed",
+  "size": 44901
+ },
+ {
+  "path": "CG5432.dcf",
+  "state": "changed",
+  "size": 46067
+ },
+ {
+  "path": "CG5433.qnt",
+  "state": "changed",
+  "size": 57694
+ },
+ {
+  "path": "CG5434.qnt",
+  "state": "changed",
+  "size": 56666
+ },
+ {
+  "path": "CG5440.qnt",
+  "state": "changed",
+  "size": 732509
+ },
+ {
+  "path": "CG5441.qnt",
+  "state": "changed",
+  "size": 4433
+ },
+ {
+  "path": "CG5442.qnt",
+  "state": "changed",
+  "size": 5391
+ },
+ {
+  "path": "CG5443.qnt",
+  "state": "changed",
+  "size": 5909
+ },
+ {
+  "path": "CG5444.qnt",
+  "state": "changed",
+  "size": 5253
+ },
+ {
+  "path": "CG5445.qnt",
+  "state": "changed",
+  "size": 5809
+ },
+ {
+  "path": "CG5448.qnt",
+  "state": "changed",
+  "size": 3378
+ },
+ {
+  "path": "CG5460.qnt",
+  "state": "changed",
+  "size": 740947
+ },
+ {
+  "path": "CG5461.qnt",
+  "state": "changed",
+  "size": 83288
+ },
+ {
+  "path": "CG6000.qnt",
+  "state": "changed",
+  "size": 6041
+ },
+ {
+  "path": "CG6001.qnt",
+  "state": "changed",
+  "size": 114767
+ },
+ {
+  "path": "CG6005.qnt",
+  "state": "changed",
+  "size": 790
+ },
+ {
+  "path": "CG6006.qnt",
+  "state": "changed",
+  "size": 785
+ },
+ {
+  "path": "CG6011.qnt",
+  "state": "changed",
+  "size": 968
+ },
+ {
+  "path": "CG6012.qnt",
+  "state": "changed",
+  "size": 876
+ },
+ {
+  "path": "CG6013.qnt",
+  "state": "changed",
+  "size": 943
+ },
+ {
+  "path": "CG6014.qnt",
+  "state": "changed",
+  "size": 888
+ },
+ {
+  "path": "CG6015.qnt",
+  "state": "changed",
+  "size": 1044
+ },
+ {
+  "path": "CG6016.qnt",
+  "state": "changed",
+  "size": 976
+ },
+ {
+  "path": "CG6042.qnt",
+  "state": "changed",
+  "size": 1005
+ },
+ {
+  "path": "CG6043.qnt",
+  "state": "changed",
+  "size": 705
+ },
+ {
+  "path": "CG6044.qnt",
+  "state": "changed",
+  "size": 8958
+ },
+ {
+  "path": "CG980477.qnt",
+  "state": "new",
+  "size": 1217740
+ },
+ {
+  "path": "CG980478.qnt",
+  "state": "new",
+  "size": 1284044
+ },
+ {
+  "path": "CG980479.qnt",
+  "state": "new",
+  "size": 1325647
+ },
+ {
+  "path": "CG980480.qnt",
+  "state": "new",
+  "size": 1227086
+ },
+ {
+  "path": "CG980481.qnt",
+  "state": "new",
+  "size": 1247119
+ },
+ {
+  "path": "CG980482.qnt",
+  "state": "new",
+  "size": 1296151
+ },
+ {
+  "path": "CG980483.qnt",
+  "state": "new",
+  "size": 1245301
+ },
+ {
+  "path": "CG980484.qnt",
+  "state": "new",
+  "size": 1255654
+ },
+ {
+  "path": "CG980485.qnt",
+  "state": "new",
+  "size": 1318242
+ },
+ {
+  "path": "CG980486.qnt",
+  "state": "new",
+  "size": 1262987
+ },
+ {
+  "path": "CG980487.qnt",
+  "state": "new",
+  "size": 1256577
+ },
+ {
+  "path": "CG980488.qnt",
+  "state": "new",
+  "size": 1319673
+ },
+ {
+  "path": "CG980489.qnt",
+  "state": "new",
+  "size": 1268744
+ },
+ {
+  "path": "CG980490.qnt",
+  "state": "new",
+  "size": 1272480
+ },
+ {
+  "path": "CG980491.qnt",
+  "state": "new",
+  "size": 1333155
+ },
+ {
+  "path": "CG980492.qnt",
+  "state": "new",
+  "size": 1271907
+ },
+ {
+  "path": "CG980493.qnt",
+  "state": "new",
+  "size": 1239656
+ },
+ {
+  "path": "CG980494.qnt",
+  "state": "new",
+  "size": 1326604
+ },
+ {
+  "path": "CG980495.qnt",
+  "state": "new",
+  "size": 1263626
+ },
+ {
+  "path": "CG980496.qnt",
+  "state": "new",
+  "size": 1257242
+ },
+ {
+  "path": "CG980497.qnt",
+  "state": "new",
+  "size": 1309729
+ },
+ {
+  "path": "CG980498.qnt",
+  "state": "new",
+  "size": 1238525
+ },
+ {
+  "path": "CG980499.qnt",
+  "state": "new",
+  "size": 1249411
+ },
+ {
+  "path": "CG980500.qnt",
+  "state": "new",
+  "size": 1328794
+ },
+ {
+  "path": "CG980501.qnt",
+  "state": "new",
+  "size": 1266550
+ },
+ {
+  "path": "CG980502.qnt",
+  "state": "new",
+  "size": 1268578
+ },
+ {
+  "path": "CG980503.qnt",
+  "state": "new",
+  "size": 1330493
+ },
+ {
+  "path": "CG980504.qnt",
+  "state": "new",
+  "size": 1328307
+ },
+ {
+  "path": "CG980505.qnt",
+  "state": "new",
+  "size": 1200168
+ },
+ {
+  "path": "CG980506.qnt",
+  "state": "new",
+  "size": 1143851
+ },
+ {
+  "path": "CG981038.qnt",
+  "state": "new",
+  "size": 744582
+ },
+ {
+  "path": "CG981039.qnt",
+  "state": "new",
+  "size": 612359
+ },
+ {
+  "path": "CG981040.qnt",
+  "state": "new",
+  "size": 35095
+ },
+ {
+  "path": "CG981041.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981042.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981043.qnt",
+  "state": "new",
+  "size": 28641
+ },
+ {
+  "path": "CG981044.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981045.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981046.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981047.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981048.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981049.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981050.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981051.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981052.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981053.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981054.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981055.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981056.qnt",
+  "state": "new",
+  "size": 3680
+ },
+ {
+  "path": "CG981057.qnt",
+  "state": "new",
+  "size": 25273
+ },
+ {
+  "path": "CG981058.qnt",
+  "state": "new",
+  "size": 53756
+ },
+ {
+  "path": "CG981059.qnt",
+  "state": "new",
+  "size": 50463
+ },
+ {
+  "path": "CG981060.qnt",
+  "state": "new",
+  "size": 52538
+ },
+ {
+  "path": "CG981061.qnt",
+  "state": "new",
+  "size": 61829
+ },
+ {
+  "path": "CG981062.qnt",
+  "state": "new",
+  "size": 64197
+ },
+ {
+  "path": "CG981063.qnt",
+  "state": "new",
+  "size": 59704
+ },
+ {
+  "path": "CG981064.qnt",
+  "state": "new",
+  "size": 60320
+ },
+ {
+  "path": "CG981065.qnt",
+  "state": "new",
+  "size": 67038
+ },
+ {
+  "path": "CG981066.qnt",
+  "state": "new",
+  "size": 85314
+ },
+ {
+  "path": "CG981067.qnt",
+  "state": "new",
+  "size": 88572
+ },
+ {
+  "path": "CG981068.qnt",
+  "state": "new",
+  "size": 95425
+ },
+ {
+  "path": "CG981069.qnt",
+  "state": "new",
+  "size": 102592
+ },
+ {
+  "path": "CG981070.qnt",
+  "state": "new",
+  "size": 106070
+ },
+ {
+  "path": "CG981071.qnt",
+  "state": "new",
+  "size": 116448
+ },
+ {
+  "path": "CG981072.qnt",
+  "state": "new",
+  "size": 124212
+ },
+ {
+  "path": "CG981073.qnt",
+  "state": "new",
+  "size": 132235
+ },
+ {
+  "path": "CG981074.qnt",
+  "state": "new",
+  "size": 138290
+ },
+ {
+  "path": "CG981075.qnt",
+  "state": "new",
+  "size": 142024
+ },
+ {
+  "path": "CG981076.qnt",
+  "state": "new",
+  "size": 143189
+ },
+ {
+  "path": "CG981077.qnt",
+  "state": "new",
+  "size": 144382
+ },
+ {
+  "path": "CG981078.qnt",
+  "state": "new",
+  "size": 144877
+ },
+ {
+  "path": "CG981079.qnt",
+  "state": "new",
+  "size": 153768
+ },
+ {
+  "path": "CG981080.qnt",
+  "state": "new",
+  "size": 156778
+ },
+ {
+  "path": "CG981081.qnt",
+  "state": "new",
+  "size": 155627
+ },
+ {
+  "path": "CG981082.qnt",
+  "state": "new",
+  "size": 159611
+ },
+ {
+  "path": "CG981083.qnt",
+  "state": "new",
+  "size": 167890
+ },
+ {
+  "path": "CG981084.qnt",
+  "state": "new",
+  "size": 170831
+ },
+ {
+  "path": "CG981085.qnt",
+  "state": "new",
+  "size": 172281
+ },
+ {
+  "path": "CG981086.qnt",
+  "state": "new",
+  "size": 171065
+ },
+ {
+  "path": "CG981087.qnt",
+  "state": "new",
+  "size": 175610
+ },
+ {
+  "path": "CG981088.qnt",
+  "state": "new",
+  "size": 180259
+ },
+ {
+  "path": "CG981089.qnt",
+  "state": "new",
+  "size": 184068
+ },
+ {
+  "path": "CG981090.qnt",
+  "state": "new",
+  "size": 188000
+ },
+ {
+  "path": "CG981091.qnt",
+  "state": "new",
+  "size": 193428
+ },
+ {
+  "path": "CG981092.qnt",
+  "state": "new",
+  "size": 196743
+ },
+ {
+  "path": "CG981093.qnt",
+  "state": "new",
+  "size": 197354
+ },
+ {
+  "path": "CG981094.qnt",
+  "state": "new",
+  "size": 197974
+ },
+ {
+  "path": "CG981095.qnt",
+  "state": "new",
+  "size": 203019
+ },
+ {
+  "path": "CG981096.qnt",
+  "state": "new",
+  "size": 206515
+ },
+ {
+  "path": "CG981097.qnt",
+  "state": "new",
+  "size": 210876
+ },
+ {
+  "path": "CG981098.qnt",
+  "state": "new",
+  "size": 217465
+ },
+ {
+  "path": "CG981099.qnt",
+  "state": "new",
+  "size": 224391
+ },
+ {
+  "path": "CG981100.qnt",
+  "state": "new",
+  "size": 227820
+ },
+ {
+  "path": "CG981101.qnt",
+  "state": "new",
+  "size": 229054
+ },
+ {
+  "path": "CG981102.qnt",
+  "state": "new",
+  "size": 232484
+ },
+ {
+  "path": "CG981103.qnt",
+  "state": "new",
+  "size": 231062
+ },
+ {
+  "path": "CG981104.qnt",
+  "state": "new",
+  "size": 231005
+ },
+ {
+  "path": "CG981105.qnt",
+  "state": "new",
+  "size": 231841
+ },
+ {
+  "path": "CG981106.qnt",
+  "state": "new",
+  "size": 232467
+ },
+ {
+  "path": "CG981107.qnt",
+  "state": "new",
+  "size": 234067
+ },
+ {
+  "path": "CG981108.qnt",
+  "state": "new",
+  "size": 236009
+ },
+ {
+  "path": "CG981109.qnt",
+  "state": "new",
+  "size": 236629
+ },
+ {
+  "path": "CG981110.qnt",
+  "state": "new",
+  "size": 239071
+ },
+ {
+  "path": "CG981111.qnt",
+  "state": "new",
+  "size": 240708
+ },
+ {
+  "path": "CG981112.qnt",
+  "state": "new",
+  "size": 246828
+ },
+ {
+  "path": "CG981113.qnt",
+  "state": "new",
+  "size": 251332
+ },
+ {
+  "path": "CG981114.qnt",
+  "state": "new",
+  "size": 255407
+ },
+ {
+  "path": "CG981115.qnt",
+  "state": "new",
+  "size": 260037
+ },
+ {
+  "path": "CG981116.qnt",
+  "state": "new",
+  "size": 262261
+ },
+ {
+  "path": "CG981117.qnt",
+  "state": "new",
+  "size": 266654
+ },
+ {
+  "path": "CG981118.qnt",
+  "state": "new",
+  "size": 264973
+ },
+ {
+  "path": "CG981119.qnt",
+  "state": "new",
+  "size": 262554
+ },
+ {
+  "path": "CG981120.qnt",
+  "state": "new",
+  "size": 261353
+ },
+ {
+  "path": "CG981121.qnt",
+  "state": "new",
+  "size": 263276
+ },
+ {
+  "path": "CG981122.qnt",
+  "state": "new",
+  "size": 261559
+ },
+ {
+  "path": "CG981123.qnt",
+  "state": "new",
+  "size": 260460
+ },
+ {
+  "path": "CG981124.qnt",
+  "state": "new",
+  "size": 258690
+ },
+ {
+  "path": "CG981125.qnt",
+  "state": "new",
+  "size": 257917
+ },
+ {
+  "path": "CG981126.qnt",
+  "state": "new",
+  "size": 255773
+ },
+ {
+  "path": "CG981127.qnt",
+  "state": "new",
+  "size": 252356
+ },
+ {
+  "path": "CG981128.qnt",
+  "state": "new",
+  "size": 248771
+ },
+ {
+  "path": "CG981129.qnt",
+  "state": "new",
+  "size": 245041
+ },
+ {
+  "path": "CG981130.qnt",
+  "state": "new",
+  "size": 240720
+ },
+ {
+  "path": "CG981131.qnt",
+  "state": "new",
+  "size": 239259
+ },
+ {
+  "path": "CG981132.qnt",
+  "state": "new",
+  "size": 235764
+ },
+ {
+  "path": "CG981133.qnt",
+  "state": "new",
+  "size": 234417
+ },
+ {
+  "path": "CG981134.qnt",
+  "state": "new",
+  "size": 234023
+ },
+ {
+  "path": "CG981135.qnt",
+  "state": "new",
+  "size": 235244
+ },
+ {
+  "path": "CG981136.qnt",
+  "state": "new",
+  "size": 234204
+ },
+ {
+  "path": "CG981137.qnt",
+  "state": "new",
+  "size": 234203
+ },
+ {
+  "path": "CG981138.qnt",
+  "state": "new",
+  "size": 233164
+ },
+ {
+  "path": "CG981139.qnt",
+  "state": "new",
+  "size": 231904
+ },
+ {
+  "path": "CG981140.qnt",
+  "state": "new",
+  "size": 233148
+ },
+ {
+  "path": "CG981141.qnt",
+  "state": "new",
+  "size": 233191
+ },
+ {
+  "path": "CG981142.qnt",
+  "state": "new",
+  "size": 230258
+ },
+ {
+  "path": "CG981143.qnt",
+  "state": "new",
+  "size": 227950
+ },
+ {
+  "path": "CG981144.qnt",
+  "state": "new",
+  "size": 226921
+ },
+ {
+  "path": "CG981145.qnt",
+  "state": "new",
+  "size": 223295
+ },
+ {
+  "path": "CG981146.qnt",
+  "state": "new",
+  "size": 221286
+ },
+ {
+  "path": "CG981147.qnt",
+  "state": "new",
+  "size": 218172
+ },
+ {
+  "path": "CG981148.qnt",
+  "state": "new",
+  "size": 215846
+ },
+ {
+  "path": "CG981149.qnt",
+  "state": "new",
+  "size": 211647
+ },
+ {
+  "path": "CG981150.qnt",
+  "state": "new",
+  "size": 209898
+ },
+ {
+  "path": "CG981151.qnt",
+  "state": "new",
+  "size": 205713
+ },
+ {
+  "path": "CG981152.qnt",
+  "state": "new",
+  "size": 202285
+ },
+ {
+  "path": "CG981153.qnt",
+  "state": "new",
+  "size": 199633
+ },
+ {
+  "path": "CG981154.qnt",
+  "state": "new",
+  "size": 197040
+ },
+ {
+  "path": "CG981155.qnt",
+  "state": "new",
+  "size": 175479
+ },
+ {
+  "path": "CG981156.qnt",
+  "state": "new",
+  "size": 173966
+ },
+ {
+  "path": "CG981157.qnt",
+  "state": "new",
+  "size": 168275
+ },
+ {
+  "path": "CG981158.qnt",
+  "state": "new",
+  "size": 170190
+ },
+ {
+  "path": "CG981159.qnt",
+  "state": "new",
+  "size": 170246
+ },
+ {
+  "path": "CG981160.qnt",
+  "state": "new",
+  "size": 164875
+ },
+ {
+  "path": "CG981161.qnt",
+  "state": "new",
+  "size": 165964
+ },
+ {
+  "path": "CG981162.qnt",
+  "state": "new",
+  "size": 167078
+ },
+ {
+  "path": "CG981163.qnt",
+  "state": "new",
+  "size": 152132
+ },
+ {
+  "path": "CG981164.qnt",
+  "state": "new",
+  "size": 150476
+ },
+ {
+  "path": "CG981165.qnt",
+  "state": "new",
+  "size": 149432
+ },
+ {
+  "path": "CG981166.qnt",
+  "state": "new",
+  "size": 146552
+ },
+ {
+  "path": "CG981167.qnt",
+  "state": "new",
+  "size": 144445
+ },
+ {
+  "path": "CG981168.qnt",
+  "state": "new",
+  "size": 144618
+ },
+ {
+  "path": "CG981169.qnt",
+  "state": "new",
+  "size": 141099
+ },
+ {
+  "path": "CG981170.qnt",
+  "state": "new",
+  "size": 138626
+ },
+ {
+  "path": "CG981171.qnt",
+  "state": "new",
+  "size": 141595
+ },
+ {
+  "path": "CG981172.qnt",
+  "state": "new",
+  "size": 137820
+ },
+ {
+  "path": "CG981173.qnt",
+  "state": "new",
+  "size": 137729
+ },
+ {
+  "path": "CG981174.qnt",
+  "state": "new",
+  "size": 137089
+ },
+ {
+  "path": "CG981175.qnt",
+  "state": "new",
+  "size": 134414
+ },
+ {
+  "path": "CG981176.qnt",
+  "state": "new",
+  "size": 133915
+ },
+ {
+  "path": "CG981177.qnt",
+  "state": "new",
+  "size": 134177
+ },
+ {
+  "path": "CG981178.qnt",
+  "state": "new",
+  "size": 131151
+ },
+ {
+  "path": "CG981179.qnt",
+  "state": "new",
+  "size": 133540
+ },
+ {
+  "path": "CG981180.qnt",
+  "state": "new",
+  "size": 134068
+ },
+ {
+  "path": "CG981181.qnt",
+  "state": "new",
+  "size": 128419
+ },
+ {
+  "path": "CG981182.qnt",
+  "state": "new",
+  "size": 123764
+ },
+ {
+  "path": "CG981183.qnt",
+  "state": "new",
+  "size": 123785
+ },
+ {
+  "path": "CG981184.qnt",
+  "state": "new",
+  "size": 124750
+ },
+ {
+  "path": "CG981185.qnt",
+  "state": "new",
+  "size": 121979
+ },
+ {
+  "path": "CG981186.qnt",
+  "state": "new",
+  "size": 122509
+ },
+ {
+  "path": "CG981187.qnt",
+  "state": "new",
+  "size": 123008
+ },
+ {
+  "path": "CG981188.qnt",
+  "state": "new",
+  "size": 120959
+ },
+ {
+  "path": "CG981189.qnt",
+  "state": "new",
+  "size": 121041
+ },
+ {
+  "path": "CG981190.qnt",
+  "state": "new",
+  "size": 121328
+ },
+ {
+  "path": "CG981191.qnt",
+  "state": "new",
+  "size": 120005
+ },
+ {
+  "path": "CG981192.qnt",
+  "state": "new",
+  "size": 120165
+ },
+ {
+  "path": "CG981193.qnt",
+  "state": "new",
+  "size": 122574
+ },
+ {
+  "path": "CG981194.qnt",
+  "state": "new",
+  "size": 120830
+ },
+ {
+  "path": "CG981195.qnt",
+  "state": "new",
+  "size": 120615
+ },
+ {
+  "path": "CG981196.qnt",
+  "state": "new",
+  "size": 124097
+ },
+ {
+  "path": "CG981197.qnt",
+  "state": "new",
+  "size": 121477
+ },
+ {
+  "path": "CG981198.qnt",
+  "state": "new",
+  "size": 122028
+ },
+ {
+  "path": "CG981199.qnt",
+  "state": "new",
+  "size": 128368
+ },
+ {
+  "path": "CG981200.qnt",
+  "state": "new",
+  "size": 123290
+ },
+ {
+  "path": "CG981201.qnt",
+  "state": "new",
+  "size": 123298
+ },
+ {
+  "path": "CG981202.qnt",
+  "state": "new",
+  "size": 123598
+ },
+ {
+  "path": "CG981203.qnt",
+  "state": "new",
+  "size": 120247
+ },
+ {
+  "path": "CG981204.qnt",
+  "state": "new",
+  "size": 120819
+ },
+ {
+  "path": "CG981205.qnt",
+  "state": "new",
+  "size": 121157
+ },
+ {
+  "path": "CG981206.qnt",
+  "state": "new",
+  "size": 119327
+ },
+ {
+  "path": "CG981207.qnt",
+  "state": "new",
+  "size": 119712
+ },
+ {
+  "path": "CG981208.qnt",
+  "state": "new",
+  "size": 119852
+ },
+ {
+  "path": "CG981209.qnt",
+  "state": "new",
+  "size": 118551
+ },
+ {
+  "path": "CG981210.qnt",
+  "state": "new",
+  "size": 118670
+ },
+ {
+  "path": "CG981211.qnt",
+  "state": "new",
+  "size": 120052
+ },
+ {
+  "path": "CG981212.qnt",
+  "state": "new",
+  "size": 119252
+ },
+ {
+  "path": "CG981213.qnt",
+  "state": "new",
+  "size": 119546
+ },
+ {
+  "path": "CG981214.qnt",
+  "state": "new",
+  "size": 124689
+ },
+ {
+  "path": "CG981215.qnt",
+  "state": "new",
+  "size": 120860
+ },
+ {
+  "path": "CG981216.qnt",
+  "state": "new",
+  "size": 120753
+ },
+ {
+  "path": "CG981217.qnt",
+  "state": "new",
+  "size": 123793
+ },
+ {
+  "path": "CG981218.qnt",
+  "state": "new",
+  "size": 118864
+ },
+ {
+  "path": "CG981219.qnt",
+  "state": "new",
+  "size": 118958
+ },
+ {
+  "path": "CG981220.qnt",
+  "state": "new",
+  "size": 118649
+ },
+ {
+  "path": "CG981221.qnt",
+  "state": "new",
+  "size": 116621
+ },
+ {
+  "path": "CG981222.qnt",
+  "state": "new",
+  "size": 116751
+ },
+ {
+  "path": "CG981223.qnt",
+  "state": "new",
+  "size": 117043
+ },
+ {
+  "path": "CG981224.qnt",
+  "state": "new",
+  "size": 115520
+ },
+ {
+  "path": "CG981225.qnt",
+  "state": "new",
+  "size": 115666
+ },
+ {
+  "path": "CG981226.qnt",
+  "state": "new",
+  "size": 116041
+ },
+ {
+  "path": "CG981227.qnt",
+  "state": "new",
+  "size": 114984
+ },
+ {
+  "path": "CG981228.qnt",
+  "state": "new",
+  "size": 115299
+ },
+ {
+  "path": "CG981229.qnt",
+  "state": "new",
+  "size": 115861
+ },
+ {
+  "path": "CG981230.qnt",
+  "state": "new",
+  "size": 115174
+ },
+ {
+  "path": "CG981231.qnt",
+  "state": "new",
+  "size": 115313
+ },
+ {
+  "path": "CG981232.qnt",
+  "state": "new",
+  "size": 121021
+ },
+ {
+  "path": "CG981233.qnt",
+  "state": "new",
+  "size": 117410
+ },
+ {
+  "path": "CG981234.qnt",
+  "state": "new",
+  "size": 117552
+ },
+ {
+  "path": "CG981235.qnt",
+  "state": "new",
+  "size": 121535
+ },
+ {
+  "path": "CG981236.qnt",
+  "state": "new",
+  "size": 117725
+ },
+ {
+  "path": "CG981237.qnt",
+  "state": "new",
+  "size": 118036
+ },
+ {
+  "path": "CG981238.qnt",
+  "state": "new",
+  "size": 118205
+ },
+ {
+  "path": "CG981239.qnt",
+  "state": "new",
+  "size": 115912
+ },
+ {
+  "path": "CG981240.qnt",
+  "state": "new",
+  "size": 116264
+ },
+ {
+  "path": "CG981241.qnt",
+  "state": "new",
+  "size": 116933
+ },
+ {
+  "path": "CG981242.qnt",
+  "state": "new",
+  "size": 115641
+ },
+ {
+  "path": "CG981243.qnt",
+  "state": "new",
+  "size": 116053
+ },
+ {
+  "path": "CG981244.qnt",
+  "state": "new",
+  "size": 116138
+ },
+ {
+  "path": "CG981245.qnt",
+  "state": "new",
+  "size": 115322
+ },
+ {
+  "path": "CG981246.qnt",
+  "state": "new",
+  "size": 115106
+ },
+ {
+  "path": "CG981247.qnt",
+  "state": "new",
+  "size": 116896
+ },
+ {
+  "path": "CG981248.qnt",
+  "state": "new",
+  "size": 116272
+ },
+ {
+  "path": "CG981249.qnt",
+  "state": "new",
+  "size": 116492
+ },
+ {
+  "path": "CG981250.qnt",
+  "state": "new",
+  "size": 121812
+ },
+ {
+  "path": "CG981251.qnt",
+  "state": "new",
+  "size": 118940
+ },
+ {
+  "path": "CG981252.qnt",
+  "state": "new",
+  "size": 119471
+ },
+ {
+  "path": "CG981253.qnt",
+  "state": "new",
+  "size": 121810
+ },
+ {
+  "path": "CG981254.qnt",
+  "state": "new",
+  "size": 117783
+ },
+ {
+  "path": "CG981255.qnt",
+  "state": "new",
+  "size": 117942
+ },
+ {
+  "path": "CG981256.qnt",
+  "state": "new",
+  "size": 117518
+ },
+ {
+  "path": "CG981257.qnt",
+  "state": "new",
+  "size": 115334
+ },
+ {
+  "path": "CG981258.qnt",
+  "state": "new",
+  "size": 116333
+ },
+ {
+  "path": "CG981259.qnt",
+  "state": "new",
+  "size": 939570
+ },
+ {
+  "path": "CG981260.qnt",
+  "state": "new",
+  "size": 1002578
+ },
+ {
+  "path": "CG981371.qnt",
+  "state": "new",
+  "size": 434270
+ },
+ {
+  "path": "CG981372.qnt",
+  "state": "new",
+  "size": 428381
+ },
+ {
+  "path": "CG981373.qnt",
+  "state": "new",
+  "size": 502195
+ },
+ {
+  "path": "CG981374.qnt",
+  "state": "new",
+  "size": 529178
+ },
+ {
+  "path": "CG981375.qnt",
+  "state": "new",
+  "size": 543225
+ },
+ {
+  "path": "CG981376.qnt",
+  "state": "new",
+  "size": 553056
+ },
+ {
+  "path": "CG981377.qnt",
+  "state": "new",
+  "size": 554935
+ },
+ {
+  "path": "CG981378.qnt",
+  "state": "new",
+  "size": 554588
+ },
+ {
+  "path": "CG981379.qnt",
+  "state": "new",
+  "size": 548379
+ },
+ {
+  "path": "CG981380.qnt",
+  "state": "new",
+  "size": 536375
+ },
+ {
+  "path": "CG981381.qnt",
+  "state": "new",
+  "size": 518618
+ },
+ {
+  "path": "CG981382.qnt",
+  "state": "new",
+  "size": 475044
+ },
+ {
+  "path": "CG981383.qnt",
+  "state": "new",
+  "size": 490920
+ },
+ {
+  "path": "CG981384.qnt",
+  "state": "new",
+  "size": 495745
+ },
+ {
+  "path": "CG981385.qnt",
+  "state": "new",
+  "size": 498315
+ },
+ {
+  "path": "CG981386.qnt",
+  "state": "new",
+  "size": 504279
+ },
+ {
+  "path": "CG981387.qnt",
+  "state": "new",
+  "size": 507783
+ },
+ {
+  "path": "CG981388.qnt",
+  "state": "new",
+  "size": 506011
+ },
+ {
+  "path": "CG981389.qnt",
+  "state": "new",
+  "size": 511416
+ },
+ {
+  "path": "CG981390.qnt",
+  "state": "new",
+  "size": 514239
+ },
+ {
+  "path": "CG981391.qnt",
+  "state": "new",
+  "size": 502473
+ },
+ {
+  "path": "CG981392.qnt",
+  "state": "new",
+  "size": 490605
+ },
+ {
+  "path": "CG981393.qnt",
+  "state": "new",
+  "size": 412344
+ },
+ {
+  "path": "CG981394.qnt",
+  "state": "new",
+  "size": 424324
+ },
+ {
+  "path": "CG981395.qnt",
+  "state": "new",
+  "size": 428834
+ },
+ {
+  "path": "CG981396.qnt",
+  "state": "new",
+  "size": 429903
+ },
+ {
+  "path": "CG981397.qnt",
+  "state": "new",
+  "size": 432588
+ },
+ {
+  "path": "CG981398.qnt",
+  "state": "new",
+  "size": 434863
+ },
+ {
+  "path": "CG981399.qnt",
+  "state": "new",
+  "size": 435573
+ },
+ {
+  "path": "CG981400.qnt",
+  "state": "new",
+  "size": 435892
+ },
+ {
+  "path": "CG981401.qnt",
+  "state": "new",
+  "size": 436623
+ },
+ {
+  "path": "CG981402.qnt",
+  "state": "new",
+  "size": 437787
+ },
+ {
+  "path": "CG981403.qnt",
+  "state": "new",
+  "size": 437463
+ },
+ {
+  "path": "CG981404.qnt",
+  "state": "new",
+  "size": 439851
+ },
+ {
+  "path": "CG981405.qnt",
+  "state": "new",
+  "size": 440264
+ },
+ {
+  "path": "CG981406.qnt",
+  "state": "new",
+  "size": 440561
+ },
+ {
+  "path": "CG981407.qnt",
+  "state": "new",
+  "size": 441791
+ },
+ {
+  "path": "CG981408.qnt",
+  "state": "new",
+  "size": 443108
+ },
+ {
+  "path": "CG981409.qnt",
+  "state": "new",
+  "size": 442859
+ },
+ {
+  "path": "CG981410.qnt",
+  "state": "new",
+  "size": 439957
+ },
+ {
+  "path": "CG981411.qnt",
+  "state": "new",
+  "size": 415920
+ },
+ {
+  "path": "CG981412.qnt",
+  "state": "new",
+  "size": 425509
+ },
+ {
+  "path": "CG981413.qnt",
+  "state": "new",
+  "size": 428424
+ },
+ {
+  "path": "CG981414.qnt",
+  "state": "new",
+  "size": 428855
+ },
+ {
+  "path": "CG981415.qnt",
+  "state": "new",
+  "size": 430386
+ },
+ {
+  "path": "CG981416.qnt",
+  "state": "new",
+  "size": 430950
+ },
+ {
+  "path": "CG981417.qnt",
+  "state": "new",
+  "size": 430849
+ },
+ {
+  "path": "CG981418.qnt",
+  "state": "new",
+  "size": 431359
+ },
+ {
+  "path": "CG981419.qnt",
+  "state": "new",
+  "size": 432964
+ },
+ {
+  "path": "CG981420.qnt",
+  "state": "new",
+  "size": 432985
+ },
+ {
+  "path": "CG981421.qnt",
+  "state": "new",
+  "size": 433837
+ },
+ {
+  "path": "CG981422.qnt",
+  "state": "new",
+  "size": 434860
+ },
+ {
+  "path": "CG981423.qnt",
+  "state": "new",
+  "size": 435087
+ },
+ {
+  "path": "CG981424.qnt",
+  "state": "new",
+  "size": 435748
+ },
+ {
+  "path": "CG981425.qnt",
+  "state": "new",
+  "size": 437036
+ },
+ {
+  "path": "CG981426.qnt",
+  "state": "new",
+  "size": 438888
+ },
+ {
+  "path": "CG981427.qnt",
+  "state": "new",
+  "size": 437247
+ },
+ {
+  "path": "CG981428.qnt",
+  "state": "new",
+  "size": 434253
+ },
+ {
+  "path": "CG981429.qnt",
+  "state": "new",
+  "size": 416631
+ },
+ {
+  "path": "CG981430.qnt",
+  "state": "new",
+  "size": 622491
+ },
+ {
+  "path": "CG981431.qnt",
+  "state": "new",
+  "size": 683798
+ },
+ {
+  "path": "CG981432.qnt",
+  "state": "new",
+  "size": 724580
+ },
+ {
+  "path": "CG981433.qnt",
+  "state": "new",
+  "size": 754384
+ },
+ {
+  "path": "CG981434.qnt",
+  "state": "new",
+  "size": 779703
+ },
+ {
+  "path": "CG981435.qnt",
+  "state": "new",
+  "size": 793464
+ },
+ {
+  "path": "CG981436.qnt",
+  "state": "new",
+  "size": 815862
+ },
+ {
+  "path": "CG981437.qnt",
+  "state": "new",
+  "size": 824996
+ },
+ {
+  "path": "CG981438.qnt",
+  "state": "new",
+  "size": 832918
+ },
+ {
+  "path": "CG981439.qnt",
+  "state": "new",
+  "size": 833629
+ },
+ {
+  "path": "CG981440.qnt",
+  "state": "new",
+  "size": 826927
+ },
+ {
+  "path": "CG981441.qnt",
+  "state": "new",
+  "size": 810524
+ },
+ {
+  "path": "CG981442.qnt",
+  "state": "new",
+  "size": 757488
+ },
+ {
+  "path": "CG981443.qnt",
+  "state": "new",
+  "size": 755110
+ },
+ {
+  "path": "CG981444.qnt",
+  "state": "new",
+  "size": 762608
+ },
+ {
+  "path": "CG981445.qnt",
+  "state": "new",
+  "size": 772842
+ },
+ {
+  "path": "CG981446.qnt",
+  "state": "new",
+  "size": 765789
+ },
+ {
+  "path": "CG981447.qnt",
+  "state": "new",
+  "size": 770315
+ },
+ {
+  "path": "CG981448.qnt",
+  "state": "new",
+  "size": 779476
+ },
+ {
+  "path": "CG981449.qnt",
+  "state": "new",
+  "size": 764841
+ },
+ {
+  "path": "CG981450.qnt",
+  "state": "new",
+  "size": 748829
+ },
+ {
+  "path": "CG981451.qnt",
+  "state": "new",
+  "size": 672405
+ },
+ {
+  "path": "CG981452.qnt",
+  "state": "new",
+  "size": 670010
+ },
+ {
+  "path": "CG981453.qnt",
+  "state": "new",
+  "size": 674296
+ },
+ {
+  "path": "CG981454.qnt",
+  "state": "new",
+  "size": 681405
+ },
+ {
+  "path": "CG981455.qnt",
+  "state": "new",
+  "size": 674898
+ },
+ {
+  "path": "CG981456.qnt",
+  "state": "new",
+  "size": 674741
+ },
+ {
+  "path": "CG981457.qnt",
+  "state": "new",
+  "size": 680906
+ },
+ {
+  "path": "CG981458.qnt",
+  "state": "new",
+  "size": 672750
+ },
+ {
+  "path": "CG981459.qnt",
+  "state": "new",
+  "size": 672340
+ },
+ {
+  "path": "CG981460.qnt",
+  "state": "new",
+  "size": 677273
+ },
+ {
+  "path": "CG981461.qnt",
+  "state": "new",
+  "size": 671567
+ },
+ {
+  "path": "CG981462.qnt",
+  "state": "new",
+  "size": 672965
+ },
+ {
+  "path": "CG981463.qnt",
+  "state": "new",
+  "size": 677870
+ },
+ {
+  "path": "CG981464.qnt",
+  "state": "new",
+  "size": 673161
+ },
+ {
+  "path": "CG981465.qnt",
+  "state": "new",
+  "size": 673320
+ },
+ {
+  "path": "CG981466.qnt",
+  "state": "new",
+  "size": 679725
+ },
+ {
+  "path": "CG981467.qnt",
+  "state": "new",
+  "size": 678233
+ },
+ {
+  "path": "CG981468.qnt",
+  "state": "new",
+  "size": 679610
+ },
+ {
+  "path": "CG981469.qnt",
+  "state": "new",
+  "size": 672558
+ },
+ {
+  "path": "CG981470.qnt",
+  "state": "new",
+  "size": 670164
+ },
+ {
+  "path": "CG981471.qnt",
+  "state": "new",
+  "size": 671193
+ },
+ {
+  "path": "CG981472.qnt",
+  "state": "new",
+  "size": 676773
+ },
+ {
+  "path": "CG981473.qnt",
+  "state": "new",
+  "size": 669905
+ },
+ {
+  "path": "CG981474.qnt",
+  "state": "new",
+  "size": 669928
+ },
+ {
+  "path": "CG981475.qnt",
+  "state": "new",
+  "size": 674336
+ },
+ {
+  "path": "CG981476.qnt",
+  "state": "new",
+  "size": 668899
+ },
+ {
+  "path": "CG981477.qnt",
+  "state": "new",
+  "size": 669682
+ },
+ {
+  "path": "CG981478.qnt",
+  "state": "new",
+  "size": 674040
+ },
+ {
+  "path": "CG981479.qnt",
+  "state": "new",
+  "size": 669648
+ },
+ {
+  "path": "CG981480.qnt",
+  "state": "new",
+  "size": 669634
+ },
+ {
+  "path": "CG981481.qnt",
+  "state": "new",
+  "size": 675631
+ },
+ {
+  "path": "CG981482.qnt",
+  "state": "new",
+  "size": 671054
+ },
+ {
+  "path": "CG981483.qnt",
+  "state": "new",
+  "size": 671921
+ },
+ {
+  "path": "CG981484.qnt",
+  "state": "new",
+  "size": 677687
+ },
+ {
+  "path": "CG981485.qnt",
+  "state": "new",
+  "size": 671047
+ },
+ {
+  "path": "CG981486.qnt",
+  "state": "new",
+  "size": 678030
+ },
+ {
+  "path": "CG981487.qnt",
+  "state": "new",
+  "size": 242242
+ },
+ {
+  "path": "CG981488.qnt",
+  "state": "new",
+  "size": 356408
+ },
+ {
+  "path": "CG981581.qnt",
+  "state": "new",
+  "size": 457819
+ },
+ {
+  "path": "CG981582.qnt",
+  "state": "new",
+  "size": 478726
+ },
+ {
+  "path": "CG981583.qnt",
+  "state": "new",
+  "size": 581920
+ },
+ {
+  "path": "CG981584.qnt",
+  "state": "new",
+  "size": 623523
+ },
+ {
+  "path": "CG981585.qnt",
+  "state": "new",
+  "size": 651216
+ },
+ {
+  "path": "CG981586.qnt",
+  "state": "new",
+  "size": 670528
+ },
+ {
+  "path": "CG981587.qnt",
+  "state": "new",
+  "size": 685426
+ },
+ {
+  "path": "CG981588.qnt",
+  "state": "new",
+  "size": 703818
+ },
+ {
+  "path": "CG981589.qnt",
+  "state": "new",
+  "size": 713634
+ },
+ {
+  "path": "CG981590.qnt",
+  "state": "new",
+  "size": 718250
+ },
+ {
+  "path": "CG981591.qnt",
+  "state": "new",
+  "size": 705241
+ },
+ {
+  "path": "CG981592.qnt",
+  "state": "new",
+  "size": 675075
+ },
+ {
+  "path": "CG981593.qnt",
+  "state": "new",
+  "size": 687939
+ },
+ {
+  "path": "CG981594.qnt",
+  "state": "new",
+  "size": 693840
+ },
+ {
+  "path": "CG981595.qnt",
+  "state": "new",
+  "size": 692172
+ },
+ {
+  "path": "CG981596.qnt",
+  "state": "new",
+  "size": 527410
+ },
+ {
+  "path": "CG981597.qnt",
+  "state": "new",
+  "size": 542830
+ },
+ {
+  "path": "CG981598.qnt",
+  "state": "new",
+  "size": 552963
+ },
+ {
+  "path": "CG981599.qnt",
+  "state": "new",
+  "size": 565383
+ },
+ {
+  "path": "CG981600.qnt",
+  "state": "new",
+  "size": 568963
+ },
+ {
+  "path": "CG981601.qnt",
+  "state": "new",
+  "size": 569968
+ },
+ {
+  "path": "CG981602.qnt",
+  "state": "new",
+  "size": 572505
+ },
+ {
+  "path": "CG981603.qnt",
+  "state": "new",
+  "size": 570875
+ },
+ {
+  "path": "CG981604.qnt",
+  "state": "new",
+  "size": 573492
+ },
+ {
+  "path": "CG981605.qnt",
+  "state": "new",
+  "size": 578064
+ },
+ {
+  "path": "CG981606.qnt",
+  "state": "new",
+  "size": 575771
+ },
+ {
+  "path": "CG981607.qnt",
+  "state": "new",
+  "size": 583699
+ },
+ {
+  "path": "CG981608.qnt",
+  "state": "new",
+  "size": 580318
+ },
+ {
+  "path": "CG981609.qnt",
+  "state": "new",
+  "size": 580318
+ },
+ {
+  "path": "CG981610.qnt",
+  "state": "new",
+  "size": 578707
+ },
+ {
+  "path": "CG981611.qnt",
+  "state": "new",
+  "size": 581278
+ },
+ {
+  "path": "CG981612.qnt",
+  "state": "new",
+  "size": 573148
+ },
+ {
+  "path": "CG981613.qnt",
+  "state": "new",
+  "size": 573613
+ },
+ {
+  "path": "CG981614.qnt",
+  "state": "new",
+  "size": 546056
+ },
+ {
+  "path": "CG981615.qnt",
+  "state": "new",
+  "size": 550463
+ },
+ {
+  "path": "CG981616.qnt",
+  "state": "new",
+  "size": 551357
+ },
+ {
+  "path": "CG981617.qnt",
+  "state": "new",
+  "size": 553926
+ },
+ {
+  "path": "CG981618.qnt",
+  "state": "new",
+  "size": 549124
+ },
+ {
+  "path": "CG981619.qnt",
+  "state": "new",
+  "size": 549051
+ },
+ {
+  "path": "CG981620.qnt",
+  "state": "new",
+  "size": 552604
+ },
+ {
+  "path": "CG981621.qnt",
+  "state": "new",
+  "size": 550893
+ },
+ {
+  "path": "CG981622.qnt",
+  "state": "new",
+  "size": 555428
+ },
+ {
+  "path": "CG981623.qnt",
+  "state": "new",
+  "size": 562346
+ },
+ {
+  "path": "CG981624.qnt",
+  "state": "new",
+  "size": 557165
+ },
+ {
+  "path": "CG981625.qnt",
+  "state": "new",
+  "size": 554868
+ },
+ {
+  "path": "CG981626.qnt",
+  "state": "new",
+  "size": 557483
+ },
+ {
+  "path": "CG981627.qnt",
+  "state": "new",
+  "size": 553774
+ },
+ {
+  "path": "CG981628.qnt",
+  "state": "new",
+  "size": 556545
+ },
+ {
+  "path": "CG981629.qnt",
+  "state": "new",
+  "size": 562231
+ },
+ {
+  "path": "CG981630.qnt",
+  "state": "new",
+  "size": 560190
+ },
+ {
+  "path": "CG981631.qnt",
+  "state": "new",
+  "size": 563828
+ },
+ {
+  "path": "CG981632.qnt",
+  "state": "new",
+  "size": 548594
+ },
+ {
+  "path": "CG981633.qnt",
+  "state": "new",
+  "size": 546011
+ },
+ {
+  "path": "CG981634.qnt",
+  "state": "new",
+  "size": 547038
+ },
+ {
+  "path": "CG981635.qnt",
+  "state": "new",
+  "size": 552271
+ },
+ {
+  "path": "CG981636.qnt",
+  "state": "new",
+  "size": 549341
+ },
+ {
+  "path": "CG981637.qnt",
+  "state": "new",
+  "size": 553139
+ },
+ {
+  "path": "CG981638.qnt",
+  "state": "new",
+  "size": 559700
+ },
+ {
+  "path": "CG981639.qnt",
+  "state": "new",
+  "size": 673645
+ },
+ {
+  "path": "CG981640.qnt",
+  "state": "new",
+  "size": 710222
+ },
+ {
+  "path": "CG981641.qnt",
+  "state": "new",
+  "size": 729728
+ },
+ {
+  "path": "CG981642.qnt",
+  "state": "new",
+  "size": 741116
+ },
+ {
+  "path": "CG981643.qnt",
+  "state": "new",
+  "size": 748072
+ },
+ {
+  "path": "CG981644.qnt",
+  "state": "new",
+  "size": 748220
+ },
+ {
+  "path": "CG981645.qnt",
+  "state": "new",
+  "size": 748402
+ },
+ {
+  "path": "CG981646.qnt",
+  "state": "new",
+  "size": 745647
+ },
+ {
+  "path": "CG981647.qnt",
+  "state": "new",
+  "size": 739397
+ },
+ {
+  "path": "CG981648.qnt",
+  "state": "new",
+  "size": 727094
+ },
+ {
+  "path": "CG981649.qnt",
+  "state": "new",
+  "size": 705399
+ },
+ {
+  "path": "CG981650.qnt",
+  "state": "new",
+  "size": 672720
+ },
+ {
+  "path": "CG981651.qnt",
+  "state": "new",
+  "size": 575706
+ },
+ {
+  "path": "CG981652.qnt",
+  "state": "new",
+  "size": 575453
+ },
+ {
+  "path": "CG981653.qnt",
+  "state": "new",
+  "size": 581101
+ },
+ {
+  "path": "CG981654.qnt",
+  "state": "new",
+  "size": 585203
+ },
+ {
+  "path": "CG981655.qnt",
+  "state": "new",
+  "size": 584895
+ },
+ {
+  "path": "CG981656.qnt",
+  "state": "new",
+  "size": 583134
+ },
+ {
+  "path": "CG981657.qnt",
+  "state": "new",
+  "size": 582705
+ },
+ {
+  "path": "CG981658.qnt",
+  "state": "new",
+  "size": 570650
+ },
+ {
+  "path": "CG981659.qnt",
+  "state": "new",
+  "size": 565703
+ },
+ {
+  "path": "CG981660.qnt",
+  "state": "new",
+  "size": 507302
+ },
+ {
+  "path": "CG981661.qnt",
+  "state": "new",
+  "size": 516950
+ },
+ {
+  "path": "CG981662.qnt",
+  "state": "new",
+  "size": 526550
+ },
+ {
+  "path": "CG981663.qnt",
+  "state": "new",
+  "size": 531698
+ },
+ {
+  "path": "CG981664.qnt",
+  "state": "new",
+  "size": 524136
+ },
+ {
+  "path": "CG981665.qnt",
+  "state": "new",
+  "size": 521727
+ },
+ {
+  "path": "CG981666.qnt",
+  "state": "new",
+  "size": 523714
+ },
+ {
+  "path": "CG981667.qnt",
+  "state": "new",
+  "size": 517343
+ },
+ {
+  "path": "CG981668.qnt",
+  "state": "new",
+  "size": 519621
+ },
+ {
+  "path": "CG981669.qnt",
+  "state": "new",
+  "size": 524737
+ },
+ {
+  "path": "CG981670.qnt",
+  "state": "new",
+  "size": 522538
+ },
+ {
+  "path": "CG981671.qnt",
+  "state": "new",
+  "size": 523679
+ },
+ {
+  "path": "CG981672.qnt",
+  "state": "new",
+  "size": 525014
+ },
+ {
+  "path": "CG981673.qnt",
+  "state": "new",
+  "size": 520508
+ },
+ {
+  "path": "CG981674.qnt",
+  "state": "new",
+  "size": 520097
+ },
+ {
+  "path": "CG981675.qnt",
+  "state": "new",
+  "size": 524555
+ },
+ {
+  "path": "CG981676.qnt",
+  "state": "new",
+  "size": 521396
+ },
+ {
+  "path": "CG981677.qnt",
+  "state": "new",
+  "size": 521565
+ },
+ {
+  "path": "CG981678.qnt",
+  "state": "new",
+  "size": 515731
+ },
+ {
+  "path": "CG981679.qnt",
+  "state": "new",
+  "size": 518052
+ },
+ {
+  "path": "CG981680.qnt",
+  "state": "new",
+  "size": 516759
+ },
+ {
+  "path": "CG981681.qnt",
+  "state": "new",
+  "size": 519097
+ },
+ {
+  "path": "CG981682.qnt",
+  "state": "new",
+  "size": 513411
+ },
+ {
+  "path": "CG981683.qnt",
+  "state": "new",
+  "size": 514296
+ },
+ {
+  "path": "CG981684.qnt",
+  "state": "new",
+  "size": 518570
+ },
+ {
+  "path": "CG981685.qnt",
+  "state": "new",
+  "size": 514599
+ },
+ {
+  "path": "CG981686.qnt",
+  "state": "new",
+  "size": 519290
+ },
+ {
+  "path": "CG981687.qnt",
+  "state": "new",
+  "size": 522530
+ },
+ {
+  "path": "CG981688.qnt",
+  "state": "new",
+  "size": 516296
+ },
+ {
+  "path": "CG981689.qnt",
+  "state": "new",
+  "size": 514667
+ },
+ {
+  "path": "CG981690.qnt",
+  "state": "new",
+  "size": 516545
+ },
+ {
+  "path": "CG981691.qnt",
+  "state": "new",
+  "size": 515005
+ },
+ {
+  "path": "CG981692.qnt",
+  "state": "new",
+  "size": 517219
+ },
+ {
+  "path": "CG981693.qnt",
+  "state": "new",
+  "size": 523827
+ },
+ {
+  "path": "CG981694.qnt",
+  "state": "new",
+  "size": 522287
+ },
+ {
+  "path": "CG981695.qnt",
+  "state": "new",
+  "size": 527046
+ },
+ {
+  "path": "CG981696.qnt",
+  "state": "new",
+  "size": 625640
+ },
+ {
+  "path": "CG981697.qnt",
+  "state": "new",
+  "size": 668487
+ },
+ {
+  "path": "CG981807.qnt",
+  "state": "new",
+  "size": 388907
+ },
+ {
+  "path": "CG981808.qnt",
+  "state": "new",
+  "size": 390379
+ },
+ {
+  "path": "CG981809.qnt",
+  "state": "new",
+  "size": 475928
+ },
+ {
+  "path": "CG981810.qnt",
+  "state": "new",
+  "size": 511393
+ },
+ {
+  "path": "CG981811.qnt",
+  "state": "new",
+  "size": 530966
+ },
+ {
+  "path": "CG981812.qnt",
+  "state": "new",
+  "size": 542528
+ },
+ {
+  "path": "CG981813.qnt",
+  "state": "new",
+  "size": 546880
+ },
+ {
+  "path": "CG981814.qnt",
+  "state": "new",
+  "size": 551937
+ },
+ {
+  "path": "CG981815.qnt",
+  "state": "new",
+  "size": 547794
+ },
+ {
+  "path": "CG981816.qnt",
+  "state": "new",
+  "size": 537919
+ },
+ {
+  "path": "CG981817.qnt",
+  "state": "new",
+  "size": 512745
+ },
+ {
+  "path": "CG981818.qnt",
+  "state": "new",
+  "size": 473414
+ },
+ {
+  "path": "CG981819.qnt",
+  "state": "new",
+  "size": 469415
+ },
+ {
+  "path": "CG981820.qnt",
+  "state": "new",
+  "size": 488075
+ },
+ {
+  "path": "CG981821.qnt",
+  "state": "new",
+  "size": 494752
+ },
+ {
+  "path": "CG981822.qnt",
+  "state": "new",
+  "size": 489708
+ },
+ {
+  "path": "CG981823.qnt",
+  "state": "new",
+  "size": 492933
+ },
+ {
+  "path": "CG981824.qnt",
+  "state": "new",
+  "size": 496154
+ },
+ {
+  "path": "CG981825.qnt",
+  "state": "new",
+  "size": 497644
+ },
+ {
+  "path": "CG981826.qnt",
+  "state": "new",
+  "size": 497166
+ },
+ {
+  "path": "CG981827.qnt",
+  "state": "new",
+  "size": 502984
+ },
+ {
+  "path": "CG981828.qnt",
+  "state": "new",
+  "size": 502984
+ },
+ {
+  "path": "CG981829.qnt",
+  "state": "new",
+  "size": 498254
+ },
+ {
+  "path": "CG981830.qnt",
+  "state": "new",
+  "size": 497036
+ },
+ {
+  "path": "CG981831.qnt",
+  "state": "new",
+  "size": 405628
+ },
+ {
+  "path": "CG981832.qnt",
+  "state": "new",
+  "size": 412893
+ },
+ {
+  "path": "CG981833.qnt",
+  "state": "new",
+  "size": 414808
+ },
+ {
+  "path": "CG981834.qnt",
+  "state": "new",
+  "size": 419146
+ },
+ {
+  "path": "CG981835.qnt",
+  "state": "new",
+  "size": 420439
+ },
+ {
+  "path": "CG981836.qnt",
+  "state": "new",
+  "size": 421055
+ },
+ {
+  "path": "CG981837.qnt",
+  "state": "new",
+  "size": 422822
+ },
+ {
+  "path": "CG981838.qnt",
+  "state": "new",
+  "size": 419785
+ },
+ {
+  "path": "CG981839.qnt",
+  "state": "new",
+  "size": 420939
+ },
+ {
+  "path": "CG981840.qnt",
+  "state": "new",
+  "size": 422732
+ },
+ {
+  "path": "CG981841.qnt",
+  "state": "new",
+  "size": 421356
+ },
+ {
+  "path": "CG981842.qnt",
+  "state": "new",
+  "size": 422033
+ },
+ {
+  "path": "CG981843.qnt",
+  "state": "new",
+  "size": 424486
+ },
+ {
+  "path": "CG981844.qnt",
+  "state": "new",
+  "size": 422125
+ },
+ {
+  "path": "CG981845.qnt",
+  "state": "new",
+  "size": 422322
+ },
+ {
+  "path": "CG981846.qnt",
+  "state": "new",
+  "size": 425020
+ },
+ {
+  "path": "CG981847.qnt",
+  "state": "new",
+  "size": 422711
+ },
+ {
+  "path": "CG981848.qnt",
+  "state": "new",
+  "size": 421092
+ },
+ {
+  "path": "CG981849.qnt",
+  "state": "new",
+  "size": 409065
+ },
+ {
+  "path": "CG981850.qnt",
+  "state": "new",
+  "size": 408842
+ },
+ {
+  "path": "CG981851.qnt",
+  "state": "new",
+  "size": 534628
+ },
+ {
+  "path": "CG981852.qnt",
+  "state": "new",
+  "size": 573195
+ },
+ {
+  "path": "CG981853.qnt",
+  "state": "new",
+  "size": 597356
+ },
+ {
+  "path": "CG981854.qnt",
+  "state": "new",
+  "size": 614472
+ },
+ {
+  "path": "CG981855.qnt",
+  "state": "new",
+  "size": 625684
+ },
+ {
+  "path": "CG981856.qnt",
+  "state": "new",
+  "size": 630557
+ },
+ {
+  "path": "CG981857.qnt",
+  "state": "new",
+  "size": 636705
+ },
+ {
+  "path": "CG981858.qnt",
+  "state": "new",
+  "size": 638721
+ },
+ {
+  "path": "CG981859.qnt",
+  "state": "new",
+  "size": 638649
+ },
+ {
+  "path": "CG981860.qnt",
+  "state": "new",
+  "size": 633444
+ },
+ {
+  "path": "CG981861.qnt",
+  "state": "new",
+  "size": 619647
+ },
+ {
+  "path": "CG981862.qnt",
+  "state": "new",
+  "size": 596739
+ },
+ {
+  "path": "CG981863.qnt",
+  "state": "new",
+  "size": 524267
+ },
+ {
+  "path": "CG981864.qnt",
+  "state": "new",
+  "size": 514733
+ },
+ {
+  "path": "CG981865.qnt",
+  "state": "new",
+  "size": 520190
+ },
+ {
+  "path": "CG981866.qnt",
+  "state": "new",
+  "size": 524884
+ },
+ {
+  "path": "CG981867.qnt",
+  "state": "new",
+  "size": 523828
+ },
+ {
+  "path": "CG981868.qnt",
+  "state": "new",
+  "size": 522367
+ },
+ {
+  "path": "CG981869.qnt",
+  "state": "new",
+  "size": 526314
+ },
+ {
+  "path": "CG981870.qnt",
+  "state": "new",
+  "size": 526750
+ },
+ {
+  "path": "CG981871.qnt",
+  "state": "new",
+  "size": 523326
+ },
+ {
+  "path": "CG981872.qnt",
+  "state": "new",
+  "size": 523077
+ },
+ {
+  "path": "CG981873.qnt",
+  "state": "new",
+  "size": 462802
+ },
+ {
+  "path": "CG981874.qnt",
+  "state": "new",
+  "size": 468024
+ },
+ {
+  "path": "CG981875.qnt",
+  "state": "new",
+  "size": 471797
+ },
+ {
+  "path": "CG981876.qnt",
+  "state": "new",
+  "size": 476424
+ },
+ {
+  "path": "CG981877.qnt",
+  "state": "new",
+  "size": 473145
+ },
+ {
+  "path": "CG981878.qnt",
+  "state": "new",
+  "size": 473855
+ },
+ {
+  "path": "CG981879.qnt",
+  "state": "new",
+  "size": 477036
+ },
+ {
+  "path": "CG981880.qnt",
+  "state": "new",
+  "size": 472353
+ },
+ {
+  "path": "CG981881.qnt",
+  "state": "new",
+  "size": 472350
+ },
+ {
+  "path": "CG981882.qnt",
+  "state": "new",
+  "size": 475571
+ },
+ {
+  "path": "CG981883.qnt",
+  "state": "new",
+  "size": 471216
+ },
+ {
+  "path": "CG981884.qnt",
+  "state": "new",
+  "size": 471483
+ },
+ {
+  "path": "CG981885.qnt",
+  "state": "new",
+  "size": 474648
+ },
+ {
+  "path": "CG981886.qnt",
+  "state": "new",
+  "size": 471243
+ },
+ {
+  "path": "CG981887.qnt",
+  "state": "new",
+  "size": 564492
+ },
+ {
+  "path": "CG981888.qnt",
+  "state": "new",
+  "size": 589445
+ },
+ {
+  "path": "CG981889.qnt",
+  "state": "new",
+  "size": 601643
+ },
+ {
+  "path": "CG981890.qnt",
+  "state": "new",
+  "size": 611069
+ },
+ {
+  "path": "CG981891.qnt",
+  "state": "new",
+  "size": 617115
+ },
+ {
+  "path": "CG981892.qnt",
+  "state": "new",
+  "size": 610563
+ },
+ {
+  "path": "CG981893.qnt",
+  "state": "new",
+  "size": 613520
+ },
+ {
+  "path": "CG981894.qnt",
+  "state": "new",
+  "size": 605365
+ },
+ {
+  "path": "CG981895.qnt",
+  "state": "new",
+  "size": 599692
+ },
+ {
+  "path": "CG981896.qnt",
+  "state": "new",
+  "size": 586269
+ },
+ {
+  "path": "CG981897.qnt",
+  "state": "new",
+  "size": 558674
+ },
+ {
+  "path": "CG981898.qnt",
+  "state": "new",
+  "size": 521419
+ },
+ {
+  "path": "CG981899.qnt",
+  "state": "new",
+  "size": 423121
+ },
+ {
+  "path": "CG981900.qnt",
+  "state": "new",
+  "size": 417977
+ },
+ {
+  "path": "CG981901.qnt",
+  "state": "new",
+  "size": 422500
+ },
+ {
+  "path": "CG981902.qnt",
+  "state": "new",
+  "size": 427159
+ },
+ {
+  "path": "CG981903.qnt",
+  "state": "new",
+  "size": 424732
+ },
+ {
+  "path": "CG981904.qnt",
+  "state": "new",
+  "size": 423354
+ },
+ {
+  "path": "CG981905.qnt",
+  "state": "new",
+  "size": 427422
+ },
+ {
+  "path": "CG981906.qnt",
+  "state": "new",
+  "size": 426377
+ },
+ {
+  "path": "CG981907.qnt",
+  "state": "new",
+  "size": 424318
+ },
+ {
+  "path": "CG981908.qnt",
+  "state": "new",
+  "size": 424483
+ },
+ {
+  "path": "CG981909.qnt",
+  "state": "new",
+  "size": 360105
+ },
+ {
+  "path": "CG981910.qnt",
+  "state": "new",
+  "size": 365365
+ },
+ {
+  "path": "CG981911.qnt",
+  "state": "new",
+  "size": 367539
+ },
+ {
+  "path": "CG981912.qnt",
+  "state": "new",
+  "size": 370623
+ },
+ {
+  "path": "CG981913.qnt",
+  "state": "new",
+  "size": 370447
+ },
+ {
+  "path": "CG981914.qnt",
+  "state": "new",
+  "size": 370639
+ },
+ {
+  "path": "CG981915.qnt",
+  "state": "new",
+  "size": 373694
+ },
+ {
+  "path": "CG981916.qnt",
+  "state": "new",
+  "size": 370087
+ },
+ {
+  "path": "CG981917.qnt",
+  "state": "new",
+  "size": 373842
+ },
+ {
+  "path": "CG981918.qnt",
+  "state": "new",
+  "size": 451912
+ },
+ {
+  "path": "CG981919.qnt",
+  "state": "new",
+  "size": 476657
+ },
+ {
+  "path": "CG982221.qnt",
+  "state": "new",
+  "size": 37165
+ },
+ {
+  "path": "CG982222.qnt",
+  "state": "new",
+  "size": 3677
+ },
+ {
+  "path": "CG982223.qnt",
+  "state": "new",
+  "size": 809440
+ },
+ {
+  "path": "CG982224.qnt",
+  "state": "new",
+  "size": 936478
+ },
+ {
+  "path": "CG982225.qnt",
+  "state": "new",
+  "size": 972161
+ },
+ {
+  "path": "CG982226.qnt",
+  "state": "new",
+  "size": 969444
+ },
+ {
+  "path": "CG982227.qnt",
+  "state": "new",
+  "size": 1035562
+ },
+ {
+  "path": "CG982228.qnt",
+  "state": "new",
+  "size": 1067075
+ },
+ {
+  "path": "CG982229.qnt",
+  "state": "new",
+  "size": 1066422
+ },
+ {
+  "path": "CG982230.qnt",
+  "state": "new",
+  "size": 1107747
+ },
+ {
+  "path": "CG982231.qnt",
+  "state": "new",
+  "size": 1103171
+ },
+ {
+  "path": "CG982232.qnt",
+  "state": "new",
+  "size": 1101714
+ },
+ {
+  "path": "CG982233.qnt",
+  "state": "new",
+  "size": 1133118
+ },
+ {
+  "path": "CG982234.qnt",
+  "state": "new",
+  "size": 1132402
+ },
+ {
+  "path": "CG982235.qnt",
+  "state": "new",
+  "size": 1138514
+ },
+ {
+  "path": "CG982236.qnt",
+  "state": "new",
+  "size": 1161552
+ },
+ {
+  "path": "CG982237.qnt",
+  "state": "new",
+  "size": 1172599
+ },
+ {
+  "path": "CG982238.qnt",
+  "state": "new",
+  "size": 1177414
+ },
+ {
+  "path": "CG982239.qnt",
+  "state": "new",
+  "size": 1198628
+ },
+ {
+  "path": "CG982240.qnt",
+  "state": "new",
+  "size": 882623
+ },
+ {
+  "path": "CG982241.qnt",
+  "state": "new",
+  "size": 912683
+ },
+ {
+  "path": "CG982242.qnt",
+  "state": "new",
+  "size": 964610
+ },
+ {
+  "path": "CG982243.qnt",
+  "state": "new",
+  "size": 968556
+ },
+ {
+  "path": "CG982244.qnt",
+  "state": "new",
+  "size": 980144
+ },
+ {
+  "path": "CG982245.qnt",
+  "state": "new",
+  "size": 980543
+ },
+ {
+  "path": "CG982246.qnt",
+  "state": "new",
+  "size": 1003845
+ },
+ {
+  "path": "CG982247.qnt",
+  "state": "new",
+  "size": 1013942
+ },
+ {
+  "path": "CG982248.qnt",
+  "state": "new",
+  "size": 1018199
+ },
+ {
+  "path": "CG982249.qnt",
+  "state": "new",
+  "size": 1015485
+ },
+ {
+  "path": "CG982250.qnt",
+  "state": "new",
+  "size": 1027404
+ },
+ {
+  "path": "CG982251.qnt",
+  "state": "new",
+  "size": 1027393
+ },
+ {
+  "path": "CG982252.qnt",
+  "state": "new",
+  "size": 1024206
+ },
+ {
+  "path": "CG982253.qnt",
+  "state": "new",
+  "size": 1028430
+ },
+ {
+  "path": "CG982254.qnt",
+  "state": "new",
+  "size": 1028430
+ },
+ {
+  "path": "CG982255.qnt",
+  "state": "new",
+  "size": 1037038
+ },
+ {
+  "path": "CG982256.qnt",
+  "state": "new",
+  "size": 1039685
+ },
+ {
+  "path": "CG982257.qnt",
+  "state": "new",
+  "size": 1039685
+ },
+ {
+  "path": "CG982258.qnt",
+  "state": "new",
+  "size": 977796
+ },
+ {
+  "path": "CG982259.qnt",
+  "state": "new",
+  "size": 997106
+ },
+ {
+  "path": "CG982260.qnt",
+  "state": "new",
+  "size": 997720
+ },
+ {
+  "path": "CG982261.qnt",
+  "state": "new",
+  "size": 1021086
+ },
+ {
+  "path": "CG982262.qnt",
+  "state": "new",
+  "size": 1030102
+ },
+ {
+  "path": "CG982263.qnt",
+  "state": "new",
+  "size": 1030020
+ },
+ {
+  "path": "CG982264.qnt",
+  "state": "new",
+  "size": 1030032
+ },
+ {
+  "path": "CG982265.qnt",
+  "state": "new",
+  "size": 1033661
+ },
+ {
+  "path": "CG982266.qnt",
+  "state": "new",
+  "size": 1033661
+ },
+ {
+  "path": "CG982267.qnt",
+  "state": "new",
+  "size": 1032396
+ },
+ {
+  "path": "CG982268.qnt",
+  "state": "new",
+  "size": 1035333
+ },
+ {
+  "path": "CG982269.qnt",
+  "state": "new",
+  "size": 1035328
+ },
+ {
+  "path": "CG982270.qnt",
+  "state": "new",
+  "size": 1037306
+ },
+ {
+  "path": "CG982271.qnt",
+  "state": "new",
+  "size": 1040055
+ },
+ {
+  "path": "CG982272.qnt",
+  "state": "new",
+  "size": 1040041
+ },
+ {
+  "path": "CG982273.qnt",
+  "state": "new",
+  "size": 1036090
+ },
+ {
+  "path": "CG982274.qnt",
+  "state": "new",
+  "size": 1041104
+ },
+ {
+  "path": "CG982275.qnt",
+  "state": "new",
+  "size": 1019883
+ },
+ {
+  "path": "CG982276.qnt",
+  "state": "new",
+  "size": 973065
+ },
+ {
+  "path": "CG982277.qnt",
+  "state": "new",
+  "size": 1000449
+ },
+ {
+  "path": "CG982278.qnt",
+  "state": "new",
+  "size": 1000146
+ },
+ {
+  "path": "CG982279.qnt",
+  "state": "new",
+  "size": 1021588
+ },
+ {
+  "path": "CG982280.qnt",
+  "state": "new",
+  "size": 1030809
+ },
+ {
+  "path": "CG982281.qnt",
+  "state": "new",
+  "size": 1038210
+ },
+ {
+  "path": "CG982282.qnt",
+  "state": "new",
+  "size": 1033152
+ },
+ {
+  "path": "CG982283.qnt",
+  "state": "new",
+  "size": 1051502
+ },
+ {
+  "path": "CG982284.qnt",
+  "state": "new",
+  "size": 1051573
+ },
+ {
+  "path": "CG982285.qnt",
+  "state": "new",
+  "size": 1051456
+ },
+ {
+  "path": "CG982286.qnt",
+  "state": "new",
+  "size": 1055340
+ },
+ {
+  "path": "CG982287.qnt",
+  "state": "new",
+  "size": 1055272
+ },
+ {
+  "path": "CG982288.qnt",
+  "state": "new",
+  "size": 1051427
+ },
+ {
+  "path": "CG982289.qnt",
+  "state": "new",
+  "size": 1057628
+ },
+ {
+  "path": "CG982290.qnt",
+  "state": "new",
+  "size": 1057690
+ },
+ {
+  "path": "CG982291.qnt",
+  "state": "new",
+  "size": 1054627
+ },
+ {
+  "path": "CG982292.qnt",
+  "state": "new",
+  "size": 1058287
+ },
+ {
+  "path": "CG982293.qnt",
+  "state": "new",
+  "size": 1033458
+ },
+ {
+  "path": "CG982294.qnt",
+  "state": "new",
+  "size": 966919
+ },
+ {
+  "path": "CG982295.qnt",
+  "state": "new",
+  "size": 1001855
+ },
+ {
+  "path": "CG982296.qnt",
+  "state": "new",
+  "size": 1002054
+ },
+ {
+  "path": "CG982297.qnt",
+  "state": "new",
+  "size": 1007981
+ },
+ {
+  "path": "CG982298.qnt",
+  "state": "new",
+  "size": 1016537
+ },
+ {
+  "path": "CG982299.qnt",
+  "state": "new",
+  "size": 1020973
+ },
+ {
+  "path": "CG982300.qnt",
+  "state": "new",
+  "size": 902868
+ },
+ {
+  "path": "CG982301.qnt",
+  "state": "new",
+  "size": 925761
+ },
+ {
+  "path": "CG982302.qnt",
+  "state": "new",
+  "size": 931163
+ },
+ {
+  "path": "CG982303.qnt",
+  "state": "new",
+  "size": 937638
+ },
+ {
+  "path": "CG982304.qnt",
+  "state": "new",
+  "size": 958918
+ },
+ {
+  "path": "CG982305.qnt",
+  "state": "new",
+  "size": 963794
+ },
+ {
+  "path": "CG982306.qnt",
+  "state": "new",
+  "size": 977687
+ },
+ {
+  "path": "CG982307.qnt",
+  "state": "new",
+  "size": 989228
+ },
+ {
+  "path": "CG982308.qnt",
+  "state": "new",
+  "size": 991222
+ },
+ {
+  "path": "CG982309.qnt",
+  "state": "new",
+  "size": 1001590
+ },
+ {
+  "path": "CG982310.qnt",
+  "state": "new",
+  "size": 1012025
+ },
+ {
+  "path": "CG982311.qnt",
+  "state": "new",
+  "size": 1012478
+ },
+ {
+  "path": "CG982312.qnt",
+  "state": "new",
+  "size": 1011235
+ },
+ {
+  "path": "CG982313.qnt",
+  "state": "new",
+  "size": 1016641
+ },
+ {
+  "path": "CG982314.qnt",
+  "state": "new",
+  "size": 1017417
+ },
+ {
+  "path": "CG982315.qnt",
+  "state": "new",
+  "size": 1024462
+ },
+ {
+  "path": "CG982316.qnt",
+  "state": "new",
+  "size": 1022401
+ },
+ {
+  "path": "CG982317.qnt",
+  "state": "new",
+  "size": 1015486
+ },
+ {
+  "path": "CG982318.qnt",
+  "state": "new",
+  "size": 899646
+ },
+ {
+  "path": "CG982319.qnt",
+  "state": "new",
+  "size": 967040
+ },
+ {
+  "path": "CG982320.qnt",
+  "state": "new",
+  "size": 966554
+ },
+ {
+  "path": "CG982321.qnt",
+  "state": "new",
+  "size": 971421
+ },
+ {
+  "path": "CG982322.qnt",
+  "state": "new",
+  "size": 983040
+ },
+ {
+  "path": "CG982323.qnt",
+  "state": "new",
+  "size": 983040
+ },
+ {
+  "path": "CG982324.qnt",
+  "state": "new",
+  "size": 977611
+ },
+ {
+  "path": "CG982325.qnt",
+  "state": "new",
+  "size": 982022
+ },
+ {
+  "path": "CG982326.qnt",
+  "state": "new",
+  "size": 982022
+ },
+ {
+  "path": "CG982327.qnt",
+  "state": "new",
+  "size": 979864
+ },
+ {
+  "path": "CG982328.qnt",
+  "state": "new",
+  "size": 983195
+ },
+ {
+  "path": "CG982329.qnt",
+  "state": "new",
+  "size": 983195
+ },
+ {
+  "path": "CG982330.qnt",
+  "state": "new",
+  "size": 982647
+ },
+ {
+  "path": "CG982331.qnt",
+  "state": "new",
+  "size": 985073
+ },
+ {
+  "path": "CG982332.qnt",
+  "state": "new",
+  "size": 985073
+ },
+ {
+  "path": "CG982333.qnt",
+  "state": "new",
+  "size": 984718
+ },
+ {
+  "path": "CG982334.qnt",
+  "state": "new",
+  "size": 987590
+ },
+ {
+  "path": "CG982335.qnt",
+  "state": "new",
+  "size": 987334
+ },
+ {
+  "path": "CG982336.qnt",
+  "state": "new",
+  "size": 946793
+ },
+ {
+  "path": "CG982337.qnt",
+  "state": "new",
+  "size": 1008931
+ },
+ {
+  "path": "CG982338.qnt",
+  "state": "new",
+  "size": 1028275
+ },
+ {
+  "path": "CG982339.qnt",
+  "state": "new",
+  "size": 1038343
+ },
+ {
+  "path": "CG982340.qnt",
+  "state": "new",
+  "size": 1055386
+ },
+ {
+  "path": "CG982341.qnt",
+  "state": "new",
+  "size": 1068946
+ },
+ {
+  "path": "CG982342.qnt",
+  "state": "new",
+  "size": 1087838
+ },
+ {
+  "path": "CG982343.qnt",
+  "state": "new",
+  "size": 1081487
+ },
+ {
+  "path": "CG982344.qnt",
+  "state": "new",
+  "size": 1104818
+ },
+ {
+  "path": "CG982345.qnt",
+  "state": "new",
+  "size": 761060
+ },
+ {
+  "path": "CG982346.qnt",
+  "state": "new",
+  "size": 834979
+ },
+ {
+  "path": "CG983545.qnt",
+  "state": "new",
+  "size": 1984112
+ },
+ {
+  "path": "CG983546.qnt",
+  "state": "new",
+  "size": 1962501
+ },
+ {
+  "path": "CG983547.qnt",
+  "state": "new",
+  "size": 46123
+ },
+ {
+  "path": "CG983548.qnt",
+  "state": "new",
+  "size": 46123
+ },
+ {
+  "path": "CG983549.qnt",
+  "state": "new",
+  "size": 45191
+ },
+ {
+  "path": "CG983550.qnt",
+  "state": "new",
+  "size": 40678
+ },
+ {
+  "path": "CG983551.qnt",
+  "state": "new",
+  "size": 40678
+ },
+ {
+  "path": "CG983552.qnt",
+  "state": "new",
+  "size": 40363
+ },
+ {
+  "path": "CG983553.qnt",
+  "state": "new",
+  "size": 40678
+ },
+ {
+  "path": "CG983554.qnt",
+  "state": "new",
+  "size": 40678
+ },
+ {
+  "path": "CG983555.qnt",
+  "state": "new",
+  "size": 33364
+ },
+ {
+  "path": "CG983556.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983557.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983558.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983559.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983560.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983561.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983562.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983563.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983564.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983565.qnt",
+  "state": "new",
+  "size": 33998
+ },
+ {
+  "path": "CG983566.qnt",
+  "state": "new",
+  "size": 33998
+ },
+ {
+  "path": "CG983567.qnt",
+  "state": "new",
+  "size": 33998
+ },
+ {
+  "path": "CG983568.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983569.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983570.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983571.qnt",
+  "state": "new",
+  "size": 34212
+ },
+ {
+  "path": "CG983572.qnt",
+  "state": "new",
+  "size": 34212
+ },
+ {
+  "path": "CG983573.qnt",
+  "state": "new",
+  "size": 33364
+ },
+ {
+  "path": "CG983574.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983575.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983576.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983577.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983578.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983579.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983580.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983581.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983582.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983583.qnt",
+  "state": "new",
+  "size": 33998
+ },
+ {
+  "path": "CG983584.qnt",
+  "state": "new",
+  "size": 33998
+ },
+ {
+  "path": "CG983585.qnt",
+  "state": "new",
+  "size": 33998
+ },
+ {
+  "path": "CG983586.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983587.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983588.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983589.qnt",
+  "state": "new",
+  "size": 34212
+ },
+ {
+  "path": "CG983590.qnt",
+  "state": "new",
+  "size": 34212
+ },
+ {
+  "path": "CG983591.qnt",
+  "state": "new",
+  "size": 33364
+ },
+ {
+  "path": "CG983592.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983593.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983594.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983595.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983596.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983597.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983598.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983599.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983600.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983601.qnt",
+  "state": "new",
+  "size": 33998
+ },
+ {
+  "path": "CG983602.qnt",
+  "state": "new",
+  "size": 33998
+ },
+ {
+  "path": "CG983603.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983604.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983605.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983606.qnt",
+  "state": "new",
+  "size": 34122
+ },
+ {
+  "path": "CG983607.qnt",
+  "state": "new",
+  "size": 34212
+ },
+ {
+  "path": "CG983608.qnt",
+  "state": "new",
+  "size": 34212
+ },
+ {
+  "path": "CG983609.qnt",
+  "state": "new",
+  "size": 33364
+ },
+ {
+  "path": "CG983610.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983611.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983612.qnt",
+  "state": "new",
+  "size": 33408
+ },
+ {
+  "path": "CG983613.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983614.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983615.qnt",
+  "state": "new",
+  "size": 33737
+ },
+ {
+  "path": "CG983616.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983617.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG983618.qnt",
+  "state": "new",
+  "size": 33877
+ },
+ {
+  "path": "CG990000.qnt",
+  "state": "new",
+  "size": 4452
+ },
+ {
+  "path": "CG990001.qnt",
+  "state": "new",
+  "size": 6633
+ },
+ {
+  "path": "CG990002.qnt",
+  "state": "new",
+  "size": 6720
+ },
+ {
+  "path": "CG990010.qnt",
+  "state": "new",
+  "size": 4672
+ },
+ {
+  "path": "CG990011.qnt",
+  "state": "new",
+  "size": 6694
+ },
+ {
+  "path": "CG990012.qnt",
+  "state": "new",
+  "size": 6813
+ },
+ {
+  "path": "CG990020.qnt",
+  "state": "new",
+  "size": 4654
+ },
+ {
+  "path": "CG990021.qnt",
+  "state": "new",
+  "size": 6627
+ },
+ {
+  "path": "CG990022.qnt",
+  "state": "new",
+  "size": 6734
+ },
+ {
+  "path": "CG990030.qnt",
+  "state": "new",
+  "size": 6161
+ },
+ {
+  "path": "CG990031.qnt",
+  "state": "new",
+  "size": 8585
+ },
+ {
+  "path": "CG990032.qnt",
+  "state": "new",
+  "size": 9222
+ },
+ {
+  "path": "CG99901.qnt",
+  "state": "new",
+  "size": 23524
+ },
+ {
+  "path": "CG99902.qnt",
+  "state": "new",
+  "size": 34963
+ },
+ {
+  "path": "CG99903.qnt",
+  "state": "new",
+  "size": 20515
+ },
+ {
+  "path": "CG99904.qnt",
+  "state": "new",
+  "size": 36885
+ },
+ {
+  "path": "CG99905.qnt",
+  "state": "new",
+  "size": 26358
+ },
+ {
+  "path": "CG99906.qnt",
+  "state": "new",
+  "size": 23174
+ },
+ {
+  "path": "CG99907.qnt",
+  "state": "new",
+  "size": 23179
+ },
+ {
+  "path": "CG99908.qnt",
+  "state": "new",
+  "size": 25632
+ },
+ {
+  "path": "CG99909.qnt",
+  "state": "new",
+  "size": 28420
+ },
+ {
+  "path": "CG99910.qnt",
+  "state": "new",
+  "size": 28145
+ },
+ {
+  "path": "CG99911.qnt",
+  "state": "new",
+  "size": 12991
+ },
+ {
+  "path": "CG99912.qnt",
+  "state": "new",
+  "size": 18523
+ },
+ {
+  "path": "CG99913.qnt",
+  "state": "new",
+  "size": 10425
+ },
+ {
+  "path": "CG99914.qnt",
+  "state": "new",
+  "size": 23937
+ },
+ {
+  "path": "CG99915.qnt",
+  "state": "new",
+  "size": 22556
+ },
+ {
+  "path": "CG99916.qnt",
+  "state": "new",
+  "size": 30741
+ },
+ {
+  "path": "CG99917.qnt",
+  "state": "new",
+  "size": 16762
+ },
+ {
+  "path": "CG99918.qnt",
+  "state": "new",
+  "size": 23524
+ },
+ {
+  "path": "CG99919.qnt",
+  "state": "new",
+  "size": 36942
+ },
+ {
+  "path": "CG99920.qnt",
+  "state": "new",
+  "size": 26975
+ },
+ {
+  "path": "CG99921.qnt",
+  "state": "new",
+  "size": 35182
+ },
+ {
+  "path": "CG99922.qnt",
+  "state": "new",
+  "size": 17896
+ },
+ {
+  "path": "CG99923.qnt",
+  "state": "new",
+  "size": 17896
+ },
+ {
+  "path": "CG99924.qnt",
+  "state": "new",
+  "size": 22406
+ },
+ {
+  "path": "シス／ADV枠／ボタン／オート／オン.qnt",
+  "state": "changed",
+  "size": 976
+ },
+ {
+  "path": "シス／ADV枠／ボタン／オート／ダウン.qnt",
+  "state": "changed",
+  "size": 2019
+ },
+ {
+  "path": "シス／ADV枠／ボタン／オート／無効.qnt",
+  "state": "changed",
+  "size": 2019
+ },
+ {
+  "path": "シス／ADV枠／ボタン／オート／通常.qnt",
+  "state": "changed",
+  "size": 1396
+ },
+ {
+  "path": "シス／ADV枠／ボタン／スキップ／オン.qnt",
+  "state": "changed",
+  "size": 932
+ },
+ {
+  "path": "シス／ADV枠／ボタン／スキップ／ダウン.qnt",
+  "state": "changed",
+  "size": 2122
+ },
+ {
+  "path": "シス／ADV枠／ボタン／スキップ／無効.qnt",
+  "state": "changed",
+  "size": 2122
+ },
+ {
+  "path": "シス／ADV枠／ボタン／スキップ／通常.qnt",
+  "state": "changed",
+  "size": 1356
+ },
+ {
+  "path": "シス／コンフィグ／ゲーム設定／説明枠.qnt",
+  "state": "changed",
+  "size": 69277
+ },
+ {
+  "path": "シス／コンフィグ／サウンド／消音.qnt",
+  "state": "changed",
+  "size": 606
+ },
+ {
+  "path": "シス／コンフィグ／バー／下地／小大.pcf",
+  "state": "changed",
+  "size": 1522
+ },
+ {
+  "path": "シス／コンフィグ／バー／下地／薄濃.dcf",
+  "state": "changed",
+  "size": 1640
+ },
+ {
+  "path": "シス／コンフィグ／バー／下地／遅速.dcf",
+  "state": "changed",
+  "size": 1780
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ウィンドウ初期化／オン.qnt",
+  "state": "changed",
+  "size": 7836
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ウィンドウ初期化／ダウン.qnt",
+  "state": "changed",
+  "size": 7672
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ウィンドウ初期化／通常.qnt",
+  "state": "changed",
+  "size": 9431
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ゲームに戻る／オン.qnt",
+  "state": "changed",
+  "size": 6246
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ゲームに戻る／ダウン.qnt",
+  "state": "changed",
+  "size": 6391
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ゲームに戻る／無効.qnt",
+  "state": "changed",
+  "size": 1702
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ゲームに戻る／通常.qnt",
+  "state": "changed",
+  "size": 4341
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ゲームを終了する／オン.qnt",
+  "state": "changed",
+  "size": 6725
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ゲームを終了する／ダウン.qnt",
+  "state": "changed",
+  "size": 6858
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ゲームを終了する／無効.qnt",
+  "state": "changed",
+  "size": 1877
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／ゲームを終了する／通常.qnt",
+  "state": "changed",
+  "size": 4835
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／タイトルに戻る／オン.qnt",
+  "state": "changed",
+  "size": 6382
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／タイトルに戻る／ダウン.qnt",
+  "state": "changed",
+  "size": 6525
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／タイトルに戻る／無効.qnt",
+  "state": "changed",
+  "size": 1740
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／タイトルに戻る／通常.qnt",
+  "state": "changed",
+  "size": 4498
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／初期化／オン.qnt",
+  "state": "changed",
+  "size": 2664
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／初期化／ダウン.qnt",
+  "state": "changed",
+  "size": 2929
+ },
+ {
+  "path": "シス／コンフィグ／ボタン／初期化／通常.qnt",
+  "state": "changed",
+  "size": 3559
+ },
+ {
+  "path": "シス／コンフィグ／メッセージウィンドウ／枠.qnt",
+  "state": "changed",
+  "size": 14502
+ },
+ {
+  "path": "シス／コンフィグ／リマスター／説明枠.qnt",
+  "state": "changed",
+  "size": 43385
+ },
+ {
+  "path": "シス／コンフィグ／背景.pcf",
+  "state": "changed",
+  "size": 74503
+ },
+ {
+  "path": "シス／システムボタン／カジュアルモード／オン.qnt",
+  "state": "changed",
+  "size": 5847
+ },
+ {
+  "path": "シス／システムボタン／カジュアルモード／ダウン.qnt",
+  "state": "changed",
+  "size": 5783
+ },
+ {
+  "path": "シス／システムボタン／カジュアルモード／通常.qnt",
+  "state": "changed",
+  "size": 6028
+ },
+ {
+  "path": "シス／システムボタン／コンフィグ／オン.qnt",
+  "state": "changed",
+  "size": 5207
+ },
+ {
+  "path": "シス／システムボタン／コンフィグ／ダウン.qnt",
+  "state": "changed",
+  "size": 5234
+ },
+ {
+  "path": "シス／システムボタン／コンフィグ／通常.qnt",
+  "state": "changed",
+  "size": 5217
+ },
+ {
+  "path": "シス／システムボタン／システム／オン.qnt",
+  "state": "changed",
+  "size": 4445
+ },
+ {
+  "path": "シス／システムボタン／システム／ダウン.dcf",
+  "state": "changed",
+  "size": 4528
+ },
+ {
+  "path": "シス／システムボタン／システム／無効.qnt",
+  "state": "changed",
+  "size": 5264
+ },
+ {
+  "path": "シス／システムボタン／システム／通常.qnt",
+  "state": "changed",
+  "size": 4481
+ },
+ {
+  "path": "シス／システムボタン／スタートデータ／オン.qnt",
+  "state": "changed",
+  "size": 5588
+ },
+ {
+  "path": "シス／システムボタン／スタートデータ／ダウン.qnt",
+  "state": "changed",
+  "size": 5544
+ },
+ {
+  "path": "シス／システムボタン／スタートデータ／通常.qnt",
+  "state": "changed",
+  "size": 5669
+ },
+ {
+  "path": "シス／システムボタン／セーブ／オン.qnt",
+  "state": "changed",
+  "size": 4250
+ },
+ {
+  "path": "シス／システムボタン／セーブ／ダウン.qnt",
+  "state": "changed",
+  "size": 4268
+ },
+ {
+  "path": "シス／システムボタン／セーブ／通常.qnt",
+  "state": "changed",
+  "size": 4112
+ },
+ {
+  "path": "シス／システムボタン／ロード／オン.qnt",
+  "state": "changed",
+  "size": 5061
+ },
+ {
+  "path": "シス／システムボタン／ロード／ダウン.qnt",
+  "state": "changed",
+  "size": 5059
+ },
+ {
+  "path": "シス／システムボタン／ロード／通常.qnt",
+  "state": "changed",
+  "size": 5071
+ },
+ {
+  "path": "シス／セーブ／土台.qnt",
+  "state": "changed",
+  "size": 89121
+ },
+ {
+  "path": "シス／セーブ／枠土台／項目.qnt",
+  "state": "changed",
+  "size": 28146
+ },
+ {
+  "path": "シス／タイトル／ボタン／コンフィグ／オン.qnt",
+  "state": "changed",
+  "size": 13690
+ },
+ {
+  "path": "シス／タイトル／ボタン／コンフィグ／ダウン.qnt",
+  "state": "changed",
+  "size": 12600
+ },
+ {
+  "path": "シス／タイトル／ボタン／コンフィグ／通常.qnt",
+  "state": "changed",
+  "size": 6326
+ },
+ {
+  "path": "シス／タイトル／ボタン／ニューゲーム／オン.qnt",
+  "state": "changed",
+  "size": 11102
+ },
+ {
+  "path": "シス／タイトル／ボタン／ニューゲーム／ダウン.qnt",
+  "state": "changed",
+  "size": 10093
+ },
+ {
+  "path": "シス／タイトル／ボタン／ニューゲーム／通常.qnt",
+  "state": "changed",
+  "size": 4079
+ },
+ {
+  "path": "シス／タイトル／ボタン／ビジュアル／オン.qnt",
+  "state": "changed",
+  "size": 12408
+ },
+ {
+  "path": "シス／タイトル／ボタン／ビジュアル／ダウン.qnt",
+  "state": "changed",
+  "size": 11320
+ },
+ {
+  "path": "シス／タイトル／ボタン／ビジュアル／無効.qnt",
+  "state": "changed",
+  "size": 5315
+ },
+ {
+  "path": "シス／タイトル／ボタン／ビジュアル／通常.qnt",
+  "state": "changed",
+  "size": 5374
+ },
+ {
+  "path": "シス／タイトル／ボタン／マニュアル／オン.qnt",
+  "state": "changed",
+  "size": 9844
+ },
+ {
+  "path": "シス／タイトル／ボタン／マニュアル／ダウン.qnt",
+  "state": "changed",
+  "size": 8997
+ },
+ {
+  "path": "シス／タイトル／ボタン／マニュアル／通常.qnt",
+  "state": "changed",
+  "size": 4384
+ },
+ {
+  "path": "シス／タイトル／ボタン／ミュージック／オン.qnt",
+  "state": "changed",
+  "size": 12485
+ },
+ {
+  "path": "シス／タイトル／ボタン／ミュージック／ダウン.qnt",
+  "state": "changed",
+  "size": 11325
+ },
+ {
+  "path": "シス／タイトル／ボタン／ミュージック／無効.qnt",
+  "state": "changed",
+  "size": 6102
+ },
+ {
+  "path": "シス／タイトル／ボタン／ミュージック／通常.qnt",
+  "state": "changed",
+  "size": 6279
+ },
+ {
+  "path": "シス／タイトル／ボタン／メモリー／オン.qnt",
+  "state": "changed",
+  "size": 12617
+ },
+ {
+  "path": "シス／タイトル／ボタン／メモリー／ダウン.qnt",
+  "state": "changed",
+  "size": 11488
+ },
+ {
+  "path": "シス／タイトル／ボタン／メモリー／無効.qnt",
+  "state": "changed",
+  "size": 6497
+ },
+ {
+  "path": "シス／タイトル／ボタン／メモリー／通常.qnt",
+  "state": "changed",
+  "size": 6578
+ },
+ {
+  "path": "シス／タイトル／ボタン／ロード／オン.qnt",
+  "state": "changed",
+  "size": 12038
+ },
+ {
+  "path": "シス／タイトル／ボタン／ロード／ダウン.qnt",
+  "state": "changed",
+  "size": 10809
+ },
+ {
+  "path": "シス／タイトル／ボタン／ロード／通常.qnt",
+  "state": "changed",
+  "size": 4957
+ },
+ {
+  "path": "シス／タイトル／ボタン／終了／オン.qnt",
+  "state": "changed",
+  "size": 7919
+ },
+ {
+  "path": "シス／タイトル／ボタン／終了／ダウン.dcf",
+  "state": "changed",
+  "size": 7408
+ },
+ {
+  "path": "シス／タイトル／ボタン／終了／通常.dcf",
+  "state": "changed",
+  "size": 3629
+ },
+ {
+  "path": "シス／タイトル／ロゴ.qnt",
+  "state": "changed",
+  "size": 88066
+ },
+ {
+  "path": "シス／タイトル／注意文.qnt",
+  "state": "changed",
+  "size": 597418
+ },
+ {
+  "path": "シス／バックシーン／ボタン／前へ／オン.qnt",
+  "state": "changed",
+  "size": 3895
+ },
+ {
+  "path": "シス／バックシーン／ボタン／前へ／ダウン.qnt",
+  "state": "changed",
+  "size": 4027
+ },
+ {
+  "path": "シス／バックシーン／ボタン／前へ／通常.qnt",
+  "state": "changed",
+  "size": 2669
+ },
+ {
+  "path": "シス／バックシーン／ボタン／戻る／オン.qnt",
+  "state": "changed",
+  "size": 3928
+ },
+ {
+  "path": "シス／バックシーン／ボタン／戻る／ダウン.qnt",
+  "state": "changed",
+  "size": 4030
+ },
+ {
+  "path": "シス／バックシーン／ボタン／戻る／通常.qnt",
+  "state": "changed",
+  "size": 2784
+ },
+ {
+  "path": "シス／バックシーン／ボタン／枠消／オン.qnt",
+  "state": "changed",
+  "size": 4100
+ },
+ {
+  "path": "シス／バックシーン／ボタン／枠消／ダウン.qnt",
+  "state": "changed",
+  "size": 4162
+ },
+ {
+  "path": "シス／バックシーン／ボタン／枠消／通常.qnt",
+  "state": "changed",
+  "size": 3023
+ },
+ {
+  "path": "シス／バックシーン／ボタン／次へ／オン.qnt",
+  "state": "changed",
+  "size": 3886
+ },
+ {
+  "path": "シス／バックシーン／ボタン／次へ／ダウン.qnt",
+  "state": "changed",
+  "size": 4033
+ },
+ {
+  "path": "シス／バックシーン／ボタン／次へ／通常.qnt",
+  "state": "changed",
+  "size": 2698
+ },
+ {
+  "path": "シス／バックシーン／ボタン／音声／オン.qnt",
+  "state": "changed",
+  "size": 3995
+ },
+ {
+  "path": "シス／バックシーン／ボタン／音声／ダウン.qnt",
+  "state": "changed",
+  "size": 4145
+ },
+ {
+  "path": "シス／バックシーン／ボタン／音声／無効.qnt",
+  "state": "changed",
+  "size": 1172
+ },
+ {
+  "path": "シス／バックシーン／ボタン／音声／通常.qnt",
+  "state": "changed",
+  "size": 2818
+ },
+ {
+  "path": "シス／バックシーン／土台.pcf",
+  "state": "changed",
+  "size": 5342
+ },
+ {
+  "path": "シス／バックログ／土台.pcf",
+  "state": "changed",
+  "size": 74180
+ },
+ {
+  "path": "シス／ヘルプ／ダンジョン１.qnt",
+  "state": "changed",
+  "size": 501578
+ },
+ {
+  "path": "シス／ヘルプ／ダンジョン２.qnt",
+  "state": "changed",
+  "size": 494123
+ },
+ {
+  "path": "シス／ヘルプ／ダンジョン３.qnt",
+  "state": "changed",
+  "size": 350466
+ },
+ {
+  "path": "シス／ヘルプ／ダンジョン４.qnt",
+  "state": "changed",
+  "size": 437321
+ },
+ {
+  "path": "シス／ヘルプ／メンバー選択１.qnt",
+  "state": "changed",
+  "size": 445560
+ },
+ {
+  "path": "シス／ヘルプ／メンバー選択２.qnt",
+  "state": "changed",
+  "size": 455290
+ },
+ {
+  "path": "シス／ヘルプ／メンバー選択３.qnt",
+  "state": "changed",
+  "size": 314452
+ },
+ {
+  "path": "シス／ヘルプ／メンバー選択４.dcf",
+  "state": "changed",
+  "size": 284196
+ },
+ {
+  "path": "シス／ヘルプ／戦闘１.qnt",
+  "state": "changed",
+  "size": 342225
+ },
+ {
+  "path": "シス／ヘルプ／戦闘２.qnt",
+  "state": "changed",
+  "size": 294850
+ },
+ {
+  "path": "シス／ヘルプ／武器加工１.qnt",
+  "state": "changed",
+  "size": 300804
+ },
+ {
+  "path": "シス／ヘルプ／武器加工２.qnt",
+  "state": "changed",
+  "size": 404759
+ },
+ {
+  "path": "シス／ヘルプ／武器加工３.qnt",
+  "state": "changed",
+  "size": 262630
+ },
+ {
+  "path": "シス／ヘルプ／訓練１.qnt",
+  "state": "changed",
+  "size": 357546
+ },
+ {
+  "path": "シス／メニューボタン／オート／オン.qnt",
+  "state": "changed",
+  "size": 2346
+ },
+ {
+  "path": "シス／メニューボタン／オート／ダウン.dcf",
+  "state": "changed",
+  "size": 2240
+ },
+ {
+  "path": "シス／メニューボタン／オート／無効.dcf",
+  "state": "changed",
+  "size": 2240
+ },
+ {
+  "path": "シス／メニューボタン／オート／通常.dcf",
+  "state": "changed",
+  "size": 2459
+ },
+ {
+  "path": "シス／メニューボタン／コンフィグ／オン.qnt",
+  "state": "changed",
+  "size": 4029
+ },
+ {
+  "path": "シス／メニューボタン／コンフィグ／ダウン.qnt",
+  "state": "changed",
+  "size": 3566
+ },
+ {
+  "path": "シス／メニューボタン／コンフィグ／無効.qnt",
+  "state": "changed",
+  "size": 3566
+ },
+ {
+  "path": "シス／メニューボタン／コンフィグ／通常.qnt",
+  "state": "changed",
+  "size": 4043
+ },
+ {
+  "path": "シス／メニューボタン／スキップ／オン.qnt",
+  "state": "changed",
+  "size": 3794
+ },
+ {
+  "path": "シス／メニューボタン／スキップ／ダウン.dcf",
+  "state": "changed",
+  "size": 3624
+ },
+ {
+  "path": "シス／メニューボタン／スキップ／無効.dcf",
+  "state": "changed",
+  "size": 3624
+ },
+ {
+  "path": "シス／メニューボタン／スキップ／通常.dcf",
+  "state": "changed",
+  "size": 3876
+ },
+ {
+  "path": "シス／メニューボタン／セーブ／オン.dcf",
+  "state": "changed",
+  "size": 2542
+ },
+ {
+  "path": "シス／メニューボタン／セーブ／ダウン.dcf",
+  "state": "changed",
+  "size": 2305
+ },
+ {
+  "path": "シス／メニューボタン／セーブ／無効.dcf",
+  "state": "changed",
+  "size": 2305
+ },
+ {
+  "path": "シス／メニューボタン／セーブ／通常.dcf",
+  "state": "changed",
+  "size": 2513
+ },
+ {
+  "path": "シス／メニューボタン／バックシーン／オン.qnt",
+  "state": "changed",
+  "size": 4879
+ },
+ {
+  "path": "シス／メニューボタン／バックシーン／ダウン.qnt",
+  "state": "changed",
+  "size": 4240
+ },
+ {
+  "path": "シス／メニューボタン／バックシーン／無効.qnt",
+  "state": "changed",
+  "size": 4240
+ },
+ {
+  "path": "シス／メニューボタン／バックシーン／通常.qnt",
+  "state": "changed",
+  "size": 4932
+ },
+ {
+  "path": "シス／メニューボタン／バックログ／オン.qnt",
+  "state": "changed",
+  "size": 4154
+ },
+ {
+  "path": "シス／メニューボタン／バックログ／ダウン.qnt",
+  "state": "changed",
+  "size": 3706
+ },
+ {
+  "path": "シス／メニューボタン／バックログ／無効.qnt",
+  "state": "changed",
+  "size": 3706
+ },
+ {
+  "path": "シス／メニューボタン／バックログ／通常.qnt",
+  "state": "changed",
+  "size": 4182
+ },
+ {
+  "path": "シス／メニューボタン／ボイス／オン.qnt",
+  "state": "changed",
+  "size": 2379
+ },
+ {
+  "path": "シス／メニューボタン／ボイス／ダウン.dcf",
+  "state": "changed",
+  "size": 2225
+ },
+ {
+  "path": "シス／メニューボタン／ボイス／無効.dcf",
+  "state": "changed",
+  "size": 2225
+ },
+ {
+  "path": "シス／メニューボタン／ボイス／通常.dcf",
+  "state": "changed",
+  "size": 2456
+ },
+ {
+  "path": "シス／メニューボタン／メニュー／オン.qnt",
+  "state": "changed",
+  "size": 1819
+ },
+ {
+  "path": "シス／メニューボタン／メニュー／ダウン.dcf",
+  "state": "changed",
+  "size": 1902
+ },
+ {
+  "path": "シス／メニューボタン／メニュー／無効.qnt",
+  "state": "changed",
+  "size": 1819
+ },
+ {
+  "path": "シス／メニューボタン／メニュー／通常.qnt",
+  "state": "changed",
+  "size": 1211
+ },
+ {
+  "path": "シス／メニューボタン／メニュー／選択中.qnt",
+  "state": "changed",
+  "size": 1477
+ },
+ {
+  "path": "シス／メニューボタン／ロード／オン.qnt",
+  "state": "changed",
+  "size": 3714
+ },
+ {
+  "path": "シス／メニューボタン／ロード／ダウン.dcf",
+  "state": "changed",
+  "size": 3525
+ },
+ {
+  "path": "シス／メニューボタン／ロード／無効.dcf",
+  "state": "changed",
+  "size": 3525
+ },
+ {
+  "path": "シス／メニューボタン／ロード／通常.dcf",
+  "state": "changed",
+  "size": 3841
+ },
+ {
+  "path": "シス／メニューボタン／消す／オン.dcf",
+  "state": "changed",
+  "size": 4231
+ },
+ {
+  "path": "シス／メニューボタン／消す／ダウン.dcf",
+  "state": "changed",
+  "size": 4044
+ },
+ {
+  "path": "シス／メニューボタン／消す／通常.dcf",
+  "state": "changed",
+  "size": 4260
+ },
+ {
+  "path": "シス／メニューボタン／消す／選択中.dcf",
+  "state": "changed",
+  "size": 4044
+ },
+ {
+  "path": "シス／モード／オリジナル.qnt",
+  "state": "changed",
+  "size": 1202
+ },
+ {
+  "path": "シス／モード／モダン.qnt",
+  "state": "changed",
+  "size": 758
+ },
+ {
+  "path": "シス／ロード／土台.qnt",
+  "state": "changed",
+  "size": 100894
+ },
+ {
+  "path": "シス／ロード／枠土台／オート.qnt",
+  "state": "changed",
+  "size": 33539
+ },
+ {
+  "path": "シス／ロード／枠土台／項目.qnt",
+  "state": "changed",
+  "size": 31224
+ },
+ {
+  "path": "シス／土台／ロゴ.qnt",
+  "state": "changed",
+  "size": 13832
+ },
+ {
+  "path": "シス／戦闘／ボタン／オート／オン.qnt",
+  "state": "changed",
+  "size": 6649
+ },
+ {
+  "path": "シス／戦闘／ボタン／オート／ダウン.qnt",
+  "state": "changed",
+  "size": 6470
+ },
+ {
+  "path": "シス／戦闘／ボタン／オート／チェック／オン.qnt",
+  "state": "changed",
+  "size": 6016
+ },
+ {
+  "path": "シス／戦闘／ボタン／オート／チェック／ダウン.qnt",
+  "state": "changed",
+  "size": 6057
+ },
+ {
+  "path": "シス／戦闘／ボタン／オート／チェック／無効.qnt",
+  "state": "changed",
+  "size": 2833
+ },
+ {
+  "path": "シス／戦闘／ボタン／オート／チェック／通常.qnt",
+  "state": "changed",
+  "size": 5044
+ },
+ {
+  "path": "シス／戦闘／ボタン／オート／無効.qnt",
+  "state": "changed",
+  "size": 2372
+ },
+ {
+  "path": "シス／戦闘／ボタン／オート／通常.qnt",
+  "state": "changed",
+  "size": 5794
+ },
+ {
+  "path": "シス／戦闘／リザルト.qnt",
+  "state": "changed",
+  "size": 56709
+ },
+ {
+  "path": "シス／戦闘／情報／敵.qnt",
+  "state": "changed",
+  "size": 10035
+ },
+ {
+  "path": "シス／戦闘／情報／武器技.qnt",
+  "state": "changed",
+  "size": 25367
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／アイテム／オン.qnt",
+  "state": "changed",
+  "size": 7987
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／アイテム／ダウン.qnt",
+  "state": "changed",
+  "size": 5765
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／アイテム／無効.qnt",
+  "state": "changed",
+  "size": 2928
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／アイテム／通常.qnt",
+  "state": "changed",
+  "size": 5744
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／攻撃／オン.qnt",
+  "state": "changed",
+  "size": 7236
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／攻撃／ダウン.qnt",
+  "state": "changed",
+  "size": 5195
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／攻撃／無効.qnt",
+  "state": "changed",
+  "size": 2550
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／攻撃／通常.qnt",
+  "state": "changed",
+  "size": 5050
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／特殊技／オン.qnt",
+  "state": "changed",
+  "size": 8291
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／特殊技／ダウン.qnt",
+  "state": "changed",
+  "size": 5755
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／特殊技／無効.qnt",
+  "state": "changed",
+  "size": 2910
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／特殊技／通常.qnt",
+  "state": "changed",
+  "size": 5711
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／移動／オン.qnt",
+  "state": "changed",
+  "size": 9150
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／移動／ダウン.qnt",
+  "state": "changed",
+  "size": 6250
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／移動／無効.qnt",
+  "state": "changed",
+  "size": 2998
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／移動／通常.qnt",
+  "state": "changed",
+  "size": 6021
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／逃走／オン.qnt",
+  "state": "changed",
+  "size": 8624
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／逃走／ダウン.qnt",
+  "state": "changed",
+  "size": 5999
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／逃走／無効.qnt",
+  "state": "changed",
+  "size": 3123
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／逃走／通常.qnt",
+  "state": "changed",
+  "size": 6021
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／防御／オン.qnt",
+  "state": "changed",
+  "size": 8491
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／防御／ダウン.qnt",
+  "state": "changed",
+  "size": 5858
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／防御／無効.qnt",
+  "state": "changed",
+  "size": 3086
+ },
+ {
+  "path": "シス／戦闘／行動ボタン／防御／通常.qnt",
+  "state": "changed",
+  "size": 5991
+ },
+ {
+  "path": "シス／探索／ボタン／アイテム／オン.qnt",
+  "state": "changed",
+  "size": 3449
+ },
+ {
+  "path": "シス／探索／ボタン／アイテム／ダウン.qnt",
+  "state": "changed",
+  "size": 3791
+ },
+ {
+  "path": "シス／探索／ボタン／アイテム／無効.qnt",
+  "state": "changed",
+  "size": 2468
+ },
+ {
+  "path": "シス／探索／ボタン／アイテム／通常.qnt",
+  "state": "changed",
+  "size": 5507
+ },
+ {
+  "path": "シス／探索／ボタン／休憩／オン.qnt",
+  "state": "changed",
+  "size": 2772
+ },
+ {
+  "path": "シス／探索／ボタン／休憩／ダウン.qnt",
+  "state": "changed",
+  "size": 3081
+ },
+ {
+  "path": "シス／探索／ボタン／休憩／休憩／オン.qnt",
+  "state": "new",
+  "size": 1532
+ },
+ {
+  "path": "シス／探索／ボタン／休憩／休憩／ダウン.qnt",
+  "state": "new",
+  "size": 1866
+ },
+ {
+  "path": "シス／探索／ボタン／休憩／休憩／無効.qnt",
+  "state": "new",
+  "size": 1289
+ },
+ {
+  "path": "シス／探索／ボタン／休憩／休憩／通常.qnt",
+  "state": "new",
+  "size": 1873
+ },
+ {
+  "path": "シス／探索／ボタン／休憩／無効.qnt",
+  "state": "changed",
+  "size": 2313
+ },
+ {
+  "path": "シス／探索／ボタン／休憩／通常.qnt",
+  "state": "changed",
+  "size": 4890
+ },
+ {
+  "path": "シス／探索／ボタン／拠点に戻る／オン.qnt",
+  "state": "changed",
+  "size": 6518
+ },
+ {
+  "path": "シス／探索／ボタン／拠点に戻る／ダウン.qnt",
+  "state": "changed",
+  "size": 6684
+ },
+ {
+  "path": "シス／探索／ボタン／拠点に戻る／無効.qnt",
+  "state": "changed",
+  "size": 1746
+ },
+ {
+  "path": "シス／探索／ボタン／拠点に戻る／通常.qnt",
+  "state": "changed",
+  "size": 4497
+ },
+ {
+  "path": "シス／武器加工／ボタン／メモリー／オン.qnt",
+  "state": "changed",
+  "size": 5857
+ },
+ {
+  "path": "シス／武器加工／ボタン／メモリー／ダウン.qnt",
+  "state": "changed",
+  "size": 6221
+ },
+ {
+  "path": "シス／武器加工／ボタン／メモリー／点灯.qnt",
+  "state": "changed",
+  "size": 7712
+ },
+ {
+  "path": "シス／武器加工／ボタン／メモリー／無効.qnt",
+  "state": "changed",
+  "size": 7384
+ },
+ {
+  "path": "シス／武器加工／ボタン／メモリー／通常.qnt",
+  "state": "changed",
+  "size": 4248
+ },
+ {
+  "path": "シス／武器加工／ボタン／削除／オン.qnt",
+  "state": "changed",
+  "size": 4886
+ },
+ {
+  "path": "シス／武器加工／ボタン／削除／ダウン.qnt",
+  "state": "changed",
+  "size": 4853
+ },
+ {
+  "path": "シス／武器加工／ボタン／削除／チェック／オン.qnt",
+  "state": "changed",
+  "size": 5525
+ },
+ {
+  "path": "シス／武器加工／ボタン／削除／チェック／ダウン.qnt",
+  "state": "changed",
+  "size": 5590
+ },
+ {
+  "path": "シス／武器加工／ボタン／削除／チェック／無効.qnt",
+  "state": "changed",
+  "size": 2809
+ },
+ {
+  "path": "シス／武器加工／ボタン／削除／チェック／通常.qnt",
+  "state": "changed",
+  "size": 6072
+ },
+ {
+  "path": "シス／武器加工／ボタン／削除／無効.qnt",
+  "state": "changed",
+  "size": 2074
+ },
+ {
+  "path": "シス／武器加工／ボタン／削除／通常.qnt",
+  "state": "changed",
+  "size": 5258
+ },
+ {
+  "path": "シス／武器加工／ボタン／武器加工／オン.qnt",
+  "state": "changed",
+  "size": 7284
+ },
+ {
+  "path": "シス／武器加工／ボタン／武器加工／ダウン.qnt",
+  "state": "changed",
+  "size": 7699
+ },
+ {
+  "path": "シス／武器加工／ボタン／武器加工／点灯.qnt",
+  "state": "changed",
+  "size": 8612
+ },
+ {
+  "path": "シス／武器加工／ボタン／武器加工／無効.qnt",
+  "state": "changed",
+  "size": 8111
+ },
+ {
+  "path": "シス／武器加工／ボタン／武器加工／通常.qnt",
+  "state": "changed",
+  "size": 4969
+ },
+ {
+  "path": "シス／武器加工／ボタン／要素石／オン.qnt",
+  "state": "changed",
+  "size": 8446
+ },
+ {
+  "path": "シス／武器加工／ボタン／要素石／ダウン.qnt",
+  "state": "changed",
+  "size": 9102
+ },
+ {
+  "path": "シス／武器加工／ボタン／要素石／点灯.qnt",
+  "state": "changed",
+  "size": 10491
+ },
+ {
+  "path": "シス／武器加工／ボタン／要素石／無効.qnt",
+  "state": "changed",
+  "size": 9446
+ },
+ {
+  "path": "シス／武器加工／ボタン／要素石／通常.qnt",
+  "state": "changed",
+  "size": 6266
+ },
+ {
+  "path": "シス／武器加工／メモリー／土台.qnt",
+  "state": "changed",
+  "size": 76157
+ },
+ {
+  "path": "シス／親密度／親密度.qnt",
+  "state": "changed",
+  "size": 1859
+ },
+ {
+  "path": "シス／訓練／ボタン／決定／オン.qnt",
+  "state": "changed",
+  "size": 5868
+ },
+ {
+  "path": "シス／訓練／ボタン／決定／ダウン.qnt",
+  "state": "changed",
+  "size": 6257
+ },
+ {
+  "path": "シス／訓練／ボタン／決定／無効.qnt",
+  "state": "changed",
+  "size": 1989
+ },
+ {
+  "path": "シス／訓練／ボタン／決定／通常.qnt",
+  "state": "changed",
+  "size": 4746
+ },
+ {
+  "path": "シス／ＣＧモード／土台.pcf",
+  "state": "changed",
+  "size": 81272
+ }
+]

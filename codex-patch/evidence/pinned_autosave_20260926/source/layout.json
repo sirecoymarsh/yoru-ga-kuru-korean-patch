@@ -1,0 +1,314 @@
+{
+  "archive": {
+    "source_sha256": "b6c0253bffedc2853c7d800b59bdc4a673df3365f0c8f12b42c4e24a9871b2f8",
+    "candidate_sha256": "eed0fa72dda21f24de9a9f238c1210663981d132e7c4012ead38f74c1f3fb4b4",
+    "original_entries_preserved": 188,
+    "replaced_ids": [
+      168,
+      169
+    ],
+    "appended": [],
+    "wrapper": "AFA3",
+    "metadata_identity": "PASS (names/order/unknown fields)",
+    "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+    "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\pinned_autosave_20260926\\NightRemasterPact.afa"
+  },
+  "changes": [
+    {
+      "index": 168,
+      "scalars": [
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            43,
+            "child",
+            2,
+            "child",
+            4,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "0000a642",
+          "after": "00008c42"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            43,
+            "child",
+            2,
+            "child",
+            5,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "0000a642",
+          "after": "00008c42"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            4,
+            "child",
+            14,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "0000803f",
+          "after": "0000603f"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            5,
+            "child",
+            0,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "00008041",
+          "after": "00001041"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            6,
+            "child",
+            0,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "00004c42",
+          "after": "00003042"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            7,
+            "child",
+            0,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "0000c040",
+          "after": "00004040"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            8,
+            "child",
+            0,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "00000042",
+          "after": "0000c841"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            9,
+            "child",
+            0,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "00000042",
+          "after": "0000c841"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            10,
+            "child",
+            0,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "00006842",
+          "after": "00004042"
+        },
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            11,
+            "child",
+            0,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "00006842",
+          "after": "00004042"
+        }
+      ]
+    },
+    {
+      "index": 169,
+      "scalars": [
+        {
+          "path": [
+            "block",
+            2,
+            "value",
+            "child",
+            0,
+            "child",
+            47,
+            "child",
+            1,
+            "child",
+            47,
+            "child",
+            1,
+            "child",
+            47,
+            "child",
+            0,
+            "child",
+            14,
+            "leaf_value",
+            "item",
+            1,
+            "value"
+          ],
+          "before": "0000803f",
+          "after": "0000603f"
+        }
+      ]
+    }
+  ],
+  "card_height": 70,
+  "pitch": 72,
+  "autosave_positions": [
+    0,
+    72
+  ],
+  "manual_start_y": 144
+}

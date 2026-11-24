@@ -1,0 +1,98 @@
+{
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "installed_sha256": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+ "candidate_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "installed_pass": true,
+ "candidate_pass": true,
+ "pids": {
+  "installed": 87452,
+  "candidate": 35076
+ },
+ "shots": 19,
+ "identical": [
+  "april_detail_e00121",
+  "april_detail_e20001",
+  "april_detail_group",
+  "april_detail_readable",
+  "april_detail_short",
+  "april_detail_unread_locked",
+  "april_detail_unread_open",
+  "april_list_locked",
+  "april_list_mixed",
+  "april_list_readable",
+  "april_list_return",
+  "april_scene_picker",
+  "april_title_after",
+  "chart_title_before"
+ ],
+ "differing": {
+  "april_detail_e10001": {
+   "pixels": 1961,
+   "bbox": [
+    640,
+    237,
+    868,
+    253
+   ],
+   "expected": "E10001 read: 언제 without the stray r19 title mark 「†」 + indent (KR_W29Clean: 「… 6/16 까지 · 이즈미 친밀도 5 이상」)"
+  },
+  "april_detail_group_scene3": {
+   "pixels": 170,
+   "bbox": [
+    599,
+    132,
+    616,
+    150
+   ],
+   "expected": "E00006 read: title from the shared KR_T19EvHead (「이즈미」) instead of the hand-written KR_U29Head (「이즈미와」) - the 09-29 particle correction"
+  },
+  "may_detail_unchanged": {
+   "pixels": 77892,
+   "bbox": [
+    80,
+    169,
+    1200,
+    550
+   ],
+   "expected": "May E00011 card page: the April detail board now covers May (intended WI-009 change)"
+  },
+  "may_list_after_april": {
+   "pixels": 58360,
+   "bbox": [
+    26,
+    23,
+    1248,
+    692
+   ],
+   "expected": "May list: the April list UI now covers May (intended WI-009 change)"
+  },
+  "may_list_unchanged": {
+   "pixels": 58360,
+   "bbox": [
+    26,
+    23,
+    1248,
+    692
+   ],
+   "expected": "May list: the April list UI now covers May (intended WI-009 change)"
+  }
+ },
+ "unexpected_differences": {},
+ "expected_but_identical": [],
+ "within_run": {
+  "installed": {
+   "title_return": 0,
+   "list_return": 0
+  },
+  "candidate": {
+   "title_return": 0,
+   "list_return": 0
+  }
+ },
+ "user_files_changed": {
+  "installed": [],
+  "candidate": []
+ },
+ "tour": "KR_A29Tour of P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\docs\\agentic-workflow\\handoffs\\calendar_remaining_20260929_support\\probe_calendar_april_adaptive_minis_20260929.jaf minus its two May-only assertions (they assert the old May layout)",
+ "status": "APRIL_REGRESSION_PASS"
+}

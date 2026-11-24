@@ -1,0 +1,92 @@
+{
+ "status": "reviewed_and_fixed",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - same-model read-only second pass (the author re-opened every scene against the frozen source; not an independent reviewer)",
+ "reviewed_at": "2026-09-29T21:22:39.353581+09:00",
+ "reviewed_events": 62,
+ "reviewed_japanese_messages": 3929,
+ "checks": [
+  "(a) only facts present in the Japanese source",
+  "(b) speaker / actor / order of acts unchanged",
+  "(c) no content from another scene or choice branch"
+ ],
+ "method": "qa_view.py prints every scene as speaker-joined Japanese turns with the current summary; each summary claim was checked against the lines",
+ "source_sha256": "7ba2c0aa9af63f485eb50f2a2c62e2b99ff71652ac5404b2e371c05e96ef5d22",
+ "summary_sha256": "5910fe4d41798e23a986403892542ba3997d271e914056c24e5f332e91a2b5a4",
+ "findings": [
+  {
+   "no": 259,
+   "message_id": 24487,
+   "severity": "P3",
+   "before": "호시카와를 볼 낯이 없어 괴로워한다.",
+   "after": "호시카와를 어떤 얼굴로 봐야 할지 몰라 괴로워한다.",
+   "reason": "원문은 다음에 만나면 어떤 얼굴을 해야 할지 모르겠다는 곤혹이다. 볼 낯이 없다는 자기 부끄러움으로 뜻이 바뀌어 있었다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 1254,
+   "message_id": 91938,
+   "severity": "P3",
+   "before": "가을 한정 시리즈",
+   "after": "가을 별미 시리즈",
+   "reason": "원문 상품명은 가을 별미 스페셜 시리즈다. 한정이라는 말은 원문에 없다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 1254,
+   "message_id": 91947,
+   "severity": "P3",
+   "before": "은행 아이스크림까지 챙기겠다는",
+   "after": "은행 아이스크림을 꼭 맛봐야 한다는",
+   "reason": "원문은 은행 아이스크림이 눈여겨볼 상품이라는 추천이다. 쿄카가 사겠다는 말은 없다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 1255,
+   "message_id": 91956,
+   "severity": "P2",
+   "before": "라디오에 출연하느라 늦게 잤다는 쿄카가",
+   "after": "라디오를 듣다 늦게 잤다는 쿄카가 청취자 코너에서 한",
+   "reason": "늦게 잔 까닭은 라디오를 들어서이고 출연은 덧붙인 사실이다. 원인이 바뀌어 있었다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 1422,
+   "message_id": 92705,
+   "severity": "P3",
+   "before": "간밤에 방에서",
+   "after": "간밤에 마코토의 방에서",
+   "reason": "소리가 난 곳이 마코토 쪽 방이라는 점이 빠져 누구의 방인지 모호했다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 1423,
+   "message_id": 92742,
+   "severity": "P2",
+   "before": "요즘 키라라가 같이 들어오려 하지 않아 쓸쓸하다는 마코토를 주인공이 달랜다.",
+   "after": "키라라가 요즘 함께 들어가길 꺼린다는 말에 주인공이 그럴 나이라고 하자 마코토는 쓸쓸해한다.",
+   "reason": "원문 순서는 주인공의 말(그 나이 여자아이는 어렵다) 뒤에 마코토의 쓸쓸함이다. 주인공이 달랜다는 행위도 원문에 없다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 1652,
+   "message_id": 89296,
+   "severity": "P3",
+   "before": "두 병을 사 와",
+   "after": "두 종류를 사 와",
+   "reason": "원문은 두 종류를 다 마셔 보고 싶어 샀다는 말이다. 병 수는 나오지 않는다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 1732,
+   "message_id": 94833,
+   "severity": "P2",
+   "before": "낭비하지 말라는 주인공에게 모모세는 여유가 생기면 살지도 모른다고 한다.",
+   "after": "여유가 생기면 살지도 모른다는 모모세에게 주인공은 낭비하지 말라고 한다.",
+   "reason": "원문 순서는 모모세의 여유가 생기면 살지도 모른다는 말 뒤에 주인공의 낭비 경고다. 발화 순서와 행위자가 뒤바뀌어 있었다.",
+   "status": "resolved by author (same-model second pass)"
+  }
+ ],
+ "unresolved": [],
+ "excluded": []
+}

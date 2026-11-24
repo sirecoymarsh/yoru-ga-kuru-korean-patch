@@ -1,0 +1,28 @@
+{
+  "status": "SMART_AUTO_FIX_STAGED_UNVERIFIED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "b030140508f2c93188be6235e753f8b5b48d2a3641de79bf4d9f8972f7729a0d",
+    "status": "SMART_AUTO_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "f331f7303175e9d7c9fbbcd3e032973717654e223d2ab2f9969638900b08022c"
+  },
+  "files": {
+    "NightRemaster.ain": "b86f6f5ff17cf2d08c0eb7a1015d05136819d5daf8803b6bca00b2c5d6cb08ea"
+  },
+  "patched_existing": [
+    31979,
+    31981
+  ],
+  "added_functions": {},
+  "PACT": "unchanged",
+  "serialized_metadata_exact": true,
+  "old_CODE_STR0_MSG1_exact": true,
+  "native_verified": false,
+  "translator_model": "Codex internal",
+  "fix": "Allow companion type-0 EX with native current-weapon attack/hit; keep EX action, HP cost, repeat, range, timing and technique effects"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "BASE",
+  "files": [
+    {
+      "path": "NightRemaster.ain",
+      "size": 25,
+      "sha256": "50b91fc0379ce6e2a8706e2cddeac78bbd9b46d56de143d95351c752a8fe531d"
+    },
+    {
+      "path": "NightRemasterPact.afa",
+      "size": 29,
+      "sha256": "91e34cc04654c45f48b294e4d9b84ca976633f0718599160114244cfd38b2b4a"
+    },
+    {
+      "path": "NightRemaster.exe",
+      "size": 25,
+      "sha256": "eef64d738c6ca3c3477ea933ae2648cd23cf3a84cba78a945fba5099f7a82cfd"
+    },
+    {
+      "path": "Data/Shader.slk",
+      "size": 23,
+      "sha256": "77d8072871982f0708a766e4beb24a220215239bd54d620ab9b6f853a2c21402"
+    }
+  ],
+  "ain": {
+    "status": "BASE"
+  }
+}

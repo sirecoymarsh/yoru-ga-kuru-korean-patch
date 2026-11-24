@@ -1,0 +1,244 @@
+{
+ "status": "PASS_WITH_OPEN_QUESTIONS",
+ "month": "august",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - independent reviewer (a separate agent from the author); read every packet end to end before opening the author evidence/semantic_qa.json",
+ "author_of_summaries": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "time": "2026-09-29T21:23:44.574283+09:00",
+ "reviewed_events": 68,
+ "reviewed_ids": [
+  201,
+  204,
+  241,
+  242,
+  1106,
+  1107,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1241,
+  1242,
+  1243,
+  1244,
+  1245,
+  1246,
+  1331,
+  1332,
+  1333,
+  1334,
+  1335,
+  1411,
+  1412,
+  1413,
+  1414,
+  1415,
+  1416,
+  1417,
+  1418,
+  1541,
+  1542,
+  1543,
+  1544,
+  1545,
+  1641,
+  1642,
+  1643,
+  1644,
+  1645,
+  1646,
+  1647,
+  1649,
+  1650,
+  1721,
+  1722,
+  1723,
+  1724,
+  1725,
+  2603,
+  10061,
+  10081,
+  20161,
+  20162,
+  20163,
+  20164,
+  20165,
+  20166,
+  20167,
+  20171,
+  40041,
+  40042,
+  40043,
+  40044,
+  40045,
+  40061,
+  40062,
+  40063
+ ],
+ "reviewed_messages": 4091,
+ "reviewed_messages_with_text": 4007,
+ "method": "packets read end to end in a compact JP view (speaker hint + joined Japanese); installed Korean checked for names and terms; packet coverage of scenarios.json checked (only empty or dot-only lines absent); author semantic_qa.json opened only after the pass (no overlap with its findings)",
+ "checks": [
+  "(a) no fact, reaction, place, feeling or guess absent from that scene",
+  "(b) actor and addressee not swapped",
+  "(c) no other scene or branch mixed in (49-scene bundle: each file only)",
+  "(d) no ending, route or later event hinted",
+  "(e) protagonist only as 주인공; names as the installed Korean",
+  "(f) natural present tense, 1-2 sentences, <=100 characters",
+  "(g) adult-content scenes told without concrete description"
+ ],
+ "scope_checks": {
+  "adult_content_scenes": [
+   201
+  ],
+  "choice_branch_scenes": [
+   20164,
+   20165,
+   20166,
+   40041,
+   40042,
+   40043,
+   40044,
+   40045,
+   40061,
+   40062,
+   40063
+  ],
+  "result": "성인 소재 1장면(8/13)은 구체 묘사 없음. 선택 갈래 장면은 각자 자기 갈래만, 선택지 문구 없음."
+ },
+ "source_sha256": "b9edb184b6dbb922bc6b57edc36b78d0ebf85f3d432e27eea2dc89b276f5c8ac",
+ "summary_sha256_before": "9c3f6a769bdcca3a1750a57529caa71c4dc6ac17b6318a593d7c06e331b08adc",
+ "summary_sha256_after": "9a79d9e6f744b9113953c8d6d8800d688c5624d970cda67094c981d83bd24455",
+ "findings": [
+  {
+   "no": 2603,
+   "위치": "문장 2 · 원문 32583-32585",
+   "type": "(a) 원문과 어긋난 사실 - 동사 뜻",
+   "severity": "P3",
+   "before": "두 아기를 찾는",
+   "after": "두 아기를 발견하는",
+   "reason": "원문 見つける(발견한다). 현재형 「찾는」은 찾아다니는 뜻으로 읽힌다.",
+   "status": "fixed"
+  }
+ ],
+ "unresolved": [
+  {
+   "ids": [
+    242,
+    1145,
+    2603,
+    20167
+   ],
+   "type": "용어 선택",
+   "severity": "decision",
+   "detail": "설치 한국어 용어 히카리·참된 달·얼어붙은 밤을 씀. 4월 승인 요약은 일반어를 씀. 집필자 인계 3절 1번과 같은 건. 고치지 않음.",
+   "status": "open"
+  },
+  {
+   "ids": [
+    1411,
+    1412,
+    1413
+   ],
+   "type": "원본 표 메타 불일치(범위 밖)",
+   "severity": "info",
+   "detail": "events.json when 이 5월로 적힘. 요약은 장면 내용만 써서 영향 없음을 확인. 집필자 인계 3절 3번과 같은 건.",
+   "status": "open"
+  }
+ ],
+ "counts": {
+  "findings": 1,
+  "by_type": {
+   "(a) 원문과 어긋난 사실": 1
+  },
+  "by_severity": {
+   "P3": 1
+  },
+  "unresolved": 2,
+  "status_independent_qa_pass": 68
+ },
+ "resolved_by_adjudication": [
+  {
+   "ids": [
+    2603
+   ],
+   "type": "추정 표현",
+   "severity": "P3",
+   "detail": "요약의 꿈이라는 규정은 원문에 없는 추정(근거: 8/27 아침 카드, 초현실 서술, 뒤이은 주인공의 생각). 고치지 않고 note 로 남김.",
+   "status": "fixed_by_adjudicator",
+   "fixed_at": "2026-09-29T23:16:10.895826+09:00",
+   "fixed_by": "Claude Opus 5.5 (claude-opus-5-5), adjudicator",
+   "fix": "「꿈」 단정 두 곳만 바꿈(1문장 동사구, 2문장 연결구). 길이 98→98, 상태 independent_qa_pass 유지, 행 note 에 판정 기록."
+  }
+ ],
+ "adjudication": {
+  "adjudicator": "Claude Opus 5.5 (claude-opus-5-5), adjudicator",
+  "time": "2026-09-29T23:16:10.895826+09:00",
+  "basis": "발주자 판정 방침 2(원문에 없는 추정은 결함, 문제 낱말만 최소 수정)",
+  "summary_sha256_after_independent_review": "a843fd19747ae698fbc7f66ba297305a55522c177e482e9afaa17a686b1d279e",
+  "summary_sha256_after_adjudication": "9a79d9e6f744b9113953c8d6d8800d688c5624d970cda67094c981d83bd24455",
+  "changed_rows": [
+   2603
+  ],
+  "fields_changed": [
+   "summary_sha256_after",
+   "unresolved",
+   "counts.unresolved",
+   "resolved_by_adjudication (new)"
+  ],
+  "unresolved_before_adjudication": [
+   {
+    "ids": [
+     2603
+    ],
+    "type": "추정 표현",
+    "severity": "P3",
+    "detail": "요약의 꿈이라는 규정은 원문에 없는 추정(근거: 8/27 아침 카드, 초현실 서술, 뒤이은 주인공의 생각). 고치지 않고 note 로 남김.",
+    "status": "open"
+   },
+   {
+    "ids": [
+     242,
+     1145,
+     2603,
+     20167
+    ],
+    "type": "용어 선택",
+    "severity": "decision",
+    "detail": "설치 한국어 용어 히카리·참된 달·얼어붙은 밤을 씀. 4월 승인 요약은 일반어를 씀. 집필자 인계 3절 1번과 같은 건. 고치지 않음.",
+    "status": "open"
+   },
+   {
+    "ids": [
+     1411,
+     1412,
+     1413
+    ],
+    "type": "원본 표 메타 불일치(범위 밖)",
+    "severity": "info",
+    "detail": "events.json when 이 5월로 적힘. 요약은 장면 내용만 써서 영향 없음을 확인. 집필자 인계 3절 3번과 같은 건.",
+    "status": "open"
+   }
+  ],
+  "counts_before_adjudication": {
+   "findings": 1,
+   "by_type": {
+    "(a) 원문과 어긋난 사실": 1
+   },
+   "by_severity": {
+    "P3": 1
+   },
+   "unresolved": 3,
+   "status_independent_qa_pass": 68
+  },
+  "static_gate_rerun": {
+   "script": "independent_review/verify_after_review.py august",
+   "evidence": "evidence/static_gates_after_review.json",
+   "status": "PASS",
+   "time": "2026-09-29T23:15:26.839806+09:00",
+   "summaries_sha256": "9a79d9e6f744b9113953c8d6d8800d688c5624d970cda67094c981d83bd24455"
+  },
+  "remaining_unresolved_accepted_in": "calendar_summary_layer_tools_20260929/layers/final_stack/15_TF29/design/qa_acceptance.json",
+  "backup": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\work\\adjudication\\backups\\august_independent_review_before_adjudication.json"
+ }
+}

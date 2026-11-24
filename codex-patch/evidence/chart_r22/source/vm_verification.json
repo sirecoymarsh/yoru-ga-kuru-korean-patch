@@ -1,0 +1,5926 @@
+{
+ "schema": "yoru-modmenu-r21.verify.v1",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "candidate_sha256": "af1026bb5ea14a2ae3daf048f118d5b3f63728af54ca2c0852bdc8ae7e07bddd",
+ "base_sha256": "3b9865a834db59afe8075564e41d6340317e2d7f52b512243d93b2e687b2ff34",
+ "counts": {
+  "S1_metadata": 1,
+  "S1_r22_forwarders": 6,
+  "S2_earlier_same_length_sites_kept": 19,
+  "S2_r22_same_length_sites": 2,
+  "S2_base_code_bytes": 12743376,
+  "S2_base_code_bytes_changed": 4,
+  "S3_text": 1,
+  "S6_pinned_bytes": 3916,
+  "S6_pinned_functions": 6,
+  "S7_sandbox_signature_equal_RunEvent": 1,
+  "S8_replay_ops_equal_ExecScene": 88,
+  "S8_r22_sites_checked": 2,
+  "S8_r21_sites_kept": 2,
+  "V37_exit_path_equals_game_exit_tail": 1,
+  "V37_functions_reachable_from_consumers": 227,
+  "V35_unlock_flag_callers": 1,
+  "S4_saves": 51,
+  "S4_frames": 1254,
+  "S4_frames_in_live_versions": 1220,
+  "S4_frames_in_KR_T9HomeCasual": 0,
+  "S4_frames_in_KR_T18RunSandboxed": 0,
+  "S4_frames_in_r22_forwarded": 0,
+  "S4_frames_in_title_owners": 0,
+  "S4_frames_in_r21_owners": 0,
+  "S5_active_functions": 30811,
+  "V1_cards": 155,
+  "V1_stages": 404,
+  "V1_drawers": 96,
+  "V1_scenes": 760,
+  "V1_events": 1164,
+  "V1_panel_outside": 121,
+  "V25_name_tables_equal_chart": 1319,
+  "V15_bars": 14762,
+  "V10_seen_states": 1,
+  "V21_texts_without_e_numbers": 71397,
+  "V2_bars_checked": 3903,
+  "V2_max_width_px": 1163,
+  "V2_dialogs": 10191,
+  "V22_items_unique_on_page": 13278,
+  "V2_max_height": 694,
+  "V2_max_title_lines": 11,
+  "V11_lane_titles": 292,
+  "V11_drawer_rows": 736,
+  "V11_month_drawer_pages": 52,
+  "V2_stage_lists": 140,
+  "V2_drawer_lists": 384,
+  "V11_memory_pages": 4,
+  "V11_summary_pages": 18,
+  "V13_summary_equals_panel": 18,
+  "V2_states": 4,
+  "V26_when_tokens": 2909,
+  "V24_affinity_on_pages": 32,
+  "V2_event_pages": 1164,
+  "V3_cells": 8327,
+  "V3_month_menus": 273,
+  "V11_year_sums": 20,
+  "V3_synthetic_mid_month_marks": 3,
+  "V4_navigation": 1,
+  "V5_play_from_window": 1,
+  "V6_play_from_settings": 1,
+  "V7_no_context": 1,
+  "V8_failsafe": 1,
+  "V9_original_dispatch": 1,
+  "V11_summary_from_month": 1,
+  "V12_tailed_rows": 28,
+  "V12_duplicate_rows_after": 0,
+  "V12_rows": 155,
+  "V13_panel_states": 5,
+  "V16_locked_unseen": 2726,
+  "V16_card_refusals": 244,
+  "V16_event_pages_answered": 3492,
+  "V16_open_pages": 3611,
+  "V16_card_requests": 221,
+  "V16_locked_other": 1229,
+  "V16_bundle_stages": 284,
+  "V16_memory_pages": 32,
+  "V16_states": 3,
+  "V17_sandbox_runs": 4,
+  "V17_state_keys_compared": 64,
+  "V18_mid_replay_load_no_temp": 1,
+  "V18_mid_replay_load_temp_left": 1,
+  "V19_save_failure": 2,
+  "V20_casual_site_lock": 1,
+  "V14_saves": 14,
+  "V14_native_panel_equal": 14,
+  "V14_native_summary_equal": 14,
+  "V14_saves_with_all_three": 5,
+  "V24_card_pages": 17,
+  "V24_lane_rows": 13,
+  "V24_lane_rows_full": 13,
+  "V24_scene_pages": 28,
+  "V24_affinity_events": 28,
+  "V23_rule_6": 404,
+  "V23_rule_5": 242,
+  "V23_rule_8": 29,
+  "V23_rule_7": 75,
+  "V23_rule_1": 88,
+  "V23_rule_3": 28,
+  "V23_rule_4": 17,
+  "V23_rule_2": 284,
+  "V27_walk_pairs_checked": 343,
+  "V27_person_states": 49,
+  "V27_calendar_sums_equal": 7,
+  "V28_months_checked": 8,
+  "V28_persons_whose_value_changes": 7,
+  "V29_texts": 56,
+  "V29_labels": 49,
+  "V29_widest_line_px": 300.0,
+  "V30_status_page_steps": 1,
+  "V30_parts_on_page4": 2,
+  "V31_hover_states": 4,
+  "V31_parts_per_entry": 12,
+  "V31_labels": 6,
+  "V27_real_saves": 14,
+  "V27_real_texts_equal": 210,
+  "V32_training_is_points": 1,
+  "V33_places_checked": 6,
+  "V34_commands": 10,
+  "V34_unknown_ignored": 5,
+  "V39_file_calls_per_armed_frame": 2,
+  "V35_flag_saved_and_reloaded": 3,
+  "V35_failed_write_reported": 1,
+  "V36_no_does_nothing": 4,
+  "V36_yes_schedules_and_exits": 2,
+  "V36_write_failures_safe": 4,
+  "V38_results_shown": 16,
+  "V38_result_before_request": 1,
+  "V39_dialogs_outside_home_not_polled": 3,
+  "V39_own_windows_not_polled": 1,
+  "V39_undeletable_stops_polling": 1,
+  "V39_arm_disarm_paths": 7,
+  "V40_r21_windows_checked": 26,
+  "V41_cells": 915,
+  "V41_events": 1164,
+  "V41_thumbnail_cells": 95,
+  "V41_small_cells": 820,
+  "V41_per_tab": [
+   143,
+   116,
+   203,
+   56,
+   64,
+   58,
+   91,
+   71,
+   85,
+   28
+  ],
+  "V41_not_playable_events": 1,
+  "V42_cells_drawn": 3780,
+  "V43_locked_cells": 1409,
+  "V42_pages": 330,
+  "V43_states": 4,
+  "V42_thumbnails": 271,
+  "V43_open_cells": 2371,
+  "V43_registration_ignored": 1,
+  "V43_locked_click_notice": 1,
+  "V44_replays_ctx1": 1,
+  "V44_replays_ctx2": 1,
+  "V44_card_stage_paths": 1,
+  "V46_ways_out": 3,
+  "V45_calendar_equal_r21": 126,
+  "V45_calendar_equal_r21_stale_flag": 126,
+  "V47_title_idle": 1,
+  "V47_title_commands": 5,
+  "V47_title_reset_exit": 1,
+  "V47_result_before_request": 1,
+  "V47_undeletable_stops": 1,
+  "V48_not_playable_real": 1,
+  "V48_page_and_request": 1,
+  "V48_cells_with_note": 1
+ },
+ "vm_steps": 179512709,
+ "widest_title": "†xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+ "widest_title_len": 39,
+ "widest_item": "10/11 아침 ● 갈래 · 이즈미 친밀도 50 미만 이즈미와 1",
+ "widest_item_len": 36,
+ "widest_drawer_row": "호시카와 · 특훈 뒤 대화 10/10 ■■■■■",
+ "widest_drawer_row_len": 26,
+ "widest_drawer_row_units": 20.5,
+ "seconds": 219.3,
+ "saves_checked": 51,
+ "frames_checked": 1254,
+ "panel": {
+  "same_computation_as_KR_T8HomeRateText": true,
+  "only_difference_label": [
+   "\n전체 이벤트　",
+   "\n전체　　"
+  ],
+  "panel_denominator": 1043,
+  "panel_percent": "KR_T8Pct (0.1% floored)",
+  "calendar_events": 1164,
+  "panel_outside": 121,
+  "panel_outside_breakdown": {
+   "회상 재생본": 85,
+   "던전 레인": 8,
+   "게임에서 부르지 않는 장면": 28
+  },
+  "dungeon_lane_outside": [
+   "E00996",
+   "E05000",
+   "E06001",
+   "E10523",
+   "E20523",
+   "E30523",
+   "E40523",
+   "E50007"
+  ],
+  "states": [
+   {
+    "state": "none",
+    "panel": "0/1043 0.0%",
+    "summary_first_line": "달성도　전체 □□□□□□□□□□ 0/1043 (0.0%)"
+   },
+   {
+    "state": "partial",
+    "panel": "548/1043 52.5%",
+    "summary_first_line": "달성도　전체 ■■■■■□□□□□ 548/1043 (52.5%)"
+   },
+   {
+    "state": "all",
+    "panel": "1043/1043 100.0%",
+    "summary_first_line": "달성도　전체 ■■■■■■■■■■ 1043/1043 (100.0%)"
+   },
+   {
+    "state": "all_but_one",
+    "panel": "1042/1043 99.9%",
+    "summary_first_line": "달성도　전체 ■■■■■■■■■□ 1042/1043 (99.9%)"
+   },
+   {
+    "state": "mid-August",
+    "panel": "180/1043 17.2%",
+    "summary_first_line": "달성도　전체 ■■□□□□□□□□ 180/1043 (17.2%)"
+   }
+  ]
+ },
+ "sandbox": {
+  "variants": [
+   {
+    "variant": {
+     "vars_in_save": true
+    },
+    "calls": [
+     "LSys3xScript::Prepare",
+     "gamesave::detail::セーブ実行",
+     "LSys3xScript::RunEvent",
+     "gamesave::detail::ロード実行",
+     "post_load",
+     "■ＡＤＶ消し"
+    ],
+    "allowed": {
+     "flags_added": [
+      987654
+     ],
+     "files_removed": [],
+     "can_return": [
+      0,
+      0
+     ],
+     "vars": []
+    }
+   },
+   {
+    "variant": {
+     "vars_in_save": false
+    },
+    "calls": [
+     "LSys3xScript::Prepare",
+     "gamesave::detail::セーブ実行",
+     "LSys3xScript::RunEvent",
+     "gamesave::detail::ロード実行",
+     "post_load",
+     "■ＡＤＶ消し"
+    ],
+    "allowed": {
+     "flags_added": [
+      987654
+     ],
+     "files_removed": [],
+     "can_return": [
+      0,
+      0
+     ],
+     "vars": [
+      "YoruKR.T8.TalkAuto"
+     ]
+    }
+   },
+   {
+    "variant": {
+     "vars_in_save": true,
+     "can_return": 1,
+     "back_select": true
+    },
+    "calls": [
+     "LSys3xScript::Prepare",
+     "gamesave::detail::セーブ実行",
+     "LSys3xScript::RunEvent",
+     "gamesave::detail::ロード実行",
+     "post_load",
+     "■ＡＤＶ消し"
+    ],
+    "allowed": {
+     "flags_added": [
+      987654
+     ],
+     "files_removed": [
+      "NightRBackSelect1.asd",
+      "NightRBackSelect1.vsf"
+     ],
+     "can_return": [
+      1,
+      0
+     ],
+     "vars": []
+    }
+   },
+   {
+    "variant": {
+     "vars_in_save": false,
+     "stale_temp": true
+    },
+    "calls": [
+     "LSys3xScript::Prepare",
+     "gamesave::detail::セーブ実行",
+     "LSys3xScript::RunEvent",
+     "gamesave::detail::ロード実行",
+     "post_load",
+     "■ＡＤＶ消し"
+    ],
+    "allowed": {
+     "flags_added": [
+      987654
+     ],
+     "files_removed": [
+      "NightRKRReplay.asd",
+      "NightRKRReplay.vsf"
+     ],
+     "can_return": [
+      0,
+      0
+     ],
+     "vars": [
+      "YoruKR.T8.TalkAuto"
+     ]
+    }
+   }
+  ],
+  "temp_file": "NightRKRReplay.asd",
+  "temp_info_file": "NightRKRReplay.vsf"
+ },
+ "real_saves": {
+  "saves": [
+   {
+    "save": "NightR07.asd",
+    "at": "wait",
+    "today": "4/22",
+    "now": 4,
+    "registered": 17,
+    "marks_by_month": {
+     "4": "○●",
+     "5": "●",
+     "6": "●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 □□□□□□□□□□ 16/1043 (1.5%)",
+    "panel": "16/1043 1.5%",
+    "native": {
+     "panel_value": "1.5%",
+     "panel_count": 16,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR12.asd",
+    "at": "home",
+    "today": "5/13",
+    "now": 5,
+    "registered": 32,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○●",
+     "6": "●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 □□□□□□□□□□ 31/1043 (2.9%)",
+    "panel": "31/1043 2.9%",
+    "native": {
+     "panel_value": "2.9%",
+     "panel_count": 31,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR16.asd",
+    "at": "home",
+    "today": "5/20",
+    "now": 5,
+    "registered": 56,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○●",
+     "6": "●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 55/1043 (5.2%)",
+    "panel": "55/1043 5.2%",
+    "native": {
+     "panel_value": "5.2%",
+     "panel_count": 55,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR18.asd",
+    "at": "home",
+    "today": "5/27",
+    "now": 5,
+    "registered": 59,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○●",
+     "6": "●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 58/1043 (5.5%)",
+    "panel": "58/1043 5.5%",
+    "native": {
+     "panel_value": "5.5%",
+     "panel_count": 58,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR23.asd",
+    "at": "wait",
+    "today": "6/10",
+    "now": 6,
+    "registered": 69,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     6
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 68/1043 (6.5%)",
+    "panel": "68/1043 6.5%",
+    "native": {
+     "panel_value": "6.5%",
+     "panel_count": 68,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR24.asd",
+    "at": "wait",
+    "today": "6/10",
+    "now": 6,
+    "registered": 69,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○●",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     6
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 68/1043 (6.5%)",
+    "panel": "68/1043 6.5%",
+    "native": {
+     "panel_value": "6.5%",
+     "panel_count": 68,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR26.asd",
+    "at": "home",
+    "today": "7/1",
+    "now": 7,
+    "registered": 97,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "●",
+     "8": "●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 96/1043 (9.2%)",
+    "panel": "96/1043 9.2%",
+    "native": {
+     "panel_value": "9.2%",
+     "panel_count": 96,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR31.asd",
+    "at": "home",
+    "today": "8/19",
+    "now": 8,
+    "registered": 136,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     8
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 135/1043 (12.9%)",
+    "panel": "135/1043 12.9%",
+    "native": {
+     "panel_value": "12.9%",
+     "panel_count": 135,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR33.asd",
+    "at": "home",
+    "today": "8/26",
+    "now": 8,
+    "registered": 139,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○●",
+     "9": "●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     8
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 138/1043 (13.2%)",
+    "panel": "138/1043 13.2%",
+    "native": {
+     "panel_value": "13.2%",
+     "panel_count": 138,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR37.asd",
+    "at": "home",
+    "today": "9/16",
+    "now": 9,
+    "registered": 154,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     9
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 153/1043 (14.6%)",
+    "panel": "153/1043 14.6%",
+    "native": {
+     "panel_value": "14.6%",
+     "panel_count": 153,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR38.asd",
+    "at": "home",
+    "today": "9/16",
+    "now": 9,
+    "registered": 154,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○●",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     9
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■□□□□□□□□□ 153/1043 (14.6%)",
+    "panel": "153/1043 14.6%",
+    "native": {
+     "panel_value": "14.6%",
+     "panel_count": 153,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR41.asd",
+    "at": "home",
+    "today": "9/30",
+    "now": 9,
+    "registered": 167,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○",
+     "10": "●",
+     "11": "●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■■□□□□□□□□ 166/1043 (15.9%)",
+    "panel": "166/1043 15.9%",
+    "native": {
+     "panel_value": "15.9%",
+     "panel_count": 166,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR44.asd",
+    "at": "home",
+    "today": "10/14",
+    "now": 10,
+    "registered": 183,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○",
+     "10": "▲○●",
+     "11": "●"
+    },
+    "months_with_all_three": [
+     10
+    ],
+    "current_month_has_all_three": true,
+    "summary_first_line": "달성도　전체 ■■□□□□□□□□ 182/1043 (17.4%)",
+    "panel": "182/1043 17.4%",
+    "native": {
+     "panel_value": "17.4%",
+     "panel_count": 182,
+     "summary_equal_vm": true
+    }
+   },
+   {
+    "save": "NightR47.asd",
+    "at": "home",
+    "today": "11/4",
+    "now": 11,
+    "registered": 207,
+    "marks_by_month": {
+     "4": "○",
+     "5": "○",
+     "6": "▲○",
+     "7": "○",
+     "8": "▲○",
+     "9": "▲○",
+     "10": "▲○",
+     "11": "▲●"
+    },
+    "months_with_all_three": [],
+    "current_month_has_all_three": false,
+    "summary_first_line": "달성도　전체 ■■□□□□□□□□ 206/1043 (19.7%)",
+    "panel": "206/1043 19.7%",
+    "native": {
+     "panel_value": "19.7%",
+     "panel_count": 206,
+     "summary_equal_vm": true
+    }
+   }
+  ],
+  "pick": "NightR44.asd"
+ },
+ "name_rule_samples": {
+  "1": [
+   {
+    "event": "E00121",
+    "name": "4/9 아침 · 본편",
+    "data": "본편 카드 · 날짜 4/9 아침 · 단계 1"
+   },
+   {
+    "event": "E00001",
+    "name": "4/9 · 본편 · 장면 1",
+    "data": "본편 카드 · 날짜 4/9 · 단계 1"
+   },
+   {
+    "event": "E00002",
+    "name": "4/9 · 본편 · 쿄카와 1",
+    "data": "본편 카드 · 날짜 4/9 · 단계 1"
+   },
+   {
+    "event": "E02601",
+    "name": "4/11 아침 · 본편",
+    "data": "본편 카드 · 날짜 4/11 아침 · 단계 1"
+   },
+   {
+    "event": "E00008",
+    "name": "4/27 아침 · 본편",
+    "data": "본편 카드 · 날짜 4/27 아침 · 단계 1"
+   },
+   {
+    "event": "E00011",
+    "name": "5/4 아침 · 본편",
+    "data": "본편 카드 · 날짜 5/4 아침 · 단계 1"
+   },
+   {
+    "event": "E00013",
+    "name": "5/7 밤 · 본편",
+    "data": "본편 카드 · 날짜 5/7 밤 · 단계 1"
+   },
+   {
+    "event": "E00014",
+    "name": "5/8 아침 · 본편",
+    "data": "본편 카드 · 날짜 5/8 아침 · 단계 1"
+   },
+   {
+    "event": "E00015",
+    "name": "5/8 밤 · 본편",
+    "data": "본편 카드 · 날짜 5/8 밤 · 단계 1"
+   },
+   {
+    "event": "E00067",
+    "name": "5/11 밤 · 본편",
+    "data": "본편 카드 · 날짜 5/11 밤 · 단계 1"
+   },
+   {
+    "event": "E00016",
+    "name": "5/13 아침 · 본편 · 2단계",
+    "data": "본편 카드 · 날짜 5/13 아침 · 단계 2"
+   },
+   {
+    "event": "E00019",
+    "name": "5/14 아침 · 본편",
+    "data": "본편 카드 · 날짜 5/14 아침 · 단계 1"
+   },
+   {
+    "event": "E00021",
+    "name": "5/14 밤 · 본편",
+    "data": "본편 카드 · 날짜 5/14 밤 · 단계 1"
+   },
+   {
+    "event": "E00022",
+    "name": "5/15 · 본편 · 2단계",
+    "data": "본편 카드 · 날짜 5/15 · 단계 2"
+   },
+   {
+    "event": "E00065",
+    "name": "5/16 아침 · 본편",
+    "data": "본편 카드 · 날짜 5/16 아침 · 단계 1"
+   },
+   {
+    "event": "E00066",
+    "name": "5/16 밤 · 본편",
+    "data": "본편 카드 · 날짜 5/16 밤 · 단계 1"
+   },
+   {
+    "event": "E00068",
+    "name": "5/30 아침 · 본편",
+    "data": "본편 카드 · 날짜 5/30 아침 · 단계 1"
+   },
+   {
+    "event": "E02602",
+    "name": "6/4 아침 · 본편",
+    "data": "본편 카드 · 날짜 6/4 아침 · 단계 1"
+   },
+   {
+    "event": "E00069",
+    "name": "6/7 아침 · 본편 · 3단계",
+    "data": "본편 카드 · 날짜 6/7 아침 · 단계 3"
+   },
+   {
+    "event": "E00070",
+    "name": "6/7 밤 · 본편",
+    "data": "본편 카드 · 날짜 6/7 밤 · 단계 1"
+   },
+   {
+    "event": "E00071",
+    "name": "6/8 밤 · 본편",
+    "data": "본편 카드 · 날짜 6/8 밤 · 단계 1"
+   },
+   {
+    "event": "E00072",
+    "name": "6/11 밤 · 본편 · 2단계",
+    "data": "본편 카드 · 날짜 6/11 밤 · 단계 2"
+   },
+   {
+    "event": "E00074",
+    "name": "6/12 아침 · 본편",
+    "data": "본편 카드 · 날짜 6/12 아침 · 단계 1"
+   },
+   {
+    "event": "E00102",
+    "name": "6/13 아침 · 본편",
+    "data": "본편 카드 · 날짜 6/13 아침 · 단계 1"
+   },
+   {
+    "event": "E00103",
+    "name": "6/14 아침 · 본편",
+    "data": "본편 카드 · 날짜 6/14 아침 · 단계 1"
+   },
+   {
+    "event": "E00105",
+    "name": "6/14 밤 · 본편",
+    "data": "본편 카드 · 날짜 6/14 밤 · 단계 1"
+   },
+   {
+    "event": "E00100",
+    "name": "6/22 아침 · 본편",
+    "data": "본편 카드 · 날짜 6/22 아침 · 단계 1"
+   },
+   {
+    "event": "E00101",
+    "name": "6/22 밤 · 본편",
+    "data": "본편 카드 · 날짜 6/22 밤 · 단계 1"
+   },
+   {
+    "event": "E00104",
+    "name": "6/25 밤 · 본편 · 4단계",
+    "data": "본편 카드 · 날짜 6/25 밤 · 단계 4"
+   },
+   {
+    "event": "E00106",
+    "name": "6/27 아침 · 본편",
+    "data": "본편 카드 · 날짜 6/27 아침 · 단계 1"
+   },
+   {
+    "event": "E00107",
+    "name": "6/27 밤 · 본편",
+    "data": "본편 카드 · 날짜 6/27 밤 · 단계 1"
+   },
+   {
+    "event": "E00108",
+    "name": "6/28 밤 · 본편",
+    "data": "본편 카드 · 날짜 6/28 밤 · 단계 1"
+   },
+   {
+    "event": "E00112",
+    "name": "6/29 밤 · 본편",
+    "data": "본편 카드 · 날짜 6/29 밤 · 단계 1"
+   },
+   {
+    "event": "E00113",
+    "name": "7/2 아침 · 본편",
+    "data": "본편 카드 · 날짜 7/2 아침 · 단계 1"
+   },
+   {
+    "event": "E00151",
+    "name": "7/17 밤 · 본편",
+    "data": "본편 카드 · 날짜 7/17 밤 · 단계 1"
+   },
+   {
+    "event": "E00152",
+    "name": "7/19 아침 · 본편",
+    "data": "본편 카드 · 날짜 7/19 아침 · 단계 1"
+   },
+   {
+    "event": "E00153",
+    "name": "7/20 밤 · 본편",
+    "data": "본편 카드 · 날짜 7/20 밤 · 단계 1"
+   },
+   {
+    "event": "E00180",
+    "name": "7/23 · 본편",
+    "data": "본편 카드 · 날짜 7/23 · 단계 1"
+   },
+   {
+    "event": "E00183",
+    "name": "7/29 아침 · 본편",
+    "data": "본편 카드 · 날짜 7/29 아침 · 단계 1"
+   },
+   {
+    "event": "E00201",
+    "name": "8/13 아침 · 본편",
+    "data": "본편 카드 · 날짜 8/13 아침 · 단계 1"
+   },
+   {
+    "event": "E00241",
+    "name": "8/14 밤 · 본편",
+    "data": "본편 카드 · 날짜 8/14 밤 · 단계 1"
+   },
+   {
+    "event": "E00204",
+    "name": "8/22 아침 · 본편",
+    "data": "본편 카드 · 날짜 8/22 아침 · 단계 1"
+   },
+   {
+    "event": "E02603",
+    "name": "8/27 아침 · 본편",
+    "data": "본편 카드 · 날짜 8/27 아침 · 단계 1"
+   },
+   {
+    "event": "E00242",
+    "name": "8/28 아침 · 본편",
+    "data": "본편 카드 · 날짜 8/28 아침 · 단계 1"
+   },
+   {
+    "event": "E00251",
+    "name": "9/3 아침 · 본편",
+    "data": "본편 카드 · 날짜 9/3 아침 · 단계 1"
+   },
+   {
+    "event": "E00252",
+    "name": "9/5 아침 · 본편",
+    "data": "본편 카드 · 날짜 9/5 아침 · 단계 1"
+   },
+   {
+    "event": "E00255",
+    "name": "9/9 아침 · 본편",
+    "data": "본편 카드 · 날짜 9/9 아침 · 단계 1"
+   },
+   {
+    "event": "E00256",
+    "name": "9/10 아침 · 본편",
+    "data": "본편 카드 · 날짜 9/10 아침 · 단계 1"
+   },
+   {
+    "event": "E00257",
+    "name": "9/14 밤 · 본편",
+    "data": "본편 카드 · 날짜 9/14 밤 · 단계 1"
+   },
+   {
+    "event": "E00258",
+    "name": "9/15 아침 · 본편 · 3단계",
+    "data": "본편 카드 · 날짜 9/15 아침 · 단계 3"
+   },
+   {
+    "event": "E00259",
+    "name": "9/17 밤 · 본편",
+    "data": "본편 카드 · 날짜 9/17 밤 · 단계 1"
+   },
+   {
+    "event": "E00260",
+    "name": "9/18 밤 · 본편 · 3단계",
+    "data": "본편 카드 · 날짜 9/18 밤 · 단계 3"
+   },
+   {
+    "event": "E00265",
+    "name": "9/19 밤 · 본편",
+    "data": "본편 카드 · 날짜 9/19 밤 · 단계 1"
+   },
+   {
+    "event": "E00262",
+    "name": "9/20 밤 · 본편",
+    "data": "본편 카드 · 날짜 9/20 밤 · 단계 1"
+   },
+   {
+    "event": "E00264",
+    "name": "9/21 아침 · 본편",
+    "data": "본편 카드 · 날짜 9/21 아침 · 단계 1"
+   },
+   {
+    "event": "E00266",
+    "name": "9/21 밤 · 본편",
+    "data": "본편 카드 · 날짜 9/21 밤 · 단계 1"
+   },
+   {
+    "event": "E00261",
+    "name": "9/28 아침 · 본편",
+    "data": "본편 카드 · 날짜 9/28 아침 · 단계 1"
+   },
+   {
+    "event": "E00301",
+    "name": "10/1 아침 · 본편",
+    "data": "본편 카드 · 날짜 10/1 아침 · 단계 1"
+   },
+   {
+    "event": "E00302",
+    "name": "10/3 아침 · 본편",
+    "data": "본편 카드 · 날짜 10/3 아침 · 단계 1"
+   },
+   {
+    "event": "E00321",
+    "name": "10/12 아침 · 본편",
+    "data": "본편 카드 · 날짜 10/12 아침 · 단계 1"
+   },
+   {
+    "event": "E00322",
+    "name": "10/13 밤 · 본편 · 6단계",
+    "data": "본편 카드 · 날짜 10/13 밤 · 단계 6"
+   },
+   {
+    "event": "E00329",
+    "name": "10/14 밤 · 본편",
+    "data": "본편 카드 · 날짜 10/14 밤 · 단계 1"
+   },
+   {
+    "event": "E00401",
+    "name": "10/15 아침 · 본편",
+    "data": "본편 카드 · 날짜 10/15 아침 · 단계 1"
+   },
+   {
+    "event": "E00330",
+    "name": "10/15 밤 · 본편",
+    "data": "본편 카드 · 날짜 10/15 밤 · 단계 1"
+   },
+   {
+    "event": "E00402",
+    "name": "10/17 아침 · 본편 · 마나미와 1",
+    "data": "본편 카드 · 날짜 10/17 아침 · 단계 1"
+   },
+   {
+    "event": "E00451",
+    "name": "10/17 아침 · 본편 · 이즈미와 1",
+    "data": "본편 카드 · 날짜 10/17 아침 · 단계 1"
+   },
+   {
+    "event": "E00403",
+    "name": "10/18 아침 · 본편",
+    "data": "본편 카드 · 날짜 10/18 아침 · 단계 1"
+   },
+   {
+    "event": "E00331",
+    "name": "10/18 밤 · 본편",
+    "data": "본편 카드 · 날짜 10/18 밤 · 단계 1"
+   },
+   {
+    "event": "E00404",
+    "name": "10/21 · 본편 · 마나미와 1",
+    "data": "본편 카드 · 날짜 10/21 · 단계 1"
+   },
+   {
+    "event": "E00452",
+    "name": "10/21 · 본편 · 2단계",
+    "data": "본편 카드 · 날짜 10/21 · 단계 2"
+   },
+   {
+    "event": "E00525",
+    "name": "10/21 · 본편 · 모모세와 1",
+    "data": "본편 카드 · 날짜 10/21 · 단계 1"
+   },
+   {
+    "event": "E05024",
+    "name": "10/22 밤 · 본편 · 이즈미와 1",
+    "data": "본편 카드 · 날짜 10/22 밤 · 단계 1"
+   },
+   {
+    "event": "E05025",
+    "name": "10/22 밤 · 본편 · 이즈미와 2",
+    "data": "본편 카드 · 날짜 10/22 밤 · 단계 1"
+   },
+   {
+    "event": "E00603",
+    "name": "10/23 밤 · 본편",
+    "data": "본편 카드 · 날짜 10/23 밤 · 단계 1"
+   },
+   {
+    "event": "E05021",
+    "name": "10/25 밤 · 본편",
+    "data": "본편 카드 · 날짜 10/25 밤 · 단계 1"
+   },
+   {
+    "event": "E00604",
+    "name": "10/30 밤 · 본편",
+    "data": "본편 카드 · 날짜 10/30 밤 · 단계 1"
+   },
+   {
+    "event": "E00655",
+    "name": "11/9 아침 · 본편 · 신카이와 1",
+    "data": "본편 카드 · 날짜 11/9 아침 · 단계 1"
+   },
+   {
+    "event": "E00656",
+    "name": "11/9 아침 · 본편 · 신카이와 2",
+    "data": "본편 카드 · 날짜 11/9 아침 · 단계 1"
+   },
+   {
+    "event": "E00601",
+    "name": "11/10 밤 · 본편",
+    "data": "본편 카드 · 날짜 11/10 밤 · 단계 1"
+   },
+   {
+    "event": "E00602",
+    "name": "11/11 아침 · 본편 · 7단계",
+    "data": "본편 카드 · 날짜 11/11 아침 · 단계 7"
+   },
+   {
+    "event": "E00657",
+    "name": "11/13 아침 · 본편",
+    "data": "본편 카드 · 날짜 11/13 아침 · 단계 1"
+   },
+   {
+    "event": "E00901",
+    "name": "11/15 아침 · 본편 · 이즈미와 1",
+    "data": "본편 카드 · 날짜 11/15 아침 · 단계 1"
+   },
+   {
+    "event": "E05023",
+    "name": "11/15 아침 · 본편 · 장면 1",
+    "data": "본편 카드 · 날짜 11/15 아침 · 단계 1"
+   },
+   {
+    "event": "E00658",
+    "name": "11/16 밤 · 본편 · 2단계",
+    "data": "본편 카드 · 날짜 11/16 밤 · 단계 2"
+   },
+   {
+    "event": "E00652",
+    "name": "11/16 밤 · 본편 · 이즈미와 1",
+    "data": "본편 카드 · 날짜 11/16 밤 · 단계 1"
+   },
+   {
+    "event": "E00653",
+    "name": "11/16 밤 · 본편 · 쿄카와 1",
+    "data": "본편 카드 · 날짜 11/16 밤 · 단계 1"
+   },
+   {
+    "event": "E00654",
+    "name": "11/16 밤 · 본편 · 마나미와 1",
+    "data": "본편 카드 · 날짜 11/16 밤 · 단계 1"
+   },
+   {
+    "event": "E00903",
+    "name": "11/17 · 본편",
+    "data": "본편 카드 · 날짜 11/17 · 단계 1"
+   }
+  ],
+  "2": [
+   {
+    "event": "E00004",
+    "name": "1. 이즈미와",
+    "data": "G00004 1단계 · via - · 화자 이즈미/료"
+   },
+   {
+    "event": "E00005",
+    "name": "2. 이즈미와",
+    "data": "G00004 2단계 · via - · 화자 료/이즈미"
+   },
+   {
+    "event": "E00006",
+    "name": "3. 이즈미와",
+    "data": "G00004 3단계 · via - · 화자 료/이즈미/치로"
+   },
+   {
+    "event": "E00007",
+    "name": "4. 이즈미와",
+    "data": "G00004 4단계 · via - · 화자 이즈미/신카이/료"
+   },
+   {
+    "event": "E00016",
+    "name": "1. 마나미와",
+    "data": "G00016 1단계 · via - · 화자 목소리/마나미/료"
+   },
+   {
+    "event": "E00017",
+    "name": "2. 마나미와",
+    "data": "G00016 2단계 · via - · 화자 마나미/료/신카이"
+   },
+   {
+    "event": "E00022",
+    "name": "1. 이즈미와",
+    "data": "G00022 1단계 · via - · 화자 이즈미/료/신카이"
+   },
+   {
+    "event": "E00023",
+    "name": "2. 이즈미와",
+    "data": "G00022 2단계 · via - · 화자 이즈미/쿄카/치로"
+   },
+   {
+    "event": "E00024",
+    "name": "1. 쿄카와",
+    "data": "G00024 1단계 · via - · 화자 쿄카/료/신카이"
+   },
+   {
+    "event": "E00025",
+    "name": "2. 호시카와와",
+    "data": "G00024 2단계 · via - · 화자 호시카와/료/쿄카"
+   },
+   {
+    "event": "E00026",
+    "name": "3. 이즈미와",
+    "data": "G00024 3단계 · via - · 화자 이즈미/료/신카이"
+   },
+   {
+    "event": "E00027",
+    "name": "4. 이즈미와",
+    "data": "G00024 4단계 · via - · 화자 이즈미/료/호시카와"
+   },
+   {
+    "event": "E00028",
+    "name": "5. 쿄카와",
+    "data": "G00024 5단계 · via - · 화자 쿄카/이즈미/료"
+   },
+   {
+    "event": "E00029",
+    "name": "6. 신카이와",
+    "data": "G00024 6단계 · via - · 화자 신카이/료/호시카와"
+   },
+   {
+    "event": "E00030",
+    "name": "1. 신카이와",
+    "data": "G00030 1단계 · via - · 화자 료/신카이/쿄카"
+   },
+   {
+    "event": "E00031",
+    "name": "2. 쿄카와",
+    "data": "G00030 2단계 · via - · 화자 료/쿄카/호시카와"
+   },
+   {
+    "event": "E00032",
+    "name": "3. 이즈미와",
+    "data": "G00030 3단계 · via - · 화자 료/이즈미/신카이"
+   },
+   {
+    "event": "E00033",
+    "name": "4. 이즈미와",
+    "data": "G00030 4단계 · via - · 화자 료/이즈미/호시카와"
+   },
+   {
+    "event": "E00034",
+    "name": "5. 쿄카와",
+    "data": "G00030 5단계 · via - · 화자 료/쿄카/이즈미"
+   },
+   {
+    "event": "E00035",
+    "name": "6. 신카이와",
+    "data": "G00030 6단계 · via - · 화자 료/신카이/호시카와"
+   },
+   {
+    "event": "E00041",
+    "name": "1. 쿄카와",
+    "data": "G00041 1단계 · via - · 화자 쿄카/료/신카이"
+   },
+   {
+    "event": "E00042",
+    "name": "2. 쿄카와",
+    "data": "G00041 2단계 · via - · 화자 쿄카/료/호시카와"
+   },
+   {
+    "event": "E00043",
+    "name": "3. 이즈미와",
+    "data": "G00041 3단계 · via - · 화자 이즈미/료/신카이"
+   },
+   {
+    "event": "E00044",
+    "name": "4. 이즈미와",
+    "data": "G00041 4단계 · via - · 화자 이즈미/료/호시카와"
+   },
+   {
+    "event": "E00045",
+    "name": "5. 이즈미와",
+    "data": "G00041 5단계 · via - · 화자 이즈미/료/쿄카"
+   },
+   {
+    "event": "E00046",
+    "name": "6. 호시카와와",
+    "data": "G00041 6단계 · via - · 화자 호시카와/료/신카이"
+   },
+   {
+    "event": "E00047",
+    "name": "7. 신카이와",
+    "data": "G00041 7단계 · via - · 화자 히카리/신카이/쿄카"
+   },
+   {
+    "event": "E00048",
+    "name": "8. 호시카와와",
+    "data": "G00041 8단계 · via - · 화자 히카리/호시카와/쿄카"
+   },
+   {
+    "event": "E00049",
+    "name": "9. 신카이와",
+    "data": "G00041 9단계 · via - · 화자 히카리/신카이/이즈미"
+   },
+   {
+    "event": "E00050",
+    "name": "10. 호시카와와",
+    "data": "G00041 10단계 · via - · 화자 히카리/호시카와/이즈미"
+   },
+   {
+    "event": "E00051",
+    "name": "11. 이즈미와",
+    "data": "G00041 11단계 · via - · 화자 히카리/이즈미/료"
+   },
+   {
+    "event": "E00052",
+    "name": "12. 신카이와",
+    "data": "G00041 12단계 · via - · 화자 히카리/신카이/호시카와"
+   },
+   {
+    "event": "E00054",
+    "name": "13. 사건 2",
+    "data": "G00041 13단계 · via - · 화자 료/목소리"
+   },
+   {
+    "event": "E00056",
+    "name": "14. 마나미와",
+    "data": "G00041 14단계 · via - · 화자 료/목소리/마나미"
+   },
+   {
+    "event": "E00057",
+    "name": "15. 마나미와",
+    "data": "G00041 15단계 · via - · 화자 마나미/료"
+   },
+   {
+    "event": "E00058",
+    "name": "16. 마나미와",
+    "data": "G00041 16단계 · via - · 화자 마나미/료"
+   },
+   {
+    "event": "E00801",
+    "name": "17. 갈래 1 마나미와",
+    "data": "G00041 17단계 · via 1 · 화자 료/마나미"
+   },
+   {
+    "event": "E00059",
+    "name": "18. 마나미와",
+    "data": "G00041 18단계 · via - · 화자 마나미/료/목소리"
+   },
+   {
+    "event": "E00060",
+    "name": "19. 마나미와",
+    "data": "G00041 19단계 · via - · 화자 료/마나미/히카리"
+   },
+   {
+    "event": "E00802",
+    "name": "20. 갈래 2 마나미와",
+    "data": "G00041 20단계 · via 2 · 화자 료/마나미"
+   }
+  ],
+  "3": [
+   {
+    "event": "E00001",
+    "name": "장면 1",
+    "data": "겹치는 카드 2장 · 화자 료/인영/여학생"
+   },
+   {
+    "event": "E00002",
+    "name": "쿄카와 1",
+    "data": "겹치는 카드 2장 · 화자 료/쿄카/이즈미"
+   },
+   {
+    "event": "E00402",
+    "name": "마나미와 1",
+    "data": "겹치는 카드 2장 · 화자 마나미/료"
+   },
+   {
+    "event": "E00451",
+    "name": "이즈미와 1",
+    "data": "겹치는 카드 2장 · 화자 이즈미/료/마나미"
+   },
+   {
+    "event": "E00404",
+    "name": "마나미와 1",
+    "data": "겹치는 카드 2장 · 화자 료/할머니/마나미"
+   },
+   {
+    "event": "E00525",
+    "name": "모모세와 1",
+    "data": "겹치는 카드 2장 · 화자 모모세/호시카와/쿄카"
+   },
+   {
+    "event": "E05024",
+    "name": "이즈미와 1",
+    "data": "겹치는 카드 2장 · 화자 료/이즈미/쿄카"
+   },
+   {
+    "event": "E05025",
+    "name": "이즈미와 2",
+    "data": "겹치는 카드 2장 · 화자 료/이즈미/쿄카"
+   },
+   {
+    "event": "E30157",
+    "name": "이즈미와 1",
+    "data": "겹치는 카드 8장 · 화자 이즈미/료"
+   },
+   {
+    "event": "E30158",
+    "name": "이즈미와 2",
+    "data": "겹치는 카드 8장 · 화자 이즈미/료"
+   },
+   {
+    "event": "E30159",
+    "name": "쿄카와 1",
+    "data": "겹치는 카드 8장 · 화자 료/쿄카"
+   },
+   {
+    "event": "E30160",
+    "name": "쿄카와 2",
+    "data": "겹치는 카드 8장 · 화자 료/쿄카"
+   },
+   {
+    "event": "E30161",
+    "name": "마나미와 1",
+    "data": "겹치는 카드 8장 · 화자 마나미/료"
+   },
+   {
+    "event": "E30162",
+    "name": "마나미와 2",
+    "data": "겹치는 카드 8장 · 화자 마나미/료"
+   },
+   {
+    "event": "E30163",
+    "name": "마코토와 1",
+    "data": "겹치는 카드 8장 · 화자 료/마코토"
+   },
+   {
+    "event": "E30164",
+    "name": "마코토와 2",
+    "data": "겹치는 카드 8장 · 화자 료/마코토"
+   },
+   {
+    "event": "E00655",
+    "name": "신카이와 1",
+    "data": "겹치는 카드 2장 · 화자 료/목소리/신카이"
+   },
+   {
+    "event": "E00656",
+    "name": "신카이와 2",
+    "data": "겹치는 카드 2장 · 화자 료/목소리/신카이"
+   },
+   {
+    "event": "E00901",
+    "name": "이즈미와 1",
+    "data": "겹치는 카드 2장 · 화자 료/목소리/괴물"
+   },
+   {
+    "event": "E05023",
+    "name": "장면 1",
+    "data": "겹치는 카드 2장 · 화자 료/여자"
+   },
+   {
+    "event": "E00652",
+    "name": "이즈미와 1",
+    "data": "겹치는 카드 3장 · 화자 료/이즈미"
+   },
+   {
+    "event": "E00653",
+    "name": "쿄카와 1",
+    "data": "겹치는 카드 3장 · 화자 료/쿄카/이즈미"
+   },
+   {
+    "event": "E00654",
+    "name": "마나미와 1",
+    "data": "겹치는 카드 3장 · 화자 료/마나미"
+   },
+   {
+    "event": "E10181",
+    "name": "혼자 1",
+    "data": "겹치는 카드 3장 · 화자 료"
+   },
+   {
+    "event": "E10182",
+    "name": "모모세와 1",
+    "data": "겹치는 카드 3장 · 화자 료/모모세/이즈미"
+   },
+   {
+    "event": "E10183",
+    "name": "혼자 2",
+    "data": "겹치는 카드 3장 · 화자 료"
+   },
+   {
+    "event": "E10201",
+    "name": "모모세와 1",
+    "data": "겹치는 카드 2장 · 화자 료/모모세/이즈미"
+   },
+   {
+    "event": "E10202",
+    "name": "장면 1",
+    "data": "겹치는 카드 2장 · 화자 료/목소리/여학생"
+   }
+  ],
+  "4": [
+   {
+    "event": "E00004",
+    "name": "4월 중 · 던전 · 공원 · 사건 1 · 4단계",
+    "data": "C_EventDungeon0101@RunEventB1 → 공원 · 사건 1"
+   },
+   {
+    "event": "E00024",
+    "name": "5월 중 · 던전 · 백화점 동관 1층 · 출구 · 6단계",
+    "data": "C_EventDungeon0201@RunEventExit → 백화점 동관 1층 · 출구"
+   },
+   {
+    "event": "E00030",
+    "name": "5월 중 · 던전 · 백화점 동관 2층 · 사건 1 · 6단계",
+    "data": "C_EventDungeon0202@RunEventB1 → 백화점 동관 2층 · 사건 1"
+   },
+   {
+    "event": "E00041",
+    "name": "5월 중 · 던전 · 백화점 서관 2층 · 사건 1 · 21단계",
+    "data": "C_EventDungeon0203@RunEventB1 → 백화점 서관 2층 · 사건 1"
+   },
+   {
+    "event": "E00063",
+    "name": "5월 중 · 던전 · 백화점 서관 2층 · 사건 1 · 4단계",
+    "data": "C_EventDungeon0204@RunEventB1 → 백화점 서관 2층 · 사건 1"
+   },
+   {
+    "event": "E00075",
+    "name": "6월 중 · 던전 · 학교 1층 · 사건 1",
+    "data": "C_EventDungeon0301@RunEventB1 → 학교 1층 · 사건 1"
+   },
+   {
+    "event": "E00076",
+    "name": "6월 중 · 던전 · 학교 2층 · 보스 · 9단계",
+    "data": "C_EventDungeon0302@RunEventR1 → 학교 2층 · 보스"
+   },
+   {
+    "event": "E00085",
+    "name": "6월 중 · 던전 · 학교 3층 · 보스 · 16단계",
+    "data": "C_EventDungeon0303@RunEventR1 → 학교 3층 · 보스"
+   },
+   {
+    "event": "E00154",
+    "name": "7월 중 · 던전 · 수수께끼의 틈 1 · 입구 · 49단계",
+    "data": "C_EventDungeon0401@RunEventEntrance → 수수께끼의 틈 1 · 입구"
+   },
+   {
+    "event": "E00181",
+    "name": "7월 중 · 던전 · 수수께끼의 틈 5 · 2단계",
+    "data": "C_EventDungeon0405@RunEventR → 수수께끼의 틈 5 · (없음)"
+   },
+   {
+    "event": "E20167",
+    "name": "8월 중 · 던전 · 공원 · 입구",
+    "data": "C_EventDungeon0502@RunEventEntrance → 공원 · 입구"
+   },
+   {
+    "event": "E00522",
+    "name": "10월 중 · 던전 · 서양관 내부　틈 1 · 입구 · 11단계",
+    "data": "C_EventDungeon0601@RunEventEntrance → 서양관 내부　틈 1 · 입구"
+   },
+   {
+    "event": "E00512",
+    "name": "10월 중 · 던전 · 서양관 내부　틈 3 · 사건 1 · 10단계",
+    "data": "C_EventDungeon0603@RunEventB1 → 서양관 내부　틈 3 · 사건 1"
+   },
+   {
+    "event": "E00523",
+    "name": "10월 중 · 던전 · 서양관 내부　틈 5 · 보스 · 7단계",
+    "data": "C_EventDungeon0605@RunEventR1 → 서양관 내부　틈 5 · 보스"
+   },
+   {
+    "event": "E00905",
+    "name": "11월 중 · 던전 · 뉴타운 · 사건 · 15단계",
+    "data": "C_EventDungeon0700@RunEventB → 뉴타운 · 사건"
+   },
+   {
+    "event": "E00913",
+    "name": "11월 중 · 던전 · 학교 1층 · 40단계",
+    "data": "C_EventDungeon0800@RunEventR → 학교 1층 · (없음)"
+   },
+   {
+    "event": "E50009",
+    "name": "11월 중 · 던전 · 센터 빌딩 1층 · 입구 · 21단계",
+    "data": "C_EventDungeon0900@RunEventEntrance → 센터 빌딩 1층 · 입구"
+   }
+  ],
+  "5": [
+   {
+    "event": "E02001",
+    "name": "쿄카와 1번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02002",
+    "name": "쿄카와 2번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02003",
+    "name": "쿄카와 3번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02004",
+    "name": "쿄카와 4번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02005",
+    "name": "쿄카와 5번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02006",
+    "name": "쿄카와 6번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02007",
+    "name": "쿄카와 7번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02008",
+    "name": "쿄카와 8번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02009",
+    "name": "쿄카와 9번째",
+    "data": "person 2 · person2 3 · 레인 이즈미 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02061",
+    "name": "신카이와 1번째",
+    "data": "person 2 · person2 6 · 레인 이즈미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02062",
+    "name": "신카이와 2번째",
+    "data": "person 2 · person2 6 · 레인 이즈미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02063",
+    "name": "신카이와 3번째",
+    "data": "person 2 · person2 6 · 레인 이즈미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02064",
+    "name": "신카이와 4번째",
+    "data": "person 2 · person2 6 · 레인 이즈미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02065",
+    "name": "신카이와 5번째",
+    "data": "person 2 · person2 6 · 레인 이즈미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02066",
+    "name": "신카이와 6번째",
+    "data": "person 2 · person2 6 · 레인 이즈미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02067",
+    "name": "신카이와 7번째",
+    "data": "person 2 · person2 6 · 레인 이즈미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02081",
+    "name": "호시카와와 1번째",
+    "data": "person 2 · person2 7 · 레인 이즈미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02082",
+    "name": "호시카와와 2번째",
+    "data": "person 2 · person2 7 · 레인 이즈미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02083",
+    "name": "호시카와와 3번째",
+    "data": "person 2 · person2 7 · 레인 이즈미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02084",
+    "name": "호시카와와 4번째",
+    "data": "person 2 · person2 7 · 레인 이즈미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02085",
+    "name": "호시카와와 5번째",
+    "data": "person 2 · person2 7 · 레인 이즈미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02086",
+    "name": "호시카와와 6번째",
+    "data": "person 2 · person2 7 · 레인 이즈미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02087",
+    "name": "호시카와와 7번째",
+    "data": "person 2 · person2 7 · 레인 이즈미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02421",
+    "name": "단둘이 1번째",
+    "data": "person 2 · person2 None · 레인 이즈미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02422",
+    "name": "단둘이 2번째",
+    "data": "person 2 · person2 None · 레인 이즈미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02423",
+    "name": "단둘이 3번째",
+    "data": "person 2 · person2 None · 레인 이즈미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02424",
+    "name": "단둘이 4번째",
+    "data": "person 2 · person2 None · 레인 이즈미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02425",
+    "name": "단둘이 5번째",
+    "data": "person 2 · person2 None · 레인 이즈미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E05001",
+    "name": "단둘이 6번째",
+    "data": "person 2 · person2 None · 레인 이즈미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02161",
+    "name": "신카이와 1번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02162",
+    "name": "신카이와 2번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02163",
+    "name": "신카이와 3번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02164",
+    "name": "신카이와 4번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02165",
+    "name": "신카이와 5번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02166",
+    "name": "신카이와 6번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02167",
+    "name": "신카이와 7번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02168",
+    "name": "신카이와 8번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02169",
+    "name": "신카이와 9번째",
+    "data": "person 3 · person2 6 · 레인 쿄카 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02181",
+    "name": "호시카와와 1번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02182",
+    "name": "호시카와와 2번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02183",
+    "name": "호시카와와 3번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02184",
+    "name": "호시카와와 4번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02185",
+    "name": "호시카와와 5번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02186",
+    "name": "호시카와와 6번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02187",
+    "name": "호시카와와 7번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02188",
+    "name": "호시카와와 8번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02189",
+    "name": "호시카와와 9번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02190",
+    "name": "호시카와와 10번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02191",
+    "name": "호시카와와 11번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 11번째"
+   },
+   {
+    "event": "E02192",
+    "name": "호시카와와 12번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 12번째"
+   },
+   {
+    "event": "E02193",
+    "name": "호시카와와 13번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 13번째"
+   },
+   {
+    "event": "E02194",
+    "name": "호시카와와 14번째",
+    "data": "person 3 · person2 7 · 레인 쿄카 · 같은 짝 안 14번째"
+   },
+   {
+    "event": "E02441",
+    "name": "단둘이 1번째",
+    "data": "person 3 · person2 None · 레인 쿄카 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02442",
+    "name": "단둘이 2번째",
+    "data": "person 3 · person2 None · 레인 쿄카 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02443",
+    "name": "단둘이 3번째",
+    "data": "person 3 · person2 None · 레인 쿄카 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02444",
+    "name": "단둘이 4번째",
+    "data": "person 3 · person2 None · 레인 쿄카 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02445",
+    "name": "단둘이 5번째",
+    "data": "person 3 · person2 None · 레인 쿄카 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E05002",
+    "name": "단둘이 6번째",
+    "data": "person 3 · person2 None · 레인 쿄카 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02361",
+    "name": "호시카와와 1번째",
+    "data": "person 6 · person2 7 · 레인 신카이 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02362",
+    "name": "호시카와와 2번째",
+    "data": "person 6 · person2 7 · 레인 신카이 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02363",
+    "name": "호시카와와 3번째",
+    "data": "person 6 · person2 7 · 레인 신카이 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02364",
+    "name": "호시카와와 4번째",
+    "data": "person 6 · person2 7 · 레인 신카이 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02365",
+    "name": "호시카와와 5번째",
+    "data": "person 6 · person2 7 · 레인 신카이 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02366",
+    "name": "호시카와와 6번째",
+    "data": "person 6 · person2 7 · 레인 신카이 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02367",
+    "name": "호시카와와 7번째",
+    "data": "person 6 · person2 7 · 레인 신카이 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02368",
+    "name": "호시카와와 8번째",
+    "data": "person 6 · person2 7 · 레인 신카이 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02501",
+    "name": "단둘이 1번째",
+    "data": "person 6 · person2 None · 레인 신카이 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02502",
+    "name": "단둘이 2번째",
+    "data": "person 6 · person2 None · 레인 신카이 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02503",
+    "name": "단둘이 3번째",
+    "data": "person 6 · person2 None · 레인 신카이 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02504",
+    "name": "단둘이 4번째",
+    "data": "person 6 · person2 None · 레인 신카이 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02505",
+    "name": "단둘이 5번째",
+    "data": "person 6 · person2 None · 레인 신카이 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E05003",
+    "name": "단둘이 6번째",
+    "data": "person 6 · person2 None · 레인 신카이 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02521",
+    "name": "단둘이 1번째",
+    "data": "person 7 · person2 None · 레인 호시카와 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02522",
+    "name": "단둘이 2번째",
+    "data": "person 7 · person2 None · 레인 호시카와 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02523",
+    "name": "단둘이 3번째",
+    "data": "person 7 · person2 None · 레인 호시카와 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02524",
+    "name": "단둘이 4번째",
+    "data": "person 7 · person2 None · 레인 호시카와 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02525",
+    "name": "단둘이 5번째",
+    "data": "person 7 · person2 None · 레인 호시카와 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E05004",
+    "name": "단둘이 6번째",
+    "data": "person 7 · person2 None · 레인 호시카와 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E05000",
+    "name": "혼자 1번째",
+    "data": "person 1 · person2 None · 레인 던전 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02021",
+    "name": "마나미와 1번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02022",
+    "name": "마나미와 2번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02023",
+    "name": "마나미와 3번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02024",
+    "name": "마나미와 4번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02025",
+    "name": "마나미와 5번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02026",
+    "name": "마나미와 6번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02027",
+    "name": "마나미와 7번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02028",
+    "name": "마나미와 8번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02029",
+    "name": "마나미와 9번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02030",
+    "name": "마나미와 10번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02031",
+    "name": "마나미와 11번째",
+    "data": "person 2 · person2 4 · 레인 이즈미 · 같은 짝 안 11번째"
+   },
+   {
+    "event": "E02121",
+    "name": "마나미와 1번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02122",
+    "name": "마나미와 2번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02123",
+    "name": "마나미와 3번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02124",
+    "name": "마나미와 4번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02125",
+    "name": "마나미와 5번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02126",
+    "name": "마나미와 6번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02129",
+    "name": "마나미와 7번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02130",
+    "name": "마나미와 8번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02131",
+    "name": "마나미와 9번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02132",
+    "name": "마나미와 10번째",
+    "data": "person 3 · person2 4 · 레인 쿄카 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02241",
+    "name": "신카이와 1번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02242",
+    "name": "신카이와 2번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02243",
+    "name": "신카이와 3번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02244",
+    "name": "신카이와 4번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02245",
+    "name": "신카이와 5번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02246",
+    "name": "신카이와 6번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02247",
+    "name": "신카이와 7번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02248",
+    "name": "신카이와 8번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02249",
+    "name": "신카이와 9번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02250",
+    "name": "신카이와 10번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02251",
+    "name": "신카이와 11번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 11번째"
+   },
+   {
+    "event": "E02252",
+    "name": "신카이와 12번째",
+    "data": "person 4 · person2 6 · 레인 마나미 · 같은 짝 안 12번째"
+   },
+   {
+    "event": "E02261",
+    "name": "호시카와와 1번째",
+    "data": "person 4 · person2 7 · 레인 마나미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02262",
+    "name": "호시카와와 2번째",
+    "data": "person 4 · person2 7 · 레인 마나미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02263",
+    "name": "호시카와와 3번째",
+    "data": "person 4 · person2 7 · 레인 마나미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02264",
+    "name": "호시카와와 4번째",
+    "data": "person 4 · person2 7 · 레인 마나미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02265",
+    "name": "호시카와와 5번째",
+    "data": "person 4 · person2 7 · 레인 마나미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02266",
+    "name": "호시카와와 6번째",
+    "data": "person 4 · person2 7 · 레인 마나미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02267",
+    "name": "호시카와와 7번째",
+    "data": "person 4 · person2 7 · 레인 마나미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02268",
+    "name": "호시카와와 8번째",
+    "data": "person 4 · person2 7 · 레인 마나미 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02461",
+    "name": "단둘이 1번째",
+    "data": "person 4 · person2 None · 레인 마나미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02462",
+    "name": "단둘이 2번째",
+    "data": "person 4 · person2 None · 레인 마나미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02463",
+    "name": "단둘이 3번째",
+    "data": "person 4 · person2 None · 레인 마나미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02464",
+    "name": "단둘이 4번째",
+    "data": "person 4 · person2 None · 레인 마나미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02465",
+    "name": "단둘이 5번째",
+    "data": "person 4 · person2 None · 레인 마나미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02041",
+    "name": "마코토와 1번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02042",
+    "name": "마코토와 2번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02043",
+    "name": "마코토와 3번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02044",
+    "name": "마코토와 4번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02046",
+    "name": "마코토와 5번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02047",
+    "name": "마코토와 6번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02048",
+    "name": "마코토와 7번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02049",
+    "name": "마코토와 8번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02050",
+    "name": "마코토와 9번째",
+    "data": "person 2 · person2 5 · 레인 이즈미 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02101",
+    "name": "모모세와 1번째",
+    "data": "person 2 · person2 8 · 레인 이즈미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02102",
+    "name": "모모세와 2번째",
+    "data": "person 2 · person2 8 · 레인 이즈미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02103",
+    "name": "모모세와 3번째",
+    "data": "person 2 · person2 8 · 레인 이즈미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02104",
+    "name": "모모세와 4번째",
+    "data": "person 2 · person2 8 · 레인 이즈미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02105",
+    "name": "모모세와 5번째",
+    "data": "person 2 · person2 8 · 레인 이즈미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02106",
+    "name": "모모세와 6번째",
+    "data": "person 2 · person2 8 · 레인 이즈미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02107",
+    "name": "모모세와 7번째",
+    "data": "person 2 · person2 8 · 레인 이즈미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02108",
+    "name": "모모세와 8번째",
+    "data": "person 2 · person2 8 · 레인 이즈미 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02141",
+    "name": "마코토와 1번째",
+    "data": "person 3 · person2 5 · 레인 쿄카 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02142",
+    "name": "마코토와 2번째",
+    "data": "person 3 · person2 5 · 레인 쿄카 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02143",
+    "name": "마코토와 3번째",
+    "data": "person 3 · person2 5 · 레인 쿄카 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02144",
+    "name": "마코토와 4번째",
+    "data": "person 3 · person2 5 · 레인 쿄카 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02145",
+    "name": "마코토와 5번째",
+    "data": "person 3 · person2 5 · 레인 쿄카 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02146",
+    "name": "마코토와 6번째",
+    "data": "person 3 · person2 5 · 레인 쿄카 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02147",
+    "name": "마코토와 7번째",
+    "data": "person 3 · person2 5 · 레인 쿄카 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02148",
+    "name": "마코토와 8번째",
+    "data": "person 3 · person2 5 · 레인 쿄카 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02201",
+    "name": "모모세와 1번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02202",
+    "name": "모모세와 2번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02203",
+    "name": "모모세와 3번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02204",
+    "name": "모모세와 4번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02205",
+    "name": "모모세와 5번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02206",
+    "name": "모모세와 6번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02207",
+    "name": "모모세와 7번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02208",
+    "name": "모모세와 8번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02209",
+    "name": "모모세와 9번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02210",
+    "name": "모모세와 10번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02212",
+    "name": "모모세와 11번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 11번째"
+   },
+   {
+    "event": "E02213",
+    "name": "모모세와 12번째",
+    "data": "person 3 · person2 8 · 레인 쿄카 · 같은 짝 안 12번째"
+   },
+   {
+    "event": "E02221",
+    "name": "마코토와 1번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02222",
+    "name": "마코토와 2번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02223",
+    "name": "마코토와 3번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02224",
+    "name": "마코토와 4번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02225",
+    "name": "마코토와 5번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02226",
+    "name": "마코토와 6번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02227",
+    "name": "마코토와 7번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02228",
+    "name": "마코토와 8번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02229",
+    "name": "마코토와 9번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02230",
+    "name": "마코토와 10번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02231",
+    "name": "마코토와 11번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 11번째"
+   },
+   {
+    "event": "E02232",
+    "name": "마코토와 12번째",
+    "data": "person 4 · person2 5 · 레인 마나미 · 같은 짝 안 12번째"
+   },
+   {
+    "event": "E02281",
+    "name": "모모세와 1번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02282",
+    "name": "모모세와 2번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02283",
+    "name": "모모세와 3번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02284",
+    "name": "모모세와 4번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02285",
+    "name": "모모세와 5번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02286",
+    "name": "모모세와 6번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02287",
+    "name": "모모세와 7번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02288",
+    "name": "모모세와 8번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02290",
+    "name": "모모세와 9번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02291",
+    "name": "모모세와 10번째",
+    "data": "person 4 · person2 8 · 레인 마나미 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02301",
+    "name": "신카이와 1번째",
+    "data": "person 5 · person2 6 · 레인 마코토 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02302",
+    "name": "신카이와 2번째",
+    "data": "person 5 · person2 6 · 레인 마코토 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02303",
+    "name": "신카이와 3번째",
+    "data": "person 5 · person2 6 · 레인 마코토 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02304",
+    "name": "신카이와 4번째",
+    "data": "person 5 · person2 6 · 레인 마코토 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02305",
+    "name": "신카이와 5번째",
+    "data": "person 5 · person2 6 · 레인 마코토 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02306",
+    "name": "신카이와 6번째",
+    "data": "person 5 · person2 6 · 레인 마코토 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02307",
+    "name": "신카이와 7번째",
+    "data": "person 5 · person2 6 · 레인 마코토 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02308",
+    "name": "신카이와 8번째",
+    "data": "person 5 · person2 6 · 레인 마코토 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02321",
+    "name": "호시카와와 1번째",
+    "data": "person 5 · person2 7 · 레인 마코토 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02322",
+    "name": "호시카와와 2번째",
+    "data": "person 5 · person2 7 · 레인 마코토 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02323",
+    "name": "호시카와와 3번째",
+    "data": "person 5 · person2 7 · 레인 마코토 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02324",
+    "name": "호시카와와 4번째",
+    "data": "person 5 · person2 7 · 레인 마코토 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02325",
+    "name": "호시카와와 5번째",
+    "data": "person 5 · person2 7 · 레인 마코토 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02326",
+    "name": "호시카와와 6번째",
+    "data": "person 5 · person2 7 · 레인 마코토 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02327",
+    "name": "호시카와와 7번째",
+    "data": "person 5 · person2 7 · 레인 마코토 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02328",
+    "name": "호시카와와 8번째",
+    "data": "person 5 · person2 7 · 레인 마코토 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02341",
+    "name": "모모세와 1번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02342",
+    "name": "모모세와 2번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02343",
+    "name": "모모세와 3번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02344",
+    "name": "모모세와 4번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02345",
+    "name": "모모세와 5번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02346",
+    "name": "모모세와 6번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02347",
+    "name": "모모세와 7번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02348",
+    "name": "모모세와 8번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02349",
+    "name": "모모세와 9번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02350",
+    "name": "모모세와 10번째",
+    "data": "person 5 · person2 8 · 레인 마코토 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02481",
+    "name": "단둘이 1번째",
+    "data": "person 5 · person2 None · 레인 마코토 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02482",
+    "name": "단둘이 2번째",
+    "data": "person 5 · person2 None · 레인 마코토 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02483",
+    "name": "단둘이 3번째",
+    "data": "person 5 · person2 None · 레인 마코토 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02484",
+    "name": "단둘이 4번째",
+    "data": "person 5 · person2 None · 레인 마코토 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02485",
+    "name": "단둘이 5번째",
+    "data": "person 5 · person2 None · 레인 마코토 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02381",
+    "name": "모모세와 1번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02382",
+    "name": "모모세와 2번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02383",
+    "name": "모모세와 3번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02384",
+    "name": "모모세와 4번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02385",
+    "name": "모모세와 5번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02386",
+    "name": "모모세와 6번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02387",
+    "name": "모모세와 7번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02388",
+    "name": "모모세와 8번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02389",
+    "name": "모모세와 9번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02390",
+    "name": "모모세와 10번째",
+    "data": "person 6 · person2 8 · 레인 신카이 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02401",
+    "name": "모모세와 1번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02402",
+    "name": "모모세와 2번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02403",
+    "name": "모모세와 3번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02404",
+    "name": "모모세와 4번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02405",
+    "name": "모모세와 5번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02406",
+    "name": "모모세와 6번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02407",
+    "name": "모모세와 7번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 7번째"
+   },
+   {
+    "event": "E02408",
+    "name": "모모세와 8번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 8번째"
+   },
+   {
+    "event": "E02409",
+    "name": "모모세와 9번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 9번째"
+   },
+   {
+    "event": "E02410",
+    "name": "모모세와 10번째",
+    "data": "person 7 · person2 8 · 레인 호시카와 · 같은 짝 안 10번째"
+   },
+   {
+    "event": "E02541",
+    "name": "단둘이 1번째",
+    "data": "person 8 · person2 None · 레인 모모세 · 같은 짝 안 1번째"
+   },
+   {
+    "event": "E02542",
+    "name": "단둘이 2번째",
+    "data": "person 8 · person2 None · 레인 모모세 · 같은 짝 안 2번째"
+   },
+   {
+    "event": "E02543",
+    "name": "단둘이 3번째",
+    "data": "person 8 · person2 None · 레인 모모세 · 같은 짝 안 3번째"
+   },
+   {
+    "event": "E02544",
+    "name": "단둘이 4번째",
+    "data": "person 8 · person2 None · 레인 모모세 · 같은 짝 안 4번째"
+   },
+   {
+    "event": "E02545",
+    "name": "단둘이 5번째",
+    "data": "person 8 · person2 None · 레인 모모세 · 같은 짝 안 5번째"
+   },
+   {
+    "event": "E02546",
+    "name": "단둘이 6번째",
+    "data": "person 8 · person2 None · 레인 모모세 · 같은 짝 안 6번째"
+   },
+   {
+    "event": "E02547",
+    "name": "단둘이 7번째",
+    "data": "person 8 · person2 None · 레인 모모세 · 같은 짝 안 7번째"
+   }
+  ],
+  "6": [
+   {
+    "event": "E10001",
+    "name": "1번째",
+    "data": "이즈미 · 4월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 1장)"
+   },
+   {
+    "event": "E01101",
+    "name": "1번째",
+    "data": "이즈미 · 4월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01102",
+    "name": "2번째",
+    "data": "이즈미 · 4월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01103",
+    "name": "3번째",
+    "data": "이즈미 · 4월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01104",
+    "name": "4번째",
+    "data": "이즈미 · 4월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01108",
+    "name": "5번째",
+    "data": "이즈미 · 4월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01109",
+    "name": "6번째",
+    "data": "이즈미 · 4월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01001",
+    "name": "1번째",
+    "data": "이즈미 · 4월 · 초대 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01002",
+    "name": "2번째",
+    "data": "이즈미 · 4월 · 초대 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01003",
+    "name": "3번째",
+    "data": "이즈미 · 4월 · 초대 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01004",
+    "name": "4번째",
+    "data": "이즈미 · 4월 · 초대 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01005",
+    "name": "5번째",
+    "data": "이즈미 · 4월 · 초대 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01006",
+    "name": "6번째",
+    "data": "이즈미 · 4월 · 초대 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E05011",
+    "name": "7번째",
+    "data": "이즈미 · 4월 · 초대 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01201",
+    "name": "1번째",
+    "data": "쿄카 · 4월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01203",
+    "name": "2번째",
+    "data": "쿄카 · 4월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01204",
+    "name": "3번째",
+    "data": "쿄카 · 4월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01205",
+    "name": "4번째",
+    "data": "쿄카 · 4월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01208",
+    "name": "5번째",
+    "data": "쿄카 · 4월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01209",
+    "name": "6번째",
+    "data": "쿄카 · 4월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01210",
+    "name": "7번째",
+    "data": "쿄카 · 4월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01081",
+    "name": "1번째",
+    "data": "쿄카 · 4월 · 초대 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01082",
+    "name": "2번째",
+    "data": "쿄카 · 4월 · 초대 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01083",
+    "name": "3번째",
+    "data": "쿄카 · 4월 · 초대 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01084",
+    "name": "4번째",
+    "data": "쿄카 · 4월 · 초대 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01085",
+    "name": "5번째",
+    "data": "쿄카 · 4월 · 초대 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01086",
+    "name": "6번째",
+    "data": "쿄카 · 4월 · 초대 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E05012",
+    "name": "7번째",
+    "data": "쿄카 · 4월 · 초대 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01501",
+    "name": "1번째",
+    "data": "신카이 · 4월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01502",
+    "name": "2번째",
+    "data": "신카이 · 4월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01503",
+    "name": "3번째",
+    "data": "신카이 · 4월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01504",
+    "name": "4번째",
+    "data": "신카이 · 4월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01505",
+    "name": "5번째",
+    "data": "신카이 · 4월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01506",
+    "name": "6번째",
+    "data": "신카이 · 4월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01041",
+    "name": "1번째",
+    "data": "신카이 · 4월 · 초대 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01042",
+    "name": "2번째",
+    "data": "신카이 · 4월 · 초대 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01043",
+    "name": "3번째",
+    "data": "신카이 · 4월 · 초대 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01044",
+    "name": "4번째",
+    "data": "신카이 · 4월 · 초대 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01045",
+    "name": "5번째",
+    "data": "신카이 · 4월 · 초대 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01046",
+    "name": "6번째",
+    "data": "신카이 · 4월 · 초대 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01601",
+    "name": "1번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01602",
+    "name": "2번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01603",
+    "name": "3번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01604",
+    "name": "4번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01605",
+    "name": "5번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01606",
+    "name": "6번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01607",
+    "name": "7번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01608",
+    "name": "8번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01609",
+    "name": "9번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 9번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01610",
+    "name": "10번째",
+    "data": "호시카와 · 4월 · 특훈 뒤 대화 · 이벤트 번호 10번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01051",
+    "name": "1번째",
+    "data": "호시카와 · 4월 · 초대 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01052",
+    "name": "2번째",
+    "data": "호시카와 · 4월 · 초대 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01053",
+    "name": "3번째",
+    "data": "호시카와 · 4월 · 초대 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01054",
+    "name": "4번째",
+    "data": "호시카와 · 4월 · 초대 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01055",
+    "name": "5번째",
+    "data": "호시카와 · 4월 · 초대 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01056",
+    "name": "6번째",
+    "data": "호시카와 · 4월 · 초대 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E10021",
+    "name": "1번째",
+    "data": "이즈미 · 5월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E10022",
+    "name": "2번째",
+    "data": "이즈미 · 5월 · 우선 대화 · 이벤트 번호 2번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E10023",
+    "name": "3번째",
+    "data": "이즈미 · 5월 · 우선 대화 · 이벤트 번호 3번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01111",
+    "name": "1번째",
+    "data": "이즈미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01112",
+    "name": "2번째",
+    "data": "이즈미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01113",
+    "name": "3번째",
+    "data": "이즈미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01114",
+    "name": "4번째",
+    "data": "이즈미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01115",
+    "name": "5번째",
+    "data": "이즈미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01118",
+    "name": "6번째",
+    "data": "이즈미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01119",
+    "name": "7번째",
+    "data": "이즈미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E20021",
+    "name": "1번째",
+    "data": "쿄카 · 5월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E20041",
+    "name": "2번째",
+    "data": "쿄카 · 5월 · 우선 대화 · 이벤트 번호 2번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E20042",
+    "name": "3번째",
+    "data": "쿄카 · 5월 · 우선 대화 · 이벤트 번호 3번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E20043",
+    "name": "4번째",
+    "data": "쿄카 · 5월 · 우선 대화 · 이벤트 번호 4번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E01211",
+    "name": "1번째",
+    "data": "쿄카 · 5월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01212",
+    "name": "2번째",
+    "data": "쿄카 · 5월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01213",
+    "name": "3번째",
+    "data": "쿄카 · 5월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01214",
+    "name": "4번째",
+    "data": "쿄카 · 5월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01215",
+    "name": "5번째",
+    "data": "쿄카 · 5월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01216",
+    "name": "6번째",
+    "data": "쿄카 · 5월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01217",
+    "name": "7번째",
+    "data": "쿄카 · 5월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E30001",
+    "name": "1번째",
+    "data": "마나미 · 5월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E30002",
+    "name": "2번째",
+    "data": "마나미 · 5월 · 우선 대화 · 이벤트 번호 2번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E30003",
+    "name": "3번째",
+    "data": "마나미 · 5월 · 우선 대화 · 이벤트 번호 3번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01301",
+    "name": "1번째",
+    "data": "마나미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01302",
+    "name": "2번째",
+    "data": "마나미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01303",
+    "name": "3번째",
+    "data": "마나미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01304",
+    "name": "4번째",
+    "data": "마나미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01305",
+    "name": "5번째",
+    "data": "마나미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01306",
+    "name": "6번째",
+    "data": "마나미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01309",
+    "name": "7번째",
+    "data": "마나미 · 5월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01021",
+    "name": "1번째",
+    "data": "마나미 · 5월 · 초대 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01022",
+    "name": "2번째",
+    "data": "마나미 · 5월 · 초대 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01023",
+    "name": "3번째",
+    "data": "마나미 · 5월 · 초대 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01024",
+    "name": "4번째",
+    "data": "마나미 · 5월 · 초대 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01025",
+    "name": "5번째",
+    "data": "마나미 · 5월 · 초대 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01026",
+    "name": "6번째",
+    "data": "마나미 · 5월 · 초대 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E05013",
+    "name": "7번째",
+    "data": "마나미 · 5월 · 초대 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01511",
+    "name": "1번째",
+    "data": "신카이 · 5월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01512",
+    "name": "2번째",
+    "data": "신카이 · 5월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01513",
+    "name": "3번째",
+    "data": "신카이 · 5월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01514",
+    "name": "4번째",
+    "data": "신카이 · 5월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01515",
+    "name": "5번째",
+    "data": "신카이 · 5월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01516",
+    "name": "6번째",
+    "data": "신카이 · 5월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01611",
+    "name": "1번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01612",
+    "name": "2번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01613",
+    "name": "3번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01614",
+    "name": "4번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01615",
+    "name": "5번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01616",
+    "name": "6번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01617",
+    "name": "7번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01618",
+    "name": "8번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01619",
+    "name": "9번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 9번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01620",
+    "name": "10번째",
+    "data": "호시카와 · 5월 · 특훈 뒤 대화 · 이벤트 번호 10번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01121",
+    "name": "1번째",
+    "data": "이즈미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01125",
+    "name": "2번째",
+    "data": "이즈미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01126",
+    "name": "3번째",
+    "data": "이즈미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01127",
+    "name": "4번째",
+    "data": "이즈미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01128",
+    "name": "5번째",
+    "data": "이즈미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01129",
+    "name": "6번째",
+    "data": "이즈미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01202",
+    "name": "1번째",
+    "data": "쿄카 · 6월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01221",
+    "name": "2번째",
+    "data": "쿄카 · 6월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01222",
+    "name": "3번째",
+    "data": "쿄카 · 6월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01223",
+    "name": "4번째",
+    "data": "쿄카 · 6월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01224",
+    "name": "5번째",
+    "data": "쿄카 · 6월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01225",
+    "name": "6번째",
+    "data": "쿄카 · 6월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E30021",
+    "name": "1번째",
+    "data": "마나미 · 6월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E30022",
+    "name": "2번째",
+    "data": "마나미 · 6월 · 우선 대화 · 이벤트 번호 2번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E30023",
+    "name": "3번째",
+    "data": "마나미 · 6월 · 우선 대화 · 이벤트 번호 3번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E30024",
+    "name": "4번째",
+    "data": "마나미 · 6월 · 우선 대화 · 이벤트 번호 4번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E01311",
+    "name": "1번째",
+    "data": "마나미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01312",
+    "name": "2번째",
+    "data": "마나미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01313",
+    "name": "3번째",
+    "data": "마나미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01314",
+    "name": "4번째",
+    "data": "마나미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01315",
+    "name": "5번째",
+    "data": "마나미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01316",
+    "name": "6번째",
+    "data": "마나미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01318",
+    "name": "7번째",
+    "data": "마나미 · 6월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01401",
+    "name": "1번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01402",
+    "name": "2번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01403",
+    "name": "3번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01404",
+    "name": "4번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01405",
+    "name": "5번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01406",
+    "name": "6번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01408",
+    "name": "7번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01409",
+    "name": "8번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01410",
+    "name": "9번째",
+    "data": "마코토 · 6월 · 특훈 뒤 대화 · 이벤트 번호 9번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01031",
+    "name": "1번째",
+    "data": "마코토 · 6월 · 초대 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01032",
+    "name": "2번째",
+    "data": "마코토 · 6월 · 초대 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01033",
+    "name": "3번째",
+    "data": "마코토 · 6월 · 초대 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01034",
+    "name": "4번째",
+    "data": "마코토 · 6월 · 초대 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01035",
+    "name": "5번째",
+    "data": "마코토 · 6월 · 초대 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01036",
+    "name": "6번째",
+    "data": "마코토 · 6월 · 초대 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E05014",
+    "name": "7번째",
+    "data": "마코토 · 6월 · 초대 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01521",
+    "name": "1번째",
+    "data": "신카이 · 6월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01522",
+    "name": "2번째",
+    "data": "신카이 · 6월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01523",
+    "name": "3번째",
+    "data": "신카이 · 6월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01524",
+    "name": "4번째",
+    "data": "신카이 · 6월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01525",
+    "name": "5번째",
+    "data": "신카이 · 6월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01526",
+    "name": "6번째",
+    "data": "신카이 · 6월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01621",
+    "name": "1번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01622",
+    "name": "2번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01623",
+    "name": "3번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01624",
+    "name": "4번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01625",
+    "name": "5번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01626",
+    "name": "6번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01627",
+    "name": "7번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01628",
+    "name": "8번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01629",
+    "name": "9번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 9번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01630",
+    "name": "10번째",
+    "data": "호시카와 · 6월 · 특훈 뒤 대화 · 이벤트 번호 10번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01701",
+    "name": "1번째",
+    "data": "모모세 · 6월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01702",
+    "name": "2번째",
+    "data": "모모세 · 6월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01703",
+    "name": "3번째",
+    "data": "모모세 · 6월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01704",
+    "name": "4번째",
+    "data": "모모세 · 6월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01705",
+    "name": "5번째",
+    "data": "모모세 · 6월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01706",
+    "name": "6번째",
+    "data": "모모세 · 6월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01061",
+    "name": "1번째",
+    "data": "모모세 · 6월 · 초대 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01062",
+    "name": "2번째",
+    "data": "모모세 · 6월 · 초대 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01063",
+    "name": "3번째",
+    "data": "모모세 · 6월 · 초대 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01064",
+    "name": "4번째",
+    "data": "모모세 · 6월 · 초대 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01065",
+    "name": "5번째",
+    "data": "모모세 · 6월 · 초대 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01066",
+    "name": "6번째",
+    "data": "모모세 · 6월 · 초대 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01131",
+    "name": "1번째",
+    "data": "이즈미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01132",
+    "name": "2번째",
+    "data": "이즈미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01133",
+    "name": "3번째",
+    "data": "이즈미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01134",
+    "name": "4번째",
+    "data": "이즈미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01135",
+    "name": "5번째",
+    "data": "이즈미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01136",
+    "name": "6번째",
+    "data": "이즈미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01139",
+    "name": "7번째",
+    "data": "이즈미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01140",
+    "name": "8번째",
+    "data": "이즈미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01206",
+    "name": "1번째",
+    "data": "쿄카 · 7월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01231",
+    "name": "2번째",
+    "data": "쿄카 · 7월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01232",
+    "name": "3번째",
+    "data": "쿄카 · 7월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01233",
+    "name": "4번째",
+    "data": "쿄카 · 7월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01234",
+    "name": "5번째",
+    "data": "쿄카 · 7월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01235",
+    "name": "6번째",
+    "data": "쿄카 · 7월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01236",
+    "name": "7번째",
+    "data": "쿄카 · 7월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01307",
+    "name": "1번째",
+    "data": "마나미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01308",
+    "name": "2번째",
+    "data": "마나미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01321",
+    "name": "3번째",
+    "data": "마나미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01322",
+    "name": "4번째",
+    "data": "마나미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01323",
+    "name": "5번째",
+    "data": "마나미 · 7월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E40001",
+    "name": "1번째",
+    "data": "마코토 · 7월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E40021",
+    "name": "2번째",
+    "data": "마코토 · 7월 · 우선 대화 · 이벤트 번호 2번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E40022",
+    "name": "3번째",
+    "data": "마코토 · 7월 · 우선 대화 · 이벤트 번호 3번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E40023",
+    "name": "4번째",
+    "data": "마코토 · 7월 · 우선 대화 · 이벤트 번호 4번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E01531",
+    "name": "1번째",
+    "data": "신카이 · 7월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01532",
+    "name": "2번째",
+    "data": "신카이 · 7월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01533",
+    "name": "3번째",
+    "data": "신카이 · 7월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01534",
+    "name": "4번째",
+    "data": "신카이 · 7월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01535",
+    "name": "5번째",
+    "data": "신카이 · 7월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01631",
+    "name": "1번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01632",
+    "name": "2번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01633",
+    "name": "3번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01634",
+    "name": "4번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01635",
+    "name": "5번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01636",
+    "name": "6번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01637",
+    "name": "7번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01638",
+    "name": "8번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01639",
+    "name": "9번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 9번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01640",
+    "name": "10번째",
+    "data": "호시카와 · 7월 · 특훈 뒤 대화 · 이벤트 번호 10번째로 작음(서랍 10장)"
+   },
+   {
+    "event": "E01711",
+    "name": "1번째",
+    "data": "모모세 · 7월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01712",
+    "name": "2번째",
+    "data": "모모세 · 7월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01713",
+    "name": "3번째",
+    "data": "모모세 · 7월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01714",
+    "name": "4번째",
+    "data": "모모세 · 7월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01715",
+    "name": "5번째",
+    "data": "모모세 · 7월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01716",
+    "name": "6번째",
+    "data": "모모세 · 7월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01717",
+    "name": "7번째",
+    "data": "모모세 · 7월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01718",
+    "name": "8번째",
+    "data": "모모세 · 7월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E10061",
+    "name": "1번째",
+    "data": "이즈미 · 8월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 1장)"
+   },
+   {
+    "event": "E01106",
+    "name": "1번째",
+    "data": "이즈미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01107",
+    "name": "2번째",
+    "data": "이즈미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01141",
+    "name": "3번째",
+    "data": "이즈미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01142",
+    "name": "4번째",
+    "data": "이즈미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01143",
+    "name": "5번째",
+    "data": "이즈미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01144",
+    "name": "6번째",
+    "data": "이즈미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01145",
+    "name": "7번째",
+    "data": "이즈미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 7장)"
+   },
+   {
+    "event": "E01241",
+    "name": "1번째",
+    "data": "쿄카 · 8월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01242",
+    "name": "2번째",
+    "data": "쿄카 · 8월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01243",
+    "name": "3번째",
+    "data": "쿄카 · 8월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01244",
+    "name": "4번째",
+    "data": "쿄카 · 8월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01245",
+    "name": "5번째",
+    "data": "쿄카 · 8월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01246",
+    "name": "6번째",
+    "data": "쿄카 · 8월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01331",
+    "name": "1번째",
+    "data": "마나미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01332",
+    "name": "2번째",
+    "data": "마나미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01333",
+    "name": "3번째",
+    "data": "마나미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01334",
+    "name": "4번째",
+    "data": "마나미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01335",
+    "name": "5번째",
+    "data": "마나미 · 8월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E40041",
+    "name": "1번째",
+    "data": "마코토 · 8월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E40042",
+    "name": "2번째",
+    "data": "마코토 · 8월 · 우선 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E40043",
+    "name": "3번째",
+    "data": "마코토 · 8월 · 우선 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E40044",
+    "name": "4번째",
+    "data": "마코토 · 8월 · 우선 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E40045",
+    "name": "5번째",
+    "data": "마코토 · 8월 · 우선 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01411",
+    "name": "1번째",
+    "data": "마코토 · 8월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01412",
+    "name": "2번째",
+    "data": "마코토 · 8월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01413",
+    "name": "3번째",
+    "data": "마코토 · 8월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01414",
+    "name": "4번째",
+    "data": "마코토 · 8월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01415",
+    "name": "5번째",
+    "data": "마코토 · 8월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01416",
+    "name": "6번째",
+    "data": "마코토 · 8월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01417",
+    "name": "7번째",
+    "data": "마코토 · 8월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01418",
+    "name": "8번째",
+    "data": "마코토 · 8월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01541",
+    "name": "1번째",
+    "data": "신카이 · 8월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01542",
+    "name": "2번째",
+    "data": "신카이 · 8월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01543",
+    "name": "3번째",
+    "data": "신카이 · 8월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01544",
+    "name": "4번째",
+    "data": "신카이 · 8월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01545",
+    "name": "5번째",
+    "data": "신카이 · 8월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01641",
+    "name": "1번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01642",
+    "name": "2번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01643",
+    "name": "3번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01644",
+    "name": "4번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01645",
+    "name": "5번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01646",
+    "name": "6번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01647",
+    "name": "7번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01649",
+    "name": "8번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01650",
+    "name": "9번째",
+    "data": "호시카와 · 8월 · 특훈 뒤 대화 · 이벤트 번호 9번째로 작음(서랍 9장)"
+   },
+   {
+    "event": "E01721",
+    "name": "1번째",
+    "data": "모모세 · 8월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01722",
+    "name": "2번째",
+    "data": "모모세 · 8월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01723",
+    "name": "3번째",
+    "data": "모모세 · 8월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01724",
+    "name": "4번째",
+    "data": "모모세 · 8월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01725",
+    "name": "5번째",
+    "data": "모모세 · 8월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E10041",
+    "name": "1번째",
+    "data": "이즈미 · 9월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 1장)"
+   },
+   {
+    "event": "E01105",
+    "name": "1번째",
+    "data": "이즈미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01116",
+    "name": "2번째",
+    "data": "이즈미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01117",
+    "name": "3번째",
+    "data": "이즈미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01151",
+    "name": "4번째",
+    "data": "이즈미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01152",
+    "name": "5번째",
+    "data": "이즈미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01153",
+    "name": "6번째",
+    "data": "이즈미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01154",
+    "name": "7번째",
+    "data": "이즈미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01155",
+    "name": "8번째",
+    "data": "이즈미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01251",
+    "name": "1번째",
+    "data": "쿄카 · 9월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01252",
+    "name": "2번째",
+    "data": "쿄카 · 9월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01253",
+    "name": "3번째",
+    "data": "쿄카 · 9월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01254",
+    "name": "4번째",
+    "data": "쿄카 · 9월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01255",
+    "name": "5번째",
+    "data": "쿄카 · 9월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01317",
+    "name": "1번째",
+    "data": "마나미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01341",
+    "name": "2번째",
+    "data": "마나미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01342",
+    "name": "3번째",
+    "data": "마나미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01343",
+    "name": "4번째",
+    "data": "마나미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01344",
+    "name": "5번째",
+    "data": "마나미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01345",
+    "name": "6번째",
+    "data": "마나미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01346",
+    "name": "7번째",
+    "data": "마나미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 7번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01347",
+    "name": "8번째",
+    "data": "마나미 · 9월 · 특훈 뒤 대화 · 이벤트 번호 8번째로 작음(서랍 8장)"
+   },
+   {
+    "event": "E01421",
+    "name": "1번째",
+    "data": "마코토 · 9월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01422",
+    "name": "2번째",
+    "data": "마코토 · 9월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01423",
+    "name": "3번째",
+    "data": "마코토 · 9월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01424",
+    "name": "4번째",
+    "data": "마코토 · 9월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01425",
+    "name": "5번째",
+    "data": "마코토 · 9월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01551",
+    "name": "1번째",
+    "data": "신카이 · 9월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01552",
+    "name": "2번째",
+    "data": "신카이 · 9월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01553",
+    "name": "3번째",
+    "data": "신카이 · 9월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01554",
+    "name": "4번째",
+    "data": "신카이 · 9월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01555",
+    "name": "5번째",
+    "data": "신카이 · 9월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01651",
+    "name": "1번째",
+    "data": "호시카와 · 9월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01652",
+    "name": "2번째",
+    "data": "호시카와 · 9월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01653",
+    "name": "3번째",
+    "data": "호시카와 · 9월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01654",
+    "name": "4번째",
+    "data": "호시카와 · 9월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01655",
+    "name": "5번째",
+    "data": "호시카와 · 9월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01656",
+    "name": "6번째",
+    "data": "호시카와 · 9월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01707",
+    "name": "1번째",
+    "data": "모모세 · 9월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01731",
+    "name": "2번째",
+    "data": "모모세 · 9월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01732",
+    "name": "3번째",
+    "data": "모모세 · 9월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01733",
+    "name": "4번째",
+    "data": "모모세 · 9월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01734",
+    "name": "5번째",
+    "data": "모모세 · 9월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01735",
+    "name": "6번째",
+    "data": "모모세 · 9월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E10101",
+    "name": "1번째",
+    "data": "이즈미 · 10월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 1장)"
+   },
+   {
+    "event": "E01161",
+    "name": "1번째",
+    "data": "이즈미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01162",
+    "name": "2번째",
+    "data": "이즈미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01163",
+    "name": "3번째",
+    "data": "이즈미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01164",
+    "name": "4번째",
+    "data": "이즈미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01165",
+    "name": "5번째",
+    "data": "이즈미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01181",
+    "name": "1번째",
+    "data": "이즈미 · 10월 · 반한 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01182",
+    "name": "2번째",
+    "data": "이즈미 · 10월 · 반한 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01183",
+    "name": "3번째",
+    "data": "이즈미 · 10월 · 반한 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01207",
+    "name": "1번째",
+    "data": "쿄카 · 10월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01261",
+    "name": "2번째",
+    "data": "쿄카 · 10월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01262",
+    "name": "3번째",
+    "data": "쿄카 · 10월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01263",
+    "name": "4번째",
+    "data": "쿄카 · 10월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01264",
+    "name": "5번째",
+    "data": "쿄카 · 10월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01265",
+    "name": "6번째",
+    "data": "쿄카 · 10월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01281",
+    "name": "1번째",
+    "data": "쿄카 · 10월 · 반한 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01282",
+    "name": "2번째",
+    "data": "쿄카 · 10월 · 반한 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01283",
+    "name": "3번째",
+    "data": "쿄카 · 10월 · 반한 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01351",
+    "name": "1번째",
+    "data": "마나미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01352",
+    "name": "2번째",
+    "data": "마나미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01353",
+    "name": "3번째",
+    "data": "마나미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01364",
+    "name": "4번째",
+    "data": "마나미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01365",
+    "name": "5번째",
+    "data": "마나미 · 10월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01366",
+    "name": "1번째",
+    "data": "마나미 · 10월 · 반한 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01367",
+    "name": "2번째",
+    "data": "마나미 · 10월 · 반한 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01368",
+    "name": "3번째",
+    "data": "마나미 · 10월 · 반한 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E40101",
+    "name": "1번째",
+    "data": "마코토 · 10월 · 우선 대화 · 이벤트 번호 1번째로 작음(서랍 1장)"
+   },
+   {
+    "event": "E01431",
+    "name": "1번째",
+    "data": "마코토 · 10월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01432",
+    "name": "2번째",
+    "data": "마코토 · 10월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01433",
+    "name": "3번째",
+    "data": "마코토 · 10월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01434",
+    "name": "4번째",
+    "data": "마코토 · 10월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01435",
+    "name": "5번째",
+    "data": "마코토 · 10월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01451",
+    "name": "1번째",
+    "data": "마코토 · 10월 · 반한 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01452",
+    "name": "2번째",
+    "data": "마코토 · 10월 · 반한 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01453",
+    "name": "3번째",
+    "data": "마코토 · 10월 · 반한 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01454",
+    "name": "4번째",
+    "data": "마코토 · 10월 · 반한 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01455",
+    "name": "5번째",
+    "data": "마코토 · 10월 · 반한 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01561",
+    "name": "1번째",
+    "data": "신카이 · 10월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01562",
+    "name": "2번째",
+    "data": "신카이 · 10월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01563",
+    "name": "3번째",
+    "data": "신카이 · 10월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01564",
+    "name": "4번째",
+    "data": "신카이 · 10월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01565",
+    "name": "5번째",
+    "data": "신카이 · 10월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01648",
+    "name": "1번째",
+    "data": "호시카와 · 10월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01657",
+    "name": "2번째",
+    "data": "호시카와 · 10월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01661",
+    "name": "3번째",
+    "data": "호시카와 · 10월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01662",
+    "name": "4번째",
+    "data": "호시카와 · 10월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01663",
+    "name": "5번째",
+    "data": "호시카와 · 10월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01741",
+    "name": "1번째",
+    "data": "모모세 · 10월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01742",
+    "name": "2번째",
+    "data": "모모세 · 10월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01743",
+    "name": "3번째",
+    "data": "모모세 · 10월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01744",
+    "name": "4번째",
+    "data": "모모세 · 10월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01745",
+    "name": "5번째",
+    "data": "모모세 · 10월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01120",
+    "name": "1번째",
+    "data": "이즈미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01122",
+    "name": "2번째",
+    "data": "이즈미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01123",
+    "name": "3번째",
+    "data": "이즈미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01124",
+    "name": "4번째",
+    "data": "이즈미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01138",
+    "name": "5번째",
+    "data": "이즈미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01171",
+    "name": "6번째",
+    "data": "이즈미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 6번째로 작음(서랍 6장)"
+   },
+   {
+    "event": "E01271",
+    "name": "1번째",
+    "data": "쿄카 · 11월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E01272",
+    "name": "2번째",
+    "data": "쿄카 · 11월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E01273",
+    "name": "3번째",
+    "data": "쿄카 · 11월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E01274",
+    "name": "4번째",
+    "data": "쿄카 · 11월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 4장)"
+   },
+   {
+    "event": "E01361",
+    "name": "1번째",
+    "data": "마나미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01362",
+    "name": "2번째",
+    "data": "마나미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01363",
+    "name": "3번째",
+    "data": "마나미 · 11월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 3장)"
+   },
+   {
+    "event": "E01441",
+    "name": "1번째",
+    "data": "마코토 · 11월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01442",
+    "name": "2번째",
+    "data": "마코토 · 11월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01443",
+    "name": "3번째",
+    "data": "마코토 · 11월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01444",
+    "name": "4번째",
+    "data": "마코토 · 11월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01445",
+    "name": "5번째",
+    "data": "마코토 · 11월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01571",
+    "name": "1번째",
+    "data": "신카이 · 11월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01572",
+    "name": "2번째",
+    "data": "신카이 · 11월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01573",
+    "name": "3번째",
+    "data": "신카이 · 11월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01574",
+    "name": "4번째",
+    "data": "신카이 · 11월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01575",
+    "name": "5번째",
+    "data": "신카이 · 11월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01671",
+    "name": "1번째",
+    "data": "호시카와 · 11월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01672",
+    "name": "2번째",
+    "data": "호시카와 · 11월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01673",
+    "name": "3번째",
+    "data": "호시카와 · 11월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01674",
+    "name": "4번째",
+    "data": "호시카와 · 11월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01675",
+    "name": "5번째",
+    "data": "호시카와 · 11월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01751",
+    "name": "1번째",
+    "data": "모모세 · 11월 · 특훈 뒤 대화 · 이벤트 번호 1번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01752",
+    "name": "2번째",
+    "data": "모모세 · 11월 · 특훈 뒤 대화 · 이벤트 번호 2번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01753",
+    "name": "3번째",
+    "data": "모모세 · 11월 · 특훈 뒤 대화 · 이벤트 번호 3번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01754",
+    "name": "4번째",
+    "data": "모모세 · 11월 · 특훈 뒤 대화 · 이벤트 번호 4번째로 작음(서랍 5장)"
+   },
+   {
+    "event": "E01755",
+    "name": "5번째",
+    "data": "모모세 · 11월 · 특훈 뒤 대화 · 이벤트 번호 5번째로 작음(서랍 5장)"
+   }
+  ],
+  "7": [
+   {
+    "event": "E50101",
+    "name": "회상 · 그 밖 · 회상 1쪽 1번",
+    "data": "memory_replay page 1 slot 1 · replay_of E10001"
+   },
+   {
+    "event": "E50102",
+    "name": "회상 · 그 밖 · 회상 1쪽 2번",
+    "data": "memory_replay page 1 slot 2 · replay_of E10022"
+   },
+   {
+    "event": "E50103",
+    "name": "회상 · 그 밖 · 회상 1쪽 3번",
+    "data": "memory_replay page 1 slot 3 · replay_of E10061"
+   },
+   {
+    "event": "E50104",
+    "name": "회상 · 그 밖 · 회상 1쪽 4번",
+    "data": "memory_replay page 1 slot 4 · replay_of E10041"
+   },
+   {
+    "event": "E50105",
+    "name": "회상 · 그 밖 · 회상 1쪽 5번 (8/30)",
+    "data": "memory_replay page 1 slot 5 · replay_of E10081 (8/30)"
+   },
+   {
+    "event": "E50106",
+    "name": "회상 · 그 밖 · 회상 1쪽 6번",
+    "data": "memory_replay page 1 slot 6 · replay_of E10101"
+   },
+   {
+    "event": "E50107",
+    "name": "회상 · 그 밖 · 회상 1쪽 7번 (10/21)",
+    "data": "memory_replay page 1 slot 7 · replay_of E10121 (10/21)"
+   },
+   {
+    "event": "E50108",
+    "name": "회상 · 그 밖 · 회상 1쪽 8번 (11/1)",
+    "data": "memory_replay page 1 slot 8 · replay_of E10501 (11/1)"
+   },
+   {
+    "event": "E50109",
+    "name": "회상 · 그 밖 · 회상 1쪽 9번 (11/16)",
+    "data": "memory_replay page 1 slot 9 · replay_of E10201 (11/16)"
+   },
+   {
+    "event": "E50110",
+    "name": "회상 · 그 밖 · 회상 1쪽 10번 (11/16)",
+    "data": "memory_replay page 1 slot 10 · replay_of E10202 (11/16)"
+   },
+   {
+    "event": "E50111",
+    "name": "회상 · 그 밖 · 회상 1쪽 11번",
+    "data": "memory_replay page 1 slot 11 · replay_of E10203"
+   },
+   {
+    "event": "E50112",
+    "name": "회상 · 그 밖 · 회상 1쪽 12번",
+    "data": "memory_replay page 1 slot 12 · replay_of E10523"
+   },
+   {
+    "event": "E50201",
+    "name": "회상 · 그 밖 · 회상 2쪽 1번",
+    "data": "memory_replay page 2 slot 1 · replay_of E20021"
+   },
+   {
+    "event": "E50202",
+    "name": "회상 · 그 밖 · 회상 2쪽 2번",
+    "data": "memory_replay page 2 slot 2 · replay_of E20043"
+   },
+   {
+    "event": "E50203",
+    "name": "회상 · 그 밖 · 회상 2쪽 3번 (7/27)",
+    "data": "memory_replay page 2 slot 3 · replay_of E20061 (7/27)"
+   },
+   {
+    "event": "E50204",
+    "name": "회상 · 그 밖 · 회상 2쪽 4번",
+    "data": "memory_replay page 2 slot 4 · replay_of E20170"
+   },
+   {
+    "event": "E50205",
+    "name": "회상 · 그 밖 · 회상 2쪽 5번 (10/14)",
+    "data": "memory_replay page 2 slot 5 · replay_of E20083 (10/14)"
+   },
+   {
+    "event": "E50206",
+    "name": "회상 · 그 밖 · 회상 2쪽 6번 (10/21)",
+    "data": "memory_replay page 2 slot 6 · replay_of E20121 (10/21)"
+   },
+   {
+    "event": "E50207",
+    "name": "회상 · 그 밖 · 회상 2쪽 7번 (11/7)",
+    "data": "memory_replay page 2 slot 7 · replay_of E20101 (11/7)"
+   },
+   {
+    "event": "E50208",
+    "name": "회상 · 그 밖 · 회상 2쪽 8번 (11/1)",
+    "data": "memory_replay page 2 slot 8 · replay_of E20501 (11/1)"
+   },
+   {
+    "event": "E50209",
+    "name": "회상 · 그 밖 · 회상 2쪽 9번 (11/11)",
+    "data": "memory_replay page 2 slot 9 · replay_of E20141 (11/11)"
+   },
+   {
+    "event": "E50210",
+    "name": "회상 · 그 밖 · 회상 2쪽 10번 (11/16)",
+    "data": "memory_replay page 2 slot 10 · replay_of E20181 (11/16)"
+   },
+   {
+    "event": "E50211",
+    "name": "회상 · 그 밖 · 회상 2쪽 11번",
+    "data": "memory_replay page 2 slot 11 · replay_of E20201"
+   },
+   {
+    "event": "E50212",
+    "name": "회상 · 그 밖 · 회상 2쪽 12번",
+    "data": "memory_replay page 2 slot 12 · replay_of E20523"
+   },
+   {
+    "event": "E50301",
+    "name": "회상 · 그 밖 · 회상 3쪽 1번",
+    "data": "memory_replay page 3 slot 1 · replay_of E30002"
+   },
+   {
+    "event": "E50302",
+    "name": "회상 · 그 밖 · 회상 3쪽 2번",
+    "data": "memory_replay page 3 slot 2 · replay_of E30023"
+   },
+   {
+    "event": "E50304",
+    "name": "회상 · 그 밖 · 회상 3쪽 4번 (10/21)",
+    "data": "memory_replay page 3 slot 4 · replay_of E30121 (10/21)"
+   },
+   {
+    "event": "E50305",
+    "name": "회상 · 그 밖 · 회상 3쪽 5번 (11/1)",
+    "data": "memory_replay page 3 slot 5 · replay_of E30501 (11/1)"
+   },
+   {
+    "event": "E50306",
+    "name": "회상 · 그 밖 · 회상 3쪽 6번 (11/7)",
+    "data": "memory_replay page 3 slot 6 · replay_of E30081 (11/7)"
+   },
+   {
+    "event": "E50307",
+    "name": "회상 · 그 밖 · 회상 3쪽 7번 (11/11)",
+    "data": "memory_replay page 3 slot 7 · replay_of E30041 (11/11)"
+   },
+   {
+    "event": "E50308",
+    "name": "회상 · 그 밖 · 회상 3쪽 8번 (11/16)",
+    "data": "memory_replay page 3 slot 8 · replay_of E30101 (11/16)"
+   },
+   {
+    "event": "E50309",
+    "name": "회상 · 그 밖 · 회상 3쪽 9번",
+    "data": "memory_replay page 3 slot 9 · replay_of E30102"
+   },
+   {
+    "event": "E50310",
+    "name": "회상 · 그 밖 · 회상 3쪽 10번",
+    "data": "memory_replay page 3 slot 10 · replay_of E30523"
+   },
+   {
+    "event": "E50401",
+    "name": "회상 · 그 밖 · 회상 4쪽 1번",
+    "data": "memory_replay page 4 slot 1 · replay_of E40044"
+   },
+   {
+    "event": "E50402",
+    "name": "회상 · 그 밖 · 회상 4쪽 2번 (8/11)",
+    "data": "memory_replay page 4 slot 2 · replay_of E40062 (8/11)"
+   },
+   {
+    "event": "E50403",
+    "name": "회상 · 그 밖 · 회상 4쪽 3번",
+    "data": "memory_replay page 4 slot 3 · replay_of E40101"
+   },
+   {
+    "event": "E50404",
+    "name": "회상 · 그 밖 · 회상 4쪽 4번",
+    "data": "memory_replay page 4 slot 4 · replay_of E00516"
+   },
+   {
+    "event": "E50405",
+    "name": "회상 · 그 밖 · 회상 4쪽 5번 (10/21)",
+    "data": "memory_replay page 4 slot 5 · replay_of E40121 (10/21)"
+   },
+   {
+    "event": "E50406",
+    "name": "회상 · 그 밖 · 회상 4쪽 6번 (11/5)",
+    "data": "memory_replay page 4 slot 6 · replay_of E40081 (11/5)"
+   },
+   {
+    "event": "E50407",
+    "name": "회상 · 그 밖 · 회상 4쪽 7번 (11/1)",
+    "data": "memory_replay page 4 slot 7 · replay_of E40501 (11/1)"
+   },
+   {
+    "event": "E50408",
+    "name": "회상 · 그 밖 · 회상 4쪽 8번 (11/15)",
+    "data": "memory_replay page 4 slot 8 · replay_of E40144 (11/15)"
+   },
+   {
+    "event": "E50409",
+    "name": "회상 · 그 밖 · 회상 4쪽 9번",
+    "data": "memory_replay page 4 slot 9 · replay_of E40161"
+   },
+   {
+    "event": "E50410",
+    "name": "회상 · 그 밖 · 회상 4쪽 10번",
+    "data": "memory_replay page 4 slot 10 · replay_of E40523"
+   },
+   {
+    "event": "E60001",
+    "name": "회상 · 그 밖 · 회상 5쪽 1번",
+    "data": "memory_replay page 5 slot 1 · replay_of E00007"
+   },
+   {
+    "event": "E60002",
+    "name": "회상 · 그 밖 · 회상 5쪽 2번 (4/27)",
+    "data": "memory_replay page 5 slot 2 · replay_of E00008 (4/27)"
+   },
+   {
+    "event": "E60003",
+    "name": "회상 · 그 밖 · 회상 5쪽 3번",
+    "data": "memory_replay page 5 slot 3 · replay_of E00057"
+   },
+   {
+    "event": "E60004",
+    "name": "회상 · 그 밖 · 회상 5쪽 4번",
+    "data": "memory_replay page 5 slot 4 · replay_of E00064"
+   },
+   {
+    "event": "E60005",
+    "name": "회상 · 그 밖 · 회상 5쪽 5번 (6/7)",
+    "data": "memory_replay page 5 slot 5 · replay_of E00069 (6/7)"
+   },
+   {
+    "event": "E60006",
+    "name": "회상 · 그 밖 · 회상 5쪽 6번",
+    "data": "memory_replay page 5 slot 6 · replay_of E00097"
+   },
+   {
+    "event": "E60007",
+    "name": "회상 · 그 밖 · 회상 5쪽 7번 (6/22)",
+    "data": "memory_replay page 5 slot 7 · replay_of E00101 (6/22)"
+   },
+   {
+    "event": "E60008",
+    "name": "회상 · 그 밖 · 회상 5쪽 8번 (6/28)",
+    "data": "memory_replay page 5 slot 8 · replay_of E00108 (6/28)"
+   },
+   {
+    "event": "E60009",
+    "name": "회상 · 그 밖 · 회상 5쪽 9번",
+    "data": "memory_replay page 5 slot 9 · replay_of E00182"
+   },
+   {
+    "event": "E60010",
+    "name": "회상 · 그 밖 · 회상 5쪽 10번 (7/27)",
+    "data": "memory_replay page 5 slot 10 · replay_of E00185 (7/27)"
+   },
+   {
+    "event": "E60011",
+    "name": "회상 · 그 밖 · 회상 6쪽 1번 (8/13)",
+    "data": "memory_replay page 6 slot 1 · replay_of E00201 (8/13)"
+   },
+   {
+    "event": "E60012",
+    "name": "회상 · 그 밖 · 회상 6쪽 2번 (8/22)",
+    "data": "memory_replay page 6 slot 2 · replay_of E00204 (8/22)"
+   },
+   {
+    "event": "E60013",
+    "name": "회상 · 그 밖 · 회상 6쪽 3번 (9/19)",
+    "data": "memory_replay page 6 slot 3 · replay_of E00265 (9/19)"
+   },
+   {
+    "event": "E60014",
+    "name": "회상 · 그 밖 · 회상 6쪽 4번 (9/21)",
+    "data": "memory_replay page 6 slot 4 · replay_of E00266 (9/21)"
+   },
+   {
+    "event": "E60015",
+    "name": "회상 · 그 밖 · 회상 6쪽 5번 (10/13)",
+    "data": "memory_replay page 6 slot 5 · replay_of E00328 (10/13)"
+   },
+   {
+    "event": "E60016",
+    "name": "회상 · 그 밖 · 회상 6쪽 6번 (10/21)",
+    "data": "memory_replay page 6 slot 6 · replay_of E00452 (10/21)"
+   },
+   {
+    "event": "E60017",
+    "name": "회상 · 그 밖 · 회상 6쪽 7번 (11/11)",
+    "data": "memory_replay page 6 slot 7 · replay_of E00616 (11/11)"
+   },
+   {
+    "event": "E60018",
+    "name": "회상 · 그 밖 · 회상 6쪽 8번 (11/15)",
+    "data": "memory_replay page 6 slot 8 · replay_of E10182 (11/15)"
+   },
+   {
+    "event": "E60019",
+    "name": "회상 · 그 밖 · 회상 6쪽 9번 (11/15)",
+    "data": "memory_replay page 6 slot 9 · replay_of E00901 (11/15)"
+   },
+   {
+    "event": "E60020",
+    "name": "회상 · 그 밖 · 회상 6쪽 10번",
+    "data": "memory_replay page 6 slot 10 · replay_of E00999"
+   },
+   {
+    "event": "E50501",
+    "name": "회상 · 그 밖 · 회상 7쪽 1번 (4/9)",
+    "data": "memory_replay page 7 slot 1 · replay_of E00002 (4/9)"
+   },
+   {
+    "event": "E50502",
+    "name": "회상 · 그 밖 · 회상 7쪽 2번",
+    "data": "memory_replay page 7 slot 2 · replay_of E00097"
+   },
+   {
+    "event": "E50503",
+    "name": "회상 · 그 밖 · 회상 7쪽 3번 (9/20)",
+    "data": "memory_replay page 7 slot 3 · replay_of E00262 (9/20)"
+   },
+   {
+    "event": "E50504",
+    "name": "회상 · 그 밖 · 회상 7쪽 4번",
+    "data": "memory_replay page 7 slot 4 · replay_of E10203"
+   },
+   {
+    "event": "E50505",
+    "name": "회상 · 그 밖 · 회상 7쪽 5번 (11/1)",
+    "data": "memory_replay page 7 slot 5 · replay_of E10501 (11/1)"
+   },
+   {
+    "event": "E50506",
+    "name": "회상 · 그 밖 · 회상 7쪽 6번 (11/11)",
+    "data": "memory_replay page 7 slot 6 · replay_of E20141 (11/11)"
+   },
+   {
+    "event": "E50507",
+    "name": "회상 · 그 밖 · 회상 7쪽 7번 (11/1)",
+    "data": "memory_replay page 7 slot 7 · replay_of E20501 (11/1)"
+   },
+   {
+    "event": "E50508",
+    "name": "회상 · 그 밖 · 회상 7쪽 8번 (11/7)",
+    "data": "memory_replay page 7 slot 8 · replay_of E30081 (11/7)"
+   },
+   {
+    "event": "E50509",
+    "name": "회상 · 그 밖 · 회상 7쪽 9번 (11/16)",
+    "data": "memory_replay page 7 slot 9 · replay_of E30101 (11/16)"
+   },
+   {
+    "event": "E50510",
+    "name": "회상 · 그 밖 · 회상 7쪽 10번 (11/1)",
+    "data": "memory_replay page 7 slot 10 · replay_of E30501 (11/1)"
+   },
+   {
+    "event": "E50511",
+    "name": "회상 · 그 밖 · 회상 7쪽 11번",
+    "data": "memory_replay page 7 slot 11 · replay_of E40161"
+   },
+   {
+    "event": "E50512",
+    "name": "회상 · 그 밖 · 회상 7쪽 12번 (11/1)",
+    "data": "memory_replay page 7 slot 12 · replay_of E40501 (11/1)"
+   }
+  ],
+  "8": [
+   {
+    "event": "E06001",
+    "name": "일요일 시간 끝 처리",
+    "data": "source 残時間終わり処理／日曜"
+   },
+   {
+    "event": "E00055",
+    "name": "미사용 1",
+    "data": "category unknown · 번호 순 1"
+   },
+   {
+    "event": "E00062",
+    "name": "미사용 2",
+    "data": "category unknown · 번호 순 2"
+   },
+   {
+    "event": "E00122",
+    "name": "미사용 3",
+    "data": "category unknown · 번호 순 3"
+   },
+   {
+    "event": "E00123",
+    "name": "미사용 4",
+    "data": "category unknown · 번호 순 4"
+   },
+   {
+    "event": "E00202",
+    "name": "미사용 5",
+    "data": "category unknown · 번호 순 5"
+   },
+   {
+    "event": "E00203",
+    "name": "미사용 6",
+    "data": "category unknown · 번호 순 6"
+   },
+   {
+    "event": "E00225",
+    "name": "미사용 7",
+    "data": "category unknown · 번호 순 7"
+   },
+   {
+    "event": "E00226",
+    "name": "미사용 8",
+    "data": "category unknown · 번호 순 8"
+   },
+   {
+    "event": "E00227",
+    "name": "미사용 9",
+    "data": "category unknown · 번호 순 9"
+   },
+   {
+    "event": "E00228",
+    "name": "미사용 10",
+    "data": "category unknown · 번호 순 10"
+   },
+   {
+    "event": "E00229",
+    "name": "미사용 11",
+    "data": "category unknown · 번호 순 11"
+   },
+   {
+    "event": "E00230",
+    "name": "미사용 12",
+    "data": "category unknown · 번호 순 12"
+   },
+   {
+    "event": "E00231",
+    "name": "미사용 13",
+    "data": "category unknown · 번호 순 13"
+   },
+   {
+    "event": "E00232",
+    "name": "미사용 14",
+    "data": "category unknown · 번호 순 14"
+   },
+   {
+    "event": "E00234",
+    "name": "미사용 15",
+    "data": "category unknown · 번호 순 15"
+   },
+   {
+    "event": "E00235",
+    "name": "미사용 16",
+    "data": "category unknown · 번호 순 16"
+   },
+   {
+    "event": "E00236",
+    "name": "미사용 17",
+    "data": "category unknown · 번호 순 17"
+   },
+   {
+    "event": "E00237",
+    "name": "미사용 18",
+    "data": "category unknown · 번호 순 18"
+   },
+   {
+    "event": "E00238",
+    "name": "미사용 19",
+    "data": "category unknown · 번호 순 19"
+   },
+   {
+    "event": "E00239",
+    "name": "미사용 20",
+    "data": "category unknown · 번호 순 20"
+   },
+   {
+    "event": "E00240",
+    "name": "미사용 21",
+    "data": "category unknown · 번호 순 21"
+   },
+   {
+    "event": "E01137",
+    "name": "미사용 22",
+    "data": "category unknown · 번호 순 22"
+   },
+   {
+    "event": "E01226",
+    "name": "미사용 23",
+    "data": "category unknown · 번호 순 23"
+   },
+   {
+    "event": "E02045",
+    "name": "미사용 24",
+    "data": "category unknown · 번호 순 24"
+   },
+   {
+    "event": "E02127",
+    "name": "미사용 25",
+    "data": "category unknown · 번호 순 25"
+   },
+   {
+    "event": "E02128",
+    "name": "미사용 26",
+    "data": "category unknown · 번호 순 26"
+   },
+   {
+    "event": "E02486",
+    "name": "미사용 27",
+    "data": "category unknown · 번호 순 27"
+   },
+   {
+    "event": "E05022",
+    "name": "미사용 28",
+    "data": "category unknown · 번호 순 28"
+   }
+  ]
+ },
+ "r20": {
+  "training_count_source": {
+   "verdict": "C_Ability.training is a point pool (「훈련치」): not a count of trainings",
+   "getter": "C_Ability@GetTraining = .STRUCTREF C_Ability training",
+   "added_by": [
+    "L_BattleIncome::Settle (AddTrain x1, per battle income)",
+    "LFixedIncome::Settle (AddTrain x1)",
+    "LAbility::PrepareAbilities (SetTraining 150 at the start)"
+   ],
+   "emptied_by": "C_SceneTraining@ReflectStatus: nTraining = GetTraining(); spread over four stats (AddAbility x1 sites); SetTraining(0)",
+   "capped": "C_Ability@SetTraining caps at 99999",
+   "used_instead": "the person's after-training conversations seen in this save (특훈 뒤 · 반한 뒤 · 우선 대화 drawers, all months): 「특훈 뒤 대화 n번 봄」"
+  },
+  "dungeon_companion_count": {
+   "verdict": "no per-person dungeon companion counter: the companion count is left out (remaining scenes only)",
+   "places": {
+    "C_Ability": [
+     "id",
+     "level",
+     "hp_max",
+     "hp",
+     "experience",
+     "training",
+     "money",
+     "m_nDown",
+     "m_nPoison",
+     "m_nParalysis",
+     "m_nSleep",
+     "m_nBound",
+     "m_nConfusion",
+     "STR",
+     "QIK",
+     "DEX",
+     "SPR",
+     "strength",
+     "quickness",
+     "dexterity",
+     "spirit",
+     "magic",
+     "equip_items",
+     "depth",
+     "m_nFeeling",
+     "m_nSkillTable",
+     "m_bTurning",
+     "m_MaxEquipMemWP"
+    ],
+    "income_t": [
+     "nMonsterLevel",
+     "nExperienceLevel",
+     "nTrainingLevel",
+     "nMoneyLevel",
+     "nMonsId"
+    ],
+    "C_DungeonInfo": [
+     "<nID>",
+     "<nNextID>",
+     "<sName>",
+     "<nCG>",
+     "<nLayer>",
+     "<nLevel>",
+     "<nBGM>",
+     "<nMap>",
+     "<nAreaRank>",
+     "<nMonsterRank>",
+     "<nTrapRank>",
+     "<nTresureRank>",
+     "_monsters"
+    ],
+    "L_Party_globals": [
+     "L_Party::m_nPersons",
+     "L_Party::m_IsTempChanging",
+     "L_Party::m_nBufs"
+    ],
+    "L_BattleIncome_globals": [
+     "L_BattleIncome::m_incomes"
+    ],
+    "L_DungeonInfo_globals": [
+     "L_DungeonInfo::m_info"
+    ]
+   }
+  },
+  "widest_event_line": "이달 남은 특훈 뒤 대화 14",
+  "real_saves": [
+   {
+    "save": "NightR07.asd",
+    "today": "4/22",
+    "texts_equal": 15,
+    "native_build_ms": "272 ms",
+    "remaining_this_month": {
+     "이즈미": 11,
+     "쿄카": 11,
+     "마나미": 0,
+     "마코토": 0,
+     "신카이": 12,
+     "호시카와": 16,
+     "모모세": 0
+    },
+    "talks_seen": {
+     "이즈미": 1,
+     "쿄카": 1,
+     "마나미": 0,
+     "마코토": 0,
+     "신카이": 0,
+     "호시카와": 0,
+     "모모세": 0
+    }
+   },
+   {
+    "save": "NightR12.asd",
+    "today": "5/13",
+    "texts_equal": 15,
+    "native_build_ms": "291 ms",
+    "remaining_this_month": {
+     "이즈미": 10,
+     "쿄카": 10,
+     "마나미": 17,
+     "마코토": 0,
+     "신카이": 5,
+     "호시카와": 10,
+     "모모세": 0
+    },
+    "talks_seen": {
+     "이즈미": 2,
+     "쿄카": 2,
+     "마나미": 0,
+     "마코토": 0,
+     "신카이": 1,
+     "호시카와": 0,
+     "모모세": 0
+    }
+   },
+   {
+    "save": "NightR16.asd",
+    "today": "5/20",
+    "texts_equal": 15,
+    "native_build_ms": "309 ms",
+    "remaining_this_month": {
+     "이즈미": 10,
+     "쿄카": 10,
+     "마나미": 14,
+     "마코토": 0,
+     "신카이": 5,
+     "호시카와": 10,
+     "모모세": 0
+    },
+    "talks_seen": {
+     "이즈미": 2,
+     "쿄카": 2,
+     "마나미": 1,
+     "마코토": 0,
+     "신카이": 1,
+     "호시카와": 0,
+     "모모세": 0
+    }
+   },
+   {
+    "save": "NightR18.asd",
+    "today": "5/27",
+    "texts_equal": 15,
+    "native_build_ms": "304 ms",
+    "remaining_this_month": {
+     "이즈미": 10,
+     "쿄카": 10,
+     "마나미": 14,
+     "마코토": 0,
+     "신카이": 5,
+     "호시카와": 9,
+     "모모세": 0
+    },
+    "talks_seen": {
+     "이즈미": 2,
+     "쿄카": 2,
+     "마나미": 1,
+     "마코토": 0,
+     "신카이": 1,
+     "호시카와": 1,
+     "모모세": 0
+    }
+   },
+   {
+    "save": "NightR23.asd",
+    "today": "6/10",
+    "texts_equal": 15,
+    "native_build_ms": "304 ms",
+    "remaining_this_month": {
+     "이즈미": 6,
+     "쿄카": 6,
+     "마나미": 11,
+     "마코토": 16,
+     "신카이": 5,
+     "호시카와": 10,
+     "모모세": 12
+    },
+    "talks_seen": {
+     "이즈미": 2,
+     "쿄카": 3,
+     "마나미": 1,
+     "마코토": 0,
+     "신카이": 2,
+     "호시카와": 1,
+     "모모세": 0
+    }
+   },
+   {
+    "save": "NightR24.asd",
+    "today": "6/10",
+    "texts_equal": 15,
+    "native_build_ms": "306 ms",
+    "remaining_this_month": {
+     "이즈미": 6,
+     "쿄카": 6,
+     "마나미": 11,
+     "마코토": 16,
+     "신카이": 5,
+     "호시카와": 10,
+     "모모세": 12
+    },
+    "talks_seen": {
+     "이즈미": 2,
+     "쿄카": 3,
+     "마나미": 1,
+     "마코토": 0,
+     "신카이": 2,
+     "호시카와": 1,
+     "모모세": 0
+    }
+   },
+   {
+    "save": "NightR26.asd",
+    "today": "7/1",
+    "texts_equal": 15,
+    "native_build_ms": "333 ms",
+    "remaining_this_month": {
+     "이즈미": 8,
+     "쿄카": 7,
+     "마나미": 5,
+     "마코토": 4,
+     "신카이": 5,
+     "호시카와": 10,
+     "모모세": 8
+    },
+    "talks_seen": {
+     "이즈미": 4,
+     "쿄카": 3,
+     "마나미": 1,
+     "마코토": 0,
+     "신카이": 2,
+     "호시카와": 1,
+     "모모세": 2
+    }
+   },
+   {
+    "save": "NightR31.asd",
+    "today": "8/19",
+    "texts_equal": 15,
+    "native_build_ms": "353 ms",
+    "remaining_this_month": {
+     "이즈미": 7,
+     "쿄카": 6,
+     "마나미": 5,
+     "마코토": 12,
+     "신카이": 5,
+     "호시카와": 9,
+     "모모세": 4
+    },
+    "talks_seen": {
+     "이즈미": 5,
+     "쿄카": 4,
+     "마나미": 4,
+     "마코토": 3,
+     "신카이": 2,
+     "호시카와": 1,
+     "모모세": 3
+    }
+   },
+   {
+    "save": "NightR33.asd",
+    "today": "8/26",
+    "texts_equal": 15,
+    "native_build_ms": "349 ms",
+    "remaining_this_month": {
+     "이즈미": 7,
+     "쿄카": 5,
+     "마나미": 5,
+     "마코토": 12,
+     "신카이": 5,
+     "호시카와": 9,
+     "모모세": 4
+    },
+    "talks_seen": {
+     "이즈미": 5,
+     "쿄카": 5,
+     "마나미": 4,
+     "마코토": 3,
+     "신카이": 2,
+     "호시카와": 1,
+     "모모세": 3
+    }
+   },
+   {
+    "save": "NightR37.asd",
+    "today": "9/16",
+    "texts_equal": 15,
+    "native_build_ms": "351 ms",
+    "remaining_this_month": {
+     "이즈미": 8,
+     "쿄카": 4,
+     "마나미": 8,
+     "마코토": 5,
+     "신카이": 5,
+     "호시카와": 5,
+     "모모세": 6
+    },
+    "talks_seen": {
+     "이즈미": 6,
+     "쿄카": 6,
+     "마나미": 4,
+     "마코토": 3,
+     "신카이": 2,
+     "호시카와": 2,
+     "모모세": 3
+    }
+   },
+   {
+    "save": "NightR38.asd",
+    "today": "9/16",
+    "texts_equal": 15,
+    "native_build_ms": "366 ms",
+    "remaining_this_month": {
+     "이즈미": 8,
+     "쿄카": 4,
+     "마나미": 8,
+     "마코토": 5,
+     "신카이": 5,
+     "호시카와": 5,
+     "모모세": 6
+    },
+    "talks_seen": {
+     "이즈미": 6,
+     "쿄카": 6,
+     "마나미": 4,
+     "마코토": 3,
+     "신카이": 2,
+     "호시카와": 2,
+     "모모세": 3
+    }
+   },
+   {
+    "save": "NightR41.asd",
+    "today": "9/30",
+    "texts_equal": 15,
+    "native_build_ms": "362 ms",
+    "remaining_this_month": {
+     "이즈미": 7,
+     "쿄카": 4,
+     "마나미": 8,
+     "마코토": 4,
+     "신카이": 5,
+     "호시카와": 5,
+     "모모세": 6
+    },
+    "talks_seen": {
+     "이즈미": 7,
+     "쿄카": 6,
+     "마나미": 4,
+     "마코토": 4,
+     "신카이": 2,
+     "호시카와": 2,
+     "모모세": 3
+    }
+   },
+   {
+    "save": "NightR44.asd",
+    "today": "10/14",
+    "texts_equal": 15,
+    "native_build_ms": "376 ms",
+    "remaining_this_month": {
+     "이즈미": 6,
+     "쿄카": 5,
+     "마나미": 4,
+     "마코토": 6,
+     "신카이": 5,
+     "호시카와": 5,
+     "모모세": 5
+    },
+    "talks_seen": {
+     "이즈미": 7,
+     "쿄카": 7,
+     "마나미": 5,
+     "마코토": 4,
+     "신카이": 2,
+     "호시카와": 2,
+     "모모세": 3
+    }
+   },
+   {
+    "save": "NightR47.asd",
+    "today": "11/4",
+    "texts_equal": 15,
+    "native_build_ms": "379 ms",
+    "remaining_this_month": {
+     "이즈미": 6,
+     "쿄카": 4,
+     "마나미": 3,
+     "마코토": 5,
+     "신카이": 5,
+     "호시카와": 5,
+     "모모세": 5
+    },
+    "talks_seen": {
+     "이즈미": 7,
+     "쿄카": 9,
+     "마나미": 5,
+     "마코토": 5,
+     "신카이": 2,
+     "호시카와": 2,
+     "모모세": 3
+    }
+   }
+  ],
+  "states": [
+   "none 4/9",
+   "partial 6/13",
+   "all 11/10",
+   "all_but_one 7/20",
+   "mid-August",
+   "partial 5/18 (before 마나미 joins)",
+   "partial 6/29 (before 마코토 joins)"
+  ]
+ },
+ "r21": {
+  "commands": [
+   {
+    "cmd": "chart",
+    "window": "<chart>",
+    "files": {},
+    "exit": null
+   },
+   {
+    "cmd": "unlock_all",
+    "window": "†전체 개방: 안 본 이벤트도 열람·재생됩니다",
+    "files": {
+     "YoruKR_Chart.dat": "YoruKR.Chart.1\r\n1\r\n"
+    },
+    "exit": null
+   },
+   {
+    "cmd": "unlock_revert",
+    "window": "†전체 개방 되돌리기: 읽은 이벤트만 열람·재생됩니다",
+    "files": {
+     "YoruKR_Chart.dat": "YoruKR.Chart.1\r\n0\r\n"
+    },
+    "exit": null
+   },
+   {
+    "cmd": "reset_all",
+    "window": "†세이브 파일과 설정은 남습니다.",
+    "files": {
+     "YoruKR_reset.marker": "reset",
+     "reset.req": "reset"
+    },
+    "exit": 0
+   },
+   {
+    "cmd": "reset_restore",
+    "window": "†세이브 파일과 설정은 남습니다.",
+    "files": {
+     "YoruKR_reset.marker": "restore",
+     "restore.req": "restore"
+    },
+    "exit": 0
+   }
+  ],
+  "flag": {
+   "sequence": [
+    1,
+    0,
+    1
+   ],
+   "file_bytes": "YoruKR.Chart.1\\r\\n<0|1>\\r\\n"
+  },
+  "reset": [
+   {
+    "cmd": "reset_all",
+    "marker": "reset",
+    "req": "reset.req",
+    "req_text": "reset",
+    "removed_stale": "restore.req",
+    "exit": 0
+   },
+   {
+    "cmd": "reset_restore",
+    "marker": "restore",
+    "req": "restore.req",
+    "req_text": "restore",
+    "removed_stale": "reset.req",
+    "exit": 0
+   }
+  ],
+  "results": {
+   "windows": 16,
+   "longest_lines": 5,
+   "sample": [
+    "restore partial 1 files (from",
+    "KR_reset_20260928_031500, previous",
+    "kept in",
+    "KR_before_restore_20260928_031501)"
+   ]
+  },
+  "scope": {
+   "outside_home_dialogs": 3,
+   "own_windows": 1
+  },
+  "frames_in_saved_stacks": []
+ },
+ "r22": {
+  "tables": {
+   "cells": 915,
+   "per_tab": [
+    143,
+    116,
+    203,
+    56,
+    64,
+    58,
+    91,
+    71,
+    85,
+    28
+   ],
+   "thumbnails": 95
+  },
+  "flow": {
+   "locked": 121,
+   "replay_ctx1": 10001,
+   "replay_ctx2": 10001,
+   "card": "G00004"
+  },
+  "confine": {
+   "compared": 126,
+   "cards": 23,
+   "scenes": 51
+  },
+  "title": {
+   "commands": 5
+  },
+  "noplay": {
+   "real": [
+    262
+   ]
+  }
+ }
+}

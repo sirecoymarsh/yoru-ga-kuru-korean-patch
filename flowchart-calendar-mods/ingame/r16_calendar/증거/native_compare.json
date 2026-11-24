@@ -1,0 +1,27 @@
+{
+ "schema": "yoru-calendar-r16.native-compare.v1",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "candidate_sha256": "4056429f9e9999c8bec64ed244cf0393285529e74c6693b2768176cf8439b2fc",
+ "titles": {
+  "LANE 8 1": "identical",
+  "MONTH 8": "identical",
+  "MONTH 8 marks": "▲○●★☆",
+  "SUMMARY": "identical",
+  "MONTH 9": "identical",
+  "MONTH 9 marks": "★",
+  "MONTH 10": "identical",
+  "MONTH 10 marks": "●★",
+  "LANE 10 3 p1": "identical",
+  "LANE 10 3 p2": "identical",
+  "panel_same_save": {
+   "panel": "135/1043 = 12.9% (KR_T8Pct floors)",
+   "calendar": "136/1164 (11.7%) (rounded)",
+   "calendar_only_seen": 1
+  },
+  "save": "NightR31.asd",
+  "today": "8/19"
+ },
+ "counts": {
+  "N_titles_identical": 10
+ }
+}

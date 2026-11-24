@@ -1,0 +1,374 @@
+[
+  {
+    "name": "C_GameDate",
+    "constructor": 26465,
+    "members": [
+      {
+        "name": "_month",
+        "name2": "_month",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "_day",
+        "name2": "_day",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "_week",
+        "name2": "_week",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "_remain",
+        "name2": "_remain",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "_remainStart",
+        "name2": "_remainStart",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      }
+    ]
+  },
+  {
+    "name": "C_SceneSaveLoad",
+    "interfaces": [
+      [
+        677,
+        0
+      ]
+    ],
+    "constructor": 29541,
+    "destructor": 29543,
+    "members": [
+      {
+        "name": "<vtable>",
+        "name2": "<vtable>",
+        "type": [
+          79,
+          -1,
+          1,
+          [
+            10,
+            -1,
+            0,
+            null
+          ]
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_View",
+        "name2": "m_View",
+        "type": [
+          21,
+          760,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_ResultNone",
+        "name2": "m_ResultNone",
+        "type": [
+          13,
+          674,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_Type",
+        "name2": "m_Type",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "initval": 0,
+        "group-index": 0
+      }
+    ]
+  },
+  {
+    "name": "C_SceneSaveLoadView",
+    "destructor": 29570,
+    "members": [
+      {
+        "name": "m_Act",
+        "name2": "m_Act",
+        "type": [
+          89,
+          16,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "<void>",
+        "name2": "",
+        "type": [
+          0,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_OnMouseParts",
+        "name2": "m_OnMouseParts",
+        "type": [
+          89,
+          389,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "<void>",
+        "name2": "",
+        "type": [
+          0,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_NewParts",
+        "name2": "m_NewParts",
+        "type": [
+          89,
+          389,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "<void>",
+        "name2": "",
+        "type": [
+          0,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_AutoNewParts",
+        "name2": "m_AutoNewParts",
+        "type": [
+          89,
+          389,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "<void>",
+        "name2": "",
+        "type": [
+          0,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_Cells",
+        "name2": "m_Cells",
+        "type": [
+          79,
+          761,
+          1,
+          [
+            21,
+            761,
+            0,
+            null
+          ]
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_LayerId",
+        "name2": "m_LayerId",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_LastLayerId",
+        "name2": "m_LastLayerId",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "<Type>",
+        "name2": "<Type>",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "<PageNo>",
+        "name2": "<PageNo>",
+        "type": [
+          10,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "<IsIgnoreWheel>",
+        "name2": "<IsIgnoreWheel>",
+        "type": [
+          47,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "OnClick",
+        "name2": "OnClick",
+        "type": [
+          63,
+          1245,
+          0,
+          null
+        ],
+        "group-index": 0
+      }
+    ]
+  },
+  {
+    "name": "C_SaveLoadViewCell",
+    "destructor": 29587,
+    "members": [
+      {
+        "name": "m_Act",
+        "name2": "m_Act",
+        "type": [
+          89,
+          16,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "<void>",
+        "name2": "",
+        "type": [
+          0,
+          -1,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "m_Info",
+        "name2": "m_Info",
+        "type": [
+          21,
+          766,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "OnClick",
+        "name2": "OnClick",
+        "type": [
+          63,
+          1245,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "OnEnterMouse",
+        "name2": "OnEnterMouse",
+        "type": [
+          63,
+          1245,
+          0,
+          null
+        ],
+        "group-index": 0
+      },
+      {
+        "name": "OnLeaveMouse",
+        "name2": "OnLeaveMouse",
+        "type": [
+          63,
+          1245,
+          0,
+          null
+        ],
+        "group-index": 0
+      }
+    ]
+  }
+]

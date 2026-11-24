@@ -1,0 +1,73 @@
+[
+  {
+    "default": "히카리",
+    "choices": [
+      "히카리",
+      "광수",
+      "빛잡이"
+    ],
+    "max_width": 108
+  },
+  {
+    "default": "카샤",
+    "choices": [
+      "카샤",
+      "화자",
+      "불지기"
+    ],
+    "max_width": 108
+  },
+  {
+    "default": "치로",
+    "choices": [
+      "치로",
+      "쉭쉭이"
+    ],
+    "max_width": 108
+  },
+  {
+    "default": "틈새",
+    "choices": [
+      "틈새",
+      "하자마",
+      "틈"
+    ],
+    "max_width": 108
+  },
+  {
+    "default": "얼어붙은 밤",
+    "choices": [
+      "얼어붙은 밤",
+      "토야",
+      "동야"
+    ],
+    "max_width": 192
+  },
+  {
+    "default": "참된 달",
+    "choices": [
+      "참된 달",
+      "진월",
+      "신게츠"
+    ],
+    "max_width": 120
+  },
+  {
+    "default": "참된 밤",
+    "choices": [
+      "참된 밤",
+      "진야",
+      "신야"
+    ],
+    "max_width": 120
+  },
+  {
+    "default": "호무라",
+    "choices": [
+      "호무라",
+      "화군",
+      "불무리"
+    ],
+    "max_width": 108
+  }
+]

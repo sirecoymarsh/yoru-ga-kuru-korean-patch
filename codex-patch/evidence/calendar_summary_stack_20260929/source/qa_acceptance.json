@@ -1,0 +1,608 @@
+{
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5), adjudicator",
+ "role": "adjudicator (판정자): 집필자·독립 검수자가 사람 몫으로 남긴 항목을 원문과 대조해 판정",
+ "time": "2026-09-29T23:20:42.269978+09:00",
+ "policy": "발주자 판정 방침 2026-09-29: 1 수락 범주(성인 비노골·태그 없는 인물 무명·두 갈래 해석·용어 표기·후반 정보·회상 60001/60002·카드 메타 장소·시간 경과), 2 결함(원문에 없는 추정·사실·행위자 오류)은 문제 낱말만 수정",
+ "gate_reads": "verify_summary_layer.acceptance(): accepted[].qa_sha256 / count / reason + reviewer",
+ "totals": {
+  "records_with_open_items": 10,
+  "accepted_items": 31,
+  "fixed_items": 1,
+  "held_items": 0
+ },
+ "accepted": [
+  {
+   "qa_sha256": "061eecf5f5eb084416de08a2a49d3a12790cd2a5a1b9b9cf374cfb489f8f19f7",
+   "count": 3,
+   "month": "calendar_june_summaries_20260929",
+   "layer": "06_06",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\evidence\\independent_review.json",
+   "summaries_sha256": "069c23623b529339115a8877339ea95e46ff130becd715c9e9ba603fbdc5816b",
+   "reason": "3건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      70
+     ],
+     "type": "행위자 귀속(두 갈래 해석)",
+     "verdict": "수락",
+     "reason": "전언 속 칭찬의 주인을 앞뒤 흐름(그 인물 보고의 연속)과 짝 갈래 E00805 msg 13115의 같은 칭찬으로 고른 검수자 판단. 방침 1(두 갈래 해석에서 앞뒤 흐름으로 고른 쪽)."
+    },
+    {
+     "ids": [
+      97
+     ],
+     "type": "성인 장면 표현·내용 선택",
+     "verdict": "수락",
+     "reason": "노골 묘사 생략은 방침 1(성인 장면 비노골 표현 유지). 끝부분 추가는 선택 사항이며 100자 한도 안에서 현행도 결함 아님."
+    },
+    {
+     "ids": [
+      30021
+     ],
+     "type": "낱말 선택",
+     "verdict": "수락",
+     "reason": "요약 낱말은 원문 인물 자신의 말(msg 55850). 주인공 속생각의 짐작을 사실로 쓰지 않은 쪽이 원문 충실. 결함 아님."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": "3건 = 독립 검수 unresolved 3건과 같은 항목(위 판정)."
+  },
+  {
+   "qa_sha256": "98c17698fa0ee25c4699ffbde55d64fdd0c4707092812208708e09a61c8db524",
+   "count": 2,
+   "month": "calendar_jul_aug_summaries_20260929/july",
+   "layer": "07_07",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\july\\evidence\\independent_review.json",
+   "summaries_sha256": "d3e3db0e22b947f2fed06f313bf02ff4464dd0313556677aa3587247b1181a2f",
+   "reason": "2건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      153,
+      154,
+      157,
+      160,
+      161,
+      162,
+      163,
+      167,
+      171,
+      172,
+      173,
+      174,
+      181,
+      183,
+      185,
+      1308
+     ],
+     "type": "용어 표기 선택",
+     "verdict": "수락",
+     "reason": "방침 1(용어 표기 선택은 용어 층 KR_TF29·정합 패치가 처리)."
+    },
+    {
+     "ids": [
+      1711,
+      1712,
+      1713
+     ],
+     "type": "동결 메타 불일치(범위 밖)",
+     "verdict": "수락",
+     "reason": "events.json when 값의 문제로 요약 층 밖. 요약은 장면 내용만 써서 영향 없음(검수자 확인)."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": null
+  },
+  {
+   "qa_sha256": "d17ea1a3a6c91ad74afbe3177dd75f6905a2b32c6909b7f0c0ebc7b8d4950ce8",
+   "count": 2,
+   "month": "calendar_jul_aug_summaries_20260929/august",
+   "layer": "08_08",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\evidence\\independent_review.json",
+   "summaries_sha256": "9a79d9e6f744b9113953c8d6d8800d688c5624d970cda67094c981d83bd24455",
+   "reason": "2건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      242,
+      1145,
+      2603,
+      20167
+     ],
+     "type": "용어 표기 선택",
+     "verdict": "수락",
+     "reason": "방침 1(용어 표기 선택은 용어 층·정합 패치가 처리). E02603 은 제안 없음(term_alignment proposal 빈 목록)이라 이번 수정과 충돌 없음."
+    },
+    {
+     "ids": [
+      1411,
+      1412,
+      1413
+     ],
+     "type": "동결 메타 불일치(범위 밖)",
+     "verdict": "수락",
+     "reason": "events.json when 값의 문제로 요약 층 밖. 요약 영향 없음."
+    }
+   ],
+   "fixed_items": [
+    {
+     "ids": [
+      2603
+     ],
+     "type": "원문에 없는 추정",
+     "verdict": "결함·수정",
+     "reason": "방침 2. 장면이 꿈이라고 밝히지 않는데 꿈이라 단정. 문제 낱말 두 곳만 고침(길이 98→98), 상태 independent_qa_pass 유지, 행 note 에 판정, 복사판 게이트 재실행 PASS. 검수 기록의 unresolved 에서 resolved_by_adjudication 으로 옮김."
+    }
+   ],
+   "author_unresolved": null
+  },
+  {
+   "qa_sha256": "b1bd28b559000be4f9d11322816dd3ec69a14dabc61615a42f8ef4a27db5677b",
+   "count": 1,
+   "month": "calendar_sep_other_summaries_20260929/september",
+   "layer": "09_09",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\september\\evidence\\independent_review.json",
+   "summaries_sha256": "15522feea9b6e4111e87339c8146b42aeacd281e817e1dff5830d690cc4c6b9d",
+   "reason": "1건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      265
+     ],
+     "type": "두 갈래 해석",
+     "verdict": "수락",
+     "reason": "방침 1(두 갈래 해석에서 검수자가 앞뒤 흐름으로 고른 쪽). 설치 한국어 대사(msg 26002-26004)의 읽기는 대사 교정 쪽 일이며 요약 결함 아님."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": null
+  },
+  {
+   "qa_sha256": "20d94eeed4cb47d3240444183bf20198be5e8f6a080f9bd09755f579e54171c2",
+   "count": 1,
+   "month": "calendar_sep_other_summaries_20260929/other",
+   "layer": "10_OT",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\other\\evidence\\independent_review.json",
+   "summaries_sha256": "4fdb67856a0666b0d65e4437505863ca69ac00a6aabcaeeea3fdd279703453a2",
+   "reason": "1건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      5022
+     ],
+     "type": "후반 정보(스포일러 노출)",
+     "verdict": "수락",
+     "reason": "방침 1(후반 정보는 미열람 숨김이 지킴). 최종 후보 무음 탐침이 E05022 를 포함한 전 장면에서 안 읽음(열림·잠김) 때 요약 없음을 확인. 이 장면은 부르는 자리가 없는 미사용 장면이라 정상 진행에서 읽음이 되지 않는다."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": null
+  },
+  {
+   "qa_sha256": "16b95d1312b989b32d6c0d6fad4872e87b3be1f2e665f1e8b13319f163d7aa0f",
+   "count": 7,
+   "month": "calendar_october_summaries_20260929",
+   "layer": "11_10",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\evidence\\independent_review.json",
+   "summaries_sha256": "e3d5b5340e6bedcec7321321e2f87874903495d6fdcd11f05adb3c864012fd59",
+   "reason": "7건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      516
+     ],
+     "type": "성인 장면 표현",
+     "verdict": "수락",
+     "reason": "방침 1(비노골 표현 유지)."
+    },
+    {
+     "ids": [
+      524,
+      525,
+      5024,
+      5025,
+      10121,
+      10122,
+      40121
+     ],
+     "type": "자기 장면의 큰 공개(후반 정보)",
+     "verdict": "수락",
+     "reason": "방침 1(후반 정보는 미열람 숨김이 지킴). 7개 모두 탐침 범위 안이며 안 읽음 때 요약 없음 확인. 다른 장면·나중 사건 추가 없음(검수자)."
+    },
+    {
+     "ids": [
+      1165
+     ],
+     "type": "설치 한국어 대사 오역(범위 밖)",
+     "verdict": "수락",
+     "reason": "msg 90901 대사 번역 문제. 요약은 일본어 뜻을 따라 맞음. 요약 결함 아님(대사 교정은 별도)."
+    },
+    {
+     "ids": [
+      530
+     ],
+     "type": "설치 한국어 대사 오역(범위 밖)",
+     "verdict": "수락",
+     "reason": "msg 30180 대사 번역 문제. 요약 결함 아님(대사 교정은 별도)."
+    },
+    {
+     "ids": [
+      10101
+     ],
+     "type": "설치 한국어 잔여 조각(범위 밖)",
+     "verdict": "수락",
+     "reason": "msg 42348 대사 문자열 문제. 요약 결함 아님(대사 교정은 별도)."
+    },
+    {
+     "ids": [
+      5021
+     ],
+     "type": "전환 가능 용어 방침",
+     "verdict": "수락",
+     "reason": "방침 1(용어 표기 선택은 용어 층·정합 패치가 처리)."
+    },
+    {
+     "ids": [],
+     "type": "보드 높이",
+     "verdict": "수락",
+     "reason": "실측으로 해소: 최종 후보 무음 탐침(evidence/native_summary_probe.json)에서 10월 128개 최대 4줄 · 보드 623px · 버튼 위 여백 26px 이상(한도 5줄 · 680px · 12px)."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": "5건(보드 높이·전환 용어·E00516·큰 공개·E01165) = 독립 검수 unresolved 7건 안에 모두 들어 있음(위 판정)."
+  },
+  {
+   "qa_sha256": "a3a277d9c65a3fd5a54b05ed130a435e2b315ab82b07e081859c0765e8e10c12",
+   "count": 5,
+   "month": "calendar_november_a_summaries_20260929",
+   "layer": "12_11",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\evidence\\independent_review.json",
+   "summaries_sha256": "c3af993b786662b6a1aec54795b8d28eabaff1d5ce5b4ff0b964ef517a0726ba",
+   "reason": "5건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      10501,
+      20141,
+      30081
+     ],
+     "type": "성인 장면 표현",
+     "verdict": "수락",
+     "reason": "방침 1(비노골 표현 유지). 행위·신체 묘사 없음(검수자)."
+    },
+    {
+     "ids": [
+      50005,
+      50006
+     ],
+     "type": "화자 귀속(태그 없는 괄호 독백)",
+     "verdict": "수락",
+     "reason": "태그 없는 괄호 독백은 이 게임에서 1인칭 서술자의 속생각 표기(같은 카드 50003 은 주인공 태그, 다른 달에도 같은 꼴). 새 인물 이름을 붙이지 않았고 앞뒤 흐름으로 고른 귀속. 방침 1."
+    },
+    {
+     "ids": [
+      50010,
+      50003,
+      50005,
+      50006
+     ],
+     "type": "카드 메타에서 온 장소 이름",
+     "verdict": "수락",
+     "reason": "방침 1(카드 메타에서 온 장소 이름)."
+    },
+    {
+     "ids": [
+      10181,
+      40145,
+      904,
+      931,
+      932,
+      933,
+      934,
+      935,
+      936,
+      937,
+      938,
+      939,
+      940,
+      961,
+      962,
+      963,
+      964,
+      965,
+      966,
+      967,
+      968,
+      969,
+      970,
+      1272
+     ],
+     "type": "전환 용어 풀어쓰기",
+     "verdict": "수락",
+     "reason": "방침 1(용어 표기 선택은 용어 층·정합 패치가 처리). 뜻 손실 없음(검수자)."
+    },
+    {
+     "ids": [],
+     "type": "A/B 교차 유일성",
+     "verdict": "수락",
+     "reason": "검사로 해소: check_summary_consistency 가 A·B 와 모든 달·4월 승인본을 함께 읽어 duplicate_summary 0 · duplicate_id 0 (판정 뒤 재실행 work/adjudication/checks)."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": "5건(성인 표현·괄호 독백·센터 빌딩·자기 검토·A/B 유일성) = 독립 검수가 자기 검토 문제를 해소했고 나머지는 독립 검수 unresolved 5건(위 판정)."
+  },
+  {
+   "qa_sha256": "79e00d8c4b9bafb57ebb2fea922754305209b7772dc53841ad0c3ba1043f398e",
+   "count": 4,
+   "month": "calendar_november_b_summaries_20260929",
+   "layer": "12_11",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_b_summaries_20260929\\evidence\\independent_review.json",
+   "summaries_sha256": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8",
+   "reason": "4건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      658,
+      10203,
+      20501,
+      30101,
+      30501,
+      40161,
+      40501
+     ],
+     "type": "성인 장면 어조",
+     "verdict": "수락",
+     "reason": "방침 1(비노골 표현 유지). 7개 모두 노골 묘사 없음(검수자 전문 대조)."
+    },
+    {
+     "ids": [
+      5023,
+      10202,
+      995,
+      999,
+      10521,
+      10522
+     ],
+     "type": "화자 태그 없는 인물",
+     "verdict": "수락",
+     "reason": "방침 1(화자 태그 없는 인물에 이름 안 붙임)."
+    },
+    {
+     "ids": [
+      901,
+      905
+     ],
+     "type": "용어 표기 선택",
+     "verdict": "수락",
+     "reason": "방침 1(용어 표기 선택은 용어 층·정합 패치가 처리)."
+    },
+    {
+     "ids": [
+      996,
+      10523,
+      20523,
+      30523,
+      40523,
+      50007
+     ],
+     "type": "제외 행 표시(UI)",
+     "verdict": "수락",
+     "reason": "제외 행은 요약 층에 굽지 않는다(summaries_baked 에 없음을 확인). 요약 없는 장면은 제목·요약 칸을 그리지 않는다(탐침 대조 장면). 요약 결함 아님."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": null
+  },
+  {
+   "qa_sha256": "eb0e6b5861709ec830dd9d8e832d97a5dfe9310644bc221d4ada64b007bdbb52",
+   "count": 1,
+   "month": "calendar_memory_a_summaries_20260929",
+   "layer": "13_ME",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_a_summaries_20260929\\evidence\\independent_review.json",
+   "summaries_sha256": "108aaa9ed5e1ca2307419808248ee1aa3623a20fe1ace43723c054203dc0b7f1",
+   "reason": "1건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      50505,
+      50507,
+      50510,
+      50512
+     ],
+     "type": "스포일러 수위·미열람 가림",
+     "verdict": "수락",
+     "reason": "방침 1(후반 정보는 미열람 숨김이 지킴). 네 장면 모두 탐침 범위 안이며 안 읽음 때 요약 없음 확인. 꿈이라 단정하지 않은 현 서술이 원문 충실(8월 E02603 수정과 같은 원칙)."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": "3건: E50506 은 독립 검수가 수정, copy_of 25행은 가면 층·탐침(copy 30/30)이 처리, 11/1 밤 계열은 독립 검수 unresolved 1건(위 판정)."
+  },
+  {
+   "qa_sha256": "1c618308eab660fac0ba4aee5758edebc6b369bc0ce0154eac4ecdfa98bf6060",
+   "count": 5,
+   "month": "calendar_memory_b_summaries_20260929",
+   "layer": "13_ME",
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_b_summaries_20260929\\evidence\\independent_review.json",
+   "summaries_sha256": "7a9229c41fe346df78b1401c40a2c809938bd2720a39b3aaff5125c0186f099f",
+   "reason": "5건 모두 판정자가 원문·기록과 대조해 수락(방침 1 범주 또는 실측·검사로 해소, 요약 결함 아님). 항목별 이유는 items.",
+   "items": [
+    {
+     "ids": [
+      60001
+     ],
+     "type": "회상 재생본 자기 문장",
+     "verdict": "수락",
+     "reason": "방침 1(회상 60001·60002 자기 문장 유지)."
+    },
+    {
+     "ids": [
+      60002
+     ],
+     "type": "회상 재생본 자기 문장",
+     "verdict": "수락",
+     "reason": "방침 1(회상 60001·60002 자기 문장 유지)."
+    },
+    {
+     "ids": [
+      65004
+     ],
+     "type": "두 갈래 해석",
+     "verdict": "수락",
+     "reason": "방침 1(두 갈래 해석에서 검수자가 고른 쪽). 설치 한국어와 같은 읽기이며 어느 쪽이든 청중 반응이 나빠 중단한다는 흐름은 같다."
+    },
+    {
+     "ids": [],
+     "type": "후반 본편 재생 칸 정보",
+     "verdict": "수락",
+     "reason": "방침 1(후반 정보는 미열람 숨김이 지킴)."
+    },
+    {
+     "ids": [
+      60018
+     ],
+     "type": "동결 메타 줄바꿈(범위 밖)",
+     "verdict": "수락",
+     "reason": "events.json when 값 문제로 요약 층 밖. 요약 무관."
+    }
+   ],
+   "fixed_items": [],
+   "author_unresolved": null
+  }
+ ],
+ "row_notes_judged": [
+  {
+   "month": "calendar_sep_other_summaries_20260929/other",
+   "ids": [
+    55,
+    62
+   ],
+   "type": "한 줄 혼잣말 장면의 제외 여부",
+   "verdict": "수락",
+   "reason": "검수자 판단(극 중 대사가 있어 excluded 아님) 유지. 없는 이야기를 만들지 않았고 짧은 기능 설명 수준."
+  }
+ ],
+ "records": [
+  {
+   "layer": "04_04",
+   "month": "calendar_april_summary_20260929",
+   "summaries_sha256_now": "0c62191f5b1e17f6f8dbd6ffd648f51330761b12b35f7df47f6d7074ab60b552",
+   "summaries_sha256_at_build": "0c62191f5b1e17f6f8dbd6ffd648f51330761b12b35f7df47f6d7074ab60b552",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_summary_20260929\\evidence\\semantic_qa.json",
+   "qa_sha256": "78302d4849b6ff0353746d3fcc0099a236149ff0741e324436c030e85b9dc335",
+   "unresolved": 0
+  },
+  {
+   "layer": "05_05",
+   "month": "calendar_may_summaries_20260929",
+   "summaries_sha256_now": "5a5a70761d79265ea1de4e64143180b0b16079e5c799aaf4b6722e1475ba32af",
+   "summaries_sha256_at_build": "5a5a70761d79265ea1de4e64143180b0b16079e5c799aaf4b6722e1475ba32af",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_may_summaries_20260929\\evidence\\independent_review.json",
+   "qa_sha256": "807cad50e64eada0a8b30e31297828f83f0530932a991b5971a303a187c41279",
+   "unresolved": 0
+  },
+  {
+   "layer": "06_06",
+   "month": "calendar_june_summaries_20260929",
+   "summaries_sha256_now": "069c23623b529339115a8877339ea95e46ff130becd715c9e9ba603fbdc5816b",
+   "summaries_sha256_at_build": "069c23623b529339115a8877339ea95e46ff130becd715c9e9ba603fbdc5816b",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_june_summaries_20260929\\evidence\\independent_review.json",
+   "qa_sha256": "061eecf5f5eb084416de08a2a49d3a12790cd2a5a1b9b9cf374cfb489f8f19f7",
+   "unresolved": 3
+  },
+  {
+   "layer": "07_07",
+   "month": "calendar_jul_aug_summaries_20260929/july",
+   "summaries_sha256_now": "d3e3db0e22b947f2fed06f313bf02ff4464dd0313556677aa3587247b1181a2f",
+   "summaries_sha256_at_build": "d3e3db0e22b947f2fed06f313bf02ff4464dd0313556677aa3587247b1181a2f",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\july\\evidence\\independent_review.json",
+   "qa_sha256": "98c17698fa0ee25c4699ffbde55d64fdd0c4707092812208708e09a61c8db524",
+   "unresolved": 2
+  },
+  {
+   "layer": "08_08",
+   "month": "calendar_jul_aug_summaries_20260929/august",
+   "summaries_sha256_now": "9a79d9e6f744b9113953c8d6d8800d688c5624d970cda67094c981d83bd24455",
+   "summaries_sha256_at_build": "a843fd19747ae698fbc7f66ba297305a55522c177e482e9afaa17a686b1d279e",
+   "changed_since_build": true,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_jul_aug_summaries_20260929\\august\\evidence\\independent_review.json",
+   "qa_sha256": "d17ea1a3a6c91ad74afbe3177dd75f6905a2b32c6909b7f0c0ebc7b8d4950ce8",
+   "unresolved": 2
+  },
+  {
+   "layer": "09_09",
+   "month": "calendar_sep_other_summaries_20260929/september",
+   "summaries_sha256_now": "15522feea9b6e4111e87339c8146b42aeacd281e817e1dff5830d690cc4c6b9d",
+   "summaries_sha256_at_build": "15522feea9b6e4111e87339c8146b42aeacd281e817e1dff5830d690cc4c6b9d",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\september\\evidence\\independent_review.json",
+   "qa_sha256": "b1bd28b559000be4f9d11322816dd3ec69a14dabc61615a42f8ef4a27db5677b",
+   "unresolved": 1
+  },
+  {
+   "layer": "10_OT",
+   "month": "calendar_sep_other_summaries_20260929/other",
+   "summaries_sha256_now": "4fdb67856a0666b0d65e4437505863ca69ac00a6aabcaeeea3fdd279703453a2",
+   "summaries_sha256_at_build": "4fdb67856a0666b0d65e4437505863ca69ac00a6aabcaeeea3fdd279703453a2",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_sep_other_summaries_20260929\\other\\evidence\\independent_review.json",
+   "qa_sha256": "20d94eeed4cb47d3240444183bf20198be5e8f6a080f9bd09755f579e54171c2",
+   "unresolved": 1
+  },
+  {
+   "layer": "11_10",
+   "month": "calendar_october_summaries_20260929",
+   "summaries_sha256_now": "e3d5b5340e6bedcec7321321e2f87874903495d6fdcd11f05adb3c864012fd59",
+   "summaries_sha256_at_build": "e3d5b5340e6bedcec7321321e2f87874903495d6fdcd11f05adb3c864012fd59",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\evidence\\independent_review.json",
+   "qa_sha256": "16b95d1312b989b32d6c0d6fad4872e87b3be1f2e665f1e8b13319f163d7aa0f",
+   "unresolved": 7
+  },
+  {
+   "layer": "12_11",
+   "month": "calendar_november_a_summaries_20260929",
+   "summaries_sha256_now": "c3af993b786662b6a1aec54795b8d28eabaff1d5ce5b4ff0b964ef517a0726ba",
+   "summaries_sha256_at_build": "c3af993b786662b6a1aec54795b8d28eabaff1d5ce5b4ff0b964ef517a0726ba",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_a_summaries_20260929\\evidence\\independent_review.json",
+   "qa_sha256": "a3a277d9c65a3fd5a54b05ed130a435e2b315ab82b07e081859c0765e8e10c12",
+   "unresolved": 5
+  },
+  {
+   "layer": "12_11",
+   "month": "calendar_november_b_summaries_20260929",
+   "summaries_sha256_now": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8",
+   "summaries_sha256_at_build": "111d61bc5c5fc2f736c65c15815f64780a9892fc220bbe6e48aba466622830b8",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_november_b_summaries_20260929\\evidence\\independent_review.json",
+   "qa_sha256": "79e00d8c4b9bafb57ebb2fea922754305209b7772dc53841ad0c3ba1043f398e",
+   "unresolved": 4
+  },
+  {
+   "layer": "13_ME",
+   "month": "calendar_memory_a_summaries_20260929",
+   "summaries_sha256_now": "108aaa9ed5e1ca2307419808248ee1aa3623a20fe1ace43723c054203dc0b7f1",
+   "summaries_sha256_at_build": "108aaa9ed5e1ca2307419808248ee1aa3623a20fe1ace43723c054203dc0b7f1",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_a_summaries_20260929\\evidence\\independent_review.json",
+   "qa_sha256": "eb0e6b5861709ec830dd9d8e832d97a5dfe9310644bc221d4ada64b007bdbb52",
+   "unresolved": 1
+  },
+  {
+   "layer": "13_ME",
+   "month": "calendar_memory_b_summaries_20260929",
+   "summaries_sha256_now": "7a9229c41fe346df78b1401c40a2c809938bd2720a39b3aaff5125c0186f099f",
+   "summaries_sha256_at_build": "7a9229c41fe346df78b1401c40a2c809938bd2720a39b3aaff5125c0186f099f",
+   "changed_since_build": false,
+   "qa_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_b_summaries_20260929\\evidence\\independent_review.json",
+   "qa_sha256": "1c618308eab660fac0ba4aee5758edebc6b369bc0ce0154eac4ecdfa98bf6060",
+   "unresolved": 5
+  }
+ ],
+ "note": "qa_sha256 는 각 달 evidence/independent_review.json 의 파일 해시다. 그 파일이나 요약이 다시 바뀌면 이 수락은 자동으로 무효가 된다."
+}

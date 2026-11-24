@@ -1,0 +1,62 @@
+{
+ "candidate_ain": "b5a6ceb09e18ef3a5e08e000a511275ff091325ea0967418964a2076a913b959",
+ "candidate_meta": "12ff4def58fd500e2d85d2a7f9f2138775b53b160a11598c4fb37dad224d4b41",
+ "base_ain": "99461f9c4d023e6869f2719695923c5ed057d4b67631687268f0a9b4be06b4cc",
+ "save_folder": "C:\\Users\\CadriacLord\\OneDrive\\문서\\AliceSoft\\밤이 온다! -Square of the MOON- Remastered\\SaveData_KR_UI_Integrated_20260913",
+ "read_only": true,
+ "stats": {
+  "resume_saves": 51,
+  "frames": 1256,
+  "other_format": 3,
+  "other_format_head_50535200": 3,
+  "not_resume_save": 2
+ },
+ "saves": 56,
+ "problems": [],
+ "open_on_stack": [
+  {
+   "save": "NightR22.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  },
+  {
+   "save": "NightR28.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  },
+  {
+   "save": "NightR43.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  }
+ ],
+ "frames_in_changed_functions": [],
+ "functions": []
+}

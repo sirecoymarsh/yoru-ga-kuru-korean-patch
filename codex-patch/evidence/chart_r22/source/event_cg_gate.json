@@ -1,0 +1,36 @@
+{
+ "time": "2026-09-28T07:33:19+09:00",
+ "gates": {
+  "G1_gallery_cgs_shown": {
+   "gallery_cgs": 90,
+   "shown_by_some_event": 90,
+   "not_shown": [],
+   "via_summer_rule": [
+    "CG1011",
+    "CG1012"
+   ],
+   "ok": true
+  },
+  "G2_thumbnails_in_archive": {
+   "entries": 60,
+   "missing": [],
+   "ok": true
+  },
+  "G3_memory_cells": {
+   "cells": 76,
+   "with_thumbnail": 60,
+   "without_thumbnail": 16,
+   "by_jump": 30,
+   "by_text": 46,
+   "failing": [],
+   "ok": true
+  },
+  "G4_events": {
+   "events": 1164,
+   "pure_jumps": 32,
+   "with_thumbnail": 116,
+   "ok": true
+  }
+ },
+ "sha256": "7e7bd51f058f77761eb51602949b979d6b80db11206cf9f8b4010dd813ac2892"
+}

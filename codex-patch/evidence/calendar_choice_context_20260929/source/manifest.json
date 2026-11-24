@@ -1,0 +1,46 @@
+{
+ "status": "STAGED_NATIVE_PENDING",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "1a7bd3352132f123f2dd1cf8491b8faf16391b7361a57d6f76585843b4757542"
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+  }
+ },
+ "source_sha256": "6681bc33dc97a99eb59a3280a3b53e505f09fb8aac7e8a1d84c0b64e0c9b08ac",
+ "forwarded": {
+  "KR_T19EvHead": "KR_S29Head",
+  "KR_T19EvShort": "KR_S29Short",
+  "KR_T19WhenFix": "KR_S29When",
+  "KR_B29Info": "KR_S29Info"
+ },
+ "added_functions": {
+  "KR_S29HeadBase": 32802,
+  "KR_S29Head": 32803,
+  "KR_S29ShortBase": 32804,
+  "KR_S29Short": 32805,
+  "KR_S29WhenBase": 32806,
+  "KR_S29When": 32807,
+  "KR_S29InfoBase": 32808,
+  "KR_S29Info": 32809
+ },
+ "cloned_getters": {
+  "KR_S29HeadBase": "KR_T19EvHead",
+  "KR_S29ShortBase": "KR_T19EvShort",
+  "KR_S29WhenBase": "KR_T19WhenFix",
+  "KR_S29InfoBase": "KR_B29Info"
+ },
+ "new_globals": 0,
+ "serialized_schema_changes": 0,
+ "old_code_prefix_exact": true,
+ "messages_exact": true,
+ "dll_unchanged": true,
+ "choice_label_sha256": "5315e84f1f487409d96e7c17aad0c778236d58a7ccf5703cd22b57ecf26310ff",
+ "changed_counts": {
+  "ev_head": 20,
+  "ev_short": 20,
+  "when_fix": 20
+ },
+ "translator_model": "Codex internal"
+}

@@ -1,0 +1,1934 @@
+﻿{
+    "schema":  "contextual-game-localization.translation-packet.v1",
+    "packet_id":  "pilot_e00001_part03",
+    "source_asset":  "NightRemaster.ain",
+    "semantic_source_language":  "ja-JP",
+    "target_language":  "ko-KR",
+    "translation_provider":  "Codex internal model",
+    "intermediate_language":  null,
+    "function":  "ＥＶ／元／E00001",
+    "requested_numeric_range":  {
+                                    "first":  2401,
+                                    "last":  2500
+                                },
+    "actual_numeric_range":  {
+                                 "first":  2401,
+                                 "last":  2500
+                             },
+    "entry_count":  100,
+    "translatable_count":  100,
+    "glossary":  {
+                     "path":  "glossary.tsv",
+                     "sha256":  "fcc68e498ade44ff9d5409bc2b3af6b128172dfa5f90aad5ca8c675b57b9e580"
+                 },
+    "rules":  [
+                  "Translate directly from Japanese into natural Korean.",
+                  "Do not use an intermediate language or external translation API.",
+                  "Preserve every stable_id, source, source_sha256, protected token, and entry order.",
+                  "Speaker labels are translated according to the locked glossary.",
+                  "Write split lines as one coherent thought while retaining the original field count.",
+                  "Do not translate numeric voice IDs, lookup keys, control codes, or asset names."
+              ],
+    "entries":  [
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2401]",
+                        "kind":  "message",
+                        "numeric_id":  2401,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  null,
+                        "next_source":  "「てっ！」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2402]",
+                        "kind":  "message",
+                        "numeric_id":  2402,
+                        "source_sha256":  "191c9b0ad182e998a7b82fc12d011661afe91a630324f4cbdb53f43f560d0562",
+                        "source":  "「てっ！」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "腕に鈍い痛みが走り俺の足元に硬球が転がった。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「아얏!」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2403]",
+                        "kind":  "message",
+                        "numeric_id":  2403,
+                        "source_sha256":  "cb7ff4b5f26b9bfd2ef11448273bec8bcf4bbb20a62ed2f199c042bcd6255902",
+                        "source":  "腕に鈍い痛みが走り俺の足元に硬球が転がった。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「てっ！」",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "팔에 묵직한 통증이 일더니 발밑으로 야구공이 굴러왔다.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2404]",
+                        "kind":  "message",
+                        "numeric_id":  2404,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "腕に鈍い痛みが走り俺の足元に硬球が転がった。",
+                        "next_source":  "「あ…これ野球の……」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2405]",
+                        "kind":  "message",
+                        "numeric_id":  2405,
+                        "source_sha256":  "53378eaaf12fb6dbd56a7bd7ae3bb6ab7b752a50d7dbefc518e448b92933d06b",
+                        "source":  "「あ…これ野球の……」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「아…… 이거 야구공……」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2406]",
+                        "kind":  "message",
+                        "numeric_id":  2406,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「あ…これ野球の……」",
+                        "next_source":  "「てて…大丈夫かい？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2407]",
+                        "kind":  "message",
+                        "numeric_id":  2407,
+                        "source_sha256":  "ba119e3770b470a7d1f712185f8af13f99e832ac33fe577522d230d2ec2643b4",
+                        "source":  "「てて…大丈夫かい？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「아야야…… 괜찮아?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2408]",
+                        "kind":  "message",
+                        "numeric_id":  2408,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "「てて…大丈夫かい？」",
+                        "next_source":  "「あ、うん…",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2409]",
+                        "kind":  "message",
+                        "numeric_id":  2409,
+                        "source_sha256":  "4dfa1bdba4108e3e2bd78d6d63e4cf837d4b5877107334a8aab960f80a726bb6",
+                        "source":  "「あ、うん…",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "　だいじょうぶ……だけど」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「아, 응……",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2410]",
+                        "kind":  "message",
+                        "numeric_id":  2410,
+                        "source_sha256":  "1dbe41e14448a0765a74b804e4707223ea9f264e3bd4e4ca0d90e1cd5b091742",
+                        "source":  "　だいじょうぶ……だけど」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "「あ、うん…",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "괜찮긴…… 한데」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2411]",
+                        "kind":  "message",
+                        "numeric_id":  2411,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "　だいじょうぶ……だけど」",
+                        "next_source":  "「なら良かった…よっ、と！」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2412]",
+                        "kind":  "message",
+                        "numeric_id":  2412,
+                        "source_sha256":  "054c54608629f9be97572adab1d1cfd3a029cfa512637d0a3121f003283167f0",
+                        "source":  "「なら良かった…よっ、と！」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "拾ったボールをグラウンドに投げ返し、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「그럼 다행이네…… 읏차!」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2413]",
+                        "kind":  "message",
+                        "numeric_id":  2413,
+                        "source_sha256":  "9d61948e1d7ad628ce94035c1a928dd2d5055903801bb266c6b7c2b915ed889c",
+                        "source":  "拾ったボールをグラウンドに投げ返し、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「なら良かった…よっ、と！」",
+                        "next_source":  "俺はひょいと横に動いた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "주운 공을 운동장으로 다시 던져 주고,",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2414]",
+                        "kind":  "message",
+                        "numeric_id":  2414,
+                        "source_sha256":  "5036de428ed201617405ad9fdd49ca94725b1132e7726d2e61e9f9840b949626",
+                        "source":  "俺はひょいと横に動いた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "拾ったボールをグラウンドに投げ返し、",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "나는 옆으로 가볍게 비켜섰다.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2415]",
+                        "kind":  "message",
+                        "numeric_id":  2415,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "俺はひょいと横に動いた。",
+                        "next_source":  "「ほい、お待たせ」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2416]",
+                        "kind":  "message",
+                        "numeric_id":  2416,
+                        "source_sha256":  "2705b2540023def16f46e645f137fefa50a9e2e4b7d8a8c5f9db3c277ce5efe3",
+                        "source":  "「ほい、お待たせ」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「자, 기다렸지」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2417]",
+                        "kind":  "message",
+                        "numeric_id":  2417,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "「ほい、お待たせ」",
+                        "next_source":  "「……………」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2418]",
+                        "kind":  "message",
+                        "numeric_id":  2418,
+                        "source_sha256":  "727bc5761697ce2af7046aa71027b4f2bbac11059483d54d606171460be1316c",
+                        "source":  "「……………」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「…………」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2419]",
+                        "kind":  "message",
+                        "numeric_id":  2419,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「……………」",
+                        "next_source":  "「どうした、早くいきなよ？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2420]",
+                        "kind":  "message",
+                        "numeric_id":  2420,
+                        "source_sha256":  "58fb2d6389ceb7f26ca9524487812f264ef9e1f591eac80a9bcdf6eae897b36a",
+                        "source":  "「どうした、早くいきなよ？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「왜 그래, 어서 가?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2421]",
+                        "kind":  "message",
+                        "numeric_id":  2421,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "「どうした、早くいきなよ？」",
+                        "next_source":  "「…なんで？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2422]",
+                        "kind":  "message",
+                        "numeric_id":  2422,
+                        "source_sha256":  "54215edd0f19d5c3b85e097e2920c6e68df3bd875c7a5f638ba0ce324ef11339",
+                        "source":  "「…なんで？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「……어떻게?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2423]",
+                        "kind":  "message",
+                        "numeric_id":  2423,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「…なんで？」",
+                        "next_source":  "「え？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2424]",
+                        "kind":  "message",
+                        "numeric_id":  2424,
+                        "source_sha256":  "cb8514e41f28e3628e637b94914507dca487018d998490c5256065e1a0c9f4e8",
+                        "source":  "「え？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「어?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2425]",
+                        "kind":  "message",
+                        "numeric_id":  2425,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "「え？」",
+                        "next_source":  "「なんでわかったの？",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2426]",
+                        "kind":  "message",
+                        "numeric_id":  2426,
+                        "source_sha256":  "be02c4ca4a3dd4a5090cf0a0159f0b8dea44e1c73e677de749fbf4a47f8a54dc",
+                        "source":  "「なんでわかったの？",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "　ボール、後ろから飛んで来たのに」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「어떻게 안 거야?",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2427]",
+                        "kind":  "message",
+                        "numeric_id":  2427,
+                        "source_sha256":  "9963a6bfafdc1e5f9991210ae382ccb5d4892ae977bea3dcf8eb4cb0d1c09250",
+                        "source":  "　ボール、後ろから飛んで来たのに」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "「なんでわかったの？",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "공은 뒤에서 날아왔는데」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2428]",
+                        "kind":  "message",
+                        "numeric_id":  2428,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "　ボール、後ろから飛んで来たのに」",
+                        "next_source":  "「え……………」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2429]",
+                        "kind":  "message",
+                        "numeric_id":  2429,
+                        "source_sha256":  "a8586f5249fa1b15f384c41af98636432f054f5defd7452ff3d95be013406a1c",
+                        "source":  "「え……………」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "その言葉に俺はどきりとする。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「어…………」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2430]",
+                        "kind":  "message",
+                        "numeric_id":  2430,
+                        "source_sha256":  "6b7204a104e7d3119584596b89e0ade145c55e798c6baebd5aa686ae81aa6be8",
+                        "source":  "その言葉に俺はどきりとする。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「え……………」",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그 말에 나는 뜨끔했다.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2431]",
+                        "kind":  "message",
+                        "numeric_id":  2431,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "その言葉に俺はどきりとする。",
+                        "next_source":  "「どうしたの？",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2432]",
+                        "kind":  "message",
+                        "numeric_id":  2432,
+                        "source_sha256":  "155f27bd55d8f1bc4a70e3218e434ab36b229e97e8279fbb442617c20f7fb567",
+                        "source":  "「どうしたの？",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "　私…なにかへんなこと聞いた？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「왜 그래?",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2433]",
+                        "kind":  "message",
+                        "numeric_id":  2433,
+                        "source_sha256":  "e5fa7ec37862ada7eb75b45c43e1ddd65753abab783e3f05648e9fa3b8aced5c",
+                        "source":  "　私…なにかへんなこと聞いた？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "「どうしたの？",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "내가…… 뭐 이상한 거라도 물었어?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2434]",
+                        "kind":  "message",
+                        "numeric_id":  2434,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "　私…なにかへんなこと聞いた？」",
+                        "next_source":  "「あ、いや。まいったな…」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2435]",
+                        "kind":  "message",
+                        "numeric_id":  2435,
+                        "source_sha256":  "e4f763a88f64d29b6f4fa83646d0ace30e1958b5c73bed674b94036bd6242919",
+                        "source":  "「あ、いや。まいったな…」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「아, 아니. 이거 난감하네……」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2436]",
+                        "kind":  "message",
+                        "numeric_id":  2436,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "「あ、いや。まいったな…」",
+                        "next_source":  "「………？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2437]",
+                        "kind":  "message",
+                        "numeric_id":  2437,
+                        "source_sha256":  "4ffded8f82b1c2bda2aa6b603a162e287b0184e7098ea69dc0a2a4a9eac77a5f",
+                        "source":  "「………？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「……?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2438]",
+                        "kind":  "message",
+                        "numeric_id":  2438,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「………？」",
+                        "next_source":  "「なんていうか…来たんだよ。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2439]",
+                        "kind":  "message",
+                        "numeric_id":  2439,
+                        "source_sha256":  "2884fa623c0d186bf6f9e0f9bd6a0bc147c595e4de1576dfa90251bd186651df",
+                        "source":  "「なんていうか…来たんだよ。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "　重くて速い感覚がビビッて、ここに」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「뭐랄까…… 확 온 거야.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2440]",
+                        "kind":  "message",
+                        "numeric_id":  2440,
+                        "source_sha256":  "6f5484699b65a58b97c042bb7e8ee19ba3bfdfdd148fe8f94f987b55c7b5f095",
+                        "source":  "　重くて速い感覚がビビッて、ここに」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「なんていうか…来たんだよ。",
+                        "next_source":  "言って俺は首の後ろを叩いてみせる。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "무겁고 빠른 느낌이 여기로 찌릿, 하고」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2441]",
+                        "kind":  "message",
+                        "numeric_id":  2441,
+                        "source_sha256":  "afba42ca07283cb3296098f049346baeca1fd74f4552768324e046fdea2388b8",
+                        "source":  "言って俺は首の後ろを叩いてみせる。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "　重くて速い感覚がビビッて、ここに」",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그렇게 말하며 나는 목덜미를 툭툭 두드려 보였다.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2442]",
+                        "kind":  "message",
+                        "numeric_id":  2442,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "言って俺は首の後ろを叩いてみせる。",
+                        "next_source":  "「このへん？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2443]",
+                        "kind":  "message",
+                        "numeric_id":  2443,
+                        "source_sha256":  "49bd05b52d0b3c1dee037a57999389626fc022af9817a15f78898062548ae097",
+                        "source":  "「このへん？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "言いながら彼女は自分の襟の後ろを、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「이쯤?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2444]",
+                        "kind":  "message",
+                        "numeric_id":  2444,
+                        "source_sha256":  "a22c77c3fe974ab2682ac4c7cd7ff9a51d71ade0508b6f603ae81b0a4bf9bdbf",
+                        "source":  "言いながら彼女は自分の襟の後ろを、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "「このへん？」",
+                        "next_source":  "真似してとんとんと叩く。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그렇게 말하며 그녀는 자기 옷깃 뒤쪽을",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2445]",
+                        "kind":  "message",
+                        "numeric_id":  2445,
+                        "source_sha256":  "9cf23ddfb1510c8f2930e1d1fe749e083dd9264b769ce4d2f79d62ede4e07126",
+                        "source":  "真似してとんとんと叩く。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "言いながら彼女は自分の襟の後ろを、",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "따라 하듯 톡톡 두드렸다.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2446]",
+                        "kind":  "message",
+                        "numeric_id":  2446,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "真似してとんとんと叩く。",
+                        "next_source":  "「そうそう。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2447]",
+                        "kind":  "message",
+                        "numeric_id":  2447,
+                        "source_sha256":  "8ee1d5661e67543a679ac53b9ad82154ee599a8147a1ea541c6bfa16387f1c71",
+                        "source":  "「そうそう。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "　あ、いや…来るのはあちこちからなんだけど」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「그래, 거기.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2448]",
+                        "kind":  "message",
+                        "numeric_id":  2448,
+                        "source_sha256":  "2134f1fbe71a40a11acbe55c3a010a92f58fd17dd17614154b516f15c6e6021e",
+                        "source":  "　あ、いや…来るのはあちこちからなんだけど」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「そうそう。",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "아, 아니…… 오는 방향은 여기저기지만」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2449]",
+                        "kind":  "message",
+                        "numeric_id":  2449,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "　あ、いや…来るのはあちこちからなんだけど」",
+                        "next_source":  "「？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2450]",
+                        "kind":  "message",
+                        "numeric_id":  2450,
+                        "source_sha256":  "b34faf1111b5745e5d4433b0c9d963d38a05378616d88e3307e664b022e5308b",
+                        "source":  "「？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2451]",
+                        "kind":  "message",
+                        "numeric_id":  2451,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「？」",
+                        "next_source":  "「まあ、何かが近付くと気配が来て…、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2452]",
+                        "kind":  "message",
+                        "numeric_id":  2452,
+                        "source_sha256":  "ff81481cc4598eda93c2d74b68d2c060c5849594a7b943861b9d70adc26e4e31",
+                        "source":  "「まあ、何かが近付くと気配が来て…、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "　それでわかるんだ」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「뭐, 뭔가 다가오면 기척이 느껴지고……",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2453]",
+                        "kind":  "message",
+                        "numeric_id":  2453,
+                        "source_sha256":  "9c34b7779850b4bacd93c100f471d885f97cbd5da9cffa656de5c9b808870f66",
+                        "source":  "　それでわかるんだ」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「まあ、何かが近付くと気配が来て…、",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그래서 알 수 있어」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2454]",
+                        "kind":  "message",
+                        "numeric_id":  2454,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "　それでわかるんだ」",
+                        "next_source":  "「よくわからないよ…」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2455]",
+                        "kind":  "message",
+                        "numeric_id":  2455,
+                        "source_sha256":  "a2635a9ff1b544231f46aa9bb7da871d47c1ecb2e0e82d2ed5438f1b74b4b9c8",
+                        "source":  "「よくわからないよ…」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「잘 모르겠어……」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2456]",
+                        "kind":  "message",
+                        "numeric_id":  2456,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「よくわからないよ…」",
+                        "next_source":  "「えっと、眉間に指先を近づけられたら、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2457]",
+                        "kind":  "message",
+                        "numeric_id":  2457,
+                        "source_sha256":  "6e31912fe0b5a7f6ebf98198655d1b6cf45e58094bd4950606445a84689a4c01",
+                        "source":  "「えっと、眉間に指先を近づけられたら、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "　なんかむずむずするだろ？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「그러니까, 미간에 손가락을 가까이 대면,",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2458]",
+                        "kind":  "message",
+                        "numeric_id":  2458,
+                        "source_sha256":  "8dd21ad36dadca37a6f9f12b06f476cbe74c53fdf44b0fbdab029e1ab5e534f5",
+                        "source":  "　なんかむずむずするだろ？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「えっと、眉間に指先を近づけられたら、",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "왠지 근질근질하잖아?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2459]",
+                        "kind":  "message",
+                        "numeric_id":  2459,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "　なんかむずむずするだろ？」",
+                        "next_source":  "「あ、うん。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2460]",
+                        "kind":  "message",
+                        "numeric_id":  2460,
+                        "source_sha256":  "101469f6c5d9f8baf720f9e0f8d30dabbc5e15d296e51932a5f71bd27a6d0125",
+                        "source":  "「あ、うん。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "　それならわかるよ」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「아, 응.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2461]",
+                        "kind":  "message",
+                        "numeric_id":  2461,
+                        "source_sha256":  "2e7f8cc0ae8000a83bcfe8c0280b87bad4c2a3c849e564a32b2a81dba6b6f1e2",
+                        "source":  "　それならわかるよ」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "「あ、うん。",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그거라면 알겠어」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2462]",
+                        "kind":  "message",
+                        "numeric_id":  2462,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "　それならわかるよ」",
+                        "next_source":  "「なるほどね、あんな感じなんだ」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2463]",
+                        "kind":  "message",
+                        "numeric_id":  2463,
+                        "source_sha256":  "f389886b96eb0fb67dba6282300c1a0d4ce93bab6dd354752afbadd65ed70624",
+                        "source":  "「なるほどね、あんな感じなんだ」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「그렇구나, 그런 느낌인 거네」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2464]",
+                        "kind":  "message",
+                        "numeric_id":  2464,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「なるほどね、あんな感じなんだ」",
+                        "next_source":  "「あれと同じさ。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2465]",
+                        "kind":  "message",
+                        "numeric_id":  2465,
+                        "source_sha256":  "a1d866568cf4ab70d768d4627e660ac3694b4fae51566da21feb48b633b59e43",
+                        "source":  "「あれと同じさ。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "　何かが近づくと、そっちから妙な感覚が来るんだ。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「그거랑 똑같아.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2466]",
+                        "kind":  "message",
+                        "numeric_id":  2466,
+                        "source_sha256":  "6b8402909ea7c79ea1e0bdb29e11db0ae7a9bdf00e5ef3ad480e6bb8a50a47e3",
+                        "source":  "　何かが近づくと、そっちから妙な感覚が来るんだ。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「あれと同じさ。",
+                        "next_source":  "　今みたいにあぶない時はとくに」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "뭔가 다가오면 그쪽에서 묘한 느낌이 와.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2467]",
+                        "kind":  "message",
+                        "numeric_id":  2467,
+                        "source_sha256":  "11b82d22197af5867de22ff196d5628b444ac683e9b9496b59a6205ad2897c8c",
+                        "source":  "　今みたいにあぶない時はとくに」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "　何かが近づくと、そっちから妙な感覚が来るんだ。",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "지금처럼 위험할 때는 특히」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2468]",
+                        "kind":  "message",
+                        "numeric_id":  2468,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "　今みたいにあぶない時はとくに」",
+                        "next_source":  "「でもそれ……",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2469]",
+                        "kind":  "message",
+                        "numeric_id":  2469,
+                        "source_sha256":  "11099103602dc31b14a1ffc78cd1c6db838b1d58ef4c93b59386c7c10bf8765d",
+                        "source":  "「でもそれ……",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "　もしかして超能力とか？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「그런데 그거……",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2470]",
+                        "kind":  "message",
+                        "numeric_id":  2470,
+                        "source_sha256":  "570aca0f5cfed2101ef7c7cd4eef0f3adfc23daf0534973503e13980354ad4cc",
+                        "source":  "　もしかして超能力とか？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "「でもそれ……",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "혹시 초능력 같은 거야?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2471]",
+                        "kind":  "message",
+                        "numeric_id":  2471,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "　もしかして超能力とか？」",
+                        "next_source":  "「そんな格好いいもんじゃないけどな。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2472]",
+                        "kind":  "message",
+                        "numeric_id":  2472,
+                        "source_sha256":  "d1b89f26d15bd21c475778709f3af010d5845d7ec7033021242846c29a250606",
+                        "source":  "「そんな格好いいもんじゃないけどな。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "　よけられなきゃ結局ケガするし」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「그렇게 멋진 건 아니지만.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2473]",
+                        "kind":  "message",
+                        "numeric_id":  2473,
+                        "source_sha256":  "363611422d4591cb95bb46cb18220ba0a412c79702d22fa18f50914447a3d981",
+                        "source":  "　よけられなきゃ結局ケガするし」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「そんな格好いいもんじゃないけどな。",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "피하지 못하면 결국 다치니까」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2474]",
+                        "kind":  "message",
+                        "numeric_id":  2474,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "　よけられなきゃ結局ケガするし」",
+                        "next_source":  "「ふぅん……」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2475]",
+                        "kind":  "message",
+                        "numeric_id":  2475,
+                        "source_sha256":  "efc72cf657eb195a2acdf09978bfb3b506f8965ea216fdf6fbea3e35e15b85e9",
+                        "source":  "「ふぅん……」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "ひらたく言えば気配とか殺気とかみたいな",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「흐음……」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2476]",
+                        "kind":  "message",
+                        "numeric_id":  2476,
+                        "source_sha256":  "e79a4bc451d0c73d1e78e54b29991173c86634b96cbeaa88b5bec529b2c7a486",
+                        "source":  "ひらたく言えば気配とか殺気とかみたいな",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "「ふぅん……」",
+                        "next_source":  "ものだろうか。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "쉽게 말해 기척이나 살기 같은",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2477]",
+                        "kind":  "message",
+                        "numeric_id":  2477,
+                        "source_sha256":  "c2d9e1289ba78b0e588c364e3686cc70c5daf735f73acc2f7dfe5f0dca138944",
+                        "source":  "ものだろうか。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "ひらたく言えば気配とか殺気とかみたいな",
+                        "next_source":  "俺には幼い頃からそんなものを感じる力が",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "걸까.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2478]",
+                        "kind":  "message",
+                        "numeric_id":  2478,
+                        "source_sha256":  "16e4957873094afb873f4e31b761b9e75311c8352d65e1706e9ae4633105718a",
+                        "source":  "俺には幼い頃からそんなものを感じる力が",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "ものだろうか。",
+                        "next_source":  "備わっていた。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "내게는 어릴 때부터 그런 걸 느끼는 힘이",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2479]",
+                        "kind":  "message",
+                        "numeric_id":  2479,
+                        "source_sha256":  "091bd94dc5ecadba8925d500deec69099d0c2377b8fbe2ba603e56d92ee7f6ee",
+                        "source":  "備わっていた。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "俺には幼い頃からそんなものを感じる力が",
+                        "next_source":  "それが他の人にない力と分かった時、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "있었다.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2480]",
+                        "kind":  "message",
+                        "numeric_id":  2480,
+                        "source_sha256":  "07e1cdb6e732547eaf5a147bb46f22f6ca1cd426b99772959393bab6b637bbce",
+                        "source":  "それが他の人にない力と分かった時、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "備わっていた。",
+                        "next_source":  "ずいぶん酷い目に遭って、それが理由で転校して…",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그게 다른 사람에게는 없는 힘이라는 걸 알았을 때,",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2481]",
+                        "kind":  "message",
+                        "numeric_id":  2481,
+                        "source_sha256":  "03e908b7857ddd0fffb6077acc3caca7d3cbff72b8f3988d3a613511fbc505cd",
+                        "source":  "ずいぶん酷い目に遭って、それが理由で転校して…",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "それが他の人にない力と分かった時、",
+                        "next_source":  "そのとき親から釘をさされて、以来ずうっと秘密に",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "호되게 당했고, 그 일 때문에 전학까지 했고……",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2482]",
+                        "kind":  "message",
+                        "numeric_id":  2482,
+                        "source_sha256":  "5b9b8e486d89a9f7aca2499117fd5b9eb9573a68396226c86bc81e07d7966718",
+                        "source":  "そのとき親から釘をさされて、以来ずうっと秘密に",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "ずいぶん酷い目に遭って、それが理由で転校して…",
+                        "next_source":  "してきた事だ。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그때 부모님에게 단단히 입단속을 당한 뒤로 줄곧 비밀로",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2483]",
+                        "kind":  "message",
+                        "numeric_id":  2483,
+                        "source_sha256":  "666e3cd45f37deae1c3ba97297ae675ce37dd67fb0b22637c468b6b9240d44b6",
+                        "source":  "してきた事だ。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "そのとき親から釘をさされて、以来ずうっと秘密に",
+                        "next_source":  "それがこんなあっさりと他人に、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "해 온 일이었다.",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2484]",
+                        "kind":  "message",
+                        "numeric_id":  2484,
+                        "source_sha256":  "db5210f23394504a99ad1fcc61212e7fd867f6c4db5f0080a37c8299dde443b6",
+                        "source":  "それがこんなあっさりと他人に、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "してきた事だ。",
+                        "next_source":  "しかも初対面の相手に気づかれるなんて…。",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그런데 이걸 이렇게 쉽게 남에게,",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2485]",
+                        "kind":  "message",
+                        "numeric_id":  2485,
+                        "source_sha256":  "d6e9611088f5a16777db1f6c5634598df3cccf664d14ea6a82e567ba7b577c48",
+                        "source":  "しかも初対面の相手に気づかれるなんて…。",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "それがこんなあっさりと他人に、",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "그것도 처음 만난 사람에게 들키다니……",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2486]",
+                        "kind":  "message",
+                        "numeric_id":  2486,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "しかも初対面の相手に気づかれるなんて…。",
+                        "next_source":  "「すごいね、",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2487]",
+                        "kind":  "message",
+                        "numeric_id":  2487,
+                        "source_sha256":  "a35d2f04c3a4fc652f52addd835280031a182a122ef0f2e3b7da3dc31f798432",
+                        "source":  "「すごいね、",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "　なんだかマンガみたい」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「대단하네,",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2488]",
+                        "kind":  "message",
+                        "numeric_id":  2488,
+                        "source_sha256":  "dd87f0081d3a9b9903b255df0ccec6d95719a1d73a99e59942348d33cb9e5d42",
+                        "source":  "　なんだかマンガみたい」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "女子",
+                        "previous_source":  "「すごいね、",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "왠지 만화 같아」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2489]",
+                        "kind":  "message",
+                        "numeric_id":  2489,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "　なんだかマンガみたい」",
+                        "next_source":  "「これ…絶対秘密にしといてくれよな？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2490]",
+                        "kind":  "message",
+                        "numeric_id":  2490,
+                        "source_sha256":  "154019e0788e00753b6cdf2043c687810327626ceffdc1f9eaeaa588b0dca913",
+                        "source":  "「これ…絶対秘密にしといてくれよな？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「이건…… 절대 비밀로 해 줘, 알겠지?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2491]",
+                        "kind":  "message",
+                        "numeric_id":  2491,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "「これ…絶対秘密にしといてくれよな？」",
+                        "next_source":  "「え、どうして？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2492]",
+                        "kind":  "message",
+                        "numeric_id":  2492,
+                        "source_sha256":  "5110e27513d50f8d4b79e12e408235595aa1fe79b6ea4b5a1a9e18c5d0b45e4f",
+                        "source":  "「え、どうして？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「어, 왜?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2493]",
+                        "kind":  "message",
+                        "numeric_id":  2493,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「え、どうして？」",
+                        "next_source":  "「小さいころ友達に話したら",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2494]",
+                        "kind":  "message",
+                        "numeric_id":  2494,
+                        "source_sha256":  "a518e873a62c0c11c22deade2f647b105b2560efccf171766bf4798aae004672",
+                        "source":  "「小さいころ友達に話したら",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "　『試してやる』って囲まれて石を投げられた」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「어릴 때 친구들에게 얘기했더니",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2495]",
+                        "kind":  "message",
+                        "numeric_id":  2495,
+                        "source_sha256":  "9aed82c765f2c282bf10d4552b4e9160dc09e6300fa956be32f9070947cd5ef8",
+                        "source":  "　『試してやる』って囲まれて石を投げられた」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「小さいころ友達に話したら",
+                        "next_source":  "【女子】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "『한번 시험해 보자』며 둘러싸고 돌을 던졌어」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2496]",
+                        "kind":  "message",
+                        "numeric_id":  2496,
+                        "source_sha256":  "1576661afc57d073048258914f962d3466cfb79b0f60cd6391e0e5015c19a251",
+                        "source":  "【女子】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "女子",
+                        "previous_source":  "　『試してやる』って囲まれて石を投げられた」",
+                        "next_source":  "「え…どうなったの？」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【여학생】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2497]",
+                        "kind":  "message",
+                        "numeric_id":  2497,
+                        "source_sha256":  "eb3947d0b7c73dbf3adf22bc480191435fed9724ef87bdde7ed99586ad56c5ef",
+                        "source":  "「え…どうなったの？」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "dialogue",
+                        "speaker":  "女子",
+                        "previous_source":  "【女子】",
+                        "next_source":  "【亮　　　　】",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「어…… 어떻게 됐어?」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2498]",
+                        "kind":  "message",
+                        "numeric_id":  2498,
+                        "source_sha256":  "3a66fd0567836406e40f7a3f67cc677fb7471f18dd64ed5a4b928b4463d066c6",
+                        "source":  "【亮　　　　】",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "speaker_label",
+                        "speaker":  "亮",
+                        "previous_source":  "「え…どうなったの？」",
+                        "next_source":  "「よけきれるワケないさ…",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "【료】",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2499]",
+                        "kind":  "message",
+                        "numeric_id":  2499,
+                        "source_sha256":  "01bf9f25760b6a241f30b820e8c566e42fa3966831406c34a044681210256088",
+                        "source":  "「よけきれるワケないさ…",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "【亮　　　　】",
+                        "next_source":  "　ほら、これがそのときのケガ…」",
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "「그걸 어떻게 다 피하겠어……",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    },
+                    {
+                        "stable_id":  "NightRemaster.ain::m[2500]",
+                        "kind":  "message",
+                        "numeric_id":  2500,
+                        "source_sha256":  "d5b31e2490ffc4f2e662b57c74af935eff3999cc63538f84c1126d4e5ce3f66e",
+                        "source":  "　ほら、これがそのときのケガ…」",
+                        "function":  "ＥＶ／元／E00001",
+                        "role":  "narration_or_continuation",
+                        "speaker":  "亮",
+                        "previous_source":  "「よけきれるワケないさ…",
+                        "next_source":  null,
+                        "protected_tokens":  [
+
+                                             ],
+                        "translation_required":  true,
+                        "target":  "봐, 이게 그때 생긴 상처야……」",
+                        "translator_notes":  "",
+                        "review_status":  "drafted"
+                    }
+                ]
+}

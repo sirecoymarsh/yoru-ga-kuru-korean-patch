@@ -1,0 +1,234 @@
+{
+  "status": "SMART_AUTO_FIX_COMPILED_PASS",
+  "files": {
+    "NightRemaster.ain": "b86f6f5ff17cf2d08c0eb7a1015d05136819d5daf8803b6bca00b2c5d6cb08ea"
+  },
+  "tests": {
+    "default_off_toggle_idempotent_story82_preserved": true,
+    "vanilla_fallback_special_event_types": true,
+    "weakness_immunity_selection": true,
+    "HP_floor_and_basic_repeat_EX_scaling": true,
+    "AOE_coverage": true,
+    "finish_and_no_first_index_bias": true,
+    "range_dead_null_array_index_fixedID": true,
+    "speed_and_no_heal_buff_consumption": true,
+    "crafted_stats_passives_last_commit_failure": true,
+    "candidate_array_mask_bounds": true,
+    "damage_distribution_known_vectors": 103,
+    "PACT_reverse_exact": true,
+    "original_hook_bodies_exact": true
+  },
+  "native_gameplay_verified": false,
+  "boundaries": "Original native attack/hit computation and modified decision JAM executed; property/table/copy/graphics boundaries emulated; no native gameplay claim.",
+  "real_weapon_data": {
+    "table_sha256": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+    "affected_count": 26,
+    "regressions": [
+      {
+        "id": 351,
+        "name": "수면의 송곳니",
+        "old_score": 0,
+        "fixed_score": 8490,
+        "target": 0
+      },
+      {
+        "id": 352,
+        "name": "혼란의 송곳니",
+        "old_score": 0,
+        "fixed_score": 8490,
+        "target": 0
+      },
+      {
+        "id": 353,
+        "name": "수면의 날개",
+        "old_score": 0,
+        "fixed_score": 21012,
+        "target": 0
+      },
+      {
+        "id": 354,
+        "name": "혼란의 날개",
+        "old_score": 0,
+        "fixed_score": 21012,
+        "target": 0
+      },
+      {
+        "id": 355,
+        "name": "두 날개의 활",
+        "old_score": 0,
+        "fixed_score": 2572,
+        "target": 0
+      },
+      {
+        "id": 356,
+        "name": "네 날개의 칼날",
+        "old_score": 0,
+        "fixed_score": 7075,
+        "target": 0
+      },
+      {
+        "id": 357,
+        "name": "여섯 날개의 창",
+        "old_score": 0,
+        "fixed_score": 7075,
+        "target": 0
+      },
+      {
+        "id": 358,
+        "name": "여덟 날개의 돌팔매",
+        "old_score": 0,
+        "fixed_score": 19396,
+        "target": 0
+      },
+      {
+        "id": 359,
+        "name": "그림자의 열 날개",
+        "old_score": 0,
+        "fixed_score": 2572,
+        "target": 0
+      },
+      {
+        "id": 360,
+        "name": "빛의 열두 날개",
+        "old_score": 0,
+        "fixed_score": 2546,
+        "target": 0
+      },
+      {
+        "id": 651,
+        "name": "신카이 커터",
+        "old_score": 0,
+        "fixed_score": 1033,
+        "target": 0
+      },
+      {
+        "id": 652,
+        "name": "신카이 락 I",
+        "old_score": 0,
+        "fixed_score": 1033,
+        "target": 0
+      },
+      {
+        "id": 653,
+        "name": "신카이 락 II",
+        "old_score": 0,
+        "fixed_score": 876,
+        "target": 0
+      },
+      {
+        "id": 661,
+        "name": "브레인 버스터",
+        "old_score": 0,
+        "fixed_score": 885,
+        "target": 0
+      },
+      {
+        "id": 662,
+        "name": "신카이 바텀",
+        "old_score": 0,
+        "fixed_score": 885,
+        "target": 0
+      },
+      {
+        "id": 663,
+        "name": "선더 파이어",
+        "old_score": 0,
+        "fixed_score": 885,
+        "target": 0
+      },
+      {
+        "id": 664,
+        "name": "데스 밸리 봄",
+        "old_score": 0,
+        "fixed_score": 885,
+        "target": 0
+      },
+      {
+        "id": 665,
+        "name": "신카이 스페셜",
+        "old_score": 0,
+        "fixed_score": 1643,
+        "target": 0
+      },
+      {
+        "id": 666,
+        "name": "지옥의 초개낙",
+        "old_score": 0,
+        "fixed_score": 3450,
+        "target": 0
+      },
+      {
+        "id": 751,
+        "name": "릴레이어",
+        "old_score": 0,
+        "fixed_score": 5066,
+        "target": 0
+      },
+      {
+        "id": 752,
+        "name": "레드",
+        "old_score": 0,
+        "fixed_score": 5066,
+        "target": 0
+      },
+      {
+        "id": 753,
+        "name": "팬텀",
+        "old_score": 0,
+        "fixed_score": 5066,
+        "target": 0
+      },
+      {
+        "id": 754,
+        "name": "샤인 온",
+        "old_score": 0,
+        "fixed_score": 5066,
+        "target": 0
+      },
+      {
+        "id": 755,
+        "name": "펄스",
+        "old_score": 0,
+        "fixed_score": 5066,
+        "target": 0
+      },
+      {
+        "id": 756,
+        "name": "슬랙 어택",
+        "old_score": 0,
+        "fixed_score": 7600,
+        "target": 0
+      },
+      {
+        "id": 757,
+        "name": "너서리 크라임",
+        "old_score": 0,
+        "fixed_score": 5066,
+        "target": 0
+      }
+    ],
+    "real_skill_selections": [
+      {
+        "character": 3,
+        "technique": 353,
+        "name": "수면의 날개",
+        "action": 1
+      },
+      {
+        "character": 6,
+        "technique": 666,
+        "name": "지옥의 초개낙",
+        "action": 1
+      },
+      {
+        "character": 7,
+        "technique": 752,
+        "name": "레드",
+        "action": 1
+      }
+    ],
+    "EX_cost_range_repeat_preserved": true,
+    "current_weapon_base_not_placeholder": true,
+    "gameplay_verified": false
+  }
+}

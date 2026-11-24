@@ -1,0 +1,25 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "reviewer": "/root/translation_revision_review",
+  "read_only": true,
+  "files": {
+    "NightRemaster.ain": "e144757005642031e155c08c8ab9d6c51582868f86b513a6f45d83438266c931"
+  },
+  "findings": [],
+  "patched_function_ids": [
+    26668,
+    26669,
+    26671,
+    26672,
+    26680,
+    26681,
+    31454,
+    31481
+  ],
+  "actual_candidate_disassembly_verified": true,
+  "approved_consume_constants_padding_and_stack_pass": true,
+  "all_six_menu_consumer_paths_verified": true,
+  "two_material_description_operands_only": true,
+  "internal_keys_and_captured_environment_unchanged": true,
+  "native_verified": false
+}

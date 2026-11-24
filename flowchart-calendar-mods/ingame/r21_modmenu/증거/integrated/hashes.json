@@ -1,0 +1,27 @@
+{
+ "checked": "2026-09-28T04:44:15.663254+09:00",
+ "files": {
+  "driver_log_I1.txt": "13c63a48c53ebd27f57fc3f3e44a621f41f39a0bfa60a7bd762b9352d482b423",
+  "driver_log_I2.txt": "6dc8a235439b9c9ce65a5c03a2c1e6054dd57c3a977386f87db643d675e1389a",
+  "driver_log_I3.txt": "ea5d2b2158586705c5d27ad5d5f637bb8da001ebb231f8b17d000ccaa0d3688e",
+  "hangul_ime_hook.log": "94e920acb756820248331858a94d778adf3fc698ccad162b0b6e09c0f4ddbb7c",
+  "int_after_msgbox_no.png": "719f71ec7dc66123411e2383427c3d1356ecfed8fb0070dab42b9e79d4a0feea",
+  "int_chart.png": "9e9bae2b0eee4702b8c0bd63f292ecfab46c262fc269cf9b2656b7c94e2e8ad3",
+  "int_home_1.png": "719f71ec7dc66123411e2383427c3d1356ecfed8fb0070dab42b9e79d4a0feea",
+  "int_home_after_reset.png": "34c8cad5a138ff334eb81b2b789ca2314a5ab351b6076dca635de58ad938f0c0",
+  "int_home_after_restore.png": "719f71ec7dc66123411e2383427c3d1356ecfed8fb0070dab42b9e79d4a0feea",
+  "int_reset_confirm.png": "e5b673d5be37d60e29bacc2eb6843d438c8349c3e9ab7b2dab13dd4c1ff4afd2",
+  "int_reset_result.png": "74bbceaf23763cf4ed69ba661c2bcf8c86ce7b1b3be86159c4a21c17d0bd266b",
+  "int_restore_confirm.png": "f4e1337670c6d1ce34984c150321d0897361863c5d75d5a4be27f023bcd7aeb0",
+  "int_restore_result.png": "e885a507d6bf86d86fa9815c063353469333b753a84a46a7253e6d16b30e36f9",
+  "int_unlock_all.png": "5f2696efd04b49100b35b83f1c08e0a57213f5f7a756745fe4b40ffe62e9ff99",
+  "int_unlock_revert.png": "853adf62fdaa7d24b2b74a37a6c8753cd75779fd806fdbbe0b22f5056b275fb6",
+  "msgbox_reset_all_no.png": "83834590d387f2968ae24da97a86c504a619567d77a25a48cfb9d44005a16f67",
+  "msgbox_reset_all_yes.png": "83834590d387f2968ae24da97a86c504a619567d77a25a48cfb9d44005a16f67",
+  "msgbox_reset_restore_yes.png": "866feff732c451e776c091472ac27db8285300175256e4b4e65737a0a4f5b507",
+  "probe_integrated.json": "24d09f14c127c35df096bb5a284461a5ddf744d3cd8be37097e196991e60fcf0",
+  "probe_log_I1.txt": "a20b60925366ae79a62bba1702a0cdb5dcd9a952bbcbb2b1a891b13daf0b7446",
+  "probe_log_I2.txt": "019e35c30b37252bf37c6f863bd045a1570ae041b255720ba35159802467954c",
+  "probe_log_I3.txt": "7702f7d0d5ce61855f26fffbe091f7ff911a83cc7ef24c3b52ea5e1b29cabbb8"
+ }
+}

@@ -1,0 +1,8920 @@
+{
+ "schema": "yoru-main-groups.v1",
+ "rule": {
+  "chain": "본편끼리의 chains_to / choices[].next",
+  "dungeon": "C_EventDungeon**** 클래스 + L_DungeonManager::RunEventDungeonEnding*",
+  "order": "던전 묶음은 jam 호출 순서((메서드 함수번호, 메서드 안 줄번호))"
+ },
+ "counts": {
+  "main_events": 404,
+  "cards": 155,
+  "singles": 120,
+  "groups": 35,
+  "size_dist": {
+   "1": 120,
+   "2": 8,
+   "3": 9,
+   "4": 3,
+   "5": 1,
+   "6": 3,
+   "7": 2,
+   "9": 1,
+   "10": 1,
+   "11": 1,
+   "15": 1,
+   "16": 1,
+   "21": 2,
+   "40": 1,
+   "49": 1
+  },
+  "branch_events": 12,
+  "max_branch": 4,
+  "shared_global_indeg2": 13,
+  "shared_in_main": 9,
+  "answer_kr_missing": {}
+ },
+ "dungeon_order_evidence": {
+  "L_DungeonManager::RunEventDungeonEndingNewTown": [
+   {
+    "event": 50003,
+    "method": "L_DungeonManager::RunEventDungeonEndingNewTown",
+    "func_no": 27153,
+    "line": 30
+   },
+   {
+    "event": 50005,
+    "method": "L_DungeonManager::RunEventDungeonEndingNewTown",
+    "func_no": 27153,
+    "line": 228
+   },
+   {
+    "event": 50006,
+    "method": "L_DungeonManager::RunEventDungeonEndingNewTown",
+    "func_no": 27153,
+    "line": 247
+   }
+  ],
+  "L_DungeonManager::RunEventDungeonEndingSchool": [
+   {
+    "event": 50001,
+    "method": "L_DungeonManager::RunEventDungeonEndingSchool",
+    "func_no": 27154,
+    "line": 30
+   },
+   {
+    "event": 904,
+    "method": "L_DungeonManager::RunEventDungeonEndingSchool",
+    "func_no": 27154,
+    "line": 40
+   },
+   {
+    "event": 912,
+    "method": "L_DungeonManager::RunEventDungeonEndingSchool",
+    "func_no": 27154,
+    "line": 52
+   }
+  ],
+  "L_DungeonManager::RunEventDungeonEndingCenterBuilding": [
+   {
+    "event": 50002,
+    "method": "L_DungeonManager::RunEventDungeonEndingCenterBuilding",
+    "func_no": 27155,
+    "line": 28
+   },
+   {
+    "event": 50008,
+    "method": "L_DungeonManager::RunEventDungeonEndingCenterBuilding",
+    "func_no": 27155,
+    "line": 34
+   },
+   {
+    "event": 50010,
+    "method": "L_DungeonManager::RunEventDungeonEndingCenterBuilding",
+    "func_no": 27155,
+    "line": 97
+   }
+  ],
+  "C_EventDungeon0101": [
+   {
+    "event": 4,
+    "method": "RunEventB1",
+    "func_no": 28823,
+    "line": 6
+   },
+   {
+    "event": 5,
+    "method": "RunEventB1",
+    "func_no": 28823,
+    "line": 26
+   }
+  ],
+  "C_EventDungeon0102": [
+   {
+    "event": 6,
+    "method": "RunEventR1",
+    "func_no": 28837,
+    "line": 6
+   },
+   {
+    "event": 7,
+    "method": "RunEventR1",
+    "func_no": 28837,
+    "line": 30
+   },
+   {
+    "event": 4,
+    "method": "RunEventB1",
+    "func_no": 28838,
+    "line": 6
+   },
+   {
+    "event": 5,
+    "method": "RunEventB1",
+    "func_no": 28838,
+    "line": 26
+   }
+  ],
+  "C_EventDungeon0201": [
+   {
+    "event": 24,
+    "method": "RunEventExit",
+    "func_no": 28846,
+    "line": 15
+   },
+   {
+    "event": 25,
+    "method": "RunEventExit",
+    "func_no": 28846,
+    "line": 19
+   },
+   {
+    "event": 26,
+    "method": "RunEventExit",
+    "func_no": 28846,
+    "line": 23
+   },
+   {
+    "event": 27,
+    "method": "RunEventExit",
+    "func_no": 28846,
+    "line": 27
+   },
+   {
+    "event": 28,
+    "method": "RunEventExit",
+    "func_no": 28846,
+    "line": 31
+   },
+   {
+    "event": 29,
+    "method": "RunEventExit",
+    "func_no": 28846,
+    "line": 35
+   }
+  ],
+  "C_EventDungeon0202": [
+   {
+    "event": 30,
+    "method": "RunEventB1",
+    "func_no": 28865,
+    "line": 15
+   },
+   {
+    "event": 31,
+    "method": "RunEventB1",
+    "func_no": 28865,
+    "line": 19
+   },
+   {
+    "event": 32,
+    "method": "RunEventB1",
+    "func_no": 28865,
+    "line": 23
+   },
+   {
+    "event": 33,
+    "method": "RunEventB1",
+    "func_no": 28865,
+    "line": 27
+   },
+   {
+    "event": 34,
+    "method": "RunEventB1",
+    "func_no": 28865,
+    "line": 31
+   },
+   {
+    "event": 35,
+    "method": "RunEventB1",
+    "func_no": 28865,
+    "line": 35
+   }
+  ],
+  "C_EventDungeon0203": [
+   {
+    "event": 41,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 16
+   },
+   {
+    "event": 42,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 20
+   },
+   {
+    "event": 43,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 24
+   },
+   {
+    "event": 44,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 28
+   },
+   {
+    "event": 45,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 32
+   },
+   {
+    "event": 46,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 36
+   },
+   {
+    "event": 47,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 75
+   },
+   {
+    "event": 48,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 79
+   },
+   {
+    "event": 49,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 83
+   },
+   {
+    "event": 50,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 87
+   },
+   {
+    "event": 51,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 91
+   },
+   {
+    "event": 52,
+    "method": "RunEventB1",
+    "func_no": 28879,
+    "line": 95
+   },
+   {
+    "event": 54,
+    "method": "RunEventB2",
+    "func_no": 28880,
+    "line": 6
+   },
+   {
+    "event": 56,
+    "method": "RunEventB3",
+    "func_no": 28881,
+    "line": 6
+   },
+   {
+    "event": 57,
+    "method": "RunEventB3",
+    "func_no": 28881,
+    "line": 36
+   },
+   {
+    "event": 58,
+    "method": "RunEventB4",
+    "func_no": 28882,
+    "line": 6
+   },
+   {
+    "event": 61,
+    "method": "RunEventB4",
+    "func_no": 28882,
+    "line": 25
+   }
+  ],
+  "C_EventDungeon0204": [
+   {
+    "event": 63,
+    "method": "RunEventB1",
+    "func_no": 28896,
+    "line": 6
+   }
+  ],
+  "C_EventDungeon0301": [
+   {
+    "event": 75,
+    "method": "RunEventB1",
+    "func_no": 28910,
+    "line": 6
+   }
+  ],
+  "C_EventDungeon0302": [
+   {
+    "event": 76,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 11
+   },
+   {
+    "event": 77,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 15
+   },
+   {
+    "event": 78,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 23
+   },
+   {
+    "event": 79,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 65
+   },
+   {
+    "event": 80,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 69
+   },
+   {
+    "event": 81,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 73
+   },
+   {
+    "event": 82,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 77
+   },
+   {
+    "event": 83,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 81
+   },
+   {
+    "event": 84,
+    "method": "RunEventR1",
+    "func_no": 28924,
+    "line": 85
+   }
+  ],
+  "C_EventDungeon0303": [
+   {
+    "event": 85,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 11
+   },
+   {
+    "event": 86,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 15
+   },
+   {
+    "event": 87,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 19
+   },
+   {
+    "event": 88,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 23
+   },
+   {
+    "event": 89,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 27
+   },
+   {
+    "event": 90,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 31
+   },
+   {
+    "event": 91,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 65
+   },
+   {
+    "event": 92,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 69
+   },
+   {
+    "event": 93,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 73
+   },
+   {
+    "event": 94,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 77
+   },
+   {
+    "event": 95,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 81
+   },
+   {
+    "event": 96,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 85
+   },
+   {
+    "event": 97,
+    "method": "RunEventR1",
+    "func_no": 28938,
+    "line": 114
+   }
+  ],
+  "C_EventDungeon0401": [
+   {
+    "event": 154,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 7
+   },
+   {
+    "event": 155,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 11
+   },
+   {
+    "event": 156,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 15
+   },
+   {
+    "event": 157,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 19
+   },
+   {
+    "event": 158,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 23
+   },
+   {
+    "event": 159,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 27
+   },
+   {
+    "event": 160,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 31
+   },
+   {
+    "event": 161,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 35
+   },
+   {
+    "event": 162,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 39
+   },
+   {
+    "event": 163,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 43
+   },
+   {
+    "event": 164,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 47
+   },
+   {
+    "event": 165,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 51
+   },
+   {
+    "event": 166,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 55
+   },
+   {
+    "event": 167,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 59
+   },
+   {
+    "event": 168,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 63
+   },
+   {
+    "event": 169,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 67
+   },
+   {
+    "event": 170,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 71
+   },
+   {
+    "event": 171,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 75
+   },
+   {
+    "event": 172,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 79
+   },
+   {
+    "event": 173,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 83
+   },
+   {
+    "event": 174,
+    "method": "RunEventEntrance",
+    "func_no": 28945,
+    "line": 87
+   },
+   {
+    "event": 832,
+    "method": "InspectAtEventB",
+    "func_no": 28950,
+    "line": 170
+   },
+   {
+    "event": 833,
+    "method": "InspectAtEventB",
+    "func_no": 28950,
+    "line": 176
+   },
+   {
+    "event": 834,
+    "method": "InspectAtEventB",
+    "func_no": 28950,
+    "line": 182
+   },
+   {
+    "event": 835,
+    "method": "InspectAtEventB",
+    "func_no": 28950,
+    "line": 188
+   },
+   {
+    "event": 836,
+    "method": "InspectAtEventB",
+    "func_no": 28950,
+    "line": 194
+   },
+   {
+    "event": 837,
+    "method": "InspectAtEventB",
+    "func_no": 28950,
+    "line": 200
+   },
+   {
+    "event": 838,
+    "method": "InspectAtEventB",
+    "func_no": 28950,
+    "line": 206
+   },
+   {
+    "event": 811,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 13
+   },
+   {
+    "event": 812,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 17
+   },
+   {
+    "event": 813,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 21
+   },
+   {
+    "event": 814,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 25
+   },
+   {
+    "event": 815,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 29
+   },
+   {
+    "event": 816,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 33
+   },
+   {
+    "event": 817,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 37
+   },
+   {
+    "event": 818,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 41
+   },
+   {
+    "event": 819,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 45
+   },
+   {
+    "event": 820,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 49
+   },
+   {
+    "event": 821,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 53
+   },
+   {
+    "event": 822,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 57
+   },
+   {
+    "event": 823,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 61
+   },
+   {
+    "event": 824,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 65
+   },
+   {
+    "event": 825,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 69
+   },
+   {
+    "event": 826,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 73
+   },
+   {
+    "event": 827,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 77
+   },
+   {
+    "event": 828,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 81
+   },
+   {
+    "event": 829,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 85
+   },
+   {
+    "event": 830,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 89
+   },
+   {
+    "event": 831,
+    "method": "RunEventB14",
+    "func_no": 28952,
+    "line": 93
+   }
+  ],
+  "C_EventDungeon0405": [
+   {
+    "event": 181,
+    "method": "RunEventR",
+    "func_no": 29008,
+    "line": 10
+   },
+   {
+    "event": 182,
+    "method": "RunEventR",
+    "func_no": 29008,
+    "line": 29
+   }
+  ],
+  "C_EventDungeon0502": [
+   {
+    "event": 20167,
+    "method": "RunEventEntrance",
+    "func_no": 29033,
+    "line": 6
+   }
+  ],
+  "C_EventDungeon0503": [
+   {
+    "event": 20168,
+    "method": "RunEventEntrance",
+    "func_no": 29046,
+    "line": 6
+   },
+   {
+    "event": 20169,
+    "method": "RunEventR",
+    "func_no": 29048,
+    "line": 10
+   },
+   {
+    "event": 20170,
+    "method": "RunEventR",
+    "func_no": 29048,
+    "line": 51
+   },
+   {
+    "event": 85,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 11
+   },
+   {
+    "event": 86,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 15
+   },
+   {
+    "event": 87,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 19
+   },
+   {
+    "event": 88,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 23
+   },
+   {
+    "event": 89,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 27
+   },
+   {
+    "event": 90,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 31
+   },
+   {
+    "event": 91,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 65
+   },
+   {
+    "event": 92,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 69
+   },
+   {
+    "event": 93,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 73
+   },
+   {
+    "event": 94,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 77
+   },
+   {
+    "event": 95,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 81
+   },
+   {
+    "event": 96,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 85
+   },
+   {
+    "event": 97,
+    "method": "RunEventR1",
+    "func_no": 29053,
+    "line": 114
+   }
+  ],
+  "C_EventDungeon0601": [
+   {
+    "event": 522,
+    "method": "RunEventEntrance",
+    "func_no": 29060,
+    "line": 6
+   },
+   {
+    "event": 502,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 11
+   },
+   {
+    "event": 503,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 15
+   },
+   {
+    "event": 504,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 19
+   },
+   {
+    "event": 505,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 23
+   },
+   {
+    "event": 506,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 27
+   },
+   {
+    "event": 507,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 31
+   },
+   {
+    "event": 508,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 35
+   },
+   {
+    "event": 509,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 39
+   },
+   {
+    "event": 510,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 43
+   },
+   {
+    "event": 511,
+    "method": "RunEventExit",
+    "func_no": 29061,
+    "line": 47
+   }
+  ],
+  "C_EventDungeon0603": [
+   {
+    "event": 512,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 26
+   },
+   {
+    "event": 513,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 30
+   },
+   {
+    "event": 514,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 34
+   },
+   {
+    "event": 515,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 38
+   },
+   {
+    "event": 516,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 52
+   },
+   {
+    "event": 517,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 85
+   },
+   {
+    "event": 518,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 123
+   },
+   {
+    "event": 519,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 127
+   },
+   {
+    "event": 520,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 131
+   },
+   {
+    "event": 521,
+    "method": "RunEventB1",
+    "func_no": 29093,
+    "line": 135
+   }
+  ],
+  "C_EventDungeon0605": [
+   {
+    "event": 523,
+    "method": "RunEventR1",
+    "func_no": 29120,
+    "line": 6
+   },
+   {
+    "event": 524,
+    "method": "RunEventR1",
+    "func_no": 29120,
+    "line": 20
+   },
+   {
+    "event": 530,
+    "method": "RunEventB1",
+    "func_no": 29121,
+    "line": 21
+   },
+   {
+    "event": 526,
+    "method": "RunEventB1",
+    "func_no": 29121,
+    "line": 41
+   },
+   {
+    "event": 527,
+    "method": "RunEventB1",
+    "func_no": 29121,
+    "line": 45
+   },
+   {
+    "event": 528,
+    "method": "RunEventB1",
+    "func_no": 29121,
+    "line": 49
+   },
+   {
+    "event": 529,
+    "method": "RunEventB1",
+    "func_no": 29121,
+    "line": 53
+   }
+  ],
+  "C_EventDungeon0700": [
+   {
+    "event": 905,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 26
+   },
+   {
+    "event": 907,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 67
+   },
+   {
+    "event": 10203,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 86
+   },
+   {
+    "event": 20201,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 106
+   },
+   {
+    "event": 30102,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 126
+   },
+   {
+    "event": 40161,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 146
+   },
+   {
+    "event": 984,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 151
+   },
+   {
+    "event": 906,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 217
+   },
+   {
+    "event": 981,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 241
+   },
+   {
+    "event": 982,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 272
+   },
+   {
+    "event": 50007,
+    "method": "RunEventB",
+    "func_no": 29131,
+    "line": 277
+   }
+  ],
+  "C_EventDungeon0800": [
+   {
+    "event": 913,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 16
+   },
+   {
+    "event": 914,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 20
+   },
+   {
+    "event": 915,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 24
+   },
+   {
+    "event": 916,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 28
+   },
+   {
+    "event": 917,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 32
+   },
+   {
+    "event": 918,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 36
+   },
+   {
+    "event": 919,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 40
+   },
+   {
+    "event": 920,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 44
+   },
+   {
+    "event": 921,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 48
+   },
+   {
+    "event": 922,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 52
+   },
+   {
+    "event": 931,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 56
+   },
+   {
+    "event": 932,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 60
+   },
+   {
+    "event": 933,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 64
+   },
+   {
+    "event": 934,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 68
+   },
+   {
+    "event": 935,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 72
+   },
+   {
+    "event": 936,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 76
+   },
+   {
+    "event": 937,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 80
+   },
+   {
+    "event": 938,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 84
+   },
+   {
+    "event": 939,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 88
+   },
+   {
+    "event": 940,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 92
+   },
+   {
+    "event": 941,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 174
+   },
+   {
+    "event": 942,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 178
+   },
+   {
+    "event": 943,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 182
+   },
+   {
+    "event": 944,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 186
+   },
+   {
+    "event": 945,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 190
+   },
+   {
+    "event": 951,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 194
+   },
+   {
+    "event": 952,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 198
+   },
+   {
+    "event": 953,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 202
+   },
+   {
+    "event": 954,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 206
+   },
+   {
+    "event": 955,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 210
+   },
+   {
+    "event": 961,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 214
+   },
+   {
+    "event": 962,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 218
+   },
+   {
+    "event": 963,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 222
+   },
+   {
+    "event": 964,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 226
+   },
+   {
+    "event": 965,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 230
+   },
+   {
+    "event": 966,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 234
+   },
+   {
+    "event": 967,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 238
+   },
+   {
+    "event": 968,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 242
+   },
+   {
+    "event": 969,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 246
+   },
+   {
+    "event": 970,
+    "method": "RunEventR",
+    "func_no": 29143,
+    "line": 250
+   }
+  ],
+  "C_EventDungeon0900": [
+   {
+    "event": 50009,
+    "method": "RunEventEntrance",
+    "func_no": 29154,
+    "line": 12
+   },
+   {
+    "event": 985,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 22
+   },
+   {
+    "event": 992,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 26
+   },
+   {
+    "event": 994,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 50
+   },
+   {
+    "event": 993,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 54
+   },
+   {
+    "event": 996,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 74
+   },
+   {
+    "event": 995,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 79
+   },
+   {
+    "event": 10522,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 103
+   },
+   {
+    "event": 20522,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 123
+   },
+   {
+    "event": 30522,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 143
+   },
+   {
+    "event": 40522,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 163
+   },
+   {
+    "event": 999,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 168
+   },
+   {
+    "event": 10521,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 190
+   },
+   {
+    "event": 20521,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 210
+   },
+   {
+    "event": 30521,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 230
+   },
+   {
+    "event": 40521,
+    "method": "RunEventExit",
+    "func_no": 29155,
+    "line": 250
+   },
+   {
+    "event": 991,
+    "method": "RunEventB",
+    "func_no": 29157,
+    "line": 18
+   }
+  ]
+ },
+ "groups": [
+  {
+   "key": "G00001",
+   "members": [
+    1
+   ],
+   "entries": [
+    1
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 1,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 2140,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 0
+  },
+  {
+   "key": "G00002",
+   "members": [
+    2
+   ],
+   "entries": [
+    2
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 2,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 780,
+   "un": 0,
+   "mis": 0,
+   "reg": 13,
+   "depth": 0
+  },
+  {
+   "key": "G00004",
+   "members": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "entries": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0101",
+    "C_EventDungeon0102"
+   ],
+   "rows": [
+    {
+     "event": 4,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 5,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 6,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 7,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 4,
+   "branches": 0,
+   "shared": [],
+   "lines": 338,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00008",
+   "members": [
+    8
+   ],
+   "entries": [
+    8
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 8,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 379,
+   "un": 8,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00011",
+   "members": [
+    11
+   ],
+   "entries": [
+    11
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 11,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 219,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 0
+  },
+  {
+   "key": "G00013",
+   "members": [
+    13
+   ],
+   "entries": [
+    13
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 13,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 304,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00014",
+   "members": [
+    14
+   ],
+   "entries": [
+    14
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 14,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 93,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00015",
+   "members": [
+    15
+   ],
+   "entries": [
+    15
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 15,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 228,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00016",
+   "members": [
+    16,
+    17
+   ],
+   "entries": [
+    16
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 16,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 17,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 2,
+   "branches": 0,
+   "shared": [],
+   "lines": 635,
+   "un": 0,
+   "mis": 0,
+   "reg": 8,
+   "depth": 1
+  },
+  {
+   "key": "G00019",
+   "members": [
+    19
+   ],
+   "entries": [
+    19
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 19,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 178,
+   "un": 0,
+   "mis": 0,
+   "reg": 4,
+   "depth": 0
+  },
+  {
+   "key": "G00021",
+   "members": [
+    21
+   ],
+   "entries": [
+    21
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 21,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 129,
+   "un": 0,
+   "mis": 0,
+   "reg": 3,
+   "depth": 0
+  },
+  {
+   "key": "G00022",
+   "members": [
+    22,
+    23
+   ],
+   "entries": [
+    22
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 22,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 23,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 2,
+   "branches": 0,
+   "shared": [],
+   "lines": 188,
+   "un": 0,
+   "mis": 0,
+   "reg": 3,
+   "depth": 1
+  },
+  {
+   "key": "G00024",
+   "members": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "entries": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0201"
+   ],
+   "rows": [
+    {
+     "event": 24,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 25,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 26,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 27,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 28,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 29,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 6,
+   "branches": 0,
+   "shared": [],
+   "lines": 152,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G00030",
+   "members": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "entries": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0202"
+   ],
+   "rows": [
+    {
+     "event": 30,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 31,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 32,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 33,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 34,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 35,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 6,
+   "branches": 0,
+   "shared": [],
+   "lines": 383,
+   "un": 0,
+   "mis": 0,
+   "reg": 14,
+   "depth": 0
+  },
+  {
+   "key": "G00041",
+   "members": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    54,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    801,
+    802
+   ],
+   "entries": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    54,
+    56,
+    57,
+    58,
+    61
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0203"
+   ],
+   "rows": [
+    {
+     "event": 41,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 42,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 43,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 44,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 45,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 46,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 47,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 48,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 49,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 50,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 51,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 52,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 54,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 56,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 57,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 58,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 801,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『꽤 힘들다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 59,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 60,
+     "depth": 3,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 802,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『전혀 괜찮아』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 59,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 61,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 21,
+   "branches": 1,
+   "shared": [
+    59
+   ],
+   "lines": 1513,
+   "un": 0,
+   "mis": 0,
+   "reg": 6,
+   "depth": 3
+  },
+  {
+   "key": "G00063",
+   "members": [
+    63,
+    64,
+    803,
+    804
+   ],
+   "entries": [
+    63
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0204"
+   ],
+   "rows": [
+    {
+     "event": 63,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 803,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『먼저 간다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 64,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 804,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『기다린다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 64,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    }
+   ],
+   "steps": 4,
+   "branches": 1,
+   "shared": [
+    64
+   ],
+   "lines": 578,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 2
+  },
+  {
+   "key": "G00065",
+   "members": [
+    65
+   ],
+   "entries": [
+    65
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 65,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 250,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00066",
+   "members": [
+    66
+   ],
+   "entries": [
+    66
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 66,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 99,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00067",
+   "members": [
+    67
+   ],
+   "entries": [
+    67
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 67,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 299,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00068",
+   "members": [
+    68
+   ],
+   "entries": [
+    68
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 68,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 466,
+   "un": 0,
+   "mis": 0,
+   "reg": 5,
+   "depth": 0
+  },
+  {
+   "key": "G00069",
+   "members": [
+    69,
+    805,
+    806
+   ],
+   "entries": [
+    69
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 69,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 805,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『부실에 남는다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 806,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『교사로 돌아간다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 1,
+   "shared": [],
+   "lines": 1211,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 1
+  },
+  {
+   "key": "G00070",
+   "members": [
+    70
+   ],
+   "entries": [
+    70
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 70,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 35,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00071",
+   "members": [
+    71
+   ],
+   "entries": [
+    71
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 71,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 152,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00072",
+   "members": [
+    72,
+    73
+   ],
+   "entries": [
+    72
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 72,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 73,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 2,
+   "branches": 0,
+   "shared": [],
+   "lines": 298,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 1
+  },
+  {
+   "key": "G00074",
+   "members": [
+    74
+   ],
+   "entries": [
+    74
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 74,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 828,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00075",
+   "members": [
+    75
+   ],
+   "entries": [
+    75
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0301"
+   ],
+   "rows": [
+    {
+     "event": 75,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 47,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00076",
+   "members": [
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+   ],
+   "entries": [
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0302"
+   ],
+   "rows": [
+    {
+     "event": 76,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 77,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 78,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 79,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 80,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 81,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 82,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 83,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 84,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 9,
+   "branches": 0,
+   "shared": [],
+   "lines": 122,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00085",
+   "members": [
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    20168,
+    20169,
+    20170
+   ],
+   "entries": [
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    20168,
+    20169,
+    20170
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0303",
+    "C_EventDungeon0503"
+   ],
+   "rows": [
+    {
+     "event": 85,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 86,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 87,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 88,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 89,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 90,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 91,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 92,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 93,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 94,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 95,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 96,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 97,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20168,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20169,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20170,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 16,
+   "branches": 0,
+   "shared": [],
+   "lines": 2940,
+   "un": 0,
+   "mis": 0,
+   "reg": 18,
+   "depth": 0
+  },
+  {
+   "key": "G00100",
+   "members": [
+    100
+   ],
+   "entries": [
+    100
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 100,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 157,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 0
+  },
+  {
+   "key": "G00101",
+   "members": [
+    101
+   ],
+   "entries": [
+    101
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 101,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 770,
+   "un": 19,
+   "mis": 0,
+   "reg": 3,
+   "depth": 0
+  },
+  {
+   "key": "G00102",
+   "members": [
+    102
+   ],
+   "entries": [
+    102
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 102,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 73,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00103",
+   "members": [
+    103
+   ],
+   "entries": [
+    103
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 103,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 154,
+   "un": 0,
+   "mis": 0,
+   "reg": 6,
+   "depth": 0
+  },
+  {
+   "key": "G00104",
+   "members": [
+    104,
+    109,
+    110,
+    111
+   ],
+   "entries": [
+    104
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 104,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 109,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『솔직히 말해 보통 정도』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 111,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 110,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『솔직히 말해 완전 별로다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 111,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    }
+   ],
+   "steps": 4,
+   "branches": 1,
+   "shared": [
+    111
+   ],
+   "lines": 255,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 2
+  },
+  {
+   "key": "G00105",
+   "members": [
+    105
+   ],
+   "entries": [
+    105
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 105,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 102,
+   "un": 0,
+   "mis": 0,
+   "reg": 11,
+   "depth": 0
+  },
+  {
+   "key": "G00106",
+   "members": [
+    106
+   ],
+   "entries": [
+    106
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 106,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 25,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G00107",
+   "members": [
+    107
+   ],
+   "entries": [
+    107
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 107,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 343,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G00108",
+   "members": [
+    108
+   ],
+   "entries": [
+    108
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 108,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 357,
+   "un": 0,
+   "mis": 0,
+   "reg": 5,
+   "depth": 0
+  },
+  {
+   "key": "G00112",
+   "members": [
+    112
+   ],
+   "entries": [
+    112
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 112,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 102,
+   "un": 0,
+   "mis": 0,
+   "reg": 5,
+   "depth": 0
+  },
+  {
+   "key": "G00113",
+   "members": [
+    113
+   ],
+   "entries": [
+    113
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 113,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 58,
+   "un": 0,
+   "mis": 0,
+   "reg": 5,
+   "depth": 0
+  },
+  {
+   "key": "G00121",
+   "members": [
+    121
+   ],
+   "entries": [
+    121
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 121,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 377,
+   "un": 3,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00151",
+   "members": [
+    151
+   ],
+   "entries": [
+    151
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 151,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 199,
+   "un": 0,
+   "mis": 0,
+   "reg": 9,
+   "depth": 0
+  },
+  {
+   "key": "G00152",
+   "members": [
+    152
+   ],
+   "entries": [
+    152
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 152,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 200,
+   "un": 10,
+   "mis": 1,
+   "reg": 5,
+   "depth": 0
+  },
+  {
+   "key": "G00153",
+   "members": [
+    153
+   ],
+   "entries": [
+    153
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 153,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 249,
+   "un": 0,
+   "mis": 0,
+   "reg": 8,
+   "depth": 0
+  },
+  {
+   "key": "G00154",
+   "members": [
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    819,
+    820,
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    828,
+    829,
+    830,
+    831,
+    832,
+    833,
+    834,
+    835,
+    836,
+    837,
+    838
+   ],
+   "entries": [
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    832,
+    833,
+    834,
+    835,
+    836,
+    837,
+    838,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    819,
+    820,
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    828,
+    829,
+    830,
+    831
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0401"
+   ],
+   "rows": [
+    {
+     "event": 154,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 155,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 156,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 157,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 158,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 159,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 160,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 161,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 162,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 163,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 164,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 165,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 166,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 167,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 168,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 169,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 170,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 171,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 172,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 173,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 174,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 832,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 833,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 834,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 835,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 836,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 837,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 838,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 811,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 812,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 813,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 814,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 815,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 816,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 817,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 818,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 819,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 820,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 821,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 822,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 823,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 824,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 825,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 826,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 827,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 828,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 829,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 830,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 831,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 49,
+   "branches": 0,
+   "shared": [],
+   "lines": 526,
+   "un": 0,
+   "mis": 0,
+   "reg": 10,
+   "depth": 0
+  },
+  {
+   "key": "G00180",
+   "members": [
+    180
+   ],
+   "entries": [
+    180
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 180,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 133,
+   "un": 0,
+   "mis": 0,
+   "reg": 3,
+   "depth": 0
+  },
+  {
+   "key": "G00181",
+   "members": [
+    181,
+    182
+   ],
+   "entries": [
+    181,
+    182
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0405"
+   ],
+   "rows": [
+    {
+     "event": 181,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 182,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 2,
+   "branches": 0,
+   "shared": [],
+   "lines": 672,
+   "un": 4,
+   "mis": 0,
+   "reg": 3,
+   "depth": 0
+  },
+  {
+   "key": "G00183",
+   "members": [
+    183
+   ],
+   "entries": [
+    183
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 183,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 42,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00185",
+   "members": [
+    185,
+    20061
+   ],
+   "entries": [
+    20061
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20061,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 185,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 2,
+   "branches": 0,
+   "shared": [],
+   "lines": 495,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 1
+  },
+  {
+   "key": "G00201",
+   "members": [
+    201
+   ],
+   "entries": [
+    201
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 201,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 884,
+   "un": 0,
+   "mis": 0,
+   "reg": 8,
+   "depth": 0
+  },
+  {
+   "key": "G00204",
+   "members": [
+    204
+   ],
+   "entries": [
+    204
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 204,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 228,
+   "un": 0,
+   "mis": 0,
+   "reg": 3,
+   "depth": 0
+  },
+  {
+   "key": "G00241",
+   "members": [
+    241
+   ],
+   "entries": [
+    241
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 241,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 33,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00242",
+   "members": [
+    242
+   ],
+   "entries": [
+    242
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 242,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 105,
+   "un": 0,
+   "mis": 0,
+   "reg": 7,
+   "depth": 0
+  },
+  {
+   "key": "G00251",
+   "members": [
+    251
+   ],
+   "entries": [
+    251
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 251,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 12,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00252",
+   "members": [
+    252
+   ],
+   "entries": [
+    252
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 252,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 196,
+   "un": 5,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00255",
+   "members": [
+    255
+   ],
+   "entries": [
+    255
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 255,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 42,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00256",
+   "members": [
+    256
+   ],
+   "entries": [
+    256
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 256,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 27,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00257",
+   "members": [
+    257
+   ],
+   "entries": [
+    257
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 257,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 195,
+   "un": 5,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00258",
+   "members": [
+    258,
+    273,
+    274
+   ],
+   "entries": [
+    258
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 258,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 273,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『진실을 전한다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 274,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『조용히 있는다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 1,
+   "shared": [],
+   "lines": 125,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 1
+  },
+  {
+   "key": "G00259",
+   "members": [
+    259
+   ],
+   "entries": [
+    259
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 259,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 52,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 0
+  },
+  {
+   "key": "G00260",
+   "members": [
+    260,
+    271,
+    272
+   ],
+   "entries": [
+    260
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 260,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 271,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『사실대로 말한다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 272,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『얼버무린다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 1,
+   "shared": [],
+   "lines": 209,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 1
+  },
+  {
+   "key": "G00261",
+   "members": [
+    261
+   ],
+   "entries": [
+    261
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 261,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 63,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00262",
+   "members": [
+    262
+   ],
+   "entries": [
+    262
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 262,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 930,
+   "un": 0,
+   "mis": 0,
+   "reg": 8,
+   "depth": 0
+  },
+  {
+   "key": "G00264",
+   "members": [
+    264
+   ],
+   "entries": [
+    264
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 264,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 154,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00265",
+   "members": [
+    265
+   ],
+   "entries": [
+    265
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 265,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 168,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00266",
+   "members": [
+    266
+   ],
+   "entries": [
+    266
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 266,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 355,
+   "un": 159,
+   "mis": 1,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00301",
+   "members": [
+    301
+   ],
+   "entries": [
+    301
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 301,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 143,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G00302",
+   "members": [
+    302
+   ],
+   "entries": [
+    302
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 302,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 122,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00321",
+   "members": [
+    321
+   ],
+   "entries": [
+    321
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 321,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 57,
+   "un": 0,
+   "mis": 0,
+   "reg": 3,
+   "depth": 0
+  },
+  {
+   "key": "G00322",
+   "members": [
+    322,
+    323,
+    324,
+    325,
+    326,
+    328
+   ],
+   "entries": [
+    322
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 322,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 323,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『이즈미』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 328,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 324,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『쿄카』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 328,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 325,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 3,
+      "text_kr": "『마나미』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 328,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 326,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 4,
+      "text_kr": "『마코토』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 328,
+     "depth": 2,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    }
+   ],
+   "steps": 6,
+   "branches": 1,
+   "shared": [
+    328
+   ],
+   "lines": 942,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 2
+  },
+  {
+   "key": "G00329",
+   "members": [
+    329
+   ],
+   "entries": [
+    329
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 329,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 51,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G00330",
+   "members": [
+    330
+   ],
+   "entries": [
+    330
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 330,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 76,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00331",
+   "members": [
+    331
+   ],
+   "entries": [
+    331
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 331,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 65,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00401",
+   "members": [
+    401
+   ],
+   "entries": [
+    401
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 401,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 211,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00402",
+   "members": [
+    402
+   ],
+   "entries": [
+    402
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 402,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 98,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00403",
+   "members": [
+    403
+   ],
+   "entries": [
+    403
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 403,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 40,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00404",
+   "members": [
+    404
+   ],
+   "entries": [
+    404
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 404,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 151,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G00451",
+   "members": [
+    451
+   ],
+   "entries": [
+    451
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 451,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 31,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00452",
+   "members": [
+    452,
+    501
+   ],
+   "entries": [
+    452
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 452,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 501,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 2,
+   "branches": 0,
+   "shared": [],
+   "lines": 277,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 1
+  },
+  {
+   "key": "G00502",
+   "members": [
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    522
+   ],
+   "entries": [
+    522,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0601"
+   ],
+   "rows": [
+    {
+     "event": 522,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 502,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 503,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 504,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 505,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 506,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 507,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 508,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 509,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 510,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 511,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 11,
+   "branches": 0,
+   "shared": [],
+   "lines": 273,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 0
+  },
+  {
+   "key": "G00512",
+   "members": [
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521
+   ],
+   "entries": [
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0603"
+   ],
+   "rows": [
+    {
+     "event": 512,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 513,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 514,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 515,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 516,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 517,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 518,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 519,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 520,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 521,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 10,
+   "branches": 0,
+   "shared": [],
+   "lines": 1004,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00523",
+   "members": [
+    523,
+    524,
+    526,
+    527,
+    528,
+    529,
+    530
+   ],
+   "entries": [
+    523,
+    524,
+    530,
+    526,
+    527,
+    528,
+    529
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0605"
+   ],
+   "rows": [
+    {
+     "event": 523,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 524,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 530,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 526,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 527,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 528,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 529,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 7,
+   "branches": 0,
+   "shared": [],
+   "lines": 594,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00525",
+   "members": [
+    525
+   ],
+   "entries": [
+    525
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 525,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 63,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00601",
+   "members": [
+    601
+   ],
+   "entries": [
+    601
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 601,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 84,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00602",
+   "members": [
+    602,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616
+   ],
+   "entries": [
+    602
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 602,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 611,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 612,
+     "depth": 2,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『「별 이야기라면」의 이즈미』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 616,
+     "depth": 3,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 613,
+     "depth": 2,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『「배짱은 최고」인 쿄카』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 616,
+     "depth": 3,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 614,
+     "depth": 2,
+     "via": {
+      "kind": "answer",
+      "no": 3,
+      "text_kr": "『「내레이션이라면」의 마나미』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 616,
+     "depth": 3,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 615,
+     "depth": 2,
+     "via": {
+      "kind": "answer",
+      "no": 4,
+      "text_kr": "『「의외의 선택」으로 마코토』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 616,
+     "depth": 3,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    }
+   ],
+   "steps": 7,
+   "branches": 1,
+   "shared": [
+    616
+   ],
+   "lines": 1099,
+   "un": 0,
+   "mis": 0,
+   "reg": 12,
+   "depth": 3
+  },
+  {
+   "key": "G00603",
+   "members": [
+    603
+   ],
+   "entries": [
+    603
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 603,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 71,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00604",
+   "members": [
+    604
+   ],
+   "entries": [
+    604
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 604,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 71,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00651",
+   "members": [
+    651,
+    658
+   ],
+   "entries": [
+    658
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 658,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 651,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 2,
+   "branches": 0,
+   "shared": [],
+   "lines": 226,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 1
+  },
+  {
+   "key": "G00652",
+   "members": [
+    652
+   ],
+   "entries": [
+    652
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 652,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 95,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 0
+  },
+  {
+   "key": "G00653",
+   "members": [
+    653
+   ],
+   "entries": [
+    653
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 653,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 105,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00654",
+   "members": [
+    654
+   ],
+   "entries": [
+    654
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 654,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 113,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00655",
+   "members": [
+    655
+   ],
+   "entries": [
+    655
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 655,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 160,
+   "un": 0,
+   "mis": 0,
+   "reg": 4,
+   "depth": 0
+  },
+  {
+   "key": "G00656",
+   "members": [
+    656
+   ],
+   "entries": [
+    656
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 656,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 155,
+   "un": 0,
+   "mis": 0,
+   "reg": 6,
+   "depth": 0
+  },
+  {
+   "key": "G00657",
+   "members": [
+    657
+   ],
+   "entries": [
+    657
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 657,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 62,
+   "un": 0,
+   "mis": 0,
+   "reg": 6,
+   "depth": 0
+  },
+  {
+   "key": "G00901",
+   "members": [
+    901
+   ],
+   "entries": [
+    901
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 901,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 628,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G00903",
+   "members": [
+    903
+   ],
+   "entries": [
+    903
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 903,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 69,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G00904",
+   "members": [
+    904,
+    912,
+    50001
+   ],
+   "entries": [
+    50001,
+    904,
+    912
+   ],
+   "dungeon_classes": [
+    "L_DungeonManager::RunEventDungeonEndingSchool"
+   ],
+   "rows": [
+    {
+     "event": 50001,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 904,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 912,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 0,
+   "shared": [],
+   "lines": 20,
+   "un": 6,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G00905",
+   "members": [
+    905,
+    906,
+    907,
+    908,
+    909,
+    910,
+    911,
+    981,
+    982,
+    984,
+    10203,
+    20201,
+    30102,
+    40161,
+    50007
+   ],
+   "entries": [
+    905,
+    907,
+    10203,
+    20201,
+    30102,
+    40161,
+    984,
+    906,
+    981,
+    50007
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0700"
+   ],
+   "rows": [
+    {
+     "event": 905,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 907,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 10203,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 908,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20201,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 909,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 30102,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 910,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 40161,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 911,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 984,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 906,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 981,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 50007,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 982,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 15,
+   "branches": 0,
+   "shared": [],
+   "lines": 4259,
+   "un": 760,
+   "mis": 18,
+   "reg": 27,
+   "depth": 1
+  },
+  {
+   "key": "G00913",
+   "members": [
+    913,
+    914,
+    915,
+    916,
+    917,
+    918,
+    919,
+    920,
+    921,
+    922,
+    931,
+    932,
+    933,
+    934,
+    935,
+    936,
+    937,
+    938,
+    939,
+    940,
+    941,
+    942,
+    943,
+    944,
+    945,
+    951,
+    952,
+    953,
+    954,
+    955,
+    961,
+    962,
+    963,
+    964,
+    965,
+    966,
+    967,
+    968,
+    969,
+    970
+   ],
+   "entries": [
+    913,
+    914,
+    915,
+    916,
+    917,
+    918,
+    919,
+    920,
+    921,
+    922,
+    931,
+    932,
+    933,
+    934,
+    935,
+    936,
+    937,
+    938,
+    939,
+    940,
+    941,
+    942,
+    943,
+    944,
+    945,
+    951,
+    952,
+    953,
+    954,
+    955,
+    961,
+    962,
+    963,
+    964,
+    965,
+    966,
+    967,
+    968,
+    969,
+    970
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0800"
+   ],
+   "rows": [
+    {
+     "event": 913,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 914,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 915,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 916,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 917,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 918,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 919,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 920,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 921,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 922,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 931,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 932,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 933,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 934,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 935,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 936,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 937,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 938,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 939,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 940,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 941,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 942,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 943,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 944,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 945,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 951,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 952,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 953,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 954,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 955,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 961,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 962,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 963,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 964,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 965,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 966,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 967,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 968,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 969,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 970,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 40,
+   "branches": 0,
+   "shared": [],
+   "lines": 4353,
+   "un": 0,
+   "mis": 0,
+   "reg": 5,
+   "depth": 0
+  },
+  {
+   "key": "G00985",
+   "members": [
+    985,
+    991,
+    992,
+    993,
+    994,
+    995,
+    996,
+    999,
+    10521,
+    10522,
+    10523,
+    20521,
+    20522,
+    20523,
+    30521,
+    30522,
+    30523,
+    40521,
+    40522,
+    40523,
+    50009
+   ],
+   "entries": [
+    50009,
+    985,
+    992,
+    994,
+    993,
+    996,
+    10522,
+    20522,
+    30522,
+    40522,
+    999,
+    10521,
+    20521,
+    30521,
+    40521,
+    991
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0900"
+   ],
+   "rows": [
+    {
+     "event": 50009,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 985,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 992,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 994,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 993,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 996,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 995,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 10522,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 10523,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 20522,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20523,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 30522,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 30523,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 40522,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 40523,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": true
+    },
+    {
+     "event": 999,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 10521,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 10523,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 20521,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20523,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 30521,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 30523,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 40521,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 40523,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": true,
+     "counts_here": false
+    },
+    {
+     "event": 991,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 21,
+   "branches": 0,
+   "shared": [
+    10523,
+    20523,
+    30523,
+    40523
+   ],
+   "lines": 3054,
+   "un": 18,
+   "mis": 1,
+   "reg": 4,
+   "depth": 1
+  },
+  {
+   "key": "G02601",
+   "members": [
+    2601
+   ],
+   "entries": [
+    2601
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 2601,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 41,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G02602",
+   "members": [
+    2602
+   ],
+   "entries": [
+    2602
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 2602,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 37,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G02603",
+   "members": [
+    2603
+   ],
+   "entries": [
+    2603
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 2603,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 68,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G05021",
+   "members": [
+    5021
+   ],
+   "entries": [
+    5021
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 5021,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 123,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G05023",
+   "members": [
+    5023
+   ],
+   "entries": [
+    5023
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 5023,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 145,
+   "un": 144,
+   "mis": 1,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G05024",
+   "members": [
+    5024
+   ],
+   "entries": [
+    5024
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 5024,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 399,
+   "un": 13,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G05025",
+   "members": [
+    5025
+   ],
+   "entries": [
+    5025
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 5025,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 440,
+   "un": 57,
+   "mis": 1,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G10081",
+   "members": [
+    10081
+   ],
+   "entries": [
+    10081
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10081,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 94,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G10121",
+   "members": [
+    10121
+   ],
+   "entries": [
+    10121
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10121,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 548,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G10122",
+   "members": [
+    10122
+   ],
+   "entries": [
+    10122
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10122,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 161,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G10161",
+   "members": [
+    10161
+   ],
+   "entries": [
+    10161
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10161,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 351,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G10181",
+   "members": [
+    10181
+   ],
+   "entries": [
+    10181
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10181,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 42,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G10182",
+   "members": [
+    10182
+   ],
+   "entries": [
+    10182
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10182,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 331,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G10183",
+   "members": [
+    10183
+   ],
+   "entries": [
+    10183
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10183,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 21,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G10201",
+   "members": [
+    10201
+   ],
+   "entries": [
+    10201
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10201,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 401,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G10202",
+   "members": [
+    10202
+   ],
+   "entries": [
+    10202
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10202,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 240,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G10501",
+   "members": [
+    10501
+   ],
+   "entries": [
+    10501
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 10501,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 315,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20001",
+   "members": [
+    20001
+   ],
+   "entries": [
+    20001
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20001,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 209,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20081",
+   "members": [
+    20081,
+    20082,
+    20083
+   ],
+   "entries": [
+    20081
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20081,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20082,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『부끄러우니 밖으로 데리고 나간다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20083,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『부끄러워도 신경 쓰지 않고 눌러앉는다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 1,
+   "shared": [],
+   "lines": 454,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 1
+  },
+  {
+   "key": "G20101",
+   "members": [
+    20101
+   ],
+   "entries": [
+    20101
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20101,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 274,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20121",
+   "members": [
+    20121
+   ],
+   "entries": [
+    20121
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20121,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 341,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20141",
+   "members": [
+    20141
+   ],
+   "entries": [
+    20141
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20141,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 1115,
+   "un": 0,
+   "mis": 0,
+   "reg": 3,
+   "depth": 0
+  },
+  {
+   "key": "G20161",
+   "members": [
+    20161
+   ],
+   "entries": [
+    20161
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20161,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 45,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20162",
+   "members": [
+    20162
+   ],
+   "entries": [
+    20162
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20162,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 94,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20163",
+   "members": [
+    20163
+   ],
+   "entries": [
+    20163
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20163,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 98,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20164",
+   "members": [
+    20164,
+    20165,
+    20166
+   ],
+   "entries": [
+    20164
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20164,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20165,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『공원으로 간다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 20166,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『무시한다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 1,
+   "shared": [],
+   "lines": 89,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 1
+  },
+  {
+   "key": "G20167",
+   "members": [
+    20167
+   ],
+   "entries": [
+    20167
+   ],
+   "dungeon_classes": [
+    "C_EventDungeon0502"
+   ],
+   "rows": [
+    {
+     "event": 20167,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 10,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20171",
+   "members": [
+    20171
+   ],
+   "entries": [
+    20171
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20171,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 102,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20181",
+   "members": [
+    20181
+   ],
+   "entries": [
+    20181
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20181,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 400,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G20501",
+   "members": [
+    20501
+   ],
+   "entries": [
+    20501
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 20501,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 411,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30041",
+   "members": [
+    30041
+   ],
+   "entries": [
+    30041
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30041,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 452,
+   "un": 452,
+   "mis": 5,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30061",
+   "members": [
+    30061
+   ],
+   "entries": [
+    30061
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30061,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 701,
+   "un": 515,
+   "mis": 6,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30081",
+   "members": [
+    30081
+   ],
+   "entries": [
+    30081
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30081,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 1126,
+   "un": 1126,
+   "mis": 12,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30101",
+   "members": [
+    30101
+   ],
+   "entries": [
+    30101
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30101,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 608,
+   "un": 608,
+   "mis": 3,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30121",
+   "members": [
+    30121
+   ],
+   "entries": [
+    30121
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30121,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 391,
+   "un": 391,
+   "mis": 2,
+   "reg": 3,
+   "depth": 0
+  },
+  {
+   "key": "G30151",
+   "members": [
+    30151
+   ],
+   "entries": [
+    30151
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30151,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 42,
+   "un": 42,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30152",
+   "members": [
+    30152,
+    30153,
+    30154,
+    30155,
+    30156
+   ],
+   "entries": [
+    30152
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30152,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 30153,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『이즈미를 부른다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 30154,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『쿄카를 부른다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 30155,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 3,
+      "text_kr": "『마나미를 부른다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 30156,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 4,
+      "text_kr": "『마코토를 부른다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 5,
+   "branches": 1,
+   "shared": [],
+   "lines": 16,
+   "un": 16,
+   "mis": 0,
+   "reg": 0,
+   "depth": 1
+  },
+  {
+   "key": "G30157",
+   "members": [
+    30157
+   ],
+   "entries": [
+    30157
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30157,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 33,
+   "un": 33,
+   "mis": 1,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30158",
+   "members": [
+    30158
+   ],
+   "entries": [
+    30158
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30158,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 46,
+   "un": 46,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30159",
+   "members": [
+    30159
+   ],
+   "entries": [
+    30159
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30159,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 59,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30160",
+   "members": [
+    30160
+   ],
+   "entries": [
+    30160
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30160,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 49,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30161",
+   "members": [
+    30161
+   ],
+   "entries": [
+    30161
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30161,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 49,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30162",
+   "members": [
+    30162
+   ],
+   "entries": [
+    30162
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30162,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 50,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30163",
+   "members": [
+    30163
+   ],
+   "entries": [
+    30163
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30163,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 44,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30164",
+   "members": [
+    30164
+   ],
+   "entries": [
+    30164
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30164,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 74,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G30501",
+   "members": [
+    30501
+   ],
+   "entries": [
+    30501
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 30501,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 470,
+   "un": 384,
+   "mis": 14,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G40061",
+   "members": [
+    40061,
+    40062,
+    40063
+   ],
+   "entries": [
+    40061
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 40061,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 40062,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 1,
+      "text_kr": "『얻어먹으러 간다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 40063,
+     "depth": 1,
+     "via": {
+      "kind": "answer",
+      "no": 2,
+      "text_kr": "『가지 않는다』",
+      "text_missing": null
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 1,
+   "shared": [],
+   "lines": 295,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 1
+  },
+  {
+   "key": "G40081",
+   "members": [
+    40081
+   ],
+   "entries": [
+    40081
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 40081,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 240,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G40121",
+   "members": [
+    40121
+   ],
+   "entries": [
+    40121
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 40121,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 387,
+   "un": 0,
+   "mis": 0,
+   "reg": 2,
+   "depth": 0
+  },
+  {
+   "key": "G40141",
+   "members": [
+    40141
+   ],
+   "entries": [
+    40141
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 40141,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 152,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G40142",
+   "members": [
+    40142
+   ],
+   "entries": [
+    40142
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 40142,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 98,
+   "un": 0,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G40143",
+   "members": [
+    40143
+   ],
+   "entries": [
+    40143
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 40143,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 193,
+   "un": 0,
+   "mis": 0,
+   "reg": 1,
+   "depth": 0
+  },
+  {
+   "key": "G40144",
+   "members": [
+    40144,
+    40145
+   ],
+   "entries": [
+    40144
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 40144,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 40145,
+     "depth": 1,
+     "via": {
+      "kind": "chain"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 2,
+   "branches": 0,
+   "shared": [],
+   "lines": 946,
+   "un": 0,
+   "mis": 0,
+   "reg": 3,
+   "depth": 1
+  },
+  {
+   "key": "G40501",
+   "members": [
+    40501
+   ],
+   "entries": [
+    40501
+   ],
+   "dungeon_classes": [],
+   "rows": [
+    {
+     "event": 40501,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 1,
+   "branches": 0,
+   "shared": [],
+   "lines": 361,
+   "un": 199,
+   "mis": 4,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G50002",
+   "members": [
+    50002,
+    50008,
+    50010
+   ],
+   "entries": [
+    50002,
+    50008,
+    50010
+   ],
+   "dungeon_classes": [
+    "L_DungeonManager::RunEventDungeonEndingCenterBuilding"
+   ],
+   "rows": [
+    {
+     "event": 50002,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 50008,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 50010,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 0,
+   "shared": [],
+   "lines": 43,
+   "un": 43,
+   "mis": 1,
+   "reg": 0,
+   "depth": 0
+  },
+  {
+   "key": "G50003",
+   "members": [
+    50003,
+    50005,
+    50006
+   ],
+   "entries": [
+    50003,
+    50005,
+    50006
+   ],
+   "dungeon_classes": [
+    "L_DungeonManager::RunEventDungeonEndingNewTown"
+   ],
+   "rows": [
+    {
+     "event": 50003,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 50005,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    },
+    {
+     "event": 50006,
+     "depth": 0,
+     "via": {
+      "kind": "entry"
+     },
+     "shared": false,
+     "counts_here": true
+    }
+   ],
+   "steps": 3,
+   "branches": 0,
+   "shared": [],
+   "lines": 5,
+   "un": 5,
+   "mis": 0,
+   "reg": 0,
+   "depth": 0
+  }
+ ]
+}

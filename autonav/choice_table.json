@@ -1,0 +1,863 @@
+[
+ {
+  "id": 58,
+  "cat": "main",
+  "person": null,
+  "months": [
+   5,
+   -1
+  ],
+  "trig": [
+   "dungeon"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『結構たいへん』",
+    "next": 801,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『ぜんぜん平気』",
+    "next": 802,
+    "aff": {
+     "4": 1
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 1,
+   "마나미": 2,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 63,
+  "cat": "main",
+  "person": null,
+  "months": [
+   5,
+   -1
+  ],
+  "trig": [
+   "dungeon"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『先に行く』",
+    "next": 803,
+    "aff": {},
+    "unl": [],
+    "mem": [
+     60004
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『待ってる』",
+    "next": 804,
+    "aff": {},
+    "unl": [],
+    "mem": [
+     60004
+    ],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 1,
+   "마나미": 1,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 69,
+  "cat": "main",
+  "person": null,
+  "months": [
+   6,
+   -1
+  ],
+  "trig": [
+   "scheduled"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『部室に残る』",
+    "next": 805,
+    "aff": {
+     "2": 1
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『校舎に戻る』",
+    "next": 806,
+    "aff": {},
+    "unl": [
+     70
+    ],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 2,
+   "마나미": 2,
+   "마코토": 2
+  }
+ },
+ {
+  "id": 104,
+  "cat": "main",
+  "person": null,
+  "months": [
+   6,
+   -1
+  ],
+  "trig": [
+   "scheduled"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『はっきりいって中の中』",
+    "next": 109,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『はっきりいってダメダメだ』",
+    "next": 110,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 1,
+   "마나미": 1,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 258,
+  "cat": "main",
+  "person": null,
+  "months": [
+   9,
+   -1
+  ],
+  "trig": [
+   "scheduled"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『真実を伝える』",
+    "next": 273,
+    "aff": {
+     "3": 1
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『黙っている』",
+    "next": 274,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 2,
+   "쿄카": 1,
+   "마나미": 2,
+   "마코토": 2
+  }
+ },
+ {
+  "id": 260,
+  "cat": "main",
+  "person": null,
+  "months": [
+   9,
+   -1
+  ],
+  "trig": [
+   "scheduled"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『本当の事を言う』",
+    "next": 271,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『はぐらかす』",
+    "next": 272,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 1,
+   "마나미": 1,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 322,
+  "cat": "main",
+  "person": null,
+  "months": [
+   10,
+   -1
+  ],
+  "trig": [
+   "scheduled"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『いずみ』",
+    "next": 323,
+    "aff": {
+     "2": 1
+    },
+    "unl": [],
+    "mem": [
+     60015
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『鏡花』",
+    "next": 324,
+    "aff": {
+     "3": 1
+    },
+    "unl": [],
+    "mem": [
+     60015
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 3,
+    "jp": "『真言美』",
+    "next": 325,
+    "aff": {
+     "4": 1
+    },
+    "unl": [],
+    "mem": [
+     60015
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 4,
+    "jp": "『マコト』",
+    "next": 326,
+    "aff": {
+     "5": 1
+    },
+    "unl": [],
+    "mem": [
+     60015
+    ],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 2,
+   "마나미": 3,
+   "마코토": 4
+  }
+ },
+ {
+  "id": 611,
+  "cat": "main",
+  "person": null,
+  "months": [
+   11,
+   -1
+  ],
+  "trig": [
+   "chained"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『「星のことなら」の、いずみ』",
+    "next": 612,
+    "aff": {},
+    "unl": [],
+    "mem": [
+     60017
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『「度胸はイチバン」の、鏡花』",
+    "next": 613,
+    "aff": {},
+    "unl": [],
+    "mem": [
+     60017
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 3,
+    "jp": "『「ナレーションなら」の、真言美』",
+    "next": 614,
+    "aff": {},
+    "unl": [],
+    "mem": [
+     60017
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 4,
+    "jp": "『「大穴」で、マコト』",
+    "next": 615,
+    "aff": {},
+    "unl": [],
+    "mem": [
+     60017
+    ],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 2,
+   "마나미": 3,
+   "마코토": 4
+  }
+ },
+ {
+  "id": 10021,
+  "cat": "after_training_priority",
+  "person": 2,
+  "months": [
+   5,
+   6
+  ],
+  "trig": [
+   "after_training_priority"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『すいてる』",
+    "next": 10022,
+    "aff": {
+     "2": 1
+    },
+    "unl": [
+     10061
+    ],
+    "mem": [
+     50102
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『すいてない』",
+    "next": 10023,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 2,
+   "마나미": 2,
+   "마코토": 2
+  }
+ },
+ {
+  "id": 20041,
+  "cat": "after_training_priority",
+  "person": 3,
+  "months": [
+   5,
+   6
+  ],
+  "trig": [
+   "after_training_priority"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『今日は都合が悪い』",
+    "next": 20042,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『オッケー付き合うぜ』",
+    "next": 20043,
+    "aff": {
+     "3": 1
+    },
+    "unl": [],
+    "mem": [
+     50202
+    ],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 2,
+   "마나미": 1,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 20081,
+  "cat": "main",
+  "person": null,
+  "months": [
+   10,
+   -1
+  ],
+  "trig": [
+   "conditional"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『恥ずかしいので外に連れ出す』",
+    "next": 20082,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『恥ずかしいのにかまわず居座る』",
+    "next": 20083,
+    "aff": {
+     "3": 2
+    },
+    "unl": [],
+    "mem": [
+     50205
+    ],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 2,
+   "마나미": 1,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 20164,
+  "cat": "main",
+  "person": null,
+  "months": [
+   8,
+   -1
+  ],
+  "trig": [
+   "conditional",
+   "scheduled_special"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『公園に向かう』",
+    "next": 20165,
+    "aff": {
+     "3": 2
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『無視する』",
+    "next": 20166,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 2,
+   "쿄카": 1,
+   "마나미": 2,
+   "마코토": 2
+  }
+ },
+ {
+  "id": 30001,
+  "cat": "after_training_priority",
+  "person": 4,
+  "months": [
+   5,
+   6
+  ],
+  "trig": [
+   "after_training_priority"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『いいぜ、付き合うよ』",
+    "next": 30002,
+    "aff": {
+     "4": 1
+    },
+    "unl": [],
+    "mem": [
+     50301
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『ちょっと勘弁してくれ』",
+    "next": 30003,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 2,
+   "쿄카": 2,
+   "마나미": 1,
+   "마코토": 2
+  }
+ },
+ {
+  "id": 30021,
+  "cat": "after_training_priority",
+  "person": 4,
+  "months": [
+   6,
+   9
+  ],
+  "trig": [
+   "after_training_priority"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『燃える男の赤色』",
+    "next": 30022,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『もぎ立てオレンジ色』",
+    "next": 30023,
+    "aff": {
+     "4": 1
+    },
+    "unl": [],
+    "mem": [
+     50302
+    ],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 1,
+   "마나미": 2,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 30152,
+  "cat": "main",
+  "person": null,
+  "months": [
+   10,
+   -1
+  ],
+  "trig": [
+   "scheduled_special"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『いずみを誘う』",
+    "next": 30153,
+    "aff": {
+     "2": 1
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『鏡花を誘う』",
+    "next": 30154,
+    "aff": {
+     "3": 1
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 3,
+    "jp": "『真言美を誘う』",
+    "next": 30155,
+    "aff": {
+     "4": 1
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 4,
+    "jp": "『マコトを誘う』",
+    "next": 30156,
+    "aff": {
+     "5": 1
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 2,
+   "마나미": 3,
+   "마코토": 4
+  }
+ },
+ {
+  "id": 40021,
+  "cat": "after_training_priority",
+  "person": 5,
+  "months": [
+   7,
+   9
+  ],
+  "trig": [
+   "after_training_priority"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『俺も一緒に特訓するぜ』",
+    "next": 40022,
+    "aff": {
+     "5": 2
+    },
+    "unl": [
+     40041
+    ],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『ジャマしちゃ悪いし、一人にしておこう』",
+    "next": 40023,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 2,
+   "쿄카": 2,
+   "마나미": 2,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 40041,
+  "cat": "after_training_priority",
+  "person": 5,
+  "months": [
+   8,
+   9
+  ],
+  "trig": [
+   "after_training_priority"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『今日は遠慮する』",
+    "next": 40042,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『今日も付き合う』",
+    "next": 40043,
+    "aff": {
+     "5": 1
+    },
+    "unl": [],
+    "mem": [],
+    "chain_choice": 40043
+   }
+  ],
+  "picks": {
+   "이즈미": 1,
+   "쿄카": 1,
+   "마나미": 1,
+   "마코토": 2
+  }
+ },
+ {
+  "id": 40043,
+  "cat": "after_training_priority",
+  "person": 5,
+  "months": [
+   8,
+   9
+  ],
+  "trig": [
+   "chained"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『興味あるぜ。いただきます』",
+    "next": 40044,
+    "aff": {
+     "5": 2
+    },
+    "unl": [
+     40061
+    ],
+    "mem": [
+     50401
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『怖いな……遠慮しておこう』",
+    "next": 40045,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 2,
+   "쿄카": 2,
+   "마나미": 2,
+   "마코토": 1
+  }
+ },
+ {
+  "id": 40061,
+  "cat": "main",
+  "person": null,
+  "months": [
+   8,
+   9
+  ],
+  "trig": [
+   "conditional"
+  ],
+  "opts": [
+   {
+    "no": 1,
+    "jp": "『たかりに行く』",
+    "next": 40062,
+    "aff": {
+     "5": 1
+    },
+    "unl": [],
+    "mem": [
+     50402
+    ],
+    "chain_choice": null
+   },
+   {
+    "no": 2,
+    "jp": "『行かない』",
+    "next": 40063,
+    "aff": {},
+    "unl": [],
+    "mem": [],
+    "chain_choice": null
+   }
+  ],
+  "picks": {
+   "이즈미": 2,
+   "쿄카": 2,
+   "마나미": 2,
+   "마코토": 1
+  }
+ }
+]

@@ -1,0 +1,6699 @@
+{
+ "pid": 45884,
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "ain_sha256": "1aff04ba925e7193720c7ee2d55290f5ec9369a0c0e555dd0bfa00e59ee44b4e",
+ "events": [],
+ "parked_windows": [
+  3285726,
+  4137618,
+  6169414
+ ],
+ "exit_code": 0,
+ "seconds": 193.9,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_all_tabs_20260929\\probe\\run\\SaveData_R24ChartProbe_20260929_215938",
+  "MODE title",
+  "TITLE root=1000010035 z=1 maxz=11",
+  "SHOT chart_title_before",
+  "DRAW ms: April page 46 June page 32 board(12 cast) 17",
+  "MINIS E00001 count=5 shown=4 left=138",
+  "MINIS E00002 count=5 shown=4 left=138",
+  "MINIS E00121 count=5 shown=5 left=10",
+  "MINIS E02601 count=1 shown=1 left=10",
+  "MINIS E20001 count=2 shown=2 left=138",
+  "MINIS E00008 count=3 shown=3 left=138",
+  "MINIS E00004 count=2 shown=2 left=84",
+  "MINIS E10001 count=2 shown=2 left=138",
+  "MINIS E01101 count=2 shown=2 left=92",
+  "MINIS E01102 count=2 shown=2 left=92",
+  "MINIS E01103 count=2 shown=2 left=92",
+  "MINIS E01104 count=2 shown=2 left=92",
+  "MINIS E01108 count=2 shown=2 left=92",
+  "MINIS E01109 count=2 shown=2 left=92",
+  "MINIS E01001 count=0 shown=0 left=123",
+  "MINIS E01002 count=2 shown=2 left=96",
+  "MINIS E01003 count=2 shown=2 left=96",
+  "MINIS E01004 count=2 shown=2 left=96",
+  "MINIS E01005 count=2 shown=2 left=96",
+  "MINIS E01006 count=2 shown=2 left=96",
+  "MINIS E05011 count=2 shown=2 left=96",
+  "MINIS E02001 count=3 shown=3 left=96",
+  "MINIS E02002 count=3 shown=3 left=96",
+  "MINIS E02003 count=3 shown=3 left=96",
+  "MINIS E02004 count=3 shown=3 left=96",
+  "MINIS E02005 count=3 shown=3 left=96",
+  "MINIS E02006 count=3 shown=3 left=96",
+  "MINIS E02007 count=3 shown=3 left=96",
+  "MINIS E02008 count=3 shown=3 left=96",
+  "MINIS E02009 count=3 shown=3 left=96",
+  "MINIS E02061 count=3 shown=3 left=96",
+  "MINIS E02062 count=3 shown=3 left=96",
+  "MINIS E02063 count=3 shown=3 left=96",
+  "MINIS E02064 count=3 shown=3 left=96",
+  "MINIS E02065 count=3 shown=3 left=96",
+  "MINIS E02066 count=3 shown=3 left=96",
+  "MINIS E02067 count=3 shown=3 left=96",
+  "MINIS E02081 count=2 shown=2 left=96",
+  "MINIS E02082 count=3 shown=3 left=96",
+  "MINIS E02083 count=3 shown=3 left=96",
+  "MINIS E02084 count=3 shown=3 left=96",
+  "MINIS E02085 count=3 shown=3 left=96",
+  "MINIS E02086 count=3 shown=3 left=96",
+  "MINIS E02087 count=3 shown=3 left=96",
+  "MINIS E02421 count=2 shown=2 left=87",
+  "MINIS E02422 count=2 shown=2 left=87",
+  "MINIS E02423 count=2 shown=2 left=87",
+  "MINIS E02424 count=2 shown=2 left=87",
+  "MINIS E02425 count=2 shown=2 left=87",
+  "MINIS E05001 count=2 shown=2 left=87",
+  "MINIS E01201 count=2 shown=2 left=87",
+  "MINIS E01203 count=2 shown=2 left=87",
+  "MINIS E01204 count=2 shown=2 left=87",
+  "MINIS E01205 count=2 shown=2 left=87",
+  "MINIS E01208 count=2 shown=2 left=87",
+  "MINIS E01209 count=2 shown=2 left=87",
+  "MINIS E01210 count=2 shown=2 left=87",
+  "MINIS E01081 count=0 shown=0 left=111",
+  "MINIS E01082 count=2 shown=2 left=87",
+  "MINIS E01083 count=2 shown=2 left=87",
+  "MINIS E01084 count=2 shown=2 left=87",
+  "MINIS E01085 count=2 shown=2 left=87",
+  "MINIS E01086 count=2 shown=2 left=87",
+  "MINIS E05012 count=2 shown=2 left=96",
+  "MINIS E02161 count=3 shown=3 left=87",
+  "MINIS E02162 count=3 shown=3 left=87",
+  "MINIS E02163 count=3 shown=3 left=87",
+  "MINIS E02164 count=3 shown=3 left=87",
+  "MINIS E02165 count=3 shown=3 left=87",
+  "MINIS E02166 count=3 shown=3 left=87",
+  "MINIS E02167 count=3 shown=3 left=87",
+  "MINIS E02168 count=3 shown=3 left=87",
+  "MINIS E02169 count=3 shown=3 left=87",
+  "MINIS E02181 count=3 shown=3 left=87",
+  "MINIS E02182 count=3 shown=3 left=87",
+  "MINIS E02183 count=3 shown=3 left=87",
+  "MINIS E02184 count=3 shown=3 left=87",
+  "MINIS E02185 count=3 shown=3 left=87",
+  "MINIS E02186 count=3 shown=3 left=87",
+  "MINIS E02187 count=3 shown=3 left=87",
+  "MINIS E02188 count=3 shown=3 left=87",
+  "MINIS E02189 count=3 shown=3 left=87",
+  "MINIS E02190 count=3 shown=3 left=87",
+  "MINIS E02191 count=3 shown=3 left=87",
+  "MINIS E02192 count=3 shown=3 left=87",
+  "MINIS E02193 count=3 shown=3 left=87",
+  "MINIS E02194 count=3 shown=3 left=87",
+  "MINIS E02441 count=2 shown=2 left=87",
+  "MINIS E02442 count=2 shown=2 left=87",
+  "MINIS E02443 count=2 shown=2 left=87",
+  "MINIS E02444 count=2 shown=2 left=87",
+  "MINIS E02445 count=2 shown=2 left=87",
+  "MINIS E05002 count=2 shown=2 left=87",
+  "MINIS E01501 count=2 shown=2 left=92",
+  "MINIS E01502 count=2 shown=2 left=92",
+  "MINIS E01503 count=2 shown=2 left=92",
+  "MINIS E01504 count=2 shown=2 left=92",
+  "MINIS E01505 count=2 shown=2 left=92",
+  "MINIS E01506 count=2 shown=2 left=92",
+  "MINIS E01041 count=0 shown=0 left=123",
+  "MINIS E01042 count=2 shown=2 left=96",
+  "MINIS E01043 count=2 shown=2 left=96",
+  "MINIS E01044 count=2 shown=2 left=96",
+  "MINIS E01045 count=2 shown=2 left=96",
+  "MINIS E01046 count=2 shown=2 left=96",
+  "MINIS E02361 count=3 shown=3 left=96",
+  "MINIS E02362 count=3 shown=3 left=96",
+  "MINIS E02363 count=3 shown=3 left=96",
+  "MINIS E02364 count=3 shown=3 left=96",
+  "MINIS E02365 count=3 shown=3 left=96",
+  "MINIS E02366 count=3 shown=3 left=96",
+  "MINIS E02367 count=3 shown=3 left=96",
+  "MINIS E02368 count=3 shown=3 left=96",
+  "MINIS E02501 count=2 shown=2 left=87",
+  "MINIS E02502 count=2 shown=2 left=87",
+  "MINIS E02503 count=2 shown=2 left=87",
+  "MINIS E02504 count=2 shown=2 left=87",
+  "MINIS E02505 count=2 shown=2 left=87",
+  "MINIS E05003 count=2 shown=2 left=87",
+  "MINIS E01601 count=2 shown=2 left=92",
+  "MINIS E01602 count=2 shown=2 left=92",
+  "MINIS E01603 count=2 shown=2 left=92",
+  "MINIS E01604 count=2 shown=2 left=92",
+  "MINIS E01605 count=2 shown=2 left=92",
+  "MINIS E01606 count=2 shown=2 left=92",
+  "MINIS E01607 count=2 shown=2 left=92",
+  "MINIS E01608 count=2 shown=2 left=92",
+  "MINIS E01609 count=2 shown=2 left=92",
+  "MINIS E01610 count=2 shown=2 left=92",
+  "MINIS E01051 count=0 shown=0 left=135",
+  "MINIS E01052 count=2 shown=2 left=96",
+  "MINIS E01053 count=2 shown=2 left=96",
+  "MINIS E01054 count=2 shown=2 left=96",
+  "MINIS E01055 count=2 shown=2 left=96",
+  "MINIS E01056 count=2 shown=2 left=96",
+  "MINIS E02521 count=2 shown=2 left=87",
+  "MINIS E02522 count=2 shown=2 left=87",
+  "MINIS E02523 count=2 shown=2 left=87",
+  "MINIS E02524 count=2 shown=2 left=87",
+  "MINIS E02525 count=2 shown=2 left=87",
+  "MINIS E05004 count=2 shown=2 left=96",
+  "MINIS E05000 count=1 shown=1 left=96",
+  "MINIS E06001 count=1 shown=1 left=42",
+  "MINIS E00011 count=3 shown=3 left=10",
+  "MINIS E00013 count=4 shown=4 left=10",
+  "MINIS E00014 count=6 shown=6 left=10",
+  "MINIS E00015 count=2 shown=2 left=10",
+  "MINIS E00067 count=2 shown=2 left=10",
+  "MINIS E00016 count=6 shown=6 left=10",
+  "MINIS E00019 count=5 shown=5 left=10",
+  "MINIS E00021 count=2 shown=2 left=10",
+  "MINIS E00022 count=4 shown=4 left=69",
+  "MINIS E00065 count=6 shown=6 left=10",
+  "MINIS E00066 count=2 shown=2 left=10",
+  "MINIS E00068 count=4 shown=4 left=10",
+  "MINIS E00024 count=3 shown=3 left=96",
+  "MINIS E00030 count=4 shown=4 left=127",
+  "MINIS E00041 count=3 shown=3 left=127",
+  "MINIS E00063 count=4 shown=4 left=127",
+  "MINIS E10021 count=2 shown=2 left=96",
+  "MINIS E10022 count=2 shown=2 left=138",
+  "MINIS E10023 count=2 shown=2 left=92",
+  "MINIS E01111 count=2 shown=2 left=92",
+  "MINIS E01112 count=2 shown=2 left=92",
+  "MINIS E01113 count=2 shown=2 left=92",
+  "MINIS E01114 count=2 shown=2 left=92",
+  "MINIS E01115 count=2 shown=2 left=92",
+  "MINIS E01118 count=2 shown=2 left=92",
+  "MINIS E01119 count=2 shown=2 left=92",
+  "MINIS E02021 count=3 shown=3 left=96",
+  "MINIS E02022 count=3 shown=3 left=96",
+  "MINIS E02023 count=3 shown=3 left=96",
+  "MINIS E02024 count=3 shown=3 left=96",
+  "MINIS E02025 count=3 shown=3 left=96",
+  "MINIS E02026 count=3 shown=3 left=96",
+  "MINIS E02027 count=3 shown=3 left=96",
+  "MINIS E02028 count=3 shown=3 left=96",
+  "MINIS E02029 count=3 shown=3 left=96",
+  "MINIS E02030 count=3 shown=3 left=96",
+  "MINIS E02031 count=3 shown=3 left=96",
+  "MINIS E20021 count=2 shown=2 left=138",
+  "MINIS E20041 count=2 shown=2 left=87",
+  "MINIS E20042 count=2 shown=2 left=92",
+  "MINIS E20043 count=2 shown=2 left=138",
+  "MINIS E01211 count=2 shown=2 left=87",
+  "MINIS E01212 count=2 shown=2 left=87",
+  "MINIS E01213 count=2 shown=2 left=87",
+  "MINIS E01214 count=2 shown=2 left=87",
+  "MINIS E01215 count=2 shown=2 left=87",
+  "MINIS E01216 count=2 shown=2 left=87",
+  "MINIS E01217 count=2 shown=2 left=87",
+  "MINIS E02121 count=3 shown=3 left=87",
+  "MINIS E02122 count=3 shown=3 left=87",
+  "MINIS E02123 count=3 shown=3 left=87",
+  "MINIS E02124 count=3 shown=3 left=87",
+  "MINIS E02125 count=2 shown=2 left=87",
+  "MINIS E02126 count=3 shown=3 left=87",
+  "MINIS E02129 count=3 shown=3 left=87",
+  "MINIS E02130 count=3 shown=3 left=87",
+  "MINIS E02131 count=3 shown=3 left=87",
+  "MINIS E02132 count=3 shown=3 left=87",
+  "MINIS E30001 count=2 shown=2 left=96",
+  "MINIS E30002 count=2 shown=2 left=138",
+  "MINIS E30003 count=2 shown=2 left=92",
+  "MINIS E01301 count=2 shown=2 left=92",
+  "MINIS E01302 count=2 shown=2 left=92",
+  "MINIS E01303 count=2 shown=2 left=92",
+  "MINIS E01304 count=2 shown=2 left=92",
+  "MINIS E01305 count=2 shown=2 left=92",
+  "MINIS E01306 count=2 shown=2 left=92",
+  "MINIS E01309 count=2 shown=2 left=92",
+  "MINIS E01021 count=0 shown=0 left=123",
+  "MINIS E01022 count=2 shown=2 left=96",
+  "MINIS E01023 count=2 shown=2 left=96",
+  "MINIS E01024 count=2 shown=2 left=96",
+  "MINIS E01025 count=2 shown=2 left=96",
+  "MINIS E01026 count=2 shown=2 left=96",
+  "MINIS E05013 count=2 shown=2 left=96",
+  "MINIS E02241 count=3 shown=3 left=96",
+  "MINIS E02242 count=3 shown=3 left=96",
+  "MINIS E02243 count=3 shown=3 left=96",
+  "MINIS E02244 count=3 shown=3 left=96",
+  "MINIS E02245 count=3 shown=3 left=96",
+  "MINIS E02246 count=3 shown=3 left=96",
+  "MINIS E02247 count=3 shown=3 left=96",
+  "MINIS E02248 count=2 shown=2 left=96",
+  "MINIS E02249 count=3 shown=3 left=96",
+  "MINIS E02250 count=3 shown=3 left=96",
+  "MINIS E02251 count=3 shown=3 left=96",
+  "MINIS E02252 count=3 shown=3 left=96",
+  "MINIS E02261 count=3 shown=3 left=96",
+  "MINIS E02262 count=3 shown=3 left=96",
+  "MINIS E02263 count=2 shown=2 left=96",
+  "MINIS E02264 count=3 shown=3 left=96",
+  "MINIS E02265 count=3 shown=3 left=96",
+  "MINIS E02266 count=3 shown=3 left=96",
+  "MINIS E02267 count=3 shown=3 left=96",
+  "MINIS E02268 count=3 shown=3 left=96",
+  "MINIS E02461 count=2 shown=2 left=87",
+  "MINIS E02462 count=2 shown=2 left=87",
+  "MINIS E02463 count=2 shown=2 left=87",
+  "MINIS E02464 count=2 shown=2 left=87",
+  "MINIS E02465 count=2 shown=2 left=87",
+  "MINIS E01511 count=2 shown=2 left=92",
+  "MINIS E01512 count=2 shown=2 left=92",
+  "MINIS E01513 count=2 shown=2 left=92",
+  "MINIS E01514 count=2 shown=2 left=92",
+  "MINIS E01515 count=2 shown=2 left=92",
+  "MINIS E01516 count=2 shown=2 left=92",
+  "MINIS E01611 count=2 shown=2 left=92",
+  "MINIS E01612 count=2 shown=2 left=92",
+  "MINIS E01613 count=3 shown=3 left=92",
+  "MINIS E01614 count=2 shown=2 left=92",
+  "MINIS E01615 count=2 shown=2 left=92",
+  "MINIS E01616 count=2 shown=2 left=92",
+  "MINIS E01617 count=2 shown=2 left=92",
+  "MINIS E01618 count=3 shown=3 left=92",
+  "MINIS E01619 count=2 shown=2 left=92",
+  "MINIS E01620 count=2 shown=2 left=92",
+  "MINIS E02602 count=1 shown=1 left=10",
+  "MINIS E00069 count=4 shown=4 left=10",
+  "MINIS E00070 count=2 shown=2 left=92",
+  "MINIS E00071 count=1 shown=1 left=10",
+  "MINIS E00072 count=1 shown=1 left=10",
+  "MINIS E00074 count=7 shown=7 left=42",
+  "MINIS E00102 count=3 shown=3 left=10",
+  "MINIS E00103 count=4 shown=4 left=10",
+  "MINIS E00105 count=2 shown=2 left=10",
+  "MINIS E00100 count=3 shown=3 left=10",
+  "MINIS E00101 count=5 shown=5 left=10",
+  "MINIS E00104 count=2 shown=2 left=10",
+  "MINIS E00106 count=1 shown=1 left=10",
+  "MINIS E00107 count=9 shown=7 left=10",
+  "MINIS E00108 count=6 shown=6 left=10",
+  "MINIS E00112 count=4 shown=4 left=10",
+  "MINIS E00075 count=5 shown=5 left=87",
+  "MINIS E00076 count=2 shown=2 left=87",
+  "MINIS E00085 count=3 shown=3 left=87",
+  "MINIS E01121 count=2 shown=2 left=92",
+  "MINIS E01125 count=2 shown=2 left=92",
+  "MINIS E01126 count=2 shown=2 left=92",
+  "MINIS E01127 count=2 shown=2 left=92",
+  "MINIS E01128 count=2 shown=2 left=92",
+  "MINIS E01129 count=2 shown=2 left=92",
+  "MINIS E02041 count=3 shown=3 left=96",
+  "MINIS E02042 count=3 shown=3 left=96",
+  "MINIS E02043 count=3 shown=3 left=96",
+  "MINIS E02044 count=3 shown=3 left=96",
+  "MINIS E02046 count=3 shown=3 left=96",
+  "MINIS E02047 count=3 shown=3 left=96",
+  "MINIS E02048 count=3 shown=3 left=96",
+  "MINIS E02049 count=3 shown=3 left=96",
+  "MINIS E02050 count=3 shown=3 left=96",
+  "MINIS E02101 count=3 shown=3 left=96",
+  "MINIS E02102 count=3 shown=3 left=96",
+  "MINIS E02103 count=3 shown=3 left=96",
+  "MINIS E02104 count=3 shown=3 left=96",
+  "MINIS E02105 count=3 shown=3 left=96",
+  "MINIS E02106 count=3 shown=3 left=96",
+  "MINIS E02107 count=3 shown=3 left=96",
+  "MINIS E02108 count=3 shown=3 left=96",
+  "MINIS E01202 count=2 shown=2 left=87",
+  "MINIS E01221 count=2 shown=2 left=87",
+  "MINIS E01222 count=2 shown=2 left=87",
+  "MINIS E01223 count=2 shown=2 left=87",
+  "MINIS E01224 count=2 shown=2 left=87",
+  "MINIS E01225 count=2 shown=2 left=87",
+  "MINIS E02141 count=3 shown=3 left=87",
+  "MINIS E02142 count=3 shown=3 left=87",
+  "MINIS E02143 count=3 shown=3 left=87",
+  "MINIS E02144 count=3 shown=3 left=87",
+  "MINIS E02145 count=3 shown=3 left=87",
+  "MINIS E02146 count=3 shown=3 left=87",
+  "MINIS E02147 count=3 shown=3 left=87",
+  "MINIS E02148 count=3 shown=3 left=87",
+  "MINIS E02201 count=3 shown=3 left=87",
+  "MINIS E02202 count=3 shown=3 left=87",
+  "MINIS E02203 count=3 shown=3 left=87",
+  "MINIS E02204 count=3 shown=3 left=87",
+  "MINIS E02205 count=3 shown=3 left=87",
+  "MINIS E02206 count=3 shown=3 left=87",
+  "MINIS E02207 count=3 shown=3 left=87",
+  "MINIS E02208 count=3 shown=3 left=87",
+  "MINIS E02209 count=3 shown=3 left=87",
+  "MINIS E02210 count=3 shown=3 left=87",
+  "MINIS E02212 count=3 shown=3 left=87",
+  "MINIS E02213 count=3 shown=3 left=87",
+  "MINIS E30021 count=2 shown=2 left=96",
+  "MINIS E30022 count=2 shown=2 left=92",
+  "MINIS E30023 count=2 shown=2 left=92",
+  "MINIS E30024 count=2 shown=2 left=138",
+  "MINIS E01311 count=2 shown=2 left=92",
+  "MINIS E01312 count=2 shown=2 left=92",
+  "MINIS E01313 count=2 shown=2 left=92",
+  "MINIS E01314 count=2 shown=2 left=92",
+  "MINIS E01315 count=2 shown=2 left=92",
+  "MINIS E01316 count=2 shown=2 left=92",
+  "MINIS E01318 count=2 shown=2 left=92",
+  "MINIS E02221 count=3 shown=3 left=96",
+  "MINIS E02222 count=3 shown=3 left=96",
+  "MINIS E02223 count=3 shown=3 left=96",
+  "MINIS E02224 count=3 shown=3 left=96",
+  "MINIS E02225 count=3 shown=3 left=96",
+  "MINIS E02226 count=3 shown=3 left=96",
+  "MINIS E02227 count=3 shown=3 left=96",
+  "MINIS E02228 count=3 shown=3 left=96",
+  "MINIS E02229 count=3 shown=3 left=96",
+  "MINIS E02230 count=3 shown=3 left=96",
+  "MINIS E02231 count=3 shown=3 left=96",
+  "MINIS E02232 count=3 shown=3 left=96",
+  "MINIS E02281 count=2 shown=2 left=96",
+  "MINIS E02282 count=3 shown=3 left=96",
+  "MINIS E02283 count=3 shown=3 left=96",
+  "MINIS E02284 count=3 shown=3 left=96",
+  "MINIS E02285 count=3 shown=3 left=96",
+  "MINIS E02286 count=3 shown=3 left=96",
+  "MINIS E02287 count=3 shown=3 left=96",
+  "MINIS E02288 count=3 shown=3 left=96",
+  "MINIS E02290 count=3 shown=3 left=96",
+  "MINIS E02291 count=3 shown=3 left=96",
+  "MINIS E01401 count=2 shown=2 left=92",
+  "MINIS E01402 count=2 shown=2 left=92",
+  "MINIS E01403 count=2 shown=2 left=92",
+  "MINIS E01404 count=2 shown=2 left=92",
+  "MINIS E01405 count=2 shown=2 left=92",
+  "MINIS E01406 count=2 shown=2 left=92",
+  "MINIS E01408 count=2 shown=2 left=92",
+  "MINIS E01409 count=2 shown=2 left=92",
+  "MINIS E01410 count=2 shown=2 left=92",
+  "MINIS E01031 count=0 shown=0 left=123",
+  "MINIS E01032 count=2 shown=2 left=96",
+  "MINIS E01033 count=2 shown=2 left=96",
+  "MINIS E01034 count=2 shown=2 left=96",
+  "MINIS E01035 count=2 shown=2 left=96",
+  "MINIS E01036 count=2 shown=2 left=96",
+  "MINIS E05014 count=2 shown=2 left=96",
+  "MINIS E02301 count=3 shown=3 left=96",
+  "MINIS E02302 count=2 shown=2 left=96",
+  "MINIS E02303 count=3 shown=3 left=96",
+  "MINIS E02304 count=3 shown=3 left=96",
+  "MINIS E02305 count=3 shown=3 left=96",
+  "MINIS E02306 count=3 shown=3 left=96",
+  "MINIS E02307 count=3 shown=3 left=96",
+  "MINIS E02308 count=3 shown=3 left=96",
+  "MINIS E02321 count=3 shown=3 left=96",
+  "MINIS E02322 count=3 shown=3 left=96",
+  "MINIS E02323 count=3 shown=3 left=96",
+  "MINIS E02324 count=3 shown=3 left=96",
+  "MINIS E02325 count=3 shown=3 left=96",
+  "MINIS E02326 count=3 shown=3 left=96",
+  "MINIS E02327 count=3 shown=3 left=96",
+  "MINIS E02328 count=3 shown=3 left=96",
+  "MINIS E02341 count=3 shown=3 left=96",
+  "MINIS E02342 count=3 shown=3 left=96",
+  "MINIS E02343 count=2 shown=2 left=96",
+  "MINIS E02344 count=3 shown=3 left=96",
+  "MINIS E02345 count=3 shown=3 left=96",
+  "MINIS E02346 count=3 shown=3 left=96",
+  "MINIS E02347 count=3 shown=3 left=96",
+  "MINIS E02348 count=3 shown=3 left=96",
+  "MINIS E02349 count=3 shown=3 left=96",
+  "MINIS E02350 count=3 shown=3 left=96",
+  "MINIS E02481 count=2 shown=2 left=87",
+  "MINIS E02482 count=2 shown=2 left=87",
+  "MINIS E02483 count=2 shown=2 left=87",
+  "MINIS E02484 count=2 shown=2 left=87",
+  "MINIS E02485 count=2 shown=2 left=87",
+  "MINIS E01521 count=2 shown=2 left=92",
+  "MINIS E01522 count=2 shown=2 left=92",
+  "MINIS E01523 count=2 shown=2 left=92",
+  "MINIS E01524 count=2 shown=2 left=92",
+  "MINIS E01525 count=2 shown=2 left=92",
+  "MINIS E01526 count=2 shown=2 left=92",
+  "MINIS E02381 count=3 shown=3 left=96",
+  "MINIS E02382 count=3 shown=3 left=96",
+  "MINIS E02383 count=3 shown=3 left=96",
+  "MINIS E02384 count=3 shown=3 left=96",
+  "MINIS E02385 count=3 shown=3 left=96",
+  "MINIS E02386 count=3 shown=3 left=96",
+  "MINIS E02387 count=3 shown=3 left=96",
+  "MINIS E02388 count=3 shown=3 left=96",
+  "MINIS E02389 count=3 shown=3 left=96",
+  "MINIS E02390 count=3 shown=3 left=96",
+  "MINIS E01621 count=2 shown=2 left=92",
+  "MINIS E01622 count=2 shown=2 left=92",
+  "MINIS E01623 count=2 shown=2 left=92",
+  "MINIS E01624 count=2 shown=2 left=92",
+  "MINIS E01625 count=2 shown=2 left=92",
+  "MINIS E01626 count=2 shown=2 left=92",
+  "MINIS E01627 count=2 shown=2 left=92",
+  "MINIS E01628 count=2 shown=2 left=92",
+  "MINIS E01629 count=2 shown=2 left=92",
+  "MINIS E01630 count=2 shown=2 left=92",
+  "MINIS E02401 count=2 shown=2 left=96",
+  "MINIS E02402 count=3 shown=3 left=96",
+  "MINIS E02403 count=3 shown=3 left=96",
+  "MINIS E02404 count=3 shown=3 left=96",
+  "MINIS E02405 count=3 shown=3 left=96",
+  "MINIS E02406 count=3 shown=3 left=96",
+  "MINIS E02407 count=3 shown=3 left=96",
+  "MINIS E02408 count=3 shown=3 left=96",
+  "MINIS E02409 count=3 shown=3 left=96",
+  "MINIS E02410 count=3 shown=3 left=143",
+  "MINIS E01701 count=2 shown=2 left=92",
+  "MINIS E01702 count=2 shown=2 left=92",
+  "MINIS E01703 count=2 shown=2 left=92",
+  "MINIS E01704 count=2 shown=2 left=92",
+  "MINIS E01705 count=2 shown=2 left=92",
+  "MINIS E01706 count=2 shown=2 left=92",
+  "MINIS E01061 count=0 shown=0 left=123",
+  "MINIS E01062 count=2 shown=2 left=96",
+  "MINIS E01063 count=2 shown=2 left=96",
+  "MINIS E01064 count=2 shown=2 left=96",
+  "MINIS E01065 count=2 shown=2 left=96",
+  "MINIS E01066 count=2 shown=2 left=96",
+  "MINIS E02541 count=2 shown=2 left=87",
+  "MINIS E02542 count=2 shown=2 left=87",
+  "MINIS E02543 count=2 shown=2 left=87",
+  "MINIS E02544 count=2 shown=2 left=87",
+  "MINIS E02545 count=2 shown=2 left=87",
+  "MINIS E02546 count=2 shown=2 left=87",
+  "MINIS E02547 count=2 shown=2 left=87",
+  "MINIS E00113 count=2 shown=2 left=10",
+  "MINIS E00151 count=4 shown=4 left=10",
+  "MINIS E00152 count=3 shown=3 left=10",
+  "MINIS E00153 count=8 shown=8 left=10",
+  "MINIS E00180 count=8 shown=6 left=69",
+  "MINIS E20061 count=2 shown=2 left=96",
+  "MINIS E00183 count=2 shown=2 left=10",
+  "MINIS E00154 count=3 shown=3 left=96",
+  "MINIS E00181 count=9 shown=5 left=96",
+  "MINIS E01131 count=2 shown=2 left=92",
+  "MINIS E01132 count=2 shown=2 left=92",
+  "MINIS E01133 count=2 shown=2 left=92",
+  "MINIS E01134 count=2 shown=2 left=92",
+  "MINIS E01135 count=2 shown=2 left=92",
+  "MINIS E01136 count=2 shown=2 left=92",
+  "MINIS E01139 count=2 shown=2 left=92",
+  "MINIS E01140 count=2 shown=2 left=92",
+  "MINIS E01206 count=2 shown=2 left=87",
+  "MINIS E01231 count=2 shown=2 left=87",
+  "MINIS E01232 count=2 shown=2 left=87",
+  "MINIS E01233 count=2 shown=2 left=87",
+  "MINIS E01234 count=2 shown=2 left=87",
+  "MINIS E01235 count=2 shown=2 left=87",
+  "MINIS E01236 count=2 shown=2 left=87",
+  "MINIS E01307 count=2 shown=2 left=92",
+  "MINIS E01308 count=2 shown=2 left=92",
+  "MINIS E01321 count=2 shown=2 left=92",
+  "MINIS E01322 count=2 shown=2 left=92",
+  "MINIS E01323 count=2 shown=2 left=92",
+  "MINIS E40001 count=2 shown=2 left=96",
+  "MINIS E40021 count=2 shown=2 left=96",
+  "MINIS E40022 count=2 shown=2 left=92",
+  "MINIS E40023 count=2 shown=2 left=92",
+  "MINIS E01531 count=2 shown=2 left=92",
+  "MINIS E01532 count=2 shown=2 left=92",
+  "MINIS E01533 count=2 shown=2 left=92",
+  "MINIS E01534 count=2 shown=2 left=92",
+  "MINIS E01535 count=2 shown=2 left=92",
+  "MINIS E01631 count=2 shown=2 left=92",
+  "MINIS E01632 count=2 shown=2 left=92",
+  "MINIS E01633 count=2 shown=2 left=92",
+  "MINIS E01634 count=2 shown=2 left=92",
+  "MINIS E01635 count=2 shown=2 left=92",
+  "MINIS E01636 count=2 shown=2 left=92",
+  "MINIS E01637 count=2 shown=2 left=92",
+  "MINIS E01638 count=2 shown=2 left=92",
+  "MINIS E01639 count=2 shown=2 left=92",
+  "MINIS E01640 count=2 shown=2 left=92",
+  "MINIS E01711 count=3 shown=3 left=92",
+  "MINIS E01712 count=2 shown=2 left=92",
+  "MINIS E01713 count=2 shown=2 left=92",
+  "MINIS E01714 count=2 shown=2 left=92",
+  "MINIS E01715 count=2 shown=2 left=92",
+  "MINIS E01716 count=2 shown=2 left=92",
+  "MINIS E01717 count=2 shown=2 left=92",
+  "MINIS E01718 count=2 shown=2 left=92",
+  "MINIS E20161 count=3 shown=3 left=10",
+  "MINIS E20162 count=2 shown=2 left=96",
+  "MINIS E20163 count=4 shown=4 left=84",
+  "MINIS E20164 count=2 shown=2 left=92",
+  "MINIS E20171 count=2 shown=2 left=96",
+  "MINIS E40061 count=0 shown=0 left=154",
+  "MINIS E00201 count=11 shown=4 left=138",
+  "MINIS E00241 count=3 shown=3 left=10",
+  "MINIS E00204 count=8 shown=4 left=138",
+  "MINIS E02603 count=1 shown=1 left=10",
+  "MINIS E00242 count=2 shown=2 left=10",
+  "MINIS E10081 count=3 shown=3 left=96",
+  "MINIS E20167 count=2 shown=2 left=84",
+  "MINIS E10061 count=2 shown=2 left=138",
+  "MINIS E01106 count=2 shown=2 left=92",
+  "MINIS E01107 count=2 shown=2 left=92",
+  "MINIS E01141 count=2 shown=2 left=92",
+  "MINIS E01142 count=2 shown=2 left=92",
+  "MINIS E01143 count=2 shown=2 left=92",
+  "MINIS E01144 count=2 shown=2 left=92",
+  "MINIS E01145 count=2 shown=2 left=92",
+  "MINIS E01241 count=2 shown=2 left=87",
+  "MINIS E01242 count=2 shown=2 left=87",
+  "MINIS E01243 count=2 shown=2 left=87",
+  "MINIS E01244 count=2 shown=2 left=87",
+  "MINIS E01245 count=2 shown=2 left=87",
+  "MINIS E01246 count=2 shown=2 left=87",
+  "MINIS E01331 count=2 shown=2 left=92",
+  "MINIS E01332 count=2 shown=2 left=92",
+  "MINIS E01333 count=2 shown=2 left=92",
+  "MINIS E01334 count=2 shown=2 left=92",
+  "MINIS E01335 count=2 shown=2 left=92",
+  "MINIS E40041 count=2 shown=2 left=96",
+  "MINIS E40042 count=2 shown=2 left=92",
+  "MINIS E40043 count=2 shown=2 left=92",
+  "MINIS E40044 count=3 shown=3 left=138",
+  "MINIS E40045 count=2 shown=2 left=92",
+  "MINIS E01411 count=2 shown=2 left=92",
+  "MINIS E01412 count=2 shown=2 left=92",
+  "MINIS E01413 count=2 shown=2 left=92",
+  "MINIS E01414 count=2 shown=2 left=92",
+  "MINIS E01415 count=2 shown=2 left=92",
+  "MINIS E01416 count=2 shown=2 left=92",
+  "MINIS E01417 count=2 shown=2 left=92",
+  "MINIS E01418 count=2 shown=2 left=92",
+  "MINIS E01541 count=2 shown=2 left=92",
+  "MINIS E01542 count=2 shown=2 left=92",
+  "MINIS E01543 count=2 shown=2 left=92",
+  "MINIS E01544 count=2 shown=2 left=92",
+  "MINIS E01545 count=2 shown=2 left=92",
+  "MINIS E01641 count=2 shown=2 left=92",
+  "MINIS E01642 count=2 shown=2 left=92",
+  "MINIS E01643 count=2 shown=2 left=92",
+  "MINIS E01644 count=2 shown=2 left=92",
+  "MINIS E01645 count=2 shown=2 left=92",
+  "MINIS E01646 count=2 shown=2 left=92",
+  "MINIS E01647 count=2 shown=2 left=92",
+  "MINIS E01649 count=2 shown=2 left=92",
+  "MINIS E01650 count=2 shown=2 left=92",
+  "MINIS E01721 count=2 shown=2 left=92",
+  "MINIS E01722 count=2 shown=2 left=92",
+  "MINIS E01723 count=2 shown=2 left=92",
+  "MINIS E01724 count=2 shown=2 left=92",
+  "MINIS E01725 count=2 shown=2 left=92",
+  "MINIS E00251 count=1 shown=1 left=10",
+  "MINIS E00252 count=4 shown=4 left=10",
+  "MINIS E00255 count=5 shown=5 left=10",
+  "MINIS E00256 count=2 shown=2 left=10",
+  "MINIS E30151 count=1 shown=1 left=10",
+  "MINIS E00257 count=5 shown=5 left=10",
+  "MINIS E00258 count=2 shown=2 left=10",
+  "MINIS E00259 count=3 shown=3 left=10",
+  "MINIS E00260 count=2 shown=2 left=10",
+  "MINIS E00265 count=2 shown=2 left=10",
+  "MINIS E00262 count=6 shown=4 left=138",
+  "MINIS E00264 count=4 shown=4 left=10",
+  "MINIS E00266 count=5 shown=5 left=10",
+  "MINIS E00261 count=4 shown=4 left=10",
+  "MINIS E10041 count=2 shown=2 left=138",
+  "MINIS E01105 count=2 shown=2 left=92",
+  "MINIS E01116 count=2 shown=2 left=92",
+  "MINIS E01117 count=2 shown=2 left=92",
+  "MINIS E01151 count=2 shown=2 left=92",
+  "MINIS E01152 count=2 shown=2 left=92",
+  "MINIS E01153 count=2 shown=2 left=92",
+  "MINIS E01154 count=2 shown=2 left=92",
+  "MINIS E01155 count=2 shown=2 left=92",
+  "MINIS E01251 count=2 shown=2 left=87",
+  "MINIS E01252 count=2 shown=2 left=87",
+  "MINIS E01253 count=2 shown=2 left=87",
+  "MINIS E01254 count=2 shown=2 left=87",
+  "MINIS E01255 count=2 shown=2 left=87",
+  "MINIS E01317 count=2 shown=2 left=92",
+  "MINIS E01341 count=2 shown=2 left=92",
+  "MINIS E01342 count=2 shown=2 left=92",
+  "MINIS E01343 count=2 shown=2 left=92",
+  "MINIS E01344 count=2 shown=2 left=92",
+  "MINIS E01345 count=2 shown=2 left=92",
+  "MINIS E01346 count=2 shown=2 left=92",
+  "MINIS E01347 count=2 shown=2 left=92",
+  "MINIS E01421 count=2 shown=2 left=92",
+  "MINIS E01422 count=2 shown=2 left=92",
+  "MINIS E01423 count=2 shown=2 left=92",
+  "MINIS E01424 count=2 shown=2 left=92",
+  "MINIS E01425 count=2 shown=2 left=92",
+  "MINIS E01551 count=2 shown=2 left=92",
+  "MINIS E01552 count=2 shown=2 left=92",
+  "MINIS E01553 count=2 shown=2 left=92",
+  "MINIS E01554 count=2 shown=2 left=92",
+  "MINIS E01555 count=2 shown=2 left=92",
+  "MINIS E01651 count=2 shown=2 left=92",
+  "MINIS E01652 count=2 shown=2 left=92",
+  "MINIS E01653 count=2 shown=2 left=92",
+  "MINIS E01654 count=2 shown=2 left=92",
+  "MINIS E01655 count=2 shown=2 left=92",
+  "MINIS E01656 count=2 shown=2 left=92",
+  "MINIS E01707 count=2 shown=2 left=92",
+  "MINIS E01731 count=2 shown=2 left=92",
+  "MINIS E01732 count=2 shown=2 left=92",
+  "MINIS E01733 count=2 shown=2 left=92",
+  "MINIS E01734 count=2 shown=2 left=92",
+  "MINIS E01735 count=2 shown=2 left=92",
+  "MINIS E00301 count=8 shown=8 left=10",
+  "MINIS E00302 count=7 shown=7 left=10",
+  "MINIS E30152 count=1 shown=1 left=42",
+  "MINIS E30157 count=2 shown=2 left=96",
+  "MINIS E30158 count=2 shown=2 left=96",
+  "MINIS E30159 count=2 shown=2 left=88",
+  "MINIS E30160 count=2 shown=2 left=88",
+  "MINIS E30161 count=2 shown=2 left=96",
+  "MINIS E30162 count=2 shown=2 left=96",
+  "MINIS E30163 count=2 shown=2 left=96",
+  "MINIS E30164 count=2 shown=2 left=96",
+  "MINIS E00321 count=2 shown=2 left=10",
+  "MINIS E00322 count=7 shown=7 left=10",
+  "MINIS E20081 count=2 shown=2 left=138",
+  "MINIS E30061 count=2 shown=2 left=138",
+  "MINIS E00329 count=2 shown=2 left=10",
+  "MINIS E00401 count=2 shown=2 left=96",
+  "MINIS E00330 count=3 shown=3 left=10",
+  "MINIS E00402 count=2 shown=2 left=69",
+  "MINIS E00451 count=4 shown=4 left=42",
+  "MINIS E00403 count=2 shown=2 left=69",
+  "MINIS E00331 count=2 shown=2 left=10",
+  "MINIS E00404 count=4 shown=4 left=69",
+  "MINIS E00452 count=5 shown=5 left=69",
+  "MINIS E00525 count=7 shown=6 left=69",
+  "MINIS E10121 count=2 shown=2 left=69",
+  "MINIS E20121 count=2 shown=2 left=69",
+  "MINIS E30121 count=7 shown=4 left=138",
+  "MINIS E40121 count=2 shown=2 left=138",
+  "MINIS E05024 count=8 shown=8 left=10",
+  "MINIS E05025 count=8 shown=8 left=10",
+  "MINIS E10122 count=8 shown=8 left=10",
+  "MINIS E00603 count=3 shown=3 left=10",
+  "MINIS E05021 count=6 shown=6 left=10",
+  "MINIS E40141 count=2 shown=2 left=10",
+  "MINIS E00604 count=2 shown=2 left=10",
+  "MINIS E00522 count=4 shown=4 left=137",
+  "MINIS E00512 count=3 shown=3 left=133",
+  "MINIS E00523 count=9 shown=4 left=137",
+  "MINIS E10101 count=2 shown=2 left=138",
+  "MINIS E01161 count=2 shown=2 left=88",
+  "MINIS E01162 count=2 shown=2 left=88",
+  "MINIS E01163 count=2 shown=2 left=88",
+  "MINIS E01164 count=2 shown=2 left=88",
+  "MINIS E01165 count=2 shown=2 left=88",
+  "MINIS E01181 count=2 shown=2 left=96",
+  "MINIS E01182 count=2 shown=2 left=96",
+  "MINIS E01183 count=2 shown=2 left=96",
+  "MINIS E01207 count=2 shown=2 left=88",
+  "MINIS E01261 count=2 shown=2 left=88",
+  "MINIS E01262 count=2 shown=2 left=88",
+  "MINIS E01263 count=2 shown=2 left=88",
+  "MINIS E01264 count=2 shown=2 left=88",
+  "MINIS E01265 count=2 shown=2 left=88",
+  "MINIS E01281 count=2 shown=2 left=92",
+  "MINIS E01282 count=2 shown=2 left=92",
+  "MINIS E01283 count=2 shown=2 left=97",
+  "MINIS E01351 count=2 shown=2 left=88",
+  "MINIS E01352 count=2 shown=2 left=88",
+  "MINIS E01353 count=2 shown=2 left=88",
+  "MINIS E01364 count=2 shown=2 left=88",
+  "MINIS E01365 count=2 shown=2 left=88",
+  "MINIS E01366 count=2 shown=2 left=96",
+  "MINIS E01367 count=2 shown=2 left=96",
+  "MINIS E01368 count=2 shown=2 left=96",
+  "MINIS E40101 count=3 shown=3 left=138",
+  "MINIS E01431 count=2 shown=2 left=88",
+  "MINIS E01432 count=2 shown=2 left=88",
+  "MINIS E01433 count=2 shown=2 left=88",
+  "MINIS E01434 count=2 shown=2 left=88",
+  "MINIS E01435 count=2 shown=2 left=88",
+  "MINIS E01451 count=2 shown=2 left=96",
+  "MINIS E01452 count=2 shown=2 left=96",
+  "MINIS E01453 count=2 shown=2 left=96",
+  "MINIS E01454 count=2 shown=2 left=96",
+  "MINIS E01455 count=2 shown=2 left=96",
+  "MINIS E01561 count=2 shown=2 left=88",
+  "MINIS E01562 count=2 shown=2 left=88",
+  "MINIS E01563 count=2 shown=2 left=88",
+  "MINIS E01564 count=2 shown=2 left=88",
+  "MINIS E01565 count=2 shown=2 left=88",
+  "MINIS E01648 count=2 shown=2 left=92",
+  "MINIS E01657 count=2 shown=2 left=92",
+  "MINIS E01661 count=2 shown=2 left=92",
+  "MINIS E01662 count=2 shown=2 left=92",
+  "MINIS E01663 count=2 shown=2 left=92",
+  "MINIS E01741 count=2 shown=2 left=88",
+  "MINIS E01742 count=2 shown=2 left=88",
+  "MINIS E01743 count=2 shown=2 left=88",
+  "MINIS E01744 count=2 shown=2 left=88",
+  "MINIS E01745 count=2 shown=2 left=88",
+  "MINIS E10501 count=5 shown=4 left=138",
+  "MINIS E20501 count=3 shown=3 left=138",
+  "MINIS E30501 count=3 shown=3 left=138",
+  "MINIS E40501 count=4 shown=4 left=138",
+  "MINIS E40081 count=3 shown=3 left=10",
+  "MINIS E40142 count=2 shown=2 left=10",
+  "MINIS E20101 count=2 shown=2 left=10",
+  "MINIS E30081 count=2 shown=2 left=138",
+  "MINIS E00655 count=2 shown=2 left=10",
+  "MINIS E00656 count=2 shown=2 left=10",
+  "MINIS E00601 count=8 shown=8 left=10",
+  "MINIS E00602 count=8 shown=4 left=138",
+  "MINIS E10161 count=7 shown=7 left=42",
+  "MINIS E20141 count=8 shown=4 left=138",
+  "MINIS E30041 count=6 shown=4 left=138",
+  "MINIS E40143 count=8 shown=6 left=42",
+  "MINIS E00657 count=2 shown=2 left=42",
+  "MINIS E00901 count=11 shown=4 left=138",
+  "MINIS E05023 count=1 shown=1 left=42",
+  "MINIS E10181 count=1 shown=1 left=42",
+  "MINIS E10182 count=3 shown=3 left=138",
+  "MINIS E10183 count=1 shown=1 left=42",
+  "MINIS E40144 count=5 shown=5 left=42",
+  "MINIS E00658 count=2 shown=2 left=138",
+  "MINIS E00652 count=2 shown=2 left=42",
+  "MINIS E00653 count=3 shown=3 left=42",
+  "MINIS E00654 count=2 shown=2 left=42",
+  "MINIS E10201 count=3 shown=3 left=138",
+  "MINIS E10202 count=1 shown=1 left=138",
+  "MINIS E20181 count=2 shown=2 left=42",
+  "MINIS E30101 count=2 shown=2 left=138",
+  "MINIS E00903 count=2 shown=2 left=69",
+  "MINIS E50001 count=1 shown=1 left=88",
+  "MINIS E00905 count=7 shown=5 left=96",
+  "MINIS E00913 count=4 shown=4 left=87",
+  "MINIS E50009 count=5 shown=5 left=92",
+  "MINIS E50002 count=1 shown=1 left=89",
+  "MINIS E50003 count=1 shown=1 left=89",
+  "MINIS E01120 count=2 shown=2 left=88",
+  "MINIS E01122 count=2 shown=2 left=88",
+  "MINIS E01123 count=2 shown=2 left=88",
+  "MINIS E01124 count=2 shown=2 left=88",
+  "MINIS E01138 count=2 shown=2 left=88",
+  "MINIS E01171 count=2 shown=2 left=88",
+  "MINIS E01271 count=2 shown=2 left=88",
+  "MINIS E01272 count=2 shown=2 left=88",
+  "MINIS E01273 count=2 shown=2 left=88",
+  "MINIS E01274 count=2 shown=2 left=88",
+  "MINIS E01361 count=2 shown=2 left=88",
+  "MINIS E01362 count=2 shown=2 left=88",
+  "MINIS E01363 count=2 shown=2 left=88",
+  "MINIS E01441 count=2 shown=2 left=88",
+  "MINIS E01442 count=2 shown=2 left=88",
+  "MINIS E01443 count=2 shown=2 left=88",
+  "MINIS E01444 count=2 shown=2 left=88",
+  "MINIS E01445 count=2 shown=2 left=88",
+  "MINIS E01571 count=2 shown=2 left=88",
+  "MINIS E01572 count=2 shown=2 left=88",
+  "MINIS E01573 count=2 shown=2 left=88",
+  "MINIS E01574 count=2 shown=2 left=88",
+  "MINIS E01575 count=2 shown=2 left=88",
+  "MINIS E01671 count=2 shown=2 left=92",
+  "MINIS E01672 count=2 shown=2 left=92",
+  "MINIS E01673 count=2 shown=2 left=92",
+  "MINIS E01674 count=2 shown=2 left=92",
+  "MINIS E01675 count=2 shown=2 left=92",
+  "MINIS E01751 count=2 shown=2 left=88",
+  "MINIS E01752 count=2 shown=2 left=88",
+  "MINIS E01753 count=2 shown=2 left=88",
+  "MINIS E01754 count=2 shown=2 left=88",
+  "MINIS E01755 count=2 shown=2 left=88",
+  "MINIS E50101 count=0 shown=0 left=138",
+  "MINIS E50102 count=2 shown=2 left=138",
+  "MINIS E50103 count=0 shown=0 left=138",
+  "MINIS E50104 count=0 shown=0 left=138",
+  "MINIS E50105 count=0 shown=0 left=215",
+  "MINIS E50106 count=0 shown=0 left=138",
+  "MINIS E50107 count=0 shown=0 left=208",
+  "MINIS E50108 count=0 shown=0 left=138",
+  "MINIS E50109 count=0 shown=0 left=138",
+  "MINIS E50110 count=0 shown=0 left=138",
+  "MINIS E50111 count=2 shown=2 left=138",
+  "MINIS E50112 count=5 shown=4 left=138",
+  "MINIS E50201 count=0 shown=0 left=138",
+  "MINIS E50202 count=2 shown=2 left=138",
+  "MINIS E50203 count=2 shown=2 left=88",
+  "MINIS E50204 count=5 shown=4 left=138",
+  "MINIS E50205 count=2 shown=2 left=138",
+  "MINIS E50206 count=0 shown=0 left=196",
+  "MINIS E50207 count=0 shown=0 left=203",
+  "MINIS E50208 count=0 shown=0 left=138",
+  "MINIS E50209 count=0 shown=0 left=138",
+  "MINIS E50210 count=0 shown=0 left=219",
+  "MINIS E50211 count=3 shown=3 left=138",
+  "MINIS E50212 count=3 shown=3 left=138",
+  "MINIS E50301 count=2 shown=2 left=138",
+  "MINIS E50302 count=2 shown=2 left=138",
+  "MINIS E50304 count=0 shown=0 left=138",
+  "MINIS E50305 count=0 shown=0 left=138",
+  "MINIS E50306 count=0 shown=0 left=138",
+  "MINIS E50307 count=0 shown=0 left=138",
+  "MINIS E50308 count=0 shown=0 left=138",
+  "MINIS E50309 count=2 shown=2 left=138",
+  "MINIS E50310 count=2 shown=2 left=138",
+  "MINIS E50401 count=3 shown=3 left=138",
+  "MINIS E50402 count=3 shown=3 left=138",
+  "MINIS E50403 count=0 shown=0 left=138",
+  "MINIS E50404 count=0 shown=0 left=138",
+  "MINIS E50405 count=0 shown=0 left=138",
+  "MINIS E50406 count=0 shown=0 left=215",
+  "MINIS E50407 count=0 shown=0 left=138",
+  "MINIS E50408 count=10 shown=4 left=138",
+  "MINIS E50409 count=3 shown=3 left=138",
+  "MINIS E50410 count=3 shown=3 left=138",
+  "MINIS E60001 count=5 shown=4 left=138",
+  "MINIS E60002 count=3 shown=3 left=138",
+  "MINIS E60003 count=6 shown=5 left=96",
+  "MINIS E60004 count=0 shown=0 left=138",
+  "MINIS E60005 count=5 shown=5 left=88",
+  "MINIS E60006 count=12 shown=4 left=138",
+  "MINIS E60007 count=0 shown=0 left=203",
+  "MINIS E60008 count=9 shown=5 left=88",
+  "MINIS E60009 count=10 shown=5 left=96",
+  "MINIS E60010 count=0 shown=0 left=153",
+  "MINIS E60011 count=0 shown=0 left=138",
+  "MINIS E60012 count=8 shown=4 left=138",
+  "MINIS E60013 count=5 shown=5 left=88",
+  "MINIS E60014 count=7 shown=4 left=138",
+  "MINIS E60015 count=7 shown=5 left=88",
+  "MINIS E60201 count=3 shown=3 left=88",
+  "MINIS E60205 count=12 shown=5 left=88",
+  "MINIS E60202 count=2 shown=2 left=88",
+  "MINIS E60203 count=2 shown=2 left=88",
+  "MINIS E60204 count=3 shown=3 left=88",
+  "MINIS E60016 count=8 shown=5 left=88",
+  "MINIS E60017 count=8 shown=4 left=138",
+  "MINIS E65001 count=5 shown=5 left=88",
+  "MINIS E60025 count=8 shown=5 left=88",
+  "MINIS E65002 count=6 shown=6 left=88",
+  "MINIS E65003 count=5 shown=5 left=88",
+  "MINIS E65004 count=7 shown=5 left=88",
+  "MINIS E60018 count=3 shown=3 left=138",
+  "MINIS E60019 count=0 shown=0 left=138",
+  "MINIS E60020 count=2 shown=2 left=138",
+  "MINIS E50501 count=2 shown=2 left=138",
+  "MINIS E50502 count=1 shown=1 left=138",
+  "MINIS E50503 count=1 shown=1 left=138",
+  "MINIS E50504 count=2 shown=2 left=138",
+  "MINIS E50505 count=4 shown=4 left=138",
+  "MINIS E50506 count=2 shown=2 left=138",
+  "MINIS E50507 count=2 shown=2 left=138",
+  "MINIS E50508 count=2 shown=2 left=138",
+  "MINIS E50509 count=2 shown=2 left=138",
+  "MINIS E50510 count=2 shown=2 left=138",
+  "MINIS E50511 count=2 shown=2 left=138",
+  "MINIS E50512 count=3 shown=3 left=138",
+  "MINIS E00055 count=0 shown=0 left=108",
+  "MINIS E00062 count=0 shown=0 left=108",
+  "MINIS E00122 count=0 shown=0 left=108",
+  "MINIS E00123 count=0 shown=0 left=108",
+  "MINIS E00202 count=5 shown=5 left=96",
+  "MINIS E00203 count=0 shown=0 left=108",
+  "MINIS E00225 count=2 shown=2 left=96",
+  "MINIS E00226 count=7 shown=5 left=96",
+  "MINIS E00227 count=5 shown=5 left=96",
+  "MINIS E00228 count=6 shown=5 left=96",
+  "MINIS E00229 count=6 shown=5 left=96",
+  "MINIS E00230 count=5 shown=5 left=96",
+  "MINIS E00231 count=6 shown=5 left=96",
+  "MINIS E00232 count=7 shown=5 left=96",
+  "MINIS E00234 count=6 shown=5 left=96",
+  "MINIS E00235 count=6 shown=5 left=96",
+  "MINIS E00236 count=7 shown=5 left=96",
+  "MINIS E00237 count=7 shown=5 left=96",
+  "MINIS E00238 count=6 shown=5 left=96",
+  "MINIS E00239 count=6 shown=5 left=96",
+  "MINIS E00240 count=7 shown=5 left=96",
+  "MINIS E01137 count=2 shown=2 left=96",
+  "MINIS E01226 count=2 shown=2 left=96",
+  "MINIS E02045 count=3 shown=3 left=96",
+  "MINIS E02127 count=3 shown=3 left=96",
+  "MINIS E02128 count=3 shown=3 left=96",
+  "MINIS E02486 count=2 shown=2 left=96",
+  "MINIS E05022 count=2 shown=2 left=96",
+  "LISTS read=all all=1 cells=915 joined_conditions=7 fails=0",
+  "LISTS read=none all=1 cells=1830 joined_conditions=7 fails=0",
+  "LISTS read=mixed all=1 cells=2745 joined_conditions=12 fails=0",
+  "LISTS read=mixed all=0 cells=3660 joined_conditions=17 fails=0",
+  "LISTS read=none all=0 cells=4575 joined_conditions=17 fails=0",
+  "CAST cells=4575 more_than_3=226 max=8 badges=106",
+  "SHOT w29_list_t0_apr_mixed",
+  "SHOT w29_list_t1_may_mixed",
+  "SHOT w29_list_t2_jun_mixed",
+  "SHOT w29_list_t3_jul_mixed",
+  "SHOT w29_list_t4_aug_mixed",
+  "SHOT w29_list_t5_sep_mixed",
+  "SHOT w29_list_t6_oct_mixed",
+  "SHOT w29_list_t7_nov_mixed",
+  "SHOT w29_list_t8_memory_mixed",
+  "SHOT w29_list_t9_other_mixed",
+  "SHOT w29_list_may_twoline_p2_mixed",
+  "MINIS E00024 count=3 shown=3 left=96",
+  "MINIS E00030 count=4 shown=4 left=127",
+  "MINIS E00041 count=3 shown=3 left=127",
+  "MINIS E00063 count=4 shown=4 left=127",
+  "MINIS E10021 count=2 shown=2 left=96",
+  "MINIS E10022 count=2 shown=2 left=138",
+  "MINIS E10023 count=2 shown=2 left=92",
+  "MINIS E01111 count=2 shown=2 left=92",
+  "MINIS E01112 count=2 shown=2 left=92",
+  "MINIS E01113 count=2 shown=2 left=92",
+  "MINIS E01114 count=2 shown=2 left=92",
+  "MINIS E01115 count=2 shown=2 left=92",
+  "SHOT w29_list_may_twoline_p2_all",
+  "SHOT w29_list_oct_twoline_p4_mixed",
+  "MINIS E00522 count=4 shown=4 left=137",
+  "MINIS E00512 count=3 shown=3 left=133",
+  "MINIS E00523 count=9 shown=4 left=137",
+  "MINIS E10101 count=2 shown=2 left=138",
+  "MINIS E01161 count=2 shown=2 left=88",
+  "MINIS E01162 count=2 shown=2 left=88",
+  "MINIS E01163 count=2 shown=2 left=88",
+  "MINIS E01164 count=2 shown=2 left=88",
+  "MINIS E01165 count=2 shown=2 left=88",
+  "MINIS E01181 count=2 shown=2 left=96",
+  "MINIS E01182 count=2 shown=2 left=96",
+  "MINIS E01183 count=2 shown=2 left=96",
+  "SHOT w29_list_oct_twoline_p4_all",
+  "SHOT w29_list_jun_twoline_p16_mixed",
+  "MINIS E02407 count=3 shown=3 left=96",
+  "MINIS E02408 count=3 shown=3 left=96",
+  "MINIS E02409 count=3 shown=3 left=96",
+  "MINIS E02410 count=3 shown=3 left=143",
+  "MINIS E01701 count=2 shown=2 left=92",
+  "MINIS E01702 count=2 shown=2 left=92",
+  "MINIS E01703 count=2 shown=2 left=92",
+  "MINIS E01704 count=2 shown=2 left=92",
+  "MINIS E01705 count=2 shown=2 left=92",
+  "MINIS E01706 count=2 shown=2 left=92",
+  "MINIS E01061 count=0 shown=0 left=123",
+  "MINIS E01062 count=2 shown=2 left=96",
+  "SHOT w29_list_jun_twoline_p16_all",
+  "SHOT w29_list_may_twoline_p2_locked",
+  "SHOT w29_list_nov_cg_group_a_p1_locked",
+  "MINIS E10501 count=5 shown=4 left=138",
+  "MINIS E20501 count=3 shown=3 left=138",
+  "MINIS E30501 count=3 shown=3 left=138",
+  "MINIS E40501 count=4 shown=4 left=138",
+  "MINIS E40081 count=3 shown=3 left=10",
+  "MINIS E40142 count=2 shown=2 left=10",
+  "MINIS E20101 count=2 shown=2 left=10",
+  "MINIS E30081 count=2 shown=2 left=138",
+  "MINIS E00655 count=2 shown=2 left=10",
+  "MINIS E00656 count=2 shown=2 left=10",
+  "MINIS E00601 count=8 shown=8 left=10",
+  "MINIS E00602 count=8 shown=4 left=138",
+  "SHOT w29_list_nov_cg_group_a_p1_all",
+  "SHOT w29_list_nov_cg_group_b_p2_locked",
+  "MINIS E10161 count=7 shown=7 left=42",
+  "MINIS E20141 count=8 shown=4 left=138",
+  "MINIS E30041 count=6 shown=4 left=138",
+  "MINIS E40143 count=8 shown=6 left=42",
+  "MINIS E00657 count=2 shown=2 left=42",
+  "MINIS E00901 count=11 shown=4 left=138",
+  "MINIS E05023 count=1 shown=1 left=42",
+  "MINIS E10181 count=1 shown=1 left=42",
+  "MINIS E10182 count=3 shown=3 left=138",
+  "MINIS E10183 count=1 shown=1 left=42",
+  "MINIS E40144 count=5 shown=5 left=42",
+  "MINIS E00658 count=2 shown=2 left=138",
+  "SHOT w29_list_nov_cg_group_b_p2_all",
+  "MINIS E60006 count=12 shown=4 left=138",
+  "MINIS E60007 count=0 shown=0 left=203",
+  "MINIS E60008 count=9 shown=5 left=88",
+  "MINIS E60009 count=10 shown=5 left=96",
+  "MINIS E60010 count=0 shown=0 left=153",
+  "MINIS E60011 count=0 shown=0 left=138",
+  "MINIS E60012 count=8 shown=4 left=138",
+  "MINIS E60013 count=5 shown=5 left=88",
+  "MINIS E60014 count=7 shown=4 left=138",
+  "MINIS E60015 count=7 shown=5 left=88",
+  "MINIS E60201 count=3 shown=3 left=88",
+  "MINIS E60205 count=12 shown=5 left=88",
+  "SHOT w29_list_memory_p5_all",
+  "SHOT w29_list_t9_other_locked",
+  "DETAILS read=all all=1 events=1164 boards=1319 fails=0",
+  "DETAILS read=none all=1 events=1164 boards=2638 fails=0",
+  "DETAILS extra mixed groups + locked cards fails=0",
+  "SHOT w29_detail_cast12_e00097",
+  "SHOT w29_detail_join_e00328",
+  "SHOT w29_detail_choice_read_e00323",
+  "SHOT w29_detail_choice_unread_e00323",
+  "SHOT w29_detail_choice_unread_locked_e00323",
+  "SHOT w29_detail_group21_mixed",
+  "SHOT w29_detail_group81_mixed",
+  "SHOT w29_detail_e00011_summary",
+  "SHOT w29_detail_memory_e50205",
+  "SHOT w29_detail_april_e00001",
+  "SHOT w29_detail_when_mark_cleaned_e10021",
+  "SHOT w29_detail_when_mark_cleaned_april_e10001",
+  "SHOT w29_detail_other_e00055",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓공원 · 사건 1 · 장면 고르기",
+  "†전체 4개 중 2개 감상",
+  "ITEMS 100:장면 1 · E00004 · 아직 보지 않음|101:2. 이즈미 · E00005 · 감상 완료|102:3. 이즈미 · E00006 · 감상 완료|103:장면 4 · E00007 · 아직 보지 않음|0:돌아가기|",
+  ">>>",
+  "PICKER k=6 page=1/1 items=5 lines=2 longest=19 height=372",
+  "SHOT w29_picker_mixed_k6_p1",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5/13 아침 · 본편",
+  "†장면 고르기 · 전체 2개 중 1개 감상",
+  "ITEMS 100:장면 1 · E00016 · 아직 보지 않음|101:2. 마나미 · E00017 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=12 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5/15 · 본편",
+  "†장면 고르기 · 전체 2개 중 1개 감상",
+  "ITEMS 100:장면 1 · E00022 · 아직 보지 않음|101:2. 이즈미 · E00023 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=15 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 동관 1층 · 출구",
+  "†장면 고르기 · 전체 6개 중 4개 감상",
+  "ITEMS 100:1. 쿄카 · E00024 · 감상 완료|101:장면 2 · E00025 · 아직 보지 않음|102:3. 이즈미 · E00026 · 감상 완료|103:4. 이즈미 · E00027 · 감상 완료|104:장면 5 · E00028 · 아직 보지 않음|105:6. 신카이 · E00029 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=19 page=1/1 items=7 lines=2 longest=27 height=468",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 동관 2층 · 사건 1",
+  "†장면 고르기 · 전체 6개 중 4개 감상",
+  "ITEMS 100:1. 신카이 · E00030 · 감상 완료|101:장면 2 · E00031 · 아직 보지 않음|102:3. 이즈미 · E00032 · 감상 완료|103:4. 이즈미 · E00033 · 감상 완료|104:장면 5 · E00034 · 아직 보지 않음|105:6. 신카이 · E00035 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=20 page=1/1 items=7 lines=2 longest=29 height=468",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1",
+  "†장면 고르기 · 전체 21개 중 14개 감상　〓1/3쪽",
+  "ITEMS 100:1. 쿄카 · E00041 · 감상 완료|101:2. 쿄카 · E00042 · 감상 완료|102:장면 3 · E00043 · 아직 보지 않음|103:4. 이즈미 · E00044 · 감상 완료|104:5. 이즈미 · E00045 · 감상 완료|105:장면 6 · E00046 · 아직 보지 않음|106:7. 신카이 · E00047 · 감상 완료|107:8. 호시카와 · E00048 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=21 page=1/3 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1",
+  "†장면 고르기 · 전체 21개 중 14개 감상　〓2/3쪽",
+  "ITEMS 108:장면 9 · E00049 · 아직 보지 않음|109:10. 호시카와 · E00050 · 감상 완료|110:11. 이즈미 · E00051 · 감상 완료|111:장면 12 · E00052 · 아직 보지 않음|112:13. 사건 2 · E00054 · 감상 완료|113:14. 마나미 · E00056 · 감상 완료|114:15. 마나미 · E00057 · 감상 완료|115:장면 16 · E00058 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=21 page=2/3 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1",
+  "†장면 고르기 · 전체 21개 중 14개 감상　〓3/3쪽",
+  "ITEMS 116:17. 꽤 힘들다 선택 · E00801 · 감상 완료|117:18. 선택 후 공통 장면 · E00059 · 감상 완료|118:19. 마나미 · E00060 · 감상 완료|119:장면 20 · E00802 · 아직 보지 않음|120:장면 21 · E00061 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=21 page=3/3 items=8 lines=2 longest=31 height=516",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1",
+  "†장면 고르기 · 전체 4개 중 3개 감상",
+  "ITEMS 100:1. 쿄카 · E00063 · 감상 완료|101:2. 먼저 간다 선택 · E00803 · 감상 완료|102:장면 3 · E00064 · 아직 보지 않음|103:4. 기다린다 선택 · E00804 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=22 page=1/1 items=5 lines=2 longest=29 height=372",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6/7 아침 · 본편",
+  "†장면 고르기 · 전체 3개 중 2개 감상",
+  "ITEMS 100:1. 쿄카 · E00069 · 감상 완료|101:장면 2 · E00805 · 아직 보지 않음|102:3. 교사로 돌아간다 선택 · E00806 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=24 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6/11 밤 · 본편",
+  "†장면 고르기 · 전체 2개 중 1개 감상",
+  "ITEMS 100:1. 모모세 · E00072 · 감상 완료|101:장면 2 · E00073 · 아직 보지 않음|0:돌아가기|",
+  ">>>",
+  "PICKER k=27 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6/25 밤 · 본편",
+  "†장면 고르기 · 전체 4개 중 3개 감상",
+  "ITEMS 100:1. 쿄카 · E00104 · 감상 완료|101:장면 2 · E00109 · 아직 보지 않음|102:3. 선택 후 공통 장면 · E00111 · 감상 완료|103:4. 완전 별로다 선택 · E00110 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=34 page=1/1 items=5 lines=2 longest=23 height=372",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6월 중 · 던전 · 학교 2층 · 보스",
+  "†장면 고르기 · 전체 9개 중 6개 감상",
+  "ITEMS 100:장면 1 · E00076 · 아직 보지 않음|101:2. 쿄카 · E00077 · 감상 완료|102:3. 이즈미 · E00078 · 감상 완료|103:장면 4 · E00079 · 아직 보지 않음|104:5. 마나미 · E00080 · 감상 완료|105:6. 이즈미 · E00081 · 감상 완료|106:장면 7 · E00082 · 아직 보지 않음|107:8. 이즈미 · E00083 · 감상 완료|108:9. 신카이 · E00084 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=40 page=1/1 items=10 lines=2 longest=23 height=612",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6월 중 · 던전 · 학교 3층 · 보스",
+  "†장면 고르기 · 전체 16개 중 10개 감상　〓1/2쪽",
+  "ITEMS 100:장면 1 · E00085 · 아직 보지 않음|101:2. 마나미 · E00086 · 감상 완료|102:3. 신카이 · E00087 · 감상 완료|103:장면 4 · E00088 · 아직 보지 않음|104:5. 이즈미 · E00089 · 감상 완료|105:6. 신카이 · E00090 · 감상 완료|106:장면 7 · E00091 · 아직 보지 않음|107:8. 쿄카 · E00092 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=41 page=1/2 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓6월 중 · 던전 · 학교 3층 · 보스",
+  "†장면 고르기 · 전체 16개 중 10개 감상　〓2/2쪽",
+  "ITEMS 108:9. 이즈미 · E00093 · 감상 완료|109:장면 10 · E00094 · 아직 보지 않음|110:11. 쿄카 · E00095 · 감상 완료|111:12. 신카이 · E00096 · 감상 완료|112:장면 13 · E00097 · 아직 보지 않음|113:14. 쿄카 · E20168 · 감상 완료|114:15. 쿄카 · E20169 · 감상 완료|115:장면 16 · E20170 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=41 page=2/2 items=11 lines=2 longest=31 height=660",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓7/27 밤 · 인물 · 쿄카",
+  "†장면 고르기 · 전체 2개 중 2개 감상",
+  "ITEMS 100:1. 쿄카 · E20061 · 감상 완료|101:2. 이어서 · E00185 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=48 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 32개 감상　〓1/7쪽",
+  "ITEMS 100:장면 1 · E00154 · 아직 보지 않음|101:2. 마나미 · E00155 · 감상 완료|102:3. 마코토 · E00156 · 감상 완료|103:장면 4 · E00157 · 아직 보지 않음|104:5. 호시카와 · E00158 · 감상 완료|105:6. 모모세 · E00159 · 감상 완료|106:장면 7 · E00160 · 아직 보지 않음|107:8. 마코토 · E00161 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=1/7 items=11 lines=2 longest=31 height=660",
+  "SHOT w29_picker_mixed_k49_p1",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 32개 감상　〓2/7쪽",
+  "ITEMS 108:9. 신카이 · E00162 · 감상 완료|109:장면 10 · E00163 · 아직 보지 않음|110:11. 모모세 · E00164 · 감상 완료|111:12. 마코토 · E00165 · 감상 완료|112:장면 13 · E00166 · 아직 보지 않음|113:14. 마나미 · E00167 · 감상 완료|114:15. 모모세 · E00168 · 감상 완료|115:장면 16 · E00169 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=2/7 items=11 lines=2 longest=31 height=660",
+  "SHOT w29_picker_mixed_k49_p2",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 32개 감상　〓3/7쪽",
+  "ITEMS 116:17. 호시카와 · E00170 · 감상 완료|117:18. 모모세 · E00171 · 감상 완료|118:장면 19 · E00172 · 아직 보지 않음|119:20. 모모세 · E00173 · 감상 완료|120:21. 호시카와 · E00174 · 감상 완료|121:장면 22 · E00832 · 아직 보지 않음|122:23. 쿄카 · E00833 · 감상 완료|123:24. 마나미 · E00834 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=3/7 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 32개 감상　〓4/7쪽",
+  "ITEMS 124:장면 25 · E00835 · 아직 보지 않음|125:26. 신카이 · E00836 · 감상 완료|126:27. 호시카와 · E00837 · 감상 완료|127:장면 28 · E00838 · 아직 보지 않음|128:장면 29 · E00811 · 아직 보지 않음|129:30. 마나미 · E00812 · 감상 완료|130:31. 이즈미 · E00813 · 감상 완료|131:장면 32 · E00814 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=4/7 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 32개 감상　〓5/7쪽",
+  "ITEMS 132:33. 호시카와 · E00815 · 감상 완료|133:34. 모모세 · E00816 · 감상 완료|134:장면 35 · E00817 · 아직 보지 않음|135:36. 쿄카 · E00818 · 감상 완료|136:37. 신카이 · E00819 · 감상 완료|137:장면 38 · E00820 · 아직 보지 않음|138:39. 모모세 · E00821 · 감상 완료|139:40. 마나미 · E00822 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=5/7 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 32개 감상　〓6/7쪽",
+  "ITEMS 140:장면 41 · E00823 · 아직 보지 않음|141:42. 호시카와 · E00824 · 감상 완료|142:43. 모모세 · E00825 · 감상 완료|143:장면 44 · E00826 · 아직 보지 않음|144:45. 호시카와 · E00827 · 감상 완료|145:46. 모모세 · E00828 · 감상 완료|146:장면 47 · E00829 · 아직 보지 않음|147:48. 신카이 · E00830 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=6/7 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 32개 감상　〓7/7쪽",
+  "ITEMS 148:49. 모모세 · E00831 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=7/7 items=4 lines=2 longest=31 height=324",
+  "SHOT w29_picker_mixed_k49_p7",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 5",
+  "†장면 고르기 · 전체 2개 중 1개 감상",
+  "ITEMS 100:장면 1 · E00181 · 아직 보지 않음|101:2. 신카이 · E00182 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=50 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓8/6 밤 · 인물 · 쿄카",
+  "†장면 고르기 · 전체 3개 중 2개 감상",
+  "ITEMS 100:장면 1 · E20164 · 아직 보지 않음|101:2. 공원으로 간다 선택 · E20165 · 감상 완료|102:3. 무시한다 선택 · E20166 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=60 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓8/11 밤 · 인물 · 마코토",
+  "†장면 고르기 · 전체 3개 중 2개 감상",
+  "ITEMS 100:1. 시작 · E40061 · 감상 완료|101:2. 얻어먹으러 간다 선택 · E40062 · 감상 완료|102:장면 3 · E40063 · 아직 보지 않음|0:돌아가기|",
+  ">>>",
+  "PICKER k=62 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓9/15 아침 · 본편",
+  "†장면 고르기 · 전체 3개 중 2개 감상",
+  "ITEMS 100:1. 쿄카 · E00258 · 감상 완료|101:2. 진실을 전한다 선택 · E00273 · 감상 완료|102:장면 3 · E00274 · 아직 보지 않음|0:돌아가기|",
+  ">>>",
+  "PICKER k=69 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓9/18 밤 · 본편",
+  "†장면 고르기 · 전체 3개 중 2개 감상",
+  "ITEMS 100:1. 호시카와 · E00260 · 감상 완료|101:장면 2 · E00271 · 아직 보지 않음|102:3. 얼버무린다 선택 · E00272 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=71 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10/13 밤 · 본편",
+  "†장면 고르기 · 전체 6개 중 3개 감상",
+  "ITEMS 100:장면 1 · E00322 · 아직 보지 않음|101:2. 이즈미와 촬영 · E00323 · 감상 완료|102:장면 3 · E00328 · 아직 보지 않음|103:4. 쿄카와 촬영 · E00324 · 감상 완료|104:장면 5 · E00325 · 아직 보지 않음|105:6. 마코토와 촬영 · E00326 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=81 page=1/1 items=7 lines=2 longest=23 height=468",
+  "SHOT w29_picker_mixed_k81_p1",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10/21 · 본편",
+  "†장면 고르기 · 전체 2개 중 2개 감상",
+  "ITEMS 100:1. 이즈미 · E00452 · 감상 완료|101:2. 호시카와 · E00501 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=90 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10/14 아침 · 인물 · 쿄카",
+  "†장면 고르기 · 전체 3개 중 2개 감상",
+  "ITEMS 100:1. 쿄카 · E20081 · 감상 완료|101:2. 밖으로 데리고 나감 선택 · E20082 · 감상 완료|102:장면 3 · E20083 · 아직 보지 않음|0:돌아가기|",
+  ">>>",
+  "PICKER k=99 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10/11 아침 · 인물 · 마나미",
+  "†장면 고르기 · 전체 5개 중 4개 감상",
+  "ITEMS 100:1. 혼자 · E30152 · 감상 완료|101:2. 이즈미를 영화에 초대 · E30153 · 감상 완료|102:장면 3 · E30154 · 아직 보지 않음|103:4. 마나미를 영화에 초대 · E30155 · 감상 완료|104:5. 마코토를 영화에 초대 · E30156 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=101 page=1/1 items=6 lines=2 longest=23 height=420",
+  "SHOT w29_picker_mixed_k101_p1",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10월 중 · 던전 · 서양관 내부　틈 1 · 입구",
+  "†장면 고르기 · 전체 11개 중 7개 감상　〓1/2쪽",
+  "ITEMS 100:1. 마나미 · E00522 · 감상 완료|101:장면 2 · E00502 · 아직 보지 않음|102:3. 이즈미 · E00503 · 감상 완료|103:4. 이즈미 · E00504 · 감상 완료|104:장면 5 · E00505 · 아직 보지 않음|105:6. 쿄카 · E00506 · 감상 완료|106:7. 쿄카 · E00507 · 감상 완료|107:장면 8 · E00508 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=114 page=1/2 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓10월 중 · 던전 · 서양관 내부　틈 1 · 입구",
+  "†장면 고르기 · 전체 11개 중 7개 감상　〓2/2쪽",
+  "ITEMS 108:9. 신카이 · E00509 · 감상 완료|109:10. 모모세 · E00510 · 감상 완료|110:장면 11 · E00511 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=114 page=2/2 items=6 lines=2 longest=30 height=420",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10월 중 · 던전 · 서양관 내부　틈 3 · 사건 1",
+  "†장면 고르기 · 전체 10개 중 7개 감상",
+  "ITEMS 100:1. 마코토 · E00512 · 감상 완료|101:2. 마코토 · E00513 · 감상 완료|102:장면 3 · E00514 · 아직 보지 않음|103:4. 마코토 · E00515 · 감상 완료|104:5. 마코토 · E00516 · 감상 완료|105:장면 6 · E00517 · 아직 보지 않음|106:7. 마코토 · E00518 · 감상 완료|107:8. 마코토 · E00519 · 감상 완료|108:장면 9 · E00520 · 아직 보지 않음|109:10. 마코토 · E00521 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=115 page=1/1 items=11 lines=2 longest=31 height=660",
+  "SHOT w29_picker_mixed_k115_p1",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10월 중 · 던전 · 서양관 내부　틈 5 · 보스",
+  "†장면 고르기 · 전체 7개 중 4개 감상",
+  "ITEMS 100:장면 1 · E00523 · 아직 보지 않음|101:2. 쿄카 · E00524 · 감상 완료|102:3. 마코토 · E00530 · 감상 완료|103:장면 4 · E00526 · 아직 보지 않음|104:5. 호시카와 · E00527 · 감상 완료|105:6. 호시카와 · E00528 · 감상 완료|106:장면 7 · E00529 · 아직 보지 않음|0:돌아가기|",
+  ">>>",
+  "PICKER k=116 page=1/1 items=8 lines=2 longest=29 height=516",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11/11 아침 · 본편",
+  "†장면 고르기 · 전체 7개 중 5개 감상",
+  "ITEMS 100:1. 이즈미 · E00602 · 감상 완료|101:2. 이즈미 · E00611 · 감상 완료|102:3. 이즈미에게 해설 부탁 · E00612 · 감상 완료|103:장면 4 · E00616 · 아직 보지 않음|104:장면 5 · E00613 · 아직 보지 않음|105:6. 마나미에게 해설 부탁 · E00614 · 감상 완료|106:7. 마코토에게 해설 부탁 · E00615 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=120 page=1/1 items=8 lines=2 longest=23 height=516",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11/16 밤 · 본편",
+  "†장면 고르기 · 전체 2개 중 1개 감상",
+  "ITEMS 100:장면 1 · E00658 · 아직 보지 않음|101:2. 이즈미 · E00651 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=124 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11/15 아침 · 인물 · 마코토",
+  "†장면 고르기 · 전체 2개 중 1개 감상",
+  "ITEMS 100:장면 1 · E40144 · 아직 보지 않음|101:2. 이즈미 · E40145 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=148 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 · 최종장",
+  "†장면 고르기 · 전체 3개 중 2개 감상",
+  "ITEMS 100:1. 최종장 · E50001 · 감상 완료|101:장면 2 · E00904 · 아직 보지 않음|102:3. 쿄카 · E00912 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=149 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 뉴타운 · 사건",
+  "†장면 고르기 · 전체 15개 중 12개 감상　〓1/2쪽",
+  "ITEMS 100:1. 마코토 · E00905 · 감상 완료|101:장면 2 · E00907 · 아직 보지 않음|102:3. 이즈미 · E10203 · 감상 완료|103:4. 마나미 · E00908 · 감상 완료|104:5. 쿄카 · E20201 · 감상 완료|105:6. 마나미 · E00909 · 감상 완료|106:7. 마나미 · E30102 · 감상 완료|107:장면 8 · E00910 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=150 page=1/2 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 뉴타운 · 사건",
+  "†장면 고르기 · 전체 15개 중 12개 감상　〓2/2쪽",
+  "ITEMS 108:9. 마코토 · E40161 · 감상 완료|109:10. 마나미 · E00911 · 감상 완료|110:11. 모모세 · E00984 · 감상 완료|111:12. 사건 · E00906 · 감상 완료|112:13. 이즈미 · E00981 · 감상 완료|113:14. 사건 · E50007 · 감상 완료|114:장면 15 · E00982 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=150 page=2/2 items=10 lines=2 longest=31 height=612",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 25개 감상　〓1/5쪽",
+  "ITEMS 100:장면 1 · E00913 · 아직 보지 않음|101:2. 이즈미 · E00914 · 감상 완료|102:3. 이즈미 · E00915 · 감상 완료|103:장면 4 · E00916 · 아직 보지 않음|104:5. 이즈미 · E00917 · 감상 완료|105:6. 쿄카 · E00918 · 감상 완료|106:장면 7 · E00919 · 아직 보지 않음|107:8. 쿄카 · E00920 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=1/5 items=11 lines=2 longest=31 height=660",
+  "SHOT w29_picker_mixed_k151_p1",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 25개 감상　〓2/5쪽",
+  "ITEMS 108:9. 쿄카 · E00921 · 감상 완료|109:장면 10 · E00922 · 아직 보지 않음|110:장면 11 · E00931 · 아직 보지 않음|111:12. 호시카와 · E00932 · 감상 완료|112:13. 모모세 · E00933 · 감상 완료|113:장면 14 · E00934 · 아직 보지 않음|114:15. 마코토 · E00935 · 감상 완료|115:16. 마코토 · E00936 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=2/5 items=11 lines=2 longest=31 height=660",
+  "SHOT w29_picker_mixed_k151_p2",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 25개 감상　〓3/5쪽",
+  "ITEMS 116:장면 17 · E00937 · 아직 보지 않음|117:18. 모모세 · E00938 · 감상 완료|118:19. 신카이 · E00939 · 감상 완료|119:장면 20 · E00940 · 아직 보지 않음|120:21. 마나미 · E00941 · 감상 완료|121:22. 마코토 · E00942 · 감상 완료|122:장면 23 · E00943 · 아직 보지 않음|123:24. 모모세 · E00944 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=3/5 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 25개 감상　〓4/5쪽",
+  "ITEMS 124:25. 신카이 · E00945 · 감상 완료|125:26. 마코토 · E00951 · 감상 완료|126:장면 27 · E00952 · 아직 보지 않음|127:28. 호시카와 · E00953 · 감상 완료|128:29. 모모세 · E00954 · 감상 완료|129:장면 30 · E00955 · 아직 보지 않음|130:장면 31 · E00961 · 아직 보지 않음|131:32. 마나미 · E00962 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=4/5 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 25개 감상　〓5/5쪽",
+  "ITEMS 132:33. 마나미 · E00963 · 감상 완료|133:장면 34 · E00964 · 아직 보지 않음|134:35. 마코토 · E00965 · 감상 완료|135:36. 마코토 · E00966 · 감상 완료|136:장면 37 · E00967 · 아직 보지 않음|137:38. 호시카와 · E00968 · 감상 완료|138:39. 호시카와 · E00969 · 감상 완료|139:장면 40 · E00970 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=5/5 items=11 lines=2 longest=31 height=660",
+  "SHOT w29_picker_mixed_k151_p5",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 센터 빌딩 1층 · 입구",
+  "†장면 고르기 · 전체 21개 중 14개 감상　〓1/3쪽",
+  "ITEMS 100:1. 마나미 · E50009 · 감상 완료|101:장면 2 · E00985 · 아직 보지 않음|102:3. 쿄카 · E00992 · 감상 완료|103:장면 4 · E00994 · 아직 보지 않음|104:5. 마나미 · E00993 · 감상 완료|105:6. 출구 · E00996 · 감상 완료|106:7. 출구 · E00995 · 감상 완료|107:장면 8 · E10522 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=152 page=1/3 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 센터 빌딩 1층 · 입구",
+  "†장면 고르기 · 전체 21개 중 14개 감상　〓2/3쪽",
+  "ITEMS 108:9. 이어서 · E10523 · 감상 완료|109:10. 쿄카 · E20522 · 감상 완료|110:11. 이어서 · E20523 · 감상 완료|111:12. 마나미 · E30522 · 감상 완료|112:장면 13 · E30523 · 아직 보지 않음|113:장면 14 · E40522 · 아직 보지 않음|114:15. 이어서 · E40523 · 감상 완료|115:16. 출구 · E00999 · 감상 완료|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=152 page=2/3 items=11 lines=2 longest=31 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 센터 빌딩 1층 · 입구",
+  "†장면 고르기 · 전체 21개 중 14개 감상　〓3/3쪽",
+  "ITEMS 116:17. 이즈미 · E10521 · 감상 완료|117:장면 18 · E20521 · 아직 보지 않음|118:19. 마나미 · E30521 · 감상 완료|119:20. 마코토 · E40521 · 감상 완료|120:장면 21 · E00991 · 아직 보지 않음|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=152 page=3/3 items=8 lines=2 longest=31 height=516",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 센터 빌딩 · 최종장",
+  "†장면 고르기 · 전체 3개 중 1개 감상",
+  "ITEMS 100:장면 1 · E50002 · 아직 보지 않음|101:장면 2 · E50008 · 아직 보지 않음|102:3. 쿄카 · E50010 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=153 page=1/1 items=4 lines=2 longest=25 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 뉴타운 · 최종장",
+  "†장면 고르기 · 전체 3개 중 2개 감상",
+  "ITEMS 100:1. 최종장 · E50003 · 감상 완료|101:장면 2 · E50005 · 아직 보지 않음|102:3. 최종장 · E50006 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=154 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PICKERS read=mixed all=1 cards=35 fails=0",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓공원 · 사건 1 · 장면 고르기",
+  "†전체 4개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00004 · 아직 보지 않음 · 잠김|101:장면 2 · E00005 · 아직 보지 않음 · 잠김|102:장면 3 · E00006 · 아직 보지 않음 · 잠김|103:장면 4 · E00007 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=6 page=1/1 items=5 lines=2 longest=19 height=372",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5/13 아침 · 본편",
+  "†장면 고르기 · 전체 2개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00016 · 아직 보지 않음 · 잠김|101:장면 2 · E00017 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=12 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5/15 · 본편",
+  "†장면 고르기 · 전체 2개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00022 · 아직 보지 않음 · 잠김|101:장면 2 · E00023 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=15 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 동관 1층 · 출구",
+  "†장면 고르기 · 전체 6개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00024 · 아직 보지 않음 · 잠김|101:장면 2 · E00025 · 아직 보지 않음 · 잠김|102:장면 3 · E00026 · 아직 보지 않음 · 잠김|103:장면 4 · E00027 · 아직 보지 않음 · 잠김|104:장면 5 · E00028 · 아직 보지 않음 · 잠김|105:장면 6 · E00029 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=19 page=1/1 items=7 lines=2 longest=27 height=468",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 동관 2층 · 사건 1",
+  "†장면 고르기 · 전체 6개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00030 · 아직 보지 않음 · 잠김|101:장면 2 · E00031 · 아직 보지 않음 · 잠김|102:장면 3 · E00032 · 아직 보지 않음 · 잠김|103:장면 4 · E00033 · 아직 보지 않음 · 잠김|104:장면 5 · E00034 · 아직 보지 않음 · 잠김|105:장면 6 · E00035 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=20 page=1/1 items=7 lines=2 longest=29 height=468",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1",
+  "†장면 고르기 · 전체 21개 중 0개 감상　〓1/3쪽",
+  "ITEMS 100:장면 1 · E00041 · 아직 보지 않음 · 잠김|101:장면 2 · E00042 · 아직 보지 않음 · 잠김|102:장면 3 · E00043 · 아직 보지 않음 · 잠김|103:장면 4 · E00044 · 아직 보지 않음 · 잠김|104:장면 5 · E00045 · 아직 보지 않음 · 잠김|105:장면 6 · E00046 · 아직 보지 않음 · 잠김|106:장면 7 · E00047 · 아직 보지 않음 · 잠김|107:장면 8 · E00048 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=21 page=1/3 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1",
+  "†장면 고르기 · 전체 21개 중 0개 감상　〓2/3쪽",
+  "ITEMS 108:장면 9 · E00049 · 아직 보지 않음 · 잠김|109:장면 10 · E00050 · 아직 보지 않음 · 잠김|110:장면 11 · E00051 · 아직 보지 않음 · 잠김|111:장면 12 · E00052 · 아직 보지 않음 · 잠김|112:장면 13 · E00054 · 아직 보지 않음 · 잠김|113:장면 14 · E00056 · 아직 보지 않음 · 잠김|114:장면 15 · E00057 · 아직 보지 않음 · 잠김|115:장면 16 · E00058 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=21 page=2/3 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1",
+  "†장면 고르기 · 전체 21개 중 0개 감상　〓3/3쪽",
+  "ITEMS 116:장면 17 · E00801 · 아직 보지 않음 · 잠김|117:장면 18 · E00059 · 아직 보지 않음 · 잠김|118:장면 19 · E00060 · 아직 보지 않음 · 잠김|119:장면 20 · E00802 · 아직 보지 않음 · 잠김|120:장면 21 · E00061 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=21 page=3/3 items=8 lines=2 longest=30 height=516",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1",
+  "†장면 고르기 · 전체 4개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00063 · 아직 보지 않음 · 잠김|101:장면 2 · E00803 · 아직 보지 않음 · 잠김|102:장면 3 · E00064 · 아직 보지 않음 · 잠김|103:장면 4 · E00804 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=22 page=1/1 items=5 lines=2 longest=29 height=372",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6/7 아침 · 본편",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00069 · 아직 보지 않음 · 잠김|101:장면 2 · E00805 · 아직 보지 않음 · 잠김|102:장면 3 · E00806 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=24 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6/11 밤 · 본편",
+  "†장면 고르기 · 전체 2개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00072 · 아직 보지 않음 · 잠김|101:장면 2 · E00073 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=27 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6/25 밤 · 본편",
+  "†장면 고르기 · 전체 4개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00104 · 아직 보지 않음 · 잠김|101:장면 2 · E00109 · 아직 보지 않음 · 잠김|102:장면 3 · E00111 · 아직 보지 않음 · 잠김|103:장면 4 · E00110 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=34 page=1/1 items=5 lines=2 longest=23 height=372",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6월 중 · 던전 · 학교 2층 · 보스",
+  "†장면 고르기 · 전체 9개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00076 · 아직 보지 않음 · 잠김|101:장면 2 · E00077 · 아직 보지 않음 · 잠김|102:장면 3 · E00078 · 아직 보지 않음 · 잠김|103:장면 4 · E00079 · 아직 보지 않음 · 잠김|104:장면 5 · E00080 · 아직 보지 않음 · 잠김|105:장면 6 · E00081 · 아직 보지 않음 · 잠김|106:장면 7 · E00082 · 아직 보지 않음 · 잠김|107:장면 8 · E00083 · 아직 보지 않음 · 잠김|108:장면 9 · E00084 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=40 page=1/1 items=10 lines=2 longest=23 height=612",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓6월 중 · 던전 · 학교 3층 · 보스",
+  "†장면 고르기 · 전체 16개 중 0개 감상　〓1/2쪽",
+  "ITEMS 100:장면 1 · E00085 · 아직 보지 않음 · 잠김|101:장면 2 · E00086 · 아직 보지 않음 · 잠김|102:장면 3 · E00087 · 아직 보지 않음 · 잠김|103:장면 4 · E00088 · 아직 보지 않음 · 잠김|104:장면 5 · E00089 · 아직 보지 않음 · 잠김|105:장면 6 · E00090 · 아직 보지 않음 · 잠김|106:장면 7 · E00091 · 아직 보지 않음 · 잠김|107:장면 8 · E00092 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=41 page=1/2 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓6월 중 · 던전 · 학교 3층 · 보스",
+  "†장면 고르기 · 전체 16개 중 0개 감상　〓2/2쪽",
+  "ITEMS 108:장면 9 · E00093 · 아직 보지 않음 · 잠김|109:장면 10 · E00094 · 아직 보지 않음 · 잠김|110:장면 11 · E00095 · 아직 보지 않음 · 잠김|111:장면 12 · E00096 · 아직 보지 않음 · 잠김|112:장면 13 · E00097 · 아직 보지 않음 · 잠김|113:장면 14 · E20168 · 아직 보지 않음 · 잠김|114:장면 15 · E20169 · 아직 보지 않음 · 잠김|115:장면 16 · E20170 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=41 page=2/2 items=11 lines=2 longest=30 height=660",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓7/27 밤 · 인물 · 쿄카",
+  "†장면 고르기 · 전체 2개 중 0개 감상",
+  "ITEMS 100:장면 1 · E20061 · 아직 보지 않음 · 잠김|101:장면 2 · E00185 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=48 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 0개 감상　〓1/7쪽",
+  "ITEMS 100:장면 1 · E00154 · 아직 보지 않음 · 잠김|101:장면 2 · E00155 · 아직 보지 않음 · 잠김|102:장면 3 · E00156 · 아직 보지 않음 · 잠김|103:장면 4 · E00157 · 아직 보지 않음 · 잠김|104:장면 5 · E00158 · 아직 보지 않음 · 잠김|105:장면 6 · E00159 · 아직 보지 않음 · 잠김|106:장면 7 · E00160 · 아직 보지 않음 · 잠김|107:장면 8 · E00161 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=1/7 items=11 lines=2 longest=30 height=660",
+  "SHOT w29_picker_locked_k49_p1",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 0개 감상　〓2/7쪽",
+  "ITEMS 108:장면 9 · E00162 · 아직 보지 않음 · 잠김|109:장면 10 · E00163 · 아직 보지 않음 · 잠김|110:장면 11 · E00164 · 아직 보지 않음 · 잠김|111:장면 12 · E00165 · 아직 보지 않음 · 잠김|112:장면 13 · E00166 · 아직 보지 않음 · 잠김|113:장면 14 · E00167 · 아직 보지 않음 · 잠김|114:장면 15 · E00168 · 아직 보지 않음 · 잠김|115:장면 16 · E00169 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=2/7 items=11 lines=2 longest=30 height=660",
+  "SHOT w29_picker_locked_k49_p2",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 0개 감상　〓3/7쪽",
+  "ITEMS 116:장면 17 · E00170 · 아직 보지 않음 · 잠김|117:장면 18 · E00171 · 아직 보지 않음 · 잠김|118:장면 19 · E00172 · 아직 보지 않음 · 잠김|119:장면 20 · E00173 · 아직 보지 않음 · 잠김|120:장면 21 · E00174 · 아직 보지 않음 · 잠김|121:장면 22 · E00832 · 아직 보지 않음 · 잠김|122:장면 23 · E00833 · 아직 보지 않음 · 잠김|123:장면 24 · E00834 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=3/7 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 0개 감상　〓4/7쪽",
+  "ITEMS 124:장면 25 · E00835 · 아직 보지 않음 · 잠김|125:장면 26 · E00836 · 아직 보지 않음 · 잠김|126:장면 27 · E00837 · 아직 보지 않음 · 잠김|127:장면 28 · E00838 · 아직 보지 않음 · 잠김|128:장면 29 · E00811 · 아직 보지 않음 · 잠김|129:장면 30 · E00812 · 아직 보지 않음 · 잠김|130:장면 31 · E00813 · 아직 보지 않음 · 잠김|131:장면 32 · E00814 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=4/7 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 0개 감상　〓5/7쪽",
+  "ITEMS 132:장면 33 · E00815 · 아직 보지 않음 · 잠김|133:장면 34 · E00816 · 아직 보지 않음 · 잠김|134:장면 35 · E00817 · 아직 보지 않음 · 잠김|135:장면 36 · E00818 · 아직 보지 않음 · 잠김|136:장면 37 · E00819 · 아직 보지 않음 · 잠김|137:장면 38 · E00820 · 아직 보지 않음 · 잠김|138:장면 39 · E00821 · 아직 보지 않음 · 잠김|139:장면 40 · E00822 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=5/7 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 0개 감상　〓6/7쪽",
+  "ITEMS 140:장면 41 · E00823 · 아직 보지 않음 · 잠김|141:장면 42 · E00824 · 아직 보지 않음 · 잠김|142:장면 43 · E00825 · 아직 보지 않음 · 잠김|143:장면 44 · E00826 · 아직 보지 않음 · 잠김|144:장면 45 · E00827 · 아직 보지 않음 · 잠김|145:장면 46 · E00828 · 아직 보지 않음 · 잠김|146:장면 47 · E00829 · 아직 보지 않음 · 잠김|147:장면 48 · E00830 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=6/7 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 1 · 입구",
+  "†장면 고르기 · 전체 49개 중 0개 감상　〓7/7쪽",
+  "ITEMS 148:장면 49 · E00831 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=49 page=7/7 items=4 lines=2 longest=30 height=324",
+  "SHOT w29_picker_locked_k49_p7",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓7월 중 · 던전 · 수수께끼의 틈 5",
+  "†장면 고르기 · 전체 2개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00181 · 아직 보지 않음 · 잠김|101:장면 2 · E00182 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=50 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓8/6 밤 · 인물 · 쿄카",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E20164 · 아직 보지 않음 · 잠김|101:장면 2 · E20165 · 아직 보지 않음 · 잠김|102:장면 3 · E20166 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=60 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓8/11 밤 · 인물 · 마코토",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E40061 · 아직 보지 않음 · 잠김|101:장면 2 · E40062 · 아직 보지 않음 · 잠김|102:장면 3 · E40063 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=62 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓9/15 아침 · 본편",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00258 · 아직 보지 않음 · 잠김|101:장면 2 · E00273 · 아직 보지 않음 · 잠김|102:장면 3 · E00274 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=69 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓9/18 밤 · 본편",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00260 · 아직 보지 않음 · 잠김|101:장면 2 · E00271 · 아직 보지 않음 · 잠김|102:장면 3 · E00272 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=71 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10/13 밤 · 본편",
+  "†장면 고르기 · 전체 6개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00322 · 아직 보지 않음 · 잠김|101:장면 2 · E00323 · 아직 보지 않음 · 잠김|102:장면 3 · E00328 · 아직 보지 않음 · 잠김|103:장면 4 · E00324 · 아직 보지 않음 · 잠김|104:장면 5 · E00325 · 아직 보지 않음 · 잠김|105:장면 6 · E00326 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=81 page=1/1 items=7 lines=2 longest=23 height=468",
+  "SHOT w29_picker_locked_k81_p1",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10/21 · 본편",
+  "†장면 고르기 · 전체 2개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00452 · 아직 보지 않음 · 잠김|101:장면 2 · E00501 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=90 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10/14 아침 · 인물 · 쿄카",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E20081 · 아직 보지 않음 · 잠김|101:장면 2 · E20082 · 아직 보지 않음 · 잠김|102:장면 3 · E20083 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=99 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10/11 아침 · 인물 · 마나미",
+  "†장면 고르기 · 전체 5개 중 0개 감상",
+  "ITEMS 100:장면 1 · E30152 · 아직 보지 않음 · 잠김|101:장면 2 · E30153 · 아직 보지 않음 · 잠김|102:장면 3 · E30154 · 아직 보지 않음 · 잠김|103:장면 4 · E30155 · 아직 보지 않음 · 잠김|104:장면 5 · E30156 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=101 page=1/1 items=6 lines=2 longest=23 height=420",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10월 중 · 던전 · 서양관 내부　틈 1 · 입구",
+  "†장면 고르기 · 전체 11개 중 0개 감상　〓1/2쪽",
+  "ITEMS 100:장면 1 · E00522 · 아직 보지 않음 · 잠김|101:장면 2 · E00502 · 아직 보지 않음 · 잠김|102:장면 3 · E00503 · 아직 보지 않음 · 잠김|103:장면 4 · E00504 · 아직 보지 않음 · 잠김|104:장면 5 · E00505 · 아직 보지 않음 · 잠김|105:장면 6 · E00506 · 아직 보지 않음 · 잠김|106:장면 7 · E00507 · 아직 보지 않음 · 잠김|107:장면 8 · E00508 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=114 page=1/2 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓10월 중 · 던전 · 서양관 내부　틈 1 · 입구",
+  "†장면 고르기 · 전체 11개 중 0개 감상　〓2/2쪽",
+  "ITEMS 108:장면 9 · E00509 · 아직 보지 않음 · 잠김|109:장면 10 · E00510 · 아직 보지 않음 · 잠김|110:장면 11 · E00511 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=114 page=2/2 items=6 lines=2 longest=30 height=420",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10월 중 · 던전 · 서양관 내부　틈 3 · 사건 1",
+  "†장면 고르기 · 전체 10개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00512 · 아직 보지 않음 · 잠김|101:장면 2 · E00513 · 아직 보지 않음 · 잠김|102:장면 3 · E00514 · 아직 보지 않음 · 잠김|103:장면 4 · E00515 · 아직 보지 않음 · 잠김|104:장면 5 · E00516 · 아직 보지 않음 · 잠김|105:장면 6 · E00517 · 아직 보지 않음 · 잠김|106:장면 7 · E00518 · 아직 보지 않음 · 잠김|107:장면 8 · E00519 · 아직 보지 않음 · 잠김|108:장면 9 · E00520 · 아직 보지 않음 · 잠김|109:장면 10 · E00521 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=115 page=1/1 items=11 lines=2 longest=31 height=660",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓10월 중 · 던전 · 서양관 내부　틈 5 · 보스",
+  "†장면 고르기 · 전체 7개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00523 · 아직 보지 않음 · 잠김|101:장면 2 · E00524 · 아직 보지 않음 · 잠김|102:장면 3 · E00530 · 아직 보지 않음 · 잠김|103:장면 4 · E00526 · 아직 보지 않음 · 잠김|104:장면 5 · E00527 · 아직 보지 않음 · 잠김|105:장면 6 · E00528 · 아직 보지 않음 · 잠김|106:장면 7 · E00529 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=116 page=1/1 items=8 lines=2 longest=29 height=516",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11/11 아침 · 본편",
+  "†장면 고르기 · 전체 7개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00602 · 아직 보지 않음 · 잠김|101:장면 2 · E00611 · 아직 보지 않음 · 잠김|102:장면 3 · E00612 · 아직 보지 않음 · 잠김|103:장면 4 · E00616 · 아직 보지 않음 · 잠김|104:장면 5 · E00613 · 아직 보지 않음 · 잠김|105:장면 6 · E00614 · 아직 보지 않음 · 잠김|106:장면 7 · E00615 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=120 page=1/1 items=8 lines=2 longest=23 height=516",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11/16 밤 · 본편",
+  "†장면 고르기 · 전체 2개 중 0개 감상",
+  "ITEMS 100:장면 1 · E00658 · 아직 보지 않음 · 잠김|101:장면 2 · E00651 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=124 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11/15 아침 · 인물 · 마코토",
+  "†장면 고르기 · 전체 2개 중 0개 감상",
+  "ITEMS 100:장면 1 · E40144 · 아직 보지 않음 · 잠김|101:장면 2 · E40145 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=148 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 · 최종장",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E50001 · 아직 보지 않음 · 잠김|101:장면 2 · E00904 · 아직 보지 않음 · 잠김|102:장면 3 · E00912 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=149 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 뉴타운 · 사건",
+  "†장면 고르기 · 전체 15개 중 0개 감상　〓1/2쪽",
+  "ITEMS 100:장면 1 · E00905 · 아직 보지 않음 · 잠김|101:장면 2 · E00907 · 아직 보지 않음 · 잠김|102:장면 3 · E10203 · 아직 보지 않음 · 잠김|103:장면 4 · E00908 · 아직 보지 않음 · 잠김|104:장면 5 · E20201 · 아직 보지 않음 · 잠김|105:장면 6 · E00909 · 아직 보지 않음 · 잠김|106:장면 7 · E30102 · 아직 보지 않음 · 잠김|107:장면 8 · E00910 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=150 page=1/2 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 뉴타운 · 사건",
+  "†장면 고르기 · 전체 15개 중 0개 감상　〓2/2쪽",
+  "ITEMS 108:장면 9 · E40161 · 아직 보지 않음 · 잠김|109:장면 10 · E00911 · 아직 보지 않음 · 잠김|110:장면 11 · E00984 · 아직 보지 않음 · 잠김|111:장면 12 · E00906 · 아직 보지 않음 · 잠김|112:장면 13 · E00981 · 아직 보지 않음 · 잠김|113:장면 14 · E50007 · 아직 보지 않음 · 잠김|114:장면 15 · E00982 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=150 page=2/2 items=10 lines=2 longest=30 height=612",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 0개 감상　〓1/5쪽",
+  "ITEMS 100:장면 1 · E00913 · 아직 보지 않음 · 잠김|101:장면 2 · E00914 · 아직 보지 않음 · 잠김|102:장면 3 · E00915 · 아직 보지 않음 · 잠김|103:장면 4 · E00916 · 아직 보지 않음 · 잠김|104:장면 5 · E00917 · 아직 보지 않음 · 잠김|105:장면 6 · E00918 · 아직 보지 않음 · 잠김|106:장면 7 · E00919 · 아직 보지 않음 · 잠김|107:장면 8 · E00920 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=1/5 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 0개 감상　〓2/5쪽",
+  "ITEMS 108:장면 9 · E00921 · 아직 보지 않음 · 잠김|109:장면 10 · E00922 · 아직 보지 않음 · 잠김|110:장면 11 · E00931 · 아직 보지 않음 · 잠김|111:장면 12 · E00932 · 아직 보지 않음 · 잠김|112:장면 13 · E00933 · 아직 보지 않음 · 잠김|113:장면 14 · E00934 · 아직 보지 않음 · 잠김|114:장면 15 · E00935 · 아직 보지 않음 · 잠김|115:장면 16 · E00936 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=2/5 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 0개 감상　〓3/5쪽",
+  "ITEMS 116:장면 17 · E00937 · 아직 보지 않음 · 잠김|117:장면 18 · E00938 · 아직 보지 않음 · 잠김|118:장면 19 · E00939 · 아직 보지 않음 · 잠김|119:장면 20 · E00940 · 아직 보지 않음 · 잠김|120:장면 21 · E00941 · 아직 보지 않음 · 잠김|121:장면 22 · E00942 · 아직 보지 않음 · 잠김|122:장면 23 · E00943 · 아직 보지 않음 · 잠김|123:장면 24 · E00944 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=3/5 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 0개 감상　〓4/5쪽",
+  "ITEMS 124:장면 25 · E00945 · 아직 보지 않음 · 잠김|125:장면 26 · E00951 · 아직 보지 않음 · 잠김|126:장면 27 · E00952 · 아직 보지 않음 · 잠김|127:장면 28 · E00953 · 아직 보지 않음 · 잠김|128:장면 29 · E00954 · 아직 보지 않음 · 잠김|129:장면 30 · E00955 · 아직 보지 않음 · 잠김|130:장면 31 · E00961 · 아직 보지 않음 · 잠김|131:장면 32 · E00962 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=4/5 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 학교 1층",
+  "†장면 고르기 · 전체 40개 중 0개 감상　〓5/5쪽",
+  "ITEMS 132:장면 33 · E00963 · 아직 보지 않음 · 잠김|133:장면 34 · E00964 · 아직 보지 않음 · 잠김|134:장면 35 · E00965 · 아직 보지 않음 · 잠김|135:장면 36 · E00966 · 아직 보지 않음 · 잠김|136:장면 37 · E00967 · 아직 보지 않음 · 잠김|137:장면 38 · E00968 · 아직 보지 않음 · 잠김|138:장면 39 · E00969 · 아직 보지 않음 · 잠김|139:장면 40 · E00970 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=151 page=5/5 items=11 lines=2 longest=30 height=660",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 센터 빌딩 1층 · 입구",
+  "†장면 고르기 · 전체 21개 중 0개 감상　〓1/3쪽",
+  "ITEMS 100:장면 1 · E50009 · 아직 보지 않음 · 잠김|101:장면 2 · E00985 · 아직 보지 않음 · 잠김|102:장면 3 · E00992 · 아직 보지 않음 · 잠김|103:장면 4 · E00994 · 아직 보지 않음 · 잠김|104:장면 5 · E00993 · 아직 보지 않음 · 잠김|105:장면 6 · E00996 · 아직 보지 않음 · 잠김|106:장면 7 · E00995 · 아직 보지 않음 · 잠김|107:장면 8 · E10522 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=152 page=1/3 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 센터 빌딩 1층 · 입구",
+  "†장면 고르기 · 전체 21개 중 0개 감상　〓2/3쪽",
+  "ITEMS 108:장면 9 · E10523 · 아직 보지 않음 · 잠김|109:장면 10 · E20522 · 아직 보지 않음 · 잠김|110:장면 11 · E20523 · 아직 보지 않음 · 잠김|111:장면 12 · E30522 · 아직 보지 않음 · 잠김|112:장면 13 · E30523 · 아직 보지 않음 · 잠김|113:장면 14 · E40522 · 아직 보지 않음 · 잠김|114:장면 15 · E40523 · 아직 보지 않음 · 잠김|115:장면 16 · E00999 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=152 page=2/3 items=11 lines=2 longest=30 height=660",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 센터 빌딩 1층 · 입구",
+  "†장면 고르기 · 전체 21개 중 0개 감상　〓3/3쪽",
+  "ITEMS 116:장면 17 · E10521 · 아직 보지 않음 · 잠김|117:장면 18 · E20521 · 아직 보지 않음 · 잠김|118:장면 19 · E30521 · 아직 보지 않음 · 잠김|119:장면 20 · E40521 · 아직 보지 않음 · 잠김|120:장면 21 · E00991 · 아직 보지 않음 · 잠김|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "PICKER k=152 page=3/3 items=8 lines=2 longest=30 height=516",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 센터 빌딩 · 최종장",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E50002 · 아직 보지 않음 · 잠김|101:장면 2 · E50008 · 아직 보지 않음 · 잠김|102:장면 3 · E50010 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=153 page=1/1 items=4 lines=2 longest=25 height=324",
+  "PHASE w29_picked",
+  "PHASE w29_pick",
+  "DIALOG w29_pick <<<",
+  "〓11월 중 · 던전 · 뉴타운 · 최종장",
+  "†장면 고르기 · 전체 3개 중 0개 감상",
+  "ITEMS 100:장면 1 · E50003 · 아직 보지 않음 · 잠김|101:장면 2 · E50005 · 아직 보지 않음 · 잠김|102:장면 3 · E50006 · 아직 보지 않음 · 잠김|0:돌아가기|",
+  ">>>",
+  "PICKER k=154 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PHASE w29_picked",
+  "PICKERS read=none all=0 cards=35 fails=0",
+  "PHASE w29_ach",
+  "DIALOG w29_ach <<<",
+  "〓5월 중 · 던전 · 백화점 서관 2층 · 사건 1 · 21단계",
+  "†단계 21 · 본 것 0　〓1/2쪽",
+  "‡●†안 봄　△다른 저장에서 읽음　¶○†이 저장에서 봄",
+  "ITEMS 100:1. 쿄카 ●|101:2. 쿄카 ●|102:3. 이즈미 ●|103:4. 이즈미 ●|104:5. 이즈미 △|105:6. 호시카와 ●|106:7. 신카이 ●|107:8. 호시카와 ●|108:9. 신카이 ●|109:10. 호시카와 ●|110:11. 이즈미 △|111:12. 신카이 ●|112:13. 사건 2 △|113:14. 마나미 △|114:15. 마나미 △|115:16. 마나미 △|116:17. 꽤 힘들다 선택 ●|117:18. 선택 후 공통 장면 △|11:← 이전 쪽|12:다음 쪽 →|0:돌아가기|",
+  ">>>",
+  "SHOT w29_achievement_k21",
+  "PHASE w29_ach_done",
+  "PHASE w29_ach",
+  "DIALOG w29_ach <<<",
+  "〓10/13 밤 · 본편 · 6단계",
+  "†단계 6 · 본 것 0",
+  "‡●†안 봄　△다른 저장에서 읽음　¶○†이 저장에서 봄",
+  "ITEMS 100:1. 마나미 △|101:2. 이즈미와 촬영 ●|102:3. 미열람 장면 △|103:4. 쿄카와 촬영 △|104:5. 미열람 장면 ●|105:6. 마코토와 촬영 ●|0:돌아가기|",
+  ">>>",
+  "SHOT w29_achievement_k81",
+  "PHASE w29_ach_done",
+  "PHASE w29_ach",
+  "DIALOG w29_ach <<<",
+  "〓4월 중 · 던전 · 공원 · 사건 1 · 4단계",
+  "†단계 4 · 본 것 0",
+  "‡●†안 봄　△다른 저장에서 읽음　¶○†이 저장에서 봄",
+  "ITEMS 100:1. 이즈미 △|101:2. 이즈미 △|102:3. 이즈미 △|103:4. 이즈미 △|0:돌아가기|",
+  ">>>",
+  "SHOT w29_achievement_k6",
+  "PHASE w29_ach_done",
+  "SHOT w29_flow_list_before_detail",
+  "PHASE w29_detail",
+  "SHOT w29_flow_detail_wait",
+  "PHASE w29_detail_done",
+  "SHOT w29_flow_list_after_detail",
+  "SHOT w29_flow_list_before_card",
+  "PHASE w29_card1",
+  "SHOT w29_flow_card_board",
+  "PHASE w29_card_pick",
+  "DIALOG w29_card_pick <<<",
+  "〓10/13 밤 · 본편",
+  "†장면 고르기 · 전체 6개 중 3개 감상",
+  "ITEMS 100:장면 1 · E00322 · 아직 보지 않음|101:2. 이즈미와 촬영 · E00323 · 감상 완료|102:장면 3 · E00328 · 아직 보지 않음|103:4. 쿄카와 촬영 · E00324 · 감상 완료|104:장면 5 · E00325 · 아직 보지 않음|105:6. 마코토와 촬영 · E00326 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=81 page=1/1 items=7 lines=2 longest=23 height=468",
+  "SHOT w29_flow_card_picker",
+  "PHASE w29_stage_detail",
+  "SHOT w29_flow_stage_detail",
+  "PHASE w29_card_pick2",
+  "DIALOG w29_card_pick2 <<<",
+  "〓10/13 밤 · 본편",
+  "†장면 고르기 · 전체 6개 중 3개 감상",
+  "ITEMS 100:장면 1 · E00322 · 아직 보지 않음|101:2. 이즈미와 촬영 · E00323 · 감상 완료|102:장면 3 · E00328 · 아직 보지 않음|103:4. 쿄카와 촬영 · E00324 · 감상 완료|104:장면 5 · E00325 · 아직 보지 않음|105:6. 마코토와 촬영 · E00326 · 감상 완료|0:돌아가기|",
+  ">>>",
+  "PICKER k=81 page=1/1 items=7 lines=2 longest=23 height=468",
+  "SHOT w29_flow_card_picker_again",
+  "PHASE w29_card2",
+  "PHASE w29_card_done",
+  "SHOT w29_flow_list_after_card",
+  "SHOT w29_title_after",
+  "END"
+ ],
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_all_tabs_20260929\\probe\\run\\SaveData_R24ChartProbe_20260929_215938",
+ "settings_unchanged": {
+  "AFConfig.asd": true,
+  "MouseCursorSetting.sav": true,
+  "ShowDPSetting.sav": true,
+  "3DConfig.vsf": true,
+  "YoruKR_Terms.dat": true,
+  "YoruKR_Terms.backup": true
+ },
+ "changed_files": [
+  "Backup/2026_09_29_22_02_48/AFConfig.asd",
+  "Backup/2026_09_29_22_02_48/NightRAFBGMMode.asd",
+  "Backup/2026_09_29_22_02_48/NightRAFCGMode.asd",
+  "Backup/2026_09_29_22_02_48/NightRAFCommon.asd",
+  "Backup/2026_09_29_22_02_48/NightRAFInfo.asd",
+  "Backup/2026_09_29_22_02_48/NightRAFMemMode.asd",
+  "CommonSystemData.sav",
+  "NightRAFCGMode.asd",
+  "Volume.sav",
+  "WindowSetting.sav"
+ ],
+ "probe": {
+  "waits": 29,
+  "live": [
+   "C_SceneTitle@Run",
+   "C_SelectDialog@Run",
+   "KR_C24WaitRaw",
+   "KR_P29WaitRaw"
+  ],
+  "probe_sha256": "1aff04ba925e7193720c7ee2d55290f5ec9369a0c0e555dd0bfa00e59ee44b4e",
+  "mode": "title",
+  "target": 0
+ },
+ "shots": [
+  "chart_title_before.png",
+  "w29_achievement_k21.png",
+  "w29_achievement_k6.png",
+  "w29_achievement_k81.png",
+  "w29_detail_april_e00001.png",
+  "w29_detail_cast12_e00097.png",
+  "w29_detail_choice_read_e00323.png",
+  "w29_detail_choice_unread_e00323.png",
+  "w29_detail_choice_unread_locked_e00323.png",
+  "w29_detail_e00011_summary.png",
+  "w29_detail_group21_mixed.png",
+  "w29_detail_group81_mixed.png",
+  "w29_detail_join_e00328.png",
+  "w29_detail_memory_e50205.png",
+  "w29_detail_other_e00055.png",
+  "w29_detail_when_mark_cleaned_april_e10001.png",
+  "w29_detail_when_mark_cleaned_e10021.png",
+  "w29_flow_card_board.png",
+  "w29_flow_card_picker.png",
+  "w29_flow_card_picker_again.png",
+  "w29_flow_detail_wait.png",
+  "w29_flow_list_after_card.png",
+  "w29_flow_list_after_detail.png",
+  "w29_flow_list_before_card.png",
+  "w29_flow_list_before_detail.png",
+  "w29_flow_stage_detail.png",
+  "w29_list_jun_twoline_p16_all.png",
+  "w29_list_jun_twoline_p16_mixed.png",
+  "w29_list_may_twoline_p2_all.png",
+  "w29_list_may_twoline_p2_locked.png",
+  "w29_list_may_twoline_p2_mixed.png",
+  "w29_list_memory_p5_all.png",
+  "w29_list_nov_cg_group_a_p1_all.png",
+  "w29_list_nov_cg_group_a_p1_locked.png",
+  "w29_list_nov_cg_group_b_p2_all.png",
+  "w29_list_nov_cg_group_b_p2_locked.png",
+  "w29_list_oct_twoline_p4_all.png",
+  "w29_list_oct_twoline_p4_mixed.png",
+  "w29_list_t0_apr_mixed.png",
+  "w29_list_t1_may_mixed.png",
+  "w29_list_t2_jun_mixed.png",
+  "w29_list_t3_jul_mixed.png",
+  "w29_list_t4_aug_mixed.png",
+  "w29_list_t5_sep_mixed.png",
+  "w29_list_t6_oct_mixed.png",
+  "w29_list_t7_nov_mixed.png",
+  "w29_list_t8_memory_mixed.png",
+  "w29_list_t9_other_locked.png",
+  "w29_list_t9_other_mixed.png",
+  "w29_picker_locked_k49_p1.png",
+  "w29_picker_locked_k49_p2.png",
+  "w29_picker_locked_k49_p7.png",
+  "w29_picker_locked_k81_p1.png",
+  "w29_picker_mixed_k101_p1.png",
+  "w29_picker_mixed_k115_p1.png",
+  "w29_picker_mixed_k151_p1.png",
+  "w29_picker_mixed_k151_p2.png",
+  "w29_picker_mixed_k151_p5.png",
+  "w29_picker_mixed_k49_p1.png",
+  "w29_picker_mixed_k49_p2.png",
+  "w29_picker_mixed_k49_p7.png",
+  "w29_picker_mixed_k6_p1.png",
+  "w29_picker_mixed_k81_p1.png",
+  "w29_title_after.png"
+ ],
+ "candidate_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "user_files_changed": [],
+ "user_game_running": false,
+ "time": "20260929_215938",
+ "fail_lines": [],
+ "summary": [
+  "DRAW ms: April page 46 June page 32 board(12 cast) 17",
+  "LISTS read=all all=1 cells=915 joined_conditions=7 fails=0",
+  "LISTS read=none all=1 cells=1830 joined_conditions=7 fails=0",
+  "LISTS read=mixed all=1 cells=2745 joined_conditions=12 fails=0",
+  "LISTS read=mixed all=0 cells=3660 joined_conditions=17 fails=0",
+  "LISTS read=none all=0 cells=4575 joined_conditions=17 fails=0",
+  "CAST cells=4575 more_than_3=226 max=8 badges=106",
+  "DETAILS read=all all=1 events=1164 boards=1319 fails=0",
+  "DETAILS read=none all=1 events=1164 boards=2638 fails=0",
+  "DETAILS extra mixed groups + locked cards fails=0",
+  "PICKER k=6 page=1/1 items=5 lines=2 longest=19 height=372",
+  "PICKER k=12 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=15 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=19 page=1/1 items=7 lines=2 longest=27 height=468",
+  "PICKER k=20 page=1/1 items=7 lines=2 longest=29 height=468",
+  "PICKER k=21 page=1/3 items=11 lines=2 longest=31 height=660",
+  "PICKER k=21 page=2/3 items=11 lines=2 longest=31 height=660",
+  "PICKER k=21 page=3/3 items=8 lines=2 longest=31 height=516",
+  "PICKER k=22 page=1/1 items=5 lines=2 longest=29 height=372",
+  "PICKER k=24 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=27 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=34 page=1/1 items=5 lines=2 longest=23 height=372",
+  "PICKER k=40 page=1/1 items=10 lines=2 longest=23 height=612",
+  "PICKER k=41 page=1/2 items=11 lines=2 longest=31 height=660",
+  "PICKER k=41 page=2/2 items=11 lines=2 longest=31 height=660",
+  "PICKER k=48 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=49 page=1/7 items=11 lines=2 longest=31 height=660",
+  "PICKER k=49 page=2/7 items=11 lines=2 longest=31 height=660",
+  "PICKER k=49 page=3/7 items=11 lines=2 longest=31 height=660",
+  "PICKER k=49 page=4/7 items=11 lines=2 longest=31 height=660",
+  "PICKER k=49 page=5/7 items=11 lines=2 longest=31 height=660",
+  "PICKER k=49 page=6/7 items=11 lines=2 longest=31 height=660",
+  "PICKER k=49 page=7/7 items=4 lines=2 longest=31 height=324",
+  "PICKER k=50 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=60 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=62 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=69 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=71 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=81 page=1/1 items=7 lines=2 longest=23 height=468",
+  "PICKER k=90 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=99 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=101 page=1/1 items=6 lines=2 longest=23 height=420",
+  "PICKER k=114 page=1/2 items=11 lines=2 longest=30 height=660",
+  "PICKER k=114 page=2/2 items=6 lines=2 longest=30 height=420",
+  "PICKER k=115 page=1/1 items=11 lines=2 longest=31 height=660",
+  "PICKER k=116 page=1/1 items=8 lines=2 longest=29 height=516",
+  "PICKER k=120 page=1/1 items=8 lines=2 longest=23 height=516",
+  "PICKER k=124 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=148 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=149 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=150 page=1/2 items=11 lines=2 longest=31 height=660",
+  "PICKER k=150 page=2/2 items=10 lines=2 longest=31 height=612",
+  "PICKER k=151 page=1/5 items=11 lines=2 longest=31 height=660",
+  "PICKER k=151 page=2/5 items=11 lines=2 longest=31 height=660",
+  "PICKER k=151 page=3/5 items=11 lines=2 longest=31 height=660",
+  "PICKER k=151 page=4/5 items=11 lines=2 longest=31 height=660",
+  "PICKER k=151 page=5/5 items=11 lines=2 longest=31 height=660",
+  "PICKER k=152 page=1/3 items=11 lines=2 longest=31 height=660",
+  "PICKER k=152 page=2/3 items=11 lines=2 longest=31 height=660",
+  "PICKER k=152 page=3/3 items=8 lines=2 longest=31 height=516",
+  "PICKER k=153 page=1/1 items=4 lines=2 longest=25 height=324",
+  "PICKER k=154 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKERS read=mixed all=1 cards=35 fails=0",
+  "PICKER k=6 page=1/1 items=5 lines=2 longest=19 height=372",
+  "PICKER k=12 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=15 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=19 page=1/1 items=7 lines=2 longest=27 height=468",
+  "PICKER k=20 page=1/1 items=7 lines=2 longest=29 height=468",
+  "PICKER k=21 page=1/3 items=11 lines=2 longest=30 height=660",
+  "PICKER k=21 page=2/3 items=11 lines=2 longest=30 height=660",
+  "PICKER k=21 page=3/3 items=8 lines=2 longest=30 height=516",
+  "PICKER k=22 page=1/1 items=5 lines=2 longest=29 height=372",
+  "PICKER k=24 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=27 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=34 page=1/1 items=5 lines=2 longest=23 height=372",
+  "PICKER k=40 page=1/1 items=10 lines=2 longest=23 height=612",
+  "PICKER k=41 page=1/2 items=11 lines=2 longest=30 height=660",
+  "PICKER k=41 page=2/2 items=11 lines=2 longest=30 height=660",
+  "PICKER k=48 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=49 page=1/7 items=11 lines=2 longest=30 height=660",
+  "PICKER k=49 page=2/7 items=11 lines=2 longest=30 height=660",
+  "PICKER k=49 page=3/7 items=11 lines=2 longest=30 height=660",
+  "PICKER k=49 page=4/7 items=11 lines=2 longest=30 height=660",
+  "PICKER k=49 page=5/7 items=11 lines=2 longest=30 height=660",
+  "PICKER k=49 page=6/7 items=11 lines=2 longest=30 height=660",
+  "PICKER k=49 page=7/7 items=4 lines=2 longest=30 height=324",
+  "PICKER k=50 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=60 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=62 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=69 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=71 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=81 page=1/1 items=7 lines=2 longest=23 height=468",
+  "PICKER k=90 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=99 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=101 page=1/1 items=6 lines=2 longest=23 height=420",
+  "PICKER k=114 page=1/2 items=11 lines=2 longest=30 height=660",
+  "PICKER k=114 page=2/2 items=6 lines=2 longest=30 height=420",
+  "PICKER k=115 page=1/1 items=11 lines=2 longest=31 height=660",
+  "PICKER k=116 page=1/1 items=8 lines=2 longest=29 height=516",
+  "PICKER k=120 page=1/1 items=8 lines=2 longest=23 height=516",
+  "PICKER k=124 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=148 page=1/1 items=3 lines=2 longest=23 height=276",
+  "PICKER k=149 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKER k=150 page=1/2 items=11 lines=2 longest=30 height=660",
+  "PICKER k=150 page=2/2 items=10 lines=2 longest=30 height=612",
+  "PICKER k=151 page=1/5 items=11 lines=2 longest=30 height=660",
+  "PICKER k=151 page=2/5 items=11 lines=2 longest=30 height=660",
+  "PICKER k=151 page=3/5 items=11 lines=2 longest=30 height=660",
+  "PICKER k=151 page=4/5 items=11 lines=2 longest=30 height=660",
+  "PICKER k=151 page=5/5 items=11 lines=2 longest=30 height=660",
+  "PICKER k=152 page=1/3 items=11 lines=2 longest=30 height=660",
+  "PICKER k=152 page=2/3 items=11 lines=2 longest=30 height=660",
+  "PICKER k=152 page=3/3 items=8 lines=2 longest=30 height=516",
+  "PICKER k=153 page=1/1 items=4 lines=2 longest=25 height=324",
+  "PICKER k=154 page=1/1 items=4 lines=2 longest=23 height=324",
+  "PICKERS read=none all=0 cards=35 fails=0",
+  "PICKER k=81 page=1/1 items=7 lines=2 longest=23 height=468",
+  "PICKER k=81 page=1/1 items=7 lines=2 longest=23 height=468",
+  "END"
+ ],
+ "minis_all_read": {
+  "1": {
+   "cast": 5,
+   "shown": 4,
+   "left": 138
+  },
+  "2": {
+   "cast": 5,
+   "shown": 4,
+   "left": 138
+  },
+  "121": {
+   "cast": 5,
+   "shown": 5,
+   "left": 10
+  },
+  "2601": {
+   "cast": 1,
+   "shown": 1,
+   "left": 10
+  },
+  "20001": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "8": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "4": {
+   "cast": 2,
+   "shown": 2,
+   "left": 84
+  },
+  "10001": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "1101": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1102": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1103": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1104": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1108": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1109": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1001": {
+   "cast": 0,
+   "shown": 0,
+   "left": 123
+  },
+  "1002": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1003": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1004": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1005": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1006": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "5011": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2001": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2002": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2003": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2004": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2005": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2006": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2007": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2008": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2009": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2061": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2062": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2063": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2064": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2065": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2066": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2067": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2081": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2082": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2083": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2084": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2085": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2086": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2087": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2421": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2422": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2423": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2424": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2425": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "5001": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1201": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1203": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1204": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1205": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1208": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1209": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1210": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1081": {
+   "cast": 0,
+   "shown": 0,
+   "left": 111
+  },
+  "1082": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1083": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1084": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1085": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1086": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "5012": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2161": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2162": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2163": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2164": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2165": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2166": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2167": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2168": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2169": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2181": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2182": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2183": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2184": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2185": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2186": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2187": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2188": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2189": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2190": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2191": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2192": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2193": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2194": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2441": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2442": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2443": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2444": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2445": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "5002": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1501": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1502": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1503": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1504": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1505": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1506": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1041": {
+   "cast": 0,
+   "shown": 0,
+   "left": 123
+  },
+  "1042": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1043": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1044": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1045": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1046": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2361": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2362": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2363": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2364": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2365": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2366": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2367": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2368": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2501": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2502": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2503": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2504": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2505": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "5003": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1601": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1602": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1603": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1604": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1605": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1606": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1607": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1608": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1609": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1610": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1051": {
+   "cast": 0,
+   "shown": 0,
+   "left": 135
+  },
+  "1052": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1053": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1054": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1055": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1056": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2521": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2522": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2523": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2524": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2525": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "5004": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "5000": {
+   "cast": 1,
+   "shown": 1,
+   "left": 96
+  },
+  "6001": {
+   "cast": 1,
+   "shown": 1,
+   "left": 42
+  },
+  "11": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "13": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "14": {
+   "cast": 6,
+   "shown": 6,
+   "left": 10
+  },
+  "15": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "67": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "16": {
+   "cast": 6,
+   "shown": 6,
+   "left": 10
+  },
+  "19": {
+   "cast": 5,
+   "shown": 5,
+   "left": 10
+  },
+  "21": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "22": {
+   "cast": 4,
+   "shown": 4,
+   "left": 69
+  },
+  "65": {
+   "cast": 6,
+   "shown": 6,
+   "left": 10
+  },
+  "66": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "68": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "24": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "30": {
+   "cast": 4,
+   "shown": 4,
+   "left": 127
+  },
+  "41": {
+   "cast": 3,
+   "shown": 3,
+   "left": 127
+  },
+  "63": {
+   "cast": 4,
+   "shown": 4,
+   "left": 127
+  },
+  "10021": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "10022": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "10023": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1111": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1112": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1113": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1114": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1115": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1118": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1119": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "2021": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2022": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2023": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2024": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2025": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2026": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2027": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2028": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2029": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2030": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2031": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "20021": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "20041": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "20042": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "20043": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "1211": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1212": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1213": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1214": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1215": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1216": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1217": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2121": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2122": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2123": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2124": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2125": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2126": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2129": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2130": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2131": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2132": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "30001": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "30002": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "30003": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1301": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1302": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1303": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1304": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1305": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1306": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1309": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1021": {
+   "cast": 0,
+   "shown": 0,
+   "left": 123
+  },
+  "1022": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1023": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1024": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1025": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1026": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "5013": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2241": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2242": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2243": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2244": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2245": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2246": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2247": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2248": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2249": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2250": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2251": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2252": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2261": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2262": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2263": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2264": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2265": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2266": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2267": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2268": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2461": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2462": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2463": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2464": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2465": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1511": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1512": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1513": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1514": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1515": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1516": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1611": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1612": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1613": {
+   "cast": 3,
+   "shown": 3,
+   "left": 92
+  },
+  "1614": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1615": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1616": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1617": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1618": {
+   "cast": 3,
+   "shown": 3,
+   "left": 92
+  },
+  "1619": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1620": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "2602": {
+   "cast": 1,
+   "shown": 1,
+   "left": 10
+  },
+  "69": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "70": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "71": {
+   "cast": 1,
+   "shown": 1,
+   "left": 10
+  },
+  "72": {
+   "cast": 1,
+   "shown": 1,
+   "left": 10
+  },
+  "74": {
+   "cast": 7,
+   "shown": 7,
+   "left": 42
+  },
+  "102": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "103": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "105": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "100": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "101": {
+   "cast": 5,
+   "shown": 5,
+   "left": 10
+  },
+  "104": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "106": {
+   "cast": 1,
+   "shown": 1,
+   "left": 10
+  },
+  "107": {
+   "cast": 9,
+   "shown": 7,
+   "left": 10
+  },
+  "108": {
+   "cast": 6,
+   "shown": 6,
+   "left": 10
+  },
+  "112": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "75": {
+   "cast": 5,
+   "shown": 5,
+   "left": 87
+  },
+  "76": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "85": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "1121": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1125": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1126": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1127": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1128": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1129": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "2041": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2042": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2043": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2044": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2046": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2047": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2048": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2049": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2050": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2101": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2102": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2103": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2104": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2105": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2106": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2107": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2108": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "1202": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1221": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1222": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1223": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1224": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1225": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2141": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2142": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2143": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2144": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2145": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2146": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2147": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2148": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2201": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2202": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2203": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2204": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2205": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2206": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2207": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2208": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2209": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2210": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2212": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "2213": {
+   "cast": 3,
+   "shown": 3,
+   "left": 87
+  },
+  "30021": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "30022": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "30023": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "30024": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "1311": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1312": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1313": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1314": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1315": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1316": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1318": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "2221": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2222": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2223": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2224": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2225": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2226": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2227": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2228": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2229": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2230": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2231": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2232": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2281": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2282": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2283": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2284": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2285": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2286": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2287": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2288": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2290": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2291": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "1401": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1402": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1403": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1404": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1405": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1406": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1408": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1409": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1410": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1031": {
+   "cast": 0,
+   "shown": 0,
+   "left": 123
+  },
+  "1032": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1033": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1034": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1035": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1036": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "5014": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2301": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2302": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2303": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2304": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2305": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2306": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2307": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2308": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2321": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2322": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2323": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2324": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2325": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2326": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2327": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2328": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2341": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2342": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2343": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2344": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2345": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2346": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2347": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2348": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2349": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2350": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2481": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2482": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2483": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2484": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2485": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1521": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1522": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1523": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1524": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1525": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1526": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "2381": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2382": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2383": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2384": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2385": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2386": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2387": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2388": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2389": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2390": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "1621": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1622": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1623": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1624": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1625": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1626": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1627": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1628": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1629": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1630": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "2401": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2402": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2403": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2404": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2405": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2406": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2407": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2408": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2409": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2410": {
+   "cast": 3,
+   "shown": 3,
+   "left": 143
+  },
+  "1701": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1702": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1703": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1704": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1705": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1706": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1061": {
+   "cast": 0,
+   "shown": 0,
+   "left": 123
+  },
+  "1062": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1063": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1064": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1065": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1066": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2541": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2542": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2543": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2544": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2545": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2546": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "2547": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "113": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "151": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "152": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "153": {
+   "cast": 8,
+   "shown": 8,
+   "left": 10
+  },
+  "180": {
+   "cast": 8,
+   "shown": 6,
+   "left": 69
+  },
+  "20061": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "183": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "154": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "181": {
+   "cast": 9,
+   "shown": 5,
+   "left": 96
+  },
+  "1131": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1132": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1133": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1134": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1135": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1136": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1139": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1140": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1206": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1231": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1232": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1233": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1234": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1235": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1236": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1307": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1308": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1321": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1322": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1323": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "40001": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "40021": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "40022": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "40023": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1531": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1532": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1533": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1534": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1535": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1631": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1632": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1633": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1634": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1635": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1636": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1637": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1638": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1639": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1640": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1711": {
+   "cast": 3,
+   "shown": 3,
+   "left": 92
+  },
+  "1712": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1713": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1714": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1715": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1716": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1717": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1718": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "20161": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "20162": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "20163": {
+   "cast": 4,
+   "shown": 4,
+   "left": 84
+  },
+  "20164": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "20171": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "40061": {
+   "cast": 0,
+   "shown": 0,
+   "left": 154
+  },
+  "201": {
+   "cast": 11,
+   "shown": 4,
+   "left": 138
+  },
+  "241": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "204": {
+   "cast": 8,
+   "shown": 4,
+   "left": 138
+  },
+  "2603": {
+   "cast": 1,
+   "shown": 1,
+   "left": 10
+  },
+  "242": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "10081": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "20167": {
+   "cast": 2,
+   "shown": 2,
+   "left": 84
+  },
+  "10061": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "1106": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1107": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1141": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1142": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1143": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1144": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1145": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1241": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1242": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1243": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1244": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1245": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1246": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1331": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1332": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1333": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1334": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1335": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "40041": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "40042": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "40043": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "40044": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "40045": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1411": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1412": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1413": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1414": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1415": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1416": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1417": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1418": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1541": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1542": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1543": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1544": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1545": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1641": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1642": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1643": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1644": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1645": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1646": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1647": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1649": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1650": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1721": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1722": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1723": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1724": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1725": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "251": {
+   "cast": 1,
+   "shown": 1,
+   "left": 10
+  },
+  "252": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "255": {
+   "cast": 5,
+   "shown": 5,
+   "left": 10
+  },
+  "256": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "30151": {
+   "cast": 1,
+   "shown": 1,
+   "left": 10
+  },
+  "257": {
+   "cast": 5,
+   "shown": 5,
+   "left": 10
+  },
+  "258": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "259": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "260": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "265": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "262": {
+   "cast": 6,
+   "shown": 4,
+   "left": 138
+  },
+  "264": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "266": {
+   "cast": 5,
+   "shown": 5,
+   "left": 10
+  },
+  "261": {
+   "cast": 4,
+   "shown": 4,
+   "left": 10
+  },
+  "10041": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "1105": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1116": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1117": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1151": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1152": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1153": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1154": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1155": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1251": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1252": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1253": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1254": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1255": {
+   "cast": 2,
+   "shown": 2,
+   "left": 87
+  },
+  "1317": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1341": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1342": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1343": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1344": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1345": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1346": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1347": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1421": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1422": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1423": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1424": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1425": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1551": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1552": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1553": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1554": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1555": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1651": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1652": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1653": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1654": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1655": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1656": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1707": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1731": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1732": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1733": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1734": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1735": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "301": {
+   "cast": 8,
+   "shown": 8,
+   "left": 10
+  },
+  "302": {
+   "cast": 7,
+   "shown": 7,
+   "left": 10
+  },
+  "30152": {
+   "cast": 1,
+   "shown": 1,
+   "left": 42
+  },
+  "30157": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "30158": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "30159": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "30160": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "30161": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "30162": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "30163": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "30164": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "321": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "322": {
+   "cast": 7,
+   "shown": 7,
+   "left": 10
+  },
+  "20081": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "30061": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "329": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "401": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "330": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "402": {
+   "cast": 2,
+   "shown": 2,
+   "left": 69
+  },
+  "451": {
+   "cast": 4,
+   "shown": 4,
+   "left": 42
+  },
+  "403": {
+   "cast": 2,
+   "shown": 2,
+   "left": 69
+  },
+  "331": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "404": {
+   "cast": 4,
+   "shown": 4,
+   "left": 69
+  },
+  "452": {
+   "cast": 5,
+   "shown": 5,
+   "left": 69
+  },
+  "525": {
+   "cast": 7,
+   "shown": 6,
+   "left": 69
+  },
+  "10121": {
+   "cast": 2,
+   "shown": 2,
+   "left": 69
+  },
+  "20121": {
+   "cast": 2,
+   "shown": 2,
+   "left": 69
+  },
+  "30121": {
+   "cast": 7,
+   "shown": 4,
+   "left": 138
+  },
+  "40121": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "5024": {
+   "cast": 8,
+   "shown": 8,
+   "left": 10
+  },
+  "5025": {
+   "cast": 8,
+   "shown": 8,
+   "left": 10
+  },
+  "10122": {
+   "cast": 8,
+   "shown": 8,
+   "left": 10
+  },
+  "603": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "5021": {
+   "cast": 6,
+   "shown": 6,
+   "left": 10
+  },
+  "40141": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "604": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "522": {
+   "cast": 4,
+   "shown": 4,
+   "left": 137
+  },
+  "512": {
+   "cast": 3,
+   "shown": 3,
+   "left": 133
+  },
+  "523": {
+   "cast": 9,
+   "shown": 4,
+   "left": 137
+  },
+  "10101": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "1161": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1162": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1163": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1164": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1165": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1181": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1182": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1183": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1207": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1261": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1262": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1263": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1264": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1265": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1281": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1282": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1283": {
+   "cast": 2,
+   "shown": 2,
+   "left": 97
+  },
+  "1351": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1352": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1353": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1364": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1365": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1366": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1367": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1368": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "40101": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "1431": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1432": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1433": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1434": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1435": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1451": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1452": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1453": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1454": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1455": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1561": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1562": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1563": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1564": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1565": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1648": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1657": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1661": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1662": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1663": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1741": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1742": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1743": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1744": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1745": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "10501": {
+   "cast": 5,
+   "shown": 4,
+   "left": 138
+  },
+  "20501": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "30501": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "40501": {
+   "cast": 4,
+   "shown": 4,
+   "left": 138
+  },
+  "40081": {
+   "cast": 3,
+   "shown": 3,
+   "left": 10
+  },
+  "40142": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "20101": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "30081": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "655": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "656": {
+   "cast": 2,
+   "shown": 2,
+   "left": 10
+  },
+  "601": {
+   "cast": 8,
+   "shown": 8,
+   "left": 10
+  },
+  "602": {
+   "cast": 8,
+   "shown": 4,
+   "left": 138
+  },
+  "10161": {
+   "cast": 7,
+   "shown": 7,
+   "left": 42
+  },
+  "20141": {
+   "cast": 8,
+   "shown": 4,
+   "left": 138
+  },
+  "30041": {
+   "cast": 6,
+   "shown": 4,
+   "left": 138
+  },
+  "40143": {
+   "cast": 8,
+   "shown": 6,
+   "left": 42
+  },
+  "657": {
+   "cast": 2,
+   "shown": 2,
+   "left": 42
+  },
+  "901": {
+   "cast": 11,
+   "shown": 4,
+   "left": 138
+  },
+  "5023": {
+   "cast": 1,
+   "shown": 1,
+   "left": 42
+  },
+  "10181": {
+   "cast": 1,
+   "shown": 1,
+   "left": 42
+  },
+  "10182": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "10183": {
+   "cast": 1,
+   "shown": 1,
+   "left": 42
+  },
+  "40144": {
+   "cast": 5,
+   "shown": 5,
+   "left": 42
+  },
+  "658": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "652": {
+   "cast": 2,
+   "shown": 2,
+   "left": 42
+  },
+  "653": {
+   "cast": 3,
+   "shown": 3,
+   "left": 42
+  },
+  "654": {
+   "cast": 2,
+   "shown": 2,
+   "left": 42
+  },
+  "10201": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "10202": {
+   "cast": 1,
+   "shown": 1,
+   "left": 138
+  },
+  "20181": {
+   "cast": 2,
+   "shown": 2,
+   "left": 42
+  },
+  "30101": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "903": {
+   "cast": 2,
+   "shown": 2,
+   "left": 69
+  },
+  "50001": {
+   "cast": 1,
+   "shown": 1,
+   "left": 88
+  },
+  "905": {
+   "cast": 7,
+   "shown": 5,
+   "left": 96
+  },
+  "913": {
+   "cast": 4,
+   "shown": 4,
+   "left": 87
+  },
+  "50009": {
+   "cast": 5,
+   "shown": 5,
+   "left": 92
+  },
+  "50002": {
+   "cast": 1,
+   "shown": 1,
+   "left": 89
+  },
+  "50003": {
+   "cast": 1,
+   "shown": 1,
+   "left": 89
+  },
+  "1120": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1122": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1123": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1124": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1138": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1171": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1271": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1272": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1273": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1274": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1361": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1362": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1363": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1441": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1442": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1443": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1444": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1445": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1571": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1572": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1573": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1574": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1575": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1671": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1672": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1673": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1674": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1675": {
+   "cast": 2,
+   "shown": 2,
+   "left": 92
+  },
+  "1751": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1752": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1753": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1754": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "1755": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "50101": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50102": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50103": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50104": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50105": {
+   "cast": 0,
+   "shown": 0,
+   "left": 215
+  },
+  "50106": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50107": {
+   "cast": 0,
+   "shown": 0,
+   "left": 208
+  },
+  "50108": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50109": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50110": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50111": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50112": {
+   "cast": 5,
+   "shown": 4,
+   "left": 138
+  },
+  "50201": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50202": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50203": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "50204": {
+   "cast": 5,
+   "shown": 4,
+   "left": 138
+  },
+  "50205": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50206": {
+   "cast": 0,
+   "shown": 0,
+   "left": 196
+  },
+  "50207": {
+   "cast": 0,
+   "shown": 0,
+   "left": 203
+  },
+  "50208": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50209": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50210": {
+   "cast": 0,
+   "shown": 0,
+   "left": 219
+  },
+  "50211": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "50212": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "50301": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50302": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50304": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50305": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50306": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50307": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50308": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50309": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50310": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50401": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "50402": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "50403": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50404": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50405": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50406": {
+   "cast": 0,
+   "shown": 0,
+   "left": 215
+  },
+  "50407": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "50408": {
+   "cast": 10,
+   "shown": 4,
+   "left": 138
+  },
+  "50409": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "50410": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "60001": {
+   "cast": 5,
+   "shown": 4,
+   "left": 138
+  },
+  "60002": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "60003": {
+   "cast": 6,
+   "shown": 5,
+   "left": 96
+  },
+  "60004": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "60005": {
+   "cast": 5,
+   "shown": 5,
+   "left": 88
+  },
+  "60006": {
+   "cast": 12,
+   "shown": 4,
+   "left": 138
+  },
+  "60007": {
+   "cast": 0,
+   "shown": 0,
+   "left": 203
+  },
+  "60008": {
+   "cast": 9,
+   "shown": 5,
+   "left": 88
+  },
+  "60009": {
+   "cast": 10,
+   "shown": 5,
+   "left": 96
+  },
+  "60010": {
+   "cast": 0,
+   "shown": 0,
+   "left": 153
+  },
+  "60011": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "60012": {
+   "cast": 8,
+   "shown": 4,
+   "left": 138
+  },
+  "60013": {
+   "cast": 5,
+   "shown": 5,
+   "left": 88
+  },
+  "60014": {
+   "cast": 7,
+   "shown": 4,
+   "left": 138
+  },
+  "60015": {
+   "cast": 7,
+   "shown": 5,
+   "left": 88
+  },
+  "60201": {
+   "cast": 3,
+   "shown": 3,
+   "left": 88
+  },
+  "60205": {
+   "cast": 12,
+   "shown": 5,
+   "left": 88
+  },
+  "60202": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "60203": {
+   "cast": 2,
+   "shown": 2,
+   "left": 88
+  },
+  "60204": {
+   "cast": 3,
+   "shown": 3,
+   "left": 88
+  },
+  "60016": {
+   "cast": 8,
+   "shown": 5,
+   "left": 88
+  },
+  "60017": {
+   "cast": 8,
+   "shown": 4,
+   "left": 138
+  },
+  "65001": {
+   "cast": 5,
+   "shown": 5,
+   "left": 88
+  },
+  "60025": {
+   "cast": 8,
+   "shown": 5,
+   "left": 88
+  },
+  "65002": {
+   "cast": 6,
+   "shown": 6,
+   "left": 88
+  },
+  "65003": {
+   "cast": 5,
+   "shown": 5,
+   "left": 88
+  },
+  "65004": {
+   "cast": 7,
+   "shown": 5,
+   "left": 88
+  },
+  "60018": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "60019": {
+   "cast": 0,
+   "shown": 0,
+   "left": 138
+  },
+  "60020": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50501": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50502": {
+   "cast": 1,
+   "shown": 1,
+   "left": 138
+  },
+  "50503": {
+   "cast": 1,
+   "shown": 1,
+   "left": 138
+  },
+  "50504": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50505": {
+   "cast": 4,
+   "shown": 4,
+   "left": 138
+  },
+  "50506": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50507": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50508": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50509": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50510": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50511": {
+   "cast": 2,
+   "shown": 2,
+   "left": 138
+  },
+  "50512": {
+   "cast": 3,
+   "shown": 3,
+   "left": 138
+  },
+  "55": {
+   "cast": 0,
+   "shown": 0,
+   "left": 108
+  },
+  "62": {
+   "cast": 0,
+   "shown": 0,
+   "left": 108
+  },
+  "122": {
+   "cast": 0,
+   "shown": 0,
+   "left": 108
+  },
+  "123": {
+   "cast": 0,
+   "shown": 0,
+   "left": 108
+  },
+  "202": {
+   "cast": 5,
+   "shown": 5,
+   "left": 96
+  },
+  "203": {
+   "cast": 0,
+   "shown": 0,
+   "left": 108
+  },
+  "225": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "226": {
+   "cast": 7,
+   "shown": 5,
+   "left": 96
+  },
+  "227": {
+   "cast": 5,
+   "shown": 5,
+   "left": 96
+  },
+  "228": {
+   "cast": 6,
+   "shown": 5,
+   "left": 96
+  },
+  "229": {
+   "cast": 6,
+   "shown": 5,
+   "left": 96
+  },
+  "230": {
+   "cast": 5,
+   "shown": 5,
+   "left": 96
+  },
+  "231": {
+   "cast": 6,
+   "shown": 5,
+   "left": 96
+  },
+  "232": {
+   "cast": 7,
+   "shown": 5,
+   "left": 96
+  },
+  "234": {
+   "cast": 6,
+   "shown": 5,
+   "left": 96
+  },
+  "235": {
+   "cast": 6,
+   "shown": 5,
+   "left": 96
+  },
+  "236": {
+   "cast": 7,
+   "shown": 5,
+   "left": 96
+  },
+  "237": {
+   "cast": 7,
+   "shown": 5,
+   "left": 96
+  },
+  "238": {
+   "cast": 6,
+   "shown": 5,
+   "left": 96
+  },
+  "239": {
+   "cast": 6,
+   "shown": 5,
+   "left": 96
+  },
+  "240": {
+   "cast": 7,
+   "shown": 5,
+   "left": 96
+  },
+  "1137": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "1226": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "2045": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2127": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2128": {
+   "cast": 3,
+   "shown": 3,
+   "left": 96
+  },
+  "2486": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  },
+  "5022": {
+   "cast": 2,
+   "shown": 2,
+   "left": 96
+  }
+ },
+ "pixel_compare": {
+  "chart_title_before vs w29_title_after": 0,
+  "w29_flow_list_before_detail vs w29_flow_list_after_detail": 0,
+  "w29_flow_list_before_card vs w29_flow_list_after_card": 0
+ },
+ "pass": true,
+ "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "SWEEP_INFINITE_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "5429a0f4c2e50342e852e0c2e0279d8a5c6471571110b899ba7984e49eddb822"
+  },
+  "manifest_sha256": "1188774459240b437af9ff7272b0ab6cbc39f94609c6a72d112adc128689b301",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "added_ids": [
+    1201,
+    2601
+  ],
+  "unchanged_other_runtime_files": 97,
+  "unchanged_save_files": 198,
+  "recovery_unchanged": true,
+  "native_gameplay_verified": false,
+  "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\sweep_infinite_20260916"
+}

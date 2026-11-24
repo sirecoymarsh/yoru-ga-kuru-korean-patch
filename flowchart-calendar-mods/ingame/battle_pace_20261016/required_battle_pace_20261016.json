@@ -1,0 +1,1708 @@
+{
+  "status": "BATTLE_PACE_20261016_DRAFT_NOT_INSTALLED",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)",
+  "time": "2026-10-16T09:17:49.655583+09:00",
+  "base": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "85982cd74e70feaf4f66b3490567e984e12e154e2d2b5ac6b83d46703076aa10",
+    "status": "MODS_TAB_20261015_INSTALLED_NATIVE_PASS",
+    "ain_sha256": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+    "pact_sha256": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+    "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+    "winmm_sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+    "checked_at_start_and_end": true
+  },
+  "required_files": {
+    "NightRemaster.ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c"
+  },
+  "candidate_manifest_sha256": "c4d565642d8b0066612a4e08e07cd78fb7070b08bc900cd45e7a55140d0e64b7",
+  "pact_changed": false,
+  "ex_changed": false,
+  "fnl_changed": false,
+  "chart_changed": false,
+  "hook_changed": false,
+  "no_restore_rule": "Codex must never run publish_pace*.py --restore or otherwise remove the battle-pace layer: KR_BP* functions; 20 Ａ＿全表示 call sites of the battle scene and the encounter transitions (C_Transition::StartBattle / EndBattleOut / EndBattleIn, C_BattleEffect::RunAdvantage, C_EnemySetView@AppearEffect, C_BattleProgress@*, C_BattleTimerView@Pass, C_SceneBattle@DispEffect / Run) call KR_BPZen (no wait while the effects are hidden, KR_QuickActive; otherwise the time divided by KR_Speed); C_SceneSaveLoad@ExecAfterLoad calls KR_BPAfterLoad where it called KR_RateAfterLoad and C_SceneDungeon@SetMapId calls KR_BPFloorFade where it called N_Map::FadeDefault (both call the original first, then mark the route line dirty: flags 85/86 = -1, 89 = 1). It is user-requested: when a rebuild needs a clean base, rebase on the runtime that current.json points to and carry it forward; restore is reserved for the user's explicit request.",
+  "added_functions": 4,
+  "added_function_names": [
+    "KR_BPAfterLoad",
+    "KR_BPFloorFade",
+    "KR_BPRouteDirty",
+    "KR_BPZen"
+  ],
+  "same_length_sites": [
+    {
+      "function": "C_Transition::StartBattle",
+      "fid": 27629,
+      "function_address": 5803416,
+      "site": 5803490,
+      "site_offset": 74,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        5803492,
+        5803496
+      ],
+      "note": "battle transition 1000 ms, effect 34",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_Transition::StartBattle",
+      "fid": 27629,
+      "function_address": 5803416,
+      "site": 5803532,
+      "site_offset": 116,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        5803534,
+        5803538
+      ],
+      "note": "battle transition 100 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_Transition::EndBattleOut",
+      "fid": 27630,
+      "function_address": 5803546,
+      "site": 5803604,
+      "site_offset": 58,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        5803606,
+        5803610
+      ],
+      "note": "battle transition 250 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_Transition::EndBattleIn",
+      "fid": 27631,
+      "function_address": 5803618,
+      "site": 5803654,
+      "site_offset": 36,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        5803656,
+        5803660
+      ],
+      "note": "battle transition 250 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleEffect::RunAdvantage",
+      "fid": 29194,
+      "function_address": 6538118,
+      "site": 6542410,
+      "site_offset": 4292,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6542412,
+        6542416
+      ],
+      "note": "battle transition 500 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_EnemySetView@AppearEffect",
+      "fid": 29366,
+      "function_address": 6700674,
+      "site": 6703246,
+      "site_offset": 2572,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6703248,
+        6703252
+      ],
+      "note": "battle transition 200 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@CheckBattleEnd",
+      "fid": 29222,
+      "function_address": 10093346,
+      "site": 10097286,
+      "site_offset": 3940,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        10097288,
+        10097292
+      ],
+      "note": "battle transition 1000 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@NextPhase",
+      "fid": 29223,
+      "function_address": 6570250,
+      "site": 6571202,
+      "site_offset": 952,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6571204,
+        6571208
+      ],
+      "note": "battle transition 1000 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@NextPhase",
+      "fid": 29223,
+      "function_address": 6570250,
+      "site": 6572786,
+      "site_offset": 2536,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6572788,
+        6572792
+      ],
+      "note": "battle transition 1000 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@ExecuteFriendActionAttack",
+      "fid": 29225,
+      "function_address": 6573184,
+      "site": 6578084,
+      "site_offset": 4900,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6578086,
+        6578090
+      ],
+      "note": "battle transition 1000 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@ExecuteFriendActionEx",
+      "fid": 29226,
+      "function_address": 6578554,
+      "site": 6584966,
+      "site_offset": 6412,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6584968,
+        6584972
+      ],
+      "note": "battle transition 1000 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@AdvanceEnemy",
+      "fid": 29250,
+      "function_address": 6610092,
+      "site": 6613266,
+      "site_offset": 3174,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6613268,
+        6613272
+      ],
+      "note": "battle transition 200 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@ExecuteEnemyAction",
+      "fid": 29257,
+      "function_address": 6620534,
+      "site": 6621684,
+      "site_offset": 1150,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6621686,
+        6621690
+      ],
+      "note": "battle transition 500 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@ExecuteDefeatEffectInEventBattle",
+      "fid": 29261,
+      "function_address": 6630308,
+      "site": 6630508,
+      "site_offset": 200,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6630510,
+        6630514
+      ],
+      "note": "battle transition 200 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleProgress@ExecuteDefeatEffectInEventBattle",
+      "fid": 29261,
+      "function_address": 6630308,
+      "site": 6630606,
+      "site_offset": 298,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6630608,
+        6630612
+      ],
+      "note": "battle transition 200 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_BattleTimerView@Pass",
+      "fid": 29313,
+      "function_address": 6671942,
+      "site": 6672494,
+      "site_offset": 552,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6672496,
+        6672500
+      ],
+      "note": "battle transition 1000 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneBattle@DispEffect",
+      "fid": 29392,
+      "function_address": 6724830,
+      "site": 6724996,
+      "site_offset": 166,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6724998,
+        6725002
+      ],
+      "note": "battle transition 500 ms, effect 48",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneBattle@DispEffect",
+      "fid": 29392,
+      "function_address": 6724830,
+      "site": 6726114,
+      "site_offset": 1284,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6726116,
+        6726120
+      ],
+      "note": "battle transition 200 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneBattle@DispEffect",
+      "fid": 29392,
+      "function_address": 6724830,
+      "site": 6726344,
+      "site_offset": 1514,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        6726346,
+        6726350
+      ],
+      "note": "battle transition 200 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneBattle@Run",
+      "fid": 29387,
+      "function_address": 9762684,
+      "site": 9765170,
+      "site_offset": 2486,
+      "kind": "CALLFUNC",
+      "original": "Ａ＿全表示",
+      "original_fid": 21012,
+      "replacement": "KR_BPZen",
+      "replacement_fid": 33090,
+      "before": "300014520000",
+      "after": "300042810000",
+      "operand_bytes": [
+        9765172,
+        9765176
+      ],
+      "note": "battle transition 1500 ms, effect 1",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneSaveLoad@ExecAfterLoad",
+      "fid": 29556,
+      "function_address": 10705396,
+      "site": 10705422,
+      "site_offset": 26,
+      "kind": "CALLFUNC",
+      "original": "KR_RateAfterLoad",
+      "original_fid": 32482,
+      "replacement": "KR_BPAfterLoad",
+      "replacement_fid": 33092,
+      "before": "3000e27e0000",
+      "after": "300044810000",
+      "operand_bytes": [
+        10705424,
+        10705428
+      ],
+      "note": "route line dirty mark",
+      "owner_is_original": true
+    },
+    {
+      "function": "C_SceneDungeon@SetMapId",
+      "fid": 28639,
+      "function_address": 6356380,
+      "site": 6363936,
+      "site_offset": 7556,
+      "kind": "CALLFUNC",
+      "original": "N_Map::FadeDefault",
+      "original_fid": 28796,
+      "replacement": "KR_BPFloorFade",
+      "replacement_fid": 33093,
+      "before": "30007c700000",
+      "after": "300045810000",
+      "operand_bytes": [
+        6363938,
+        6363942
+      ],
+      "note": "route line dirty mark",
+      "owner_is_original": true
+    }
+  ],
+  "message_box_sites": [],
+  "relocated_original_functions": [],
+  "zen_calls_left_alone": 120,
+  "pinned_addresses": {
+    "KR_T9HomeCasual": {
+      "index": 32478,
+      "address": 12241940,
+      "why": "r18 contract: on saved stacks during a calendar replay; keep index, address and code bytes.",
+      "code": {
+        "index": 32478,
+        "address": 12241940,
+        "code_bytes": 232,
+        "bytes_differing": 0
+      }
+    },
+    "KR_T9HomeConfig": {
+      "index": 32477,
+      "address": 12241642,
+      "why": "r15 contract: keep in place.",
+      "code": {
+        "index": 32477,
+        "address": 12241642,
+        "code_bytes": 298,
+        "bytes_differing": 0
+      }
+    },
+    "C_SceneHomebase@CheckGameSysButtons": {
+      "index": 28552,
+      "address": 6313814,
+      "why": "already on saved stacks (save/load screens); keep in place.",
+      "code": {
+        "index": 28552,
+        "address": 6313814,
+        "code_bytes": 550,
+        "bytes_differing": 0
+      }
+    },
+    "LSys3xScript::RunEvent": {
+      "index": 26381,
+      "address": 5468856,
+      "why": "already on saved stacks (r12 contract).",
+      "code": {
+        "index": 26381,
+        "address": 5468856,
+        "code_bytes": 1292,
+        "bytes_differing": 0
+      }
+    },
+    "C_SceneHomebase@Run": {
+      "index": 28542,
+      "address": 6299808,
+      "why": "already on saved stacks.",
+      "code": {
+        "index": 28542,
+        "address": 6299808,
+        "code_bytes": 1104,
+        "bytes_differing": 0
+      }
+    },
+    "KR_T18RunSandboxed": {
+      "index": 32548,
+      "address": 12316890,
+      "why": "r18 contract: on saved stacks during a sandboxed replay.",
+      "code": {
+        "index": 32548,
+        "address": 12316890,
+        "code_bytes": 440,
+        "bytes_differing": 0
+      }
+    },
+    "KR_CReplayRun": {
+      "index": 32690,
+      "address": 13167576,
+      "why": "r22: the chart replay (memory mode) runs inside it.",
+      "code": {
+        "index": 32690,
+        "address": 13167576,
+        "code_bytes": 494,
+        "bytes_differing": 0
+      }
+    }
+  },
+  "pinned_from_now_on": {
+    "KR_AN_E00058": {
+      "index": 33021,
+      "address": 15276938,
+      "code": {
+        "index": 33021,
+        "address": 15276938,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E00063": {
+      "index": 33022,
+      "address": 15277000,
+      "code": {
+        "index": 33022,
+        "address": 15277000,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E00069": {
+      "index": 33023,
+      "address": 15277062,
+      "code": {
+        "index": 33023,
+        "address": 15277062,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E00104": {
+      "index": 33024,
+      "address": 15277124,
+      "code": {
+        "index": 33024,
+        "address": 15277124,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E00258": {
+      "index": 33025,
+      "address": 15277186,
+      "code": {
+        "index": 33025,
+        "address": 15277186,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E00260": {
+      "index": 33026,
+      "address": 15277248,
+      "code": {
+        "index": 33026,
+        "address": 15277248,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E00322": {
+      "index": 33027,
+      "address": 15277310,
+      "code": {
+        "index": 33027,
+        "address": 15277310,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E00611": {
+      "index": 33028,
+      "address": 15277372,
+      "code": {
+        "index": 33028,
+        "address": 15277372,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E10021": {
+      "index": 33029,
+      "address": 15277434,
+      "code": {
+        "index": 33029,
+        "address": 15277434,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E20041": {
+      "index": 33030,
+      "address": 15277496,
+      "code": {
+        "index": 33030,
+        "address": 15277496,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E20081": {
+      "index": 33031,
+      "address": 15277558,
+      "code": {
+        "index": 33031,
+        "address": 15277558,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E20164": {
+      "index": 33032,
+      "address": 15277620,
+      "code": {
+        "index": 33032,
+        "address": 15277620,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E30001": {
+      "index": 33033,
+      "address": 15277682,
+      "code": {
+        "index": 33033,
+        "address": 15277682,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E30021": {
+      "index": 33034,
+      "address": 15277744,
+      "code": {
+        "index": 33034,
+        "address": 15277744,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E30152": {
+      "index": 33035,
+      "address": 15277806,
+      "code": {
+        "index": 33035,
+        "address": 15277806,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E40021": {
+      "index": 33036,
+      "address": 15277868,
+      "code": {
+        "index": 33036,
+        "address": 15277868,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E40041": {
+      "index": 33037,
+      "address": 15277930,
+      "code": {
+        "index": 33037,
+        "address": 15277930,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E40043": {
+      "index": 33038,
+      "address": 15277992,
+      "code": {
+        "index": 33038,
+        "address": 15277992,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_AN_E40061": {
+      "index": 33039,
+      "address": 15278054,
+      "code": {
+        "index": 33039,
+        "address": 15278054,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      }
+    },
+    "KR_ANSelect": {
+      "index": 33063,
+      "address": 15281812,
+      "code": {
+        "index": 33063,
+        "address": 15281812,
+        "code_bytes": 448,
+        "bytes_differing": 0
+      }
+    },
+    "KR_ANSelFrame": {
+      "index": 33066,
+      "address": 15283614,
+      "code": {
+        "index": 33066,
+        "address": 15283614,
+        "code_bytes": 34,
+        "bytes_differing": 0
+      }
+    },
+    "KR_ANTrainConfirm": {
+      "index": 33072,
+      "address": 15284948,
+      "code": {
+        "index": 33072,
+        "address": 15284948,
+        "code_bytes": 126,
+        "bytes_differing": 0
+      }
+    },
+    "KR_ANOpeningQ": {
+      "index": 33083,
+      "address": 15287974,
+      "code": {
+        "index": 33083,
+        "address": 15287974,
+        "code_bytes": 34,
+        "bytes_differing": 0
+      }
+    },
+    "KR_ANNewGame": {
+      "index": 33082,
+      "address": 15287640,
+      "code": {
+        "index": 33082,
+        "address": 15287640,
+        "code_bytes": 334,
+        "bytes_differing": 0
+      }
+    }
+  },
+  "saved_stacks": {
+    "resume_saves": 51,
+    "frames": 1256,
+    "frames_in_changed_functions": 0,
+    "problems": 0,
+    "changed_functions_on_stacks": [],
+    "check": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\battle_pace_20261016\\work\\resume_offset_check.json",
+    "check_sha256": "7898773b4f473837b2adf7a4af6fd31b7acf3183fe4ac13a93824141f813e8b9",
+    "note": "read-only check of the user's saves: every saved frame keeps its crc (the AIN function table is unchanged), no original function moved, no frame resumes at or inside a swapped instruction"
+  },
+  "verification": {
+    "probe": {
+      "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+      "base_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+      "author": "Claude Opus 5.5 (claude-opus-5-5)",
+      "runs_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\runs",
+      "problems": [],
+      "speed1": {
+        "before": {
+          "run": "speed1_20261016_085426",
+          "candidate_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+          "battles": [
+            {
+              "battle": 1,
+              "ms": 17891,
+              "quick": 0,
+              "rate": 2,
+              "scaled_over_real": 2.01,
+              "transitions": 28,
+              "transition_ms": 8100,
+              "cycles_ms": [
+                5796,
+                8300,
+                7053,
+                6284
+              ]
+            },
+            {
+              "battle": 2,
+              "ms": 12732,
+              "quick": 0,
+              "rate": 2,
+              "scaled_over_real": 2.01,
+              "transitions": 22,
+              "transition_ms": 6600,
+              "cycles_ms": [
+                4986,
+                6053
+              ]
+            },
+            {
+              "battle": 3,
+              "ms": 24710,
+              "quick": 0,
+              "rate": 2,
+              "scaled_over_real": 2.0,
+              "transitions": 41,
+              "transition_ms": 12000,
+              "cycles_ms": [
+                4975,
+                6037,
+                6130,
+                7771,
+                7122
+              ]
+            }
+          ],
+          "battle_ms_total": 55333,
+          "transition_ms_total": 26700,
+          "transitions_total": 91,
+          "ms_per_transition": 293.4,
+          "transition_share": 0.48,
+          "cycle_ms_mean": 6410,
+          "cycle_n": 11
+        },
+        "after": {
+          "run": "pace_speed1_20261016_085715",
+          "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+          "battles": [
+            {
+              "battle": 1,
+              "ms": 12975,
+              "quick": 0,
+              "rate": 2,
+              "scaled_over_real": 2.01,
+              "transitions": 23,
+              "transition_ms": 6500,
+              "cycles_ms": [
+                5293,
+                6864
+              ]
+            },
+            {
+              "battle": 2,
+              "ms": 12939,
+              "quick": 0,
+              "rate": 2,
+              "scaled_over_real": 2.01,
+              "transitions": 22,
+              "transition_ms": 6600,
+              "cycles_ms": [
+                4944,
+                6010
+              ]
+            },
+            {
+              "battle": 3,
+              "ms": 20152,
+              "quick": 0,
+              "rate": 2,
+              "scaled_over_real": 2.0,
+              "transitions": 35,
+              "transition_ms": 10000,
+              "cycles_ms": [
+                4758,
+                5818,
+                6280,
+                7435
+              ]
+            }
+          ],
+          "battle_ms_total": 46066,
+          "transition_ms_total": 23100,
+          "transitions_total": 80,
+          "ms_per_transition": 288.8,
+          "transition_share": 0.5,
+          "cycle_ms_mean": 5925,
+          "cycle_n": 8
+        },
+        "before_clean": true,
+        "after_clean": true
+      },
+      "speed5": {
+        "before": {
+          "run": "speed5_20261016_084555",
+          "candidate_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+          "battles": [
+            {
+              "battle": 1,
+              "ms": 8740,
+              "quick": 0,
+              "rate": 5,
+              "scaled_over_real": 4.93,
+              "transitions": 20,
+              "transition_ms": 5500,
+              "cycles_ms": [
+                4226,
+                5532
+              ]
+            },
+            {
+              "battle": 2,
+              "ms": 3711,
+              "quick": 0,
+              "rate": 5,
+              "scaled_over_real": 4.95,
+              "transitions": 7,
+              "transition_ms": 2200,
+              "cycles_ms": []
+            },
+            {
+              "battle": 3,
+              "ms": 8410,
+              "quick": 0,
+              "rate": 5,
+              "scaled_over_real": 4.97,
+              "transitions": 17,
+              "transition_ms": 5200,
+              "cycles_ms": [
+                3737,
+                4794
+              ]
+            }
+          ],
+          "battle_ms_total": 20861,
+          "transition_ms_total": 12900,
+          "transitions_total": 44,
+          "ms_per_transition": 293.2,
+          "transition_share": 0.62,
+          "cycle_ms_mean": 4572,
+          "cycle_n": 4
+        },
+        "after": {
+          "run": "pace_speed5_20261016_084803",
+          "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+          "battles": [
+            {
+              "battle": 1,
+              "ms": 9385,
+              "quick": 0,
+              "rate": 5,
+              "scaled_over_real": 4.93,
+              "transitions": 40,
+              "transition_ms": 2300,
+              "cycles_ms": [
+                2460,
+                2724,
+                2518,
+                2597,
+                2602
+              ]
+            },
+            {
+              "battle": 2,
+              "ms": 6961,
+              "quick": 0,
+              "rate": 5,
+              "scaled_over_real": 4.96,
+              "transitions": 31,
+              "transition_ms": 1800,
+              "cycles_ms": [
+                2208,
+                2468,
+                2347,
+                2655
+              ]
+            },
+            {
+              "battle": 3,
+              "ms": 4288,
+              "quick": 0,
+              "rate": 5,
+              "scaled_over_real": 4.95,
+              "transitions": 17,
+              "transition_ms": 1040,
+              "cycles_ms": [
+                2140,
+                2412
+              ]
+            }
+          ],
+          "battle_ms_total": 20634,
+          "transition_ms_total": 5140,
+          "transitions_total": 88,
+          "ms_per_transition": 58.4,
+          "transition_share": 0.25,
+          "cycle_ms_mean": 2466,
+          "cycle_n": 11
+        },
+        "before_clean": true,
+        "after_clean": true
+      },
+      "quick": {
+        "before": {
+          "run": "quick_20261016_085009",
+          "candidate_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+          "battles": [
+            {
+              "battle": 1,
+              "ms": 6133,
+              "quick": 1,
+              "rate": 1000,
+              "scaled_over_real": 9.81,
+              "transitions": 18,
+              "transition_ms": 5100,
+              "cycles_ms": [
+                2851,
+                3890
+              ]
+            },
+            {
+              "battle": 2,
+              "ms": 2808,
+              "quick": 1,
+              "rate": 1000,
+              "scaled_over_real": 9.86,
+              "transitions": 7,
+              "transition_ms": 2200,
+              "cycles_ms": []
+            },
+            {
+              "battle": 3,
+              "ms": 6847,
+              "quick": 1,
+              "rate": 1000,
+              "scaled_over_real": 9.94,
+              "transitions": 19,
+              "transition_ms": 5600,
+              "cycles_ms": [
+                2836,
+                3881
+              ]
+            }
+          ],
+          "battle_ms_total": 15788,
+          "transition_ms_total": 12900,
+          "transitions_total": 44,
+          "ms_per_transition": 293.2,
+          "transition_share": 0.82,
+          "cycle_ms_mean": 3364,
+          "cycle_n": 4
+        },
+        "after": {
+          "run": "pace_quick_20261016_085221",
+          "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+          "battles": [
+            {
+              "battle": 1,
+              "ms": 1901,
+              "quick": 1,
+              "rate": 1000,
+              "scaled_over_real": 8.55,
+              "transitions": 28,
+              "transition_ms": 0,
+              "cycles_ms": [
+                660,
+                845,
+                720,
+                697
+              ]
+            },
+            {
+              "battle": 2,
+              "ms": 1176,
+              "quick": 1,
+              "rate": 1000,
+              "scaled_over_real": 9.41,
+              "transitions": 17,
+              "transition_ms": 0,
+              "cycles_ms": [
+                533,
+                575
+              ]
+            },
+            {
+              "battle": 3,
+              "ms": 636,
+              "quick": 1,
+              "rate": 1000,
+              "scaled_over_real": 9.16,
+              "transitions": 7,
+              "transition_ms": 0,
+              "cycles_ms": []
+            }
+          ],
+          "battle_ms_total": 3713,
+          "transition_ms_total": 0,
+          "transitions_total": 52,
+          "ms_per_transition": 0.0,
+          "transition_share": 0.0,
+          "cycle_ms_mean": 672,
+          "cycle_n": 6
+        },
+        "before_clean": true,
+        "after_clean": true
+      },
+      "route_stale": {
+        "before": "routestale_20261016_084232",
+        "after": "pace_routestale_20261016_084407",
+        "red_pixels_in_minimap": {
+          "before": {
+            "pe_routestale_start": 189,
+            "pe_routestale_step": 180,
+            "pe_routestale_step2": 180
+          },
+          "after": {
+            "pe_routestale_start": 0,
+            "pe_routestale_step": 0,
+            "pe_routestale_step2": 0
+          }
+        }
+      },
+      "route_toggle_after": {
+        "run": "pace_routetoggle_20261016_090012",
+        "red_pixels_in_minimap": {
+          "pe_rt_on_1": 180,
+          "pe_rt_on_2": 171,
+          "pe_rt_off_1": 0,
+          "pe_rt_off_2": 0,
+          "pe_rt_on_3": 180
+        }
+      },
+      "story": {
+        "before": "story_20261016_091310",
+        "after": "pace_story_20261016_091439",
+        "transitions_before": [
+          200,
+          0,
+          2000,
+          2000,
+          200,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          200,
+          0,
+          2000
+        ],
+        "transitions_after": [
+          200,
+          0,
+          2000,
+          2000,
+          200,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          200,
+          0,
+          2000
+        ],
+        "save": "NightR29.asd",
+        "vm_error_before": {
+          "command": "Assign",
+          "message": "範囲外アクセスエラー\n(Page = 1, Index = 13)\n要素数 = 4"
+        },
+        "vm_error_after": {
+          "command": "Assign",
+          "message": "範囲外アクセスエラー\n(Page = 1, Index = 13)\n要素数 = 4"
+        },
+        "user_save_folder_unchanged": true,
+        "note": "screen transitions outside battles while a dungeon story event plays (no screenshots). The save was taken inside a message click-wait; the probe ends that resumed wait once (input is cut off). Both runs then stop at the same VM error near the end of the event, with the installed AIN as with the candidate: a probe-condition stop, not this change; the transitions up to it are compared."
+      },
+      "checks": {
+        "speed1_transition_time_unchanged": true,
+        "speed5_transitions_divided": true,
+        "quick_no_transition_wait": true,
+        "route_line_gone_after_load": true,
+        "route_on_off_on_still_works": true,
+        "story_transitions_identical": true
+      },
+      "user_save_folder_unchanged_all": true,
+      "after_runs_clean": true,
+      "passed": true
+    },
+    "defender": "SCANNED_NO_TARGET_DETECTIONS",
+    "transaction_fixture": "TRANSACTION_FIXTURE_PASS"
+  },
+  "preserves_contracts": {
+    "required_auto_explore_20260923.json": {
+      "sha256": "a47f27bc196849ba619c38b11ba5d102d7d071e936df676910bebb02f7c6cf8e",
+      "status": "AUTO_EXPLORE_INSTALLED_NATIVE_FIXTURE_PASS_GAMEPLAY_PENDING",
+      "instruction_present": true
+    },
+    "required_auto_explore_click_fix_20260923.json": {
+      "sha256": "8ac91e6b84bcd267d71efad241d74652c5ab54e8c01b64c11e19cbfa674f0352",
+      "status": "AUTO_EXPLORE_CALLBACK_FIX_INSTALLED_NATIVE_DISPATCH_PASS",
+      "instruction_present": true
+    },
+    "required_auto_explore_segment_fix_20260923.json": {
+      "sha256": "bfac22430f3e70265658389fb0dfdb33499e99669f6df116ed4f6cf567bdddac",
+      "status": "AUTO_EXPLORE_SEGMENT_FIX_INSTALLED_NATIVE_MOVEMENT_PASS",
+      "instruction_present": true
+    },
+    "required_auto_items.json": {
+      "sha256": "2110b9b9437ab995c77ebd961033e5d05148824e5f4ad5e8294017e494cb0de5",
+      "status": "AUTO_ITEMS_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_auto_walk.json": {
+      "sha256": "ab49f87c80d88b8f482575c8a6cacf9354bcd522c654d2c01147e02d8510ed2f",
+      "status": "AUTO_WALK_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_autoequip.json": {
+      "sha256": "5a1846a0d132014bd46552f3fd67b0280daa1f3172ba9270389aa4705cdf9a69",
+      "status": "AUTOEQUIP_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_autonav_20261015.json": {
+      "sha256": "dcc6c4c63f18b185f486420574d450833abb632e9e867a92be082dd566da63e0",
+      "status": "AUTONAV_20261015_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_build_retention.json": {
+      "sha256": "72328997753e1879735ae5a59d29386f5e44cb07009b024f13ca20a17d4229fd",
+      "status": "LATEST_AND_RECOVERY_PRESERVED",
+      "instruction_present": true
+    },
+    "required_calendar_all_tabs_20260929.json": {
+      "sha256": "766b297e38fe05bee101e21e1b7e8f6dc6e22e616516bf25368e7bdb8e2e28c5",
+      "status": "CALENDAR_ALL_TABS_20260929_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_april_complete_20260929.json": {
+      "sha256": "be1d94052cc1133bb0d8c514e48f648cfd886a32a7ed5a5deaee2de3853f8207",
+      "status": "CALENDAR_APRIL_COMPLETE_20260929_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_choice_context_20260929.json": {
+      "sha256": "ecfe976c7395aad7b820bde2d23451975427c2a20c61d0bd817cb3dc6d956b50",
+      "status": "CALENDAR_CHOICE_CONTEXT_20260929_INSTALLED_NATIVE_VISUAL_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_choices_20260929.json": {
+      "sha256": "61d7fb6d1dc9958f158e53bd06f8e8ff46dfe15b93973ba1e10dc979b5419a85",
+      "status": "CALENDAR_CHOICES_20260929_INSTALLED_NATIVE_VISUAL_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_detail_layout_20260929.json": {
+      "sha256": "f8166a4ccecf1b55abc5bb9b950efac80f0438127af6cd5822f9ec72de0c44bd",
+      "status": "CALENDAR_DETAIL_LAYOUT_20260929_INSTALLED_NATIVE_VISUAL_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_gallery_unlock_20260930.json": {
+      "sha256": "24dc9dc4c71109f7e80ecf81bde8d77a3e5444eea2df2aa1be6c0f3e1dc80182",
+      "status": "CALENDAR_GALLERY_UNLOCK_20260930_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_label_particles_20260929.json": {
+      "sha256": "5ca3937b22bd95c7d87c1f252cfac9ab75a66874794fbc7464724094611ef5dc",
+      "status": "CALENDAR_LABEL_PARTICLES_20260929_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_portraits_20260929.json": {
+      "sha256": "6758c019a0b10900d546747248f4820dba5e1c95ffcb23d7e88616a5be53998b",
+      "status": "CALENDAR_PORTRAITS_20260929_INSTALLED_NATIVE_VISUAL_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r15.json": {
+      "sha256": "045f63e841a14728f51932214ded290ca54208b9f6202a3c6626a66e47eb44b1",
+      "status": "CALENDAR_R15_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r18.json": {
+      "sha256": "21b64613f91514fe5ea2968a89a9b439cb0259adec17a322b9cb44c9dd19c315",
+      "status": "CALENDAR_R18_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r19.json": {
+      "sha256": "1ce1615f7d29278fab192a870cfcc4d3c807d8d36c48383231de41149c71f674",
+      "status": "CALENDAR_R19_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_r20.json": {
+      "sha256": "46a6ed1eed946cebb83e7d3fba33ccab09f212f37386113ebd8269629ae87a38",
+      "status": "CALENDAR_R20_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_calendar_summary_stack_20260929.json": {
+      "sha256": "070735b338717883b7a92ef7f0d81cd3ce62641912223c703698047e65a2f633",
+      "status": "CALENDAR_SUMMARY_STACK_20260929_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_chart_menu_20260927.json": {
+      "sha256": "5b1865800b0b4d8d6d656f1e5680bbb27253af04976ae1c5ce1551e2e4a9115d",
+      "status": "CHART_MENU_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_chart_r22.json": {
+      "sha256": "fa77c5172009e098787b6fee3c0db541cd9ebbe7f7ee3d6c21017f762bf46267",
+      "status": "CHART_R22_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_cheat_menu.json": {
+      "sha256": "e11e6627136c0df885a3f62b5d0f2e1b6cfa80b1ac5e6cabe2e87cce7ff1be84",
+      "status": "CHEAT_MENU_AND_CONSUMABLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_chest_flow.json": {
+      "sha256": "0899b2680d5aacb2a1d6b94ddc1eed10461eca94f8dcf0794c7d82c2431857ea",
+      "status": "CHEST_FLOW_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_claude_fixes_20260928.json": {
+      "sha256": "6593bcab5f4bb30f7f0101a95dfd0dec7f3fa0ac445e27e260aa444b4742e18f",
+      "status": "CLAUDE_FIXES_20260928_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_revision_20260923.json": {
+      "sha256": "748623a95b03b8ccbab897c5b200e965ae140c25ba6f503246294e6738e43c9f",
+      "status": "CLAUDE_REVISION_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924.json": {
+      "sha256": "29863e87eb13b3550d6b8f06c7804ebbca0cf30676559768877d85d0c849fd00",
+      "status": "CLAUDE_TERM_RATE_INSTALLED_NATIVE_PROBE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r10.json": {
+      "sha256": "481960a180aa0645164ac1b84f9dec3be9c587458b784efe2260323f9dd77688",
+      "status": "CLAUDE_TERM_RATE_R10_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r11.json": {
+      "sha256": "29175d0aed8179bea052c6788d968fda18e6135f83b7c25bc5215c0d2e67faad",
+      "status": "CLAUDE_TERM_RATE_R11_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r12.json": {
+      "sha256": "f0ed1f687c09c740d53e1200016add53c0781273b2101f4586e0b7878f0670c7",
+      "status": "CLAUDE_TERM_RATE_R12_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r13.json": {
+      "sha256": "43902b962750bdccac078e1892575a24b841efa23e3e43a2026e94fb7306a744",
+      "status": "CLAUDE_TERM_RATE_R13_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r14.json": {
+      "sha256": "d3c72b89c78cf47c58d20f19e772b7be8b847646105c20063fa07d9900ee9e08",
+      "status": "CLAUDE_TERM_RATE_R14_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r2.json": {
+      "sha256": "a4393c82958f979e303755f37d28647e80f878a5561681b298cb39a8f7ee1fa3",
+      "status": "CLAUDE_TERM_RATE_R2_INSTALLED_NATIVE_UI_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r3.json": {
+      "sha256": "774e1bba8c941a55ef8a988457faef36c53902a0f6a7d2cd6febcc00d1f06627",
+      "status": "CLAUDE_TERM_RATE_R3_INSTALLED_NATIVE_UI_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r4.json": {
+      "sha256": "20caab8d4672cb584f42ea7a37a059ef46fba8cd3890e7781726379a376d7d87",
+      "status": "CLAUDE_TERM_RATE_R4_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r5.json": {
+      "sha256": "7d2e763190ee3f01698ba1c6026a3ecaec16306cb5a3cf3dcf1edb140efd1fda",
+      "status": "CLAUDE_TERM_RATE_R5_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r6.json": {
+      "sha256": "8826abeb52a9aa0de8f42ee1b0989db1e6dea1787d50570a4532053f3854db68",
+      "status": "CLAUDE_TERM_RATE_R6_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r7.json": {
+      "sha256": "bcfd989476036183cdb8fa7881006c3766f268252eda14e74857c5c17ad07648",
+      "status": "CLAUDE_TERM_RATE_R7_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_term_rate_20260924_r9.json": {
+      "sha256": "8310005e081a1e198e2fecc0f6f2147bf22caaf658d995012213f348f45c3709",
+      "status": "CLAUDE_TERM_RATE_R9_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_claude_text_20261001.json": {
+      "sha256": "4568e6817f774bb3dfecba2494a0e6b0695611a8ca53ac28cf59e476d59976bc",
+      "status": "CLAUDE_TEXT_20261001_INSTALLED_VM_PASS",
+      "instruction_present": true
+    },
+    "required_club_wall_bilingual_20260924.json": {
+      "sha256": "f022dfc1ae4284fdfb8db15228c34d77b787b56831853d717a3c381d73793506",
+      "status": "CLUB_WALL_BILINGUAL_INSTALLED_ENGINE_PASS",
+      "instruction_present": true
+    },
+    "required_club_wall_cancel_20260924.json": {
+      "sha256": "c70cf1e0d1dcfd06184995aaba96ceb79735634a025d89b653b06dd1b50d4151",
+      "status": "BILINGUAL_BANNERS_INSTALLED_CLUB_WALL_ORIGINAL",
+      "instruction_present": true
+    },
+    "required_consumable_display_fix.json": {
+      "sha256": "7cc292675ad872aae5710a9eac0fec75ebd25df163dbdc1419a63ab7de068976",
+      "status": "CHEAT_MENU_AND_CONSUMABLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_department_route.json": {
+      "sha256": "a41b9982e1ee27d2da529633586f83c424dfb2cfda1e7f43d35add73934477a3",
+      "status": "DEPARTMENT_ROUTE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_dungeon_sweep.json": {
+      "sha256": "6922e9825dfab184fa55d2b113c812f89d2725297e7be02736f91ba01f0476cd",
+      "status": "SWEEP_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_dynamic_ui_text_fix.json": {
+      "sha256": "ca6b19a62a9a7f9c641c05f075da73888c9614010794ce20940159bac8f7f16d",
+      "status": "DYNAMIC_UI_TEXT_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_enemy_firearms_20260926.json": {
+      "sha256": "dfc2690f6fa0a17c9f84ffd87e7f2f8b86817604874b6c35b351839eef84f462",
+      "status": "ENEMY_FIREARMS_INSTALLED_STATIC_PASS",
+      "instruction_present": true
+    },
+    "required_event_navigation_20260926.json": {
+      "sha256": "b2b6600c949071cb755e281745cab32998edc1a81ab460a83b9c977388617193",
+      "status": "EVENT_NAVIGATION_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_feeling_r23.json": {
+      "sha256": "829d7f9cdd4c14a884d2d6a9b00dfe7fba1405929141ef8305e68278af90f873",
+      "status": "FEELING_R23_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_instant_loot.json": {
+      "sha256": "5196de481588fc2e3da01384baba25aa82f396dd84708d70e6c7be62d53735e4",
+      "status": "INSTANT_LOOT_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_item_skill_names.json": {
+      "sha256": "ab723e510609ee6947d0a2bcff135be4b55223884ba9085e6ff2ab1a3da4906f",
+      "status": "ENEMY_SPECIES_SCOPE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_location_card_aura_fix.json": {
+      "sha256": "840f3262970c425737d8df359015055eab2d462fde00e52e7e07fc3714acff1d",
+      "status": "LOCATION_SOURCE_AURA_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_loot_notice.json": {
+      "sha256": "ac83640579c5d3c34946cd4cd847aac262ebae0406301de947217c9d6ae02687",
+      "status": "LOOT_NOTICE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_map_marker_axis_fix.json": {
+      "sha256": "38ab445737f93e07aace0aa4432fadbd9ee70daa2d7e236ec03801f1bdf2a2e7",
+      "status": "MAP_MARKER_AXIS_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": false
+    },
+    "required_mod_menu_20260928.json": {
+      "sha256": "59f0792bc41dc96cad0094f6fc685bc73f796e2447f8d9c85e1fea269863ddb6",
+      "status": "MOD_MENU_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_mod_menu_r2_20260928.json": {
+      "sha256": "394d794818da843ef08c67fb832b7c125108ec367448f503ebf6f6d2818ce385",
+      "status": "MOD_MENU_R2_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_mod_menu_style.json": {
+      "sha256": "a42ccfb85217e23250f6fc396d5c85e3ec57d70fbeba21830ae01a7d376b7012",
+      "status": "MOD_MENU_STYLE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_mod_native_style_20260923.json": {
+      "sha256": "ae8ee089b20fa9520d769f0e76d467aab889e91dcccbb65f8cd2c1c951f6229c",
+      "status": "MOD_NATIVE_STYLE_INSTALLED_ENGINE_RENDER_PASS",
+      "instruction_present": true
+    },
+    "required_mod_tab.json": {
+      "sha256": "facab989c9081dc00c16240acf7d4cd0e4792fd42896a561a767373b92f6ba74",
+      "status": "MOD_TAB_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_modmenu_r21.json": {
+      "sha256": "85fbed5b98368761a6019a9606fa4cdc3a04c25c722834037b3e9ad2b2a42822",
+      "status": "MODMENU_R21_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_mods_tab_20261015.json": {
+      "sha256": "f77bc037a42e6f93927688931d6be2fdef0615023d85467624d6579592de792f",
+      "status": "MODS_TAB_20261015_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_name_particles.json": {
+      "sha256": "71fbd22171d12cdc41f8866888767102826c7cf90f32389f9d37cf04b53459cd",
+      "status": "NAME_PARTICLES_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_native_mod_button.json": {
+      "sha256": "681b156159b4a3a9eab56ade0c3b4a601ef5a8cdab6bd42188415f25cb6852a7",
+      "status": "NATIVE_MOD_BUTTON_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_native_opcode_fix.json": {
+      "sha256": "b8496fe14ad2cb06f0ed637709f701c6904c47836e1131ab2d7104e56e0b63ed",
+      "status": "CHEAT_NATIVE_OPCODE_FIX_STATIC_PASS_RUNTIME_RETEST_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_depth.json": {
+      "sha256": "252db0bfe37cf4a1226500293288be703c3207b8c8d0142cbe70ff753feff763",
+      "status": "NOTICE_DEPTH_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_duration.json": {
+      "sha256": "17ed8559a11ce3ff9458ca21c3098b0d6deb8bb119a278a0d21406dcd0cf5120",
+      "status": "NOTICE_DURATION_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_notice_repair.json": {
+      "sha256": "481721b92509f5e5901b029cd170bd4d3a4847a372826c2a954e7a5522805a6e",
+      "status": "NOTICE_REPAIR_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_page_lineflow_v2.json": {
+      "sha256": "96e1a1d6dc7ccbb880318161368c9b5640c221322a6a3d74ec7e4a283a460dad",
+      "status": "PAGE_LINEFLOW_V2_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_pinned_autosave_20260926.json": {
+      "sha256": "496ed89bc7347630b0ec94102f225b028e2c7f9e11c50a838c31ca882f7109f9",
+      "status": "PINNED_AUTOSAVE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_player_tools_20260923.json": {
+      "sha256": "772fb91d117aa21d182f7e649d2b95002a0d9d5570604c49d4449991cd6feaf7",
+      "status": "PLAYER_TOOLS_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_rate_overlay_20260927.json": {
+      "sha256": "8af04a087e6e127609a3ba6a5e4019e2c3f6f635b3cc1ed151e925cbca316878",
+      "status": "RATE_OVERLAY_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_remaster_multiplier.json": {
+      "sha256": "a22e69ff22a5bf5946765f0955a2487be8fd0e41387b5680b137370ce54f5651",
+      "status": "REMASTER_MULTIPLIERS_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_resume_compat_20260923.json": {
+      "sha256": "732b16bcf04a434db7e475d5062e1c13b4ce55567ce7233fd5276cf6486ba8c6",
+      "status": "RESUME_COMPAT_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_cache_fix.json": {
+      "sha256": "8180e98ad29c900024da13b1da677a271a5e64286a7a3c8d8378afc38119285c",
+      "status": "ROUTE_CACHE_STATIC_PASS_NATIVE_PERFORMANCE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_linear_fix.json": {
+      "sha256": "de8b627b533eadf7e635721d19ba395159a99b1a83d893d797c5c67e2ac85835",
+      "status": "ROUTE_LINEAR_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_map_refresh.json": {
+      "sha256": "e6737c2256e4573392c75ee29a748622235293f1b640f78576ded843a38623c9",
+      "status": "ROUTE_MAP_REFRESH_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_route_puzzle_guide.json": {
+      "sha256": "b127f08260b712225cae24fa06a35d5cceea5f620827d96e500b8e37462550a8",
+      "status": "PUZZLE_ROUTE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_runtime_keyfix20.json": {
+      "sha256": "12bd31d323079c1ac22ab9713781f5103518667caf0fd3b30bdc6da08d59118c",
+      "status": null,
+      "instruction_present": true
+    },
+    "required_runtime_repairs_20260923.json": {
+      "sha256": "640c19c00db5844f01e8131261d7765d245bdc48e2b21884f56a46f3930654af",
+      "status": "RUNTIME_REPAIRS_INSTALLED_NATIVE_REGRESSION_PASS",
+      "instruction_present": true
+    },
+    "required_save_page_restore_20260926.json": {
+      "sha256": "71b59d43343ecf318a3b986e8d3248bd8f5ec5efb2ebb6dfa9912f8b27150ec9",
+      "status": "SAVE_PAGE_RESTORE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_save_screen_mode_20260926.json": {
+      "sha256": "78947b7b19e367e63a4018843e2d721ca1ee111d6de8f3e79076d4c3011bb2f8",
+      "status": "SAVE_SCREEN_MODE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_save_slots_20260925.json": {
+      "sha256": "277ddf092ef876922beda10209da0ef41e8c02c69afd8b69484ba56fb5398569",
+      "status": "SAVE_CARDS_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_saved_display_refresh.json": {
+      "sha256": "31c5d5f35af8dc014a32dec315556c4b275bb5e6810fe8f7c9067966f6902c84",
+      "status": "SAVED_DISPLAY_REFRESH_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_smart_auto.json": {
+      "sha256": "54d1cc75f8c1e727d9e088ffd0276fc064e0fa49cd5bcbd074d9bf14d91c4163",
+      "status": "SMART_AUTO_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_smart_auto_fix.json": {
+      "sha256": "a1aa223e457a1265b6f24f8547d65ae16fc7af199aee712b3128f0e21e40238d",
+      "status": "SMART_AUTO_FIX_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_story_explore_20260927.json": {
+      "sha256": "9cbfc256cefe64976d9cdc8d91f3640e6b34ca938bbd5754e817e25a3e3e1073",
+      "status": "STORY_EXPLORE_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_story_progress_20260926.json": {
+      "sha256": "90c9aa4598bef5019769e75f87d7de693970569e514f8b3de90bd54027a3a226",
+      "status": "STORY_PROGRESS_INSTALLED_NATIVE_PASS",
+      "instruction_present": true
+    },
+    "required_sweep_infinite_fix.json": {
+      "sha256": "fdc97880f5c19ceea284825a6715b5e8ef8d3a09257e251ce901dd42e87dcfcd",
+      "status": "SWEEP_INFINITE_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_sweep_ui_fix.json": {
+      "sha256": "962655c4a31d52869ab70f25d05af56693e6ad3e424567a541c599987364b9c0",
+      "status": "SWEEP_UI_STATIC_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_term_switch_20260923.json": {
+      "sha256": "9921b59102cf15f7e9d8600c32eb7adf4a6808cb1c5a7335c9e6d6dba265365d",
+      "status": "TERM_SWITCH_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+      "instruction_present": true
+    },
+    "required_training_lookup_fix.json": {
+      "sha256": "e000ceabb45b41448ffe44e69a6097b7fc57eedb9be2810e0be7fcb6c26635cf",
+      "status": "TRAINING_LOOKUP_FIXED_STATIC_HEADLESS_PASS_NATIVE_PENDING",
+      "instruction_present": false
+    },
+    "required_translation_polish_lineflow.json": {
+      "sha256": "41c961527ef409c6d213d4ea9b09e21325bcbb07dfb5a63956d45216ebaa7684",
+      "status": "TRANSLATION_POLISH_LINEFLOW_INSTALLED_NATIVE_PARTIAL",
+      "instruction_present": true
+    }
+  },
+  "preserves_contracts_count": 93,
+  "preserved_by_key": "battle_pace_20261016_preserved_by",
+  "instruction": "Claude battle-pace layer (2026-10-16, user request: battle screen transitions shortened by the battle speed and skipped while the effects are hidden; the route line left over from a save cleared). Codex must never run publish_pace*.py --restore or otherwise remove the battle-pace layer: KR_BP* functions; 20 Ａ＿全表示 call sites of the battle scene and the encounter transitions (C_Transition::StartBattle / EndBattleOut / EndBattleIn, C_BattleEffect::RunAdvantage, C_EnemySetView@AppearEffect, C_BattleProgress@*, C_BattleTimerView@Pass, C_SceneBattle@DispEffect / Run) call KR_BPZen (no wait while the effects are hidden, KR_QuickActive; otherwise the time divided by KR_Speed); C_SceneSaveLoad@ExecAfterLoad calls KR_BPAfterLoad where it called KR_RateAfterLoad and C_SceneDungeon@SetMapId calls KR_BPFloorFade where it called N_Map::FadeDefault (both call the original first, then mark the route line dirty: flags 85/86 = -1, 89 = 1). It is user-requested: when a rebuild needs a clean base, rebase on the runtime that current.json points to and carry it forward; restore is reserved for the user's explicit request. Payload: NightRemaster.ain only. KR_BP* functions appended; no original function relocated; no new global / struct member; 22 same-length CALLFUNC operand swaps. Story scripts, menus, the dungeon and event-battle entries keep calling Ａ＿全表示 with their original times. The auto-nav pins stay (index, address and every code byte): KR_AN_E00058, KR_AN_E00063, KR_AN_E00069, KR_AN_E00104, KR_AN_E00258, KR_AN_E00260, KR_AN_E00322, KR_AN_E00611, KR_AN_E10021, KR_AN_E20041, KR_AN_E20081, KR_AN_E20164, KR_AN_E30001, KR_AN_E30021, KR_AN_E30152, KR_AN_E40021, KR_AN_E40041, KR_AN_E40043, KR_AN_E40061, KR_ANSelect, KR_ANSelFrame, KR_ANTrainConfirm, KR_ANOpeningQ, KR_ANNewGame. <runtime>/KRMenu/ is the temporary exchange-file folder of the mod-menu hook and the game script (request.txt, last_result.txt, reset.req, restore.req): never put it in a manifest, ignore it in every tree check, and never delete it (a pending reset.req / restore.req or an unread last_result.txt may be waiting there). Every earlier contract stays in force.",
+  "translator_model": "Claude Opus 5.5 (claude-opus-5-5)"
+}

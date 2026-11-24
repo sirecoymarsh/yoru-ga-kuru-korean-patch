@@ -1,0 +1,81 @@
+{
+ "status": "independent_review_done",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - independent reviewer (a different agent from the author; read every packet in full before opening the author's semantic_qa.json)",
+ "reviewed_at": "2026-09-29T21:38:17+09:00",
+ "reviewed_events": 28,
+ "reviewed_messages": 727,
+ "method": "independent_review/iqa_view.py printed each packet as speaker-joined Japanese turns; every packet was read to the end and each summary claim was checked against the lines (installed Korean consulted for names/terms). The author's semantic_qa.json was opened only after all scenes had been judged.",
+ "criteria": [
+  "(a) facts/reactions/places/emotions/guesses not in the source",
+  "(b) actor or addressee swapped",
+  "(c) other scene or branch mixed in",
+  "(d) ending/route/later events hinted",
+  "(e) protagonist = 주인공, names as installed Korean",
+  "(f) natural present tense, 1-2 sentences, <=100 chars",
+  "(g) September: E00262 battle scene short and faithful; E00265 two readings"
+ ],
+ "source_sha256": "feedcba4125592c1b359b40f14bb8c5070b8fb72d2697564c2be4e01c50ad215",
+ "summary_sha256_before": "70ef3828e076bc363dbf575e0aff134d6d6ff1bb68940086355e710e53b95681",
+ "summary_sha256_after": "4fdb67856a0666b0d65e4437505863ca69ac00a6aabcaeeea3fdd279703453a2",
+ "status_counts_after": {
+  "independent_qa_pass": 27,
+  "excluded": 1
+ },
+ "findings": [
+  {
+   "no": 202,
+   "위치": "messages 22967 (마코토) / 22972·22975 (주인공·마나미)",
+   "type": "행위자 확장 (원문에 없는 반응)",
+   "severity": "P3",
+   "before": "마코토와 주인공, 마나미가 찬성해",
+   "after": "주인공과 마나미가 찬성해",
+   "reason": "찬성을 말한 것은 주인공과 마나미뿐이다. 마코토는 제안의 취지를 이해했다고 되받았을 뿐 찬성을 말하지 않는다.",
+   "status": "fixed by independent reviewer"
+  }
+ ],
+ "unresolved": [
+  {
+   "no": 5022,
+   "type": "나중 사건 정보 노출 (스포일러 판단)",
+   "severity": "P2",
+   "status": "수정 안 함; 그 밖 탭에 이 요약을 보일지 사람이 결정"
+  }
+ ],
+ "checks": [
+  {
+   "no": 55,
+   "check": "excluded 여부",
+   "result": "keep (not excluded)",
+   "detail": "summaries.json note 참조."
+  },
+  {
+   "no": 62,
+   "check": "excluded 여부",
+   "result": "keep (not excluded)",
+   "detail": "summaries.json note 참조."
+  },
+  {
+   "no": 122,
+   "check": "excluded 여부",
+   "result": "keep (not excluded)",
+   "detail": "제작 메모 사이에 대련 상대를 고르는 극 중 혼잣말이 있어 기능 설명이 맞다."
+  },
+  {
+   "no": 123,
+   "check": "excluded 여부",
+   "result": "excluded (unchanged)",
+   "detail": "원문이 제작 메모 한 줄뿐이다."
+  },
+  {
+   "no": 203,
+   "check": "excluded 여부",
+   "result": "keep (not excluded)",
+   "detail": "특훈 주간 시작과 짝 고르기를 알리는 극 중 혼잣말이라 기능 설명이 맞다."
+  }
+ ],
+ "notes_added": [
+  55,
+  62,
+  5022
+ ]
+}

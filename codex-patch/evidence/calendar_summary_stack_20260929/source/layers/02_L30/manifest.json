@@ -1,0 +1,75 @@
+{
+ "tool": "calendar_summary_layer_tools_20260929",
+ "kind": "external_layer",
+ "name": "label_fix_KR_L30",
+ "status": "EXTERNAL_LAYER_ADOPTED_NATIVE_PENDING",
+ "installed": false,
+ "base": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_all_tabs_20260929",
+ "base_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "live_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "live_manifest_sha256": "05d32f29b3d465194accba724d68dbfd6c966b3c591ac5de7f382b20bd505ab9",
+ "source_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "5d725efff0e02fef8a8edfc5198143b35dba1412ad4bb209c5dd363296a62573",
+   "size": 4200054
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+   "size": 122368
+  }
+ },
+ "changed_functions": [
+  "KR_P29CellName",
+  "KR_P29CellCond",
+  "KR_P29ShortCond",
+  "KR_T19EvWhen",
+  "KR_T19CardCond"
+ ],
+ "added_functions": [
+  "KR_L30CardCond",
+  "KR_L30CardCondBase",
+  "KR_L30CellCond",
+  "KR_L30CellCondBase",
+  "KR_L30CellName",
+  "KR_L30CellNameBase",
+  "KR_L30EvWhen",
+  "KR_L30EvWhenBase",
+  "KR_L30ShortCond",
+  "KR_L30ShortCondBase"
+ ],
+ "external_manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_label_fix_20260929\\candidate\\stack_626743efc0b3\\manifest.json",
+ "external_manifest_sha256": "a7746147913bedc304677b9a6542e6f1108876c31b06f8c5ce32d4c6d4324247",
+ "gates": {
+  "changed": [
+   "KR_T19CardCond",
+   "KR_T19EvWhen",
+   "KR_P29CellName",
+   "KR_P29CellCond",
+   "KR_P29ShortCond"
+  ],
+  "appended": 10,
+  "pinned_unchanged": true,
+  "code_strings_messages_exact": true,
+  "opcodes_supported": true
+ },
+ "summary_layers": [],
+ "effective_summaries": null,
+ "board_layers": [],
+ "adopted_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T22:25:41.609943+09:00",
+ "provenance": {
+  "author": "Claude Opus 5.5 (claude-opus-5-5)",
+  "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "label_patch_sha256": "3f8e90a2447b8f1b25664e869de6cbe7fcd312f233f3a739a1a0dd1afd293fab",
+  "rows": 107,
+  "counts": {
+   "cell_name": 23,
+   "cell_cond": 24,
+   "short_cond": 20,
+   "ev_when": 36,
+   "card_cond": 4
+  }
+ },
+ "verification": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_label_fix_20260929\\evidence\\verification_stack_626743efc0b3.json"
+}

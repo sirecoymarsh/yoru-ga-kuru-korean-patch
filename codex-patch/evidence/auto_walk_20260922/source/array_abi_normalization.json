@@ -1,0 +1,42 @@
+[
+  {
+    "function": "KR_WalkPlanLinear",
+    "offset": 16116386,
+    "type": 80
+  },
+  {
+    "function": "KR_WalkPlanPuzzle",
+    "offset": 16117096,
+    "type": 80
+  },
+  {
+    "function": "KR_WalkRouteCount",
+    "offset": 16119165,
+    "type": 80
+  },
+  {
+    "function": "KR_WalkPoint",
+    "offset": 16119313,
+    "type": 80
+  },
+  {
+    "function": "KR_WalkPlan",
+    "offset": 16119551,
+    "type": 80
+  },
+  {
+    "function": "KR_WalkCommit",
+    "offset": 16119720,
+    "type": 80
+  },
+  {
+    "function": "KR_WalkPathValid",
+    "offset": 16119846,
+    "type": 80
+  },
+  {
+    "function": "KR_WalkStart",
+    "offset": 16120109,
+    "type": 79
+  }
+]

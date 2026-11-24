@@ -1,0 +1,142 @@
+{
+ "zoom_summary_with_panel.png": {
+  "source": "cal_summary.png",
+  "box": [
+   0,
+   140,
+   960,
+   262
+  ],
+  "sha256": "84675d9256809410d84d08fd0b966c703f11bf48f969a82c25e3f3491bc4a600"
+ },
+ "zoom_summary_out_line.png": {
+  "source": "cal_summary.png",
+  "box": [
+   60,
+   520,
+   960,
+   600
+  ],
+  "sha256": "6f56836779735d19f4f5c0df12406c2b7eaab03d4e0b83dfe843e6266d6505b0"
+ },
+ "zoom_month_head_legend.png": {
+  "source": "cal_month.png",
+  "box": [
+   90,
+   40,
+   940,
+   110
+  ],
+  "sha256": "518ccde27e8835cbc684e371bf6059bc2f9debb5a6fd4996a535f3f89ef37569"
+ },
+ "zoom_month_cells.png": {
+  "source": "cal_month.png",
+  "box": [
+   90,
+   110,
+   900,
+   320
+  ],
+  "sha256": "a9e1137ab4794d4f1023b22656852bc00399bf100baa7e64cc589f9c19ae26fa"
+ },
+ "zoom_month_items.png": {
+  "source": "cal_month.png",
+  "box": [
+   90,
+   340,
+   1190,
+   690
+  ],
+  "sha256": "2adff39ae87ef2dc27f0752bd1f592582dced73ec83994e91615c0a54bfe0b5c"
+ },
+ "zoom_lane_drawer_rows.png": {
+  "source": "cal_lane.png",
+  "box": [
+   40,
+   160,
+   1230,
+   510
+  ],
+  "sha256": "355a4f13e6547d5f97ff01d6e6015b086cfddd5f1327c8627b74d8a81037eced"
+ },
+ "zoom_apr_dungeon_lane.png": {
+  "source": "cal_lane_apr_dungeon.png",
+  "box": [
+   60,
+   200,
+   1210,
+   460
+  ],
+  "sha256": "a3b1c16c6b41d2591dd7dfeb4a2392cf5b2ca51a9b19731c9dbf110e095b5a58"
+ },
+ "zoom_memory_title_rows.png": {
+  "source": "cal_memory.png",
+  "box": [
+   190,
+   40,
+   1080,
+   580
+  ],
+  "sha256": "196b9d0797829b0647a232dd79969e1687c92faa06378ab5cd85ba61a7233b6a"
+ },
+ "zoom_card_locked_unseen.png": {
+  "source": "cal_card_locked_unseen.png",
+  "box": [
+   130,
+   200,
+   1140,
+   500
+  ],
+  "sha256": "4a4ce4077f4a511a2df7521e6c18f96ddb36aeddf1f58e5b06f96cdcffeb9894"
+ },
+ "zoom_card_locked_other.png": {
+  "source": "cal_card_locked_other.png",
+  "box": [
+   80,
+   225,
+   1190,
+   480
+  ],
+  "sha256": "e64e7cded0d608e57ca7e4d3bbcdc267171497fe580c25d90c3c709752e128e3"
+ },
+ "zoom_event_open_note.png": {
+  "source": "cal_event_open.png",
+  "box": [
+   170,
+   185,
+   1100,
+   520
+  ],
+  "sha256": "d616ecaccfd0801f0bc2bc79ac83103bd0e8d2ed3d3ae4968405a6f28dceba45"
+ },
+ "zoom_home_before_panel.png": {
+  "source": "cal_home_before.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ },
+ "zoom_home_after_panel.png": {
+  "source": "cal_home_after.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ },
+ "zoom_home_midload_panel.png": {
+  "source": "cal_home_midload.png",
+  "box": [
+   0,
+   0,
+   160,
+   390
+  ],
+  "sha256": "ef2fdd9441afc389d6f0ae319f153d99db6b583ec7b003f4be202bafa40eb7b3"
+ }
+}

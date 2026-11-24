@@ -1,0 +1,424 @@
+{
+ "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+ "base_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "runs_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\mods_effects_20261016\\증거\\runs",
+ "problems": [],
+ "speed1": {
+  "before": {
+   "run": "speed1_20261016_085426",
+   "candidate_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+   "battles": [
+    {
+     "battle": 1,
+     "ms": 17891,
+     "quick": 0,
+     "rate": 2,
+     "scaled_over_real": 2.01,
+     "transitions": 28,
+     "transition_ms": 8100,
+     "cycles_ms": [
+      5796,
+      8300,
+      7053,
+      6284
+     ]
+    },
+    {
+     "battle": 2,
+     "ms": 12732,
+     "quick": 0,
+     "rate": 2,
+     "scaled_over_real": 2.01,
+     "transitions": 22,
+     "transition_ms": 6600,
+     "cycles_ms": [
+      4986,
+      6053
+     ]
+    },
+    {
+     "battle": 3,
+     "ms": 24710,
+     "quick": 0,
+     "rate": 2,
+     "scaled_over_real": 2.0,
+     "transitions": 41,
+     "transition_ms": 12000,
+     "cycles_ms": [
+      4975,
+      6037,
+      6130,
+      7771,
+      7122
+     ]
+    }
+   ],
+   "battle_ms_total": 55333,
+   "transition_ms_total": 26700,
+   "transitions_total": 91,
+   "ms_per_transition": 293.4,
+   "transition_share": 0.48,
+   "cycle_ms_mean": 6410,
+   "cycle_n": 11
+  },
+  "after": {
+   "run": "pace_speed1_20261016_085715",
+   "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+   "battles": [
+    {
+     "battle": 1,
+     "ms": 12975,
+     "quick": 0,
+     "rate": 2,
+     "scaled_over_real": 2.01,
+     "transitions": 23,
+     "transition_ms": 6500,
+     "cycles_ms": [
+      5293,
+      6864
+     ]
+    },
+    {
+     "battle": 2,
+     "ms": 12939,
+     "quick": 0,
+     "rate": 2,
+     "scaled_over_real": 2.01,
+     "transitions": 22,
+     "transition_ms": 6600,
+     "cycles_ms": [
+      4944,
+      6010
+     ]
+    },
+    {
+     "battle": 3,
+     "ms": 20152,
+     "quick": 0,
+     "rate": 2,
+     "scaled_over_real": 2.0,
+     "transitions": 35,
+     "transition_ms": 10000,
+     "cycles_ms": [
+      4758,
+      5818,
+      6280,
+      7435
+     ]
+    }
+   ],
+   "battle_ms_total": 46066,
+   "transition_ms_total": 23100,
+   "transitions_total": 80,
+   "ms_per_transition": 288.8,
+   "transition_share": 0.5,
+   "cycle_ms_mean": 5925,
+   "cycle_n": 8
+  },
+  "before_clean": true,
+  "after_clean": true
+ },
+ "speed5": {
+  "before": {
+   "run": "speed5_20261016_084555",
+   "candidate_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+   "battles": [
+    {
+     "battle": 1,
+     "ms": 8740,
+     "quick": 0,
+     "rate": 5,
+     "scaled_over_real": 4.93,
+     "transitions": 20,
+     "transition_ms": 5500,
+     "cycles_ms": [
+      4226,
+      5532
+     ]
+    },
+    {
+     "battle": 2,
+     "ms": 3711,
+     "quick": 0,
+     "rate": 5,
+     "scaled_over_real": 4.95,
+     "transitions": 7,
+     "transition_ms": 2200,
+     "cycles_ms": []
+    },
+    {
+     "battle": 3,
+     "ms": 8410,
+     "quick": 0,
+     "rate": 5,
+     "scaled_over_real": 4.97,
+     "transitions": 17,
+     "transition_ms": 5200,
+     "cycles_ms": [
+      3737,
+      4794
+     ]
+    }
+   ],
+   "battle_ms_total": 20861,
+   "transition_ms_total": 12900,
+   "transitions_total": 44,
+   "ms_per_transition": 293.2,
+   "transition_share": 0.62,
+   "cycle_ms_mean": 4572,
+   "cycle_n": 4
+  },
+  "after": {
+   "run": "pace_speed5_20261016_084803",
+   "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+   "battles": [
+    {
+     "battle": 1,
+     "ms": 9385,
+     "quick": 0,
+     "rate": 5,
+     "scaled_over_real": 4.93,
+     "transitions": 40,
+     "transition_ms": 2300,
+     "cycles_ms": [
+      2460,
+      2724,
+      2518,
+      2597,
+      2602
+     ]
+    },
+    {
+     "battle": 2,
+     "ms": 6961,
+     "quick": 0,
+     "rate": 5,
+     "scaled_over_real": 4.96,
+     "transitions": 31,
+     "transition_ms": 1800,
+     "cycles_ms": [
+      2208,
+      2468,
+      2347,
+      2655
+     ]
+    },
+    {
+     "battle": 3,
+     "ms": 4288,
+     "quick": 0,
+     "rate": 5,
+     "scaled_over_real": 4.95,
+     "transitions": 17,
+     "transition_ms": 1040,
+     "cycles_ms": [
+      2140,
+      2412
+     ]
+    }
+   ],
+   "battle_ms_total": 20634,
+   "transition_ms_total": 5140,
+   "transitions_total": 88,
+   "ms_per_transition": 58.4,
+   "transition_share": 0.25,
+   "cycle_ms_mean": 2466,
+   "cycle_n": 11
+  },
+  "before_clean": true,
+  "after_clean": true
+ },
+ "quick": {
+  "before": {
+   "run": "quick_20261016_085009",
+   "candidate_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+   "battles": [
+    {
+     "battle": 1,
+     "ms": 6133,
+     "quick": 1,
+     "rate": 1000,
+     "scaled_over_real": 9.81,
+     "transitions": 18,
+     "transition_ms": 5100,
+     "cycles_ms": [
+      2851,
+      3890
+     ]
+    },
+    {
+     "battle": 2,
+     "ms": 2808,
+     "quick": 1,
+     "rate": 1000,
+     "scaled_over_real": 9.86,
+     "transitions": 7,
+     "transition_ms": 2200,
+     "cycles_ms": []
+    },
+    {
+     "battle": 3,
+     "ms": 6847,
+     "quick": 1,
+     "rate": 1000,
+     "scaled_over_real": 9.94,
+     "transitions": 19,
+     "transition_ms": 5600,
+     "cycles_ms": [
+      2836,
+      3881
+     ]
+    }
+   ],
+   "battle_ms_total": 15788,
+   "transition_ms_total": 12900,
+   "transitions_total": 44,
+   "ms_per_transition": 293.2,
+   "transition_share": 0.82,
+   "cycle_ms_mean": 3364,
+   "cycle_n": 4
+  },
+  "after": {
+   "run": "pace_quick_20261016_085221",
+   "candidate_ain": "d542fa37d53c5ea16fa014575572e4be64cc850d2c2af348948b09d1261a051c",
+   "battles": [
+    {
+     "battle": 1,
+     "ms": 1901,
+     "quick": 1,
+     "rate": 1000,
+     "scaled_over_real": 8.55,
+     "transitions": 28,
+     "transition_ms": 0,
+     "cycles_ms": [
+      660,
+      845,
+      720,
+      697
+     ]
+    },
+    {
+     "battle": 2,
+     "ms": 1176,
+     "quick": 1,
+     "rate": 1000,
+     "scaled_over_real": 9.41,
+     "transitions": 17,
+     "transition_ms": 0,
+     "cycles_ms": [
+      533,
+      575
+     ]
+    },
+    {
+     "battle": 3,
+     "ms": 636,
+     "quick": 1,
+     "rate": 1000,
+     "scaled_over_real": 9.16,
+     "transitions": 7,
+     "transition_ms": 0,
+     "cycles_ms": []
+    }
+   ],
+   "battle_ms_total": 3713,
+   "transition_ms_total": 0,
+   "transitions_total": 52,
+   "ms_per_transition": 0.0,
+   "transition_share": 0.0,
+   "cycle_ms_mean": 672,
+   "cycle_n": 6
+  },
+  "before_clean": true,
+  "after_clean": true
+ },
+ "route_stale": {
+  "before": "routestale_20261016_084232",
+  "after": "pace_routestale_20261016_084407",
+  "red_pixels_in_minimap": {
+   "before": {
+    "pe_routestale_start": 189,
+    "pe_routestale_step": 180,
+    "pe_routestale_step2": 180
+   },
+   "after": {
+    "pe_routestale_start": 0,
+    "pe_routestale_step": 0,
+    "pe_routestale_step2": 0
+   }
+  }
+ },
+ "route_toggle_after": {
+  "run": "pace_routetoggle_20261016_090012",
+  "red_pixels_in_minimap": {
+   "pe_rt_on_1": 180,
+   "pe_rt_on_2": 171,
+   "pe_rt_off_1": 0,
+   "pe_rt_off_2": 0,
+   "pe_rt_on_3": 180
+  }
+ },
+ "story": {
+  "before": "story_20261016_091310",
+  "after": "pace_story_20261016_091439",
+  "transitions_before": [
+   200,
+   0,
+   2000,
+   2000,
+   200,
+   0,
+   200,
+   0,
+   0,
+   0,
+   0,
+   200,
+   0,
+   200,
+   0,
+   2000
+  ],
+  "transitions_after": [
+   200,
+   0,
+   2000,
+   2000,
+   200,
+   0,
+   200,
+   0,
+   0,
+   0,
+   0,
+   200,
+   0,
+   200,
+   0,
+   2000
+  ],
+  "save": "NightR29.asd",
+  "vm_error_before": {
+   "command": "Assign",
+   "message": "範囲外アクセスエラー\n(Page = 1, Index = 13)\n要素数 = 4"
+  },
+  "vm_error_after": {
+   "command": "Assign",
+   "message": "範囲外アクセスエラー\n(Page = 1, Index = 13)\n要素数 = 4"
+  },
+  "user_save_folder_unchanged": true,
+  "note": "screen transitions outside battles while a dungeon story event plays (no screenshots). The save was taken inside a message click-wait; the probe ends that resumed wait once (input is cut off). Both runs then stop at the same VM error near the end of the event, with the installed AIN as with the candidate: a probe-condition stop, not this change; the transitions up to it are compared."
+ },
+ "checks": {
+  "speed1_transition_time_unchanged": true,
+  "speed5_transitions_divided": true,
+  "quick_no_transition_wait": true,
+  "route_line_gone_after_load": true,
+  "route_on_off_on_still_works": true,
+  "story_transitions_identical": true
+ },
+ "user_save_folder_unchanged_all": true,
+ "after_runs_clean": true,
+ "passed": true
+}

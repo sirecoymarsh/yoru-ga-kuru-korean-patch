@@ -1,0 +1,641 @@
+{
+ "status": "APRIL_SUMMARIES_NATIVE_PREVIEW_PASS_NOT_INSTALLED",
+ "candidate_sha256": "928c52bb738d57ffddce3abeeac640a18a1e686b3782c6f6308156f31fcaff38",
+ "summaries": 146,
+ "source_japanese_messages": 7049,
+ "april_list_cells": 143,
+ "list_fixture_states": [
+  "all read",
+  "none read",
+  "mixed"
+ ],
+ "detail_events": 146,
+ "detail_fixture_states": [
+  "read",
+  "unread"
+ ],
+ "native_summary_stats": {
+  "1": {
+   "lines": 4,
+   "board_height": 509
+  },
+  "2": {
+   "lines": 4,
+   "board_height": 509
+  },
+  "121": {
+   "lines": 4,
+   "board_height": 509
+  },
+  "2601": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "20001": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "8": {
+   "lines": 4,
+   "board_height": 403
+  },
+  "4": {
+   "lines": 3,
+   "board_height": 405
+  },
+  "10001": {
+   "lines": 4,
+   "board_height": 427
+  },
+  "1101": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1102": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1103": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1104": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1108": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1109": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1001": {
+   "lines": 1,
+   "board_height": 370
+  },
+  "1002": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1003": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1004": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1005": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1006": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "5011": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2001": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "2002": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2003": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2004": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2005": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2006": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2007": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2008": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2009": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2061": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2062": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2063": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2064": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2065": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2066": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2067": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2081": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2082": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2083": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2084": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2085": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2086": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2087": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2421": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2422": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "2423": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2424": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2425": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "5001": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1201": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1203": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1204": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1205": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1208": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1209": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1210": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1081": {
+   "lines": 1,
+   "board_height": 370
+  },
+  "1082": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1083": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1084": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1085": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1086": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "5012": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "2161": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2162": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2163": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2164": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2165": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2166": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2167": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2168": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "2169": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2181": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "2182": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2183": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2184": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2185": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2186": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2187": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2188": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2189": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2190": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2191": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2192": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2193": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2194": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2441": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2442": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2443": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2444": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2445": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "5002": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1501": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1502": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1503": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1504": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1505": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1506": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1041": {
+   "lines": 1,
+   "board_height": 370
+  },
+  "1042": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1043": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1044": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1045": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1046": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2361": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2362": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "2363": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2364": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2365": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2366": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2367": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2368": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2501": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2502": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2503": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2504": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2505": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "5003": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1601": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1602": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1603": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1604": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1605": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1606": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1607": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1608": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1609": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1610": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "1051": {
+   "lines": 1,
+   "board_height": 370
+  },
+  "1052": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1053": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1054": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1055": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "1056": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "2521": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2522": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "2523": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2524": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "2525": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "5004": {
+   "lines": 3,
+   "board_height": 381
+  },
+  "5000": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "6001": {
+   "lines": 2,
+   "board_height": 370
+  },
+  "5": {
+   "lines": 3,
+   "board_height": 409
+  },
+  "6": {
+   "lines": 3,
+   "board_height": 509
+  },
+  "7": {
+   "lines": 4,
+   "board_height": 509
+  }
+ },
+ "summary_max_lines": 4,
+ "board_max_height": 509,
+ "summary_characters_exact": true,
+ "unread_summary_hidden_even_unlocked": true,
+ "fields_and_portraits_preserved": true,
+ "protagonist_retained": true,
+ "names_centered": true,
+ "group_first_scene_only": true,
+ "scene_picker_native_cancel": true,
+ "baseline_pixel_exact": [
+  "may_list_unchanged",
+  "may_detail_unchanged",
+  "may_list_after_april",
+  "april_list_readable",
+  "april_list_mixed",
+  "april_list_locked",
+  "april_scene_picker",
+  "april_detail_unread_open",
+  "april_detail_unread_locked"
+ ],
+ "april_may_transition_clean": true,
+ "title_return_pixel_exact": true,
+ "original_code_and_strings_prefix_preserved": true,
+ "scenario_messages_unchanged": true,
+ "save_schema_unchanged": true,
+ "dll_unchanged": true,
+ "live_build_unchanged": true,
+ "user_files_changed": [],
+ "pid": 18500,
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "translator_model": "Codex internal",
+ "author": "/root",
+ "limitations": [
+  "April-only private native preview; not installed.",
+  "Read states are controlled test fixtures, not the user completion rate.",
+  "Scenario replay logic is unchanged and was not replayed end-to-end in this UI test.",
+  "Pre-existing date and cast metadata was preserved, not reauthored by this summary batch."
+ ]
+}

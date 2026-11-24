@@ -1,0 +1,9 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\auto_explore_click_fix_20260923\\NightRemaster.ain",
+  "source_sha256": "2c1b0174ddefda36b00ab864146eefe070971e9c6cc914df6ef14a2e560dfc86",
+  "probe_sha256": "97d31b8141f7e9582dedaa846a563fc3a97b24c0535d0fb3bf06ad4ea5925fda",
+  "guide_mode": 1,
+  "save_slot": "NightR36.asd",
+  "initialization": "PassRegister handles 0, 1, 2 only; native saved scene",
+  "input": "native CallFunctionMouseClick dispatch; not OS mouse hit testing"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "function": "KR_ExploreGuidedPlan",
+    "offset": 16855707
+  },
+  {
+    "function": "KR_ExplorePlan",
+    "offset": 16855975
+  },
+  {
+    "function": "KR_ExploreStart",
+    "offset": 16856709
+  }
+]

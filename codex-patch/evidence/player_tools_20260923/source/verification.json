@@ -1,0 +1,31 @@
+{
+  "status": "PLAYER_TOOLS_COMPILED_PASS",
+  "files": {
+    "NightRemaster.ain": "769d461aa51037eae34d48f7b15125ba6e8a4ae83126b17fb7b848ab41f9184c",
+    "NightRemasterPact.afa": "ff1a16663d65b4de95c72063709851f9615484ab610dac9787f6c1a098c7e30d"
+  },
+  "counts": {
+    "ready_guard_lifetime": 25,
+    "wrong_scene_no_mutation": 4,
+    "supported_hangul": 2364,
+    "valid_names": 7,
+    "invalid_names": 10,
+    "unsupported_names": 5,
+    "native_ban_list": 1,
+    "cancel_invalid_unchanged": 4,
+    "rename_only_name_replacement_refresh": 1,
+    "original_banned_entries": 151,
+    "event_group_cases": 48,
+    "rates": 20,
+    "menu_cancel_no_write": 1,
+    "active_choice_preserved": 1,
+    "rename_menu_refresh_count_once": 1
+  },
+  "steps": 445135,
+  "examples": [
+    "플레이 정보\n이벤트 경험률  149 / 1043  (14.2%)\n스토리  58 / 398  (14.5%)\n특훈 대화  50 / 362  (13.8%)\n특훈 초대  6 / 42  (14.2%)\n던전 동행  35 / 241  (14.5%)\n현재 저장 기준 / 전체 분기 포함 / 반복은 한 번만 집계\n이벤트 진입 기록이며 대사 완독률은 아닙니다.\n주인공 : 하늘",
+    "플레이 정보\n이벤트 경험률  149 / 1043  (14.2%)\n스토리  58 / 398  (14.5%)\n특훈 대화  50 / 362  (13.8%)\n특훈 초대  6 / 42  (14.2%)\n던전 동행  35 / 241  (14.5%)\n현재 저장 기준 / 전체 분기 포함 / 반복은 한 번만 집계\n이벤트 진입 기록이며 대사 완독률은 아닙니다.\n주인공 : 한별"
+  ],
+  "native_verified": false,
+  "boundaries": "Actual compiled helper and registry lookup JAM executed. Native scene callback, String/Array HLL, input GUI, name setter and redraw modeled; IME and normal-save restart not observed."
+}

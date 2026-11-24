@@ -1,0 +1,17 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "532f09ba127c2bdb8dbca3b41d6eb9615806a98ef326766f1d950c79d04f3ad0"
+  },
+  "reviewer": "/root/quick_battle_feasibility_review",
+  "scope": "Read-only current candidate redump; native reference ownership; metadata/CODE/tail preservation; department targets and publisher bindings",
+  "findings": [
+    "Superseded ac38 candidate rejected for two leaked owned cell references; final532f fixes both with X_DUP1, getter, X_MOV2 1, DELETE.",
+    "Only31860 repointed; old CODE prefix, MSG1 tail and all other metadata exact.",
+    "Department202/2047/0 and203 ordered unremoved groups match native event scripts; default2/1 unchanged.",
+    "Publisher candidate/current/manifest gates, one-file allowlist, externalbackup and journal/save/recovery gates reviewed."
+  ],
+  "source_ex_sha256": "fbca7f090e72ac190469d2e04b658b6a213b2d364bee11a0709e8b0eae3c20de",
+  "native_gameplay_verified": false,
+  "publisher_sha256": "76424ad68f7b2cac4bb66ea2bbd47220f91130e7fc995a8a2039c856816b543d"
+}

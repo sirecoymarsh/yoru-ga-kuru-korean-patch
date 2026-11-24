@@ -1,0 +1,11 @@
+{
+  "status": "STATIC_FONT_GEOMETRY_VISUAL_PASS",
+  "files": {
+    "NightRemaster.ain": "f3a82e856b75cbb10b455cf3575f10964c0a7218ef86c1a601c3da66404fd538",
+    "NightRemasterPact.afa": "298e436ad8f4bd8eefc2bdc740dae2daa440daa6648dc052b0183706b66159b3"
+  },
+  "reviewer": "Codex internal primary",
+  "image": "9251de5de058375e6118b381548e5d028f063a199dc4dfc8298fca79cbbd6e30",
+  "findings": "Actual FNL proof inspected: Korean visible, six body rows fit, white/cyan hierarchy on native-style navy frame, no overlaps or clipping. This is a schematic, not a game screenshot.",
+  "native_gameplay_verified": false
+}

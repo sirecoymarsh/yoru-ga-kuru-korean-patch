@@ -1,0 +1,57 @@
+{
+  "translator_model": "Codex internal",
+  "semantic_changes": false,
+  "source": "Current approved C_ConsumeItem@Create constants and display_edits consumables",
+  "rows": [
+    {
+      "id": 1,
+      "name": "반달 환약",
+      "description": "영력을 회복한다.",
+      "mold": "　　반달 환약",
+      "padding": "　　",
+      "raw_name": "逹餘 綽襾",
+      "raw_description": "袢鐡蝨 綛輹繻餠.",
+      "raw_mold": "　　逹餘 綽襾"
+    },
+    {
+      "id": 2,
+      "name": "달의 물방울",
+      "description": "독 상태를 해제한다.\t",
+      "mold": "달의 물방울",
+      "padding": "",
+      "raw_name": "餘蝸 邨逡蠍",
+      "raw_description": "韋 跂腆錮 繞虱繻餠.\t",
+      "raw_mold": "餘蝸 邨逡蠍"
+    },
+    {
+      "id": 3,
+      "name": "달빛 수정",
+      "description": "마비 상태를 해제한다.",
+      "mold": "　　달빛 수정",
+      "padding": "　　",
+      "raw_name": "餘躋 豌蚣",
+      "raw_description": "鉋躰 跂腆錮 繞虱繻餠.",
+      "raw_mold": "　　餘躋 豌蚣"
+    },
+    {
+      "id": 4,
+      "name": "보름달 환약",
+      "description": "영력을 모두 회복한다.",
+      "mold": "　　보름달 환약",
+      "padding": "　　",
+      "raw_name": "轅鍄餘 綽襾",
+      "raw_description": "袢鐡蝨 酘靺 綛輹繻餠.",
+      "raw_mold": "　　轅鍄餘 綽襾"
+    },
+    {
+      "id": 5,
+      "name": "카샤의 영약",
+      "description": "쓰러진 동료를 일으킨다.",
+      "mold": "카샤의 영약",
+      "padding": "",
+      "raw_name": "苣贔蝸 袢襾",
+      "raw_description": "詭鑼薀 鞦鏨錮 蜩蝓膂餠.",
+      "raw_mold": "苣贔蝸 袢襾"
+    }
+  ]
+}

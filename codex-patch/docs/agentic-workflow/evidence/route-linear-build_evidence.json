@@ -1,0 +1,41 @@
+{
+  "status": "ROUTE_LINEAR_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "9f918dafa71449cceb264cb6c8107041bf7562f2b7a203d39f835452d1b9522f",
+    "status": "SWEEP_UI_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "edf32d46d6ee1baa1c2101c6fca39a74aaa53f5e91033c9f03c3f3ee2a5e50b5"
+  },
+  "files": {
+    "NightRemaster.ain": "0130135eff6c1b156a76f2fa9505addae18d5b2bdbaedc27ab711a54e368ad39"
+  },
+  "patched_function_ids": [
+    27007,
+    27010,
+    27025,
+    27031,
+    31860
+  ],
+  "added_functions": {
+    "KR_RouteAppendLinear": 31907,
+    "KR_RouteCellLinear": 31908,
+    "KR_DrawRouteLinear": 31909
+  },
+  "unchanged_files": {
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+    "NightRemaster.exe": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e",
+    "NightRemasterFont.fnl": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf"
+  },
+  "serialized_metadata_exact": true,
+  "old_CODE_MSG1_STR0_exact": true,
+  "route_algorithm": "One900cell scalar grid pass and one bounded four-direction BFS; row-major equal-distance goal selection; start excluded; native passability; department event priority unchanged",
+  "invalidations": "Retain every map/rebuild/load/option hook; skip topology setter invalidation only when value unchanged",
+  "native_gameplay_verified": false,
+  "native_performance_measured": false
+}

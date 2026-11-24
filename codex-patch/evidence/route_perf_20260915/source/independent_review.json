@@ -1,0 +1,17 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "39c55a8c8c5fadb77a235116a80c10798482313e72bfda50df5ea07d3766bf0e"
+  },
+  "reviewer": "/root/quick_battle_feasibility_review",
+  "review_scope": "Read-only independent redump of persisted candidate and publisher review",
+  "findings": [
+    "Prior candidate rejected for uncleared native AStar output; final candidate clears route and recreates search for each exit.",
+    "Eight address changes only, old CODE and MSG1 onwards and all other metadata preserved.",
+    "Native dispatch audit covers 29974 concrete functions and 1803603 instruction sites without unsupported opcodes.",
+    "Publisher omission corrected by primary: current build/publish route scripts and scan script now archived instead of old opcode wrapper."
+  ],
+  "farther_exit_first_fixture": "PASS",
+  "publisher_sha256": "2a5264a0fde974846d079d0321bad350ba238d2f97ac305fbe52515ea15c569b",
+  "native_performance_measured": false
+}

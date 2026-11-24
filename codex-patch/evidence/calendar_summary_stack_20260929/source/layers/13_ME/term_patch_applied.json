@@ -1,0 +1,197 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_a_summaries_20260929\\design\\summaries.json",
+   "term_folder": "memory_a",
+   "file_sha_now": "108aaa9ed5e1ca2307419808248ee1aa3623a20fe1ace43723c054203dc0b7f1",
+   "file_sha_at_audit": "7e11232d49e9d5b185f8b949a26ae01bdc7405079c32cf51d93f90fcadafdb06"
+  },
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_memory_b_summaries_20260929\\design\\summaries.json",
+   "term_folder": "memory_b",
+   "file_sha_now": "7a9229c41fe346df78b1401c40a2c809938bd2720a39b3aaff5125c0186f099f",
+   "file_sha_at_audit": "f597118a609d11b086a219c7463ba253f186879068f99f15b5c9fa76ab026b56"
+  }
+ ],
+ "events": [
+  {
+   "no": 50112,
+   "folder": "memory_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "남자에게 씐 적을",
+     "after": "남자에게 씐 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "c92d1925816681e689e0870cc37fbcb8173d981c48ad24cfaa7bc496583ba962",
+   "sha256_after": "d37ab895382070dedca95d990c9b4d3896f544bf70adf348a223efc7e7c3001e",
+   "summary_after": "반년 뒤 교복 차림의 주인공이 진학한 이즈미와 데이트하며 부원들의 근황을 나눈다. 그날 밤 일행은 소녀를 쫓던 남자에게 씐 히카리를 쓰러뜨리고 소녀를 구한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 50204,
+   "folder": "memory_a",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "애완동물을 노리던 적을",
+     "after": "애완동물을 노리던 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "28447f044f1633b5acfce02850ca797040a4382c7586b24fc7a7bd0a0d328d6f",
+   "sha256_after": "7110aca46411144595447bdcf4650469d8d320797ad773aa36d3220efef0a4f2",
+   "summary_after": "쿄카가 주운 새끼 고양이와 치로가 공원에서 사라져 주인공이 함께 찾다가 애완동물을 노리던 히카리를 쓰러뜨린다. 쿄카는 위험을 걱정해 고양이를 남에게 맡기고 주인공에게 고마워한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 50501,
+   "folder": "memory_a",
+   "proposals": 3,
+   "eligible": 2,
+   "skipped": [],
+   "sha256_before": "b415403b84d5cad5883814d5fe1e40c8a54744ef7837ead94b9f0e263adb95a2",
+   "sha256_after": "2bca57769e28609deee0538bb0958bd6b3ce81d1aceb774a79e93a4980bfc10b",
+   "summary_after": "푸른 달 아래 주인공은 이즈미와 함께 벌레 모양의 히카리에게 홀려 꿈에 빠진 반 친구 에미를 지켜본다. 사람의 마음을 빨아먹는 히카리에게 분노한 주인공은 자신이 싸울 수 있기를 바란다.",
+   "gate_problems": [
+    "longer than 100 (103)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (103)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "벌레 모양의 적에게",
+     "after": "벌레 모양의 히카리에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "빨아먹는 적에게",
+     "after": "빨아먹는 히카리에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 50502,
+   "folder": "memory_a",
+   "proposals": 3,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "자신이 붙여 둔 적이",
+     "after": "자신이 붙여 둔 히카리가",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "c70a59a92e0ed82fcf7dcdc77790df744bcfa89ebf1dbf0338d8403fb17dc6fe",
+   "sha256_after": "0c312b47e478968b2fe8af31036db1be3471eefd6660316eac249c1bf8dba938",
+   "summary_after": "공원에서 소녀를 짓밟던 하이지가 자신이 붙여 둔 히카리가 금세 쓰러진 것을 알고 사냥꾼의 존재를 눈치챈다. 손대지 말라는 전화 지시에도 하이지는 사냥꾼들을 찾아 죽이겠다고 벼른다.",
+   "gate_problems": []
+  },
+  {
+   "no": 60001,
+   "folder": "memory_b",
+   "proposals": 2,
+   "eligible": 2,
+   "skipped": [],
+   "sha256_before": "96ecd2cec7c7c1a0b4abf3bcb388f34cf1b7e0a0cfcec28f383b0efd3f05f11f",
+   "sha256_after": "3de8a0f0efcde3e4100968a44d2a916d67f4bc368c752e8e23434bc839e9397e",
+   "summary_after": "쿄카와 하교하며 망설이던 주인공이 이즈미를 따라간 밤의 공원에서 히카리에게 홀린 에미를 목격한다. 펜던트를 검으로 바꿔 동료들과 히카리를 물리친 주인공은 함께 싸우자는 부탁에 응한다.",
+   "gate_problems": [
+    "longer than 100 (102)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (102)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "적에게 홀린 에미를",
+     "after": "히카리에게 홀린 에미를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "동료들과 적을 물리친",
+     "after": "동료들과 히카리를 물리친",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 60006,
+   "folder": "memory_b",
+   "proposals": 1,
+   "eligible": 1,
+   "skipped": [],
+   "sha256_before": "e8ac6d07bf7d76314c2db8070fd3a51bc43cc91aeecead7b78946e64b3b06803",
+   "sha256_after": "345d6a707abe9dd0df2fe517b70190982b30c37ddc2bbf4848d30615fd2eee8f",
+   "summary_after": "우메다에게 크게 다친 모모세를 이즈미가 밤새 치료하고, 히카리에게 홀린 우메다와의 싸움에 모모세도 가세한다. 이즈미는 도망치라는 말에 꼭 따른다는 조건으로 모모세의 입부를 허락한다.",
+   "gate_problems": [
+    "longer than 100 (101)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (101)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "적에게 홀린 우메다와의",
+     "after": "히카리에게 홀린 우메다와의",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  }
+ ],
+ "applied": 3,
+ "skipped_proposals": 5,
+ "skipped_summaries": 0,
+ "below_threshold": 4,
+ "changed_ids": [
+  50112,
+  50204,
+  50502
+ ],
+ "gate_skipped": [
+  {
+   "no": 50501,
+   "problems": [
+    "longer than 100 (103)"
+   ],
+   "proposals": 2
+  },
+  {
+   "no": 60001,
+   "problems": [
+    "longer than 100 (102)"
+   ],
+   "proposals": 2
+  },
+  {
+   "no": 60006,
+   "problems": [
+    "longer than 100 (101)"
+   ],
+   "proposals": 1
+  }
+ ],
+ "tag": "ME",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:28:59.301107+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

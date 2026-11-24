@@ -1,0 +1,132 @@
+{
+  "status": "STORY_PROGRESS_STATIC_NATIVE_PASS",
+  "files": {
+    "NightRemaster.ain": "dc34355abbdf7753821ef834f3b44b8cf76f9d00d8ab226350c150a1e569c759",
+    "NightRemasterPact.afa": "b6c0253bffedc2853c7d800b59bdc4a673df3365f0c8f12b42c4e24a9871b2f8"
+  },
+  "existing_resume_saves": 49,
+  "saved_return_frames": 1197,
+  "save_schema_equal": true,
+  "old_CODE_allowlist_exact": true,
+  "changed_PACT": [],
+  "native_probes": {
+    "NightR38.asd": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\story_progress_20260926\\native_probe_20260926_181704\\result.json",
+    "NightR36.asd": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\story_progress_20260926\\native_probe_20260926_181959\\result.json"
+  },
+  "real_saves_unchanged": true,
+  "OS_mouse_hit_test": false,
+  "checkpoint_aliases": 60,
+  "story_source": "Current-save event registry; highest checkpoint, no estimated percentage",
+  "separate_event_collection": "Current-save entered events / 1043 across all branches",
+  "geometry": [
+    {
+      "size": 16,
+      "width": 91.5,
+      "limit": 220,
+      "text": "본편: 기록 없음"
+    },
+    {
+      "size": 16,
+      "width": 74.25,
+      "limit": 220,
+      "text": "본편: 도입부"
+    },
+    {
+      "size": 16,
+      "width": 104.75,
+      "limit": 220,
+      "text": "본편: 백화점 진입"
+    },
+    {
+      "size": 16,
+      "width": 104.75,
+      "limit": 220,
+      "text": "본편: 백화점 이후"
+    },
+    {
+      "size": 16,
+      "width": 91.5,
+      "limit": 220,
+      "text": "본편: 학교 진입"
+    },
+    {
+      "size": 16,
+      "width": 91.5,
+      "limit": 220,
+      "text": "본편: 학교 이후"
+    },
+    {
+      "size": 16,
+      "width": 118.0,
+      "limit": 220,
+      "text": "본편: 수수께끼의 틈"
+    },
+    {
+      "size": 16,
+      "width": 148.5,
+      "limit": 220,
+      "text": "본편: 수수께끼의 틈 이후"
+    },
+    {
+      "size": 16,
+      "width": 104.75,
+      "limit": 220,
+      "text": "본편: 서양관 진입"
+    },
+    {
+      "size": 16,
+      "width": 104.75,
+      "limit": 220,
+      "text": "본편: 서양관 이후"
+    },
+    {
+      "size": 16,
+      "width": 74.25,
+      "limit": 220,
+      "text": "본편: 학원제"
+    },
+    {
+      "size": 16,
+      "width": 104.75,
+      "limit": 220,
+      "text": "본편: 최종장 직전"
+    },
+    {
+      "size": 16,
+      "width": 74.25,
+      "limit": 220,
+      "text": "본편: 최종장"
+    },
+    {
+      "size": 16,
+      "width": 91.5,
+      "limit": 220,
+      "text": "본편: 엔딩 완료"
+    },
+    {
+      "size": 16,
+      "width": 158.5,
+      "limit": 220,
+      "text": "본편: 미기록 (재저장 필요)"
+    },
+    {
+      "size": 14,
+      "width": 155.25,
+      "limit": 220,
+      "text": "전체 달성률 100.0% (이벤트)"
+    },
+    {
+      "size": 14,
+      "width": 146.75,
+      "limit": 220,
+      "text": "전체 달성률 -- / 재저장 필요"
+    },
+    {
+      "size": 20,
+      "width": 462.0,
+      "limit": 696,
+      "text": "12월 31일 · 호무라 라이코 동굴 최심층⑩ · 남은 시간 9999"
+    }
+  ],
+  "legacy_metadata": "Missing main checkpoint is explicit; new save captures it"
+}

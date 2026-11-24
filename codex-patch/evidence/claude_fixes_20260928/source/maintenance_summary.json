@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": true,
+  "persistent_denial_blocks": true,
+  "restart_recovery_idempotent": true,
+  "same_size_tamper_rejected": true,
+  "partial_backup_skipped": true,
+  "real_sharing_violation_unchanged": true,
+  "ime_harness": true
+}

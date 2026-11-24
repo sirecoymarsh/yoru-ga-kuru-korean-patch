@@ -1,0 +1,761 @@
+; C_BattleProgress@CheckAction
+; ARG  0: friends : ref array<ref battle_friend_t>
+; ARG  1: enemies : ref array<ref battle_enemy_t>
+; VAR  2: i : int
+; VAR  3: pa : ref C_Ability
+; VAR  4: <dummy : L_Party::AbilityAtの戻り値> : ref C_Ability
+; VAR  5: pf : ref battle_friend_t
+; VAR  6: bSet : bool
+; VAR  7: nAlpha : int
+; VAR  8: nMenuResult : int
+; VAR  9: menu : ref C_BattleSelectView
+; VAR 10: <dummy : 右辺値参照化用> : ref C_BattleSelectView
+; VAR 11: j : int
+; VAR 12: <dummy : LAbility::AtIndexの戻り値> : ref C_Ability
+; VAR 13: <dummy : LAbility::AtIndexの戻り値> : ref C_Ability
+; VAR 14: i : int
+; VAR 15: pe : ref battle_enemy_t
+; VAR 16: pm : ref C_Monster
+; VAR 17: nDepth : int
+; VAR 18: bRangeA : bool
+; VAR 19: bRangeB : bool
+; VAR 20: <dummy : C_Monster@aAction::getの戻り値> : ref array<ref C_MonsterAction>
+; VAR 21: <dummy : C_Monster@aAction::getの戻り値> : ref array<ref C_MonsterAction>
+; VAR 22: nAction : int
+; RETURN: bool
+FUNC 29221
+	.LOCALASSIGN i 0
+0x99ed38:
+	.LOCALREF i
+	PUSH 3
+	LT
+	IFZ 0x99fbe2
+	PUSHLOCALPAGE
+	PUSH 3
+	.LOCALREF i
+	CALLFUNC L_Party::AbilityAt
+	.LOCALREF "<dummy : L_Party::AbilityAtの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 4
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	PUSHLOCALPAGE
+	PUSH 5
+	.LOCALREF friends
+	.LOCALREF i
+	X_REF 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALREF pa
+	PUSH -1
+	EQUALE
+	IFNZ 0x99ee3a
+	.LOCALREF pf
+	PUSH -1
+	EQUALE
+	IFNZ 0x99ee3a
+	PUSH 0
+	JUMP 0x99ee40
+0x99ee3a:
+	PUSH 1
+0x99ee40:
+	IFNZ 0x99ee4c
+	JUMP 0x99eebe
+0x99ee4c:
+	.LOCALDELETE pf
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	.LOCALDELETE pa
+	JUMP 0x99fbc8
+0x99eebe:
+	.LOCALREF pa
+	PUSH 27301
+	CALLMETHOD 0
+	NOT
+	IFNZ 0x99eee6
+	JUMP 0x99ef58
+0x99eee6:
+	.LOCALDELETE pf
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	.LOCALDELETE pa
+	JUMP 0x99fbc8
+0x99ef58:
+	.STRUCTREF C_BattleProgress m_MessageView
+	PUSH 29216
+	PUSH 0
+	CALLMETHOD 1
+	.LOCALREF pf
+	PUSH 2
+	X_REF 1
+	PUSH 0
+	EQUALE
+	IFZ 0x99efd4
+	.LOCALREF pf
+	PUSH 1
+	X_REF 1
+	PUSH 0
+	LTE
+	IFZ 0x99efd4
+	PUSH 1
+	JUMP 0x99efda
+0x99efd4:
+	PUSH 0
+0x99efda:
+	NOT
+	IFNZ 0x99efe8
+	JUMP 0x99f05a
+0x99efe8:
+	.LOCALDELETE pf
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	.LOCALDELETE pa
+	JUMP 0x99fbc8
+0x99f05a:
+	.LOCALASSIGN bSet 0
+	.STRUCTREF C_BattleProgress m_FHilites
+	PUSH 0
+	CALLHLL Array Fill 1
+	POP
+	.STRUCTREF C_BattleProgress m_FHilites
+	.LOCALREF i
+	PUSH 1
+	X_ASSIGN 1
+	POP
+	PUSHSTRUCTPAGE
+	PUSH 29254
+	.STRUCTREF C_BattleProgress m_FHilites
+	CALLMETHOD 1
+	POP
+	.LOCALREF pa
+	PUSH 0
+	X_REF 1
+	PUSH 1
+	EQUALE
+	IFNZ 0x99f10a
+	JUMP 0x99f11a
+0x99f10a:
+	PUSHSTRUCTPAGE
+	PUSH 29237
+	CALLMETHOD 0
+	POP
+0x99f11a:
+	.LOCALREF pa
+	PUSH 27386
+	CALLMETHOD 0
+	IFNZ 0x99f140
+	JUMP 0x99f29c
+0x99f140:
+	.LOCALASSIGN bSet 0
+	PUSHLOCALPAGE
+	PUSH 7
+	PUSH 100
+	CALLFUNC RAND
+	PUSH 1
+	SUB
+	X_ASSIGN 1
+	POP
+	.LOCALREF nAlpha
+	PUSH 33
+	LT
+	IFNZ 0x99f19c
+	JUMP 0x99f1ea
+0x99f19c:
+	PUSHSTRUCTPAGE
+	PUSH 29234
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF enemies
+	PUSH 1
+	CALLMETHOD 6
+	POP
+	JUMP 0x99f296
+0x99f1ea:
+	.LOCALREF nAlpha
+	PUSH 67
+	LT
+	IFNZ 0x99f20c
+	JUMP 0x99f254
+0x99f20c:
+	PUSHSTRUCTPAGE
+	PUSH 29239
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF i
+	CALLMETHOD 5
+	POP
+	JUMP 0x99f296
+0x99f254:
+	PUSHSTRUCTPAGE
+	PUSH 29238
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF i
+	CALLMETHOD 5
+	POP
+0x99f296:
+	JUMP 0x99faf4
+0x99f29c:
+	PUSH 1
+	IFZ 0x99f2d4
+	.GLOBALREF Flags
+	PUSH 26609
+	CALLMETHOD 0
+	IFZ 0x99f2d4
+	PUSH 1
+	JUMP 0x99f2da
+0x99f2d4:
+	PUSH 0
+0x99f2da:
+	IFNZ 0x99f2e6
+	JUMP 0x99f382
+0x99f2e6:
+	PUSHSTRUCTPAGE
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF friends
+	CALLFUNC KR_ItemsTry
+	IFZ 0x99f33a
+	.LOCALASSIGN bSet 1
+	JUMP 0x99f37c
+0x99f33a:
+	PUSHSTRUCTPAGE
+	PUSH 29242
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF enemies
+	CALLMETHOD 5
+	POP
+0x99f37c:
+	JUMP 0x99faf4
+0x99f382:
+	.LOCALREF pa
+	PUSH 0
+	X_REF 1
+	PUSH 1
+	EQUALE
+	IFNZ 0x99f3b0
+	JUMP 0x99f3c0
+0x99f3b0:
+	PUSHSTRUCTPAGE
+	PUSH 29237
+	CALLMETHOD 0
+	POP
+0x99f3c0:
+	.STRUCTREF C_BattleProgress m_SubView
+	PUSH 29407
+	.LOCALREF pa
+	PUSH 27332
+	CALLMETHOD 0
+	PUSH -1
+	CALLMETHOD 2
+	PUSHSTRUCTPAGE
+	PUSH 29256
+	.LOCALREF enemies
+	CALLMETHOD 1
+	POP
+	.STRUCTREF C_BattleProgress m_FHilites
+	PUSH 0
+	CALLHLL Array Fill 1
+	POP
+	.STRUCTREF C_BattleProgress m_FHilites
+	.LOCALREF i
+	PUSH 1
+	X_ASSIGN 1
+	POP
+	PUSHSTRUCTPAGE
+	PUSH 29254
+	.STRUCTREF C_BattleProgress m_FHilites
+	CALLMETHOD 1
+	POP
+	.LOCALASSIGN nMenuResult -1
+	PUSHLOCALPAGE
+	PUSH 9
+	PUSH 0
+	NEW C_BattleSelectView 29294
+	.LOCALREF "<dummy : 右辺値参照化用>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 10
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : 右辺値参照化用>"
+	PUSHLOCALPAGE
+	PUSH 8
+	.LOCALREF menu
+	PUSH 29302
+	.LOCALREF i
+	PUSH 0
+	CALLMETHOD 2
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 9
+	X_DUP 2
+	X_REF 1
+	PUSH -1
+	X_MOV 2 1
+	DELETE
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : 右辺値参照化用>"
+	.LOCALDELETE menu
+	.LOCALREF nMenuResult
+	SWITCH 511
+	JUMP 0x99fade
+.CASE 511:2 0
+	PUSHSTRUCTPAGE
+	PUSH 29234
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF enemies
+	PUSH 0
+	CALLMETHOD 6
+	POP
+	JUMP 0x99fade
+.CASE 511:3 1
+	PUSHSTRUCTPAGE
+	PUSH 29235
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF i
+	.LOCALREF enemies
+	CALLMETHOD 6
+	POP
+	JUMP 0x99fade
+.CASE 511:4 2
+	PUSHSTRUCTPAGE
+	PUSH 29238
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF i
+	CALLMETHOD 5
+	POP
+	JUMP 0x99fade
+.CASE 511:5 3
+	PUSHSTRUCTPAGE
+	PUSH 29239
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF i
+	CALLMETHOD 5
+	POP
+	JUMP 0x99fade
+.CASE 511:7 4
+	PUSHSTRUCTPAGE
+	PUSH 29240
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	CALLMETHOD 4
+	POP
+	JUMP 0x99fade
+.CASE 511:8 5
+	PUSHSTRUCTPAGE
+	PUSH 29241
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF i
+	CALLMETHOD 5
+	POP
+	JUMP 0x99fade
+.CASE 511:0 8
+	PUSHSTRUCTPAGE
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF friends
+	CALLFUNC KR_ItemsTry
+	IFZ 0x99f7de
+	.LOCALASSIGN bSet 1
+	JUMP 0x99f820
+0x99f7de:
+	PUSHSTRUCTPAGE
+	PUSH 29242
+	PUSHLOCALPAGE
+	PUSH 6
+	.LOCALREF pa
+	.LOCALREF pf
+	.LOCALREF enemies
+	CALLMETHOD 5
+	POP
+0x99f820:
+	JUMP 0x99fade
+.CASE 511:1 10101
+	.STRUCTASSIGN C_BattleProgress m_DbgForceResult 1
+	PUSH 1
+	RETURN
+.CASE 511:9 10102
+	.STRUCTASSIGN C_BattleProgress m_DbgForceResult 2
+	PUSH 1
+	RETURN
+.CASE 511:10 10103
+	.STRUCTASSIGN C_BattleProgress m_DbgForceResult 3
+	PUSH 1
+	RETURN
+.CASE 511:11 10104
+	CALLFUNC LAbility::CompleteRecoveryAll
+	CALLFUNC L_StatusFace::UpdateAll
+	JUMP 0x99fade
+.CASE 511:6 10105
+	.LOCALASSIGN j 0
+0x99f8a8:
+	.LOCALREF j
+	PUSH 3
+	LT
+	IFZ 0x99fa9c
+	.LOCALREF j
+	CALLFUNC LAbility::AtIndex
+	.LOCALREF "<dummy : LAbility::AtIndexの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 13
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x99f936
+	PUSH 27336
+	CALLMETHOD 0
+	PUSH 0
+	JUMP 0x99f944
+0x99f936:
+	POP
+	PUSH -1
+	PUSH 1
+0x99f944:
+	PUSH 1
+	GTE
+	IFZ 0x99f95a
+	POP
+	PUSH 0
+0x99f95a:
+	PUSH 0
+	GT
+	.LOCALDELETE "<dummy : LAbility::AtIndexの戻り値>#1"
+	IFZ 0x99fa3a
+	.LOCALREF j
+	CALLFUNC LAbility::AtIndex
+	.LOCALREF "<dummy : LAbility::AtIndexの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 12
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_DUP 1
+	X_MOV 2 1
+	PUSH -1
+	EQUALE
+	IFNZ 0x99fa04
+	PUSH 27364
+	PUSH 1
+	CALLMETHOD 1
+	PUSH 0
+	JUMP 0x99fa12
+0x99fa04:
+	POP
+	PUSH -1
+	PUSH 1
+0x99fa12:
+	POP
+	POP
+	.LOCALDELETE "<dummy : LAbility::AtIndexの戻り値>"
+0x99fa3a:
+	.LOCALDELETE "<dummy : LAbility::AtIndexの戻り値>#1"
+	.LOCALDELETE "<dummy : LAbility::AtIndexの戻り値>"
+	.LOCALINC3 j
+	JUMP 0x99f8a8
+0x99fa9c:
+	CALLFUNC L_StatusFace::UpdateAll
+	JUMP 0x99fade
+.CASE 511:12 10106
+	.STRUCTREF C_BattleProgress m_EnemySetView
+	.LOCALREF friends
+	.LOCALREF enemies
+	CALLFUNC N_Battle::DebugBadStatus
+	JUMP 0x99fade
+0x99fade:
+	.LOCALREF bSet
+	NOT
+	IFNZ 0x99f382
+0x99faf4:
+	.STRUCTREF C_BattleProgress m_SubView
+	PUSH 29407
+	PUSH 0
+	PUSH -1
+	CALLMETHOD 2
+	.STRUCTREF C_BattleProgress m_FHilites
+	PUSH 1
+	CALLHLL Array Fill 1
+	POP
+	PUSHSTRUCTPAGE
+	PUSH 29254
+	.STRUCTREF C_BattleProgress m_FHilites
+	CALLMETHOD 1
+	POP
+	.LOCALDELETE pf
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	.LOCALDELETE pa
+0x99fbc8:
+	.LOCALINC3 i
+	JUMP 0x99ed38
+0x99fbe2:
+	.LOCALASSIGN i#1 0
+0x99fbf8:
+	.LOCALREF i#1
+	PUSH 9
+	LT
+	IFZ 0x9a0306
+	PUSHLOCALPAGE
+	PUSH 15
+	.LOCALREF enemies
+	.LOCALREF i#1
+	X_REF 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALREF pe
+	PUSH -1
+	EQUALE
+	IFNZ 0x99fc68
+	JUMP 0x99fc92
+0x99fc68:
+	.LOCALDELETE pe
+	JUMP 0x9a02ec
+0x99fc92:
+	.LOCALREF pe
+	PUSH 5
+	X_REF 1
+	PUSH 0
+	EQUALE
+	IFZ 0x99fcee
+	.LOCALREF pe
+	PUSH 4
+	X_REF 1
+	PUSH 0
+	LTE
+	IFZ 0x99fcee
+	PUSH 1
+	JUMP 0x99fcf4
+0x99fcee:
+	PUSH 0
+0x99fcf4:
+	NOT
+	IFNZ 0x99fd02
+	JUMP 0x99fd2c
+0x99fd02:
+	.LOCALDELETE pe
+	JUMP 0x9a02ec
+0x99fd2c:
+	PUSHSTRUCTPAGE
+	PUSH 29263
+	.LOCALREF pe
+	CALLMETHOD 1
+	NOT
+	IFNZ 0x99fd56
+	JUMP 0x99fd80
+0x99fd56:
+	.LOCALDELETE pe
+	JUMP 0x9a02ec
+0x99fd80:
+	.LOCALREF pe
+	PUSH 10
+	X_REF 1
+	PUSH 0
+	GT
+	IFNZ 0x99fdae
+	JUMP 0x99fe3e
+0x99fdae:
+	PUSH 100
+	CALLFUNC RAND
+	PUSH 50
+	LTE
+	IFNZ 0x99fdce
+	JUMP 0x99fe06
+0x99fdce:
+	PUSHSTRUCTPAGE
+	PUSH 29244
+	.LOCALREF i#1
+	.LOCALREF pe
+	PUSH -2
+	CALLMETHOD 3
+	POP
+	JUMP 0x99fe38
+0x99fe06:
+	PUSHSTRUCTPAGE
+	PUSH 29244
+	.LOCALREF i#1
+	.LOCALREF pe
+	PUSH 0
+	CALLMETHOD 3
+	POP
+0x99fe38:
+	JUMP 0x9a02c8
+0x99fe3e:
+	PUSHLOCALPAGE
+	PUSH 16
+	.LOCALREF pe
+	PUSH 0
+	X_REF 1
+	X_ASSIGN 1
+	SP_INC
+	PUSHLOCALPAGE
+	PUSH 17
+	.LOCALREF pe
+	PUSH 2
+	X_REF 1
+	PUSH 1
+	ADD
+	X_ASSIGN 1
+	POP
+	.LOCALASSIGN bRangeA 0
+	.LOCALASSIGN bRangeB 0
+	.LOCALREF pm
+	PUSH 26212
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_Monster@aAction::getの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 20
+	X_MOV 3 2
+	X_ASSIGN 1
+	PUSH 0
+	X_REF 1
+	PUSH 26118
+	CALLMETHOD 0
+	.LOCALREF nDepth
+	GTE
+	.LOCALDELETE "<dummy : C_Monster@aAction::getの戻り値>"
+	IFNZ 0x99ff84
+	.LOCALDELETE "<dummy : C_Monster@aAction::getの戻り値>"
+	JUMP 0x99ffbe
+0x99ff84:
+	.LOCALASSIGN bRangeA 1
+	.LOCALDELETE "<dummy : C_Monster@aAction::getの戻り値>"
+0x99ffbe:
+	.LOCALREF pm
+	PUSH 26212
+	CALLMETHOD 0
+	.LOCALREF "<dummy : C_Monster@aAction::getの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 21
+	X_MOV 3 2
+	X_ASSIGN 1
+	PUSH 1
+	X_REF 1
+	PUSH 26118
+	CALLMETHOD 0
+	.LOCALREF nDepth
+	GTE
+	.LOCALDELETE "<dummy : C_Monster@aAction::getの戻り値>#1"
+	IFNZ 0x9a007c
+	.LOCALDELETE "<dummy : C_Monster@aAction::getの戻り値>#1"
+	JUMP 0x9a00b6
+0x9a007c:
+	.LOCALASSIGN bRangeB 1
+	.LOCALDELETE "<dummy : C_Monster@aAction::getの戻り値>#1"
+0x9a00b6:
+	.LOCALASSIGN nAction -1
+	.LOCALREF bRangeA
+	IFNZ 0x9a00e6
+	JUMP 0x9a0190
+0x9a00e6:
+	.LOCALREF bRangeB
+	IFNZ 0x9a0100
+	JUMP 0x9a0174
+0x9a0100:
+	PUSH 100
+	CALLFUNC RAND
+	PUSH 1
+	SUB
+	.LOCALREF pe
+	PUSH 7
+	X_REF 1
+	LT
+	IFNZ 0x9a013c
+	JUMP 0x9a0158
+0x9a013c:
+	.LOCALASSIGN nAction 1
+	JUMP 0x9a016e
+0x9a0158:
+	.LOCALASSIGN nAction 0
+0x9a016e:
+	JUMP 0x9a018a
+0x9a0174:
+	.LOCALASSIGN nAction 0
+0x9a018a:
+	JUMP 0x9a01dc
+0x9a0190:
+	.LOCALREF bRangeB
+	IFNZ 0x9a01aa
+	JUMP 0x9a01c6
+0x9a01aa:
+	.LOCALASSIGN nAction 1
+	JUMP 0x9a01dc
+0x9a01c6:
+	.LOCALASSIGN nAction -1
+0x9a01dc:
+	.LOCALREF nAction
+	SWITCH 512
+	JUMP 0x9a026a
+.CASE 512:0 0
+	.LOCALREF pe
+	PUSH 7
+	.LOCALREF pm
+	PUSH 26185
+	CALLMETHOD 0
+	PLUSA
+	POP
+	JUMP 0x9a026a
+.CASE 512:1 1
+	.LOCALREF pe
+	PUSH 7
+	.LOCALREF pm
+	PUSH 26182
+	CALLMETHOD 0
+	X_ASSIGN 1
+	POP
+	JUMP 0x9a026a
+0x9a026a:
+	PUSHSTRUCTPAGE
+	PUSH 29244
+	.LOCALREF i#1
+	.LOCALREF pe
+	.LOCALREF nAction
+	CALLMETHOD 3
+	POP
+	.LOCALDELETE pm
+0x9a02c8:
+	.LOCALDELETE pe
+0x9a02ec:
+	.LOCALINC3 i#1
+	JUMP 0x99fbf8
+0x9a0306:
+	PUSH 1
+	RETURN
+	PUSH 0
+	RETURN
+ENDFUNC C_BattleProgress@CheckAction

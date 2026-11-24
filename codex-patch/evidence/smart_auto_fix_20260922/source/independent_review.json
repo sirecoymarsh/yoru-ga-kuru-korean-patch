@@ -1,0 +1,20 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "b86f6f5ff17cf2d08c0eb7a1015d05136819d5daf8803b6bca00b2c5d6cb08ea"
+  },
+  "reviewer": "/root/auto_battle_review",
+  "read_only": true,
+  "checks": [
+    "Candidate SHA256 independently checked",
+    "Old CODE 10065312 bytes exact",
+    "STR0 and MSG1 exact",
+    "Metadata changed only function addresses31979 and31981",
+    "Fresh disassembly matches built JAM and intended two-body delta",
+    "Native type0 attack/hit and returned-object lifetime match",
+    "EX HP/repeat/range/timing remain EX",
+    "Real EX shape columns26..30 plus sixth zero correct",
+    "26 prior rejections and three favorable EX choices evidenced"
+  ],
+  "native_gameplay_verified": false
+}

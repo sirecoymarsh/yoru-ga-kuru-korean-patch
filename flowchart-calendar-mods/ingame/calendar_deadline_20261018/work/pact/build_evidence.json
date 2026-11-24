@@ -1,0 +1,479 @@
+{
+ "status": "DEADLINE_PANEL_PACT177_STAGED_NOT_INSTALLED",
+ "builder": "Claude Opus 5.5 (claude-opus-5-5)",
+ "source": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "pact_sha256": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109"
+ },
+ "outputs": {
+  "original_pact_177.pactex": "e36a740bb3d80bf6894bb36d721fad71f635e73a346866d6cac904d03997e07f",
+  "pact_177_deadline.pactex": "d1d5c944ae59d16dcb4ee81637de1e1a523ca03976bf26381102b0c2ceacb7c6",
+  "NightRemasterPact.afa": "0f147d2d3abae2ad27ac03bb769fe7e25c6c2389b5b9b56f96d3f54b613a7b86"
+ },
+ "archive": {
+  "source_sha256": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+  "candidate_sha256": "0f147d2d3abae2ad27ac03bb769fe7e25c6c2389b5b9b56f96d3f54b613a7b86",
+  "original_entries_preserved": 190,
+  "replaced_ids": [
+   177
+  ],
+  "appended": [],
+  "wrapper": "AFA3",
+  "metadata_identity": "PASS (names/order/unknown fields)",
+  "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+  "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_deadline_20261018\\candidate\\NightRemasterPact.afa"
+ },
+ "changed_entries": [
+  177
+ ],
+ "round_trip_exact": true,
+ "alice_ex_dump_parsed": true,
+ "made": [
+  "KR_DL_Title",
+  "KR_DL_Text0",
+  "KR_DL_Num0",
+  "KR_DL_Text1",
+  "KR_DL_Num1",
+  "KR_DL_Text2",
+  "KR_DL_Num2",
+  "KR_DL_Text3",
+  "KR_DL_Num3",
+  "KR_DL_Text4",
+  "KR_DL_Num4",
+  "KR_DL_Text5",
+  "KR_DL_Num5",
+  "KR_DL_Text6",
+  "KR_DL_Num6",
+  "KR_DL_Text7",
+  "KR_DL_Num7",
+  "KR_DL_BtnText",
+  "KR_DL_Box",
+  "KR_DL_BtnBox",
+  "KR_DL_Face0",
+  "KR_DL_Face1",
+  "KR_DL_Face2",
+  "KR_DL_Face3",
+  "KR_DL_Face4",
+  "KR_DL_Face5",
+  "KR_DL_Face6",
+  "KR_DL_Face7"
+ ],
+ "hidden_at_start": [
+  "KR_DL_Title",
+  "KR_DL_Text0",
+  "KR_DL_Num0",
+  "KR_DL_Text1",
+  "KR_DL_Num1",
+  "KR_DL_Text2",
+  "KR_DL_Num2",
+  "KR_DL_Text3",
+  "KR_DL_Num3",
+  "KR_DL_Text4",
+  "KR_DL_Num4",
+  "KR_DL_Text5",
+  "KR_DL_Num5",
+  "KR_DL_Text6",
+  "KR_DL_Num6",
+  "KR_DL_Text7",
+  "KR_DL_Num7",
+  "KR_DL_BtnText",
+  "KR_DL_Box",
+  "KR_DL_BtnBox",
+  "KR_DL_Face0",
+  "KR_DL_Face1",
+  "KR_DL_Face2",
+  "KR_DL_Face3",
+  "KR_DL_Face4",
+  "KR_DL_Face5",
+  "KR_DL_Face6",
+  "KR_DL_Face7"
+ ],
+ "characters": [
+  {
+   "char": " ",
+   "kind": "cp932",
+   "bytes": "20"
+  },
+  {
+   "char": "기",
+   "kind": "proxy",
+   "bytes": "e9f7"
+  },
+  {
+   "char": "는",
+   "kind": "proxy",
+   "bytes": "e963"
+  },
+  {
+   "char": "록",
+   "kind": "proxy",
+   "bytes": "e85a"
+  },
+  {
+   "char": "면",
+   "kind": "proxy",
+   "bytes": "e7c9"
+  },
+  {
+   "char": "목",
+   "kind": "proxy",
+   "bytes": "e7c3"
+  },
+  {
+   "char": "보",
+   "kind": "proxy",
+   "bytes": "e776"
+  },
+  {
+   "char": "서",
+   "kind": "proxy",
+   "bytes": "e6d7"
+  },
+  {
+   "char": "에",
+   "kind": "proxy",
+   "bytes": "e5ea"
+  },
+  {
+   "char": "있",
+   "kind": "proxy",
+   "bytes": "e58d"
+  },
+  {
+   "char": "장",
+   "kind": "proxy",
+   "bytes": "e57e"
+  },
+  {
+   "char": "한",
+   "kind": "proxy",
+   "bytes": "e38c"
+  }
+ ],
+ "glyphs": {
+  "faces": 17,
+  "chars": 12,
+  "nonblank": 11,
+  "equal_to_map_font": 11,
+  "compared": true
+ },
+ "rects": [
+  {
+   "name": "KR_DL_Title",
+   "kind": "text",
+   "rect": [
+    1134,
+    71,
+    1237.5,
+    87.0
+   ],
+   "text": "기한 있는 장면"
+  },
+  {
+   "name": "KR_DL_Text0",
+   "kind": "text",
+   "rect": [
+    1160,
+    105,
+    1160,
+    118.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Num0",
+   "kind": "text",
+   "rect": [
+    1250,
+    104,
+    1250,
+    118.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Text1",
+   "kind": "text",
+   "rect": [
+    1160,
+    133,
+    1160,
+    146.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Num1",
+   "kind": "text",
+   "rect": [
+    1250,
+    132,
+    1250,
+    146.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Text2",
+   "kind": "text",
+   "rect": [
+    1160,
+    161,
+    1160,
+    174.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Num2",
+   "kind": "text",
+   "rect": [
+    1250,
+    160,
+    1250,
+    174.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Text3",
+   "kind": "text",
+   "rect": [
+    1160,
+    189,
+    1160,
+    202.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Num3",
+   "kind": "text",
+   "rect": [
+    1250,
+    188,
+    1250,
+    202.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Text4",
+   "kind": "text",
+   "rect": [
+    1160,
+    217,
+    1160,
+    230.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Num4",
+   "kind": "text",
+   "rect": [
+    1250,
+    216,
+    1250,
+    230.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Text5",
+   "kind": "text",
+   "rect": [
+    1160,
+    245,
+    1160,
+    258.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Num5",
+   "kind": "text",
+   "rect": [
+    1250,
+    244,
+    1250,
+    258.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Text6",
+   "kind": "text",
+   "rect": [
+    1160,
+    273,
+    1160,
+    286.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Num6",
+   "kind": "text",
+   "rect": [
+    1250,
+    272,
+    1250,
+    286.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Text7",
+   "kind": "text",
+   "rect": [
+    1160,
+    301,
+    1160,
+    314.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_Num7",
+   "kind": "text",
+   "rect": [
+    1250,
+    300,
+    1250,
+    314.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_DL_BtnText",
+   "kind": "text",
+   "rect": [
+    1166.0625,
+    336.5,
+    1233.9375,
+    349.5
+   ],
+   "text": "목록에서 보기"
+  },
+  {
+   "name": "KR_DL_Box",
+   "kind": "bar",
+   "rect": [
+    1124,
+    64,
+    1276,
+    364
+   ]
+  },
+  {
+   "name": "KR_DL_BtnBox",
+   "kind": "box",
+   "rect": [
+    1132,
+    330,
+    1268,
+    356
+   ]
+  },
+  {
+   "name": "KR_DL_Face0",
+   "kind": "face",
+   "rect": [
+    1134,
+    100,
+    1156,
+    127
+   ]
+  },
+  {
+   "name": "KR_DL_Face1",
+   "kind": "face",
+   "rect": [
+    1134,
+    128,
+    1156,
+    155
+   ]
+  },
+  {
+   "name": "KR_DL_Face2",
+   "kind": "face",
+   "rect": [
+    1134,
+    156,
+    1156,
+    183
+   ]
+  },
+  {
+   "name": "KR_DL_Face3",
+   "kind": "face",
+   "rect": [
+    1134,
+    184,
+    1156,
+    211
+   ]
+  },
+  {
+   "name": "KR_DL_Face4",
+   "kind": "face",
+   "rect": [
+    1134,
+    212,
+    1156,
+    239
+   ]
+  },
+  {
+   "name": "KR_DL_Face5",
+   "kind": "face",
+   "rect": [
+    1134,
+    240,
+    1156,
+    267
+   ]
+  },
+  {
+   "name": "KR_DL_Face6",
+   "kind": "face",
+   "rect": [
+    1134,
+    268,
+    1156,
+    295
+   ]
+  },
+  {
+   "name": "KR_DL_Face7",
+   "kind": "face",
+   "rect": [
+    1134,
+    296,
+    1156,
+    323
+   ]
+  }
+ ],
+ "layout": {
+  "origin": [
+   0,
+   20
+  ],
+  "x0": 1124,
+  "y0": 64,
+  "w": 152,
+  "row_y0": 100,
+  "row_step": 28,
+  "rows": 8,
+  "face_scale": 0.09,
+  "btn": [
+   1132,
+   330,
+   136,
+   26
+  ]
+ }
+}

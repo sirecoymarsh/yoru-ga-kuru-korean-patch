@@ -1,0 +1,25 @@
+;; ?? C_SceneDungeon@ExecAutoMove 28657
+;; ?? C_SceneDungeon@CheckMoveKey 28646
+;; ?? C_SceneDungeon@IsMovableCell 28647
+; C_SceneDungeon@PopFrontAutoMove
+; RETURN: void
+FUNC 28658
+	.STRUCTREF C_SceneDungeon m_AutoMoveList
+	CALLHLL Array Numof 2
+	PUSH 1
+	GT
+	IFNZ 0xa62c36
+	JUMP 0xa62c66
+0xa62c36:
+	.STRUCTREF C_SceneDungeon m_AutoMoveList
+	PUSH 0
+	PUSH 1
+	CALLHLL Array Erase 2
+	POP
+	JUMP 0xa62c6e
+0xa62c66:
+	PUSHSTRUCTPAGE
+	CALLFUNC KR_ExploreSegmentEnd
+0xa62c6e:
+	RETURN
+ENDFUNC C_SceneDungeon@PopFrontAutoMove

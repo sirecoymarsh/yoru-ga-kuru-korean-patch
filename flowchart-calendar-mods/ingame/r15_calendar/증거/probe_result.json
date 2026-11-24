@@ -1,0 +1,342 @@
+{
+ "pid": 66096,
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "ain_sha256": "39f1d272249a57b306e91ab0e0a41f8965da1ec991417f084f2d94ada99c82fe",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 25.3,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\probe\\run\\SaveData_R15CalendarProbe_20260927_013020",
+  "resume loading NightR47.asd",
+  "HOME date=11/4 now=11 person=2",
+  "SHOT cal_home_before.bmp",
+  "clicked row 7 pick=2 ctx=",
+  "CHARWIN head=이즈미 · 아직 못 본 이벤트 ‡114개〓 / 전체 126개 ctx=P",
+  "SHOT cal_charwin.bmp",
+  "LANE head=〓11월 · 이즈미　†카드 7 · 서랍 6 · 본 것 0",
+  "SHOT cal_lane.bmp",
+  "MONTH 11 head=〓11월 이벤트 달력　‡●†안 본 카드　¶○†다 봄　〓금색†=오늘",
+  "SHOT cal_month.bmp",
+  "PICK month=10 candidate=3 entry=30160",
+  "MONTH 10 head=〓10월 이벤트 달력　‡●†안 본 카드　¶○†다 봄　〓금색†=오늘",
+  "LANE2 head=〓10월 · 마나미　†카드 11 · 서랍 8 · 본 것 3 pick=4",
+  "CARD head=〓10/11 아침 · 인물 · 마나미 · E30160 entry=30160 seen_before=1",
+  "CARD title=〓10/11 아침 · 인물 · 마나미 · E30160",
+  "†언제　10/11 · 아침 · 갈래",
+  "†누구　주인공, 쿄카",
+  "¶○ 이 저장에서 봤습니다",
+  "〓사슬이 이어지고 읽음·친밀도가 오릅니다. 검수용 저장에서 쓰세요",
+  "SHOT cal_card.bmp",
+  "REPLAY first message; casual site Play= playing=",
+  "SHOT cal_spoiler_replay_msg_1.bmp",
+  "SHOT cal_spoiler_replay_msg_2.bmp",
+  "BACK TO HOME messages=21 seen_after=1 play= playing= date=11/4",
+  "SHOT cal_home_after.bmp",
+  "END"
+ ],
+ "save": "NightR47.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\probe\\run\\SaveData_R15CalendarProbe_20260927_013020",
+ "waits": [
+  [
+   "menu::detail::CMenuView@_Loop",
+   "exit"
+  ],
+  [
+   "message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@<lambda : message::detail::CMessageTextView@ExecuteKeyWait(bool)(246, 32)>()(249, 68)>",
+   "message click-through"
+  ],
+  [
+   "sealtool::detail::CModelSelectDialog@<lambda : sealtool::detail::CModelSelectDialog@ShowDialog()(98, 32)>",
+   "exit"
+  ],
+  [
+   "L_StatusFace::Select",
+   "exit"
+  ],
+  [
+   "C_Dialog@Run",
+   "exit"
+  ],
+  [
+   "C_SelectDialog@Run",
+   "live"
+  ],
+  [
+   "C_SelectMessage@Run",
+   "exit"
+  ],
+  [
+   "C_Status::RunStatus",
+   "exit"
+  ],
+  [
+   "C_SceneTitle@Run",
+   "exit"
+  ],
+  [
+   "C_SceneHomebase@RunMapSelect",
+   "exit"
+  ],
+  [
+   "C_SceneDungeon@Run",
+   "exit"
+  ],
+  [
+   "C_BattleSelectEnemy@Run",
+   "exit"
+  ],
+  [
+   "C_BattleSelectView@Run",
+   "exit"
+  ],
+  [
+   "C_SceneSaveLoad@RunCommon",
+   "exit"
+  ],
+  [
+   "C_SceneStartData@RunCommon",
+   "exit"
+  ],
+  [
+   "C_SceneModeCG@Run",
+   "exit"
+  ],
+  [
+   "C_SceneModeScene@RunTop",
+   "exit"
+  ],
+  [
+   "C_SceneModeScene@RunSelect",
+   "exit"
+  ],
+  [
+   "C_SceneModeSound@Run",
+   "exit"
+  ],
+  [
+   "C_DebugCasualView@<lambda : C_DebugCasualView@Run()(66, 45)>",
+   "exit"
+  ],
+  [
+   "C_DebugParamView@<lambda : C_DebugParamView@Run()(74, 45)>",
+   "exit"
+  ],
+  [
+   "C_SceneTraining@<lambda : C_SceneTraining@RunSelect()(114, 40)>",
+   "exit"
+  ],
+  [
+   "C_SceneTraining@<lambda : C_SceneTraining@RunSelectPartner()(229, 46)>",
+   "exit"
+  ],
+  [
+   "C_SceneHomebase@<lambda : C_SceneHomebase@RunMember()(233, 52)>",
+   "exit"
+  ],
+  [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCustomWeapon(bool)(117, 52)>",
+   "exit"
+  ],
+  [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCombineStone()(402, 52)>",
+   "exit"
+  ],
+  [
+   "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunMemory(bool)(487, 52)>",
+   "exit"
+  ]
+ ],
+ "targets": {
+  "4": [
+   [
+    0,
+    3,
+    2601,
+    41
+   ]
+  ],
+  "6": [
+   [
+    0,
+    2,
+    70,
+    35
+   ],
+   [
+    0,
+    0,
+    2602,
+    37
+   ],
+   [
+    8,
+    0,
+    75,
+    47
+   ]
+  ],
+  "7": [
+   [
+    0,
+    5,
+    183,
+    42
+   ],
+   [
+    0,
+    0,
+    113,
+    58
+   ]
+  ],
+  "8": [
+   [
+    8,
+    0,
+    20167,
+    10
+   ],
+   [
+    0,
+    1,
+    241,
+    33
+   ],
+   [
+    2,
+    0,
+    20161,
+    45
+   ]
+  ],
+  "9": [
+   [
+    0,
+    0,
+    251,
+    12
+   ],
+   [
+    0,
+    3,
+    256,
+    27
+   ],
+   [
+    0,
+    2,
+    255,
+    42
+   ],
+   [
+    3,
+    0,
+    30151,
+    42
+   ],
+   [
+    0,
+    6,
+    259,
+    52
+   ]
+  ],
+  "10": [
+   [
+    3,
+    1,
+    30157,
+    33
+   ],
+   [
+    3,
+    7,
+    30163,
+    44
+   ],
+   [
+    3,
+    2,
+    30158,
+    46
+   ],
+   [
+    3,
+    4,
+    30160,
+    49
+   ],
+   [
+    3,
+    5,
+    30161,
+    49
+   ],
+   [
+    3,
+    6,
+    30162,
+    50
+   ]
+  ],
+  "11": [
+   [
+    1,
+    4,
+    10183,
+    21
+   ],
+   [
+    1,
+    2,
+    10181,
+    42
+   ]
+  ]
+ },
+ "probe_sha256": "39f1d272249a57b306e91ab0e0a41f8965da1ec991417f084f2d94ada99c82fe",
+ "candidate_sha256": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963",
+ "user_save_folder_unchanged": true,
+ "user_save_files": 397,
+ "c_drive_alicesoft_changes": [],
+ "probe_save_folder_files": [
+  "3DConfig.vsf",
+  "AFConfig.asd",
+  "Backup",
+  "CommonGameData.asd",
+  "CommonSystemData.sav",
+  "MouseCursorSetting.sav",
+  "NightR47.asd",
+  "NightRAFBGMMode.asd",
+  "NightRAFCGMode.asd",
+  "NightRAFCommon.asd",
+  "NightRAFInfo.asd",
+  "NightRAFMemMode.asd",
+  "NightRMsgSkip.msk",
+  "ShowDPSetting.sav",
+  "Volume.sav",
+  "WindowSetting.sav",
+  "YoruKR_HomeRate.dat",
+  "YoruKR_Terms.backup",
+  "YoruKR_Terms.dat"
+ ],
+ "run_folder_new_dirs": [
+  "Data",
+  "InstallInfo",
+  "Movie",
+  "SaveData_R15CalendarProbe_20260927_012753",
+  "SaveData_R15CalendarProbe_20260927_012843",
+  "SaveData_R15CalendarProbe_20260927_013020",
+  "Screenshot"
+ ],
+ "screenshots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe\\cal_card.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe\\cal_charwin.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe\\cal_home_after.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe\\cal_home_before.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe\\cal_lane.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe\\cal_month.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe\\cal_spoiler_replay_msg_1.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\증거\\probe\\cal_spoiler_replay_msg_2.png"
+ ]
+}

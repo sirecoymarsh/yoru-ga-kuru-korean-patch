@@ -1,0 +1,78 @@
+{
+  "status": "COMPILED_JAM_AND_CORPUS_PASS",
+  "ain_sha256": "93b052dbd64037588a8c68220d6c3602c948897404c7f84328bee300d2bb92da",
+  "counts": {
+    "all_shipped_hangul_classes": 2364,
+    "all_hangul_five_particle_pairs": 11820,
+    "golden_and_idempotence": 14,
+    "player_sentinel_and_suffix_cases": 18,
+    "non_player_replacement_unchanged": 1,
+    "actual_monster_name_pairs": 425,
+    "production_format_examples": 95,
+    "current_MSG_name_substitutions": 33768,
+    "exact_hook_inverse": 3
+  },
+  "compiled_helper_calls": 146552,
+  "executed_JAM_steps": 9429060,
+  "examples": [
+    {
+      "input": "민수{YORU_KR_JOSA:n} 빛구슬{YORU_KR_JOSA:q} 검{YORU_KR_JOSA:r} 공격",
+      "output": "민수는 빛구슬을 검으로 공격"
+    },
+    {
+      "input": "민준{YORU_KR_JOSA:g} 아카나메{YORU_KR_JOSA:q} 구슬{YORU_KR_JOSA:r} 공격",
+      "output": "민준이 아카나메를 구슬로 공격"
+    },
+    {
+      "input": "하늘{YORU_KR_JOSA:w} 민수{YORU_KR_JOSA:g} 도망쳤다",
+      "output": "하늘과 민수가 도망쳤다"
+    },
+    {
+      "input": "회복 아이템「약」{YORU_KR_JOSA:O} 손에 넣었다",
+      "output": "회복 아이템「약」을 손에 넣었다"
+    },
+    {
+      "input": "장비 아이템「망치」{YORU_KR_JOSA:O} 손에 넣었다",
+      "output": "장비 아이템「망치」를 손에 넣었다"
+    },
+    {
+      "input": "Alex{YORU_KR_JOSA:n} 회피했다",
+      "output": "Alex는 회피했다"
+    },
+    {
+      "input": "8{YORU_KR_JOSA:r} 이동",
+      "output": "8로 이동"
+    },
+    {
+      "input": "6{YORU_KR_JOSA:r} 이동",
+      "output": "6으로 이동"
+    },
+    {
+      "input": "abc{YORU_KR_JOSA:x}!",
+      "output": "abc{YORU_KR_JOSA:x}!"
+    },
+    {
+      "input": "abc{YORU_KR_JOSA:",
+      "output": "abc{YORU_KR_JOSA:"
+    },
+    {
+      "input": "",
+      "output": ""
+    },
+    {
+      "input": "일반 문장: 이름과 무관하다.",
+      "output": "일반 문장: 이름과 무관하다."
+    },
+    {
+      "input": "{KJ:n}",
+      "output": "{KJ:n}"
+    },
+    {
+      "input": "{KJ:n}{YORU_KR_JOSA:g}",
+      "output": "{KJ:n}가"
+    }
+  ],
+  "native_verified": false,
+  "original_save_file_modified": false,
+  "limits": "String HLL behavior modeled in bounded VM; actual native rendering/load not yet observed. Unknown non-Hangul endings retain existing forms. Both current name+야 sites verified as copulas against Japanese."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "SWEEP_STATIC_PASS_NATIVE_PENDING",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest_sha256": "7edcb8961a86778d407c1b4713e60a6485afd8929a962dbc2fc34cc4d662c576",
+  "files": {
+    "NightRemaster.ain": "b58ba53d8920f0e1c2553d7bfecf84f61aafed0887c549d272b77d83610cf650",
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8"
+  },
+  "unchanged_other_runtime_files": 96,
+  "save_files_hashes_unchanged": 192,
+  "recovery_build_unchanged": true,
+  "native_gameplay_verified": false,
+  "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\dungeon_sweep_20260916"
+}

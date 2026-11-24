@@ -1,0 +1,41 @@
+{
+ "status": "LABEL_PARTICLES_STAGED_NATIVE_PENDING",
+ "source_sha256": "7579a581f60e989d07f9abca13e4bc620aa6f65952974bbddbf0fa99e5f107d3",
+ "live_sha256": "7579a581f60e989d07f9abca13e4bc620aa6f65952974bbddbf0fa99e5f107d3",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8"
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+  }
+ },
+ "counts": {
+  "ev_short": 333,
+  "ev_head": 217,
+  "heads": 23,
+  "tails": 23
+ },
+ "changed_functions": [
+  "KR_T19EvShort",
+  "KR_T19EvHead",
+  "KR_T19CardHead",
+  "KR_T19CardTail"
+ ],
+ "added_functions": {
+  "KR_N29ShortBase": 32833,
+  "KR_N29Short": 32834,
+  "KR_N29HeadBase": 32835,
+  "KR_N29Head": 32836,
+  "KR_N29CardHeadBase": 32837,
+  "KR_N29CardHead": 32838,
+  "KR_N29CardTailBase": 32839,
+  "KR_N29CardTail": 32840
+ },
+ "original_code_prefix_exact": true,
+ "original_strings_prefix_exact": true,
+ "messages_exact": true,
+ "serialized_schema_changes": 0,
+ "installed": false,
+ "translator_model": "Codex internal"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "DESIGN_REVIEW_PASS_WITH_EXPLICIT_TECHNICAL_GATES",
+  "time": "2026-09-16T00:44:42+09:00",
+  "scope": "Only design documents, no implementation or live installation",
+  "reviewer": "/root/dungeon_reward_review (read-only)",
+  "corrections": [
+    "Party count1..3 and at least one movable valid member required before display and commit",
+    "Audit SettleOnlyMonsAtb before claiming payout rollback coverage",
+    "No additional result-confirmation button after sweep confirmation"
+  ],
+  "ux_gate": "passed",
+  "technical_gate": "WI-001 pending",
+  "workflow_validation": "0 errors; 0 warnings",
+  "unchanged_protected_files": 6,
+  "native_gameplay_verified": false,
+  "documents": {
+    "00-project-brief.md": "9ea423a714f9e67de59dfd34b406742f496169d2408bde08f5bc3e0cab1960a4",
+    "01-design-decisions.md": "9d7a5d435d3a26af48c7f2d6e46563a7fd0b8d68f6aeeeab2ae46eb68c30477c",
+    "02-implementation-plan.md": "069bc03576e287550a0b77e6b53907f982a137161e1e9ba5dd147456387470cb",
+    "03-design-notes.md": "5800ce6630f597e31d8fe56f297371196534e3ae7c2f3f9606093cfe1434deed",
+    "04-verification-plan.md": "49577ef8fa80023f0f8d7442d4382917c033f992d02e4fcc33057eb51b0158e5",
+    "05-progress-log.md": "196ae028068de82a988326c986006833cb292a0323424dad3b0d27cc1bd723c4",
+    "handoffs/WI-001-codex-instruction.md": "784e6f5ad7ce78e270f7b066ab262a0d02afdee243fce928638b444fa5d521aa",
+    "handoffs/WI-002-codex-instruction.md": "338240bcf60ca2e175e7d0dac908f1b62270c973e027cba7e3bbc4270f478079",
+    "handoffs/WI-003-codex-instruction.md": "850f44ccdb125e695c72db75ad73e2d5a224bb8b1efb89dd3c6a3b3543a26a09",
+    "handoffs/WI-004-codex-instruction.md": "7a5f9fbb40dfaf3b5a601c014a40f4fd193dc4ba753d4190b7622b7978c230b4",
+    "work-items/WI-001.md": "b738ebe42b83626e7b08f119a360ad0c104127d847f08cb6110d722ca2330e1a",
+    "work-items/WI-002.md": "f5a973b52c79550b90b629cde734700860a642a41d7922e3e1e8aba4d4b08424",
+    "work-items/WI-003.md": "b6f4a18a85f8b618443356fcfdfc60cacab2373ee7c376db238f5ee9c1f21c25",
+    "work-items/WI-004.md": "558982f73630fc0697fb4289b704c1b53358a8142a27c07bde32d0ac9faea6fc"
+  }
+}

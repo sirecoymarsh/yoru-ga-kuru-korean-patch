@@ -1,0 +1,778 @@
+==================== ; L_RandomScenario::GetAfterTrainingEvent FUNC 26429
+; L_RandomScenario::GetAfterTrainingEvent
+; ARG  0: nPartner : int
+; VAR  1: pa : ref C_Ability
+; VAR  2: <dummy : LAbility::Atの戻り値> : ref C_Ability
+; VAR  3: nAlpha : int
+; VAR  4: nAlpha : int
+; VAR  5: nAlpha : int
+; VAR  6: nAlpha : int
+; RETURN: int
+FUNC 26429
+	PUSHLOCALPAGE
+	PUSH 1
+	.LOCALREF nPartner
+	CALLFUNC LAbility::At
+	.LOCALREF "<dummy : LAbility::Atの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 2
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : LAbility::Atの戻り値>"
+	.LOCALREF pa
+	PUSH -1
+	EQUALE
+	IFNZ 0x53d284
+	JUMP 0x53d28c
+0x53d284:
+	PUSH 0
+	RETURN
+0x53d28c:
+	.LOCALREF nPartner
+	SWITCH 365
+	JUMP 0x53dcea
+.CASE 365:0 2
+	PUSH 4
+	PUSH 21
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d2e2
+	PUSH 6
+	PUSH 16
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53d2e2
+	PUSH 1
+	JUMP 0x53d2e8
+0x53d2e2:
+	PUSH 0
+0x53d2e8:
+	IFZ 0x53d322
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 5
+	GTE
+	IFZ 0x53d322
+	PUSH 1
+	JUMP 0x53d328
+0x53d322:
+	PUSH 0
+0x53d328:
+	IFZ 0x53d34e
+	S_PUSH "E10001"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53d34e
+	PUSH 1
+	JUMP 0x53d354
+0x53d34e:
+	PUSH 0
+0x53d354:
+	IFNZ 0x53d360
+	JUMP 0x53d368
+0x53d360:
+	PUSH 10001
+	RETURN
+0x53d368:
+	S_PUSH "E10001"
+	CALLFUNC LEventFlag::GetOnce
+	IFZ 0x53d39e
+	PUSH 5
+	PUSH 5
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d39e
+	PUSH 1
+	JUMP 0x53d3a4
+0x53d39e:
+	PUSH 0
+0x53d3a4:
+	IFZ 0x53d3ce
+	PUSH 6
+	PUSH 30
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53d3ce
+	PUSH 1
+	JUMP 0x53d3d4
+0x53d3ce:
+	PUSH 0
+0x53d3d4:
+	IFZ 0x53d40e
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 15
+	GTE
+	IFZ 0x53d40e
+	PUSH 1
+	JUMP 0x53d414
+0x53d40e:
+	PUSH 0
+0x53d414:
+	IFZ 0x53d43a
+	S_PUSH "E10021"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53d43a
+	PUSH 1
+	JUMP 0x53d440
+0x53d43a:
+	PUSH 0
+0x53d440:
+	IFNZ 0x53d44c
+	JUMP 0x53d454
+0x53d44c:
+	PUSH 10021
+	RETURN
+0x53d454:
+	S_PUSH "E10022"
+	CALLFUNC LEventFlag::GetOnce
+	IFZ 0x53d48a
+	PUSH 8
+	PUSH 4
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d48a
+	PUSH 1
+	JUMP 0x53d490
+0x53d48a:
+	PUSH 0
+0x53d490:
+	IFZ 0x53d4ba
+	PUSH 8
+	PUSH 24
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53d4ba
+	PUSH 1
+	JUMP 0x53d4c0
+0x53d4ba:
+	PUSH 0
+0x53d4c0:
+	IFZ 0x53d4fa
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 20
+	GTE
+	IFZ 0x53d4fa
+	PUSH 1
+	JUMP 0x53d500
+0x53d4fa:
+	PUSH 0
+0x53d500:
+	IFZ 0x53d526
+	S_PUSH "E10061"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53d526
+	PUSH 1
+	JUMP 0x53d52c
+0x53d526:
+	PUSH 0
+0x53d52c:
+	IFNZ 0x53d538
+	JUMP 0x53d540
+0x53d538:
+	PUSH 10061
+	RETURN
+0x53d540:
+	S_PUSH "E10001"
+	CALLFUNC LEventFlag::GetOnce
+	IFZ 0x53d576
+	PUSH 9
+	PUSH 8
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d576
+	PUSH 1
+	JUMP 0x53d57c
+0x53d576:
+	PUSH 0
+0x53d57c:
+	IFZ 0x53d5b6
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 30
+	GTE
+	IFZ 0x53d5b6
+	PUSH 1
+	JUMP 0x53d5bc
+0x53d5b6:
+	PUSH 0
+0x53d5bc:
+	IFZ 0x53d5e2
+	S_PUSH "E10041"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53d5e2
+	PUSH 1
+	JUMP 0x53d5e8
+0x53d5e2:
+	PUSH 0
+0x53d5e8:
+	IFNZ 0x53d5f4
+	JUMP 0x53d5fc
+0x53d5f4:
+	PUSH 10041
+	RETURN
+0x53d5fc:
+	PUSH 10
+	PUSH 27
+	CALLFUNC L_Calendar::IsDay
+	IFZ 0x53d640
+	.LOCALREF pa
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	IFZ 0x53d640
+	PUSH 1
+	JUMP 0x53d646
+0x53d640:
+	PUSH 0
+0x53d646:
+	IFNZ 0x53d652
+	JUMP 0x53d65a
+0x53d652:
+	PUSH 10101
+	RETURN
+0x53d65a:
+	JUMP 0x53dcea
+.CASE 365:1 3
+	PUSH 5
+	PUSH 5
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d69c
+	PUSH 6
+	PUSH 30
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53d69c
+	PUSH 1
+	JUMP 0x53d6a2
+0x53d69c:
+	PUSH 0
+0x53d6a2:
+	IFZ 0x53d6dc
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 15
+	GTE
+	IFZ 0x53d6dc
+	PUSH 1
+	JUMP 0x53d6e2
+0x53d6dc:
+	PUSH 0
+0x53d6e2:
+	IFZ 0x53d708
+	S_PUSH "E20021"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53d708
+	PUSH 1
+	JUMP 0x53d70e
+0x53d708:
+	PUSH 0
+0x53d70e:
+	IFNZ 0x53d71a
+	JUMP 0x53d722
+0x53d71a:
+	PUSH 20021    ; stageeditor::detail::CStageTool@GetNodeIndex
+	RETURN
+0x53d722:
+	S_PUSH "E20021"
+	CALLFUNC LEventFlag::GetOnce
+	IFZ 0x53d758
+	PUSH 5
+	PUSH 26
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d758
+	PUSH 1
+	JUMP 0x53d75e
+0x53d758:
+	PUSH 0
+0x53d75e:
+	IFZ 0x53d788
+	PUSH 6
+	PUSH 30
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53d788
+	PUSH 1
+	JUMP 0x53d78e
+0x53d788:
+	PUSH 0
+0x53d78e:
+	IFZ 0x53d7c8
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 25
+	GTE
+	IFZ 0x53d7c8
+	PUSH 1
+	JUMP 0x53d7ce
+0x53d7c8:
+	PUSH 0
+0x53d7ce:
+	IFZ 0x53d7f4
+	S_PUSH "E20041"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53d7f4
+	PUSH 1
+	JUMP 0x53d7fa
+0x53d7f4:
+	PUSH 0
+0x53d7fa:
+	IFNZ 0x53d806
+	JUMP 0x53d80e
+0x53d806:
+	PUSH 20041    ; stageeditor::detail::IElement@Name::set
+	RETURN
+0x53d80e:
+	JUMP 0x53dcea
+.CASE 365:2 4
+	PUSH 5
+	PUSH 26
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d850
+	PUSH 6
+	PUSH 9
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53d850
+	PUSH 1
+	JUMP 0x53d856
+0x53d850:
+	PUSH 0
+0x53d856:
+	IFZ 0x53d890
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 5
+	GTE
+	IFZ 0x53d890
+	PUSH 1
+	JUMP 0x53d896
+0x53d890:
+	PUSH 0
+0x53d896:
+	IFZ 0x53d8bc
+	S_PUSH "E30001"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53d8bc
+	PUSH 1
+	JUMP 0x53d8c2
+0x53d8bc:
+	PUSH 0
+0x53d8c2:
+	IFNZ 0x53d8ce
+	JUMP 0x53d8d6
+0x53d8ce:
+	PUSH 30001    ; T_BitFlagArray2D@CheckRangeOR
+	RETURN
+0x53d8d6:
+	PUSH 6
+	PUSH 15
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d912
+	PUSH 9
+	PUSH 30
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53d912
+	PUSH 1
+	JUMP 0x53d918
+0x53d912:
+	PUSH 0
+0x53d918:
+	IFZ 0x53d952
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 15
+	GTE
+	IFZ 0x53d952
+	PUSH 1
+	JUMP 0x53d958
+0x53d952:
+	PUSH 0
+0x53d958:
+	IFZ 0x53d97e
+	S_PUSH "E30021"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53d97e
+	PUSH 1
+	JUMP 0x53d984
+0x53d97e:
+	PUSH 0
+0x53d984:
+	IFNZ 0x53d990
+	JUMP 0x53d998
+0x53d990:
+	PUSH 30021    ; NS_AStar::AStarExecuteLoop@IsIllegal
+	RETURN
+0x53d998:
+	JUMP 0x53dcea
+.CASE 365:3 5
+	PUSH 7
+	PUSH 7
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53d9da
+	PUSH 9
+	PUSH 1
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53d9da
+	PUSH 1
+	JUMP 0x53d9e0
+0x53d9da:
+	PUSH 0
+0x53d9e0:
+	IFZ 0x53da1a
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 10
+	GTE
+	IFZ 0x53da1a
+	PUSH 1
+	JUMP 0x53da20
+0x53da1a:
+	PUSH 0
+0x53da20:
+	IFZ 0x53da46
+	S_PUSH "E40001"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53da46
+	PUSH 1
+	JUMP 0x53da4c
+0x53da46:
+	PUSH 0
+0x53da4c:
+	IFNZ 0x53da58
+	JUMP 0x53da60
+0x53da58:
+	PUSH 40001
+	RETURN
+0x53da60:
+	S_PUSH "E40001"
+	CALLFUNC LEventFlag::GetOnce
+	IFZ 0x53da96
+	PUSH 7
+	PUSH 14
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53da96
+	PUSH 1
+	JUMP 0x53da9c
+0x53da96:
+	PUSH 0
+0x53da9c:
+	IFZ 0x53dac6
+	PUSH 9
+	PUSH 8
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53dac6
+	PUSH 1
+	JUMP 0x53dacc
+0x53dac6:
+	PUSH 0
+0x53dacc:
+	IFZ 0x53db06
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 15
+	GTE
+	IFZ 0x53db06
+	PUSH 1
+	JUMP 0x53db0c
+0x53db06:
+	PUSH 0
+0x53db0c:
+	IFZ 0x53db32
+	S_PUSH "E40021"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53db32
+	PUSH 1
+	JUMP 0x53db38
+0x53db32:
+	PUSH 0
+0x53db38:
+	IFNZ 0x53db44
+	JUMP 0x53db4c
+0x53db44:
+	PUSH 40021
+	RETURN
+0x53db4c:
+	S_PUSH "E40022"
+	CALLFUNC LEventFlag::GetOnce
+	IFZ 0x53db82
+	PUSH 8
+	PUSH 4
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53db82
+	PUSH 1
+	JUMP 0x53db88
+0x53db82:
+	PUSH 0
+0x53db88:
+	IFZ 0x53dbb2
+	PUSH 9
+	PUSH 15
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53dbb2
+	PUSH 1
+	JUMP 0x53dbb8
+0x53dbb2:
+	PUSH 0
+0x53dbb8:
+	IFZ 0x53dbf2
+	.LOCALREF pa
+	PUSH 27310    ; C_Ability@GetFeeling
+	CALLMETHOD 0
+	PUSH 20
+	GTE
+	IFZ 0x53dbf2
+	PUSH 1
+	JUMP 0x53dbf8
+0x53dbf2:
+	PUSH 0
+0x53dbf8:
+	IFZ 0x53dc1e
+	S_PUSH "E40041"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53dc1e
+	PUSH 1
+	JUMP 0x53dc24
+0x53dc1e:
+	PUSH 0
+0x53dc24:
+	IFNZ 0x53dc30
+	JUMP 0x53dc38
+0x53dc30:
+	PUSH 40041
+	RETURN
+0x53dc38:
+	S_PUSH "E40061"
+	CALLFUNC LEventFlag::GetOnce
+	IFZ 0x53dc6e
+	PUSH 10
+	PUSH 6
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFZ 0x53dc6e
+	PUSH 1
+	JUMP 0x53dc74
+0x53dc6e:
+	PUSH 0
+0x53dc74:
+	IFZ 0x53dc9e
+	PUSH 10
+	PUSH 20
+	CALLFUNC L_Calendar::IsTodayOrBefore
+	IFZ 0x53dc9e
+	PUSH 1
+	JUMP 0x53dca4
+0x53dc9e:
+	PUSH 0
+0x53dca4:
+	IFZ 0x53dcca
+	S_PUSH "E40101"
+	CALLFUNC LEventFlag::GetOnce
+	NOT
+	IFZ 0x53dcca
+	PUSH 1
+	JUMP 0x53dcd0
+0x53dcca:
+	PUSH 0
+0x53dcd0:
+	IFNZ 0x53dcdc
+	JUMP 0x53dce4
+0x53dcdc:
+	PUSH 40101
+	RETURN
+0x53dce4:
+	JUMP 0x53dcea
+0x53dcea:
+	PUSH 10
+	PUSH 24
+	CALLFUNC L_Calendar::IsTodayOrAfter
+	IFNZ 0x53dd08
+	JUMP 0x53e026
+0x53dd08:
+	.LOCALREF nPartner
+	SWITCH 366
+	JUMP 0x53e026
+.CASE 366:0 2
+	.LOCALREF pa
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	IFNZ 0x53dd48
+	JUMP 0x53ddc8
+0x53dd48:
+	PUSHLOCALPAGE
+	PUSH 3
+	PUSH 100
+	CALLFUNC RAND
+	PUSH 1
+	SUB
+	X_ASSIGN 1
+	POP
+	.LOCALREF nAlpha
+	PUSH 33
+	LT
+	IFNZ 0x53dd8e
+	JUMP 0x53dd96
+0x53dd8e:
+	PUSH 1181
+	RETURN
+0x53dd96:
+	.LOCALREF nAlpha
+	PUSH 67
+	LT
+	IFNZ 0x53ddb8
+	JUMP 0x53ddc0
+0x53ddb8:
+	PUSH 1182
+	RETURN
+0x53ddc0:
+	PUSH 1183
+	RETURN
+0x53ddc8:
+	JUMP 0x53e026
+.CASE 366:1 3
+	.LOCALREF pa
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	IFNZ 0x53ddf4
+	JUMP 0x53de74
+0x53ddf4:
+	PUSHLOCALPAGE
+	PUSH 4
+	PUSH 100
+	CALLFUNC RAND
+	PUSH 1
+	SUB
+	X_ASSIGN 1
+	POP
+	.LOCALREF nAlpha#1
+	PUSH 33
+	LT
+	IFNZ 0x53de3a
+	JUMP 0x53de42
+0x53de3a:
+	PUSH 1281
+	RETURN
+0x53de42:
+	.LOCALREF nAlpha#1
+	PUSH 67
+	LT
+	IFNZ 0x53de64
+	JUMP 0x53de6c
+0x53de64:
+	PUSH 1282
+	RETURN
+0x53de6c:
+	PUSH 1283
+	RETURN
+0x53de74:
+	JUMP 0x53e026
+.CASE 366:2 4
+	.LOCALREF pa
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	IFNZ 0x53dea0
+	JUMP 0x53df20
+0x53dea0:
+	PUSHLOCALPAGE
+	PUSH 5
+	PUSH 100
+	CALLFUNC RAND
+	PUSH 1
+	SUB
+	X_ASSIGN 1
+	POP
+	.LOCALREF nAlpha#2
+	PUSH 33
+	LT
+	IFNZ 0x53dee6
+	JUMP 0x53deee
+0x53dee6:
+	PUSH 1366
+	RETURN
+0x53deee:
+	.LOCALREF nAlpha#2
+	PUSH 67
+	LT
+	IFNZ 0x53df10
+	JUMP 0x53df18
+0x53df10:
+	PUSH 1367
+	RETURN
+0x53df18:
+	PUSH 1368
+	RETURN
+0x53df20:
+	JUMP 0x53e026
+.CASE 366:3 5
+	.LOCALREF pa
+	PUSH 27404    ; C_Ability@IsTurning
+	CALLMETHOD 0
+	IFNZ 0x53df4c
+	JUMP 0x53e020
+0x53df4c:
+	PUSHLOCALPAGE
+	PUSH 6
+	PUSH 100
+	CALLFUNC RAND
+	PUSH 1
+	SUB
+	X_ASSIGN 1
+	POP
+	.LOCALREF nAlpha#3
+	PUSH 20
+	LT
+	IFNZ 0x53df92
+	JUMP 0x53df9a
+0x53df92:
+	PUSH 1451
+	RETURN
+0x53df9a:
+	.LOCALREF nAlpha#3
+	PUSH 40
+	LT
+	IFNZ 0x53dfbc
+	JUMP 0x53dfc4
+0x53dfbc:
+	PUSH 1452
+	RETURN
+0x53dfc4:
+	.LOCALREF nAlpha#3
+	PUSH 60
+	LT
+	IFNZ 0x53dfe6
+	JUMP 0x53dfee
+0x53dfe6:
+	PUSH 1453
+	RETURN
+0x53dfee:
+	.LOCALREF nAlpha#3
+	PUSH 80
+	LT
+	IFNZ 0x53e010
+	JUMP 0x53e018
+0x53e010:
+	PUSH 1454
+	RETURN
+0x53e018:
+	PUSH 1455
+	RETURN
+0x53e020:
+	JUMP 0x53e026
+0x53e026:
+	PUSH 0
+	RETURN
+	PUSH 0
+	RETURN
+

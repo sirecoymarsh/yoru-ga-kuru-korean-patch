@@ -1,0 +1,22 @@
+{
+  "reported_message_ids": [
+    2280,
+    2281,
+    2282
+  ],
+  "last_launch_record": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\last_launch.json",
+  "matched_backup": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\sweep_ui_20260916\\before\\NightRemaster.ain",
+  "launched_ain_sha256": "5429a0f4c2e50342e852e0c2e0279d8a5c6471571110b899ba7984e49eddb822",
+  "polish_baseline_sha256": "76194a9057a413838bbe03e78e4baa8ab5ef20e0f9ebf087f6e3fc82082ee659",
+  "polish_candidate_sha256": "e252d93441069fb75f70504528facb30983544ea7e204c8fd1a9a65501d360e8",
+  "all_100944_messages_match_between_last_launch_and_baseline": true,
+  "reported_3_fields_unchanged_in_candidate": true,
+  "baseline_original_CODE_prefix_preserved": true,
+  "exe_font_hook_ini_match_recorded_play_build": {
+    "NightRemaster.exe": true,
+    "NightRemasterFont.fnl": true,
+    "winmm.dll": true,
+    "AliceStart.ini": true
+  },
+  "conclusion": "Reported paragraph is not a text reflow regression introduced by this polish. It is present in the exact recorded-play backup. A different earlier resolved layout issue remains unidentified. No global reflow performed in response."
+}

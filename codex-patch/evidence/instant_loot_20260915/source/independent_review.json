@@ -1,0 +1,24 @@
+{
+  "files": {
+    "NightRemaster.ain": "e12a6cc123471e3dd445839f7559ebbc6e5ea889bdae4e0cfc2db15c69ec52a6",
+    "NightRemasterPact.afa": "747206f05a8ad987c0c270e4ff5277757d0d8609ee0fca9c08529289ea9238e6"
+  },
+  "time": "2026-09-15T22:20:18.212497+09:00",
+  "native_gameplay_verified": false,
+  "actual_save_reload_verified": false,
+  "status": "STATIC_REVIEW_PASS",
+  "reviewer": "/root/instant_loot_review",
+  "scope": "Final-byte independent read-only review of helpers, native consumers, exact inverse and publisher",
+  "checks": [
+    "600 Settle/689 collision/285 DoGet/313 DoSet normalized original instructions exact after allowed inverse",
+    "At and AbilityAt owned references released exactly once in all branches",
+    "First tutorial, ordinary object3/sub0..1 and nonremoved guards",
+    "Paired Quick/Loot read resolves click against old mode and immediately resynchronizes both widgets",
+    "Original reward math, level gains and status-face update preserved",
+    "Two-file transactional publisher reviewed; latest instruction additionally records paired-writer invariant"
+  ],
+  "superseded_uninstalled_ains": [
+    "1ae724c4a670012d4e0a22b54bee69f76491f60e166ecb5744fd4407ed2cc8a2",
+    "08b645c77791c5e25cb83efd356485fc1a9b1a0234b863790c57ac74f1ad8b07"
+  ]
+}

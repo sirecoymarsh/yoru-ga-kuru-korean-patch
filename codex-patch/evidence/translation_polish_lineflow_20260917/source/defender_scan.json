@@ -1,0 +1,308 @@
+{
+  "before": [
+    {
+      "ThreatID": 242625,
+      "InitialDetectionTime": "2026-07-28T10:43:23.534+09:00",
+      "LastThreatStatusChangeTime": "2026-07-28T13:50:06.153+09:00",
+      "Resources": [
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 242625,
+      "InitialDetectionTime": "2026-07-28T10:43:28.268+09:00",
+      "LastThreatStatusChangeTime": "2026-07-29T15:38:26.062+09:00",
+      "Resources": [
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-13T22:41:40.29+09:00",
+      "LastThreatStatusChangeTime": "2026-08-13T23:30:53.312+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-13T00:22:52.163+09:00",
+      "LastThreatStatusChangeTime": "2026-08-13T04:16:05.509+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe",
+        "webfile:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe|https://d1ubcao5pljbpg.cloudfront.net/gdftsZrAj.exe|pid:17744,ProcessStart:134310217713821743"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 365468,
+      "InitialDetectionTime": "2026-04-04T05:25:55.304+09:00",
+      "LastThreatStatusChangeTime": "2026-04-04T05:26:46.053+09:00",
+      "Resources": [
+        "file:_P:\\Modding\\CheatEngine75.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 227565,
+      "InitialDetectionTime": "2026-08-24T19:00:15.231+09:00",
+      "LastThreatStatusChangeTime": "2026-08-24T22:28:19.558+09:00",
+      "Resources": [
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-14T04:42:18.675+09:00",
+      "LastThreatStatusChangeTime": "2026-08-15T00:01:42.364+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 242625,
+      "InitialDetectionTime": "2026-08-24T18:59:57.004+09:00",
+      "LastThreatStatusChangeTime": "2026-08-24T22:28:19.567+09:00",
+      "Resources": [
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 227565,
+      "InitialDetectionTime": "2026-07-28T09:26:53.051+09:00",
+      "LastThreatStatusChangeTime": "2026-07-28T13:50:06.16+09:00",
+      "Resources": [
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 227565,
+      "InitialDetectionTime": "2026-07-28T10:43:16.63+09:00",
+      "LastThreatStatusChangeTime": "2026-07-29T15:38:26.088+09:00",
+      "Resources": [
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-15T18:13:05.933+09:00",
+      "LastThreatStatusChangeTime": "2026-08-16T23:34:26.317+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-15T18:13:05.933+09:00",
+      "LastThreatStatusChangeTime": "2026-08-19T01:16:05.275+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-21T06:23:25.848+09:00",
+      "LastThreatStatusChangeTime": "2026-08-23T04:53:25.278+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311936,
+      "InitialDetectionTime": "2026-02-15T18:06:04+09:00",
+      "LastThreatStatusChangeTime": "2026-02-16T23:19:50.664+09:00",
+      "Resources": [
+        "file:_P:\\GAME\\Compacted Files\\(한글무설치) 레버넌트\\Revenant Kor by Edge\\Revenant Kor window7 by Edge\\dtlite.exe"
+      ],
+      "ActionSuccess": true
+    }
+  ],
+  "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\translation_polish_20260917\\global_lineflow_trial\\scan_copy",
+  "status": {
+    "AMServiceEnabled": true,
+    "AntivirusEnabled": true,
+    "AntivirusSignatureVersion": "1.459.226.0",
+    "AMEngineVersion": "1.1.26080.3",
+    "AMProductVersion": "4.18.26080.3",
+    "AntivirusSignatureLastUpdated": "2026-09-16T01:00:13+09:00"
+  },
+  "end": "2026-09-17T03:43:38.1022461+09:00",
+  "completed": true,
+  "after": [
+    {
+      "ThreatID": 242625,
+      "InitialDetectionTime": "2026-07-28T10:43:23.534+09:00",
+      "LastThreatStatusChangeTime": "2026-07-28T13:50:06.153+09:00",
+      "Resources": [
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 242625,
+      "InitialDetectionTime": "2026-07-28T10:43:28.268+09:00",
+      "LastThreatStatusChangeTime": "2026-07-29T15:38:26.062+09:00",
+      "Resources": [
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-13T22:41:40.29+09:00",
+      "LastThreatStatusChangeTime": "2026-08-13T23:30:53.312+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-13T00:22:52.163+09:00",
+      "LastThreatStatusChangeTime": "2026-08-13T04:16:05.509+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe",
+        "webfile:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe|https://d1ubcao5pljbpg.cloudfront.net/gdftsZrAj.exe|pid:17744,ProcessStart:134310217713821743"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 365468,
+      "InitialDetectionTime": "2026-04-04T05:25:55.304+09:00",
+      "LastThreatStatusChangeTime": "2026-04-04T05:26:46.053+09:00",
+      "Resources": [
+        "file:_P:\\Modding\\CheatEngine75.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 227565,
+      "InitialDetectionTime": "2026-08-24T19:00:15.231+09:00",
+      "LastThreatStatusChangeTime": "2026-08-24T22:28:19.558+09:00",
+      "Resources": [
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-14T04:42:18.675+09:00",
+      "LastThreatStatusChangeTime": "2026-08-15T00:01:42.364+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 242625,
+      "InitialDetectionTime": "2026-08-24T18:59:57.004+09:00",
+      "LastThreatStatusChangeTime": "2026-08-24T22:28:19.567+09:00",
+      "Resources": [
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.dll",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\krkr\\KrkrExtract\\4.0.1.5\\KrkrExtract.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 227565,
+      "InitialDetectionTime": "2026-07-28T09:26:53.051+09:00",
+      "LastThreatStatusChangeTime": "2026-07-28T13:50:06.16+09:00",
+      "Resources": [
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 227565,
+      "InitialDetectionTime": "2026-07-28T10:43:16.63+09:00",
+      "LastThreatStatusChangeTime": "2026-07-29T15:38:26.088+09:00",
+      "Resources": [
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_C:\\Users\\CadriacLord\\Documents\\Codex\\2026-07-28\\new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe",
+        "file:_P:\\AI\\Codex\\workspaces\\2026-07-28-new-chat\\work\\yami-menu\\research\\vendor\\MyVisualNovelTransTools\\AKBImageTool\\x64\\Release\\AKBImageTool.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-15T18:13:05.933+09:00",
+      "LastThreatStatusChangeTime": "2026-08-16T23:34:26.317+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-15T18:13:05.933+09:00",
+      "LastThreatStatusChangeTime": "2026-08-19T01:16:05.275+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311999,
+      "InitialDetectionTime": "2026-08-21T06:23:25.848+09:00",
+      "LastThreatStatusChangeTime": "2026-08-23T04:53:25.278+09:00",
+      "Resources": [
+        "file:_F:\\DOWN\\Dra†Koi_LKjo-n9.exe"
+      ],
+      "ActionSuccess": true
+    },
+    {
+      "ThreatID": 311936,
+      "InitialDetectionTime": "2026-02-15T18:06:04+09:00",
+      "LastThreatStatusChangeTime": "2026-02-16T23:19:50.664+09:00",
+      "Resources": [
+        "file:_P:\\GAME\\Compacted Files\\(한글무설치) 레버넌트\\Revenant Kor by Edge\\Revenant Kor window7 by Edge\\dtlite.exe"
+      ],
+      "ActionSuccess": true
+    }
+  ],
+  "start": "2026-09-17T03:43:34.4131142+09:00"
+}

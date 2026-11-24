@@ -1,0 +1,53 @@
+{
+ "pid": 52164,
+ "ain_sha256": "b2897ecc3e0463e867459ec52818bf3f80f6b8eca5714be797ddb4f4248bbbfc",
+ "events": [],
+ "exit_code": 0,
+ "seconds": 14.4,
+ "shots": [
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\증거\\probe\\hv_char.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\증거\\probe\\hv_chart.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\증거\\probe\\hv_home.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\증거\\probe\\hv_home_after_chart.png",
+  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\증거\\probe\\hv_home_end.png"
+ ],
+ "save": "NightR47.asd",
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\probe\\run\\SaveData_HomeProbe_20261017_142607",
+ "candidate_ain": "566cd3d913b290b2ed0b2ea7b863c2b031b00a8bdf927c08980bf2757b16ee22",
+ "candidate_pact": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+ "fails": [],
+ "oks": 11,
+ "ended": true,
+ "user_save_folder_unchanged": true
+}
+SAVEFOLDER P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\calendar_redesign_20261017\probe\run\SaveData_HomeProbe_20261017_142607
+HOMERATE ON 1
+RESUME NightR47.asd stage=home0
+HOME panel=1 act=Game\Scenes\Common\AddArea.pact ev='19.7%' story='본편　서양관 이후' c2='9.5%' c3='11.6%' c4='8.2%' c5='11.9%' c6='4.5%' c7='3.7%' c8='5.5%' a0='45.3%' a1='55.0%' a2='53.0%' a3='0 / 5' body=0 cal=1/1
+EXPECT ev=19.7% c2=9.5% c3=11.6% c4=8.2% c5=11.9% c6=4.5% c7=3.7% c8=5.5% read=45.3% cg=55.0% scene=53.0% end=0 story=본편　서양관 이후
+OK panel shown
+OK new panel parts present
+OK values = the old panel's sources and totals
+OK old text body hidden
+OK calendar button shown while the top menu waits
+SHOT hv_home.bmp
+STAGE chart
+CLICK calendar button
+CHART open panel=1
+SHOT hv_chart.bmp
+STAGE after_chart
+HOME AFTER CHART panel=1 ev='19.7%' story='본편　서양관 이후' c2='9.5%' c3='11.6%' c4='8.2%' c5='11.9%' c6='4.5%' c7='3.7%' c8='5.5%' a0='45.3%' a1='55.0%' a2='53.0%' a3='0 / 5' body=0 cal=1/1
+OK chart frames ran
+OK panel and calendar button back after the chart
+SHOT hv_home_after_chart.bmp
+STAGE char
+CLICK 쿄카 row
+SHOT hv_char.bmp
+OK the 쿄카 row opened the character window
+STAGE after_char
+OK panel back after the character window
+SHOT hv_home_end.bmp
+OK row map: 이즈미 top, 모모세 bottom, gaps and the title area empty
+OK row map: calendar button marks the pick
+FAILS 0
+END

@@ -1,0 +1,12 @@
+[
+  {
+    "function_id": 26680,
+    "name": "C_ConsumeItem@sDesc::get",
+    "snippet": "FUNC 26680\n\t.STRUCTREF C_ConsumeItem <sDesc>\n\tA_REF\n\tRETURN\nENDFUNC C_ConsumeItem@sDesc::get\n\n; C_ConsumeItem@sDesc::get#1\n; RETURN: string\n"
+  },
+  {
+    "function_id": 26681,
+    "name": "C_ConsumeItem@sDesc::get",
+    "snippet": "FUNC 26681\n\t.STRUCTREF C_ConsumeItem <sDesc>\n\tA_REF\n\tRETURN\nENDFUNC C_ConsumeItem@sDesc::get#1\n\n; C_ConsumeItem@sDesc::set\n; ARG  0: value : string\n; RETURN: void\n"
+  }
+]

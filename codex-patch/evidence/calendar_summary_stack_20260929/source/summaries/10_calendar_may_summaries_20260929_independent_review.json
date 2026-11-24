@@ -1,0 +1,164 @@
+{
+ "status": "INDEPENDENT_QA_PASS",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5), independent",
+ "note_on_independence": "the summaries were written and self-reviewed by another Opus agent; this reviewer read the packets first and did not open evidence/semantic_qa.json",
+ "time": "2026-09-29T21:24:32.245600+09:00",
+ "reviewed_events": 150,
+ "reviewed_messages": 9022,
+ "reviewed_nonempty_jp_lines": 8940,
+ "method": [
+  "every packet source/packets/E?????.txt read to the end (JP meaning, KR spelling); long packets read in parts, none skipped",
+  "viewer evidence/independent_review_tools/view.py joins speaker labels and continuation lines only (no line dropped)",
+  "criteria a-g of the independent-QA task; minimal word replacement only (old fragment must occur exactly once)",
+  "name/term spelling cross-check against installed KR: evidence/independent_review_tools/name_check.py (no misspelled name)"
+ ],
+ "criteria": {
+  "a": "fact/reaction/place/feeling/guess not in the source",
+  "b": "actor or addressee changed",
+  "c": "other scene or branch mixed in",
+  "d": "ending/route/later event hinted",
+  "e": "protagonist not called 주인공 / name spelling differs from installed KR",
+  "f": "not a natural present-tense 1-2 sentence statement <=100 chars",
+  "g": "card-stage scene exceeds its own file"
+ },
+ "counts": {
+  "fixed": 4,
+  "by_type": {
+   "a": 0,
+   "b": 1,
+   "c": 0,
+   "d": 0,
+   "e": 3,
+   "f": 0,
+   "g": 0
+  },
+  "by_severity": {
+   "P1": 0,
+   "P2": 0,
+   "P3": 4
+  },
+  "unresolved": 0
+ },
+ "findings": [
+  {
+   "no": 52,
+   "e": "E00052",
+   "message_id": 9593,
+   "type": "b",
+   "severity": "P3",
+   "fragment_before": "쫓으며,",
+   "fragment_after": "쫓고, 호시카와는",
+   "before": "신카이가 여자의 입안을 들여다보다 숨어 있던 적의 기습을 받는다. 달아나는 적을 신카이와 호시카와가 쫓으며, 불꽃에 막힌 주인공에게 나중에 합류하자고 한다.",
+   "after": "신카이가 여자의 입안을 들여다보다 숨어 있던 적의 기습을 받는다. 달아나는 적을 신카이와 호시카와가 쫓고, 호시카와는 불꽃에 막힌 주인공에게 나중에 합류하자고 한다.",
+   "reason": "나중에 합류하자는 말은 호시카와 혼자 한다(9593); 신카이까지 말한 것처럼 읽힘",
+   "status": "fixed"
+  },
+  {
+   "no": 804,
+   "e": "E00804",
+   "message_id": 10305,
+   "type": "e",
+   "severity": "P3",
+   "fragment_before": "업은 선배가 먼저 가야 한다는",
+   "fragment_after": "업었으니 먼저 가라는",
+   "before": "혼자 두고 갈 수 없다던 주인공은 여자를 업은 선배가 먼저 가야 한다는 마나미의 설득에 위험하면 부르라며 먼저 달려 나간다.",
+   "after": "혼자 두고 갈 수 없다던 주인공은 여자를 업었으니 먼저 가라는 마나미의 설득에 위험하면 부르라며 먼저 달려 나간다.",
+   "reason": "주인공을 '선배'로 가리킴(주인공 외 호칭)",
+   "status": "fixed"
+  },
+  {
+   "no": 2262,
+   "e": "E02262",
+   "message_id": 97862,
+   "type": "e",
+   "severity": "P3",
+   "fragment_before": "두 선배가 나란히",
+   "fragment_after": "주인공과 호시카와가 나란히",
+   "before": "두 선배가 나란히 서니 그림이 된다는 마나미의 말에 호시카와가 주인공에게 달라붙자, 마나미는 이것도 괜찮을지 모른다고 한다.",
+   "after": "주인공과 호시카와가 나란히 서니 그림이 된다는 마나미의 말에 호시카와가 주인공에게 달라붙자, 마나미는 이것도 괜찮을지 모른다고 한다.",
+   "reason": "주인공을 '선배'로 가리킴(주인공 외 호칭); 4월 승인본에 선배 지칭 없음",
+   "status": "fixed"
+  },
+  {
+   "no": 2267,
+   "e": "E02267",
+   "message_id": 97969,
+   "type": "e",
+   "severity": "P3",
+   "fragment_before": "두 선배를 닮았다며",
+   "fragment_after": "주인공과 호시카와를 닮았다며",
+   "before": "마나미가 요즘 빠진 판타지 소설 속 왕세자와 측근 기사가 두 선배를 닮았다며 코스프레를 바란다. 호시카와는 기사보다 왕자 쪽이 좋겠다며 흥미를 보인다.",
+   "after": "마나미가 요즘 빠진 판타지 소설 속 왕세자와 측근 기사가 주인공과 호시카와를 닮았다며 코스프레를 바란다. 호시카와는 기사보다 왕자 쪽이 좋겠다며 흥미를 보인다.",
+   "reason": "주인공을 '선배'로 가리킴(주인공 외 호칭)",
+   "status": "fixed"
+  }
+ ],
+ "unresolved": [],
+ "remarks_not_changed": [
+  {
+   "no": 1118,
+   "e": "E01118",
+   "remark": "어릴 적은 원문 명시 없음이나 단오절·남자아이 맥락상 함의로 둠",
+   "changed": false
+  }
+ ],
+ "summary_sha256_before": "cea1a50df7381c9397134119ee4048afc5bdf334a37aba98ebfdd117b10163bf",
+ "summary_sha256_after": "5a5a70761d79265ea1de4e64143180b0b16079e5c799aaf4b6722e1475ba32af",
+ "source_scenarios_sha256": "49781f8447887fcd84ec328ea3d5529143b9df5b6cb888c94b946af9f68690a2",
+ "status_after": {
+  "independent_qa_pass": 150,
+  "other": 0
+ },
+ "static_gate_rerun": {
+  "script": "verify_may_summaries_static.py",
+  "result_file": "evidence/static_gates_after_review.json",
+  "passed": true,
+  "failures": 0,
+  "stats": {
+   "count": 150,
+   "min": 28,
+   "median": 81.0,
+   "max": 100,
+   "sentences": {
+    "1": 43,
+    "2": 107
+   },
+   "status": {
+    "draft": 0,
+    "source_qa_pass": 0,
+    "independent_qa_pass": 150,
+    "excluded": 0
+   }
+  },
+  "original_evidence_kept": "evidence/static_gates.json (unchanged, sha256 5c3f6efd35a52e38be1fba51f30109b158d793062718467e4a3d8ef73843a8cd)"
+ },
+ "gate_script_change": {
+  "before_sha256": "e4fa78fca262622c5e470ceb820e08d0df315b4d6d330fc368eb81350fef4c7f",
+  "after_sha256": "72cb3c9ae656047ae26f15aaf1e7236ca50d1180c0897e0f1d3184eb82bacb56",
+  "changes": [
+   "status value independent_qa_pass accepted (required by this QA; any other value still fails)",
+   "--out=<path> option so the rerun does not overwrite evidence/static_gates.json",
+   "literal 료 ban NOT relaxed: no fix introduced a word containing 료, and a both-sides-Hangul exception would miss the name with a particle (료가/료는)"
+  ],
+  "patch_tool": "evidence/independent_review_tools/patch_gate.py",
+  "fire_check": {
+   "file": "evidence/independent_review_tools/gate_patch_check_result.json",
+   "all_ok": true,
+   "cases": [
+    "control_reviewed",
+    "bad_status_done",
+    "ryo_with_particle"
+   ]
+  }
+ },
+ "tools": [
+  "evidence/independent_review_tools/view.py",
+  "evidence/independent_review_tools/review_log.jsonl",
+  "evidence/independent_review_tools/name_check.py",
+  "evidence/independent_review_tools/apply_independent_fixes.py",
+  "evidence/independent_review_tools/patch_gate.py",
+  "evidence/independent_review_tools/gate_patch_check.py",
+  "evidence/independent_review_tools/write_independent_review.py"
+ ],
+ "rebuild_warning": "work/save_summaries.py regenerates design/summaries.json from drafts and would drop these 4 fixes and the status change; rerun evidence/independent_review_tools/apply_independent_fixes.py after any such rebuild"
+}

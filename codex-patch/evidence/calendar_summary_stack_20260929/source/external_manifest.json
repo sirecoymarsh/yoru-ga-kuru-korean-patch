@@ -1,0 +1,82 @@
+{
+ "status": "TERM_FREE_STAGED_NATIVE_PENDING",
+ "source_sha256": "b5e138496ae14ef3174ceca9000ba558083ef76714c2cc301572641c5f393b9a",
+ "base_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\14_MASK",
+ "base_preflight": null,
+ "live_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "source_manifest_sha256": "05d32f29b3d465194accba724d68dbfd6c966b3c591ac5de7f382b20bd505ab9",
+ "label": "summary stack top",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "abae5787031cbf8330a429a4b5d9683241268d87f077d88de24974465ff5c109",
+   "size": 4307583
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+   "size": 122368
+  }
+ },
+ "changed_functions": [
+  "KR_W29HeadWrap",
+  "KR_W29Info",
+  "KR_W29Story",
+  "KR_W29Title",
+  "KR_W29StageItem",
+  "KR_W29Cell"
+ ],
+ "rerouted": {
+  "KR_W29HeadWrap": "KR_TF29HeadWrap",
+  "KR_W29Info": "KR_TF29Info",
+  "KR_W29Story": "KR_TF29Story",
+  "KR_W29Title": "KR_TF29Title",
+  "KR_W29StageItem": "KR_TF29StageItem",
+  "KR_W29Cell": "KR_TF29Cell"
+ },
+ "added_functions": {
+  "KR_TF29Hangul": 32892,
+  "KR_TF29Fixed": 32893,
+  "KR_TF29Pairs": 32894,
+  "KR_TF29PairC": 32895,
+  "KR_TF29PairV": 32896,
+  "KR_TF29Vowel": 32897,
+  "KR_TF29RightOK": 32898,
+  "KR_TF29Tail": 32899,
+  "KR_TF29Swap": 32900,
+  "KR_TF29Apply": 32901,
+  "KR_TF29Text": 32902,
+  "KR_TF29Field": 32903,
+  "KR_TF29Short": 32904,
+  "KR_TF29CondOf": 32905,
+  "KR_TF29Name": 32906,
+  "KR_TF29TitleFits": 32907,
+  "KR_TF29Title": 32908,
+  "KR_TF29HeadWrap": 32909,
+  "KR_TF29Story": 32910,
+  "KR_TF29Half": 32911,
+  "KR_TF29StageItem": 32912,
+  "KR_TF29HeadWrapBase": 32913,
+  "KR_TF29StoryBase": 32914,
+  "KR_TF29TitleBase": 32915,
+  "KR_TF29StageItemBase": 32916,
+  "KR_TF29Info": 32917,
+  "KR_TF29Cell": 32918,
+  "KR_TF29Cond": 32919
+ },
+ "original_code_prefix_exact": true,
+ "original_strings_prefix_exact": true,
+ "messages_exact": true,
+ "serialized_schema_changes": 0,
+ "pinned_functions_unchanged": [
+  "KR_T9HomeCasual",
+  "KR_T9HomeConfig",
+  "C_SceneHomebase@CheckGameSysButtons",
+  "C_SceneHomebase@Run",
+  "LSys3xScript::RunEvent",
+  "KR_T18RunSandboxed"
+ ],
+ "native_opcodes_supported": true,
+ "installed": false,
+ "rebase_note": "rebuild with --base whenever the base candidate moves",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

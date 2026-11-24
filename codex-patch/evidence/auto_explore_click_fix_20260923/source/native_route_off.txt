@@ -1,0 +1,10 @@
+resume loading
+walk=1000010566 delegate=422 handlers=1
+sweep=1000010214 delegate=211 handlers=1
+clickable=1 input=1
+repeat-visible handlers=1
+dispatch through native button function set
+clickResult=2026092203
+native Run started queue=4 guide=0
+MOVED 21,6 -> 20,6
+STOPPED through second click

@@ -1,0 +1,21 @@
+{
+  "translator_model": "Codex internal",
+  "rows": [
+    {
+      "stable_id": "AIN:function:31454:material_description",
+      "source": "武器強化素材",
+      "target": "무기 강화 재료",
+      "consumer": "C_SimpleDiscript@SetText(string)",
+      "context": "Description for element-stone IDs10..13 in consumable/crafting selection",
+      "translator_model": "Codex internal"
+    },
+    {
+      "stable_id": "AIN:function:31481:material_description",
+      "source": "武器強化素材",
+      "target": "무기 강화 재료",
+      "consumer": "C_SimpleDiscript@SetText(string)",
+      "context": "Description for element-stone IDs10..13 in consumable/crafting selection",
+      "translator_model": "Codex internal"
+    }
+  ]
+}

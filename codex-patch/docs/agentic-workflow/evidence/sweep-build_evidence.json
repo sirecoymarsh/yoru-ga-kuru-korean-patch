@@ -1,0 +1,98 @@
+{
+  "status": "SWEEP_STAGED_NOT_VERIFIED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "4ca8d526621013e14e6d5e4dc17c761b4e9209f3ece154370c70a36cc7ea4a36",
+    "status": "LOOT_NOTICE_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "f3a82e856b75cbb10b455cf3575f10964c0a7218ef86c1a601c3da66404fd538",
+    "NightRemasterPact.afa": "298e436ad8f4bd8eefc2bdc740dae2daa440daa6648dc052b0183706b66159b3"
+  },
+  "files": {
+    "NightRemaster.ain": "b58ba53d8920f0e1c2553d7bfecf84f61aafed0887c549d272b77d83610cf650",
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8"
+  },
+  "AIN": {
+    "patched_existing": [
+      6462,
+      26780,
+      27194,
+      27302,
+      28637,
+      28642,
+      28731,
+      29817,
+      29818,
+      31473,
+      31639,
+      31640,
+      31641,
+      31642,
+      31643,
+      31644,
+      31645,
+      31646,
+      31647,
+      31648,
+      31649,
+      31650,
+      31651,
+      31856
+    ],
+    "added_functions": {
+      "KR_GetSweep": 31884,
+      "KR_SweepActive": 31885,
+      "KR_SetSweep": 31886,
+      "KR_SweepRand": 31887,
+      "KR_SweepAllowed": 31888,
+      "KR_SweepSceneOK": 31889,
+      "KR_SweepVisible": 31890,
+      "KR_SweepClick": 31891,
+      "KR_SweepConfirm": 31892,
+      "KR_SweepAddExp": 31893,
+      "KR_SweepState": 31894,
+      "KR_SweepPreflight": 31895,
+      "KR_SweepCurrent": 31896,
+      "KR_SweepMapIdentity": 31897,
+      "KR_SweepDate": 31898,
+      "KR_SweepConsume": 31899,
+      "KR_SweepItems": 31900,
+      "KR_SweepItemName": 31901,
+      "KR_SweepEquip": 31902,
+      "KR_SweepTimedRun": 31903,
+      "KR_SweepReport": 31904,
+      "KR_SweepPay": 31905,
+      "KR_SweepExecute": 31906
+    },
+    "original_CODE_STR0_MSG1_preserved": true,
+    "save_schema_unchanged": true
+  },
+  "PACT": {
+    "changed_entries": [
+      161,
+      185
+    ],
+    "archive": {
+      "source_sha256": "298e436ad8f4bd8eefc2bdc740dae2daa440daa6648dc052b0183706b66159b3",
+      "candidate_sha256": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8",
+      "original_entries_preserved": 187,
+      "replaced_ids": [
+        161,
+        185
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "dungeon_skip_20260916\\NightRemasterPact.afa"
+    },
+    "all_raster_font_assets_unchanged": true
+  },
+  "EX_unchanged_sha256": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+  "translator_model": "Codex internal",
+  "native_gameplay_verified": false
+}

@@ -1,0 +1,79 @@
+{
+ "tool": "calendar_summary_layer_tools_20260929",
+ "kind": "board_layer",
+ "status": "BOARD_LAYER_STAGED_NATIVE_PENDING",
+ "tag": "SB29",
+ "key": "calendar_board_sb29_20260929",
+ "dry_run": false,
+ "note": "6-column boards: summary below the portrait grid at full width; 3 / 4 columns unchanged. Not installed.",
+ "base": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\02_L30",
+ "base_sha256": "5d725efff0e02fef8a8edfc5198143b35dba1412ad4bb209c5dd363296a62573",
+ "base_manifest_status": "EXTERNAL_LAYER_ADOPTED_NATIVE_PENDING",
+ "base_chain": "base is a staged candidate over the installed AIN",
+ "live_sha256": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+ "live_manifest_sha256": "05d32f29b3d465194accba724d68dbfd6c966b3c591ac5de7f382b20bd505ab9",
+ "source_sha256": "5d725efff0e02fef8a8edfc5198143b35dba1412ad4bb209c5dd363296a62573",
+ "board_source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_all_tabs_20260929\\work\\build\\helpers_readable.jaf",
+ "board_source_sha256": "ae82ca7238e58b553da9aab40ebcb6c7729421e974b72307d6412623b3bc925b",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "32dbe25d0fa7dba14df7124914e12e36b9fa8bb3345b9205814226e1a2974a69",
+   "size": 4201556
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+   "size": 122368
+  }
+ },
+ "changed_functions": [
+  "KR_W29Board"
+ ],
+ "added_functions": {
+  "KR_SB29Board": 32869
+ },
+ "rule": {
+  "cols": 6,
+  "x": 28,
+  "font": 20,
+  "story_width": "1064/20-1 = 52",
+  "story_y": "max(grid bottom, field bottom) + 16",
+  "height": "story bottom + 92",
+  "divider": "grid / field bottom"
+ },
+ "prediction": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\board_layer\\predict_sb29.json",
+ "prediction_sha256": "ec26ae2d19e73a96a6e51e5fe2e0b19b816033f8f64fd6251643d9d92b1590fd",
+ "gates": {
+  "readable_source_equals_base_function": true,
+  "edits_applied_once": 4,
+  "metadata_changed": [
+   "KR_W29Board"
+  ],
+  "pinned_unchanged": [
+   "KR_T9HomeCasual",
+   "KR_T9HomeConfig",
+   "C_SceneHomebase@CheckGameSysButtons",
+   "C_SceneHomebase@Run",
+   "LSys3xScript::RunEvent",
+   "KR_T18RunSandboxed"
+  ],
+  "original_code_prefix_exact": true,
+  "original_strings_prefix_exact": true,
+  "messages_exact": true,
+  "native_opcodes_supported": true,
+  "forwarder_one_call": true,
+  "dll_unchanged": true
+ },
+ "summary_layers": [],
+ "effective_summaries": null,
+ "board_layers": [
+  {
+   "tag": "SB29",
+   "candidate": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_summary_layer_tools_20260929\\layers\\final_stack\\03_SB29\\candidate\\NightRemaster.ain"
+  }
+ ],
+ "story_getter": "KR_W29Story",
+ "serialized_schema_changes": 0,
+ "installed": false,
+ "time": "2026-09-29T22:26:30.748694+09:00",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

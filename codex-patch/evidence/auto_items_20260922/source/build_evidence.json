@@ -1,0 +1,135 @@
+{
+  "status": "AUTO_ITEMS_STAGED_UNVERIFIED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "c7bf91b79bf8d3fae45cfe261ffed6ede7ba2dd3cc979542f7fd726fc941a523",
+    "status": "SMART_AUTO_FIX_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "b86f6f5ff17cf2d08c0eb7a1015d05136819d5daf8803b6bca00b2c5d6cb08ea",
+    "NightRemasterPact.afa": "9159e5a340e6d436f7932d094ce966a66b48c36dc9ed3885109b690bceee3404",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4"
+  },
+  "files": {
+    "NightRemaster.ain": "9fc891f423e216e906c01cf7b5e2deed9b0ad13a06bf73f369d311349a280ee4",
+    "NightRemasterPact.afa": "ea48b22afce1d25372260755a6ea0b2978367da00222c6c6db0d73c468eb49f9",
+    "NightRemasterEX.ex": "83304ebe454b756c46778de9d3e746b2cce59adad2943b96fb0a48015416072a"
+  },
+  "patched_existing": [
+    29221,
+    29222,
+    29817,
+    29818
+  ],
+  "added_functions": {
+    "KR_ItemsReady": 31983,
+    "KR_ItemsMain": 31984,
+    "KR_ItemsSetting": 31985,
+    "KR_ItemsInit": 31986,
+    "KR_ItemsEnabled": 31987,
+    "KR_ItemsSetEnabled": 31988,
+    "KR_ItemsGetThreshold": 31989,
+    "KR_ItemsSetThreshold": 31990,
+    "KR_ItemsAllowed": 31991,
+    "KR_ItemsReserve": 31992,
+    "KR_ItemsSetAllowed": 31993,
+    "KR_ItemsGetReserve": 31994,
+    "KR_ItemsSetReserve": 31995,
+    "KR_ItemsStock": 31996,
+    "KR_ItemsTake": 31997,
+    "KR_ItemsReturn": 31998,
+    "KR_ItemsFriendCount": 31999,
+    "KR_ItemsFriend": 32000,
+    "KR_ItemsActionType": 32001,
+    "KR_ItemsNeed": 32002,
+    "KR_ItemsNeedAbility": 32003,
+    "KR_ItemsPending": 32004,
+    "KR_ItemsTry": 32005,
+    "KR_ItemsCancelDown": 32006,
+    "KR_ItemsGetAllow1": 32007,
+    "KR_ItemsSetAllow1": 32008,
+    "KR_ItemsGetReserve1": 32009,
+    "KR_ItemsSetReserve1": 32010,
+    "KR_ItemsGetAllow2": 32011,
+    "KR_ItemsSetAllow2": 32012,
+    "KR_ItemsGetReserve2": 32013,
+    "KR_ItemsSetReserve2": 32014,
+    "KR_ItemsGetAllow3": 32015,
+    "KR_ItemsSetAllow3": 32016,
+    "KR_ItemsGetReserve3": 32017,
+    "KR_ItemsSetReserve3": 32018,
+    "KR_ItemsGetAllow4": 32019,
+    "KR_ItemsSetAllow4": 32020,
+    "KR_ItemsGetReserve4": 32021,
+    "KR_ItemsSetReserve4": 32022,
+    "KR_ItemsGetAllow5": 32023,
+    "KR_ItemsSetAllow5": 32024,
+    "KR_ItemsGetReserve5": 32025,
+    "KR_ItemsSetReserve5": 32026
+  },
+  "PACT": {
+    "archive": {
+      "source_sha256": "9159e5a340e6d436f7932d094ce966a66b48c36dc9ed3885109b690bceee3404",
+      "candidate_sha256": "ea48b22afce1d25372260755a6ea0b2978367da00222c6c6db0d73c468eb49f9",
+      "original_entries_preserved": 187,
+      "replaced_ids": [
+        185
+      ],
+      "appended": [
+        {
+          "id": 187,
+          "name": "Asra/AutoItems.pactex",
+          "sha256": "4d8446321200bb01105fe741066aeee51c0b5806440349097a14c1e6095db9e4"
+        }
+      ],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\auto_items_20260922\\NightRemasterPact.afa"
+    },
+    "changed_entries": [
+      185
+    ],
+    "added_entry": 187,
+    "route_row": 10,
+    "other_EX_blocks_and_original_rows_exact": true,
+    "old_page_reverse_exact": true,
+    "original_font_chrome": true
+  },
+  "old_CODE_STR0_MSG1_exact": true,
+  "existing_metadata_exact_except_function_and_switch_addresses": true,
+  "relocated_native_switches": [
+    511,
+    512
+  ],
+  "translator_model": "Codex internal",
+  "native_verified": false,
+  "options": {
+    "slots": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78
+    ],
+    "marker": 2026092202,
+    "default_enabled": false,
+    "default_threshold": 30,
+    "default_reserve": 3
+  },
+  "runtime": {
+    "allowed_battle_types": [
+      -1,
+      0
+    ],
+    "native_items": true,
+    "queued_stock_deduct_once": true,
+    "auto_owned_down_refund": true,
+    "no_new_serialized_fields": true
+  }
+}

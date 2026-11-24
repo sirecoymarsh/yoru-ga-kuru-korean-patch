@@ -1,0 +1,663 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_may_summaries_20260929\\design\\summaries.json",
+   "term_folder": "may",
+   "file_sha_now": "5a5a70761d79265ea1de4e64143180b0b16079e5c799aaf4b6722e1475ba32af",
+   "file_sha_at_audit": "5a5a70761d79265ea1de4e64143180b0b16079e5c799aaf4b6722e1475ba32af"
+  }
+ ],
+ "events": [
+  {
+   "no": 13,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "덮쳐 온 괴물은",
+     "after": "덮쳐 온 히카리는",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "45dd77f1ca43eade50ba57e2555532d93b2928fd4cb3e72d074da6ff1109139b",
+   "sha256_after": "80b9f9e146f4937c44f22fc6539a2bc8a95f199c6e1b307a1e4fd4f4dd86ce5e",
+   "summary_after": "쿄카가 마나미에게 정의의 편이 될 생각이 없느냐고 묻고, 덮쳐 온 히카리는 주인공이 쓰러뜨린다. 함께 싸워 달라는 이즈미의 부탁에 마나미는 전대물 같다며 들떠서 승낙한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 16,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적에게 씌었을 수 있다고",
+     "after": "히카리에게 씌었을 수 있다고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "bc8d868f3c8c47759d7cbfdb07741f49f058e89bbe9c6ec274a0edd34fce32c5",
+   "sha256_after": "b67cadd6f6ddb91db7e36e514e97a4fa35defe282a7fce6670248f732d9d994c",
+   "summary_after": "첫 전투를 앞둔 마나미와 부실에 가자, 일행이 연쇄 방화범 기사를 보여 주며 히카리에게 씌었을 수 있다고 한다. 이즈미는 틈새 훈련을 멈추고 마나미도 데려가 범인을 찾기로 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 17,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "붉은 여자 모습의 적이 나타난다",
+     "after": "붉은 여자 모습의 히카리가 나타난다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "적은 달아나고",
+     "after": "히카리는 달아나고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "e66e57ae5b4f9b2e97f162152b1ec1640c4b764155ffc09f5dbe8764b9f58f4e",
+   "sha256_after": "7b74e36b7b5e072b83ecb684cf095ee04823bcb261718653c8e9484ddffaa2c3",
+   "summary_after": "잡지를 단서로 방화 표적을 지키던 이즈미와 주인공, 마나미 앞에 붉은 여자 모습의 히카리가 나타난다. 방화는 막았지만 히카리는 달아나고, 공포에 질린 마나미는 주저앉아 운다.",
+   "gate_problems": []
+  },
+  {
+   "no": 19,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "skipped": [],
+   "sha256_before": "b7f14f07de20c91d845ba99843e4f2aa7a8da079935589a5f1e3194d34cf40fa",
+   "sha256_after": "db2b998d4e9731f2ff040950b49b61b51988418d008cb0408b1f3463f515e550",
+   "summary_after": "히카리를 놓친 일로 호시카와를 탓하는 일행을 이즈미가 말리고 다음엔 반드시 쓰러뜨리자고 한다. 이어 주인공에게 마나미를 살펴 달라고 부탁하며, 싸울 수 없다면 기억을 지우겠다고 한다.",
+   "gate_problems": [
+    "longer than 100 (102)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (102)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "적을 놓친 일로",
+     "after": "히카리를 놓친 일로",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 23,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적이 가까이 있다는 징후",
+     "after": "히카리가 가까이 있다는 징후",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "65655b9f7811235ca7437902ee2bac32cd0785390f72d177fe76e5967beaa506",
+   "sha256_after": "5eb1ae3fb8e6a208f32a99cf31cb4c16ed2b7ca09058a53eafde42bb39adc402",
+   "summary_after": "백화점 앞에서 히카리가 가까이 있다는 징후를 확인한 일행은 호장의 힘으로 닫힌 문을 열고 들어가기로 한다. 동관과 서관을 모두 뒤져야 해서 이즈미는 두 조로 나뉘자고 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 24,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "어서 적을 찾자고",
+     "after": "어서 히카리를 찾자고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "b209f153c5cd349f75113e0445f844715b965e7da06ecd744faac51423cecd7a",
+   "sha256_after": "a7e0bcac27042cfcd33ec8f3063ff8d95de82bb16134d0f3c8352595c26ceae5",
+   "summary_after": "백화점 물건에 감탄하는 쿄카에게 주인공이 슬쩍하지 말라고 놀리고 신카이도 거든다. 발끈한 쿄카는 어서 히카리를 찾자고 재촉한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 26,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적이 나타난 줄 알고",
+     "after": "히카리가 나타난 줄 알고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "307090e269209001c04ce6364d2c4e310379f3c77f5e4e188e0accd3c9f75129",
+   "sha256_after": "0d9e9d3f3ebdee1ee456a33e69c70b8395d902c0d91c6920d0907f185b464978",
+   "summary_after": "히카리가 나타난 줄 알고 달려간 주인공과 신카이에게 이즈미가 만 엔짜리 티셔츠가 비싸다고 호소한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 30,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "쿄카와 적을 찾던 주인공에게",
+     "after": "쿄카와 함께 히카리를 찾던 주인공에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "5de693246a8f6754579a1b63da5d999f412e47700c9a3fd9f01530b031c2fc4f",
+   "sha256_after": "82b1258fb721e466702701de3eaa720499dde22ab816093d3acff3d3d8ac32ec",
+   "summary_after": "신카이, 쿄카와 함께 히카리를 찾던 주인공에게 마나미가 전화해 있는 곳을 묻고는 끊어 버린다. 그때 쿄카가 서관 모퉁이에서 붉은 빛을 발견해 일행은 뒤쫓아 간다.",
+   "gate_problems": []
+  },
+  {
+   "no": 41,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "skipped": [],
+   "sha256_before": "720e195789565a104cb305c5494b788ac82b1573a07c6d08a5622ac9c48e1301",
+   "sha256_after": "c0472de4c554f4b7dfe2336f40b57ef60149fb6aa33044a307844463c284e189",
+   "summary_after": "쿄카가 붉은 여자 모습의 히카리를 찾아내고, 빙의가 깊어 그대로 쓰러뜨리면 여자도 다칠 수 있다고 경고한다. 히카리만 끌어내자는 신카이의 말에 주인공은 죽을 각오로 해 보겠다고 한다.",
+   "gate_problems": [
+    "longer than 100 (102)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (102)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "붉은 여자 모습의 적을 찾아내고",
+     "after": "붉은 여자 모습의 히카리를 찾아내고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "적만 끌어내자는",
+     "after": "히카리만 끌어내자는",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 42,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "붉은 여자 모습의 적이 다가오고",
+     "after": "붉은 여자 모습의 히카리가 다가오고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "줄이며 적을 끌어내자고",
+     "after": "줄이며 히카리를 끌어내자고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "fa4d14faef11f37b94d4f8e00bd90e4fedc54371c5f136508fb1f8cbbac60b8c",
+   "sha256_after": "c208a2c47390c77d4a82487febf1d49cdebc472205cae842368254c99c0d185a",
+   "summary_after": "호시카와가 알려 준 쪽에서 붉은 여자 모습의 히카리가 다가오고, 쿄카는 빙의가 깊어 함부로 쓰러뜨리면 안 된다고 한다. 호시카와는 여자의 피해를 줄이며 히카리를 끌어내자고 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 43,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "붉은 여자 모습의 적을 알아채고",
+     "after": "붉은 여자 모습의 히카리를 알아채고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "줄여 적을 끌어내야",
+     "after": "줄여 히카리를 끌어내야",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "914fad1efd4587d15a6b696ea1e3adf740eb978baeb09441dfaa972bfe5b3899",
+   "sha256_after": "b69c7e2e8516c724c1a11b9db414bca4b04a3a003acbc90469c2bd4b1d077d83",
+   "summary_after": "이즈미가 오른쪽에서 오는 붉은 여자 모습의 히카리를 알아채고, 여자가 다칠 수 있으니 칼날은 대지 말라고 한다. 신카이는 피해를 줄여 히카리를 끌어내야 한다고 거든다.",
+   "gate_problems": []
+  },
+  {
+   "no": 44,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "궁지에 몬 적이 다가오자",
+     "after": "궁지에 몬 히카리가 다가오자",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "적만 끌어낼 수 있다고",
+     "after": "히카리만 끌어낼 수 있다고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "ae5b554eed28f111fbb120d84f1d7abdfeaecff1d40291881f28080342360a69",
+   "sha256_after": "901fbf8ff209109befaa2a033c3cda21e53aac229d03e4e2b06d44778602f9ac",
+   "summary_after": "궁지에 몬 히카리가 다가오자 이즈미는 빙의가 깊어 여자가 다칠 수 있다며 칼날을 쓰지 말라고 한다. 호시카와는 어렵지만 히카리만 끌어낼 수 있다고 하고, 주인공도 각오를 다진다.",
+   "gate_problems": []
+  },
+  {
+   "no": 45,
+   "folder": "may",
+   "proposals": 3,
+   "eligible": 3,
+   "applied": [
+    {
+     "before": "이즈미가 적을 발견하고",
+     "after": "이즈미가 히카리를 발견하고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "적만 끌어내되",
+     "after": "히카리만 끌어내되",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "안 되면 적을 없애는 게",
+     "after": "안 되면 히카리를 없애는 게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "6b505ab06aded1c7f14709b692b40c003ea1a7d4d46e074c9c53f15f8450eb26",
+   "sha256_after": "2317a0edf42720a7ada24ef7c9e49f94732ab20cea5dd081a1a32bcbaab53b79",
+   "summary_after": "이즈미가 히카리를 발견하고 쿄카가 오른쪽에서 온다고 알린다. 이즈미는 여자를 다치지 않게 히카리만 끌어내되, 안 되면 히카리를 없애는 게 먼저라고 주인공에게 이른다.",
+   "gate_problems": []
+  },
+  {
+   "no": 46,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "붉은 여자 모습의 적이 다가온다",
+     "after": "붉은 여자 모습의 히카리가 다가온다",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "적만 끌어내야 한다고",
+     "after": "히카리만 끌어내야 한다고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "a66d7166a21ff4ed9f093e114a4b69a64e7581e60ddd170ee31953af9f995000",
+   "sha256_after": "07377924a5beb17c6af79a7561f55b7f1b02085269b948e1d6ccd9c37fd281ee",
+   "summary_after": "호시카와가 조용히 가리킨 어둠 속에서 붉은 여자 모습의 히카리가 다가온다. 신카이는 칼날로 치지 말라고 하고, 호시카와는 빙의가 깊으니 히카리만 끌어내야 한다고 설명한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 47,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "skipped": [],
+   "sha256_before": "d3b3c9346f5a2a3a7e472837373e5d4b08f9c5bcb84ec0cc3fbe8e045d2598f2",
+   "sha256_after": "92fb7de384baab9490014c58026e8456baae2f298e5a34ce5d3b42956e0966da",
+   "summary_after": "쓰러진 여자의 입안을 살피던 신카이를 숨어 있던 히카리가 덮치지만, 주인공의 경고로 피한다. 달아나는 히카리를 신카이와 쿄카가 먼저 쫓고, 불꽃에 발이 묶인 주인공은 뒤따르기로 한다.",
+   "gate_problems": [
+    "longer than 100 (102)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (102)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "숨어 있던 적이 덮치지만",
+     "after": "숨어 있던 히카리가 덮치지만",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "달아나는 적을",
+     "after": "달아나는 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 48,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "숨어 있던 적이 튀어나오고",
+     "after": "숨어 있던 히카리가 튀어나오고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "적이 달아나자",
+     "after": "히카리가 달아나자",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "5bfa8bbe9d9b4cbceab47808e4046e922335adce034b364332e68c8ae4a1c4ba",
+   "sha256_after": "109cb5f00df3e02aa0ca64b3cd0c05ebb77892f9413cde4ae26a77877d04cb19",
+   "summary_after": "호시카와가 쓰러진 여자의 입안을 들여다보는 사이 숨어 있던 히카리가 튀어나오고, 호시카와는 뺨을 데며 피한다. 히카리가 달아나자 쿄카와 호시카와가 먼저 쫓아가고 주인공은 뒤처진다.",
+   "gate_problems": []
+  },
+  {
+   "no": 49,
+   "folder": "may",
+   "proposals": 3,
+   "eligible": 3,
+   "applied": [
+    {
+     "before": "입안에서 적을 찾지 못한",
+     "after": "입안에서 히카리를 찾지 못한",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "치맛자락에서 적이 튀어나와",
+     "after": "치맛자락에서 히카리가 튀어나와",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "달아나는 적을",
+     "after": "달아나는 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "ee81c599e9f378ebd6223f57df87f3814d7706a066df37281afc8a804ce20a79",
+   "sha256_after": "33dd185e9f208d89bdfe4dcbd19aac4a6c2a45eb720ed370e47361ebc15d3ea5",
+   "summary_after": "신카이가 여자의 입안에서 히카리를 찾지 못한 순간 치맛자락에서 히카리가 튀어나와 덮친다. 달아나는 히카리를 신카이가 쫓고, 불꽃에 가로막힌 주인공에게 이즈미는 사과하며 먼저 간다.",
+   "gate_problems": []
+  },
+  {
+   "no": 50,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "튀어나온 적에게",
+     "after": "튀어나온 히카리에게",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "31a67f266f01e4e08dd355eb0bdfa4fbc3c357d1a74d51da02d15a4c1b44450a",
+   "sha256_after": "ad3a044dfa0d86b60cdb7e0a0eb51913b85604223411c7d7f138edefeaa7eaa1",
+   "summary_after": "여자의 입안을 살피던 호시카와가 치맛자락에서 튀어나온 히카리에게 뺨을 데고 흉터를 걱정한다. 불꽃 때문에 주인공이 뒤처지자 이즈미는 미안하다며 호시카와와 먼저 쫓아간다.",
+   "gate_problems": []
+  },
+  {
+   "no": 51,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "skipped": [],
+   "sha256_before": "8ee63199ca5f27f4c33ec0ac4dff5157b467d86800884c50eb4cd80002a3fb45",
+   "sha256_after": "e107d18e2ae3e511d41931b6d64015ab2f75a40bef1e36b25305b491d58f02ca",
+   "summary_after": "여자의 입안을 살피던 이즈미를 몸속을 돌아 나온 히카리가 덮치고, 이즈미는 앞머리만 스친 채 피한다. 이즈미와 쿄카가 달아나는 히카리를 먼저 쫓고, 불꽃에 막힌 주인공은 뒤따르기로 한다.",
+   "gate_problems": [
+    "longer than 100 (104)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (104)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "몸속을 돌아 나온 적이 덮치고",
+     "after": "몸속을 돌아 나온 히카리가 덮치고",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "달아나는 적을",
+     "after": "달아나는 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 52,
+   "folder": "may",
+   "proposals": 2,
+   "eligible": 2,
+   "applied": [
+    {
+     "before": "숨어 있던 적의 기습을",
+     "after": "숨어 있던 히카리의 기습을",
+     "type": "generic_to_term",
+     "confidence": "high"
+    },
+    {
+     "before": "달아나는 적을",
+     "after": "달아나는 히카리를",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "f22fbaa0e0518d95115aff2fca94afefcd27d5278fc64a89b9d651f73dab08f1",
+   "sha256_after": "50b60f90c12df3e34457ea938460942eade264ef685613ceddefeebf14b8f4f5",
+   "summary_after": "신카이가 여자의 입안을 들여다보다 숨어 있던 히카리의 기습을 받는다. 달아나는 히카리를 신카이와 호시카와가 쫓고, 호시카와는 불꽃에 막힌 주인공에게 나중에 합류하자고 한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 56,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "휘둘러 적을 쫓으려",
+     "after": "휘둘러 히카리를 쫓으려",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "4a2298c092e0cc71448e0074f9050147afb03de0e05832d8bdc9ee9978bf13cd",
+   "sha256_after": "f12e507524ab56c2d3facac61aaeb7bce6ae537f524323487e33190a5c9245ad",
+   "summary_after": "비명을 따라간 주인공이 대걸레를 휘둘러 히카리를 쫓으려 애쓰는 마나미를 발견하고 구하러 뛰어든다.",
+   "gate_problems": []
+  },
+  {
+   "no": 59,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "적을 놓쳤다는",
+     "after": "히카리를 놓쳤다는",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "15af426bd07ab872a3c29fba5d8e96741d99bd7251be406da297b27829a59398",
+   "sha256_after": "55e29bdafe0b2f59a39b9466a4df3a91a4be3d6fa77460f4d688a3e9cbfa5d5c",
+   "summary_after": "히카리를 놓쳤다는 이즈미의 전화를 받고 주인공은 위층 정찰을 맡는다. 마나미가 안내도에서 두 층 위의 웨딩 숍을 짚어 내, 두 사람은 그리로 향한다.",
+   "gate_problems": []
+  },
+  {
+   "no": 60,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "skipped": [],
+   "sha256_before": "8d38ddf15fbc0e8dbe36f1847fe6486b51a97db7cdd2f30a2103960dbb3d3be2",
+   "sha256_after": "043c28f6472ce00a949e50f3a76b688a0a84e200ff0bc95f1a75b0896d87a2fd",
+   "summary_after": "웨딩드레스 앞에서 울고 있는 여자를 본 마나미가 주인공의 만류에도 다가가 슬픈 꿈은 끝내자고 말을 건넨다. 여자가 눈물을 흘리자 몸에서 히카리가 빠져나와 한데 뭉쳐 커다랗게 변한다.",
+   "gate_problems": [
+    "longer than 100 (101)"
+   ],
+   "skipped_summary": "patched text fails the gate (longer than 100 (101)): the approved text is baked unchanged",
+   "applied_then_reverted": [
+    {
+     "before": "몸에서 적이 빠져나와",
+     "after": "몸에서 히카리가 빠져나와",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "applied": []
+  },
+  {
+   "no": 61,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "숨이 붙어 있던 적이",
+     "after": "숨이 붙어 있던 히카리가",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "a22e343786466e9c8bf98cc8942147cc956268f0eeb1be3eeee52467957a5a29",
+   "sha256_after": "4b3818dd3528b753d10946ab62347e6d64289b8a5cb716d14cc3f4848b7f4648",
+   "summary_after": "아직 숨이 붙어 있던 히카리가 부풀어 터지며 주변을 불길로 뒤덮는다. 주인공은 쓰러져 있던 여자를 업고 마나미와 함께 달린다.",
+   "gate_problems": []
+  },
+  {
+   "no": 1211,
+   "folder": "may",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [
+    {
+     "before": "쿄카가 적은 바라는",
+     "after": "쿄카가 히카리는 바라는",
+     "type": "generic_to_term",
+     "confidence": "high"
+    }
+   ],
+   "skipped": [],
+   "sha256_before": "eca4342e9d647098cd506d769696c1a149cd00fbdacacd8a5bc3d0319ec22159",
+   "sha256_after": "a2c186499081e0c6655ff8251020e88edcaa3c8609ec1a9e095aff8b222ca36a",
+   "summary_after": "쿄카가 히카리는 바라는 사람에게만 씐다며 다들 세상이 그렇게 시시하냐고 묻는다. 자신은 지루하지 않지만 가끔 더 짜릿했으면 좋겠다고 털어놓는다.",
+   "gate_problems": []
+  }
+ ],
+ "applied": 31,
+ "skipped_proposals": 8,
+ "skipped_summaries": 0,
+ "below_threshold": 3,
+ "changed_ids": [
+  13,
+  16,
+  17,
+  23,
+  24,
+  26,
+  30,
+  42,
+  43,
+  44,
+  45,
+  46,
+  48,
+  49,
+  50,
+  52,
+  56,
+  59,
+  61,
+  1211
+ ],
+ "gate_skipped": [
+  {
+   "no": 19,
+   "problems": [
+    "longer than 100 (102)"
+   ],
+   "proposals": 1
+  },
+  {
+   "no": 41,
+   "problems": [
+    "longer than 100 (102)"
+   ],
+   "proposals": 2
+  },
+  {
+   "no": 47,
+   "problems": [
+    "longer than 100 (102)"
+   ],
+   "proposals": 2
+  },
+  {
+   "no": 51,
+   "problems": [
+    "longer than 100 (104)"
+   ],
+   "proposals": 2
+  },
+  {
+   "no": 60,
+   "problems": [
+    "longer than 100 (101)"
+   ],
+   "proposals": 1
+  }
+ ],
+ "tag": "05",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T22:28:11.452178+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

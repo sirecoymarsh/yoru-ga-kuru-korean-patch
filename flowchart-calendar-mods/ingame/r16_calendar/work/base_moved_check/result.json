@@ -1,0 +1,140 @@
+{
+ "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+ "status": "STORY_EXPLORE_INSTALLED_NATIVE_PASS",
+ "runtime_ain": "cbed62c2aa3bd33c8471a098cc1f6a3e7f83c60c32d02b2cbf2b0dd63bc24a9f",
+ "runtime_pact": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+ "runtime_ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+ "manifest_sha256": "1f6caca554e07dc36838e6e2c36c4e88b7be96320dfe654d50811f721b1e6561",
+ "functions_r15": 32479,
+ "functions_now": 32498,
+ "pinned": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "same_entry": true,
+   "code_bytes": 232,
+   "code_identical": true
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "same_entry": true,
+   "code_bytes": 298,
+   "code_identical": true
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "same_entry": true,
+   "code_bytes": 550,
+   "code_identical": true
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "same_entry": true,
+   "code_bytes": 1104,
+   "code_identical": true
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "same_entry": true,
+   "code_bytes": 1292,
+   "code_identical": true
+  }
+ },
+ "swap_sites_intact": 9,
+ "swap_sites": [
+  {
+   "function": "C_SceneHomebase@RunHome",
+   "replacement": "KR_T9HomeMenuRun",
+   "site": 11534612,
+   "still_swapped": true,
+   "owner_entry_same": true
+  },
+  {
+   "function": "C_SceneHomebase@CheckGameSysButtons",
+   "replacement": "KR_T9HomeCasual",
+   "site": 6314084,
+   "still_swapped": true,
+   "owner_entry_same": true
+  },
+  {
+   "function": "C_SceneHomebase@CheckGameSysButtons",
+   "replacement": "KR_T9HomeConfig",
+   "site": 6314176,
+   "still_swapped": true,
+   "owner_entry_same": true
+  },
+  {
+   "function": "KR_T8CharMissingMenu",
+   "replacement": "KR_T9CharMenuTitle",
+   "site": 11504082,
+   "still_swapped": true,
+   "owner_entry_same": true
+  },
+  {
+   "function": "KR_T8CharMissingMenu",
+   "replacement": "KR_T9CharMenuRun",
+   "site": 11504448,
+   "still_swapped": true,
+   "owner_entry_same": true
+  },
+  {
+   "function": "KR_T8CharMissingMenu",
+   "replacement": "KR_T9CharMenuPage",
+   "site": 11504614,
+   "still_swapped": true,
+   "owner_entry_same": true
+  },
+  {
+   "function": "KR_T8CharMissingPage",
+   "replacement": "KR_T9CharPageAdd",
+   "site": 11503650,
+   "still_swapped": true,
+   "owner_entry_same": true
+  },
+  {
+   "function": "KR_T8CharMissingPage",
+   "replacement": "KR_T9CharPageRun",
+   "site": 11503768,
+   "still_swapped": true,
+   "owner_entry_same": true
+  },
+  {
+   "function": "KR_T8CharMissingPage",
+   "replacement": "KR_T9CharDate",
+   "site": 11503882,
+   "still_swapped": true,
+   "owner_entry_same": true
+  }
+ ],
+ "kr_t9_functions": 93,
+ "kr_t9_entries_changed": [],
+ "kr_t9_code_changed": [],
+ "r15_function_entries_changed_by_codex": 0,
+ "r15_function_entries_changed_names": [],
+ "functions_added_by_codex": 19,
+ "functions_added_prefixes": {
+  "KR_RateGet": 1,
+  "KR_RateSet": 1,
+  "KR_RateInvalidate": 1,
+  "KR_RateAfterLoad": 1,
+  "KR_RateEventReleased": 1,
+  "KR_RateText": 1,
+  "KR_RateRender": 1,
+  "KR_RateTick": 1,
+  "KR_RateViewUpdate": 1,
+  "KR_StoryClear": 1,
+  "KR_StoryGate": 1,
+  "KR_StoryRestoreAuto": 1,
+  "KR_StoryGuard": 1,
+  "KR_StoryTransition": 1,
+  "KR_StoryVisible": 1,
+  "KR_StoryBattleEnter": 1,
+  "KR_StoryResultPending": 1,
+  "KR_StoryPause": 1,
+  "KR_StoryResetTrip": 1
+ }
+}

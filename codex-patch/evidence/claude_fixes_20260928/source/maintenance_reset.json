@@ -1,0 +1,11 @@
+{
+  "steps": 56,
+  "single_failures": 56,
+  "crash_boundaries": 56,
+  "outcomes": {
+    "unchanged": 36,
+    "rolled_back": 16,
+    "recovered": 52,
+    "committed": 8
+  }
+}

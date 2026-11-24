@@ -1,0 +1,51 @@
+[
+  {
+    "fid": 28637,
+    "address": 10853940,
+    "before": "30008a6a0000",
+    "after": "3000af7d0000",
+    "reason": "KR_ExploreTripBegin"
+  },
+  {
+    "fid": 28637,
+    "address": 10854380,
+    "before": "3000247d0000",
+    "after": "3000c07d0000",
+    "reason": "KR_ExploreAfterClick"
+  },
+  {
+    "fid": 28665,
+    "address": 10149932,
+    "before": "3000247d0000",
+    "after": "3000bd7d0000",
+    "reason": "KR_ExploreBattleEnter"
+  },
+  {
+    "fid": 29556,
+    "address": 10705422,
+    "before": "30003f7d0000",
+    "after": "3000b07d0000",
+    "reason": "KR_ExploreAfterLoad"
+  },
+  {
+    "fid": 28664,
+    "address": 10867978,
+    "before": "3000e16c0000",
+    "after": "3000bf7d0000",
+    "reason": "KR_ExploreFloorDialog"
+  },
+  {
+    "fid": 27159,
+    "address": 5664750,
+    "before": "000000000000",
+    "after": "3000c27d0000",
+    "reason": "native auto trap selector only during our pending trap"
+  },
+  {
+    "fid": 27159,
+    "address": 5665446,
+    "before": "1400",
+    "after": "1600",
+    "reason": "select living party member even when all native chances are zero"
+  }
+]

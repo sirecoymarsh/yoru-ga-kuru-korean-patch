@@ -1,0 +1,22 @@
+04:43:39.623 attach pid 34640
+04:43:44.069 ready 1 chart
+04:43:44.072 menu bar before ['시스템(&S)', '도움말(&H)']
+04:43:44.072 post 0x112921a4 0x116 0x4d11c6b ok
+04:43:44.176 menu installed {'top': ['시스템(&S)', '모드(&M)', '도움말(&H)'], 'mod': [('7E10', '이벤트 플로우 차트(&E)'), ('7E11', '전체 개방(&U)'), ('7E12', '전체 개방 되돌리기(&R)'), ('0000', ''), ('7E13', '전체 리셋(&Z)'), ('7E14', '전체 리셋 되돌리기(&B)')]}
+04:43:44.176 post 0x112921a4 0x111 0x7e10 ok
+04:43:45.370 ready 2 unlock_all
+04:43:45.370 post 0x112921a4 0x111 0x7e11 ok
+04:43:46.558 ready 3 unlock_revert
+04:43:46.558 post 0x112921a4 0x111 0x7e12 ok
+04:43:47.743 ready 4 reset_no
+04:43:47.743 post 0x112921a4 0x111 0x7e13 ok
+04:43:47.852 messagebox 0xed1c94 전체 리셋
+04:43:47.949 captured msgbox_reset_all_no.png 280 179 printwindow 1
+04:43:47.960 post 0xed1c94 0x111 0x7 ok
+04:43:47.960 done reset_no
+04:43:49.263 ready 5 reset_yes
+04:43:49.263 post 0x112921a4 0x111 0x7e13 ok
+04:43:49.372 messagebox 0xee1c94 전체 리셋
+04:43:49.380 captured msgbox_reset_all_yes.png 280 179 printwindow 1
+04:43:49.479 post 0xee1c94 0x111 0x6 ok
+04:43:53.530 detach state idle

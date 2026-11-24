@@ -1,0 +1,1266 @@
+{
+  "schema": "yoru-mods.candidate.v1",
+  "status": "MODS_20261015_STAGED_NOT_INSTALLED",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)",
+  "built": "2026-10-15T23:57:14",
+  "seconds": 52,
+  "base": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "3d3e54691e98ca7bcf261f1469e703aa7a744cadfb2609dadd820ac4fbe00ed4",
+    "status": "AUTONAV_20261015_INSTALLED_NATIVE_PASS",
+    "ain_sha256": "1e96d3e797184a7a13236208988fe6ca3d37cf55f9e553f0ccc5ad7ed7659188",
+    "pact_sha256": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce",
+    "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+    "winmm_sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+    "checked_at_start_and_end": true
+  },
+  "files": {
+    "NightRemaster.ain": {
+      "sha256": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+      "size": 4421002
+    },
+    "NightRemasterPact.afa": {
+      "sha256": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+      "size": 830935,
+      "built_by": "build_pact_mods.py",
+      "source_sha256": "9f8c63b9276b00b71904ecd34b7062a9f1fec091ebe5cfaa0bc7ada1c16072ce",
+      "changed_entries": [
+        185,
+        187
+      ],
+      "evidence_sha256": "b891d3f65c421448ead01ab9c4bb00ea92aac2aa53f3df75451f36a84ba795ba",
+      "note": "185 Asra/Mods and 187 Asra/AutoItems laid out again (KR_MD_* parts)"
+    }
+  },
+  "pact_changed": true,
+  "ex_changed": false,
+  "fnl_changed": false,
+  "winmm_changed": false,
+  "added_functions": {
+    "KR_MDGauge": 33084,
+    "KR_MDGauges": 33085,
+    "KR_MDHomeRate": 33086,
+    "KR_MDSeenToParts": 33087,
+    "KR_MDSeenToAsra": 33088,
+    "KR_MDMsgTexts": 33089
+  },
+  "jam_bodies": [],
+  "same_length_sites": [
+    {
+      "function": "C_ConfigView@EventConfAsraDataForParts",
+      "fid": 29817,
+      "function_address": 11515272,
+      "site": 11517876,
+      "site_offset": 2604,
+      "kind": "CALLFUNC",
+      "original": "KR_ANCfgSeenToParts",
+      "original_fid": 33080,
+      "replacement": "KR_MDSeenToParts",
+      "replacement_fid": 33087,
+      "before": "300038810000",
+      "after": "30003f810000",
+      "operand_bytes": [
+        11517878,
+        11517882
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    },
+    {
+      "function": "C_ConfigView@EventConfPartsDataForAsra",
+      "fid": 29818,
+      "function_address": 11517992,
+      "site": 11520996,
+      "site_offset": 3004,
+      "kind": "CALLFUNC",
+      "original": "KR_ANCfgSeenToAsra",
+      "original_fid": 33081,
+      "replacement": "KR_MDSeenToAsra",
+      "replacement_fid": 33088,
+      "before": "300039810000",
+      "after": "300040810000",
+      "operand_bytes": [
+        11520998,
+        11521002
+      ],
+      "occurrence": 0,
+      "calls_of_original_in_function": 1,
+      "owner_is_original": true
+    }
+  ],
+  "message_box_sites": [
+    {
+      "function": "advengine::detail::CADVEngine@Reload",
+      "fid": 3233,
+      "site": 1301800,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBox",
+      "original_sid": 1067,
+      "replacement_sid": 23994,
+      "text_ko": "함수 불러오기에 실패했습니다【%s】\n",
+      "text_cp949": "c7d4bcf620bad2b7afbfc0b1e2bfa120bdc7c6d0c7dfbdc0b4cfb4d9a1bc2573a1bd0a",
+      "before": "41002b040000",
+      "after": "4100ba5d0000",
+      "operand_bytes": [
+        1301802,
+        1301806
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "advengine::detail::CADVEngine@Reload",
+      "fid": 3233,
+      "site": 1301916,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBox",
+      "original_sid": 1067,
+      "replacement_sid": 23994,
+      "text_ko": "함수 불러오기에 실패했습니다【%s】\n",
+      "text_cp949": "c7d4bcf620bad2b7afbfc0b1e2bfa120bdc7c6d0c7dfbdc0b4cfb4d9a1bc2573a1bd0a",
+      "before": "41002b040000",
+      "after": "4100ba5d0000",
+      "operand_bytes": [
+        1301918,
+        1301922
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "advengine::detail::AnalyseScenario",
+      "fid": 3301,
+      "site": 1388524,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBox",
+      "original_sid": 1132,
+      "replacement_sid": 23976,
+      "text_ko": "분석을 중지합니다",
+      "text_cp949": "bad0bcaec0bb20c1dfc1f6c7d5b4cfb4d9",
+      "before": "41006c040000",
+      "after": "4100a85d0000",
+      "operand_bytes": [
+        1388526,
+        1388530
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "backscene::detail::SaveBackSceneData",
+      "fid": 3546,
+      "site": 1445818,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1169,
+      "replacement_sid": 23997,
+      "text_ko": "화면 저장 중 파츠 라이브러리를 저장하지 못했습니다",
+      "text_cp949": "c8adb8e920c0fac0e520c1df20c6c4c3f720b6f3c0ccbaeab7afb8aeb8a620c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410091040000",
+      "after": "4100bd5d0000",
+      "operand_bytes": [
+        1445820,
+        1445824
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "enquate::detail::CEnqueteView@ClickSendButton",
+      "fid": 5831,
+      "site": 2196730,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBoxOkCancel",
+      "original_sid": 1884,
+      "replacement_sid": 23988,
+      "text_ko": "응답하지 않은 항목이 있습니다.\n설문을 제출할까요?",
+      "text_cp949": "c0c0b4e4c7cfc1f620becac0ba20c7d7b8f1c0cc20c0d6bdc0b4cfb4d92e0abcb3b9aec0bb20c1a6c3e2c7d2b1eebfe43f",
+      "before": "41005c070000",
+      "after": "4100b45d0000",
+      "operand_bytes": [
+        2196732,
+        2196736
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "enquate::detail::CEnqueteView@ClickSendButton",
+      "fid": 5831,
+      "site": 2196778,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBoxOkCancel",
+      "original_sid": 1885,
+      "replacement_sid": 23980,
+      "text_ko": "설문을 제출할까요?",
+      "text_cp949": "bcb3b9aec0bb20c1a6c3e2c7d2b1eebfe43f",
+      "before": "41005d070000",
+      "after": "4100ac5d0000",
+      "operand_bytes": [
+        2196780,
+        2196784
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "enquate::detail::CEnqueteView@ClickSendButton",
+      "fid": 5831,
+      "site": 2196860,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBox",
+      "original_sid": 1886,
+      "replacement_sid": 23979,
+      "text_ko": "설문을 제출하지 못했습니다.",
+      "text_cp949": "bcb3b9aec0bb20c1a6c3e2c7cfc1f620b8f8c7dfbdc0b4cfb4d92e",
+      "before": "41005e070000",
+      "after": "4100ab5d0000",
+      "operand_bytes": [
+        2196862,
+        2196866
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "enquate::detail::CEnqueteView@ClickSendButton",
+      "fid": 5831,
+      "site": 2197044,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBox",
+      "original_sid": 1887,
+      "replacement_sid": 23978,
+      "text_ko": "설문 제출에 실패했습니다.",
+      "text_cp949": "bcb3b9ae20c1a6c3e2bfa120bdc7c6d0c7dfbdc0b4cfb4d92e",
+      "before": "41005f070000",
+      "after": "4100aa5d0000",
+      "operand_bytes": [
+        2197046,
+        2197050
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "enquate::detail::CEnqueteView@ClickSendButton",
+      "fid": 5831,
+      "site": 2197084,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBox",
+      "original_sid": 1888,
+      "replacement_sid": 23981,
+      "text_ko": "설문을 제출했습니다.\n협조해 주셔서 감사합니다.",
+      "text_cp949": "bcb3b9aec0bb20c1a6c3e2c7dfbdc0b4cfb4d92e0ac7f9c1b6c7d820c1d6bcc5bcad20b0a8bbe7c7d5b4cfb4d92e",
+      "before": "410060070000",
+      "after": "4100ad5d0000",
+      "operand_bytes": [
+        2197086,
+        2197090
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行",
+      "fid": 6205,
+      "site": 2268762,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1933,
+      "replacement_sid": 23975,
+      "text_ko": "백로그용 메모리를 저장하지 못했습니다",
+      "text_cp949": "b9e9b7ceb1d7bfeb20b8deb8f0b8aeb8a620c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41008d070000",
+      "after": "4100a75d0000",
+      "operand_bytes": [
+        2268764,
+        2268768
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行",
+      "fid": 6205,
+      "site": 2268896,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1934,
+      "replacement_sid": 23973,
+      "text_ko": "메인 EX를 저장하지 못했습니다",
+      "text_cp949": "b8dec0ce204558b8a620c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41008e070000",
+      "after": "4100a55d0000",
+      "operand_bytes": [
+        2268898,
+        2268902
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行",
+      "fid": 6205,
+      "site": 2269002,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1935,
+      "replacement_sid": 23993,
+      "text_ko": "파츠 라이브러리를 저장하지 못했습니다",
+      "text_cp949": "c6c4c3f720b6f3c0ccbaeab7afb8aeb8a620c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41008f070000",
+      "after": "4100b95d0000",
+      "operand_bytes": [
+        2269004,
+        2269008
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行",
+      "fid": 6205,
+      "site": 2269100,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1936,
+      "replacement_sid": 23987,
+      "text_ko": "시스템 서비스를 저장하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20bcadbaf1bdbab8a620c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410090070000",
+      "after": "4100b35d0000",
+      "operand_bytes": [
+        2269102,
+        2269106
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行",
+      "fid": 6205,
+      "site": 2269198,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1937,
+      "replacement_sid": 23996,
+      "text_ko": "해시 맵을 저장하지 못했습니다",
+      "text_cp949": "c7d8bdc320b8cac0bb20c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410091070000",
+      "after": "4100bc5d0000",
+      "operand_bytes": [
+        2269200,
+        2269204
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行",
+      "fid": 6205,
+      "site": 2269606,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1938,
+      "replacement_sid": 23990,
+      "text_ko": "추가 세이브 파일\n【 %s 】\n을 저장하지 못했습니다",
+      "text_cp949": "c3dfb0a120bcbcc0ccbaea20c6c4c0cf0aa1bc20257320a1bd0ac0bb20c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410092070000",
+      "after": "4100b65d0000",
+      "operand_bytes": [
+        2269608,
+        2269612
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行",
+      "fid": 6205,
+      "site": 2269726,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBox",
+      "original_sid": 1939,
+      "replacement_sid": 23982,
+      "text_ko": "세이브 파일\n【 %s 】\n을 저장하지 못했습니다",
+      "text_cp949": "bcbcc0ccbaea20c6c4c0cf0aa1bc20257320a1bd0ac0bb20c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410093070000",
+      "after": "4100ae5d0000",
+      "operand_bytes": [
+        2269728,
+        2269732
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行_ロード後復帰処理",
+      "fid": 6206,
+      "site": 2269960,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1940,
+      "replacement_sid": 23972,
+      "text_ko": "메인 EX를 불러오지 못했습니다",
+      "text_cp949": "b8dec0ce204558b8a620bad2b7afbfc0c1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410094070000",
+      "after": "4100a45d0000",
+      "operand_bytes": [
+        2269962,
+        2269966
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行_ロード後復帰処理",
+      "fid": 6206,
+      "site": 2270236,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1941,
+      "replacement_sid": 23974,
+      "text_ko": "백로그용 메모리를 복원하지 못했습니다",
+      "text_cp949": "b9e9b7ceb1d7bfeb20b8deb8f0b8aeb8a620bab9bff8c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410095070000",
+      "after": "4100a65d0000",
+      "operand_bytes": [
+        2270238,
+        2270242
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行_ロード後復帰処理",
+      "fid": 6206,
+      "site": 2270468,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1942,
+      "replacement_sid": 23995,
+      "text_ko": "해시 맵을 불러오지 못했습니다",
+      "text_cp949": "c7d8bdc320b8cac0bb20bad2b7afbfc0c1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410096070000",
+      "after": "4100bb5d0000",
+      "operand_bytes": [
+        2270470,
+        2270474
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行_ロード後復帰処理",
+      "fid": 6206,
+      "site": 2270532,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1943,
+      "replacement_sid": 23986,
+      "text_ko": "시스템 서비스를 불러오지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20bcadbaf1bdbab8a620bad2b7afbfc0c1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410097070000",
+      "after": "4100b25d0000",
+      "operand_bytes": [
+        2270534,
+        2270538
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::セーブ実行_ロード後復帰処理",
+      "fid": 6206,
+      "site": 2270588,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1944,
+      "replacement_sid": 23992,
+      "text_ko": "파츠 라이브러리를 불러오지 못했습니다",
+      "text_cp949": "c6c4c3f720b6f3c0ccbaeab7afb8aeb8a620bad2b7afbfc0c1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "410098070000",
+      "after": "4100b85d0000",
+      "operand_bytes": [
+        2270590,
+        2270594
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::ロード実行",
+      "fid": 6212,
+      "site": 2273298,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1945,
+      "replacement_sid": 23977,
+      "text_ko": "불러오기에 실패했습니다",
+      "text_cp949": "bad2b7afbfc0b1e2bfa120bdc7c6d0c7dfbdc0b4cfb4d9",
+      "before": "410099070000",
+      "after": "4100a95d0000",
+      "operand_bytes": [
+        2273300,
+        2273304
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::共有セーブ",
+      "fid": 6214,
+      "site": 2273468,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1946,
+      "replacement_sid": 23984,
+      "text_ko": "세이브 파일【 %s 】\n을 저장하지 못했습니다",
+      "text_cp949": "bcbcc0ccbaea20c6c4c0cfa1bc20257320a1bd0ac0bb20c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41009a070000",
+      "after": "4100b05d0000",
+      "operand_bytes": [
+        2273470,
+        2273474
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::共有ロード",
+      "fid": 6215,
+      "site": 2273692,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1947,
+      "replacement_sid": 23983,
+      "text_ko": "세이브 파일【 %s 】\n을 불러오지 못했습니다",
+      "text_cp949": "bcbcc0ccbaea20c6c4c0cfa1bc20257320a1bd0ac0bb20bad2b7afbfc0c1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41009b070000",
+      "after": "4100af5d0000",
+      "operand_bytes": [
+        2273694,
+        2273698
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::情報集計データセーブ",
+      "fid": 6216,
+      "site": 2273864,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1946,
+      "replacement_sid": 23984,
+      "text_ko": "세이브 파일【 %s 】\n을 저장하지 못했습니다",
+      "text_cp949": "bcbcc0ccbaea20c6c4c0cfa1bc20257320a1bd0ac0bb20c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41009a070000",
+      "after": "4100b05d0000",
+      "operand_bytes": [
+        2273866,
+        2273870
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::情報集計データロード",
+      "fid": 6217,
+      "site": 2274088,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1947,
+      "replacement_sid": 23983,
+      "text_ko": "세이브 파일【 %s 】\n을 불러오지 못했습니다",
+      "text_cp949": "bcbcc0ccbaea20c6c4c0cfa1bc20257320a1bd0ac0bb20bad2b7afbfc0c1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41009b070000",
+      "after": "4100af5d0000",
+      "operand_bytes": [
+        2274090,
+        2274094
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::コンフィグセーブ",
+      "fid": 6218,
+      "site": 2274260,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1946,
+      "replacement_sid": 23984,
+      "text_ko": "세이브 파일【 %s 】\n을 저장하지 못했습니다",
+      "text_cp949": "bcbcc0ccbaea20c6c4c0cfa1bc20257320a1bd0ac0bb20c0fac0e5c7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41009a070000",
+      "after": "4100b05d0000",
+      "operand_bytes": [
+        2274262,
+        2274266
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "gamesave::detail::コンフィグロード",
+      "fid": 6219,
+      "site": 2274484,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 1947,
+      "replacement_sid": 23983,
+      "text_ko": "세이브 파일【 %s 】\n을 불러오지 못했습니다",
+      "text_cp949": "bcbcc0ccbaea20c6c4c0cfa1bc20257320a1bd0ac0bb20bad2b7afbfc0c1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "41009b070000",
+      "after": "4100af5d0000",
+      "operand_bytes": [
+        2274486,
+        2274490
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "movie::detail::Play",
+      "fid": 7723,
+      "site": 2801218,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2302,
+      "replacement_sid": 23970,
+      "text_ko": "【 %s 】\n동영상 재생에 실패했습니다",
+      "text_cp949": "a1bc20257320a1bd0ab5bfbfb5bbf320c0e7bbfdbfa120bdc7c6d0c7dfbdc0b4cfb4d9",
+      "before": "4100fe080000",
+      "after": "4100a25d0000",
+      "operand_bytes": [
+        2801220,
+        2801224
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "Ａ＿ゲーム終了",
+      "fid": 20524,
+      "site": 4814820,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBoxOkCancel",
+      "original_sid": 2901,
+      "replacement_sid": 23971,
+      "text_ko": "게임을 종료하시겠습니까?\n\n※저장하지 않은 데이터는 사라집니다",
+      "text_cp949": "b0d4c0d3c0bb20c1beb7e1c7cfbdc3b0dabdc0b4cfb1ee3f0a0aa1d8c0fac0e5c7cfc1f620becac0ba20b5a5c0ccc5cdb4c220bbe7b6f3c1fdb4cfb4d9",
+      "before": "4100550b0000",
+      "after": "4100a35d0000",
+      "operand_bytes": [
+        4814822,
+        4814826
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "Ａ＿タイトルに戻る",
+      "fid": 20525,
+      "site": 4814940,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBoxOkCancel",
+      "original_sid": 2902,
+      "replacement_sid": 23991,
+      "text_ko": "타이틀 화면으로 돌아가시겠습니까?\n\n※저장하지 않은 데이터는 사라집니다",
+      "text_cp949": "c5b8c0ccc6b220c8adb8e9c0b8b7ce20b5b9bec6b0a1bdc3b0dabdc0b4cfb1ee3f0a0aa1d8c0fac0e5c7cfc1f620becac0ba20b5a5c0ccc5cdb4c220bbe7b6f3c1fdb4cfb4d9",
+      "before": "4100560b0000",
+      "after": "4100b75d0000",
+      "operand_bytes": [
+        4814942,
+        4814946
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4830166,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4830168,
+        4830172
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4830342,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4830344,
+        4830348
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4830744,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4830746,
+        4830750
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4831422,
+      "kind": "S_PUSH (message box text)",
+      "call": "MsgBoxOkCancel",
+      "original_sid": 2901,
+      "replacement_sid": 23971,
+      "text_ko": "게임을 종료하시겠습니까?\n\n※저장하지 않은 데이터는 사라집니다",
+      "text_cp949": "b0d4c0d3c0bb20c1beb7e1c7cfbdc3b0dabdc0b4cfb1ee3f0a0aa1d8c0fac0e5c7cfc1f620becac0ba20b5a5c0ccc5cdb4c220bbe7b6f3c1fdb4cfb4d9",
+      "before": "4100550b0000",
+      "after": "4100a35d0000",
+      "operand_bytes": [
+        4831424,
+        4831428
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4831592,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4831594,
+        4831598
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4831652,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4831654,
+        4831658
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4831712,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4831714,
+        4831718
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4831900,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4831902,
+        4831906
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4832588,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4832590,
+        4832594
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4832784,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2962,
+      "replacement_sid": 23985,
+      "text_ko": "시스템 메시지를 팝하지 못했습니다",
+      "text_cp949": "bdc3bdbac5db20b8debdc3c1f6b8a620c6cbc7cfc1f620b8f8c7dfbdc0b4cfb4d9",
+      "before": "4100920b0000",
+      "after": "4100b15d0000",
+      "operand_bytes": [
+        4832786,
+        4832790
+      ],
+      "owner_is_original": true
+    },
+    {
+      "function": "_system::detail::ProcessSystemMessage",
+      "fid": 20605,
+      "site": 4833128,
+      "kind": "S_PUSH (message box text)",
+      "call": "Error",
+      "original_sid": 2966,
+      "replacement_sid": 23989,
+      "text_ko": "정의되지 않은 시스템 메시지【 %d 】를 팝했습니다",
+      "text_cp949": "c1a4c0c7b5c7c1f620becac0ba20bdc3bdbac5db20b8debdc3c1f6a1bc20256420a1bdb8a620c6cbc7dfbdc0b4cfb4d9",
+      "before": "4100960b0000",
+      "after": "4100b55d0000",
+      "operand_bytes": [
+        4833130,
+        4833134
+      ],
+      "owner_is_original": true
+    }
+  ],
+  "message_box_note": "system.MsgBox*/Error texts re-pointed to CP949 strings (Windows shows MessageBoxA text in the system code page; the FNL proxy characters and Japanese CP932 showed as garbage on Korean Windows)",
+  "relocated_original_functions": [],
+  "pinned_functions": {
+    "KR_T9HomeCasual": {
+      "index": 32478,
+      "address": 12241940,
+      "code_bytes": 232,
+      "bytes_differing": 0
+    },
+    "KR_T9HomeConfig": {
+      "index": 32477,
+      "address": 12241642,
+      "code_bytes": 298,
+      "bytes_differing": 0
+    },
+    "C_SceneHomebase@CheckGameSysButtons": {
+      "index": 28552,
+      "address": 6313814,
+      "code_bytes": 550,
+      "bytes_differing": 0
+    },
+    "C_SceneHomebase@Run": {
+      "index": 28542,
+      "address": 6299808,
+      "code_bytes": 1104,
+      "bytes_differing": 0
+    },
+    "LSys3xScript::RunEvent": {
+      "index": 26381,
+      "address": 5468856,
+      "code_bytes": 1292,
+      "bytes_differing": 0
+    },
+    "KR_T18RunSandboxed": {
+      "index": 32548,
+      "address": 12316890,
+      "code_bytes": 440,
+      "bytes_differing": 0
+    },
+    "KR_CReplayRun": {
+      "index": 32690,
+      "address": 13167576,
+      "code_bytes": 494,
+      "bytes_differing": 0
+    },
+    "KR_AN_E00058": {
+      "index": 33021,
+      "address": 15276938,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E00063": {
+      "index": 33022,
+      "address": 15277000,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E00069": {
+      "index": 33023,
+      "address": 15277062,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E00104": {
+      "index": 33024,
+      "address": 15277124,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E00258": {
+      "index": 33025,
+      "address": 15277186,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E00260": {
+      "index": 33026,
+      "address": 15277248,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E00322": {
+      "index": 33027,
+      "address": 15277310,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E00611": {
+      "index": 33028,
+      "address": 15277372,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E10021": {
+      "index": 33029,
+      "address": 15277434,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E20041": {
+      "index": 33030,
+      "address": 15277496,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E20081": {
+      "index": 33031,
+      "address": 15277558,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E20164": {
+      "index": 33032,
+      "address": 15277620,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E30001": {
+      "index": 33033,
+      "address": 15277682,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E30021": {
+      "index": 33034,
+      "address": 15277744,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E30152": {
+      "index": 33035,
+      "address": 15277806,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E40021": {
+      "index": 33036,
+      "address": 15277868,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E40041": {
+      "index": 33037,
+      "address": 15277930,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E40043": {
+      "index": 33038,
+      "address": 15277992,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_AN_E40061": {
+      "index": 33039,
+      "address": 15278054,
+      "code_bytes": 62,
+      "bytes_differing": 0
+    },
+    "KR_ANSelect": {
+      "index": 33063,
+      "address": 15281812,
+      "code_bytes": 448,
+      "bytes_differing": 0
+    },
+    "KR_ANSelFrame": {
+      "index": 33066,
+      "address": 15283614,
+      "code_bytes": 34,
+      "bytes_differing": 0
+    },
+    "KR_ANTrainConfirm": {
+      "index": 33072,
+      "address": 15284948,
+      "code_bytes": 126,
+      "bytes_differing": 0
+    },
+    "KR_ANOpeningQ": {
+      "index": 33083,
+      "address": 15287974,
+      "code_bytes": 34,
+      "bytes_differing": 0
+    },
+    "KR_ANNewGame": {
+      "index": 33082,
+      "address": 15287640,
+      "code_bytes": 334,
+      "bytes_differing": 0
+    }
+  },
+  "invariance": {
+    "original_function_entries_identical": true,
+    "other_metadata_identical": [
+      "delegates",
+      "enums",
+      "filenames",
+      "game-version",
+      "global-groups",
+      "globals",
+      "keycode",
+      "libraries",
+      "main",
+      "msgf",
+      "ojmp",
+      "structures",
+      "switches",
+      "version"
+    ],
+    "old_code_bytes_changed": 86,
+    "old_code_changes_only_at_swapped_operands": true,
+    "MSG1_exact": true,
+    "STR0_prefix_exact": true,
+    "STR0_added": 39,
+    "functions_added": 6,
+    "pinned": {
+      "KR_T9HomeCasual": {
+        "index": 32478,
+        "address": 12241940,
+        "code_bytes": 232,
+        "bytes_differing": 0
+      },
+      "KR_T9HomeConfig": {
+        "index": 32477,
+        "address": 12241642,
+        "code_bytes": 298,
+        "bytes_differing": 0
+      },
+      "C_SceneHomebase@CheckGameSysButtons": {
+        "index": 28552,
+        "address": 6313814,
+        "code_bytes": 550,
+        "bytes_differing": 0
+      },
+      "C_SceneHomebase@Run": {
+        "index": 28542,
+        "address": 6299808,
+        "code_bytes": 1104,
+        "bytes_differing": 0
+      },
+      "LSys3xScript::RunEvent": {
+        "index": 26381,
+        "address": 5468856,
+        "code_bytes": 1292,
+        "bytes_differing": 0
+      },
+      "KR_T18RunSandboxed": {
+        "index": 32548,
+        "address": 12316890,
+        "code_bytes": 440,
+        "bytes_differing": 0
+      },
+      "KR_CReplayRun": {
+        "index": 32690,
+        "address": 13167576,
+        "code_bytes": 494,
+        "bytes_differing": 0
+      },
+      "KR_AN_E00058": {
+        "index": 33021,
+        "address": 15276938,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E00063": {
+        "index": 33022,
+        "address": 15277000,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E00069": {
+        "index": 33023,
+        "address": 15277062,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E00104": {
+        "index": 33024,
+        "address": 15277124,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E00258": {
+        "index": 33025,
+        "address": 15277186,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E00260": {
+        "index": 33026,
+        "address": 15277248,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E00322": {
+        "index": 33027,
+        "address": 15277310,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E00611": {
+        "index": 33028,
+        "address": 15277372,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E10021": {
+        "index": 33029,
+        "address": 15277434,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E20041": {
+        "index": 33030,
+        "address": 15277496,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E20081": {
+        "index": 33031,
+        "address": 15277558,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E20164": {
+        "index": 33032,
+        "address": 15277620,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E30001": {
+        "index": 33033,
+        "address": 15277682,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E30021": {
+        "index": 33034,
+        "address": 15277744,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E30152": {
+        "index": 33035,
+        "address": 15277806,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E40021": {
+        "index": 33036,
+        "address": 15277868,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E40041": {
+        "index": 33037,
+        "address": 15277930,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E40043": {
+        "index": 33038,
+        "address": 15277992,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_AN_E40061": {
+        "index": 33039,
+        "address": 15278054,
+        "code_bytes": 62,
+        "bytes_differing": 0
+      },
+      "KR_ANSelect": {
+        "index": 33063,
+        "address": 15281812,
+        "code_bytes": 448,
+        "bytes_differing": 0
+      },
+      "KR_ANSelFrame": {
+        "index": 33066,
+        "address": 15283614,
+        "code_bytes": 34,
+        "bytes_differing": 0
+      },
+      "KR_ANTrainConfirm": {
+        "index": 33072,
+        "address": 15284948,
+        "code_bytes": 126,
+        "bytes_differing": 0
+      },
+      "KR_ANOpeningQ": {
+        "index": 33083,
+        "address": 15287974,
+        "code_bytes": 34,
+        "bytes_differing": 0
+      },
+      "KR_ANNewGame": {
+        "index": 33082,
+        "address": 15287640,
+        "code_bytes": 334,
+        "bytes_differing": 0
+      }
+    }
+  },
+  "native_opcode_audit": {
+    "active_functions": 31203,
+    "instruction_sites": 2270279,
+    "all_active_opcodes_supported": true,
+    "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+  },
+  "new_globals": 0,
+  "new_struct_members": 0,
+  "serialized_schema_changes": 0,
+  "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "jaf_source_sha256": "843bb72887fc45b41d2b507548f5ccea5b4455580f2b2a672d9177bc084406d7",
+  "build_script_sha256": "f2ef399fe74b87d3bd70d2f6d70a3b70726c6069afd4e5883bde1dcd780f2b33"
+}

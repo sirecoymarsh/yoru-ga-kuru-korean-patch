@@ -1,0 +1,27 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "81bed991606129a555c54acb2a7f5ad6f0ea232994e80990c31b3d535c0739b4",
+    "NightRemasterPact.afa": "5c41b8feca864f13fe09f7cd736de82ed8d99837093da55a37c672e1cf2e83aa"
+  },
+  "reviewer": "/root/baseline_evidence_review",
+  "read_only": true,
+  "checks": [
+    "native MSG operand to callback ID static EXE trace",
+    "display raw getter copy consumer protection",
+    "source-bound nonrecursive replacement and particle routing",
+    "ValidMain corrupt-main/valid-backup preservation",
+    "engine save folder native helper",
+    "cross canonical custom term validation",
+    "active-choice entry guard and two whole-screen click limits",
+    "existing modal/ref-string input signatures",
+    "font/button geometry",
+    "two-file exact-baseline journal/rollback publisher"
+  ],
+  "native_verified": false,
+  "remaining": [
+    "Native Config Z-order and click isolation",
+    "Korean IME input",
+    "Native VSFile persistence and restart"
+  ]
+}

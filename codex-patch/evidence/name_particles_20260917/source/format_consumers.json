@@ -1,0 +1,492 @@
+[
+  {
+    "function_id": 26472,
+    "name": "C_GameDate@GetDateString",
+    "sid": 3254,
+    "text": "%d월 %d일(%s요일)",
+    "raw_line": 1207230
+  },
+  {
+    "function_id": 26694,
+    "name": "L_ConsumeItem::UseItem",
+    "sid": 3277,
+    "text": "%s, %s에게 %s 사용",
+    "raw_line": 1211907
+  },
+  {
+    "function_id": 26903,
+    "name": "L_Weapon::GetCommentForSkill",
+    "sid": 3338,
+    "text": "【%s】\n으로 공격",
+    "raw_line": 1220996
+  },
+  {
+    "function_id": 27141,
+    "name": "L_Dungeon::Sense",
+    "sid": 3404,
+    "text": "%s는 히카리의 기척을 감지했다",
+    "raw_line": 1240104
+  },
+  {
+    "function_id": 27141,
+    "name": "L_Dungeon::Sense",
+    "sid": 3405,
+    "text": "%s는 함정의 기척을 감지했다",
+    "raw_line": 1240178
+  },
+  {
+    "function_id": 27141,
+    "name": "L_Dungeon::Sense",
+    "sid": 3406,
+    "text": "%s는 보물의 기척을 감지했다",
+    "raw_line": 1240252
+  },
+  {
+    "function_id": 27144,
+    "name": "L_Dungeon::PoisonAffectAtExploration",
+    "sid": 3410,
+    "text": "%s는 독으로 쓰러졌다",
+    "raw_line": 1240655
+  },
+  {
+    "function_id": 27162,
+    "name": "L_Trap::Execute01",
+    "sid": 3438,
+    "text": "단일 피해: 레벨=%d 양=%d 속성=%d 이름=%s\n",
+    "raw_line": 1244339
+  },
+  {
+    "function_id": 27163,
+    "name": "L_Trap::Execute02",
+    "sid": 3440,
+    "text": "%s는 회피했다",
+    "raw_line": 1244523
+  },
+  {
+    "function_id": 27164,
+    "name": "L_Trap::Execute03",
+    "sid": 3440,
+    "text": "%s는 회피했다",
+    "raw_line": 1245058
+  },
+  {
+    "function_id": 27164,
+    "name": "L_Trap::Execute03",
+    "sid": 3444,
+    "text": "%s는 독에 걸렸다",
+    "raw_line": 1245081
+  },
+  {
+    "function_id": 27164,
+    "name": "L_Trap::Execute03",
+    "sid": 3445,
+    "text": "%s는 마비됐다",
+    "raw_line": 1245111
+  },
+  {
+    "function_id": 27164,
+    "name": "L_Trap::Execute03",
+    "sid": 3446,
+    "text": "%s는 다운됐다",
+    "raw_line": 1245141
+  },
+  {
+    "function_id": 27165,
+    "name": "L_Trap::Execute04",
+    "sid": 3440,
+    "text": "%s는 회피했다",
+    "raw_line": 1245596
+  },
+  {
+    "function_id": 27165,
+    "name": "L_Trap::Execute04",
+    "sid": 3444,
+    "text": "%s는 독에 걸렸다",
+    "raw_line": 1245619
+  },
+  {
+    "function_id": 27165,
+    "name": "L_Trap::Execute04",
+    "sid": 3445,
+    "text": "%s는 마비됐다",
+    "raw_line": 1245649
+  },
+  {
+    "function_id": 27165,
+    "name": "L_Trap::Execute04",
+    "sid": 3446,
+    "text": "%s는 다운됐다",
+    "raw_line": 1245679
+  },
+  {
+    "function_id": 27188,
+    "name": "L_TreasureBox::GetConsumptionItem",
+    "sid": 3486,
+    "text": "회복 아이템「%s」을 손에 넣었다",
+    "raw_line": 1248459
+  },
+  {
+    "function_id": 27188,
+    "name": "L_TreasureBox::GetConsumptionItem",
+    "sid": 3488,
+    "text": "【소비 아이템】「%20s」 DUNG.LV=%02d ITEM ID=%2d(alpha=%3d)\n",
+    "raw_line": 1248505
+  },
+  {
+    "function_id": 27189,
+    "name": "L_TreasureBox::GetElementStone",
+    "sid": 3490,
+    "text": "【요소석　　　】「%20s」 DUNG.LV=%02d RANK=%d COLOR=%d\n",
+    "raw_line": 1248623
+  },
+  {
+    "function_id": 27190,
+    "name": "L_TreasureBox::GetEquipmentItem",
+    "sid": 3491,
+    "text": "장비 아이템「%s」을 손에 넣었다",
+    "raw_line": 1248772
+  },
+  {
+    "function_id": 27190,
+    "name": "L_TreasureBox::GetEquipmentItem",
+    "sid": 3492,
+    "text": "【장비 아이템】「%20s」 DUNG.LV=%02d RANK=%d RARITY=%d\n",
+    "raw_line": 1248824
+  },
+  {
+    "function_id": 27191,
+    "name": "L_TreasureBox::GetSpecifiedElementStone",
+    "sid": 3493,
+    "text": "요소석「%s」(레벨 %d)을 손에 넣었다",
+    "raw_line": 1248874
+  },
+  {
+    "function_id": 27749,
+    "name": "C_CustomItem::SetSelctItem",
+    "sid": 3610,
+    "text": "%12s 달조각(%4d) 보유(%d)",
+    "raw_line": 1281358
+  },
+  {
+    "function_id": 27749,
+    "name": "C_CustomItem::SetSelctItem",
+    "sid": 3615,
+    "text": "%12s 달조각(%4d) 레벨(%d)",
+    "raw_line": 1281503
+  },
+  {
+    "function_id": 28145,
+    "name": "C_NameEntry@Run",
+    "sid": 3694,
+    "text": "주인공 이름은 【%s】입니다.\n게임을 시작하시겠습니까?\n(※초기 설정은 【료】입니다)",
+    "raw_line": 1321556
+  },
+  {
+    "function_id": 28145,
+    "name": "C_NameEntry@Run",
+    "sid": 3695,
+    "text": "●주인공 이름【%s】",
+    "raw_line": 1321564
+  },
+  {
+    "function_id": 28494,
+    "name": "C_HomeWeaponMemView@SetAttributeNo",
+    "sid": 3943,
+    "text": "속성: %s",
+    "raw_line": 1368026
+  },
+  {
+    "function_id": 28496,
+    "name": "C_HomeWeaponMemView@SetAreaNo",
+    "sid": 3945,
+    "text": "범위: %s",
+    "raw_line": 1368123
+  },
+  {
+    "function_id": 31619,
+    "name": "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@ConfirmCustomize(ref array<int>, ref int, bool)(237, 31)>",
+    "sid": 4010,
+    "text": "%s의 무기가\n%s로 변경되었습니다",
+    "raw_line": 1382836
+  },
+  {
+    "function_id": 31619,
+    "name": "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@ConfirmCustomize(ref array<int>, ref int, bool)(237, 31)>",
+    "sid": 4011,
+    "text": "%s을(를) 장비하고,\n호장에 기억했습니다",
+    "raw_line": 1382927
+  },
+  {
+    "function_id": 31619,
+    "name": "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@ConfirmCustomize(ref array<int>, ref int, bool)(237, 31)>",
+    "sid": 4012,
+    "text": "%s을(를)\n호장에 기억했습니다",
+    "raw_line": 1382937
+  },
+  {
+    "function_id": 31619,
+    "name": "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@ConfirmCustomize(ref array<int>, ref int, bool)(237, 31)>",
+    "sid": 4013,
+    "text": "%s을(를)\n호장에 기억하시겠습니까?\n※기존 무기는 삭제됩니다",
+    "raw_line": 1383079
+  },
+  {
+    "function_id": 31619,
+    "name": "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@ConfirmCustomize(ref array<int>, ref int, bool)(237, 31)>",
+    "sid": 4014,
+    "text": "%s을(를)\n호장에 기억하시겠습니까?",
+    "raw_line": 1383097
+  },
+  {
+    "function_id": 31619,
+    "name": "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@ConfirmCustomize(ref array<int>, ref int, bool)(237, 31)>",
+    "sid": 4012,
+    "text": "%s을(를)\n호장에 기억했습니다",
+    "raw_line": 1383179
+  },
+  {
+    "function_id": 31620,
+    "name": "C_SceneSubWeapon@<lambda : C_SceneSubWeapon@RunCombineStone()(402, 52)>",
+    "sid": 4024,
+    "text": "%s(%d) 10개를 %s(%d) 1개로 합성",
+    "raw_line": 1383732
+  },
+  {
+    "function_id": 28594,
+    "name": "C_SceneSubWeapon@ConfirmEraseMemory",
+    "sid": 4031,
+    "text": "●【%s】을(를) 호장에서 삭제하시겠습니까?",
+    "raw_line": 1384911
+  },
+  {
+    "function_id": 28781,
+    "name": "C_SelectParty@Run",
+    "sid": 4144,
+    "text": "%s와 함께 싸울 멤버를",
+    "raw_line": 1412394
+  },
+  {
+    "function_id": 28784,
+    "name": "C_SelectParty@ConfirmParty",
+    "sid": 4150,
+    "text": "%s·%s 확인",
+    "raw_line": 1412628
+  },
+  {
+    "function_id": 28957,
+    "name": "C_EventDungeon0401@RunEventB5",
+    "sid": 4268,
+    "text": "%s는 벽을 만져 보았다.",
+    "raw_line": 1418790
+  },
+  {
+    "function_id": 29225,
+    "name": "C_BattleProgress@ExecuteFriendActionAttack",
+    "sid": 4425,
+    "text": "%s가 %s로 %s을(를) 공격",
+    "raw_line": 1435930
+  },
+  {
+    "function_id": 29225,
+    "name": "C_BattleProgress@ExecuteFriendActionAttack",
+    "sid": 4425,
+    "text": "%s가 %s로 %s을(를) 공격",
+    "raw_line": 1436188
+  },
+  {
+    "function_id": 29225,
+    "name": "C_BattleProgress@ExecuteFriendActionAttack",
+    "sid": 4426,
+    "text": "%s가 %s로 공격",
+    "raw_line": 1436221
+  },
+  {
+    "function_id": 29225,
+    "name": "C_BattleProgress@ExecuteFriendActionAttack",
+    "sid": 4426,
+    "text": "%s가 %s로 공격",
+    "raw_line": 1436240
+  },
+  {
+    "function_id": 29225,
+    "name": "C_BattleProgress@ExecuteFriendActionAttack",
+    "sid": 4427,
+    "text": "%6s 발동 공격 경직=%d\n",
+    "raw_line": 1436733
+  },
+  {
+    "function_id": 29226,
+    "name": "C_BattleProgress@ExecuteFriendActionEx",
+    "sid": 4425,
+    "text": "%s가 %s로 %s을(를) 공격",
+    "raw_line": 1437479
+  },
+  {
+    "function_id": 29226,
+    "name": "C_BattleProgress@ExecuteFriendActionEx",
+    "sid": 4426,
+    "text": "%s가 %s로 공격",
+    "raw_line": 1437674
+  },
+  {
+    "function_id": 29226,
+    "name": "C_BattleProgress@ExecuteFriendActionEx",
+    "sid": 4427,
+    "text": "%6s 발동 공격 경직=%d\n",
+    "raw_line": 1438207
+  },
+  {
+    "function_id": 29227,
+    "name": "C_BattleProgress@ExecuteFriendActionMove",
+    "sid": 4428,
+    "text": "%6s 발동 이동 경직=%d\n",
+    "raw_line": 1438358
+  },
+  {
+    "function_id": 29228,
+    "name": "C_BattleProgress@ExecuteFriendActionDefense",
+    "sid": 4429,
+    "text": "%s는 방어 중",
+    "raw_line": 1438461
+  },
+  {
+    "function_id": 29228,
+    "name": "C_BattleProgress@ExecuteFriendActionDefense",
+    "sid": 4431,
+    "text": "%6s 발동 방어 경직=%d\n",
+    "raw_line": 1438542
+  },
+  {
+    "function_id": 29229,
+    "name": "C_BattleProgress@ExecuteFriendActionItem",
+    "sid": 4432,
+    "text": "%6s 발동 도구 경직=%d\n",
+    "raw_line": 1438706
+  },
+  {
+    "function_id": 29230,
+    "name": "C_BattleProgress@ExecuteFriendActionEscape",
+    "sid": 4433,
+    "text": "%s 일행은 도망쳤다",
+    "raw_line": 1438779
+  },
+  {
+    "function_id": 29230,
+    "name": "C_BattleProgress@ExecuteFriendActionEscape",
+    "sid": 4434,
+    "text": "%6s 발동 도주 경직=%d\n",
+    "raw_line": 1438817
+  },
+  {
+    "function_id": 29234,
+    "name": "C_BattleProgress@SetFriendActionAttack",
+    "sid": 4435,
+    "text": "%6s 설정 공격 발동=%d\n",
+    "raw_line": 1439535
+  },
+  {
+    "function_id": 29235,
+    "name": "C_BattleProgress@SetFriendActionEx",
+    "sid": 4437,
+    "text": "%6s 설정 기술 발동=%d\n",
+    "raw_line": 1440009
+  },
+  {
+    "function_id": 29236,
+    "name": "C_BattleProgress@ChangePlayerWeapon",
+    "sid": 4438,
+    "text": "무기 변경!　%s\n",
+    "raw_line": 1440133
+  },
+  {
+    "function_id": 29237,
+    "name": "C_BattleProgress@RestorePlayerWeapon",
+    "sid": 4439,
+    "text": "무기 복구!　%s\n",
+    "raw_line": 1440226
+  },
+  {
+    "function_id": 29238,
+    "name": "C_BattleProgress@SetFriendActionMove",
+    "sid": 4440,
+    "text": "%6s 설정 이동 발동=%d\n",
+    "raw_line": 1440334
+  },
+  {
+    "function_id": 29239,
+    "name": "C_BattleProgress@SetFriendActionDefense",
+    "sid": 4441,
+    "text": "%6s 설정 방어 발동=%d\n",
+    "raw_line": 1440451
+  },
+  {
+    "function_id": 29240,
+    "name": "C_BattleProgress@SetFriendActionItem",
+    "sid": 4442,
+    "text": "%6s 설정 도구 발동=%d\n",
+    "raw_line": 1440675
+  },
+  {
+    "function_id": 29241,
+    "name": "C_BattleProgress@SetFriendActionEscape",
+    "sid": 4444,
+    "text": "%6s 설정 도주 발동=%d\n",
+    "raw_line": 1440799
+  },
+  {
+    "function_id": 29242,
+    "name": "C_BattleProgress@SetFriendActionAuto",
+    "sid": 4435,
+    "text": "%6s 설정 공격 발동=%d\n",
+    "raw_line": 1441103
+  },
+  {
+    "function_id": 29244,
+    "name": "C_BattleProgress@SetEnemyAction",
+    "sid": 4445,
+    "text": "%20s %20s 대기=%d\n",
+    "raw_line": 1441598
+  },
+  {
+    "function_id": 29257,
+    "name": "C_BattleProgress@ExecuteEnemyAction",
+    "sid": 4446,
+    "text": "%s는 %s",
+    "raw_line": 1445954
+  },
+  {
+    "function_id": 29257,
+    "name": "C_BattleProgress@ExecuteEnemyAction",
+    "sid": 4446,
+    "text": "%s는 %s",
+    "raw_line": 1446061
+  },
+  {
+    "function_id": 29257,
+    "name": "C_BattleProgress@ExecuteEnemyAction",
+    "sid": 4449,
+    "text": "%s가 %s%s",
+    "raw_line": 1446315
+  },
+  {
+    "function_id": 29257,
+    "name": "C_BattleProgress@ExecuteEnemyAction",
+    "sid": 4450,
+    "text": "%s가 %s",
+    "raw_line": 1446467
+  },
+  {
+    "function_id": 29257,
+    "name": "C_BattleProgress@ExecuteEnemyAction",
+    "sid": 4451,
+    "text": "%s 발동 %s 경직=%d\n",
+    "raw_line": 1447097
+  },
+  {
+    "function_id": 27143,
+    "name": "L_Dungeon::RelieveTrap",
+    "sid": 3407,
+    "text": "%s가 함정을 해제하는 중",
+    "raw_line": 2012193
+  }
+]

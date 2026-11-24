@@ -1,0 +1,842 @@
+{
+ "tool": "calendar_gallery_unlock_20260930",
+ "kind": "gallery_unlock_layer",
+ "status": "GALLERY_UNLOCK_STAGED_NATIVE_PENDING",
+ "key": "calendar_gallery_unlock_20260930",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "provenance": {
+  "model": "Claude Opus 5.5",
+  "model_id": "claude-opus-5-5",
+  "designer": "Claude Fable (brief 09-30)",
+  "builder": "Claude Opus 5.5 (claude-opus-5-5)"
+ },
+ "built": "2026-09-30T01:31:20.678608+09:00",
+ "seconds": 83,
+ "base": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_gallery_unlock_20260930\\source\\NightRemaster.ain",
+ "base_sha256": "abae5787031cbf8330a429a4b5d9683241268d87f077d88de24974465ff5c109",
+ "live_sha256": "abae5787031cbf8330a429a4b5d9683241268d87f077d88de24974465ff5c109",
+ "live_manifest_sha256": "974b35edba6c1581cd67e46238ba19e6f9e189d8ca32f6597640c2430d9f73a7",
+ "live_status": "CALENDAR_SUMMARY_STACK_20260929_INSTALLED_NATIVE_PASS",
+ "base_meta_sha256": "4c9babefdb430c495b286575580cdf3c7731aeb2aa4bbb9e0ed38bf87da480a8",
+ "base_raw_sha256": "050094edb6fe606ebd209226d75d0a2bdc90ec22a8f61808d75c13dc6354a9d1",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "fae56fb70c8d9c0c8a6bc23c22ef4b76f6e569a7adbd304e4f2d3b639e8353d8",
+   "size": 4308042
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e",
+   "size": 122368
+  }
+ },
+ "added_functions": {
+  "KR_G25All": 32922,
+  "KR_G25Exist": 32923,
+  "KR_G25SceneBase": 32920,
+  "KR_G25SetUnlockBase": 32921,
+  "KR_G25SetUnlock": 32924,
+  "KR_G25NoteText": 32925
+ },
+ "forwarded": {
+  "KR_MSetUnlock": {
+   "index": 32613,
+   "base_address": 12738628,
+   "address": 14731346,
+   "target": "KR_G25SetUnlock"
+  }
+ },
+ "clones": {
+  "KR_G25SceneBase": "N_ModeScene::CheckEnabelScenario",
+  "KR_G25SetUnlockBase": "KR_MSetUnlock"
+ },
+ "same_length_sites": [
+  {
+   "tag": "A",
+   "function": "N_ModeScene::CheckEnabelScenario",
+   "fid": 29755,
+   "function_address": 6897870,
+   "site": 6897870,
+   "site_hex": "0x6940ce",
+   "offset_in_function": 0,
+   "length": 14,
+   "before": "5a00000000000600000000000000",
+   "after": "30009a8000000000000000000100",
+   "what": "CALLHLL system IsDebugMode 0 -> CALLFUNC KR_G25All; PUSH 0; POP"
+  },
+  {
+   "tag": "B",
+   "function": "N_ModeScene::CheckEnabelScenario",
+   "fid": 29755,
+   "function_address": 6897870,
+   "site": 6897890,
+   "site_hex": "0x6940e2",
+   "offset_in_function": 20,
+   "length": 14,
+   "before": "04000000340100000c0101000000",
+   "after": "0000010000000000000000000100",
+   "what": ".GLOBALREF N_ModeScene::DbgEnableAll -> PUSH 1; PUSH 0; POP"
+  },
+  {
+   "tag": "C",
+   "function": "KR_CGlobal",
+   "fid": 32651,
+   "function_address": 13155410,
+   "site": 13155658,
+   "site_hex": "0xc8bd4a",
+   "offset_in_function": 248,
+   "length": 6,
+   "before": "30003b740000",
+   "after": "300098800000",
+   "what": "CALLFUNC N_ModeScene::CheckEnabelScenario -> CALLFUNC KR_G25SceneBase"
+  },
+  {
+   "tag": "D",
+   "function": "S_ModeCGCellInfo@UpdateEnableCG",
+   "fid": 29714,
+   "function_address": 6883142,
+   "site": 6883376,
+   "site_hex": "0x690830",
+   "offset_in_function": 234,
+   "length": 6,
+   "before": "300001180000",
+   "after": "30009b800000",
+   "what": "CALLFUNC Ａ＿ＣＧモード確認 -> CALLFUNC KR_G25Exist"
+  },
+  {
+   "tag": "E",
+   "function": "KR_CDo",
+   "fid": 32693,
+   "function_address": 13170360,
+   "site": 13170478,
+   "site_hex": "0xc8f72e",
+   "offset_in_function": 118,
+   "length": 6,
+   "before": "4100aa510000",
+   "after": "4100305d0000",
+   "what": "S_PUSH old 전체 개방 notice -> S_PUSH new notice"
+  }
+ ],
+ "notice": {
+  "old_row": 20906,
+  "new_row": 23856,
+  "old": "〓모드 메뉴\n†전체 개방: 안 본 이벤트도 열람·재생됩니다",
+  "new": "〓모드 메뉴\n†전체 개방: 안 본 이벤트·회상·CG도 열람·재생됩니다",
+  "width": 26.0
+ },
+ "str0_added": [
+  "YoruKR.G25.All",
+  "〓모드 메뉴\n†전체 개방: 안 본 이벤트·회상·CG도 열람·재생됩니다"
+ ],
+ "census": {
+  "scene_check_calls": [
+   {
+    "function": "C_SceneModeScene@ExecScene",
+    "site": 6886224
+   },
+   {
+    "function": "C_SceneModeSceneSelectView@Init",
+    "site": 6894312
+   },
+   {
+    "function": "KR_CGlobal",
+    "site": 13155658
+   }
+  ],
+  "cg_check_calls": {
+   "S_ModeCGCellInfo@UpdateEnableCG": 1,
+   "KR_T8CgCount": 90
+  },
+  "old_notice_pushes": [
+   {
+    "function": "KR_CDo",
+    "site": 13170478
+   }
+  ],
+  "debug_global_refs": [
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_Fill",
+    "site": 254456
+   },
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_FillAlphaColor",
+    "site": 254930
+   },
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_FillWithAlpha",
+    "site": 255438
+   },
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_FillGradationHorizon",
+    "site": 256866
+   },
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_DrawRect",
+    "site": 257468
+   },
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_AddFilter",
+    "site": 262892
+   },
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_MulFilter",
+    "site": 263366
+   },
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_DrawLine",
+    "site": 263830
+   },
+   {
+    "function": "activityeditor::detail::CCombineParts@AddConstruction_DrawLineWithAlpha",
+    "site": 268124
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFill",
+    "site": 535134
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillAlphaColor",
+    "site": 535636
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillWithAlpha",
+    "site": 536614
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillFillGradation",
+    "site": 538934
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForAddFilter",
+    "site": 543718
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForMulFilter",
+    "site": 544220
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawLine",
+    "site": 547190
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawLineWithAlpha",
+    "site": 547730
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawLines",
+    "site": 548626
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawLinesWithAlpha",
+    "site": 549078
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawRect",
+    "site": 550114
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawRectWithAlpha",
+    "site": 550654
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawRectAMap",
+    "site": 551220
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawPolygon",
+    "site": 551688
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawPolygonWithAlpha",
+    "site": 552090
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawCircle",
+    "site": 552980
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawCircleInRect",
+    "site": 553424
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawCircleWithAlpha",
+    "site": 553842
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawCircleWithAlphaInRect",
+    "site": 554312
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawCircleAMap",
+    "site": 554756
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawCircleAMapInRect",
+    "site": 555286
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawEllipse",
+    "site": 555836
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawEllipseInRect",
+    "site": 556306
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawEllipseWithAlpha",
+    "site": 556776
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawEllipseWithAlphaInRect",
+    "site": 557272
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawEllipseAMap",
+    "site": 557768
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawEllipseAMapInRect",
+    "site": 558324
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawArc",
+    "site": 558972
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawArcInRect",
+    "site": 559604
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawArcWithAlpha",
+    "site": 560236
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawArcWithAlphaInRect",
+    "site": 560894
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawArcAMap",
+    "site": 561552
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawArcAMapInRect",
+    "site": 562270
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawPie",
+    "site": 562988
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawPieInRect",
+    "site": 563570
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawPieWithAlpha",
+    "site": 564152
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawPieWithAlphaInRect",
+    "site": 564760
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawPieAMap",
+    "site": 565368
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForDrawPieAMapInRect",
+    "site": 566036
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillRect",
+    "site": 566612
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillRectWithAlpha",
+    "site": 567126
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillRectAMap",
+    "site": 567666
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillPolygon",
+    "site": 568108
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillPolygonWithAlpha",
+    "site": 568484
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillCircle",
+    "site": 569322
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillCircleInRect",
+    "site": 569740
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillCircleWithAlpha",
+    "site": 570132
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillCircleWithAlphaInRect",
+    "site": 570576
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillCircleAMap",
+    "site": 570994
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillCircleAMapInRect",
+    "site": 571498
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillEllipse",
+    "site": 572022
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillEllipseInRect",
+    "site": 572466
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillEllipseWithAlpha",
+    "site": 572910
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillEllipseWithAlphaInRect",
+    "site": 573380
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillEllipseAMap",
+    "site": 573850
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillEllipseAMapInRect",
+    "site": 574380
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillPie",
+    "site": 575002
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillPieInRect",
+    "site": 575558
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillPieWithAlpha",
+    "site": 576114
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillPieWithAlphaInRect",
+    "site": 576696
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillPieAMap",
+    "site": 577278
+   },
+   {
+    "function": "activityeditor::detail::CAEEditConstructionProcessUnit@CreateProcessEditForFillPieAMapInRect",
+    "site": 577920
+   },
+   {
+    "function": "activityeditor::detail::SConstructionProcessEx@GetR",
+    "site": 755862
+   },
+   {
+    "function": "activityeditor::detail::SConstructionProcessEx@GetR2",
+    "site": 756514
+   },
+   {
+    "function": "activityeditor::detail::CAEPropertyItemTextBox@Init",
+    "site": 1286560
+   },
+   {
+    "function": "modelviewer::detail::CModelPanel@InitSpinBox",
+    "site": 2624306
+   },
+   {
+    "function": "modelviewer::detail::CMeshParamDrawShadow@InitSpinBox",
+    "site": 2699276
+   },
+   {
+    "function": "modelviewer::detail::CMeshParamParallaxScale@InitSpinBox",
+    "site": 2711720
+   },
+   {
+    "function": "modelviewer::detail::CMeshParamReliefScale@InitSpinBox",
+    "site": 2714734
+   },
+   {
+    "function": "modelviewer::detail::CMeshParamSpecularPower@InitSpinBox",
+    "site": 2722640
+   },
+   {
+    "function": "modelviewer::detail::CMeshParamUVScroll@InitSpinBox",
+    "site": 2728100
+   },
+   {
+    "function": "modelviewer::detail::CModelParamMotionData@InitSpinBox",
+    "site": 2741686
+   },
+   {
+    "function": "modelviewer::detail::CMotionItemAlpha@CreateSpinBox",
+    "site": 2756090
+   },
+   {
+    "function": "modelviewer::detail::CMotionItemTextureAnime@CreateSpinBox",
+    "site": 2792266
+   },
+   {
+    "function": "parts::detail::CButtonParts@FocusEvent::add",
+    "site": 3126140
+   },
+   {
+    "function": "parts::detail::CCheckBoxParts@FocusEvent::add",
+    "site": 3177372
+   },
+   {
+    "function": "parts::detail::CComboBoxParts@FocusEvent::add",
+    "site": 3227104
+   },
+   {
+    "function": "parts::detail::CFormGroupParts@FocusEvent::add",
+    "site": 3274090
+   },
+   {
+    "function": "parts::detail::CFormParts@FocusEvent::add",
+    "site": 3321616
+   },
+   {
+    "function": "parts::detail::CHScrollBarParts@FocusEvent::add",
+    "site": 3368704
+   },
+   {
+    "function": "parts::detail::CHSliderBarParts@FocusEvent::add",
+    "site": 3411118
+   },
+   {
+    "function": "parts::detail::CLayoutBoxParts@FocusEvent::add",
+    "site": 3453784
+   },
+   {
+    "function": "parts::detail::CListBoxParts@FocusEvent::add",
+    "site": 3499666
+   },
+   {
+    "function": "parts::detail::CMessageWindowParts@FocusEvent::add",
+    "site": 3554226
+   },
+   {
+    "function": "parts::detail::CMLTextBoxParts@FocusEvent::add",
+    "site": 3608560
+   },
+   {
+    "function": "parts::detail::CPanelParts@FocusEvent::add",
+    "site": 3655790
+   },
+   {
+    "function": "parts::detail::CRadioButtonBoxParts@FocusEvent::add",
+    "site": 3756066
+   },
+   {
+    "function": "parts::detail::CSpinBoxParts@FocusEvent::add",
+    "site": 3815750
+   },
+   {
+    "function": "parts::detail::CSpriteParts@FocusEvent::add",
+    "site": 3860140
+   },
+   {
+    "function": "parts::detail::CTextBoxParts@FocusEvent::add",
+    "site": 3911466
+   },
+   {
+    "function": "parts::detail::CUserComponentParts@FocusEvent::add",
+    "site": 3956110
+   },
+   {
+    "function": "parts::detail::CVScrollBarParts@FocusEvent::add",
+    "site": 4003198
+   },
+   {
+    "function": "parts::detail::CVSliderBarParts@FocusEvent::add",
+    "site": 4045612
+   },
+   {
+    "function": "stageeditor::detail::CLightPanel@InitSpinBox",
+    "site": 4688768
+   },
+   {
+    "function": "stageeditor::detail::CGroupProperty@InitSpinBox",
+    "site": 4768142
+   },
+   {
+    "function": "stageeditor::detail::CObjectProperty@InitSpinBox",
+    "site": 4779358
+   },
+   {
+    "function": "C_SceneModeScene@Run",
+    "site": 6884718
+   },
+   {
+    "function": "C_SceneModeSceneTopView@Init",
+    "site": 6887608
+   },
+   {
+    "function": "C_SceneModeSceneTopView@<lambda : C_SceneModeSceneTopView@Init()(43, 44)>",
+    "site": 6887684
+   },
+   {
+    "function": "C_SceneModeSceneTopView@<lambda : C_SceneModeSceneTopView@Init()(43, 44)>",
+    "site": 6887692
+   },
+   {
+    "function": "C_SceneModeSceneTopView@<lambda : C_SceneModeSceneTopView@Init()(43, 44)>",
+    "site": 6887794
+   },
+   {
+    "function": "N_ModeScene::CheckEnabelScenario",
+    "site": 6897892
+   },
+   {
+    "function": "C_TestSound@ExecSE",
+    "site": 6987640
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8296314
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8296668
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8298954
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8299212
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8299326
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8299440
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8299554
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8299764
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8299878
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8299992
+   },
+   {
+    "function": "ＥＶ／元／E40121",
+    "site": 8300106
+   },
+   {
+    "function": "ＥＶ／元／E40144",
+    "site": 8321202
+   },
+   {
+    "function": "ＥＶ／元／E40161",
+    "site": 8337468
+   },
+   {
+    "function": "ＥＶ／元／E40161",
+    "site": 8337642
+   },
+   {
+    "function": "ＥＶ／元／E50408",
+    "site": 8637316
+   },
+   {
+    "function": "ＥＶ／元／E50409",
+    "site": 8653552
+   },
+   {
+    "function": "ＥＶ／元／E50409",
+    "site": 8653726
+   },
+   {
+    "function": "0",
+    "site": 9477974
+   },
+   {
+    "function": "KR_T8MissCount",
+    "site": 11425442
+   },
+   {
+    "function": "KR_T8MissCount",
+    "site": 11434760
+   },
+   {
+    "function": "KR_T8MissCount",
+    "site": 11443856
+   },
+   {
+    "function": "KR_T8MissCount",
+    "site": 11451890
+   },
+   {
+    "function": "KR_T8MissCount",
+    "site": 11460164
+   },
+   {
+    "function": "KR_T8MissCount",
+    "site": 11469818
+   },
+   {
+    "function": "KR_T9CardStage",
+    "site": 11964800
+   },
+   {
+    "function": "KR_T9StageEv",
+    "site": 11988902
+   },
+   {
+    "function": "KR_T9SceneEv",
+    "site": 12016904
+   },
+   {
+    "function": "KR_T9SceneEv",
+    "site": 12018098
+   },
+   {
+    "function": "KR_T19SceneAt",
+    "site": 12657776
+   },
+   {
+    "function": "KR_T19SceneAt",
+    "site": 12658970
+   },
+   {
+    "function": "KR_CMemCell",
+    "site": 13147834
+   },
+   {
+    "function": "KR_CMemCell",
+    "site": 13150076
+   },
+   {
+    "function": "KR_P29CellRef",
+    "site": 13613246
+   },
+   {
+    "function": "KR_P29CellWhen",
+    "site": 13710562
+   },
+   {
+    "function": "KR_L30CellNameBase",
+    "site": 14331386
+   },
+   {
+    "function": "KR_L30CellCondBase",
+    "site": 14382374
+   },
+   {
+    "function": "KR_L30ShortCondBase",
+    "site": 14431400
+   }
+  ],
+  "jump_targets_checked": 113544,
+  "note": "scene check: C_SceneModeScene@ExecScene (play), C_SceneModeSceneSelectView@Init (the select view; the call follows a nested lambda body in the code) and KR_CGlobal (the calendar). CG check: the CG mode cell update and the home panel CG rate KR_T8CgCount (90 direct calls, left alone). PUSH 0x134 sites = the DbgEnableAll global (debug buttons / Run reset, all behind IsDebugMode or a reset to 0)."
+ },
+ "cache_variable": "YoruKR.G25.All",
+ "gates": {
+  "metadata_changed": [
+   "KR_MSetUnlock"
+  ],
+  "functions_appended": 6,
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 19,
+  "old_code_changes_only_at_sites": true,
+  "str0_prefix_exact": true,
+  "msg1_exact": true,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 226,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 292,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 544,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1098,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1286,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 434,
+    "bytes_differing": 0
+   }
+  },
+  "clones_op_identical": [
+   "KR_G25SceneBase",
+   "KR_G25SetUnlockBase"
+  ],
+  "forwarder_one_call": true,
+  "native_opcodes_supported": true,
+  "dll_unchanged": true,
+  "no_jump_into_windows": true,
+  "saved_frames_checked": 1256,
+  "saved_frames_in_edited_functions": 0,
+  "relocated_original_functions": 0,
+  "serialized_schema_changes": 0
+ },
+ "music": {
+  "checks": [
+   "C_SceneModeSoundView@IsEnableSound",
+   "S_SoundModeCellInfo@IsEnable"
+  ],
+  "change": "none (both are constant true in this build; verified by verify_gallery_unlock.py)"
+ },
+ "installed": false,
+ "note": "Not installed. publish_gallery_unlock.py --check only; --install needs the user's permission."
+}

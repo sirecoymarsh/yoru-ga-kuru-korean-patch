@@ -1,0 +1,378 @@
+{
+ "schema": "yoru-chart-r22.candidate.v1",
+ "status": "CHART_R22_STAGED_NOT_INSTALLED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "built": "2026-09-28T07:26:38",
+ "seconds": 73,
+ "base": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+  "manifest_sha256": "b8cebf2ec9cd8eb2b96fe4ea227bad862ae1d5ae69a8841ef6c8f6ab8848b5d8",
+  "status": "MOD_MENU_INSTALLED_NATIVE_PASS",
+  "ain_sha256": "3b9865a834db59afe8075564e41d6340317e2d7f52b512243d93b2e687b2ff34",
+  "pact_sha256": "d4de68c5d44ff5c80b9c41be21f86059d0ebca2717284f4ed8a7d43f6f029403",
+  "ex_sha256": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "winmm_sha256": "a4dd91102fbea2e1a7992974e53d45ffbeec8e79dc9981c5cc7c5201a01ab053",
+  "chart_sha256": "cc645872b062e42e9d5ed103555bb173c7e6a5df5f24f3a113646bb72de208ea",
+  "r21_installed": true,
+  "hook_installed": true,
+  "checked_at_start_and_end": true
+ },
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "af1026bb5ea14a2ae3daf048f118d5b3f63728af54ca2c0852bdc8ae7e07bddd",
+   "size": 3902780
+  }
+ },
+ "pact_changed": false,
+ "ex_changed": false,
+ "fnl_changed": false,
+ "chart_changed": false,
+ "winmm_changed": false,
+ "data": {
+  "r15_tables_sha256": "40cb849997fce12758fbfed0f70058bc146c9f49c9b7baf66f10885bc88507c2",
+  "r19_tables_sha256": "221e6c0bbdf1c5ae525335449028c94ecf2dde0f6dd2c10a1af4299f288b33a2",
+  "event_cg_sha256": "602d8804540004461b0074ee8d75f23e0ec023c0081bc7f7160d1a2e3050fe22",
+  "schedule_sha256": "f9669421f182976b230732e668bd30d1a9821039ca2c8133592a5227ae49ae16",
+  "replay_kinds": "2ab2e14791f8b3e0b56dbbe3434f431c48df8e8b114db4164ddf655b7ef933d0",
+  "cells": 915,
+  "per_tab": [
+   143,
+   116,
+   203,
+   56,
+   64,
+   58,
+   91,
+   71,
+   85,
+   28
+  ],
+  "thumbnail_cells": 95,
+  "small_cells": 820,
+  "memory_events": 151,
+  "not_playable_events": 1,
+  "cell_order": "dated cards (day, slot) -> undated cards -> dungeon cards -> drawer scenes (lane, kind, r19 display order); 회상 = memory drawers (page, cell / chain order); 그 밖 = unused"
+ },
+ "protocol": {
+  "design": "ingame/설계_v4_메뉴바차트.md 「C」 + 「정정(09-28 06시)」",
+  "commands_on_title": [
+   "chart",
+   "unlock_all",
+   "unlock_revert",
+   "reset_all",
+   "reset_restore"
+  ],
+  "title_end_code": 2026092802,
+  "home": "r21 KR_MHomeRun unchanged; KR_MDo forwarded to KR_CDoHome"
+ },
+ "added_functions": {
+  "KR_CTabFirst": 32628,
+  "KR_CTabEnd": 32629,
+  "KR_CCellRef": 32630,
+  "KR_CCellName": 32631,
+  "KR_CCellWhen": 32632,
+  "KR_CCellCond": 32633,
+  "KR_CThumb": 32634,
+  "KR_CMemCell": 32635,
+  "KR_CNoPlay": 32636,
+  "KR_CTabX": 32637,
+  "KR_CTabTx": 32638,
+  "KR_CCellX": 32639,
+  "KR_CCellY": 32640,
+  "KR_CCode": 32641,
+  "KR_CGet": 32642,
+  "KR_CSet": 32643,
+  "KR_CTitleAct": 32644,
+  "KR_CPart": 32645,
+  "KR_CRoot": 32646,
+  "KR_CTabBox": 32647,
+  "KR_CTabText": 32648,
+  "KR_CCellBox": 32649,
+  "KR_CActive": 32650,
+  "KR_CGlobal": 32651,
+  "KR_CUnlockAll": 32652,
+  "KR_COpen": 32653,
+  "KR_CCanPlay": 32654,
+  "KR_CSeen": 32655,
+  "KR_CState": 32656,
+  "KR_CLegend": 32657,
+  "KR_CStateLine": 32658,
+  "KR_CPlayNote": 32659,
+  "KR_CCardTitle": 32660,
+  "KR_CEventTitle": 32661,
+  "KR_CRequest": 32662,
+  "KR_CCardPage": 32663,
+  "KR_CEventPage": 32664,
+  "KR_CIsCard": 32665,
+  "KR_CCellEv": 32666,
+  "KR_CTabCount": 32667,
+  "KR_CPages": 32668,
+  "KR_CTabName": 32669,
+  "KR_CTabMonth": 32670,
+  "KR_CGold": 32671,
+  "KR_CSky": 32672,
+  "KR_CGray": 32673,
+  "KR_CWhite": 32674,
+  "KR_CTint": 32675,
+  "KR_CMark": 32676,
+  "KR_CBox": 32677,
+  "KR_CText": 32678,
+  "KR_CDrop": 32679,
+  "KR_CClickable": 32680,
+  "KR_CDrawFrame": 32681,
+  "KR_CDrawCell": 32682,
+  "KR_CDraw": 32683,
+  "KR_CClear": 32684,
+  "KR_CShow": 32685,
+  "KR_CWait": 32686,
+  "KR_CFrame": 32687,
+  "KR_CLocked": 32688,
+  "KR_CClick": 32689,
+  "KR_CReplayRun": 32690,
+  "KR_CReplay": 32691,
+  "KR_CChart": 32692,
+  "KR_CDo": 32693,
+  "KR_CDoHome": 32694,
+  "KR_CServe": 32695,
+  "KR_CTitleTick": 32696,
+  "KR_CTitleServe": 32697
+ },
+ "jam_bodies": [
+  "KR_CWait",
+  "KR_CReplayRun"
+ ],
+ "forwarded_functions": {
+  "KR_MDo": {
+   "index": 32623,
+   "base_address": 12742220,
+   "target": "KR_CDoHome",
+   "target_index": 32694
+  },
+  "KR_T9Seen": {
+   "index": 32409,
+   "base_address": 12217834,
+   "target": "KR_CSeen",
+   "target_index": 32655
+  },
+  "KR_T9State": {
+   "index": 32410,
+   "base_address": 12217882,
+   "target": "KR_CState",
+   "target_index": 32656
+  },
+  "KR_T9Legend": {
+   "index": 32418,
+   "base_address": 12219542,
+   "target": "KR_CLegend",
+   "target_index": 32657
+  },
+  "KR_T18CardPage": {
+   "index": 32539,
+   "base_address": 12314798,
+   "target": "KR_CCardPage",
+   "target_index": 32663
+  },
+  "KR_T18EventPage": {
+   "index": 32541,
+   "base_address": 12315854,
+   "target": "KR_CEventPage",
+   "target_index": 32664
+  }
+ },
+ "r18_forwarders_kept": [
+  "KR_T9CardPage",
+  "KR_T9CardRow",
+  "KR_T9ChipRow",
+  "KR_T9EventPage",
+  "KR_T9LaneTitle",
+  "KR_T9MemPage",
+  "KR_T9MonthChips",
+  "KR_T9MonthPage"
+ ],
+ "r19_forwarders_kept": [
+  "KR_T18CardRow",
+  "KR_T18CardTitle",
+  "KR_T18EventTitle",
+  "KR_T9ChipPage",
+  "KR_T9StagePage"
+ ],
+ "same_length_sites": [
+  {
+   "function": "C_SceneTitle@Update",
+   "fid": 28253,
+   "function_address": 6048168,
+   "site": 6048168,
+   "site_offset": 0,
+   "kind": "CALLFUNC",
+   "original": "C_UserInputManager::IsClickConfig",
+   "original_fid": 27668,
+   "replacement": "KR_CTitleTick",
+   "replacement_fid": 32696,
+   "before": "3000146c0000",
+   "after": "3000b87f0000",
+   "operand_bytes": [
+    6048170,
+    6048174
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  },
+  {
+   "function": "C_SceneTitle@Run",
+   "fid": 28250,
+   "function_address": 6046128,
+   "site": 6046394,
+   "site_offset": 266,
+   "kind": "CALLFUNC",
+   "original": "■方向キー処理／削除",
+   "original_fid": 27780,
+   "replacement": "KR_CTitleServe",
+   "replacement_fid": 32697,
+   "before": "3000846c0000",
+   "after": "3000b97f0000",
+   "operand_bytes": [
+    6046396,
+    6046400
+   ],
+   "occurrence": 0,
+   "calls_of_original_in_function": 1
+  }
+ ],
+ "earlier_same_length_sites_kept": 19,
+ "relocated_original_functions": [],
+ "pinned_functions": {
+  "KR_T9HomeCasual": {
+   "index": 32478,
+   "address": 12241940,
+   "code_bytes": 232,
+   "bytes_differing": 0
+  },
+  "KR_T9HomeConfig": {
+   "index": 32477,
+   "address": 12241642,
+   "code_bytes": 298,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@CheckGameSysButtons": {
+   "index": 28552,
+   "address": 6313814,
+   "code_bytes": 550,
+   "bytes_differing": 0
+  },
+  "C_SceneHomebase@Run": {
+   "index": 28542,
+   "address": 6299808,
+   "code_bytes": 1104,
+   "bytes_differing": 0
+  },
+  "LSys3xScript::RunEvent": {
+   "index": 26381,
+   "address": 5468856,
+   "code_bytes": 1292,
+   "bytes_differing": 0
+  },
+  "KR_T18RunSandboxed": {
+   "index": 32548,
+   "address": 12316890,
+   "code_bytes": 440,
+   "bytes_differing": 0
+  }
+ },
+ "invariance": {
+  "original_function_entries_identical_except_forwarded": true,
+  "forwarded": [
+   "KR_MDo",
+   "KR_T18CardPage",
+   "KR_T18EventPage",
+   "KR_T9Legend",
+   "KR_T9Seen",
+   "KR_T9State"
+  ],
+  "other_metadata_identical": [
+   "delegates",
+   "enums",
+   "filenames",
+   "game-version",
+   "global-groups",
+   "globals",
+   "keycode",
+   "libraries",
+   "main",
+   "msgf",
+   "ojmp",
+   "structures",
+   "switches",
+   "version"
+  ],
+  "old_code_bytes_changed": 4,
+  "old_code_changes_only_at_swapped_operands": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "STR0_added": 773,
+  "functions_added": 70,
+  "pinned": {
+   "KR_T9HomeCasual": {
+    "index": 32478,
+    "address": 12241940,
+    "code_bytes": 232,
+    "bytes_differing": 0
+   },
+   "KR_T9HomeConfig": {
+    "index": 32477,
+    "address": 12241642,
+    "code_bytes": 298,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@CheckGameSysButtons": {
+    "index": 28552,
+    "address": 6313814,
+    "code_bytes": 550,
+    "bytes_differing": 0
+   },
+   "C_SceneHomebase@Run": {
+    "index": 28542,
+    "address": 6299808,
+    "code_bytes": 1104,
+    "bytes_differing": 0
+   },
+   "LSys3xScript::RunEvent": {
+    "index": 26381,
+    "address": 5468856,
+    "code_bytes": 1292,
+    "bytes_differing": 0
+   },
+   "KR_T18RunSandboxed": {
+    "index": 32548,
+    "address": 12316890,
+    "code_bytes": 440,
+    "bytes_differing": 0
+   }
+  },
+  "earlier_same_length_sites_kept": 19
+ },
+ "root_z": 5000,
+ "parts": {
+  "first": 2026092200,
+  "count": 112
+ },
+ "native_opcode_audit": {
+  "active_functions": 30811,
+  "instruction_sites": 2126761,
+  "all_active_opcodes_supported": true,
+  "engine_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+ },
+ "session_variables_new": [
+  "YoruKR.C.Open",
+  "YoruKR.C.Ctx",
+  "YoruKR.C.All",
+  "YoruKR.C.Play",
+  "YoruKR.C.TitleReq"
+ ],
+ "new_globals": 0,
+ "new_struct_members": 0,
+ "serialized_schema_changes": 0,
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "jaf_source_sha256": "2e50df87703b685663b6b48689ccab002ece21d90103a358fa6e9352b29fbe9a",
+ "build_script_sha256": "5f127fc038dce9a8977f647c228e8314ad7aa7a8827f9d4bf1088f10cac31ec6"
+}

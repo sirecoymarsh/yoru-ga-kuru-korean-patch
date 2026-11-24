@@ -1,0 +1,31 @@
+{
+  "jam_sha256": "490e496155aa6d4ad20aa03df03283676251c106e2125584ddf673562e627a61",
+  "references": [
+    {
+      "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final\\build\\dumps\\NightRemaster_layout_v3.jam",
+      "line": 1042809,
+      "function": "FUNC 28303",
+      "command": "S_PUSH \"CG1541\""
+    },
+    {
+      "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final\\build\\dumps\\NightRemaster_layout_v3.jam",
+      "line": 1079514,
+      "function": "FUNC 28543",
+      "command": "S_PUSH \"CG1542\""
+    },
+    {
+      "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final\\build\\dumps\\NightRemaster_layout_v3.jam",
+      "line": 1119352,
+      "function": "FUNC 29194",
+      "command": "S_PUSH \"CG4014\""
+    },
+    {
+      "file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_rebuild_20260830_layout_v3_final\\build\\dumps\\NightRemaster_layout_v3.jam",
+      "line": 1119970,
+      "function": "FUNC 29195",
+      "command": "S_PUSH \"CG4013\""
+    }
+  ],
+  "resting_pact": "Game/Scenes/5000Dungeon/SceneDungeon.pactex: CG5070",
+  "current_gameplay_code_changes": 0
+}

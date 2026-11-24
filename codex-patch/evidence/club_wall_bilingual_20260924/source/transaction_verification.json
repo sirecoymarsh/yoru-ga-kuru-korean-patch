@@ -1,0 +1,22 @@
+{
+  "status": "TRANSACTION_FIXTURE_PASS",
+  "scope": "Real transaction/restore functions exercised on small disposable byte fixtures; final archive separately hash-verified.",
+  "details": {
+    "status": "TRANSACTION_FIXTURE_PASS",
+    "fixture": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_bilingual_20260924\\transaction_algorithm_fixture\\복구 검증 vppzsqgb",
+    "payload": {
+      "NightRemasterCG.afa": "73da163eac118e5dbe746349759ae9d82b64855cfd4e97a06dc8ccf0cfb3c1f1"
+    },
+    "install_restore": true,
+    "idempotent_restore": true,
+    "known_mixed_and_interruption_restore": true,
+    "partial_incoming_copy_recovered": true,
+    "interrupted_metadata_restoration_resumable": true,
+    "nth_replacement_rollback": true,
+    "tampered_payload_baseline_backup_rejected": true,
+    "exact_process_path_filter": true,
+    "unicode_spaces_path": true,
+    "no_incoming_residue": true,
+    "zip": "not applicable: live data-only installation; no archive emitted"
+  }
+}

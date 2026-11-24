@@ -1,0 +1,252 @@
+{
+ "status": "REVIEWED_WITH_FIXES",
+ "reviewed_at": "2026-09-29T21:06:39.815983+09:00",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "author": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - read-only second pass by the author itself (task instruction: no subagents); not an independent reviewer",
+ "reviewed_events": 232,
+ "reviewed_japanese_messages": 11999,
+ "reviewed_nonempty_lines": 11884,
+ "punctuation_only_lines_not_in_packets": 115,
+ "source_sha256": "36ca60e004f7f855c02b0da367b13781baf47993dcaa2b53aec21f40e4c41d83",
+ "summary_sha256": "3704b0eee9fe8b9c4a3584511b21866d76a03d48ec261ffbec606caa75931988",
+ "method": "For every scene the frozen packet view (work/views, lossless re-layout of source/packets, all non-empty lines) was re-opened and each clause of the summary was checked against the Japanese text (meaning) and installed Korean (names/terms): (a) only facts present in that scene, (b) actor/subject not swapped, (c) no content from another scene or choice branch. Long scenes were re-read by claim with the source lines located by message id. Fixes replace only the faulty span (brief section 5).",
+ "counts": {
+  "findings": 18,
+  "by_severity": {
+   "P2": 4,
+   "P3": 14
+  },
+  "by_kind": {
+   "actor": 3,
+   "fact": 9,
+   "embellishment": 2,
+   "wording": 1,
+   "inference": 2,
+   "other-scene": 1
+  }
+ },
+ "findings": [
+  {
+   "no": 74,
+   "e": "E00074",
+   "message_id": 14077,
+   "severity": "P2",
+   "kind": "actor",
+   "before": "신카이를 덮치고",
+   "after": "신카이와 맞붙고",
+   "why": "먼저 로킥을 날린 쪽은 신카이(14076-14077); 우메다가 덮쳤다고 쓰면 행위자가 바뀐다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 108,
+   "e": "E00108",
+   "message_id": 19790,
+   "severity": "P2",
+   "kind": "fact",
+   "before": "녹초가 된 밤, 간장을 빌리러 온 옆집 사람이 이즈미라 놀라는 사이 몰래 찾아온 쿄카와 마나미까지 들이닥친다.",
+   "after": "녹초가 된 밤, 옆집에서 간장을 빌리러 온 이즈미에 이어 마코토, 키라라, 몰래 온 쿄카와 마나미까지 들이닥친다.",
+   "why": "이즈미는 이사 온 사람이 자기가 아니라고 말하고(19790) 곧 마코토가 나온다; 옆집 사람을 이즈미로 단정하면 사실이 틀린다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 1034,
+   "e": "E01034",
+   "message_id": 87833,
+   "severity": "P3",
+   "kind": "embellishment",
+   "before": "주인공은 그 정도냐며 쓴웃음 짓는다.",
+   "after": "주인공은 그 정도냐면서도 잘 부탁한다고 한다.",
+   "why": "원문은 그런 수준이냐고 한 뒤 잘 부탁한다고 할 뿐 웃는 묘사가 없다(87833)",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 1121,
+   "e": "E01121",
+   "message_id": 90083,
+   "severity": "P3",
+   "kind": "fact",
+   "before": "주먹을 멈추지 못해",
+   "after": "공격을 멈추지 못해",
+   "why": "원문은 寸止め(치기 직전 멈춤)를 못 했다고만 하고 주먹이라고 특정하지 않는다(90083)",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 1125,
+   "e": "E01125",
+   "message_id": 90167,
+   "severity": "P3",
+   "kind": "fact",
+   "before": "신문값 이상을",
+   "after": "신문값 정도는",
+   "why": "원문은 한 달에 신문값 정도는 쉽게 아낀다고 한다(90167); 이상이라고 부풀렸다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 1128,
+   "e": "E01128",
+   "message_id": 90230,
+   "severity": "P3",
+   "kind": "fact",
+   "before": "큰 쥐는 질색이라고",
+   "after": "쥐는 질색이라고",
+   "why": "이즈미는 쥐는 안 된다고만 하고(90230) 크기가 문제라는 건 주인공의 추측(90238)이다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 1402,
+   "e": "E01402",
+   "message_id": 92334,
+   "severity": "P3",
+   "kind": "wording",
+   "before": "주인공은 고개를 숙인다.",
+   "after": "주인공은 사과한다.",
+   "why": "원문은 말로 사과할 뿐(92334) 고개를 숙이는 동작 묘사가 없다; 관용구가 동작으로 읽힐 수 있다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 1622,
+   "e": "E01622",
+   "message_id": 88660,
+   "severity": "P3",
+   "kind": "inference",
+   "before": "그 대전 게임을",
+   "after": "그 게임을",
+   "why": "원문은 게임이고 검을 든 캐릭터가 나온다고만 한다(88657-88660); 장르는 제목 패러디에서 끌어낸 추정",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2041,
+   "e": "E02041",
+   "message_id": 95555,
+   "severity": "P3",
+   "kind": "inference",
+   "before": "기척을 동시에 알아채고",
+   "after": "기척을 알아채고",
+   "why": "마코토가 느꼈느냐고 묻고 이즈미가 답할 뿐(95555-95557) 동시에 알아챘다는 서술은 없다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2232,
+   "e": "E02232",
+   "message_id": 97583,
+   "severity": "P2",
+   "kind": "other-scene",
+   "before": "마나미가 흥얼거린 노래를 마코토도 모른다고 하자 주인공이 반색하다 시치미를 뗀다. 하지만 마코토라면 모르는 게 당연해 보여 같은 처지라는 느낌은 들지 않는다.",
+   "after": "마나미가 흥얼거린 노래를 마코토가 모른다고 하자 주인공이 웃을 뻔하다 시치미를 뗀다. 마코토라면 모르는 게 당연해 보여 주인공은 동지라는 느낌이 들지 않는다.",
+   "why": "주인공도 그 노래를 모른다는 사실은 이 장면이 아니라 다른 동행 장면(E02407)에서 나온다; 이 장면만으로는 웃을 뻔한 반응(97583-97585)과 동지 독백(97588)뿐",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2308,
+   "e": "E02308",
+   "message_id": 98371,
+   "severity": "P3",
+   "kind": "fact",
+   "before": "곧 내성이 생긴다는",
+   "after": "언젠가 내성이 생긴다는",
+   "why": "원문은 いずれ(언젠가)이다(98371)",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2323,
+   "e": "E02323",
+   "message_id": 98419,
+   "severity": "P3",
+   "kind": "embellishment",
+   "before": "땀범벅인 주인공이",
+   "after": "땀 흘리는 주인공이",
+   "why": "원문은 두 사람이 땀을 안 흘린다고 놀랄 뿐(98419) 땀범벅이라는 묘사는 없다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2326,
+   "e": "E02326",
+   "message_id": 98477,
+   "severity": "P2",
+   "kind": "actor",
+   "before": "요즘 머리가 부스스하다며 호시카와가 마코토에게",
+   "after": "마코토의 머리가 요즘 붕 뜬다며 호시카와가",
+   "why": "붕 떠 있다는 것은 마코토의 머리다(98477); 원래 문장은 호시카와 자신의 머리로 읽힌다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2343,
+   "e": "E02343",
+   "message_id": 98582,
+   "severity": "P3",
+   "kind": "fact",
+   "before": "능력이 없어도 강해질 수 있다는 말에",
+   "after": "능력이 없어도 강해질 수 있을지 모른다는 말에",
+   "why": "마코토의 답은 かもな(그럴지도)이다(98582); 단정으로 바뀌었다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2344,
+   "e": "E02344",
+   "message_id": 98599,
+   "severity": "P3",
+   "kind": "fact",
+   "before": "웃음을 참는 주인공에게",
+   "after": "웃음을 터뜨리는 주인공에게",
+   "why": "주인공은 ぷっ, ぷぷ 하고 웃고 모모세가 뭘 웃느냐고 따진다(98592-98601); 참은 게 아니다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2403,
+   "e": "E02403",
+   "message_id": 99094,
+   "severity": "P3",
+   "kind": "actor",
+   "before": "좋은 에센스를 쓴 쿠키라고 짚어 낸다.",
+   "after": "좋은 에센스를 썼다고 짚어 낸다.",
+   "why": "쿠키라는 말은 모모세가 먼저 한다(99091); 호시카와가 알아맞힌 것은 에센스(99094)",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2404,
+   "e": "E02404",
+   "message_id": 99120,
+   "severity": "P3",
+   "kind": "fact",
+   "before": "새로 산 향수라는",
+   "after": "신제품 향수라는",
+   "why": "원문은 새로 나온 제품(新作)이라는 뜻(99120); 새로 샀다는 말은 없다",
+   "status": "resolved by author (minimal span replaced)"
+  },
+  {
+   "no": 2541,
+   "e": "E02541",
+   "message_id": 99761,
+   "severity": "P3",
+   "kind": "fact",
+   "before": "연거푸 걸려 넘어진",
+   "after": "연거푸 부딪힌",
+   "why": "원문은 아야 하는 소리와 쿵 부딪히는 소리뿐(99753-99761); 넘어졌다는 서술은 없다",
+   "status": "resolved by author (minimal span replaced)"
+  }
+ ],
+ "unresolved": [
+  {
+   "e": "E00070",
+   "topic": "attribution",
+   "note": "Izumi reports a compliment by hearsay (13185); context is the report on Momose, so the summary names Momose as the speaker. The line itself does not name him. Human check if a stricter reading is wanted."
+  },
+  {
+   "e": "E00097",
+   "topic": "content choice",
+   "note": "The scene contains an explicit sexual-abuse passage (Haiji, park). The summary deliberately leaves it out and keeps only Haiji vowing to find whoever spoiled his plan; the villains' oath at the end is also not summarised (100-char limit). Human decision if either should be mentioned."
+  },
+  {
+   "e": "E30021",
+   "topic": "wording",
+   "note": "Manami says 給料日 (payday); the protagonist wonders if she means allowance. Summary keeps her word (월급날)."
+  }
+ ],
+ "observations": [
+  "Template batch split never fires for scenes outside a group card (both stage_of lookups return None), so batches 4-5 carry 3,911 and 3,991 messages. Progress was saved more often inside batch 5 (110 and 169 of 232). The same code is in the May template.",
+  "Brief gate forbids any 료; that also bans common words (동료, 치료, 음료, 재료). Two approved April summaries contain 동료 (E00001, E00007), so the June gate is stricter than the April set it is modelled on.",
+  "Installed Korean replaces several Japanese parody names with real brands (포켓몬/피카츄 E01526, 울트라맨/스폰/카이요도/북두의 권 E02282, 타레판다 E01704, 지포 E01706, 워크맨 E02231, 팝핑 캔디 E02212). Summaries use neutral words; the dialogue itself is outside this batch.",
+  "E01401-E01403 and E01701-E01703 are labelled 4월 in their cell when-text but sit in the June tab; the summaries describe content only and do not state a month."
+ ]
+}

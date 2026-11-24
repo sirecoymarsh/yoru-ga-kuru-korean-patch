@@ -1,0 +1,19 @@
+{
+  "status": "HOME_PANEL_20261017_INSTALLED_NATIVE_PASS",
+  "files": {
+    "NightRemaster.ain": "99461f9c4d023e6869f2719695923c5ed057d4b67631687268f0a9b4be06b4cc",
+    "NightRemasterPact.afa": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109"
+  },
+  "manifest_sha256": "a10aa3a5d90b211c4d25702456483139b7999dbd84d92f47b55f3c9c7b16cae2",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "unchanged_save_files": 524,
+  "recovery_unchanged": true,
+  "recovery_hashed": [
+    "NightRemaster.ain",
+    "NightRemasterPact.afa"
+  ],
+  "recovery_lacks": [],
+  "evidence": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\evidence\\home_panel_20261017",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}
+

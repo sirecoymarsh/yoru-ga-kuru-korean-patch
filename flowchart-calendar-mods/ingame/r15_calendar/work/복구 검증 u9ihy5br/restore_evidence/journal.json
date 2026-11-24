@@ -1,0 +1,29 @@
+{
+  "status": "RESTORED",
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\복구 검증 u9ihy5br\\live",
+  "before": {
+    "NightRemaster.ain": "e37cff9c38116d5e9693019f147c97c4d78f3f6a389d825d393e92ac3a928038"
+  },
+  "after": {
+    "NightRemaster.ain": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963"
+  },
+  "metadata": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\복구 검증 u9ihy5br\\ui_cumulative\\current.json",
+      "name": "current.json",
+      "existed": true,
+      "sha256": "3c14fd7e037176674686f88248d87027fdcc04d5a82b01579a4d612592b49f87"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\복구 검증 u9ihy5br\\progress.md",
+      "name": "progress.md",
+      "existed": true,
+      "sha256": "1f4574400803029aeb2435c68b3bdf6b3bc1729e2d26a1206a03ec304a1b0ca9"
+    }
+  ],
+  "metadata_after": {
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\복구 검증 u9ihy5br\\ui_cumulative\\current.json": "dd10b2988da96a7973b0a5c4307722c340dc86daa4c6260c7096cdd82f48c598",
+    "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\복구 검증 u9ihy5br\\progress.md": "48a6629d8b9f4269a0db0815be5ca6928aab9793258cbd4cd7bfce87de6a606f"
+  },
+  "committed_pointer_sha256": "dd10b2988da96a7973b0a5c4307722c340dc86daa4c6260c7096cdd82f48c598"
+}

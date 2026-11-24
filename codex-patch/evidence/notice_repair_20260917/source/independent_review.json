@@ -1,0 +1,32 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "3b7bb70cb51caba08dc291693919554c3d35783314352eccc77f7b16ab18f8e9",
+    "NightRemasterPact.afa": "39d0915ee3475441f6526a023b4a64989a4388190f07e2e62d5cbf8e8cbc5bc8"
+  },
+  "reviews": [
+    {
+      "reviewer": "/root/notice_failure_review",
+      "verdict": "PASS",
+      "findings": [
+        "actual SceneDungeon160 owns both hidden clickthrough notices",
+        "removing both reproduces source160 exact",
+        "no Activity release, no recursive clears",
+        "immediate HLL writes/read/alpha/show",
+        "payout and progression code preserved"
+      ]
+    },
+    {
+      "reviewer": "/root/mod_graphics_failure_review",
+      "verdict": "PASS",
+      "findings": [
+        "1677 normalized renderer opcodes match exact3 graphics reverts",
+        "no partial-CG copy remains",
+        "three buttons use full1840 in all3 states, click enabled",
+        "yellow fill navy outline and independent labels",
+        "only153/154/160/161 archive entries differ"
+      ]
+    }
+  ],
+  "native_verified": false
+}

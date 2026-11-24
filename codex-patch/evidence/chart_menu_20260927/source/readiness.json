@@ -1,0 +1,14 @@
+{
+  "status": "CHART_MENU_READY_NOT_INSTALLED",
+  "candidate": {
+    "winmm.dll": "378a78345dc8a8a625d351ca622aa35ee8a3b6d6d1023b922d88d7e7bc511fda",
+    "Manual/chart/yoru_flowchart_v2.html": "d5bb5c43084f3c503a974b89bdb47910d14adc4cdb1f7d610ffcd01c45823149"
+  },
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "issues": [],
+  "game_running": false,
+  "contracts_now": 71,
+  "install_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_chartmenu\\publish_chart_menu.py\" --install",
+  "restore_command": "python \"P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\hook_chartmenu\\publish_chart_menu.py\" --restore",
+  "checked": "2026-09-27T18:03:31.127247+09:00"
+}

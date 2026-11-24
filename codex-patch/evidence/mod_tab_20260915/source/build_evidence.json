@@ -1,0 +1,92 @@
+{
+  "status": "MOD_TAB_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "93bc3a3714b7bfdc2a476e4ad098f33a406281d9fd74194d2dcdb48cd97f6752",
+    "status": "DEPARTMENT_ROUTE_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "532f09ba127c2bdb8dbca3b41d6eb9615806a98ef326766f1d950c79d04f3ad0",
+    "NightRemasterPact.afa": "f59299bccb9cc69c06262b5276033ca8e49ac1aa241892b6a3999e87c7369ee9",
+    "NightRemasterEX.ex": "fbca7f090e72ac190469d2e04b658b6a213b2d364bee11a0709e8b0eae3c20de"
+  },
+  "files": {
+    "NightRemaster.ain": "28b837397fc79edb89de826819cd8e9a8de077e1c21a7513b748be13fe5a7412",
+    "NightRemasterPact.afa": "fc0f8664cfd41fcac8405d7d009f9327f86b26e805936e321ad48ce90cef5308",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4"
+  },
+  "PACT": {
+    "archive": {
+      "source_sha256": "f59299bccb9cc69c06262b5276033ca8e49ac1aa241892b6a3999e87c7369ee9",
+      "candidate_sha256": "fc0f8664cfd41fcac8405d7d009f9327f86b26e805936e321ad48ce90cef5308",
+      "original_entries_preserved": 185,
+      "replaced_ids": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ],
+      "appended": [
+        {
+          "id": 185,
+          "name": "Asra/Mods.pactex",
+          "sha256": "ed16408b67b9e3785d212ce79419b07d562c81c507080aa949fde1b340f9e529"
+        }
+      ],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "mod_tab_20260915\\NightRemasterPact.afa"
+    },
+    "restored_pre_mod_donors": {
+      "cheat_menu_20260915\\pact_123.pactex": "32aa62b4b01bd9cf21c580643dcfe21cb58ec7606b68ae668a6b65c313498b4f",
+      "remaster_multiplier_20260915\\pact_125.pactex": "46e269bfd53530748dbcbae3bf1212ccbde8b38f6aaba9c083f956e7d257695e"
+    },
+    "original_options_restored_exact_before_tab_addition": true,
+    "mode_only_controls": 8,
+    "all_raster_font_assets_unchanged": true
+  },
+  "EX": {
+    "changed_block_ids": [
+      23
+    ],
+    "appended_row_index": 9,
+    "button": "KR_ModTab",
+    "page": "Asra\\Mods",
+    "other_blocks_and_original_rows_exact": true
+  },
+  "AIN": {
+    "patched_functions": [
+      29387,
+      29817,
+      29818,
+      29860,
+      29861,
+      29863,
+      29864,
+      29866,
+      29867,
+      29869,
+      29870,
+      31859
+    ],
+    "all_other_functions_and_metadata_exact": true,
+    "original_CODE_and_strings_prefix_and_MSG1_exact": true,
+    "save_schema_unchanged": true,
+    "speed_precedence": "quick > explicit2..5x > original speed option at default notch",
+    "reward_sync": "Exact2x checkbox; unchanged input is no-op, explicit toggle sets1x/2x",
+    "quick_preview": "Once after DispEffect/enemy formation/gauges/control setup, before first action; original results unchanged"
+  },
+  "translator_model": "Codex internal",
+  "native_gameplay_verified": false,
+  "department_route_user_confirmed": true
+}

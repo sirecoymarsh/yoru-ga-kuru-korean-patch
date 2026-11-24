@@ -1,0 +1,19 @@
+{
+  "pid": 19684,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "c2c1164c12b892018098ce51a77903528601f3b996106474c25097e37f996f1c",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "SHOT CG4014",
+    "SHOT CG4013",
+    "SHOT CG5070",
+    "SHOT CG1541",
+    "SHOT CG1542",
+    "END"
+  ],
+  "candidate_files": {
+    "NightRemasterCG.afa": "7d8955c039b34627b646cd4982f521dface02f0df7abea681e70e759ecfc473e"
+  },
+  "save_files_unchanged": true
+}

@@ -1,0 +1,882 @@
+{
+ "candidate_ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+ "candidate_meta": "54a712b3d86afbaeaa56dab3b55db2e55081e38ad45d24a29e71b8d03058610d",
+ "base_ain": "1e96d3e797184a7a13236208988fe6ca3d37cf55f9e553f0ccc5ad7ed7659188",
+ "save_folder": "C:\\Users\\CadriacLord\\OneDrive\\문서\\AliceSoft\\밤이 온다! -Square of the MOON- Remastered\\SaveData_KR_UI_Integrated_20260913",
+ "read_only": true,
+ "stats": {
+  "resume_saves": 51,
+  "frames": 1256,
+  "frames_in_changed_functions": 51,
+  "other_format": 3,
+  "other_format_head_50535200": 3,
+  "not_resume_save": 2
+ },
+ "saves": 56,
+ "problems": [],
+ "open_on_stack": [
+  {
+   "save": "NightR22.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  },
+  {
+   "save": "NightR28.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  },
+  {
+   "save": "NightR43.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  }
+ ],
+ "frames_in_changed_functions": [
+  {
+   "save": "NightR01.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR02.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR03.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR04.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR05.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR06.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR07.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR08.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR09.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR10.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR11.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR12.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR13.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR14.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR15.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR16.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR17.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR18.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR19.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR20.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR21.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR22.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR23.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR24.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR25.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR26.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR27.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR28.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR29.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR30.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR31.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR32.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR33.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR34.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR35.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR36.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR37.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR38.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR39.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR40.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR41.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR42.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR43.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR44.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR45.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR46.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR47.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR48.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR49.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR998.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  },
+  {
+   "save": "NightR999.asd",
+   "fn": "gamesave::detail::セーブ実行",
+   "resume": 2269372,
+   "offset": 802,
+   "from_function_start": 802,
+   "to_sites": [
+    610,
+    476,
+    370,
+    272,
+    174,
+    -234,
+    -354
+   ]
+  }
+ ],
+ "functions": [
+  "gamesave::detail::セーブ実行"
+ ]
+}

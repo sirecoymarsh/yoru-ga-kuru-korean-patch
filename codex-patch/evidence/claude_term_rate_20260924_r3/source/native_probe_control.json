@@ -1,0 +1,12 @@
+{
+  "pid": 24948,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "71d87cffa952d64dc148465bb164e2bd9dcc1a8ee5a7b84218645c7c0855826d",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "CONTROL_START",
+    "CONTROL_LOADED 빛잡이,불지기,쉭쉭이,틈새,얼어붙은 밤,참된 달,참된 밤,불무리"
+  ],
+  "source_sha256": "6ccef5c5529430244cb997006157b836a46d05820da969cda32b5fb8b9ecdcb6"
+}

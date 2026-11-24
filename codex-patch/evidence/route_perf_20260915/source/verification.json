@@ -1,0 +1,41 @@
+{
+  "status": "ROUTE_CACHE_COMPILED_BEHAVIOR_PASS",
+  "files": {
+    "NightRemaster.ain": "39c55a8c8c5fadb77a235116a80c10798482313e72bfda50df5ea07d3766bf0e"
+  },
+  "VM": {
+    "compiled_VM_calls": 7207,
+    "slider_steps": 5,
+    "slider_roundtrips": 500,
+    "quick_entry_exit_cases": 24,
+    "watchdog_and_cancel": true,
+    "int32_clock_wrap": true,
+    "trap_compiled_hook_cases": 72,
+    "route_compiled_helper_fixtures": 6,
+    "unknown_slot_bounds": true,
+    "original_system_flags_preserved": true,
+    "route_native_AStar_engine_itself_tested": false
+  },
+  "identical_position_20_updates": {
+    "before": {
+      "cost_map_builds": 20,
+      "searches": 40,
+      "route_draws": 20,
+      "VM_calls": 196
+    },
+    "after": {
+      "cost_map_builds": 1,
+      "searches": 1,
+      "route_draws": 1,
+      "VM_calls": 168
+    }
+  },
+  "movement_floor_toggle_load_and_no_route_cases_pass": true,
+  "nearest_route_and_original_draw_style_preserved": true,
+  "farther_exit_enumerated_first_regression": true,
+  "fresh_search_and_empty_output_per_candidate": true,
+  "all_active_native_opcodes_supported": true,
+  "native_active_functions": 29974,
+  "native_instruction_sites": 1803603,
+  "native_performance_measured": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "SAVE_PAGE_STATIC_NATIVE_PASS",
+  "files": {
+    "NightRemaster.ain": "a7d680e7774e7e7ca438bd8b26f3e4b9698065215921342ff8843cc71c4a74b2",
+    "NightRemasterPact.afa": "b6c0253bffedc2853c7d800b59bdc4a673df3365f0c8f12b42c4e24a9871b2f8"
+  },
+  "native_probes": {
+    "baseline": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\save_page_restore_20260926\\probe_baseline_20260926_214402\\result.json",
+    "candidate": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\save_page_restore_20260926\\probe_candidate_20260926_214629\\result.json"
+  },
+  "existing_resume_saves": 51,
+  "saved_return_frames": 1255,
+  "save_schema_equal": true,
+  "old_CODE_allowlist_exact": true,
+  "changed_PACT": [],
+  "MSG1_exact": true,
+  "STR0_exact": true,
+  "real_saves_unchanged": true,
+  "OS_mouse_hit_test": false,
+  "case_count": 10,
+  "restored_original_latest_manual_page_policy": true
+}

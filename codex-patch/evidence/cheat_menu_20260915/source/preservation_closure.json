@@ -1,0 +1,47 @@
+{
+  "status": "INHERITED_FIX_CLOSURE_PASS",
+  "files": {
+    "NightRemaster.ain": "e103f27fed0474d830842a017718d0b3aa60955b3880013332654aa0e07eff68",
+    "NightRemasterPact.afa": "f59299bccb9cc69c06262b5276033ca8e49ac1aa241892b6a3999e87c7369ee9"
+  },
+  "source_ain": "e144757005642031e155c08c8ab9d6c51582868f86b513a6f45d83438266c931",
+  "unchanged_active_consumable_functions": [
+    26668,
+    26669,
+    26671,
+    26672,
+    26680,
+    26681,
+    31454,
+    31481
+  ],
+  "unchanged_original_battle_reward_and_crash_functions": [
+    29220,
+    29221,
+    29222,
+    29223,
+    29242,
+    29313,
+    29393,
+    26361,
+    26362,
+    26363,
+    26364,
+    26432,
+    26433,
+    28359,
+    31827,
+    31828,
+    31829,
+    31830,
+    31831,
+    31832,
+    31833,
+    31834,
+    31835
+  ],
+  "original_CODE_prefix_exact": true,
+  "all_other_existing_function_metadata_exact": true,
+  "all_required_contract_pointers_agree": true,
+  "native_verified": false
+}

@@ -1,0 +1,946 @@
+{
+ "status": "independent_qa_pass",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - independent reviewer (not an author of these summaries)",
+ "reviewed_at": "2026-09-29T21:46:21.010435+09:00",
+ "method": "packets read end to end (JP meaning basis, KR spelling basis) before opening evidence/semantic_qa.json; criteria (a)-(g) of the coordinator brief; fixes change only the problem word",
+ "criteria": {
+  "a": "원문에 없는 사실·반응·장소·감정·추정",
+  "b": "행위자·상대 바뀜",
+  "c": "다른 장면·갈래 섞임",
+  "d": "결말·루트 확정·나중 사건 암시(5·6쪽 후반 내용 특히)",
+  "e": "「주인공」 호칭·설치 한국어 표기",
+  "f": "현재형 1~2문장 ≤100자(길이는 기록만)",
+  "g": "성인 묘사 없이 서술"
+ },
+ "reviewed_events": 25,
+ "reviewed_japanese_messages": 13222,
+ "copy_of_rows": 5,
+ "source_sha256": "b5f52815c979cbbeb5b489ffff7a8f05b9eac21046546e9cceb92ccbfab4076a",
+ "summary_sha256_before": "f597118a609d11b086a219c7463ba253f186879068f99f15b5c9fa76ab026b56",
+ "summary_sha256_input_of_this_run": "f597118a609d11b086a219c7463ba253f186879068f99f15b5c9fa76ab026b56",
+ "summary_sha256_after": "7a9229c41fe346df78b1401c40a2c809938bd2720a39b3aaff5125c0186f099f",
+ "findings": [],
+ "findings_count": {
+  "total": 0,
+  "major": 0,
+  "minor": 0
+ },
+ "length_record": {
+  "min": 88,
+  "max": 100,
+  "over_85": 25,
+  "note": "회상 요약은 88~100자로 4월 중앙값(70)보다 길다 — 지시대로 길이는 고치지 않고 기록만."
+ },
+ "author_unresolved_judgments": [
+  {
+   "item": "60001·60002 가 4월 승인 본편 장면과 중복인가",
+   "judgment": "60002 는 4월 8번과 같은 장면(메시지 379 동일, 긴 설치 한국어 줄 142 중 69 가 8번과 일치), 60001 은 4월 여러 칸을 이은 재생본(긴 설치 한국어 줄 392 중 2번과 135·6번과 29·7번과 8 일치; work/review/overlap_60001_60002.py)이다. 두 요약 모두 4월 문장과 같은 문장이 없고 사실 오류도 없다. 60001 은 4월 요약 하나로 대체할 수 없으므로 현 문장 유지가 맞고, 60002 는 4월 요약 재사용도 가능하지만 필수는 아니다 — 행 note 로 사람 결정 표시."
+  }
+ ],
+ "unresolved": [
+  {
+   "no": 60001,
+   "type": "human_decision",
+   "item": "사람 결정 — 이 재생본(메시지 1,077)은 4월 본편 여러 칸(설치 한국어 줄 대조로 2·6·7번 확인)을 한 장면으로 이은 것이라 4월 요약 하나로 대체할 수 없다. 따로 쓴 현 문장을 유지 권고."
+  },
+  {
+   "no": 60002,
+   "type": "human_decision",
+   "item": "사람 결정 — 4월 본편 8번과 같은 장면(메시지 수 379 동일). 현 문장은 4월 문장과 겹치지 않고 사실 오류도 없다. 4월 요약을 그대로 쓸지는 사람이 정할 일(검수 의견: 현 문장 유지로 충분)."
+  },
+  {
+   "no": 65004,
+   "type": "human_decision",
+   "item": "사람 결정 — 원문 86825 「客がひいてる」는 「손님이 질려 한다」와 「손님이 빠져나간다」 두 뜻으로 읽힌다. 요약은 설치 한국어(빠져나갔고)를 따랐고 오류로 보지 않았다."
+  },
+  {
+   "no": null,
+   "type": "build_check",
+   "item": "5·6쪽(60xxx)은 후반 본편 재생 칸이라 요약에 적 쪽 인물과 그 장면 사건이 나온다. 요약은 장면 안 사실만 쓰며 결함 아님. 미열람 칸 가림은 요약 층 빌드 때 확인."
+  },
+  {
+   "no": 60018,
+   "type": "info_metadata",
+   "item": "design/events.json(동결본, 수정 안 함)의 60018 when 값에 줄바꿈과 † 문자가 섞여 있다(packets 머리말이 두 줄로 갈림). 요약과 무관하나 이 값을 화면에 쓰는 빌드가 있으면 확인할 것."
+  }
+ ],
+ "copy_of_check": [
+  {
+   "team": "B",
+   "no": 60004,
+   "copy_of": 64,
+   "memory_need": 64,
+   "need_match": true,
+   "schedule_replay_of": 64,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 514,
+   "source_lines_kr_nonempty": 279,
+   "source_owner_tabs": [
+    "5월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "5월",
+     "status": "independent_qa_pass",
+     "summary_len": 97,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "B",
+   "no": 60007,
+   "copy_of": 101,
+   "memory_need": 101,
+   "need_match": true,
+   "schedule_replay_of": 101,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 770,
+   "source_lines_kr_nonempty": 389,
+   "source_owner_tabs": [
+    "6월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "6월",
+     "status": "independent_qa_pass",
+     "summary_len": 99,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "B",
+   "no": 60010,
+   "copy_of": 185,
+   "memory_need": 185,
+   "need_match": true,
+   "schedule_replay_of": 185,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 206,
+   "source_lines_kr_nonempty": 107,
+   "source_owner_tabs": [
+    "7월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "7월",
+     "status": "independent_qa_pass",
+     "summary_len": 99,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "B",
+   "no": 60011,
+   "copy_of": 201,
+   "memory_need": 201,
+   "need_match": true,
+   "schedule_replay_of": 201,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 884,
+   "source_lines_kr_nonempty": 468,
+   "source_owner_tabs": [
+    "8월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "8월",
+     "status": "independent_qa_pass",
+     "summary_len": 99,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "B",
+   "no": 60019,
+   "copy_of": 901,
+   "memory_need": 901,
+   "need_match": true,
+   "schedule_replay_of": 901,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 628,
+   "source_lines_kr_nonempty": 411,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 96,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  }
+ ],
+ "events": [
+  {
+   "no": 60001,
+   "verdict": "pass",
+   "read_messages": 1077,
+   "read_range": [
+    74306,
+    75382
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    74313,
+    74509,
+    74593,
+    74754,
+    74994,
+    75351,
+    75369
+   ],
+   "note": "마지막 서술의 「긴 밤의 시작」 예고는 요약에 옮기지 않음 — (d) 적합.",
+   "human_decision": "사람 결정 — 이 재생본(메시지 1,077)은 4월 본편 여러 칸(설치 한국어 줄 대조로 2·6·7번 확인)을 한 장면으로 이은 것이라 4월 요약 하나로 대체할 수 없다. 따로 쓴 현 문장을 유지 권고."
+  },
+  {
+   "no": 60002,
+   "verdict": "pass",
+   "read_messages": 379,
+   "read_range": [
+    75383,
+    75761
+   ],
+   "length": 95,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    75392,
+    75440,
+    75519,
+    75630,
+    75645
+   ],
+   "note": "",
+   "human_decision": "사람 결정 — 4월 본편 8번과 같은 장면(메시지 수 379 동일). 현 문장은 4월 문장과 겹치지 않고 사실 오류도 없다. 4월 요약을 그대로 쓸지는 사람이 정할 일(검수 의견: 현 문장 유지로 충분)."
+  },
+  {
+   "no": 60003,
+   "verdict": "pass",
+   "read_messages": 968,
+   "read_range": [
+    75762,
+    76729
+   ],
+   "length": 100,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    75797,
+    76203,
+    76266,
+    76391,
+    76486,
+    76560,
+    76679,
+    76682
+   ],
+   "note": "",
+   "human_decision": ""
+  },
+  {
+   "no": 60005,
+   "verdict": "pass",
+   "read_messages": 1671,
+   "read_range": [
+    76730,
+    78400
+   ],
+   "length": 100,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    76840,
+    77513,
+    77557,
+    77566,
+    77928,
+    78024,
+    78034,
+    78363
+   ],
+   "note": "",
+   "human_decision": ""
+  },
+  {
+   "no": 60006,
+   "verdict": "pass",
+   "read_messages": 1834,
+   "read_range": [
+    78401,
+    80234
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    78469,
+    78491,
+    78697,
+    78749,
+    79160,
+    79530,
+    79741,
+    79758
+   ],
+   "note": "장면 안의 적 쪽 회합·하이지 장면은 요약에서 생략(1~2문장 규격) — 누락은 결함 아님.",
+   "human_decision": ""
+  },
+  {
+   "no": 60008,
+   "verdict": "pass",
+   "read_messages": 737,
+   "read_range": [
+    80235,
+    80971
+   ],
+   "length": 100,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    80319,
+    80404,
+    80491,
+    80551,
+    80703,
+    80907,
+    80932
+   ],
+   "note": "",
+   "human_decision": ""
+  },
+  {
+   "no": 60009,
+   "verdict": "pass",
+   "read_messages": 1291,
+   "read_range": [
+    80972,
+    82262
+   ],
+   "length": 94,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    81118,
+    81260,
+    81329,
+    81517,
+    81885,
+    82018,
+    82197,
+    82237
+   ],
+   "note": "CD 는 라틴 문자라 가나·한자 게이트와 무관.",
+   "human_decision": ""
+  },
+  {
+   "no": 60012,
+   "verdict": "pass",
+   "read_messages": 228,
+   "read_range": [
+    82263,
+    82490
+   ],
+   "length": 97,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    82277,
+    82435,
+    82466,
+    82478
+   ],
+   "note": "",
+   "human_decision": ""
+  },
+  {
+   "no": 60013,
+   "verdict": "pass",
+   "read_messages": 571,
+   "read_range": [
+    82491,
+    83061
+   ],
+   "length": 95,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    82547,
+    82663,
+    82734,
+    82958,
+    83052
+   ],
+   "note": "",
+   "human_decision": ""
+  },
+  {
+   "no": 60014,
+   "verdict": "pass",
+   "read_messages": 1451,
+   "read_range": [
+    83062,
+    84512
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    83098,
+    83671,
+    83759,
+    84031,
+    84239,
+    84475
+   ],
+   "note": "",
+   "human_decision": ""
+  },
+  {
+   "no": 60015,
+   "verdict": "pass",
+   "read_messages": 41,
+   "read_range": [
+    84513,
+    84553
+   ],
+   "length": 88,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    84513,
+    84543,
+    84549,
+    84553
+   ],
+   "note": "「삭월」은 설치 한국어(84543-84544) 표기를 따른 것. 선택 칸이며 요약은 선택 직전에서 멈춤 — 갈래 언급 없음.",
+   "human_decision": ""
+  },
+  {
+   "no": 60016,
+   "verdict": "pass",
+   "read_messages": 445,
+   "read_range": [
+    85455,
+    85899
+   ],
+   "length": 95,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    85543,
+    85746,
+    85824,
+    85861,
+    85898
+   ],
+   "note": "",
+   "human_decision": ""
+  },
+  {
+   "no": 60017,
+   "verdict": "pass",
+   "read_messages": 413,
+   "read_range": [
+    85900,
+    86312
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    85903,
+    85918,
+    86030,
+    86185,
+    86258,
+    86308
+   ],
+   "note": "선택 칸 — 요약은 선택 직전에서 멈춤.",
+   "human_decision": ""
+  },
+  {
+   "no": 60018,
+   "verdict": "pass",
+   "read_messages": 373,
+   "read_range": [
+    87001,
+    87373
+   ],
+   "length": 100,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    87057,
+    87147,
+    87228,
+    87252,
+    87335,
+    87368
+   ],
+   "note": "기억 소거는 이 장면 끝(87368-87373)에서 일어나는 일 — 나중 사건 암시 아님.",
+   "human_decision": ""
+  },
+  {
+   "no": 60020,
+   "verdict": "pass",
+   "read_messages": 154,
+   "read_range": [
+    87374,
+    87527
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    87374,
+    87480,
+    87503,
+    87515,
+    87520
+   ],
+   "note": "「몇 달 뒤」는 장면 첫 줄(87374). 11월B 탭의 원본(999) 요약과 비슷하지만 같은 문장은 없음.",
+   "human_decision": ""
+  },
+  {
+   "no": 60025,
+   "verdict": "pass",
+   "read_messages": 173,
+   "read_range": [
+    86828,
+    87000
+   ],
+   "length": 92,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    86840,
+    86846,
+    86891,
+    86918,
+    86977
+   ],
+   "note": "「미즈키를 본 것 같아」는 86842-86846(아무도 없다·미즈키 이름을 되뇜)에서 나온 합리적 서술.",
+   "human_decision": ""
+  },
+  {
+   "no": 60201,
+   "verdict": "pass",
+   "read_messages": 147,
+   "read_range": [
+    84554,
+    84700
+   ],
+   "length": 96,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    84588,
+    84607,
+    84653,
+    84694,
+    84699
+   ],
+   "note": "갈래 1 — 다른 갈래 섞임 없음.",
+   "human_decision": ""
+  },
+  {
+   "no": 60202,
+   "verdict": "pass",
+   "read_messages": 142,
+   "read_range": [
+    84701,
+    84842
+   ],
+   "length": 97,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    84729,
+    84764,
+    84799,
+    84839
+   ],
+   "note": "갈래 2 — 다른 갈래 섞임 없음.",
+   "human_decision": ""
+  },
+  {
+   "no": 60203,
+   "verdict": "pass",
+   "read_messages": 152,
+   "read_range": [
+    84843,
+    84994
+   ],
+   "length": 94,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    84884,
+    84896,
+    84945,
+    84992
+   ],
+   "note": "갈래 3 — 다른 갈래 섞임 없음.",
+   "human_decision": ""
+  },
+  {
+   "no": 60204,
+   "verdict": "pass",
+   "read_messages": 175,
+   "read_range": [
+    84995,
+    85169
+   ],
+   "length": 95,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    85003,
+    85015,
+    85148,
+    85162
+   ],
+   "note": "갈래 4. 「불길한 빛」은 85162 嫌な輝き 의 풀이로 허용 범위(바로 앞 서술이 묘비를 연상).",
+   "human_decision": ""
+  },
+  {
+   "no": 60205,
+   "verdict": "pass",
+   "read_messages": 285,
+   "read_range": [
+    85170,
+    85454
+   ],
+   "length": 96,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    85261,
+    85335,
+    85358,
+    85376,
+    85407,
+    85441
+   ],
+   "note": "10월 탭 원본 요약과 비슷하지만 같은 문장은 없음.",
+   "human_decision": ""
+  },
+  {
+   "no": 65001,
+   "verdict": "pass",
+   "read_messages": 124,
+   "read_range": [
+    86313,
+    86436
+   ],
+   "length": 92,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    86314,
+    86363,
+    86423,
+    86426
+   ],
+   "note": "갈래 1.",
+   "human_decision": ""
+  },
+  {
+   "no": 65002,
+   "verdict": "pass",
+   "read_messages": 122,
+   "read_range": [
+    86437,
+    86558
+   ],
+   "length": 89,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    86438,
+    86473,
+    86518,
+    86541
+   ],
+   "note": "갈래 2.",
+   "human_decision": ""
+  },
+  {
+   "no": 65003,
+   "verdict": "pass",
+   "read_messages": 124,
+   "read_range": [
+    86559,
+    86682
+   ],
+   "length": 95,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    86566,
+    86583,
+    86612,
+    86635,
+    86665,
+    86676
+   ],
+   "note": "갈래 3.",
+   "human_decision": ""
+  },
+  {
+   "no": 65004,
+   "verdict": "pass",
+   "read_messages": 145,
+   "read_range": [
+    86683,
+    86827
+   ],
+   "length": 100,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    86684,
+    86784,
+    86795,
+    86803,
+    86811,
+    86825
+   ],
+   "note": "갈래 4.",
+   "human_decision": "사람 결정 — 원문 86825 「客がひいてる」는 「손님이 질려 한다」와 「손님이 빠져나간다」 두 뜻으로 읽힌다. 요약은 설치 한국어(빠져나갔고)를 따랐고 오류로 보지 않았다."
+  }
+ ],
+ "author_semantic_qa_compared_after_review": {
+  "file": "evidence/semantic_qa.json",
+  "result": "집필자 수정 6건(60002·60005·60013·60203·60205·65004)은 모두 원문과 맞는 쪽으로 반영돼 있음을 독립 판독으로 재확인."
+ }
+}

@@ -1,0 +1,81 @@
+{
+  "status": "SMART_AUTO_STAGED_UNVERIFIED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "f2d6a363256ad175665a64d7eb59ff6211ec9175fe46952af91149efd50d0062",
+    "status": "NOTICE_DURATION_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "0cefd6c20f120903773f71469aa6669fb1b3a5b5b5b6e3f0da9423b5778a7295",
+    "NightRemasterPact.afa": "e1047384975b7ceb3295fc370209bb23e58ac27aaeb99bcda7019fd8b98a6169"
+  },
+  "files": {
+    "NightRemaster.ain": "f331f7303175e9d7c9fbbcd3e032973717654e223d2ab2f9969638900b08022c",
+    "NightRemasterPact.afa": "9159e5a340e6d436f7932d094ce966a66b48c36dc9ed3885109b690bceee3404"
+  },
+  "unchanged_CG": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e",
+  "patched_existing": [
+    29242,
+    29817,
+    29818
+  ],
+  "added_functions": {
+    "KR_GetSmartAuto": 31969,
+    "KR_SetSmartAuto": 31970,
+    "KR_SmartLoad": 31971,
+    "KR_SmartArea": 31972,
+    "KR_SmartAlive": 31973,
+    "KR_SmartM": 31974,
+    "KR_SmartType": 31975,
+    "KR_SmartCount": 31976,
+    "KR_SmartSkills": 31977,
+    "KR_SmartStageDamage": 31978,
+    "KR_SmartDamage": 31979,
+    "KR_SmartContains": 31980,
+    "KR_SmartEvaluate": 31981,
+    "KR_SmartRun": 31982
+  },
+  "serialized_metadata_exact": true,
+  "old_CODE_STR0_MSG1_exact": true,
+  "PACT": {
+    "changed_entries": [
+      185
+    ],
+    "archive": {
+      "source_sha256": "e1047384975b7ceb3295fc370209bb23e58ac27aaeb99bcda7019fd8b98a6169",
+      "candidate_sha256": "9159e5a340e6d436f7932d094ce966a66b48c36dc9ed3885109b690bceee3404",
+      "original_entries_preserved": 187,
+      "replaced_ids": [
+        185
+      ],
+      "appended": [],
+      "wrapper": "AFA3",
+      "metadata_identity": "PASS (names/order/unknown fields)",
+      "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+      "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\smart_auto_20260922\\NightRemasterPact.afa"
+    },
+    "new_toggle": "KR_SmartAutoToggle",
+    "default": false
+  },
+  "translator_model": "Codex internal",
+  "native_verified": false,
+  "option": {
+    "slot": 79,
+    "on_value": 20260922,
+    "default": false,
+    "original_story_flag82_preserved": true
+  },
+  "algorithm": {
+    "learned_offensive_only": true,
+    "max_candidates": 50,
+    "max_enemies": 9,
+    "decision_only": true,
+    "HP_cost_floor_percent": 20,
+    "HP_floor_scope": "decision time, not guaranteed after incoming damage",
+    "RNG_reads": 0,
+    "preview_live_writes": 0
+  }
+}

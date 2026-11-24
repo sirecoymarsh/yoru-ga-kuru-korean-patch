@@ -1,0 +1,44 @@
+{
+  "status": "SWEEP_UI_STATIC_PASS_NATIVE_PENDING",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "1188774459240b437af9ff7272b0ab6cbc39f94609c6a72d112adc128689b301",
+    "status": "SWEEP_INFINITE_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "5429a0f4c2e50342e852e0c2e0279d8a5c6471571110b899ba7984e49eddb822"
+  },
+  "files": {
+    "NightRemaster.ain": "edf32d46d6ee1baa1c2101c6fca39a74aaa53f5e91033c9f03c3f3ee2a5e50b5"
+  },
+  "unchanged_files": {
+    "NightRemasterPact.afa": "720f77db74d97e8cbc1f3f451d8d7d52987c7eca4847593e5b0a565ecbeed8a8",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4",
+    "NightRemaster.exe": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e",
+    "NightRemasterFont.fnl": "74c93d742dec769a91a1831a2a910dcf2b23e1c763afa7edc80cf5f4cc7bdddf"
+  },
+  "AIN": {
+    "patched_existing": [
+      27936,
+      31892
+    ],
+    "new_functions": 0,
+    "old_CODE_STR0_MSG1_exact": true,
+    "metadata_only_two_addresses": true,
+    "save_schema_unchanged": true
+  },
+  "translator_model": "Codex internal",
+  "native_gameplay_verified": false,
+  "scope": "Confirmation only; all reward, trap, multiplier, scope and day-transition functions unchanged.",
+  "title": "자동 소탕 · 남은 탐색 시간 %d\n　현재 층 기준: 전투 %d회 / 보물상자 %d개\n　보상 배율 적용 · 전투/함정 피해 없음\n　남은 시간을 모두 쓰고 다음 날로 진행할까요?",
+  "style_tag": 2026091602,
+  "font_size": 24,
+  "outline_pixels": 1,
+  "line_spacing": 8,
+  "title_padding": 48,
+  "color_sites": 9,
+  "non_sweep_render_logic_unchanged": true
+}

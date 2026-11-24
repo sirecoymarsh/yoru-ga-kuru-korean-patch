@@ -1,0 +1,430 @@
+{
+ "gates": [
+  {
+   "no": 10001,
+   "person": 2,
+   "op": ">=",
+   "value": 5,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 616,
+   "name": "4월 · 이즈미 · 우선 대화 1번째",
+   "name_px": 230
+  },
+  {
+   "no": 10021,
+   "person": 2,
+   "op": ">=",
+   "value": 15,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 630,
+   "name": "5월 · 이즈미 · 우선 대화 1번째",
+   "name_px": 230
+  },
+  {
+   "no": 10041,
+   "person": 2,
+   "op": ">=",
+   "value": 30,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 1117,
+   "name": "9월 · 이즈미 · 우선 대화 1번째",
+   "name_px": 230
+  },
+  {
+   "no": 10061,
+   "person": 2,
+   "op": ">=",
+   "value": 20,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 824,
+   "name": "8월 · 이즈미 · 우선 대화 1번째",
+   "name_px": 230
+  },
+  {
+   "no": 10081,
+   "person": 2,
+   "op": ">=",
+   "value": 22,
+   "among": null,
+   "no_route": false,
+   "kind": "conditional",
+   "last": 830,
+   "name": "8/30 밤 · 인물 · 이즈미",
+   "name_px": 184
+  },
+  {
+   "no": 10501,
+   "person": 2,
+   "op": "highest",
+   "value": 0,
+   "among": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "no_route": true,
+   "kind": "scheduled_special",
+   "last": 1101,
+   "name": "11/1 밤 · 인물 · 이즈미",
+   "name_px": 184
+  },
+  {
+   "no": 30157,
+   "person": 2,
+   "op": "<",
+   "value": 50,
+   "among": null,
+   "no_route": false,
+   "kind": "scheduled_special",
+   "last": 1011,
+   "name": "10/11 아침 · 인물 · 마나미 · 이즈미와 1",
+   "name_px": 301
+  },
+  {
+   "no": 30158,
+   "person": 2,
+   "op": ">=",
+   "value": 50,
+   "among": null,
+   "no_route": false,
+   "kind": "scheduled_special",
+   "last": 1011,
+   "name": "10/11 아침 · 인물 · 마나미 · 이즈미와 2",
+   "name_px": 301
+  },
+  {
+   "no": 20021,
+   "person": 3,
+   "op": ">=",
+   "value": 15,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 630,
+   "name": "5월 · 쿄카 · 우선 대화 1번째",
+   "name_px": 216
+  },
+  {
+   "no": 20041,
+   "person": 3,
+   "op": ">=",
+   "value": 25,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 630,
+   "name": "5월 · 쿄카 · 우선 대화 2번째",
+   "name_px": 216
+  },
+  {
+   "no": 20061,
+   "person": 3,
+   "op": ">=",
+   "value": 30,
+   "among": null,
+   "no_route": false,
+   "kind": "conditional",
+   "last": 727,
+   "name": "7/27 밤 · 인물 · 쿄카 · 1단계 · 쿄카와",
+   "name_px": 297
+  },
+  {
+   "no": 20162,
+   "person": 3,
+   "op": ">=",
+   "value": 35,
+   "among": null,
+   "no_route": false,
+   "kind": "conditional",
+   "last": 803,
+   "name": "8/3 밤 · 인물 · 쿄카",
+   "name_px": 161
+  },
+  {
+   "no": 20501,
+   "person": 3,
+   "op": "highest",
+   "value": 0,
+   "among": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "no_route": true,
+   "kind": "scheduled_special",
+   "last": 1101,
+   "name": "11/1 밤 · 인물 · 쿄카",
+   "name_px": 170
+  },
+  {
+   "no": 30159,
+   "person": 3,
+   "op": "<",
+   "value": 50,
+   "among": null,
+   "no_route": false,
+   "kind": "scheduled_special",
+   "last": 1011,
+   "name": "10/11 아침 · 인물 · 마나미 · 쿄카와 1",
+   "name_px": 287
+  },
+  {
+   "no": 30160,
+   "person": 3,
+   "op": ">=",
+   "value": 50,
+   "among": null,
+   "no_route": false,
+   "kind": "scheduled_special",
+   "last": 1011,
+   "name": "10/11 아침 · 인물 · 마나미 · 쿄카와 2",
+   "name_px": 287
+  },
+  {
+   "no": 401,
+   "person": 4,
+   "op": ">=",
+   "value": 60,
+   "among": null,
+   "no_route": false,
+   "kind": "conditional",
+   "last": 1015,
+   "name": "10/15 아침 · 본편",
+   "name_px": 141
+  },
+  {
+   "no": 30001,
+   "person": 4,
+   "op": ">=",
+   "value": 5,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 609,
+   "name": "5월 · 마나미 · 우선 대화 1번째",
+   "name_px": 230
+  },
+  {
+   "no": 30021,
+   "person": 4,
+   "op": ">=",
+   "value": 15,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 930,
+   "name": "6월 · 마나미 · 우선 대화 1번째",
+   "name_px": 230
+  },
+  {
+   "no": 30161,
+   "person": 4,
+   "op": "<",
+   "value": 50,
+   "among": null,
+   "no_route": false,
+   "kind": "scheduled_special",
+   "last": 1011,
+   "name": "10/11 아침 · 인물 · 마나미 · 마나미와 1",
+   "name_px": 301
+  },
+  {
+   "no": 30162,
+   "person": 4,
+   "op": ">=",
+   "value": 50,
+   "among": null,
+   "no_route": false,
+   "kind": "scheduled_special",
+   "last": 1011,
+   "name": "10/11 아침 · 인물 · 마나미 · 마나미와 2",
+   "name_px": 301
+  },
+  {
+   "no": 30501,
+   "person": 4,
+   "op": "highest",
+   "value": 0,
+   "among": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "no_route": true,
+   "kind": "scheduled_special",
+   "last": 1101,
+   "name": "11/1 밤 · 인물 · 마나미",
+   "name_px": 184
+  },
+  {
+   "no": 30163,
+   "person": 5,
+   "op": "<",
+   "value": 50,
+   "among": null,
+   "no_route": false,
+   "kind": "scheduled_special",
+   "last": 1011,
+   "name": "10/11 아침 · 인물 · 마나미 · 마코토와 1",
+   "name_px": 301
+  },
+  {
+   "no": 30164,
+   "person": 5,
+   "op": ">=",
+   "value": 50,
+   "among": null,
+   "no_route": false,
+   "kind": "scheduled_special",
+   "last": 1011,
+   "name": "10/11 아침 · 인물 · 마나미 · 마코토와 2",
+   "name_px": 301
+  },
+  {
+   "no": 40001,
+   "person": 5,
+   "op": ">=",
+   "value": 10,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 901,
+   "name": "7월 · 마코토 · 우선 대화 1번째",
+   "name_px": 230
+  },
+  {
+   "no": 40021,
+   "person": 5,
+   "op": ">=",
+   "value": 15,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 908,
+   "name": "7월 · 마코토 · 우선 대화 2번째",
+   "name_px": 230
+  },
+  {
+   "no": 40041,
+   "person": 5,
+   "op": ">=",
+   "value": 20,
+   "among": null,
+   "no_route": false,
+   "kind": "after_training_priority",
+   "last": 915,
+   "name": "8월 · 마코토 · 우선 대화 1번째",
+   "name_px": 230
+  },
+  {
+   "no": 40061,
+   "person": 5,
+   "op": ">=",
+   "value": 30,
+   "among": null,
+   "no_route": false,
+   "kind": "conditional",
+   "last": 915,
+   "name": "8/11 밤 · 인물 · 마코토 · 1단계",
+   "name_px": 245
+  },
+  {
+   "no": 40501,
+   "person": 5,
+   "op": "highest",
+   "value": 0,
+   "among": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "no_route": true,
+   "kind": "scheduled_special",
+   "last": 1101,
+   "name": "11/1 밤 · 인물 · 마코토",
+   "name_px": 184
+  }
+ ],
+ "game_code": {
+  "per_moon": 60,
+  "moons": 2,
+  "maximum": 120,
+  "moon_phase_from_val": [
+   59,
+   48,
+   36,
+   24,
+   12,
+   0
+  ],
+  "rank_upper_bounds": [
+   15,
+   30,
+   45,
+   60
+  ],
+  "rank_display": "GetFeelingRank_5 + 1 of 5",
+  "rank_table": [
+   {
+    "rank": 1,
+    "feeling": "<= 15"
+   },
+   {
+    "rank": 2,
+    "feeling": "16-30"
+   },
+   {
+    "rank": 3,
+    "feeling": "31-45"
+   },
+   {
+    "rank": 4,
+    "feeling": "46-60"
+   },
+   {
+    "rank": 5,
+    "feeling": ">= 61"
+   }
+  ],
+  "rates": {
+   "2": 420,
+   "3": 420,
+   "4": 370,
+   "5": 290,
+   "6": 540,
+   "7": 500,
+   "8": 420
+  },
+  "rate_default": 420,
+  "value": "C_Ability@GetFeeling = m_nFeeling / GetFeelingRate (integer division)",
+  "enabled": "C_FeelingView@Enabled: false when Flags.GameMode == Classic (1) or the person is outside 2..5",
+  "moons_at": {
+   "box": [
+    374.0,
+    66.0
+   ],
+   "label": [
+    374.0,
+    96.0
+   ],
+   "z": [
+    200,
+    250
+   ],
+   "parent": "the status activity root (ルートパーツ)"
+  },
+  "shown_on_pages": "C_HomeStatusView@IsShowFeelingPage: NowPage 0 (the hover preview) or 1"
+ }
+}

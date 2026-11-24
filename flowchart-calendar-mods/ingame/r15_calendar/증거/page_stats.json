@@ -1,0 +1,98 @@
+{
+ "달 쪽": {
+  "dialogs": 72,
+  "title_lines": 8,
+  "title_chars": 36,
+  "items": 13,
+  "rows": 7,
+  "height": 638,
+  "item_units": 13.5,
+  "cols": [
+   2
+  ]
+ },
+ "회상 · 그 밖": {
+  "dialogs": 3,
+  "title_lines": 2,
+  "title_chars": 27,
+  "items": 10,
+  "rows": 10,
+  "height": 612,
+  "item_units": 15.0,
+  "cols": [
+   1
+  ]
+ },
+ "레인 쪽": {
+  "dialogs": 219,
+  "title_lines": 2,
+  "title_chars": 36,
+  "items": 11,
+  "rows": 11,
+  "height": 660,
+  "item_units": 24.0,
+  "cols": [
+   1
+  ]
+ },
+ "이달의 서랍": {
+  "dialogs": 39,
+  "title_lines": 2,
+  "title_chars": 30,
+  "items": 11,
+  "rows": 11,
+  "height": 660,
+  "item_units": 19.0,
+  "cols": [
+   1
+  ]
+ },
+ "카드 쪽": {
+  "dialogs": 1395,
+  "title_lines": 7,
+  "title_chars": 36,
+  "items": 3,
+  "rows": 3,
+  "height": 446,
+  "item_units": 10.0,
+  "cols": [
+   1
+  ]
+ },
+ "단계 목록": {
+  "dialogs": 111,
+  "title_lines": 2,
+  "title_chars": 36,
+  "items": 33,
+  "rows": 11,
+  "height": 660,
+  "item_units": 6.5,
+  "cols": [
+   3
+  ]
+ },
+ "서랍 장면 목록": {
+  "dialogs": 291,
+  "title_lines": 2,
+  "title_chars": 36,
+  "items": 33,
+  "rows": 11,
+  "height": 660,
+  "item_units": 5.0,
+  "cols": [
+   3
+  ]
+ },
+ "장면 쪽": {
+  "dialogs": 3492,
+  "title_lines": 7,
+  "title_chars": 36,
+  "items": 2,
+  "rows": 2,
+  "height": 398,
+  "item_units": 6.0,
+  "cols": [
+   1
+  ]
+ }
+}

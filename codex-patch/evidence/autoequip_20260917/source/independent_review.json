@@ -1,0 +1,35 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "time": "2026-09-17T01:04:00.641942+09:00",
+  "files": {
+    "NightRemaster.ain": "16025aab9b654a3a1470fa58cd0459165b26d64cdabd7f76c2d9a69c26a12f07",
+    "NightRemasterPact.afa": "4ed2e66c779aa884ec5786a52319be8d01e1d7638a89a0683d1b06f9fe85ff58"
+  },
+  "reviewer": "/root/exact_ui_review",
+  "review_mode": "read-only independent",
+  "resolved_findings": [
+    {
+      "priority": "P1",
+      "finding": "ConfirmCustomize ref-int ABI counted as three stack arguments",
+      "resolution": "Final compiled CALLMETHOD 4, consistent with native original."
+    },
+    {
+      "priority": "P1",
+      "finding": "Native AddStone clamp99 could lose overcap reserved stock",
+      "resolution": "Fail closed for inventory or inventory+reservation >99, before mutation."
+    },
+    {
+      "priority": "P2",
+      "finding": "None99 inconsistent native set flag",
+      "resolution": "set=true/color=-1/rank=-1 exactly as native confirm."
+    }
+  ],
+  "final_review": "Three previous findings fixed; no additional blocker in bounded rereview. Actual changed PACT entries153/154/185 only; shipped FNL measured button centers error0px. Verification reports match candidate bytes.",
+  "native_gameplay_verified": false,
+  "remaining": [
+    "native button visibility/modal behavior",
+    "actual equipment apply/cancel",
+    "native stone confirm/cancel and cost",
+    "native responsiveness and save/reload"
+  ]
+}

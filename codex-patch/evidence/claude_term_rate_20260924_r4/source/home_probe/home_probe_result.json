@@ -1,0 +1,27 @@
+{
+  "pid": 25760,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "143c9067ff2be9aec9c7780d39a6f1c6e5557d9e42925458688bbf1cd1fc3f48",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "resume loading",
+    "toggle=1",
+    "SHOT home_probe_0.bmp",
+    "text=대사　　30.5%",
+    "ＣＧ　　23.3%",
+    "회상　　34.8%",
+    "엔딩　　0 / 5",
+    "이벤트　14.6%",
+    "SHOT home_probe_1.bmp",
+    "areas=1",
+    "SHOT home_probe_2.bmp",
+    "SHOT home_probe_3.bmp",
+    "mods=Asra\\Mods.pact",
+    "toggle part present",
+    "SHOT home_probe_4.bmp"
+  ],
+  "toggle_file_after": "YoruKR.HomeRate.1\r\n1\r\n",
+  "wait_sites": 27,
+  "save": "NightR38.asd"
+}

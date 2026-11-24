@@ -1,0 +1,222 @@
+[
+ {
+  "path": "Asra/AutoItems.pactex",
+  "state": "new",
+  "size": 7790
+ },
+ {
+  "path": "Asra/LootNotice.pactex",
+  "state": "new",
+  "size": 2067
+ },
+ {
+  "path": "Asra/Mods.pactex",
+  "state": "new",
+  "size": 11261
+ },
+ {
+  "path": "Asra/SaveOriginalCell.pactex",
+  "state": "new",
+  "size": 9058
+ },
+ {
+  "path": "Asra/SaveOriginalScene.pactex",
+  "state": "new",
+  "size": 7679
+ },
+ {
+  "path": "Asra/TemporaryMessageWindow.pactex",
+  "state": "changed",
+  "size": 1772
+ },
+ {
+  "path": "Asra/コンフィグ／０１／メッセージ速度ページ.pactex",
+  "state": "changed",
+  "size": 6386
+ },
+ {
+  "path": "Asra/コンフィグ／０２／メッセージページ.pactex",
+  "state": "changed",
+  "size": 5940
+ },
+ {
+  "path": "Asra/コンフィグ／０３／メッセージウィンドウページ.pactex",
+  "state": "changed",
+  "size": 6161
+ },
+ {
+  "path": "Asra/コンフィグ／０４／サウンドページ.pactex",
+  "state": "changed",
+  "size": 9295
+ },
+ {
+  "path": "Asra/コンフィグ／０５／入力ページ.pactex",
+  "state": "changed",
+  "size": 7102
+ },
+ {
+  "path": "Asra/コンフィグ／０６／ウィンドウページ.pactex",
+  "state": "changed",
+  "size": 7094
+ },
+ {
+  "path": "Asra/コンフィグ／０７／ネットワークページ.pactex",
+  "state": "changed",
+  "size": 6677
+ },
+ {
+  "path": "Asra/コンフィグ／０８／３Ｄページ - コピー.pactex",
+  "state": "changed",
+  "size": 16563
+ },
+ {
+  "path": "Asra/コンフィグ／０８／３Ｄページ.pactex",
+  "state": "changed",
+  "size": 7481
+ },
+ {
+  "path": "Asra/コンフィグ／０９／デバッグページ.pactex",
+  "state": "changed",
+  "size": 5369
+ },
+ {
+  "path": "Asra/バックシーン.pactex",
+  "state": "changed",
+  "size": 3045
+ },
+ {
+  "path": "Asra/ファイル選択.pactex",
+  "state": "changed",
+  "size": 3523
+ },
+ {
+  "path": "Game/Common/Dialog.pactex",
+  "state": "changed",
+  "size": 6828
+ },
+ {
+  "path": "Game/Common/DialogCharaNaming.pactex",
+  "state": "changed",
+  "size": 2451
+ },
+ {
+  "path": "Game/Common/DialogCharaNaming2.pactex",
+  "state": "changed",
+  "size": 6288
+ },
+ {
+  "path": "Game/Common/SysGameButtons.pactex",
+  "state": "changed",
+  "size": 2267
+ },
+ {
+  "path": "Game/MessWin/MessWin00.pactex",
+  "state": "changed",
+  "size": 1837
+ },
+ {
+  "path": "Game/MessWin/MessWin01.pactex",
+  "state": "changed",
+  "size": 1838
+ },
+ {
+  "path": "Game/MessWin/MessWin02.pactex",
+  "state": "changed",
+  "size": 1653
+ },
+ {
+  "path": "Game/Scenes/4000Homebase/CharaStatus.pactex",
+  "state": "changed",
+  "size": 11667
+ },
+ {
+  "path": "Game/Scenes/4000Homebase/CombineWeapon.pactex",
+  "state": "changed",
+  "size": 10847
+ },
+ {
+  "path": "Game/Scenes/4000Homebase/MemoryWeapon.pactex",
+  "state": "changed",
+  "size": 6126
+ },
+ {
+  "path": "Game/Scenes/4000Homebase/SubBtnMember.pactex",
+  "state": "changed",
+  "size": 2304
+ },
+ {
+  "path": "Game/Scenes/5000Dungeon/SceneDungeon.pactex",
+  "state": "changed",
+  "size": 6560
+ },
+ {
+  "path": "Game/Scenes/5000Dungeon/SubBtnDungeon.pactex",
+  "state": "changed",
+  "size": 5252
+ },
+ {
+  "path": "Game/Scenes/6000Battle/BattleBase.pactex",
+  "state": "changed",
+  "size": 5450
+ },
+ {
+  "path": "Game/Scenes/6000Battle/BattleResult.pactex",
+  "state": "changed",
+  "size": 3253
+ },
+ {
+  "path": "Game/Scenes/6000Battle/SubBtnBattle.pactex",
+  "state": "changed",
+  "size": 5393
+ },
+ {
+  "path": "Game/Scenes/7000Tutorial/WeaponAlpha.pactex",
+  "state": "changed",
+  "size": 3672
+ },
+ {
+  "path": "Game/Scenes/8000SaveLoad/SaveLoadCell.pactex",
+  "state": "changed",
+  "size": 4731
+ },
+ {
+  "path": "Game/Scenes/8000SaveLoad/SceneSaveLoad.pactex",
+  "state": "changed",
+  "size": 3852
+ },
+ {
+  "path": "Game/Scenes/8000SaveLoad/StartDataCell.pactex",
+  "state": "changed",
+  "size": 3303
+ },
+ {
+  "path": "Game/Scenes/9000ModeCG/ModeCGBase.pactex",
+  "state": "changed",
+  "size": 2339
+ },
+ {
+  "path": "Game/Scenes/9000ModeScene/ModeSceneTop.pactex",
+  "state": "changed",
+  "size": 2831
+ },
+ {
+  "path": "Game/Scenes/9000ModeSound/ModeSoundBase.pactex",
+  "state": "changed",
+  "size": 5352
+ },
+ {
+  "path": "Game/Scenes/Common/AddArea.pactex",
+  "state": "changed",
+  "size": 5692
+ },
+ {
+  "path": "Game/Scenes/Common/Makeshift.pactex",
+  "state": "changed",
+  "size": 1786
+ },
+ {
+  "path": "Game/Scenes/Common/SimpleDiscript.pactex",
+  "state": "changed",
+  "size": 1732
+ }
+]

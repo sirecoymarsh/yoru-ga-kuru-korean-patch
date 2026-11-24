@@ -1,0 +1,27 @@
+{
+  "status": "COMPILED_GETTER_VM_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "fd2920d8252b6e973b321b35aa654e6e14c9787721e172f6e1412b7c34dc3365"
+  },
+  "EX_name_rows": 512,
+  "compiled_name_getter_cases": 1024,
+  "compiled_skill_description_cases": 536,
+  "total_compiled_table_cases": 1560,
+  "negative_missing_id_and_missing_field_fallback_cases": 78,
+  "no_persisted_structure_fields_changed": true,
+  "saved_old_enemy_name_count": 1,
+  "saved_new_enemy_name_count": 0,
+  "screenshot_regression": {
+    "id": 4,
+    "saved": "아카나메",
+    "getter_result": "때핥이"
+  },
+  "weapon_comment_rows": 143,
+  "weapon_comment_id_range_within_original1000_slots": true,
+  "after_load_new_call_only_reloads_weapon_description_strings": true,
+  "direct_member_bypass_reads": 0,
+  "native_verified": false,
+  "save_file_reloaded_in_native_engine": false,
+  "limitation": "Compiled getters executed in bounded VM with current parsed EX tables. Actual native save reload/visual result remains pending; user save was only copied/read.",
+  "translator_model": "Codex internal"
+}

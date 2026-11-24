@@ -1,0 +1,93 @@
+{
+ "pid": 39308,
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "ain_sha256": "0d8c0f769d84904d3082adbcdfc26d6a483d66f56ccf1cec15eb8b01cc667abf",
+ "events": [],
+ "parked_windows": [
+  1248478,
+  658662,
+  724202
+ ],
+ "exit_code": 0,
+ "seconds": 23.8,
+ "log": [
+  "SAVEFOLDER P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_readability_20260929\\probe\\run\\SaveData_R24ChartProbe_20260929_135953",
+  "MODE title",
+  "TITLE root=1000010035 z=1 maxz=11",
+  "SHOT chart_title_before",
+  "SHOT may_list_unchanged",
+  "PASS all 143 April cells in all/none/mixed read fixtures",
+  "SHOT april_list_mixed",
+  "SHOT april_list_locked",
+  "SHOT april_list_readable",
+  "PASS all 146 April events in read/unread fixtures",
+  "SHOT april_detail_readable",
+  "SHOT april_detail_group",
+  "PHASE april_stage",
+  "DIALOG april_stage <<<",
+  "〓공원 · 사건 1 · 장면 고르기",
+  "†전체 4개 중 2개 감상",
+  "ITEMS 100:1. 이즈미와 · E00004 · 감상 완료|101:2. 이즈미와 · E00005 · 감상 완료|102:장면 3 · E00006 · 아직 보지 않음|103:장면 4 · E00007 · 아직 보지 않음|0:돌아가기|",
+  ">>>",
+  "SHOT april_scene_picker",
+  "PHASE april_continue",
+  "SHOT april_detail_unread_open",
+  "SHOT april_detail_unread_locked",
+  "SHOT may_detail_unchanged",
+  "SHOT april_list_return",
+  "SHOT may_list_after_april",
+  "SHOT april_title_after",
+  "END"
+ ],
+ "save_folder": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_april_readability_20260929\\probe\\run\\SaveData_R24ChartProbe_20260929_135953",
+ "settings_unchanged": {
+  "AFConfig.asd": true,
+  "MouseCursorSetting.sav": true,
+  "ShowDPSetting.sav": true,
+  "3DConfig.vsf": true,
+  "YoruKR_Terms.dat": true,
+  "YoruKR_Terms.backup": true
+ },
+ "changed_files": [
+  "Backup/2026_09_29_14_00_14/AFConfig.asd",
+  "Backup/2026_09_29_14_00_14/NightRAFBGMMode.asd",
+  "Backup/2026_09_29_14_00_14/NightRAFCGMode.asd",
+  "Backup/2026_09_29_14_00_14/NightRAFCommon.asd",
+  "Backup/2026_09_29_14_00_14/NightRAFInfo.asd",
+  "Backup/2026_09_29_14_00_14/NightRAFMemMode.asd",
+  "CommonSystemData.sav",
+  "Volume.sav",
+  "WindowSetting.sav"
+ ],
+ "probe": {
+  "waits": 29,
+  "live": [
+   "C_SceneTitle@Run",
+   "C_SelectDialog@Run",
+   "KR_C24WaitRaw",
+   "KR_P29WaitRaw"
+  ],
+  "probe_sha256": "0d8c0f769d84904d3082adbcdfc26d6a483d66f56ccf1cec15eb8b01cc667abf",
+  "mode": "title",
+  "target": 0
+ },
+ "shots": [
+  "april_detail_group.png",
+  "april_detail_readable.png",
+  "april_detail_unread_locked.png",
+  "april_detail_unread_open.png",
+  "april_list_locked.png",
+  "april_list_mixed.png",
+  "april_list_readable.png",
+  "april_list_return.png",
+  "april_scene_picker.png",
+  "april_title_after.png",
+  "chart_title_before.png",
+  "may_detail_unchanged.png",
+  "may_list_after_april.png",
+  "may_list_unchanged.png"
+ ],
+ "candidate_sha256": "442c7eea651c605ce76e51b7efe24584da0059efb96d919fb85b74a0fc0df22d",
+ "user_files_changed": [],
+ "pass": true
+}

@@ -1,0 +1,698 @@
+; L_BattleIncome::Settle
+; ARG  0: nDungeonType : int
+; VAR  1: nNumberOfPersons : int
+; VAR  2: i : int
+; VAR  3: pa : ref C_Ability
+; VAR  4: <dummy : L_Party::AbilityAtの戻り値> : ref C_Ability
+; VAR  5: table : array<S_IncomeCalc>
+; VAR  6: i : int
+; VAR  7: nIncomeCount : int
+; VAR  8: i : int
+; VAR  9: j : int
+; VAR 10: pa : ref C_Ability
+; VAR 11: <dummy : L_Party::AbilityAtの戻り値> : ref C_Ability
+; VAR 12: nDeltaLevel : int
+; VAR 13: nEnemyLevel : int
+; VAR 14: nFriendLevel : int
+; VAR 15: nExperience : int
+; VAR 16: nTraining : int
+; VAR 17: nMoonPiece : int
+; VAR 18: i : int
+; VAR 19: i : int
+; VAR 20: i : int
+; VAR 21: n23 : int
+; VAR 22: i : int
+; VAR 23: pa : ref C_Ability
+; VAR 24: <dummy : L_Party::AbilityAtの戻り値> : ref C_Ability
+; VAR 25: view : ref C_BattleResultView
+; VAR 26: <dummy : 右辺値参照化用> : ref C_BattleResultView
+; VAR 27: i : int
+; VAR 28: pa : ref C_Ability
+; VAR 29: <dummy : L_Party::AbilityAtの戻り値> : ref C_Ability
+; RETURN: bool
+FUNC 26258
+	CALLFUNC N_Battle::IsShowDebugLog
+	IFNZ 0x953682
+	JUMP 0x953698
+0x953682:
+	S_PUSH "□□蚯聿 豌蜿 蚣跛□□\n"
+	CALLHLL system Output 0
+	DELETE
+0x953698:
+	CALLFUNC L_BattleIncome::SettleOnlyMonsAtb
+	.LOCALASSIGN nNumberOfPersons 0
+	.LOCALASSIGN i 0
+0x9536ca:
+	.LOCALREF i
+	PUSH 3
+	LT
+	IFZ 0x953826
+	PUSHLOCALPAGE
+	PUSH 3
+	.LOCALREF i
+	CALLFUNC L_Party::AbilityAt
+	.LOCALREF "<dummy : L_Party::AbilityAtの戻り値>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 4
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	.LOCALREF pa
+	PUSH -1
+	NOTE
+	IFZ 0x95379e
+	.LOCALREF pa
+	PUSH 27301
+	CALLMETHOD 0
+	IFZ 0x95379e
+	PUSH 1
+	JUMP 0x9537a4
+0x95379e:
+	PUSH 0
+0x9537a4:
+	IFNZ 0x9537b0
+	JUMP 0x9537c4
+0x9537b0:
+	.LOCALINC3 nNumberOfPersons
+0x9537c4:
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>"
+	.LOCALDELETE pa
+	.LOCALINC3 i
+	JUMP 0x9536ca
+0x953826:
+	.LOCALREF nNumberOfPersons
+	PUSH 1
+	LT
+	IFNZ 0x953848
+	JUMP 0x953850
+0x953848:
+	PUSH 0
+	RETURN
+0x953850:
+	PUSHLOCALPAGE
+	PUSH 5
+	X_DUP 2
+	X_REF 1
+	DELETE
+	PUSH 3
+	X_A_INIT 1
+	POP
+	.LOCALASSIGN i#1 0
+0x95388a:
+	.LOCALREF i#1
+	PUSH 3
+	LT
+	IFZ 0x953962
+	.LOCALREF table
+	.LOCALREF i#1
+	X_REF 1
+	PUSH 0
+	PUSH 0
+	X_ASSIGN 1
+	POP
+	.LOCALREF table
+	.LOCALREF i#1
+	X_REF 1
+	PUSH 1
+	PUSH 0
+	X_ASSIGN 1
+	POP
+	.LOCALREF table
+	.LOCALREF i#1
+	X_REF 1
+	PUSH 2
+	PUSH 0
+	X_ASSIGN 1
+	POP
+	.LOCALINC3 i#1
+	JUMP 0x95388a
+0x953962:
+	PUSHLOCALPAGE
+	PUSH 7
+	.GLOBALREF L_BattleIncome::m_incomes
+	CALLHLL Array Numof 65538
+	X_ASSIGN 1
+	POP
+	.LOCALASSIGN i#2 0
+0x9539a4:
+	.LOCALREF i#2
+	.LOCALREF nIncomeCount
+	LT
+	IFZ 0x953ecc
+	.LOCALASSIGN j 0
+0x9539de:
+	.LOCALREF j
+	PUSH 3
+	LT
+	IFZ 0x953eb2
+	PUSHLOCALPAGE
+	PUSH 10
+	.LOCALREF j
+	CALLFUNC L_Party::AbilityAt
+	.LOCALREF "<dummy : L_Party::AbilityAtの戻り値>#1"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 11
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#1"
+	.LOCALREF pa#1
+	PUSH -1
+	EQUALE
+	IFNZ 0x953ab4
+	.LOCALREF pa#1
+	PUSH 27301
+	CALLMETHOD 0
+	NOT
+	IFNZ 0x953ab4
+	PUSH 0
+	JUMP 0x953aba
+0x953ab4:
+	PUSH 1
+0x953aba:
+	IFNZ 0x953ac6
+	JUMP 0x953b14
+0x953ac6:
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#1"
+	.LOCALDELETE pa#1
+	JUMP 0x953e98
+0x953b14:
+	.LOCALASSIGN nDeltaLevel 0
+	PUSHLOCALPAGE
+	PUSH 13
+	.GLOBALREF L_BattleIncome::m_incomes
+	.LOCALREF i#2
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 14
+	.LOCALREF pa#1
+	PUSH 27335
+	CALLMETHOD 0
+	X_ASSIGN 1
+	POP
+	.LOCALREF nEnemyLevel
+	.LOCALREF nFriendLevel
+	LT
+	IFNZ 0x953bbc
+	JUMP 0x953bea
+0x953bbc:
+	PUSHLOCALPAGE
+	PUSH 12
+	.LOCALREF nEnemyLevel
+	.LOCALREF nFriendLevel
+	SUB
+	X_ASSIGN 1
+	POP
+0x953bea:
+	PUSHLOCALPAGE
+	PUSH 15
+	.GLOBALREF L_BattleIncome::m_incomes
+	.LOCALREF i#2
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	CALLFUNC L_CasualMode::CalcExp
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 16
+	.GLOBALREF L_BattleIncome::m_incomes
+	.LOCALREF i#2
+	X_REF 1
+	PUSH 2
+	X_REF 1
+	CALLFUNC L_CasualMode::CalcTrainging
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 17
+	.GLOBALREF L_BattleIncome::m_incomes
+	.LOCALREF i#2
+	X_REF 1
+	PUSH 3
+	X_REF 1
+	CALLFUNC L_CasualMode::CalcMoney
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 15
+	.LOCALREF nDeltaLevel
+	PUSH 2
+	MUL
+	PLUSA
+	POP
+	PUSHLOCALPAGE
+	PUSH 16
+	.LOCALREF nDeltaLevel
+	PUSH 2
+	MUL
+	PLUSA
+	POP
+	.LOCALREF nExperience
+	PUSH 0
+	LT
+	IFNZ 0x953d1c
+	JUMP 0x953d32
+0x953d1c:
+	.LOCALASSIGN nExperience 0
+0x953d32:
+	.LOCALREF nTraining
+	PUSH 0
+	LT
+	IFNZ 0x953d54
+	JUMP 0x953d6a
+0x953d54:
+	.LOCALASSIGN nTraining 0
+0x953d6a:
+	.LOCALREF nMoonPiece
+	PUSH 0
+	LT
+	IFNZ 0x953d8c
+	JUMP 0x953da2
+0x953d8c:
+	.LOCALASSIGN nMoonPiece 0
+0x953da2:
+	.LOCALREF table
+	.LOCALREF j
+	X_REF 1
+	PUSH 0
+	.LOCALREF nExperience
+	PLUSA
+	POP
+	.LOCALREF table
+	.LOCALREF j
+	X_REF 1
+	PUSH 1
+	.LOCALREF nTraining
+	PLUSA
+	POP
+	.LOCALREF table
+	.LOCALREF j
+	X_REF 1
+	PUSH 2
+	.LOCALREF nMoonPiece
+	PLUSA
+	POP
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#1"
+	.LOCALDELETE pa#1
+0x953e98:
+	.LOCALINC3 j
+	JUMP 0x9539de
+0x953eb2:
+	.LOCALINC3 i#2
+	JUMP 0x9539a4
+0x953ecc:
+	.LOCALREF nNumberOfPersons
+	SWITCH 361
+	JUMP 0x954240
+.CASE 361:0 1
+	JUMP 0x954240
+.CASE 361:1 2
+	.LOCALASSIGN i#3 0
+0x953f02:
+	.LOCALREF i#3
+	PUSH 3
+	LT
+	IFZ 0x954090
+	.LOCALREF table
+	.LOCALREF i#3
+	X_REF 1
+	PUSH 0
+	.LOCALREF table
+	.LOCALREF i#3
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 75
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALREF table
+	.LOCALREF i#3
+	X_REF 1
+	PUSH 1
+	.LOCALREF table
+	.LOCALREF i#3
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	PUSH 75
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALREF table
+	.LOCALREF i#3
+	X_REF 1
+	PUSH 2
+	.LOCALREF table
+	.LOCALREF i#3
+	X_REF 1
+	PUSH 2
+	X_REF 1
+	PUSH 75
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALINC2 i#3
+	JUMP 0x953f02
+0x954090:
+	JUMP 0x954240
+.CASE 361:2 3
+	.LOCALASSIGN i#4 0
+0x9540ac:
+	.LOCALREF i#4
+	PUSH 3
+	LT
+	IFZ 0x95423a
+	.LOCALREF table
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	.LOCALREF table
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 50
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALREF table
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 1
+	.LOCALREF table
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	PUSH 50
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALREF table
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 2
+	.LOCALREF table
+	.LOCALREF i#4
+	X_REF 1
+	PUSH 2
+	X_REF 1
+	PUSH 50
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALINC2 i#4
+	JUMP 0x9540ac
+0x95423a:
+	JUMP 0x954240
+0x954240:
+	.LOCALREF nDungeonType
+	PUSH 1
+	EQUALE
+	IFNZ 0x95427e
+	.LOCALREF nDungeonType
+	PUSH 2026091501
+	EQUALE
+	IFNZ 0x95427e
+	JUMP 0x95430e
+0x95427e:
+	.LOCALASSIGN i#5 0
+0x954294:
+	.LOCALREF i#5
+	PUSH 3
+	LT
+	IFZ 0x95430e
+	.LOCALREF table
+	.LOCALREF i#5
+	X_REF 1
+	PUSH 1
+	PUSH 0
+	X_ASSIGN 1
+	POP
+	.LOCALINC2 i#5
+	JUMP 0x954294
+0x95430e:
+	.LOCALASSIGN n23 0
+	.LOCALASSIGN i#6 0
+0x95433a:
+	.LOCALREF i#6
+	PUSH 3
+	LT
+	IFZ 0x95462e
+	PUSHLOCALPAGE
+	PUSH 23
+	.LOCALREF i#6
+	CALLFUNC L_Party::AbilityAt
+	.LOCALREF "<dummy : L_Party::AbilityAtの戻り値>#2"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 24
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#2"
+	.LOCALREF pa#2
+	PUSH -1
+	EQUALE
+	IFNZ 0x954410
+	.LOCALREF pa#2
+	PUSH 27301
+	CALLMETHOD 0
+	NOT
+	IFNZ 0x954410
+	PUSH 0
+	JUMP 0x954416
+0x954410:
+	PUSH 1
+0x954416:
+	IFNZ 0x954422
+	JUMP 0x954470
+0x954422:
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#2"
+	.LOCALDELETE pa#2
+	JUMP 0x954614
+0x954470:
+	.LOCALREF table
+	.LOCALREF i#6
+	X_REF 1
+	PUSH 0
+	.LOCALREF table
+	.LOCALREF i#6
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	PUSH 100
+	PUSH 10
+	.LOCALREF pa#2
+	PUSH 27316
+	PUSH 21
+	CALLMETHOD 1
+	MUL
+	ADD
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALREF table
+	.LOCALREF i#6
+	X_REF 1
+	PUSH 1
+	.LOCALREF table
+	.LOCALREF i#6
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	PUSH 100
+	PUSH 10
+	.LOCALREF pa#2
+	PUSH 27316
+	PUSH 22
+	CALLMETHOD 1
+	MUL
+	ADD
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 21
+	.LOCALREF pa#2
+	PUSH 27316
+	PUSH 23
+	CALLMETHOD 1
+	PLUSA
+	POP
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#2"
+	.LOCALDELETE pa#2
+0x954614:
+	.LOCALINC3 i#6
+	JUMP 0x95433a
+0x95462e:
+	.LOCALREF table
+	PUSH 0
+	X_REF 1
+	PUSH 2
+	.LOCALREF table
+	PUSH 0
+	X_REF 1
+	PUSH 2
+	X_REF 1
+	PUSH 100
+	PUSH 10
+	.LOCALREF n23
+	MUL
+	ADD
+	MUL
+	PUSH 100
+	DIV
+	X_ASSIGN 1
+	POP
+	.LOCALREF nDungeonType
+	CALLFUNC KR_IsSilentLoot
+	IFNZ 0x9547c4
+	PUSHLOCALPAGE
+	PUSH 25
+	NEW C_BattleResultView 29264
+	.LOCALREF "<dummy : 右辺値参照化用>"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 26
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : 右辺値参照化用>"
+	.LOCALREF view
+	PUSH 29271
+	.LOCALREF table
+	CALLMETHOD 1
+	POP
+	PUSHLOCALPAGE
+	PUSH 25
+	X_DUP 2
+	X_REF 1
+	PUSH -1
+	X_MOV 2 1
+	DELETE
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : 右辺値参照化用>"
+	.LOCALDELETE view
+0x9547c4:
+	.LOCALASSIGN i#7 0
+0x9547da:
+	.LOCALREF i#7
+	PUSH 3
+	LT
+	IFZ 0x954a8e
+	PUSHLOCALPAGE
+	PUSH 28
+	.LOCALREF i#7
+	CALLFUNC L_Party::AbilityAt
+	.LOCALREF "<dummy : L_Party::AbilityAtの戻り値>#3"
+	DELETE
+	PUSHLOCALPAGE
+	PUSH 29
+	X_MOV 3 2
+	X_ASSIGN 1
+	X_ASSIGN 1
+	SP_INC
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#3"
+	.LOCALREF pa#3
+	PUSH -1
+	EQUALE
+	IFNZ 0x9548b0
+	.LOCALREF pa#3
+	PUSH 27301
+	CALLMETHOD 0
+	NOT
+	IFNZ 0x9548b0
+	PUSH 0
+	JUMP 0x9548b6
+0x9548b0:
+	PUSH 1
+0x9548b6:
+	IFNZ 0x9548c2
+	JUMP 0x954910
+0x9548c2:
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#3"
+	.LOCALDELETE pa#3
+	JUMP 0x954a74
+0x954910:
+	.LOCALREF pa#3
+	PUSH 27335
+	CALLMETHOD 0
+	PUSH 99
+	LT
+	IFNZ 0x95493e
+	JUMP 0x95499c
+0x95493e:
+	.LOCALREF pa#3
+	PUSH 27302
+	.LOCALREF table
+	.LOCALREF i#7
+	X_REF 1
+	PUSH 0
+	X_REF 1
+	.LOCALREF nDungeonType
+	CALLFUNC KR_IsSilentLoot
+	NOT
+	CALLMETHOD 2
+0x95499c:
+	.LOCALREF pa#3
+	PUSH 27304
+	.LOCALREF table
+	.LOCALREF i#7
+	X_REF 1
+	PUSH 1
+	X_REF 1
+	CALLMETHOD 1
+	.LOCALREF pa#3
+	PUSH 27306
+	.LOCALREF table
+	.LOCALREF i#7
+	X_REF 1
+	PUSH 2
+	X_REF 1
+	CALLMETHOD 1
+	.LOCALDELETE "<dummy : L_Party::AbilityAtの戻り値>#3"
+	.LOCALDELETE pa#3
+0x954a74:
+	.LOCALINC3 i#7
+	JUMP 0x9547da
+0x954a8e:
+	CALLFUNC L_BattleIncome::Clear
+	POP
+	PUSH 1
+	RETURN
+	PUSH 0
+	RETURN
+ENDFUNC L_BattleIncome::Settle
+
+

@@ -1,0 +1,17 @@
+{
+  "pid": 40352,
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "ain_sha256": "b58d5a4d69a841cdc3554b16eb53aba8b325d65fd51ac40e105c15d5f93adcba",
+  "events": [],
+  "exit_code": 0,
+  "log": [
+    "resume loading",
+    "before=0",
+    "after failed write=0",
+    "latch=1",
+    "after cache reset=0"
+  ],
+  "blocker_is_dir": true,
+  "wait_sites": "NightRemasterEX.ex",
+  "save": "NightR38.asd"
+}

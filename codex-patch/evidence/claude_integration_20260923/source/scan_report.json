@@ -1,0 +1,14 @@
+{
+  "status": "SCANNED_NO_TARGET_DETECTIONS",
+  "started": "2026-09-23T12:14:45.1962633+09:00",
+  "ended": "2026-09-23T12:14:49.2735850+09:00",
+  "target": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_integration_20260923\\scan_payload",
+  "files": {
+    "NightRemaster.ain": "baef6ec000683bc9fdb3660ebbca2a5a841b3f487c05780febeb3efe90fcacf4"
+  },
+  "engine": "1.1.26080.3",
+  "signatures": "1.459.335.0",
+  "antivirusEnabled": true,
+  "before": [],
+  "after": []
+}

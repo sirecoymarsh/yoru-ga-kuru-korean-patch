@@ -1,0 +1,63 @@
+{
+  "status": "NOTICE_DEPTH_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "4f17919c2283a2d40b7629facb0cd647b1b1fb1351cbdbe8d1976169961de6c6",
+    "status": "NATIVE_MOD_BUTTON_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemasterPact.afa": "335e063313527913d0a7b5197e66e6a3ef31b9a2ab508a21d3a8b062e084be92"
+  },
+  "files": {
+    "NightRemasterPact.afa": "e1047384975b7ceb3295fc370209bb23e58ac27aaeb99bcda7019fd8b98a6169"
+  },
+  "edits": [
+    {
+      "part": "KR_ChestNotice",
+      "before": [
+        20.0,
+        18.0,
+        300
+      ],
+      "after": [
+        20.0,
+        18.0,
+        1000
+      ]
+    },
+    {
+      "part": "KR_LootNoticeRoot",
+      "before": [
+        20.0,
+        18.0,
+        301
+      ],
+      "after": [
+        20.0,
+        18.0,
+        1001
+      ]
+    }
+  ],
+  "archive": {
+    "source_sha256": "335e063313527913d0a7b5197e66e6a3ef31b9a2ab508a21d3a8b062e084be92",
+    "candidate_sha256": "e1047384975b7ceb3295fc370209bb23e58ac27aaeb99bcda7019fd8b98a6169",
+    "original_entries_preserved": 187,
+    "replaced_ids": [
+      160
+    ],
+    "appended": [],
+    "wrapper": "AFA3",
+    "metadata_identity": "PASS (names/order/unknown fields)",
+    "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+    "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\notice_depth_20260917\\NightRemasterPact.afa"
+  },
+  "unchanged_AIN": "3b7bb70cb51caba08dc291693919554c3d35783314352eccc77f7b16ab18f8e9",
+  "unchanged_CG": "a154417b105e771b42975c424b540a5d9453eac40166e0d0d9c178a4f6aa013e",
+  "semantic_text_changes": 0,
+  "save_schema_changes": 0,
+  "native_verified": false
+}

@@ -1,0 +1,190 @@
+{
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-28T20:46:45+09:00",
+ "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155",
+ "method": "one boot per scene: title -> request chart -> the chart asks for the replay (the play request slot) -> memory mode (AFL_MemoryModeEvent_Begin -> new C_SceneGame -> Prepare + RunEvent -> End -> Cleanup) with the messages clicked through and the first choice answered -> back on the title; ok = returned to the title, exit 0, no engine error / message box, title pixels equal to the shot before the chart",
+ "verdicts": {
+  "dated": "ok",
+  "stage_dated": "ok",
+  "dungeon": "ok",
+  "stage_dungeon": "ok",
+  "pool_talk": "ok",
+  "pool_invite": "ok",
+  "pool_walk": "ok",
+  "memory": "ok",
+  "unused": "ok",
+  "system": "ok",
+  "choice": "ok",
+  "battle": "fail"
+ },
+ "scenes": {
+  "dated": [
+   121
+  ],
+  "stage_dated": [
+   273
+  ],
+  "dungeon": [
+   41
+  ],
+  "stage_dungeon": [
+   42
+  ],
+  "pool_talk": [
+   1101
+  ],
+  "pool_invite": [
+   1001
+  ],
+  "pool_walk": [
+   2001
+  ],
+  "memory": [
+   50101,
+   60015
+  ],
+  "unused": [
+   55
+  ],
+  "system": [
+   6001
+  ],
+  "choice": [
+   258,
+   60017
+  ],
+  "battle": [
+   262
+  ]
+ },
+ "events": {
+  "121": {
+   "kind": "dated",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 74.5,
+   "messages": "RETURNED to the title msgs=152 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "273": {
+   "kind": "stage_dated",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 32.3,
+   "messages": "RETURNED to the title msgs=12 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "41": {
+   "kind": "dungeon",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 36.7,
+   "messages": "RETURNED to the title msgs=27 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "42": {
+   "kind": "stage_dungeon",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 35.9,
+   "messages": "RETURNED to the title msgs=29 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "1101": {
+   "kind": "pool_talk",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 30.5,
+   "messages": "RETURNED to the title msgs=7 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "1001": {
+   "kind": "pool_invite",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 26.8,
+   "messages": "RETURNED to the title msgs=1 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "2001": {
+   "kind": "pool_walk",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 26.8,
+   "messages": "RETURNED to the title msgs=11 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "50101": {
+   "kind": "memory",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 52.5,
+   "messages": "RETURNED to the title msgs=105 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "60015": {
+   "kind": "memory_copy",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 100.3,
+   "messages": "RETURNED to the title msgs=192 choices=1 ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "55": {
+   "kind": "unused",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 24.8,
+   "messages": "RETURNED to the title msgs=1 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "6001": {
+   "kind": "system",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 32.8,
+   "messages": "RETURNED to the title msgs=2 choices= ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "258": {
+   "kind": "choice",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 39.2,
+   "messages": "RETURNED to the title msgs=46 choices=1 ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "60017": {
+   "kind": "choice_memory",
+   "verdict": "ok",
+   "pixels": 0,
+   "seconds": 132.4,
+   "messages": "RETURNED to the title msgs=285 choices=1 ours=0 open= play= unwind=",
+   "why": [],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  },
+  "262": {
+   "kind": "battle",
+   "verdict": "fail",
+   "pixels": null,
+   "seconds": 240.6,
+   "messages": null,
+   "why": [
+    "timeout: no return to the title within 240 s"
+   ],
+   "candidate_sha256": "939e44d03aa87da36613abf6b06a304c45060b700cfcf99bd4d34a8f02535155"
+  }
+ }
+}

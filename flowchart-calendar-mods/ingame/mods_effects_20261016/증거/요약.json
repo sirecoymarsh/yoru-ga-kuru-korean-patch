@@ -1,0 +1,94 @@
+{
+ "status": "MODS_EFFECTS_20261016_NATIVE_PROBED",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "date": "2026-10-16",
+ "candidate": {
+  "NightRemaster.ain": "4ed365048d3f91bbbdf4a994dbfce827da37a06620c96737485c9bd2ba6d2573",
+  "NightRemasterPact.afa": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac"
+ },
+ "saves_copied_read_only": [
+  "NightR36.asd (random dungeon 2009, party of 2)",
+  "NightR45.asd (event dungeon 605, party of 3; disarm call only)"
+ ],
+ "user_save_folder_unchanged_all_runs": true,
+ "test_setup_changes": [
+  "remaining dungeon time set to 400 at the start of every run (the save had 25; walking and battles would end the day)",
+  "auto battle on (the user's own setting was already on)",
+  "options set through the same setters the Mods page uses"
+ ],
+ "features": {
+  "함정 즉시 해체 (KR_GetTrap)": {
+   "verdict": "WORKS",
+   "off": "C_SceneDungeon@Trap ran, character pick dialog, disarm failed, both poisoned (off_20261016_003445)",
+   "on": "no Trap call, notice '함정 해제 성공 · 피해 없음', HP unchanged, cell removed (on_20261016_010331)",
+   "event_dungeon_disarm_call": "L_Dungeon::RelieveTrap: option on -> 1 without the pick dialog; off -> pick dialog, 0 (relieve_20261016_012225)"
+  },
+  "다음 층 경로 표시 (KR_GetRoute)": {
+   "verdict": "WORKS_WITH_MINOR_STALE_LINE",
+   "on": "line redrawn from the party after every move; flags 85/86 follow the party (21,6)->(22,6)->(23,8)->(25,14), flag 89 = 1",
+   "toggle_in_session": "on -> off clears the line, stays cleared, on again redraws (routetoggle_20261016_011204)",
+   "stale": "a save made with the route on, loaded with the route off: the saved line stays on that floor and is never updated (flag 89 is a global system flag = 0, so KR_DrawRouteLinear never clears it)"
+  },
+  "일반 적 즉시 처치 (KR_GetLoot)": {
+   "verdict": "WORKS",
+   "on": "3/3 enemy cells: no battle, notice with rewards, cell removed; money +48/+72/+67 per member at 1x; time used only for walking (3 units vs 13 with a battle)",
+   "off": "real battles 3/3"
+  },
+  "전투 이펙트 보지 않기 (KR_GetQuick)": {
+   "verdict": "WORKS_EFFECT_LIMITED",
+   "on": "quickActive 1, battle rate 1000, auto forced; View_Update skips SystemService.UpdateView (screen not refreshed); C_WaitTimer waits skipped",
+   "measured": "engine scaled/real time 9.82 (per-frame scaled time is clamped to 150 ms in view::detail::CalcPassedTime); same-actor cycle 3.4 s vs 5.9 s default; 81% of battle time is screen transitions (Ａ＿全表示 -> view::detail::画面更新 waits on CASTimer@Get, real time); battles 2.2-14.5 s",
+   "watchdog": "after 15 s or a right click the presentation comes back (KR_QuickWatch, by design)"
+  },
+  "소탕 버튼 표시 (KR_GetSweep)": {
+   "verdict": "WORKS",
+   "off": "button hidden, sweepOK 0, a forced click returns false and changes nothing",
+   "on": "button shown, confirm dialog (remaining 400 -> 10 battles / 2 chests, multipliers applied), remaining 400 -> 0, moon pieces +2203, 흑색 요소석(1등급) +1, then the next day (sweep_20261016_010507, sweep_20261016_005853)"
+  },
+  "강화 자동 전투 (KR_GetSmartAuto)": {
+   "verdict": "WORKS (skills used)",
+   "how": "every decision scores the basic attack and each learned skill (damage capped at the enemy's remaining HP / time, minus HP cost) and takes the best",
+   "protagonist": "his skill is an attack with a memorized weapon (C_BattleProgress@ChangePlayerWeapon, action number stays 0): weapon 0 chosen at every decision (1233 vs basic 988; 1000 vs 801)",
+   "companion": "skills 351 / 358 / 357 used when HP allows (e.g. 3114 vs basic 900); basic attack when it scores higher against a weak group (950 vs 811)",
+   "hp_guard": "a skill whose HP cost would leave less than 20% of max HP is not a candidate: at 23% HP all 10 companion skills dropped out (the first run smart_20261016_005310, read then as 'basic attacks only')",
+   "with_auto_items": "smartitems_20261016_082742: item heals 114 -> 363, then skill 358 (363 -> 234), then skill 357; skills 353/354 dropped out at 234 HP",
+   "off": "no decision taken (native auto, basic attacks)"
+  },
+  "전투 속도 (KR_Speed)": {
+   "verdict": "WORKS_EFFECT_SMALL",
+   "measured": {
+    "x1 native speed-up off": {
+     "scaled_over_real": 1.01,
+     "cycle_ms": 9255
+    },
+    "x2 default (game's own speed-up on, slider 기본)": {
+     "scaled_over_real": 2.01,
+     "cycle_ms": 5875,
+     "transition_share": 0.47
+    },
+    "x5 slider": {
+     "scaled_over_real": 4.95,
+     "cycle_ms": 4735,
+     "transition_share": 0.62
+    }
+   },
+   "note": "with the game's own battle speed-up on, slider 기본 already runs at 2x, so slider 2배 is the same speed"
+  },
+  "자동 회복 아이템 (KR_ItemsTry)": {
+   "verdict": "WORKS (healing checked)",
+   "on": "first decision: item 1 (50%) used on the member at 23% HP (threshold 30%): HP 114 -> 363 / 498, stock 19 -> 18; no use once above the threshold",
+   "off": "never used, HP stays 114",
+   "not_checked": "items 2-5 (poison, paralysis, full heal, revive): no such state came up"
+  },
+  "보상 배율 4종 (L_CasualMode::Rate*)": {
+   "verdict": "WORKS",
+   "unit": "Calc*(1234) = 1234 / 1851 / 6170 / 24680 at 1x / 1.5x / 5x / 20x; N_Train::GetPartnerBonus(2) = 1,0,0,2 -> 5,0,0,10 -> 20,0,0,40",
+   "settle_path": "L_BattleIncome::Settle (battle, instant kill, sweep): exp 34->680, training 26->520, money 32->640 at 20x; unchanged at 1x",
+   "final": "same one-enemy battle: moon pieces +24 at 1x, +480 at 20x; exp 0 -> 439 (the game's level-difference deduction is applied after the multiplier)"
+  }
+ },
+ "fix_candidates_not_applied": [
+  "view::detail::画面更新 (Ａ＿全表示): skip the real-time transition wait while KR_QuickActive (as C_WaitTimer::Wait does); optionally divide it by the battle speed",
+  "KR_DrawRouteLinear: when the route is off, clear the minimap line once on floor entry / after a load instead of trusting the global flag 89"
+ ]
+}

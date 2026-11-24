@@ -1,0 +1,149 @@
+{
+ "status": "ALL_TABS_PREFLIGHT_PASS",
+ "time": "2026-09-29T22:11:01.172898+09:00",
+ "files": {
+  "NightRemaster.ain": "626743efc0b301537ed8db6e205d72b2108b0822c17f4be68f57645a55523b0e",
+  "winmm.dll": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+ },
+ "source_sha256": "b74ebc26c77656bd927b9540769fa0b70bff1210b052167cdf22856781c256b8",
+ "source_manifest_sha256": "54fd6042482905d777efa8ec1a9f7ead4714ee7ab5f52b6ab5d986477f7ca61f",
+ "original_code_prefix_exact": true,
+ "original_messages_exact": true,
+ "original_strings_prefix_exact": true,
+ "serialized_schema_changes": 0,
+ "pinned_functions_unchanged": [
+  "KR_T9HomeCasual",
+  "KR_T9HomeConfig",
+  "C_SceneHomebase@CheckGameSysButtons",
+  "C_SceneHomebase@Run",
+  "LSys3xScript::RunEvent",
+  "KR_T18RunSandboxed"
+ ],
+ "changed_forwarders": {
+  "KR_CDraw": "KR_W29Minis",
+  "KR_P29Board": "KR_W29Board",
+  "KR_T9StagePage": "KR_W29Stages"
+ },
+ "added_functions": [
+  "KR_W29Plain",
+  "KR_W29Trim",
+  "KR_W29Story",
+  "KR_W29Date",
+  "KR_W29Clean",
+  "KR_W29Join",
+  "KR_W29GroupOf",
+  "KR_W29Title",
+  "KR_W29Info",
+  "KR_W29HeadWrap",
+  "KR_W29Board",
+  "KR_W29Cond",
+  "KR_W29StateCG",
+  "KR_W29Cell",
+  "KR_W29Draw",
+  "KR_W29Minis",
+  "KR_W29StageItem",
+  "KR_W29Stages"
+ ],
+ "native_opcodes_supported": true,
+ "existing_resume_saves": 51,
+ "non_resume_slots": 0,
+ "saved_return_frames": 1256,
+ "dll_unchanged": true,
+ "transaction_fixture_pass": true,
+ "defender": "SCANNED_NO_TARGET_DETECTIONS",
+ "native_probe": {
+  "pid": 45884,
+  "seconds": 193.9,
+  "list_cells_checked": 4575,
+  "list_fixtures": 5,
+  "detail_boards": 2638,
+  "events_per_state": 1164,
+  "picker_pages": 106,
+  "pickers_per_pass": 35,
+  "achievement_pickers": 3,
+  "real_wait_flows": [
+   "list -> scene page -> 돌아가기",
+   "list -> card page -> 장면 고르기 -> scene -> 돌아가기 -> picker -> 돌아가기 -> card page -> 돌아가기"
+  ],
+  "pixel_compare": {
+   "chart_title_before vs w29_title_after": 0,
+   "w29_flow_list_before_detail vs w29_flow_list_after_detail": 0,
+   "w29_flow_list_before_card vs w29_flow_list_after_card": 0
+  },
+  "cells_more_than_3_portraits": 98,
+  "max_portraits": 8,
+  "overflow_badges": 46,
+  "shots": 64
+ },
+ "april_regression": {
+  "status": "APRIL_REGRESSION_PASS",
+  "identical": 14,
+  "differing": [
+   "april_detail_e10001",
+   "april_detail_group_scene3",
+   "may_detail_unchanged",
+   "may_list_after_april",
+   "may_list_unchanged"
+  ],
+  "unexpected": {}
+ },
+ "revision": "r2",
+ "previous_candidate": "3808a9c408375c78a7e3fe078fa36d9dd13d5e40ef2356cf7e69c5ba66ddb4b7",
+ "joined_conditions_per_list_pass": [
+  7,
+  7,
+  12,
+  17,
+  17
+ ],
+ "home_probe": {
+  "pid": 93392,
+  "seconds": 33.6,
+  "shots": 15,
+  "home_save": {
+   "name": "NightR44.asd",
+   "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r15_calendar\\work\\savecopy\\NightR44.asd",
+   "sha256": "a9156e3d732c926fa1e7fc9cbfe1cb3ab2c220dc419b317896759830ad562689"
+  },
+  "summary": [
+   "W29 HOME chart root z=210107 maxz=210120 ctx=2 open=1 month_tab=6",
+   "REPLAY first message memory=1 fn=E01101 ours=0",
+   "W29 RESUMED last=8 head=${font r=255 g=214 b=110}이벤트 캘린더${/font}　4월　감상 완료 95/143 page=1 / 12쪽 fails=0",
+   "RESUMED chart after the replay msgs=7 ours=83 open=1 last=8 ctx=2 play=",
+   "RETURNED to the home menu msgs=7 ours=0 open= play=",
+   "END"
+  ]
+ },
+ "r1_vs_r2_screens": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_all_tabs_20260929\\evidence\\r1_vs_r2_screens.json",
+ "review_fixes": {
+  "F-01": "fixed: joined one-line condition at 13 px before any cut; probe compares the whole condition",
+  "F-02": "partly: whole-condition comparison, every picker page visited, exact picker first line; board titles still structural",
+  "F-03": "kept (intended defect fix, E10001 언제), recorded in 인계_WI009.md",
+  "F-04": "fixed: 「 · 장면 N개」 dropped from every generic picker title (card 6 = April picker unchanged)",
+  "F-05": "added: home-context native probe with a representative replay (evidence/native_home_probe.json)",
+  "F-06": "fixed: install only on --install, usage otherwise; --check confirms every source copy",
+  "F-07": "recorded only (narrow value column wraps inside words on 6-column boards)"
+ },
+ "wording": {
+  "map": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_all_tabs_20260929\\design\\wording_map.json",
+  "counts": {
+   "list_names": 35,
+   "list_conditions": 30,
+   "card_heads": 35,
+   "scene_heads": 249,
+   "when": 138,
+   "card_conditions": 1,
+   "picker_titles": 34
+  },
+  "qa": "PASS"
+ },
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "designer": "Claude Fable 5.1 (claude-fable-5-1)",
+ "limitations": [
+  "Display-only: list / detail / scene-picker layers of the event calendar (chart context). No scenario, choice outcome, read-record or save-layout edits.",
+  "The in-game calendar / achievement dialogs (KR_CActive() false) keep their r18 / r19 bodies (user 09-28); only their opening, names and cancel were probed.",
+  "Native diagnostics used a muted private copy with scripted read fixtures and modal answers, not an all-route gameplay test; one representative replay (E01101 from the home context) was run, not every kind.",
+  "Narrow value columns of 6-column boards (8+ portraits) still wrap inside words (review F-07, recorded)."
+ ]
+}

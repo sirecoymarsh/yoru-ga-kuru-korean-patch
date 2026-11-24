@@ -1,0 +1,23 @@
+{
+  "status": "STATIC_REVIEW_PASS",
+  "files": {
+    "NightRemaster.ain": "5429a0f4c2e50342e852e0c2e0279d8a5c6471571110b899ba7984e49eddb822"
+  },
+  "reviewer": "dungeon_reward_review",
+  "read_only": true,
+  "independent_predicate_ids_checked": 10004,
+  "exact_allowed_count": 82,
+  "only_added_ids": [
+    1201,
+    2601
+  ],
+  "native_reward_paths_reviewed": [
+    26995,
+    27183,
+    27184,
+    27185,
+    27190,
+    27191
+  ],
+  "native_gameplay_verified": false
+}

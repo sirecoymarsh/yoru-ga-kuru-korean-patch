@@ -1,0 +1,65 @@
+{
+  "status": "AUTO_EXPLORE_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "bf1cb2db3f8ea4b0a9468e9c53481dd93b7e564b60f82b5e6674ec34a512f425",
+    "status": "RESUME_COMPAT_INSTALLED_STATIC_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "f39c448723a1139673ae443da3cc10a27ccec5422df5fe0fa3258d580f09b635"
+  },
+  "files": {
+    "NightRemaster.ain": "343c9997a2a17478583b40b43a91d5b7f552eecb6644b73af5720b855a347d4a"
+  },
+  "patched_existing": [
+    32030,
+    32036,
+    32046,
+    32049,
+    32051,
+    32052
+  ],
+  "in_place_functions": [
+    27159,
+    28637,
+    28664,
+    28665,
+    29556
+  ],
+  "same_length_instruction_sites": 7,
+  "added_functions": {
+    "KR_ExploreGet": 32172,
+    "KR_ExploreSet": 32173,
+    "KR_ExploreClear": 32174,
+    "KR_ExploreTripBegin": 32175,
+    "KR_ExploreAfterLoad": 32176,
+    "KR_ExploreMap": 32177,
+    "KR_ExploreFloor": 32178,
+    "KR_ExploreSubId": 32179,
+    "KR_ExploreCell": 32180,
+    "KR_ExploreRemoved": 32181,
+    "KR_ExploreGuidedPlan": 32182,
+    "KR_ExploreRawVisible": 32183,
+    "KR_ExplorePlan": 32184,
+    "KR_ExploreStop": 32185,
+    "KR_ExploreStart": 32186,
+    "KR_ExploreRemember": 32187,
+    "KR_ExploreGate": 32188,
+    "KR_ExploreBattleEnter": 32189,
+    "KR_ExploreGuard": 32190,
+    "KR_ExploreFloorDialog": 32191,
+    "KR_ExploreAfterClick": 32192,
+    "KR_ExploreVisible": 32193,
+    "KR_ExploreTrapAuto": 32194
+  },
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "existing_metadata_exact_except_six_helper_addresses": true,
+  "serialized_fields_added": 0,
+  "save_writes": 0,
+  "translator_model": "Codex internal",
+  "native_verified": false
+}

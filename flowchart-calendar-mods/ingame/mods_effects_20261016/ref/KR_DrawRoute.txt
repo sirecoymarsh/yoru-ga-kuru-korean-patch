@@ -1,0 +1,78 @@
+; KR_DrawRoute
+; ARG  0: map : ref C_MapInfo
+; ARG  1: view : ref C_SceneDungeonMiniMapView
+; ARG  2: x : int
+; ARG  3: y : int
+; VAR  4: empty : array<CASPos>
+; VAR  5: info : NS_AStar::MapInfo
+; VAR  6: search : NS_AStar::AStarExecuteLoop
+; VAR  7: route : array<CASPos>
+; VAR  8: bestLen : int
+; VAR  9: bestX : int
+; VAR 10: bestY : int
+; VAR 11: gy : int
+; VAR 12: gx : int
+; VAR 13: n : int
+; RETURN: void
+FUNC 31860
+	CALLFUNC KR_GetRoute
+	IFZ 0x96d254
+	PUSH 89
+	CALLFUNC KR_Flag
+	PUSH 1
+	NOTE
+	IFNZ 0x96d254
+	PUSH 85
+	CALLFUNC KR_Flag
+	.LOCALREF x
+	NOTE
+	IFNZ 0x96d254
+	PUSH 86
+	CALLFUNC KR_Flag
+	.LOCALREF y
+	NOTE
+	IFNZ 0x96d254
+	RETURN
+0x96d254:
+	CALLFUNC KR_GetRoute
+	IFZ 0x96d338
+	.LOCALREF map
+	PUSH 27042
+	CALLMETHOD 0
+	PUSH 401
+	EQUALE
+	IFNZ 0x96d2de
+	.LOCALREF map
+	PUSH 27042
+	CALLMETHOD 0
+	PUSH 403
+	EQUALE
+	IFNZ 0x96d2de
+	.LOCALREF map
+	PUSH 27042
+	CALLMETHOD 0
+	PUSH 405
+	EQUALE
+	IFNZ 0x96d2de
+	JUMP 0x96d338
+0x96d2de:
+	.LOCALREF map
+	.LOCALREF view
+	.LOCALREF x
+	.LOCALREF y
+	.LOCALREF map
+	PUSH 27042
+	CALLMETHOD 0
+	CALLFUNC KR_DrawPuzzleRoute
+	RETURN
+0x96d338:
+	.LOCALREF map
+	.LOCALREF view
+	.LOCALREF x
+	.LOCALREF y
+	.LOCALREF map
+	PUSH 27042
+	CALLMETHOD 0
+	CALLFUNC KR_DrawRouteLinear
+	RETURN
+ENDFUNC KR_DrawRoute

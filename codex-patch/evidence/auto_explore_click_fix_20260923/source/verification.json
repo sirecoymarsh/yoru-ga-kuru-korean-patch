@@ -1,0 +1,33 @@
+{
+  "status": "CLICK_FIX_STATIC_AND_NATIVE_DISPATCH_PASS",
+  "files": {
+    "NightRemaster.ain": "2c1b0174ddefda36b00ab864146eefe070971e9c6cc914df6ef14a2e560dfc86"
+  },
+  "existing_resume_saves": 37,
+  "saved_return_frames": 950,
+  "existing_save_local_offsets_exact": true,
+  "old_CODE_exact": true,
+  "MSG1_exact": true,
+  "STR0_prefix_exact": true,
+  "save_schema_changes": 0,
+  "native": [
+    {
+      "mode": "off",
+      "pid": 32396,
+      "probe_sha256": "b362fa89b2c61a14ef3b452417e62c1350c94122c496d3f93e50fbe5b6cbd84c",
+      "log": "resume loading\nwalk=1000010566 delegate=422 handlers=1\nsweep=1000010214 delegate=211 handlers=1\nclickable=1 input=1\nrepeat-visible handlers=1\ndispatch through native button function set\nclickResult=2026092203\nnative Run started queue=4 guide=0\nMOVED 21,6 -> 20,6\nSTOPPED through second click\n"
+    },
+    {
+      "mode": "on",
+      "pid": 63876,
+      "probe_sha256": "97d31b8141f7e9582dedaa846a563fc3a97b24c0535d0fb3bf06ad4ea5925fda",
+      "log": "resume loading\nwalk=1000010566 delegate=422 handlers=1\nsweep=1000010214 delegate=211 handlers=1\nclickable=1 input=1\nrepeat-visible handlers=1\ndispatch through native button function set\nclickResult=2026092203\nnative Run started queue=21 guide=1\nMOVED 21,6 -> 22,6\nSTOPPED through second click\n"
+    }
+  ],
+  "scope": "real copied dungeon save; actual part delegate dispatch, wait-loop, route ON/OFF movement, second-click stop, idempotent visible rebind",
+  "not_verified": [
+    "OS cursor hit testing",
+    "all dungeon/combat/stair transitions"
+  ],
+  "save_files_unchanged": 312
+}

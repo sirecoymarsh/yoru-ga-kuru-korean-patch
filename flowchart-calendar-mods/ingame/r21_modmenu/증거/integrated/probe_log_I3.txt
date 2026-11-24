@@ -1,0 +1,46 @@
+SAVEFOLDER P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\r21_modmenu\probe\run\SaveData_R21Integrated_20260928_044311
+resume loading NightR44.asd run=I3
+HOME I3 date=10/14 save=P:\AI\Codex\projects\YoruGaKuru_flowchart_20260922\ingame\r21_modmenu\probe\run\SaveData_R21Integrated_20260928_044311
+TITLE RESTORE_RESULT <<<
+〓모드 메뉴 결과
+†restore ok KR_reset_20260928_044354
+†(previous kept in
+†KR_before_restore_20260928_044404)
+>>>
+SHOWN RESTORE_RESULT after 3994 ms, 2 frames of this window; request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+PANEL RESTORE_RESULT <<<
+대사　　 ${font r=128 g=224 b=255}42.7%${/font}
+ＣＧ　　 ${font r=128 g=224 b=255}48.3%${/font}
+회상　　 ${font r=128 g=224 b=255}53.0%${/font}
+엔딩　　 ${font r=128 g=224 b=255}0 / 5${/font}
+전체　　 ${font r=128 g=224 b=255}17.4%${/font}
+본편　틈 이후
+${font r=255 g=224 b=96}캐릭터별 이벤트${/font}
+이즈미　 ${font r=128 g=224 b=255}9.5%${/font}
+쿄카　　 ${font r=128 g=224 b=255}10.0%${/font}
+마나미　 ${font r=128 g=224 b=255}8.2%${/font}
+마코토　 ${font r=128 g=224 b=255}10.0%${/font}
+신카이　 ${font r=128 g=224 b=255}4.5%${/font}
+호시카와 ${font r=128 g=224 b=255}3.7%${/font}
+모모세　 ${font r=128 g=224 b=255}5.5%${/font}
+>>>
+SHOT int_restore_result.bmp
+BACK HOME I3 request=0 last_result=0 reset_req=0 restore_req=0 marker=0 chart=1 unlock=0 off=
+PANEL I3_HOME <<<
+대사　　 ${font r=128 g=224 b=255}42.7%${/font}
+ＣＧ　　 ${font r=128 g=224 b=255}48.3%${/font}
+회상　　 ${font r=128 g=224 b=255}53.0%${/font}
+엔딩　　 ${font r=128 g=224 b=255}0 / 5${/font}
+전체　　 ${font r=128 g=224 b=255}17.4%${/font}
+본편　틈 이후
+${font r=255 g=224 b=96}캐릭터별 이벤트${/font}
+이즈미　 ${font r=128 g=224 b=255}9.5%${/font}
+쿄카　　 ${font r=128 g=224 b=255}10.0%${/font}
+마나미　 ${font r=128 g=224 b=255}8.2%${/font}
+마코토　 ${font r=128 g=224 b=255}10.0%${/font}
+신카이　 ${font r=128 g=224 b=255}4.5%${/font}
+호시카와 ${font r=128 g=224 b=255}3.7%${/font}
+모모세　 ${font r=128 g=224 b=255}5.5%${/font}
+>>>
+SHOT int_home_after_restore.bmp
+END INTEGRATED

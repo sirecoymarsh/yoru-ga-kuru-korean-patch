@@ -1,0 +1,54 @@
+{
+ "checked": "2026-09-27T01:41:12.679646+09:00",
+ "base_at_start": {
+  "ain": "963c7db0cccf13a670a237cacb60ec29bc364e873795eefa6f0fa38c321f7517",
+  "pact": "a71410488777ea2e9189f959065334215b51972fc6915eb0ab21d7b46e6372c4",
+  "ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "manifest": "a28439d71c23d472bf5431e18657dfcfa4b8c43bc1f7368a12c12614ce5f97fa",
+  "status": "SAVE_SCREEN_MODE_INSTALLED_NATIVE_PASS"
+ },
+ "runtime_at_end": {
+  "NightRemaster.ain": "963c7db0cccf13a670a237cacb60ec29bc364e873795eefa6f0fa38c321f7517",
+  "NightRemasterPact.afa": "a71410488777ea2e9189f959065334215b51972fc6915eb0ab21d7b46e6372c4",
+  "NightRemasterEX.ex": "de2f9f8affe75a08bc38e577c25ac25b5816b9b1714adf3b3a7ac102db5589c6",
+  "manifest": "a28439d71c23d472bf5431e18657dfcfa4b8c43bc1f7368a12c12614ce5f97fa",
+  "status": "SAVE_SCREEN_MODE_INSTALLED_NATIVE_PASS",
+  "current_json_sha256": "87c513565dbfea00ef0c4ebeddce979ff365e89ed8783a3298e3cbeecd4c65ed"
+ },
+ "runtime_unchanged": true,
+ "candidate": {
+  "ain": "d81ddd5ad383ef870f96eca0c4da763a6cf475445d71f029ffb1f2c692037963",
+  "ain_size": 3677264,
+  "manifest": "e3379dd0347172aad87e4f91d631616012f07218b75ea330c1fd14668e5d31fd"
+ },
+ "contract_draft": "fdc32e8d79c724bd332dc44750c516eb92c495ff2606a73d9859a687f994ffef",
+ "scripts": {
+  "build_calendar_r15.py": "30d60043fe94904c20b41516c4d25c27f8ddcdd9bfc857aabace2d018e7f76ef",
+  "claude_calendar_r15.jaf": "93f0c3367053b99831d6e400d2322cb5af620bfafa87912863c567cacb2e77f4",
+  "probe_calendar_r15.py": "f720a7d995268c27fb9bda11fb3e57c3d1770da9458d429b10ddc93cacde7b1f",
+  "publish_calendar_r15.py": "cb5e9143901beb6acaa2d2ef659d4230c74e02d9bf381daf6374961b0faf37ad",
+  "r15lib.py": "ab36d2c74135138c7e0a5a60ed37aa71f4600947fd99b7b600689b696b161d4c",
+  "required_calendar_r15.json": "fdc32e8d79c724bd332dc44750c516eb92c495ff2606a73d9859a687f994ffef",
+  "scan_calendar_r15.ps1": "cca8ff94576c1e3a2a2228c292eebd174dbef3dbfebf941082bbebac42183027",
+  "verify_calendar_r15.py": "b70f485597d2dffacd7936bae43aae673392a7e49bb8f76843d548b77082585f",
+  "인계_r15.md": "0b7f0b25822a129f09d5420f30d0e2c4d2d36cf9abca8d2381b5538b2c67bb71"
+ },
+ "evidence_files": [
+  "baked_tables.json",
+  "base_snapshot.json",
+  "candidate_manifest.json",
+  "contract_draft_required_calendar_r15.json",
+  "native_opcode_audit.json",
+  "page_stats.json",
+  "probe",
+  "probe_result.json",
+  "probe_savefolder_test.json",
+  "probe_where.json",
+  "readiness.json",
+  "savecopy_manifest.json",
+  "scan_report.json",
+  "transaction_verification.json",
+  "vm_verification.json",
+  "vm_verification_selftest.json"
+ ]
+}

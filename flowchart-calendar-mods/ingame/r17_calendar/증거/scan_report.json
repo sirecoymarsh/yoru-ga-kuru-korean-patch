@@ -1,0 +1,19 @@
+{
+    "status":  "SCANNED_NO_TARGET_DETECTIONS",
+    "started":  "2026-09-27T07:08:24.0992028+09:00",
+    "ended":  "2026-09-27T07:08:25.9353054+09:00",
+    "target":  "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\r17_calendar\\work\\scan_payload_20260927_070823",
+    "files":  {
+                  "NightRemaster.ain":  "4f31ae639338a7d686636d58b0a55d93b6913df39bdbf37260e4d4b1e5d11953"
+              },
+    "engine":  "1.1.26080.3",
+    "platform":  "4.18.26080.4",
+    "signatures":  "1.459.417.0",
+    "antivirusEnabled":  true,
+    "before":  [
+
+               ],
+    "after":  [
+
+              ]
+}

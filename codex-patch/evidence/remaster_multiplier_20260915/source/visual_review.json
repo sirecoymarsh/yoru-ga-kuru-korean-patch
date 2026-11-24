@@ -1,0 +1,13 @@
+{
+  "status": "STATIC_FONT_GEOMETRY_VISUAL_PASS",
+  "files": {
+    "NightRemaster.ain": "cf249bab7f5db4db247a0cfff43b8a73fda5a9616bd1ddf12639daeca4debe6d",
+    "NightRemasterPact.afa": "a03e4bf91605e625c49483ff2228186ba390ba8db7606b72f0de4e8cf923d549"
+  },
+  "proof_sha256": "6caeb180db12ded168c3fa5933f751fd0b91e4f4908b75673a3e85a368f4a842",
+  "actual_font_type": 259,
+  "actual_FNL_face": 3,
+  "findings": [],
+  "scope": "Displayed and inspected actual FNL labels, values1/2/5/10/19/20 and slider-bound geometry at native coordinates; no clipping, missing glyphs or overlaps in static proof. Diagnostic outlines are not native slider appearance.",
+  "native_verified": false
+}

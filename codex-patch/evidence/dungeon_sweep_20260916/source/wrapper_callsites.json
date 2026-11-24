@@ -1,0 +1,858 @@
+{
+  "calls": {
+    "26653": [],
+    "26654": [
+      {
+        "fid": 26374,
+        "name": "L_DistributeMode::IsDistributeMode",
+        "address": "0x536f28",
+        "prior": [
+          [
+            "PUSH",
+            "0xe"
+          ]
+        ]
+      },
+      {
+        "fid": 27836,
+        "name": "C_MovieObject@IsAbleCancel",
+        "address": "0x599652",
+        "prior": [
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "NOTE",
+            ""
+          ],
+          [
+            "IFNZ",
+            "0x599644"
+          ],
+          [
+            "JUMP",
+            "0x599662"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ]
+        ]
+      },
+      {
+        "fid": 28145,
+        "name": "C_NameEntry@Run",
+        "address": "0x5bf934",
+        "prior": [
+          [
+            "PUSH",
+            "0x8"
+          ],
+          [
+            "X_DUP",
+            "0x2"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "DELETE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0xffffffff"
+          ],
+          [
+            "X_ASSIGN",
+            "0x1"
+          ],
+          [
+            "POP",
+            ""
+          ],
+          [
+            "JUMP",
+            "0x5bf67a"
+          ],
+          [
+            "PUSH",
+            "0x52"
+          ]
+        ]
+      },
+      {
+        "fid": 28317,
+        "name": "C_SceneTraining@IsSpeedUp",
+        "address": "0x5cba8e",
+        "prior": [
+          [
+            "PUSH",
+            "0x14"
+          ]
+        ]
+      },
+      {
+        "fid": 29393,
+        "name": "C_SceneBattle@EndEnd",
+        "address": "0x66a300",
+        "prior": [
+          [
+            "PUSH",
+            "0x10"
+          ]
+        ]
+      },
+      {
+        "fid": 29853,
+        "name": "Conf_GetBattleSpeedUp",
+        "address": "0x6a0078",
+        "prior": [
+          [
+            "PUSH",
+            "0xf"
+          ]
+        ]
+      },
+      {
+        "fid": 29855,
+        "name": "Conf_GetAutoBattleContinuous",
+        "address": "0x6a00e2",
+        "prior": [
+          [
+            "PUSH",
+            "0x10"
+          ]
+        ]
+      },
+      {
+        "fid": 29857,
+        "name": "Conf_GetSimpleTrainingFX",
+        "address": "0x6a014c",
+        "prior": [
+          [
+            "PUSH",
+            "0x14"
+          ]
+        ]
+      },
+      {
+        "fid": 29959,
+        "name": "TestStartMenu",
+        "address": "0x6adbce",
+        "prior": [
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "S_PUSH",
+            "0x0"
+          ],
+          [
+            "CALLFUNC",
+            "0x1954"
+          ],
+          [
+            "PUSH",
+            "0x80000000"
+          ],
+          [
+            "S_PUSH",
+            "0x12b3"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "S_PUSH",
+            "0x0"
+          ],
+          [
+            "CALLFUNC",
+            "0x1954"
+          ],
+          [
+            "PUSH",
+            "0x52"
+          ]
+        ]
+      },
+      {
+        "fid": 29959,
+        "name": "TestStartMenu",
+        "address": "0x6adf26",
+        "prior": [
+          [
+            "JUMP",
+            "0x6af1fa"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "PUSH",
+            "0x2"
+          ],
+          [
+            "EQUALE",
+            ""
+          ],
+          [
+            "IFNZ",
+            "0x6adf20"
+          ],
+          [
+            "JUMP",
+            "0x6adf70"
+          ],
+          [
+            "PUSH",
+            "0x52"
+          ]
+        ]
+      }
+    ],
+    "26652": [
+      {
+        "fid": 26375,
+        "name": "L_DistributeMode::SetIsDistributeMode",
+        "address": "0x536f72",
+        "prior": [
+          [
+            "PUSH",
+            "0xe"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "IFZ",
+            "0x536f6c"
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "JUMP",
+            "0x536f72"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ]
+        ]
+      },
+      {
+        "fid": 27837,
+        "name": "C_MovieObject@SaveCommonSettingAfterPlay",
+        "address": "0x5996dc",
+        "prior": [
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "NOTE",
+            ""
+          ],
+          [
+            "IFNZ",
+            "0x5996c8"
+          ],
+          [
+            "JUMP",
+            "0x5996e2"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ]
+        ]
+      },
+      {
+        "fid": 29852,
+        "name": "Conf_SetBattleSpeedUp",
+        "address": "0x6a005e",
+        "prior": [
+          [
+            "PUSH",
+            "0xf"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "IFZ",
+            "0x6a0058"
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "JUMP",
+            "0x6a005e"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ]
+        ]
+      },
+      {
+        "fid": 29854,
+        "name": "Conf_SetAutoBattleContinuous",
+        "address": "0x6a00c8",
+        "prior": [
+          [
+            "PUSH",
+            "0x10"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "IFZ",
+            "0x6a00c2"
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "JUMP",
+            "0x6a00c8"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ]
+        ]
+      },
+      {
+        "fid": 29856,
+        "name": "Conf_SetSimpleTrainingFX",
+        "address": "0x6a0132",
+        "prior": [
+          [
+            "PUSH",
+            "0x14"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "IFZ",
+            "0x6a012c"
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "JUMP",
+            "0x6a0132"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ]
+        ]
+      },
+      {
+        "fid": 29959,
+        "name": "TestStartMenu",
+        "address": "0x6adf4c",
+        "prior": [
+          [
+            "JUMP",
+            "0x6adf70"
+          ],
+          [
+            "PUSH",
+            "0x52"
+          ],
+          [
+            "CALLFUNC",
+            "0x681e"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "NOTE",
+            ""
+          ],
+          [
+            "IFNZ",
+            "0x6adf40"
+          ],
+          [
+            "JUMP",
+            "0x6adf58"
+          ],
+          [
+            "PUSH",
+            "0x52"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ]
+        ]
+      },
+      {
+        "fid": 29959,
+        "name": "TestStartMenu",
+        "address": "0x6adf64",
+        "prior": [
+          [
+            "NOTE",
+            ""
+          ],
+          [
+            "IFNZ",
+            "0x6adf40"
+          ],
+          [
+            "JUMP",
+            "0x6adf58"
+          ],
+          [
+            "PUSH",
+            "0x52"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "CALLFUNC",
+            "0x681c"
+          ],
+          [
+            "JUMP",
+            "0x6adf6a"
+          ],
+          [
+            "PUSH",
+            "0x52"
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ]
+        ]
+      },
+      {
+        "fid": 30086,
+        "name": "呼出／オープニング",
+        "address": "0x6b637c",
+        "prior": [
+          [
+            "CALLFUNC",
+            "0x670b"
+          ],
+          [
+            "CALLFUNC",
+            "0x670d"
+          ],
+          [
+            "POP",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x64"
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "CALLFUNC",
+            "0x6a10"
+          ],
+          [
+            "POP",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x52"
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ]
+        ]
+      }
+    ],
+    "30093": [
+      {
+        "fid": 31738,
+        "name": "C_TestStart@<lambda : C_TestStart@HomebaseExec(bool, bool, int, int)(231, 20)>",
+        "address": "0x6af744",
+        "prior": [
+          [
+            "CALLMETHOD",
+            "0x0"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x2"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ],
+          [
+            "DELETE",
+            ""
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x2"
+          ],
+          [
+            "X_MOV",
+            "0x3 0x2"
+          ],
+          [
+            "X_ASSIGN",
+            "0x1"
+          ]
+        ]
+      },
+      {
+        "fid": 30087,
+        "name": "呼出／１日の始まり",
+        "address": "0x6b66f2",
+        "prior": [
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "RETURN",
+            ""
+          ],
+          [
+            "JUMP",
+            "0x6b674c"
+          ],
+          [
+            "CALLFUNC",
+            "0x6b5b"
+          ],
+          [
+            "SWITCH",
+            "0x225"
+          ],
+          [
+            "JUMP",
+            "0x6b674c"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x0"
+          ],
+          [
+            "X_REF",
+            "0x1"
+          ]
+        ]
+      }
+    ],
+    "30094": [
+      {
+        "fid": 30093,
+        "name": "呼出／日曜実行",
+        "address": "0x6b7b90",
+        "prior": [
+          [
+            "LTE",
+            ""
+          ],
+          [
+            "IFNZ",
+            "0x6b7b78"
+          ],
+          [
+            "JUMP",
+            "0x6b7b9c"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x3"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x2"
+          ]
+        ]
+      },
+      {
+        "fid": 30093,
+        "name": "呼出／日曜実行",
+        "address": "0x6b7f6a",
+        "prior": [
+          [
+            "LTE",
+            ""
+          ],
+          [
+            "IFNZ",
+            "0x6b7f52"
+          ],
+          [
+            "JUMP",
+            "0x6b7f9a"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x3"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x1"
+          ],
+          [
+            "PUSHLOCALPAGE",
+            ""
+          ],
+          [
+            "PUSH",
+            "0x2"
+          ]
+        ]
+      }
+    ]
+  },
+  "global_array_refs": [
+    {
+      "fid": 26658,
+      "name": "SystemFlagManager::Get",
+      "address": "0x54217e"
+    },
+    {
+      "fid": 26659,
+      "name": "SystemFlagManager::Set",
+      "address": "0x5421b0"
+    },
+    {
+      "fid": 26659,
+      "name": "SystemFlagManager::Set",
+      "address": "0x542202"
+    },
+    {
+      "fid": 26659,
+      "name": "SystemFlagManager::Set",
+      "address": "0x542240"
+    },
+    {
+      "fid": 26660,
+      "name": "SystemFlagManager::Add",
+      "address": "0x542280"
+    },
+    {
+      "fid": 26660,
+      "name": "SystemFlagManager::Add",
+      "address": "0x5422d2"
+    },
+    {
+      "fid": 26661,
+      "name": "SystemFlagManager::Erase",
+      "address": "0x54230e"
+    },
+    {
+      "fid": 26661,
+      "name": "SystemFlagManager::Erase",
+      "address": "0x542360"
+    },
+    {
+      "fid": 26661,
+      "name": "SystemFlagManager::Erase",
+      "address": "0x542396"
+    },
+    {
+      "fid": 26663,
+      "name": "SystemFlagManager::IsExist",
+      "address": "0x5423e2"
+    },
+    {
+      "fid": 26664,
+      "name": "SystemFlagManager::FillDefault",
+      "address": "0x542426"
+    },
+    {
+      "fid": 26664,
+      "name": "SystemFlagManager::FillDefault",
+      "address": "0x54244e"
+    },
+    {
+      "fid": 26664,
+      "name": "SystemFlagManager::FillDefault",
+      "address": "0x542520"
+    },
+    {
+      "fid": 26664,
+      "name": "SystemFlagManager::FillDefault",
+      "address": "0x54259e"
+    },
+    {
+      "fid": 26664,
+      "name": "SystemFlagManager::FillDefault",
+      "address": "0x5425c0"
+    },
+    {
+      "fid": 22322,
+      "name": "0",
+      "address": "0x9092d0"
+    },
+    {
+      "fid": 31837,
+      "name": "KR_Poke",
+      "address": "0x948c50"
+    },
+    {
+      "fid": 31837,
+      "name": "KR_Poke",
+      "address": "0x948c82"
+    },
+    {
+      "fid": 26656,
+      "name": "SystemFlagManager::Load",
+      "address": "0x94a96c"
+    },
+    {
+      "fid": 26656,
+      "name": "SystemFlagManager::Load",
+      "address": "0x94a99a"
+    },
+    {
+      "fid": 26656,
+      "name": "SystemFlagManager::Load",
+      "address": "0x94a9ca"
+    }
+  ]
+}

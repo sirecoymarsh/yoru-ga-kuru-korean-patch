@@ -1,0 +1,82 @@
+{
+ "status": "STAGED_NATIVE_PENDING",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "5f9b4cb43e393f6a9a9f269c3ac71e32e9262497f4495a034bbc2d50fe27d459"
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+  }
+ },
+ "source_sha256": "1af260f5adff8b79ccebf27a44401790dff1a7dce555d87985b8b090cbca99f6",
+ "forwarded": {
+  "KR_CCellRef": "KR_P29CellRef",
+  "KR_CCellName": "KR_P29CellName",
+  "KR_CCellWhen": "KR_P29CellWhen",
+  "KR_CCellCond": "KR_P29CellCond",
+  "KR_C24DrawCell": "KR_P29DrawCell",
+  "KR_CClear": "KR_P29Clear",
+  "KR_CCardPage": "KR_P29CardPage",
+  "KR_CEventPage": "KR_P29EventPage",
+  "KR_CPlayNote": "KR_P29PlayNote"
+ },
+ "added_functions": {
+  "KR_P29Mask": 32752,
+  "KR_P29CG": 32753,
+  "KR_P29Name": 32754,
+  "KR_P29Others": 32755,
+  "KR_P29Story": 32756,
+  "KR_P29CellRef": 32757,
+  "KR_P29CellName": 32758,
+  "KR_P29CellWhen": 32759,
+  "KR_P29CellCond": 32760,
+  "KR_P29ShortCond": 32761,
+  "KR_P29Part": 32762,
+  "KR_P29Mini": 32763,
+  "KR_P29Read": 32764,
+  "KR_P29Count": 32765,
+  "KR_P29Who": 32766,
+  "KR_P29Face": 32767,
+  "KR_P29DropMinis": 32768,
+  "KR_P29ClearBoard": 32769,
+  "KR_P29Clear": 32770,
+  "KR_P29DrawMinis": 32771,
+  "KR_P29ButtonEnabled": 32772,
+  "KR_P29Buttons": 32773,
+  "KR_P29Frame": 32774,
+  "KR_P29WaitRaw": 32775,
+  "KR_P29Board": 32776,
+  "KR_P29Run": 32777,
+  "KR_P29PlayNote": 32778,
+  "KR_P29DrawCell": 32779,
+  "KR_P29CardPage": 32780,
+  "KR_P29EventPage": 32781
+ },
+ "new_globals": 0,
+ "serialized_schema_changes": 0,
+ "old_code_prefix_exact": true,
+ "messages_exact": true,
+ "renamed_string_indices": [
+  20904,
+  21678,
+  21685,
+  21696
+ ],
+ "dll_string_patch": {
+  "offset": 85636,
+  "before": "74c7a4bcb8d220000cd55cb8b0c6200028ccb8d228002600450029000000",
+  "after": "74c7a4bcb8d2200098ceb0b954b328002600450029000000000000000000"
+ },
+ "mini_size": [
+  32,
+  40
+ ],
+ "detail_size": [
+  104,
+  130
+ ],
+ "summary_events": [
+  11
+ ],
+ "translator_model": "Codex internal"
+}

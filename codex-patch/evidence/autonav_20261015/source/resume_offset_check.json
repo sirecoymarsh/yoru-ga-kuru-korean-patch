@@ -1,0 +1,720 @@
+{
+ "candidate_ain": "1e96d3e797184a7a13236208988fe6ca3d37cf55f9e553f0ccc5ad7ed7659188",
+ "candidate_meta": "1ca82db5afe7e5899c64a2bfdd58998b384ff668fec36a529878f73c922a2f6a",
+ "base_ain": "3afdd2b1e11a107defa4b91465f97241e7ddc70fb681f0561e8b67fd897aa8f9",
+ "save_folder": "C:\\Users\\CadriacLord\\OneDrive\\문서\\AliceSoft\\밤이 온다! -Square of the MOON- Remastered\\SaveData_KR_UI_Integrated_20260913",
+ "read_only": true,
+ "stats": {
+  "resume_saves": 51,
+  "frames": 1256,
+  "frames_in_changed_functions": 65,
+  "other_format": 3,
+  "other_format_head_50535200": 3,
+  "not_resume_save": 2
+ },
+ "saves": 56,
+ "problems": [],
+ "open_on_stack": [
+  {
+   "save": "NightR22.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  },
+  {
+   "save": "NightR28.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  },
+  {
+   "save": "NightR43.asd",
+   "kinds": [
+    "choice"
+   ],
+   "chain": [
+    "C_SceneSaveLoad@RunSave",
+    "C_SceneSaveLoad@RunCommon",
+    "C_SceneSaveLoad@ExecSave",
+    "C_SceneSaveLoad@Save",
+    "AFL_GameSave_Save",
+    "gamesave::detail::Save"
+   ]
+  }
+ ],
+ "frames_in_changed_functions": [
+  {
+   "save": "NightR01.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032072,
+   "offset": 60,
+   "from_function_start": 60,
+   "to_sites": [
+    30
+   ]
+  },
+  {
+   "save": "NightR02.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032072,
+   "offset": 60,
+   "from_function_start": 60,
+   "to_sites": [
+    30
+   ]
+  },
+  {
+   "save": "NightR03.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR03.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5473622,
+   "offset": 2700,
+   "from_function_start": 2700,
+   "to_sites": [
+    2602
+   ]
+  },
+  {
+   "save": "NightR04.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR05.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR06.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR06.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5473686,
+   "offset": 2764,
+   "from_function_start": 2764,
+   "to_sites": [
+    2666
+   ]
+  },
+  {
+   "save": "NightR07.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR08.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR09.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR09.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5473718,
+   "offset": 2796,
+   "from_function_start": 2796,
+   "to_sites": [
+    2698
+   ]
+  },
+  {
+   "save": "NightR10.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR11.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR11.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5473782,
+   "offset": 2860,
+   "from_function_start": 2860,
+   "to_sites": [
+    2762
+   ]
+  },
+  {
+   "save": "NightR12.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR13.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR14.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR15.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR16.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR17.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR18.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR19.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR20.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR21.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR22.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR22.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5474134,
+   "offset": 3212,
+   "from_function_start": 3212,
+   "to_sites": [
+    3114
+   ]
+  },
+  {
+   "save": "NightR22.asd",
+   "fn": "ＥＶ／元／E00069",
+   "resume": 7338924,
+   "offset": 12776,
+   "from_function_start": 12776,
+   "to_sites": [
+    6
+   ]
+  },
+  {
+   "save": "NightR23.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR24.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR25.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR25.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5474550,
+   "offset": 3628,
+   "from_function_start": 3628,
+   "to_sites": [
+    3530
+   ]
+  },
+  {
+   "save": "NightR26.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR27.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR28.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR28.asd",
+   "fn": "ＥＶ／元／E30021",
+   "resume": 8363138,
+   "offset": 3278,
+   "from_function_start": 3278,
+   "to_sites": [
+    6
+   ]
+  },
+  {
+   "save": "NightR29.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR29.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5475466,
+   "offset": 4544,
+   "from_function_start": 4544,
+   "to_sites": [
+    4446
+   ]
+  },
+  {
+   "save": "NightR30.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR30.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5475732,
+   "offset": 4810,
+   "from_function_start": 4810,
+   "to_sites": [
+    4712
+   ]
+  },
+  {
+   "save": "NightR31.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR32.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR33.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR34.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR35.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR36.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR37.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR38.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR39.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR40.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR41.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR42.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR42.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5476402,
+   "offset": 5480,
+   "from_function_start": 5480,
+   "to_sites": [
+    5382
+   ]
+  },
+  {
+   "save": "NightR43.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR43.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5476442,
+   "offset": 5520,
+   "from_function_start": 5520,
+   "to_sites": [
+    5422
+   ]
+  },
+  {
+   "save": "NightR43.asd",
+   "fn": "ＥＶ／元／E30152",
+   "resume": 8379920,
+   "offset": 458,
+   "from_function_start": 458,
+   "to_sites": [
+    6
+   ]
+  },
+  {
+   "save": "NightR44.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR45.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR46.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR47.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR48.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR48.asd",
+   "fn": "L_EventCall::Check",
+   "resume": 5477520,
+   "offset": 6598,
+   "from_function_start": 6598,
+   "to_sites": [
+    6500
+   ]
+  },
+  {
+   "save": "NightR49.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR998.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  },
+  {
+   "save": "NightR999.asd",
+   "fn": "C_SceneGame@Run",
+   "resume": 6032194,
+   "offset": 182,
+   "from_function_start": 182,
+   "to_sites": [
+    152
+   ]
+  }
+ ],
+ "functions": [
+  "C_SceneGame@Run",
+  "L_EventCall::Check",
+  "ＥＶ／元／E00069",
+  "ＥＶ／元／E30021",
+  "ＥＶ／元／E30152"
+ ]
+}

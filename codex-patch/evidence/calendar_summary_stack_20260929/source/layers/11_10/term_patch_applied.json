@@ -1,0 +1,36 @@
+{
+ "term_file": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_term_alignment_20260929\\design\\term_alignment.json",
+ "term_file_sha256": "9c3df574a2dd76c5a2e6e9b415868c165d112aae049b0bae5181e2836c7cc7ca",
+ "generated_by": "Claude Opus 5.5 (claude-opus-5-5)",
+ "threshold": "high",
+ "strict": false,
+ "files": [
+  {
+   "path": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\calendar_october_summaries_20260929\\design\\summaries.json",
+   "term_folder": "october",
+   "file_sha_now": "e3d5b5340e6bedcec7321321e2f87874903495d6fdcd11f05adb3c864012fd59",
+   "file_sha_at_audit": "e498e58e1f98119ff546ae5e62aec301e464c6c3d3010fd41f6f4dbe4b7434a6"
+  }
+ ],
+ "events": [
+  {
+   "no": 5021,
+   "folder": "october",
+   "proposals": 1,
+   "eligible": 1,
+   "applied": [],
+   "skipped": [],
+   "skipped_summary": "summary changed since the audit (sha256 differs): all proposals of this summary skipped"
+  }
+ ],
+ "applied": 0,
+ "skipped_proposals": 0,
+ "skipped_summaries": 1,
+ "below_threshold": 0,
+ "changed_ids": [],
+ "gate_skipped": [],
+ "tag": "10",
+ "author": "Claude Opus 5.5 (claude-opus-5-5)",
+ "time": "2026-09-29T23:27:18.081184+09:00",
+ "note": "Applied to the baked text only; the summaries.json files are not modified."
+}

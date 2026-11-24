@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "changed_entries": [
+    1318,
+    1319
+  ],
+  "restored_wall_original_exact": true,
+  "bilingual_banners_unchanged": true,
+  "code_unchanged": {
+    "NightRemaster.ain": "a1f494a2974a2e2addb8fb7d44aa41ee6410190453be349a6a414a91612d76db",
+    "NightRemasterPact.afa": "45fc95e8e6013886ba83b577014f9958f7fd5b9a59eceb0fedd9d5bb2ce5bd8e"
+  },
+  "files": {
+    "NightRemasterCG.afa": "9a54dc07dc92e56b9d3caa667fca296d481e1601e9f14146d7037453ec151a0b"
+  },
+  "archive": {
+    "source_sha256": "7d8955c039b34627b646cd4982f521dface02f0df7abea681e70e759ecfc473e",
+    "candidate_sha256": "9a54dc07dc92e56b9d3caa667fca296d481e1601e9f14146d7037453ec151a0b",
+    "original_entries_preserved": 2836,
+    "replaced_ids": [
+      1318,
+      1319
+    ],
+    "appended": [],
+    "wrapper": "AFA3",
+    "metadata_identity": "PASS (names/order/unknown fields)",
+    "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+    "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\club_wall_cancel_20260924\\NightRemasterCG.afa"
+  }
+}

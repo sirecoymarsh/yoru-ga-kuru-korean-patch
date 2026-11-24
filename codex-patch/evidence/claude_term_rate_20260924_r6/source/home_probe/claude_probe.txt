@@ -1,0 +1,24 @@
+resume loading
+toggle=1
+SHOT home_probe_0.bmp
+text=飄跪　　 ${font r=128 g=224 b=255}30.5%${/font}
+ＣＧ　　 ${font r=128 g=224 b=255}23.3%${/font}
+綛跂　　 ${font r=128 g=224 b=255}34.8%${/font}
+裴霓　　 ${font r=128 g=224 b=255}0 / 5${/font}
+蝟轤聘　 ${font r=128 g=224 b=255}14.6%${/font}
+
+${font r=255 g=224 b=96}艾鋏脣轆 蝟轤聘${/font}
+蝟薇遯　 ${font r=128 g=224 b=255}7.9%${/font}
+臈苣　　 ${font r=128 g=224 b=255}9.3%${/font}
+鉋鬮遯　 ${font r=128 g=224 b=255}4.9%${/font}
+鉋與肬　 ${font r=128 g=224 b=255}5.5%${/font}
+謫苣蝟　 ${font r=128 g=224 b=255}3.6%${/font}
+緘謨苣衙 ${font r=128 g=224 b=255}3.7%${/font}
+酘酘賁　 ${font r=128 g=224 b=255}4.6%${/font}
+SHOT home_probe_1.bmp
+areas=1
+SHOT home_probe_2.bmp
+SHOT home_probe_3.bmp
+mods=Asra\Mods.pact
+toggle part present
+SHOT home_probe_4.bmp

@@ -1,0 +1,8 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\staging\\claude_term_rate_20260924_r11\\NightRemaster.ain",
+  "source_sha256": "d1aad0fb1890650d3e0fcd45da1cc2a1bcc249add9f044236df842727b4635d6",
+  "probe_sha256": "5fa9b8f0da4d79d01322763a66be4795a24250e6481c864d3c6e1e0d27de9d83",
+  "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+  "input": "Resume of a copied NightR36.asd; the first WaitForClick runs the r5 colour stages; no walking, no save.",
+  "author": "Claude Opus 5.5 (claude-opus-5-5)"
+}

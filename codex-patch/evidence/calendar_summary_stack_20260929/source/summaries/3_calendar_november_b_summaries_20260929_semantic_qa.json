@@ -1,0 +1,121 @@
+{
+ "status": "second_pass_complete",
+ "checked_at": "2026-09-29T21:24:52.873156+09:00",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "author": "Claude Opus 5.5 (claude-opus-5-5) via Claude Code, user handoff 2026-09-29",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) (same agent, read-only second pass: every team B packet reopened and re-read in Japanese)",
+ "scope": "November team B: even batch indexes [2, 4, 6, 8, 10, 12] of design/batches.json",
+ "reviewed_events": 53,
+ "reviewed_events_with_text": 47,
+ "excluded_events_confirmed": [
+  996,
+  10523,
+  20523,
+  30523,
+  40523,
+  50007
+ ],
+ "reviewed_japanese_messages": 11972,
+ "checks": [
+  "(a) only facts that are in the scene",
+  "(b) actor/speaker not swapped",
+  "(c) no other scene or branch mixed in",
+  "unnamed speakers (女, 少女, 男, 声) not identified by guess",
+  "variant pairs compared line by line (JP diff) so each summary names only its own difference"
+ ],
+ "method_note": "First pass read every packet (JP and installed KR) in full. Second pass reopened every packet in Japanese (work/review_print.py); for the four ending variants 20521/30521/40521 and 10521 the JP diff against the fully re-read twin (20522/30522/40522/10522) shows only the Shinkai-status lines differ.",
+ "source_sha256": "79ea0d9bc1e4f3e3961298e37523e12ecedf15dd981f521413e8394837051f78",
+ "summary_sha256": "03205c3a73090d4b18f48494616124dbb3d641a76cb63f0cd268b600aa0fa700",
+ "verdicts": {
+  "ok": 41,
+  "fix": 6,
+  "excluded-ok": 6
+ },
+ "findings": [
+  {
+   "no": 651,
+   "e": "E00651",
+   "message_id": 32070,
+   "severity": "P3",
+   "type": "fact",
+   "source": "叫んで俺は新開さんの側に駆け寄る。",
+   "before": "뜯어말린다",
+   "after": "말리려 뛰어든다",
+   "why": "뜯어말리다는 떼어 놓는 데 성공했다는 뜻인데, 원문은 소리치며 달려들었다가 먼저 얻어맞는다",
+   "summary_before": "만보계를 선물하러 온 주인공이 이즈미를 덮친 신카이를 보고 뜯어말린다. 격분한 신카이에게 일방적으로 얻어맞은 주인공은 이즈미와 쿄카, 마나미의 비명 속에 정신을 잃어 간다.",
+   "summary_after": "만보계를 선물하러 온 주인공이 이즈미를 덮친 신카이를 보고 말리려 뛰어든다. 격분한 신카이에게 일방적으로 얻어맞은 주인공은 이즈미와 쿄카, 마나미의 비명 속에 정신을 잃어 간다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 901,
+   "e": "E00901",
+   "message_id": 33223,
+   "severity": "P3",
+   "type": "mix",
+   "source": "「よし、そうと決まれば行動開始だ。俺たちの手で…この夜を終わらせるんだ！」",
+   "before": "이즈미와 신카이를 찾아 나서기로 한다",
+   "after": "자신들의 손으로 밤을 끝내기로 한다",
+   "why": "이 장면의 결론은 행동 개시와 밤을 끝내겠다는 결의이고 이즈미 합류는 희망(合流できれば)일 뿐; 이즈미를 찾아 나서는 결정은 뒤 장면(E00905)의 내용",
+   "summary_before": "푸른 달빛에 잠긴 밤, 괴물을 물리친 주인공이 잃었던 기억을 되찾는다. 마코토의 은신처에 모인 일행은 참된 밤이 시작됐다는 설명을 듣고 이즈미와 신카이를 찾아 나서기로 한다.",
+   "summary_after": "푸른 달빛에 잠긴 밤, 괴물을 물리친 주인공이 잃었던 기억을 되찾는다. 마코토의 은신처에 모인 일행은 참된 밤이 시작됐다는 설명을 듣고 자신들의 손으로 밤을 끝내기로 한다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 910,
+   "e": "E00910",
+   "message_id": 34709,
+   "severity": "P3",
+   "type": "wording",
+   "source": "「お互い無事でいられたら、続きの言葉を聞くよ」",
+   "before": "살아서",
+   "after": "서로 무사하면",
+   "why": "원문의 조건은 서로 무사하면; 살아서는 뜻을 좁힘",
+   "summary_before": "결전 전야, 사카키는 호시카와에게 미즈키를 데리러 가 달라고 부탁한다. 끝까지 함께 싸워 달라며 모모세를 찾아간 이즈미는 고백하려는 모모세에게 뒷말은 살아서 듣겠다고 한다.",
+   "summary_after": "결전 전야, 사카키는 호시카와에게 미즈키를 데리러 가 달라고 부탁한다. 끝까지 함께 싸워 달라며 모모세를 찾아간 이즈미는 고백하려는 모모세에게 뒷말은 서로 무사하면 듣겠다고 한다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 20201,
+   "e": "E20201",
+   "message_id": 49725,
+   "severity": "P3",
+   "type": "fact",
+   "source": "鏡花の部屋の前までやってきて、俺は扉の向こうに声をかける。",
+   "before": "뒤따라간",
+   "after": "방으로 찾아간",
+   "why": "주인공은 곧장 뒤쫓지 않고 이즈미와 먼저 이야기한 뒤 쿄카의 방으로 간다",
+   "summary_before": "결전 전야, 이즈미와 옛일을 이야기하던 쿄카가 울며 뛰쳐나간다. 뒤따라간 주인공은 소지를 좋아했던 일과 언니의 분노를 털어놓는 쿄카에게 곁에 있겠다며 손을 내민다.",
+   "summary_after": "결전 전야, 이즈미와 옛일을 이야기하던 쿄카가 울며 뛰쳐나간다. 방으로 찾아간 주인공은 소지를 좋아했던 일과 언니의 분노를 털어놓는 쿄카에게 곁에 있겠다며 손을 내민다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 30101,
+   "e": "E30101",
+   "message_id": 59575,
+   "severity": "P3",
+   "type": "fact",
+   "source": "真言美ちゃんと付き合い出してからの記憶が、ところどころ抜けている事に気付いたのは、数日前だ。",
+   "before": "두 사람이 사귀게 된 경위 / 그 무렵의 기억이 비어 있음",
+   "after": "사귀게 된 경위 / 사귄 뒤의 기억이 군데군데 비어 있음",
+   "why": "비어 있는 것은 사귀기 시작한 뒤의 기억 일부; 모호한 그 무렵을 원문대로 바꾸고 100자 한도 때문에 두 사람이를 뺌",
+   "summary_before": "마나미와 데이트하며 관계를 가진 주인공이 헤어질 무렵 두 사람이 사귀게 된 경위를 다그쳐 묻는다. 겁먹은 마나미는 울며 떠나고, 주인공은 그 무렵의 기억이 비어 있음을 곱씹는다.",
+   "summary_after": "마나미와 데이트하며 관계를 가진 주인공이 헤어질 무렵 사귀게 된 경위를 다그쳐 묻는다. 겁먹은 마나미는 울며 떠나고, 주인공은 사귄 뒤의 기억이 군데군데 비어 있음을 곱씹는다.",
+   "status": "resolved by primary"
+  },
+  {
+   "no": 40161,
+   "e": "E40161",
+   "message_id": 55096,
+   "severity": "P2",
+   "type": "fact",
+   "source": "俺はマコトのため…、いや誰よりも俺自身のために――「夜を……終わらせる」",
+   "before": "마음을 확인하고 맺어진 뒤 주인공은 마코토를 위해",
+   "after": "맺어진 뒤 주인공은 누구보다 자기 자신을 위해",
+   "why": "주인공이 스스로 고쳐 말한 앞부분(마코토를 위해)만 따서 동기를 바꿔 놓았음; 100자 한도 때문에 마음을 확인하고를 뺌",
+   "summary_before": "결전 전야, 잠든 키라라 곁에서 자책하며 벽을 치는 마코토를 주인공이 붙잡고 아픔까지 받아 주겠다고 말한다. 마음을 확인하고 맺어진 뒤 주인공은 마코토를 위해 밤을 끝내기로 한다.",
+   "summary_after": "결전 전야, 잠든 키라라 곁에서 자책하며 벽을 치는 마코토를 주인공이 붙잡고 아픔까지 받아 주겠다고 말한다. 맺어진 뒤 주인공은 누구보다 자기 자신을 위해 밤을 끝내기로 한다.",
+   "status": "resolved by primary"
+  }
+ ],
+ "unresolved": []
+}

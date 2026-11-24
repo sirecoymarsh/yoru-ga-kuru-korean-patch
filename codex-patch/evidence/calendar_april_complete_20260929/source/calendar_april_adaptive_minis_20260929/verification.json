@@ -1,0 +1,637 @@
+{
+ "status": "APRIL_ADAPTIVE_MINIS_NATIVE_PASS_NOT_INSTALLED",
+ "candidate_sha256": "7579a581f60e989d07f9abca13e4bc620aa6f65952974bbddbf0fa99e5f107d3",
+ "april_cells": 143,
+ "fixture_states": [
+  "all read",
+  "none read",
+  "mixed"
+ ],
+ "increased_cells": {
+  "1": {
+   "cast": 5,
+   "shown": 4
+  },
+  "2": {
+   "cast": 5,
+   "shown": 4
+  },
+  "121": {
+   "cast": 5,
+   "shown": 5
+  }
+ },
+ "native_counts": {
+  "1": {
+   "cast": 5,
+   "shown": 4
+  },
+  "2": {
+   "cast": 5,
+   "shown": 4
+  },
+  "121": {
+   "cast": 5,
+   "shown": 5
+  },
+  "2601": {
+   "cast": 1,
+   "shown": 1
+  },
+  "20001": {
+   "cast": 2,
+   "shown": 2
+  },
+  "8": {
+   "cast": 3,
+   "shown": 3
+  },
+  "4": {
+   "cast": 2,
+   "shown": 2
+  },
+  "10001": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1101": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1102": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1103": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1104": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1108": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1109": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1001": {
+   "cast": 0,
+   "shown": 0
+  },
+  "1002": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1003": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1004": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1005": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1006": {
+   "cast": 2,
+   "shown": 2
+  },
+  "5011": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2001": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2002": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2003": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2004": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2005": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2006": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2007": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2008": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2009": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2061": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2062": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2063": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2064": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2065": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2066": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2067": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2081": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2082": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2083": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2084": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2085": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2086": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2087": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2421": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2422": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2423": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2424": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2425": {
+   "cast": 2,
+   "shown": 2
+  },
+  "5001": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1201": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1203": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1204": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1205": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1208": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1209": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1210": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1081": {
+   "cast": 0,
+   "shown": 0
+  },
+  "1082": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1083": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1084": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1085": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1086": {
+   "cast": 2,
+   "shown": 2
+  },
+  "5012": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2161": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2162": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2163": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2164": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2165": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2166": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2167": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2168": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2169": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2181": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2182": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2183": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2184": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2185": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2186": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2187": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2188": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2189": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2190": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2191": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2192": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2193": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2194": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2441": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2442": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2443": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2444": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2445": {
+   "cast": 2,
+   "shown": 2
+  },
+  "5002": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1501": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1502": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1503": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1504": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1505": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1506": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1041": {
+   "cast": 0,
+   "shown": 0
+  },
+  "1042": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1043": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1044": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1045": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1046": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2361": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2362": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2363": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2364": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2365": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2366": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2367": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2368": {
+   "cast": 3,
+   "shown": 3
+  },
+  "2501": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2502": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2503": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2504": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2505": {
+   "cast": 2,
+   "shown": 2
+  },
+  "5003": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1601": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1602": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1603": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1604": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1605": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1606": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1607": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1608": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1609": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1610": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1051": {
+   "cast": 0,
+   "shown": 0
+  },
+  "1052": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1053": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1054": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1055": {
+   "cast": 2,
+   "shown": 2
+  },
+  "1056": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2521": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2522": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2523": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2524": {
+   "cast": 2,
+   "shown": 2
+  },
+  "2525": {
+   "cast": 2,
+   "shown": 2
+  },
+  "5004": {
+   "cast": 2,
+   "shown": 2
+  },
+  "5000": {
+   "cast": 1,
+   "shown": 1
+  },
+  "6001": {
+   "cast": 1,
+   "shown": 1
+  }
+ },
+ "display_max": 5,
+ "portrait_size": [
+  32,
+  40
+ ],
+ "layout_capacity": 8,
+ "unused_width_measured": true,
+ "maximal_count_fits": true,
+ "overflow_count_exact": true,
+ "text_cg_collision_checks": true,
+ "unread_portraits_hidden": true,
+ "extra_parts_removed_on_page_month_close": true,
+ "pixel_exact_baselines": [
+  "april_detail_readable",
+  "april_detail_e10001",
+  "april_detail_e20001",
+  "april_detail_e00121",
+  "april_detail_short",
+  "april_detail_group",
+  "april_detail_group_scene3",
+  "april_detail_unread_open",
+  "april_detail_unread_locked",
+  "april_scene_picker",
+  "may_detail_unchanged",
+  "may_list_unchanged",
+  "may_list_after_april"
+ ],
+ "list_return_exact": true,
+ "title_return_exact": true,
+ "save_schema_unchanged": true,
+ "scenario_messages_unchanged": true,
+ "live_and_playing_preview_files_unchanged": true,
+ "user_save_files_changed": [],
+ "audio": "Master mixer muted before initialization; config mute writes forced on; audio playback/timing retained.",
+ "pid": 72356,
+ "limitations": [
+  "April only; other months retain their existing three-portrait layout.",
+  "Not installed or copied over the running preview."
+ ]
+}

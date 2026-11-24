@@ -1,0 +1,70 @@
+{
+ "status": "reviewed_and_fixed",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - same-model read-only second pass (the author re-opened every scene against the frozen source; not an independent reviewer)",
+ "reviewed_at": "2026-09-29T21:22:39.727634+09:00",
+ "reviewed_events": 28,
+ "reviewed_japanese_messages": 727,
+ "checks": [
+  "(a) only facts present in the Japanese source",
+  "(b) speaker / actor / order of acts unchanged",
+  "(c) no content from another scene or choice branch"
+ ],
+ "method": "qa_view.py prints every scene as speaker-joined Japanese turns with the current summary; each summary claim was checked against the lines",
+ "source_sha256": "feedcba4125592c1b359b40f14bb8c5070b8fb72d2697564c2be4e01c50ad215",
+ "summary_sha256": "70ef3828e076bc363dbf575e0aff134d6d6ff1bb68940086355e710e53b95681",
+ "findings": [
+  {
+   "no": 122,
+   "message_id": 5849,
+   "severity": "P3",
+   "before": "선택 화면 표시만 있다.",
+   "after": "선택 화면으로 넘기는 메모만 있다.",
+   "reason": "원문 마지막 줄은 선택 화면으로 넘어가라는 제작 메모다. 화면 표시가 아니다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 202,
+   "message_id": 22974,
+   "severity": "P3",
+   "before": "모두 찬성해",
+   "after": "마코토와 주인공, 마나미가 찬성해",
+   "reason": "찬성을 말한 것은 마코토·주인공·마나미뿐이고 쿄카는 찬반을 말하지 않는다. 전원 찬성으로 넓혀 쓰여 있었다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 227,
+   "message_id": 23286,
+   "severity": "P3",
+   "before": "특훈 성과는 충분했다며",
+   "after": "특훈 성과는 나왔다며",
+   "reason": "원문은 성과는 나왔다는 말이다. 충분했다는 강조는 원문에 없다(설치 한국어가 충분히를 덧붙였다).",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 231,
+   "message_id": 23426,
+   "severity": "P3",
+   "before": "특훈 성과는 충분했다며",
+   "after": "특훈 성과는 나왔다며",
+   "reason": "원문은 성과는 나왔다고 본다는 말이다. 충분했다는 강조는 원문에 없다.",
+   "status": "resolved by author (same-model second pass)"
+  },
+  {
+   "no": 2127,
+   "message_id": 96309,
+   "severity": "P3",
+   "before": "스카우트한 보람이 있다고",
+   "after": "스카우트한 자기 눈이 옳았다고",
+   "reason": "원문은 스카우트한 자기 안목이 틀리지 않았다는 말이다. 보람이라는 뜻으로 바뀌어 있었다.",
+   "status": "resolved by author (same-model second pass)"
+  }
+ ],
+ "unresolved": [],
+ "excluded": [
+  {
+   "no": 123,
+   "note": "원문이 제작 메모 한 줄(처음 던전에 들어갈 때의 설명 자리)뿐이고 대사·지문이 없어 요약할 서사가 없다. 부르는 자리도 없다."
+  }
+ ]
+}

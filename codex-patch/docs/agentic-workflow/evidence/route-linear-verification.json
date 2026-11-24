@@ -1,0 +1,1437 @@
+{
+  "status": "ROUTE_LINEAR_STATIC_PASS_NATIVE_PENDING",
+  "files": {
+    "NightRemaster.ain": "0130135eff6c1b156a76f2fa9505addae18d5b2bdbaedc27ab711a54e368ad39"
+  },
+  "compiled_cases": 152,
+  "cases": [
+    {
+      "case": "ordinary corridor",
+      "length": 7,
+      "goal": [
+        8,
+        1
+      ],
+      "compiled_instructions": 64042,
+      "cells": 900
+    },
+    {
+      "case": "equal distance row-major goal 1001",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63903,
+      "cells": 900
+    },
+    {
+      "case": "exclude start goal 1001",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63917,
+      "cells": 900
+    },
+    {
+      "case": "blocked start seed 1001",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63903,
+      "cells": 900
+    },
+    {
+      "case": "removed goals 1001",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63903,
+      "cells": 900
+    },
+    {
+      "case": "equal distance row-major goal 202",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63747,
+      "cells": 900
+    },
+    {
+      "case": "exclude start goal 202",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63783,
+      "cells": 900
+    },
+    {
+      "case": "blocked start seed 202",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63747,
+      "cells": 900
+    },
+    {
+      "case": "removed goals 202",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 70489,
+      "cells": 900
+    },
+    {
+      "case": "equal distance row-major goal 203",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 67458,
+      "cells": 900
+    },
+    {
+      "case": "exclude start goal 203",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 67497,
+      "cells": 900
+    },
+    {
+      "case": "blocked start seed 203",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 67458,
+      "cells": 900
+    },
+    {
+      "case": "removed goals 203",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 74189,
+      "cells": 900
+    },
+    {
+      "case": "equal distance row-major goal 204",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63947,
+      "cells": 900
+    },
+    {
+      "case": "exclude start goal 204",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63983,
+      "cells": 900
+    },
+    {
+      "case": "blocked start seed 204",
+      "length": 2,
+      "goal": [
+        2,
+        0
+      ],
+      "compiled_instructions": 63947,
+      "cells": 900
+    },
+    {
+      "case": "removed goals 204",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 70689,
+      "cells": 900
+    },
+    {
+      "case": "blocked priority does not advance",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 65601,
+      "cells": 900
+    },
+    {
+      "case": "advance to next event group after removal",
+      "length": 1,
+      "goal": [
+        2,
+        1
+      ],
+      "compiled_instructions": 64901,
+      "cells": 900
+    },
+    {
+      "case": "sub4 fallback only after0..3 removed",
+      "length": 2,
+      "goal": [
+        3,
+        1
+      ],
+      "compiled_instructions": 65310,
+      "cells": 900
+    },
+    {
+      "case": "wall blocks",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 61070,
+      "cells": 900
+    },
+    {
+      "case": "story removed wall passes",
+      "length": 2,
+      "goal": [
+        3,
+        1
+      ],
+      "compiled_instructions": 61665,
+      "cells": 900
+    },
+    {
+      "case": "ordinary wall stays blocked",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 61072,
+      "cells": 900
+    },
+    {
+      "case": "no goal",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 61006,
+      "cells": 900
+    },
+    {
+      "case": "full900open worst distance",
+      "length": 58,
+      "goal": [
+        29,
+        29
+      ],
+      "compiled_instructions": 431562,
+      "cells": 900
+    },
+    {
+      "case": "long snake path",
+      "length": 463,
+      "goal": [
+        29,
+        28
+      ],
+      "compiled_instructions": 289339,
+      "cells": 900
+    },
+    {
+      "case": "native department201 at(14, 28)",
+      "length": 37,
+      "goal": [
+        14,
+        1
+      ],
+      "compiled_instructions": 187626,
+      "cells": 900
+    },
+    {
+      "case": "native department201 at(7, 1)",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 84400,
+      "cells": 900
+    },
+    {
+      "case": "native department201 at(19, 8)",
+      "length": 24,
+      "goal": [
+        14,
+        1
+      ],
+      "compiled_instructions": 153330,
+      "cells": 900
+    },
+    {
+      "case": "native department201 at(21, 16)",
+      "length": 28,
+      "goal": [
+        14,
+        1
+      ],
+      "compiled_instructions": 175196,
+      "cells": 900
+    },
+    {
+      "case": "native department201 at(9, 24)",
+      "length": 32,
+      "goal": [
+        14,
+        1
+      ],
+      "compiled_instructions": 187396,
+      "cells": 900
+    },
+    {
+      "case": "native department202 at(14, 2)",
+      "length": 42,
+      "goal": [
+        28,
+        24
+      ],
+      "compiled_instructions": 186969,
+      "cells": 900
+    },
+    {
+      "case": "native department202 at(10, 1)",
+      "length": 43,
+      "goal": [
+        28,
+        24
+      ],
+      "compiled_instructions": 187015,
+      "cells": 900
+    },
+    {
+      "case": "native department202 at(8, 9)",
+      "length": 37,
+      "goal": [
+        28,
+        24
+      ],
+      "compiled_instructions": 186739,
+      "cells": 900
+    },
+    {
+      "case": "native department202 at(17, 17)",
+      "length": 58,
+      "goal": [
+        28,
+        24
+      ],
+      "compiled_instructions": 187705,
+      "cells": 900
+    },
+    {
+      "case": "native department202 at(17, 24)",
+      "length": 11,
+      "goal": [
+        28,
+        24
+      ],
+      "compiled_instructions": 105513,
+      "cells": 900
+    },
+    {
+      "case": "native department203 at(0, 23)",
+      "length": 17,
+      "goal": [
+        15,
+        25
+      ],
+      "compiled_instructions": 117367,
+      "cells": 900
+    },
+    {
+      "case": "native department203 at(9, 1)",
+      "length": 43,
+      "goal": [
+        15,
+        24
+      ],
+      "compiled_instructions": 182358,
+      "cells": 900
+    },
+    {
+      "case": "native department203 at(18, 7)",
+      "length": 30,
+      "goal": [
+        15,
+        24
+      ],
+      "compiled_instructions": 181760,
+      "cells": 900
+    },
+    {
+      "case": "native department203 at(8, 16)",
+      "length": 15,
+      "goal": [
+        15,
+        24
+      ],
+      "compiled_instructions": 120136,
+      "cells": 900
+    },
+    {
+      "case": "native department203 at(22, 21)",
+      "length": 10,
+      "goal": [
+        15,
+        24
+      ],
+      "compiled_instructions": 125667,
+      "cells": 900
+    },
+    {
+      "case": "native department203 at(18, 25)",
+      "length": 3,
+      "goal": [
+        15,
+        25
+      ],
+      "compiled_instructions": 91095,
+      "cells": 900
+    },
+    {
+      "case": "native203 event phase0",
+      "length": 36,
+      "goal": [
+        15,
+        24
+      ],
+      "compiled_instructions": 182036,
+      "cells": 900
+    },
+    {
+      "case": "native203 event phase1",
+      "length": 15,
+      "goal": [
+        22,
+        10
+      ],
+      "compiled_instructions": 124150,
+      "cells": 900
+    },
+    {
+      "case": "native203 event phase2",
+      "length": 10,
+      "goal": [
+        21,
+        6
+      ],
+      "compiled_instructions": 111273,
+      "cells": 900
+    },
+    {
+      "case": "native203 event phase3",
+      "length": 1,
+      "goal": [
+        14,
+        2
+      ],
+      "compiled_instructions": 84761,
+      "cells": 900
+    },
+    {
+      "case": "native203 event phase4",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 228143,
+      "cells": 900
+    },
+    {
+      "case": "native department204 at(14, 3)",
+      "length": 57,
+      "goal": [
+        6,
+        22
+      ],
+      "compiled_instructions": 175505,
+      "cells": 900
+    },
+    {
+      "case": "native department204 at(9, 1)",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 88099,
+      "cells": 900
+    },
+    {
+      "case": "native department204 at(18, 8)",
+      "length": 52,
+      "goal": [
+        6,
+        22
+      ],
+      "compiled_instructions": 175275,
+      "cells": 900
+    },
+    {
+      "case": "native department204 at(24, 18)",
+      "length": 34,
+      "goal": [
+        6,
+        22
+      ],
+      "compiled_instructions": 174447,
+      "cells": 900
+    },
+    {
+      "case": "native department204 at(10, 24)",
+      "length": 8,
+      "goal": [
+        6,
+        22
+      ],
+      "compiled_instructions": 92238,
+      "cells": 900
+    },
+    {
+      "case": "random0",
+      "length": 23,
+      "goal": [
+        12,
+        9
+      ],
+      "compiled_instructions": 89033,
+      "cells": 900
+    },
+    {
+      "case": "random1",
+      "length": 20,
+      "goal": [
+        13,
+        6
+      ],
+      "compiled_instructions": 128843,
+      "cells": 900
+    },
+    {
+      "case": "random2",
+      "length": 8,
+      "goal": [
+        9,
+        6
+      ],
+      "compiled_instructions": 97229,
+      "cells": 900
+    },
+    {
+      "case": "random3",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 130268,
+      "cells": 900
+    },
+    {
+      "case": "random4",
+      "length": 12,
+      "goal": [
+        3,
+        10
+      ],
+      "compiled_instructions": 115256,
+      "cells": 900
+    },
+    {
+      "case": "random5",
+      "length": 15,
+      "goal": [
+        12,
+        4
+      ],
+      "compiled_instructions": 97106,
+      "cells": 900
+    },
+    {
+      "case": "random6",
+      "length": 3,
+      "goal": [
+        7,
+        1
+      ],
+      "compiled_instructions": 72379,
+      "cells": 900
+    },
+    {
+      "case": "random7",
+      "length": 17,
+      "goal": [
+        3,
+        14
+      ],
+      "compiled_instructions": 115198,
+      "cells": 900
+    },
+    {
+      "case": "random8",
+      "length": 10,
+      "goal": [
+        12,
+        9
+      ],
+      "compiled_instructions": 92184,
+      "cells": 900
+    },
+    {
+      "case": "random9",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 123513,
+      "cells": 900
+    },
+    {
+      "case": "random10",
+      "length": 24,
+      "goal": [
+        6,
+        0
+      ],
+      "compiled_instructions": 128214,
+      "cells": 900
+    },
+    {
+      "case": "random11",
+      "length": 7,
+      "goal": [
+        5,
+        8
+      ],
+      "compiled_instructions": 78560,
+      "cells": 900
+    },
+    {
+      "case": "random12",
+      "length": 12,
+      "goal": [
+        8,
+        13
+      ],
+      "compiled_instructions": 104704,
+      "cells": 900
+    },
+    {
+      "case": "random13",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 124061,
+      "cells": 900
+    },
+    {
+      "case": "random14",
+      "length": 4,
+      "goal": [
+        2,
+        5
+      ],
+      "compiled_instructions": 74075,
+      "cells": 900
+    },
+    {
+      "case": "random15",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 131638,
+      "cells": 900
+    },
+    {
+      "case": "random16",
+      "length": 2,
+      "goal": [
+        2,
+        9
+      ],
+      "compiled_instructions": 70920,
+      "cells": 900
+    },
+    {
+      "case": "random17",
+      "length": 6,
+      "goal": [
+        11,
+        9
+      ],
+      "compiled_instructions": 75956,
+      "cells": 900
+    },
+    {
+      "case": "random18",
+      "length": 18,
+      "goal": [
+        11,
+        9
+      ],
+      "compiled_instructions": 96308,
+      "cells": 900
+    },
+    {
+      "case": "random19",
+      "length": 3,
+      "goal": [
+        12,
+        10
+      ],
+      "compiled_instructions": 71727,
+      "cells": 900
+    },
+    {
+      "case": "random20",
+      "length": 4,
+      "goal": [
+        10,
+        2
+      ],
+      "compiled_instructions": 75970,
+      "cells": 900
+    },
+    {
+      "case": "random21",
+      "length": 16,
+      "goal": [
+        3,
+        12
+      ],
+      "compiled_instructions": 121091,
+      "cells": 900
+    },
+    {
+      "case": "random22",
+      "length": 6,
+      "goal": [
+        10,
+        7
+      ],
+      "compiled_instructions": 88075,
+      "cells": 900
+    },
+    {
+      "case": "random23",
+      "length": 15,
+      "goal": [
+        12,
+        13
+      ],
+      "compiled_instructions": 106517,
+      "cells": 900
+    },
+    {
+      "case": "random24",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 67286,
+      "cells": 900
+    },
+    {
+      "case": "random25",
+      "length": 1,
+      "goal": [
+        7,
+        12
+      ],
+      "compiled_instructions": 66157,
+      "cells": 900
+    },
+    {
+      "case": "random26",
+      "length": 12,
+      "goal": [
+        12,
+        2
+      ],
+      "compiled_instructions": 119497,
+      "cells": 900
+    },
+    {
+      "case": "random27",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 81218,
+      "cells": 900
+    },
+    {
+      "case": "random28",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 70991,
+      "cells": 900
+    },
+    {
+      "case": "random29",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 121503,
+      "cells": 900
+    },
+    {
+      "case": "random30",
+      "length": 7,
+      "goal": [
+        14,
+        1
+      ],
+      "compiled_instructions": 83168,
+      "cells": 900
+    },
+    {
+      "case": "random31",
+      "length": 4,
+      "goal": [
+        9,
+        5
+      ],
+      "compiled_instructions": 73744,
+      "cells": 900
+    },
+    {
+      "case": "random32",
+      "length": 17,
+      "goal": [
+        12,
+        13
+      ],
+      "compiled_instructions": 119805,
+      "cells": 900
+    },
+    {
+      "case": "random33",
+      "length": 11,
+      "goal": [
+        14,
+        6
+      ],
+      "compiled_instructions": 100149,
+      "cells": 900
+    },
+    {
+      "case": "random34",
+      "length": 5,
+      "goal": [
+        9,
+        13
+      ],
+      "compiled_instructions": 73230,
+      "cells": 900
+    },
+    {
+      "case": "random35",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 129571,
+      "cells": 900
+    },
+    {
+      "case": "random36",
+      "length": 3,
+      "goal": [
+        7,
+        2
+      ],
+      "compiled_instructions": 72618,
+      "cells": 900
+    },
+    {
+      "case": "random37",
+      "length": 17,
+      "goal": [
+        12,
+        1
+      ],
+      "compiled_instructions": 115941,
+      "cells": 900
+    },
+    {
+      "case": "random38",
+      "length": 1,
+      "goal": [
+        1,
+        10
+      ],
+      "compiled_instructions": 70059,
+      "cells": 900
+    },
+    {
+      "case": "random39",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 124389,
+      "cells": 900
+    },
+    {
+      "case": "random40",
+      "length": 9,
+      "goal": [
+        2,
+        6
+      ],
+      "compiled_instructions": 96675,
+      "cells": 900
+    },
+    {
+      "case": "random41",
+      "length": 18,
+      "goal": [
+        10,
+        6
+      ],
+      "compiled_instructions": 98682,
+      "cells": 900
+    },
+    {
+      "case": "random42",
+      "length": 7,
+      "goal": [
+        9,
+        8
+      ],
+      "compiled_instructions": 94090,
+      "cells": 900
+    },
+    {
+      "case": "random43",
+      "length": 9,
+      "goal": [
+        7,
+        1
+      ],
+      "compiled_instructions": 90860,
+      "cells": 900
+    },
+    {
+      "case": "random44",
+      "length": 10,
+      "goal": [
+        7,
+        11
+      ],
+      "compiled_instructions": 83232,
+      "cells": 900
+    },
+    {
+      "case": "random45",
+      "length": 12,
+      "goal": [
+        13,
+        9
+      ],
+      "compiled_instructions": 101222,
+      "cells": 900
+    },
+    {
+      "case": "random46",
+      "length": 8,
+      "goal": [
+        10,
+        6
+      ],
+      "compiled_instructions": 93033,
+      "cells": 900
+    },
+    {
+      "case": "random47",
+      "length": 11,
+      "goal": [
+        7,
+        7
+      ],
+      "compiled_instructions": 82252,
+      "cells": 900
+    },
+    {
+      "case": "random48",
+      "length": 8,
+      "goal": [
+        7,
+        9
+      ],
+      "compiled_instructions": 79865,
+      "cells": 900
+    },
+    {
+      "case": "random49",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 125901,
+      "cells": 900
+    },
+    {
+      "case": "random50",
+      "length": 4,
+      "goal": [
+        0,
+        14
+      ],
+      "compiled_instructions": 74165,
+      "cells": 900
+    },
+    {
+      "case": "random51",
+      "length": 12,
+      "goal": [
+        10,
+        9
+      ],
+      "compiled_instructions": 88656,
+      "cells": 900
+    },
+    {
+      "case": "random52",
+      "length": 4,
+      "goal": [
+        0,
+        7
+      ],
+      "compiled_instructions": 75806,
+      "cells": 900
+    },
+    {
+      "case": "random53",
+      "length": 1,
+      "goal": [
+        12,
+        6
+      ],
+      "compiled_instructions": 66348,
+      "cells": 900
+    },
+    {
+      "case": "random54",
+      "length": 7,
+      "goal": [
+        12,
+        4
+      ],
+      "compiled_instructions": 86727,
+      "cells": 900
+    },
+    {
+      "case": "random55",
+      "length": 8,
+      "goal": [
+        3,
+        12
+      ],
+      "compiled_instructions": 105930,
+      "cells": 900
+    },
+    {
+      "case": "random56",
+      "length": 3,
+      "goal": [
+        3,
+        5
+      ],
+      "compiled_instructions": 72400,
+      "cells": 900
+    },
+    {
+      "case": "random57",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 75706,
+      "cells": 900
+    },
+    {
+      "case": "random58",
+      "length": 1,
+      "goal": [
+        7,
+        4
+      ],
+      "compiled_instructions": 70290,
+      "cells": 900
+    },
+    {
+      "case": "random59",
+      "length": 8,
+      "goal": [
+        13,
+        8
+      ],
+      "compiled_instructions": 91583,
+      "cells": 900
+    },
+    {
+      "case": "random60",
+      "length": 3,
+      "goal": [
+        7,
+        10
+      ],
+      "compiled_instructions": 70675,
+      "cells": 900
+    },
+    {
+      "case": "random61",
+      "length": 13,
+      "goal": [
+        12,
+        8
+      ],
+      "compiled_instructions": 118901,
+      "cells": 900
+    },
+    {
+      "case": "random62",
+      "length": 17,
+      "goal": [
+        2,
+        1
+      ],
+      "compiled_instructions": 126715,
+      "cells": 900
+    },
+    {
+      "case": "random63",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 129376,
+      "cells": 900
+    },
+    {
+      "case": "random64",
+      "length": 3,
+      "goal": [
+        0,
+        2
+      ],
+      "compiled_instructions": 70989,
+      "cells": 900
+    },
+    {
+      "case": "random65",
+      "length": 7,
+      "goal": [
+        9,
+        6
+      ],
+      "compiled_instructions": 81732,
+      "cells": 900
+    },
+    {
+      "case": "random66",
+      "length": 12,
+      "goal": [
+        13,
+        2
+      ],
+      "compiled_instructions": 125012,
+      "cells": 900
+    },
+    {
+      "case": "random67",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 115482,
+      "cells": 900
+    },
+    {
+      "case": "random68",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 126804,
+      "cells": 900
+    },
+    {
+      "case": "random69",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 120688,
+      "cells": 900
+    },
+    {
+      "case": "random70",
+      "length": 16,
+      "goal": [
+        14,
+        14
+      ],
+      "compiled_instructions": 125445,
+      "cells": 900
+    },
+    {
+      "case": "random71",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 130640,
+      "cells": 900
+    },
+    {
+      "case": "random72",
+      "length": 8,
+      "goal": [
+        0,
+        8
+      ],
+      "compiled_instructions": 90169,
+      "cells": 900
+    },
+    {
+      "case": "random73",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 122664,
+      "cells": 900
+    },
+    {
+      "case": "random74",
+      "length": 11,
+      "goal": [
+        8,
+        3
+      ],
+      "compiled_instructions": 100316,
+      "cells": 900
+    },
+    {
+      "case": "random75",
+      "length": 12,
+      "goal": [
+        7,
+        6
+      ],
+      "compiled_instructions": 100426,
+      "cells": 900
+    },
+    {
+      "case": "random76",
+      "length": 3,
+      "goal": [
+        9,
+        3
+      ],
+      "compiled_instructions": 71595,
+      "cells": 900
+    },
+    {
+      "case": "random77",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 127839,
+      "cells": 900
+    },
+    {
+      "case": "random78",
+      "length": 29,
+      "goal": [
+        13,
+        1
+      ],
+      "compiled_instructions": 127112,
+      "cells": 900
+    },
+    {
+      "case": "random79",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 131996,
+      "cells": 900
+    },
+    {
+      "case": "random80",
+      "length": 11,
+      "goal": [
+        13,
+        7
+      ],
+      "compiled_instructions": 100733,
+      "cells": 900
+    },
+    {
+      "case": "random81",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 124440,
+      "cells": 900
+    },
+    {
+      "case": "random82",
+      "length": 18,
+      "goal": [
+        3,
+        4
+      ],
+      "compiled_instructions": 127677,
+      "cells": 900
+    },
+    {
+      "case": "random83",
+      "length": 4,
+      "goal": [
+        0,
+        0
+      ],
+      "compiled_instructions": 73458,
+      "cells": 900
+    },
+    {
+      "case": "random84",
+      "length": 9,
+      "goal": [
+        6,
+        14
+      ],
+      "compiled_instructions": 76529,
+      "cells": 900
+    },
+    {
+      "case": "random85",
+      "length": 5,
+      "goal": [
+        10,
+        8
+      ],
+      "compiled_instructions": 74054,
+      "cells": 900
+    },
+    {
+      "case": "random86",
+      "length": 18,
+      "goal": [
+        9,
+        13
+      ],
+      "compiled_instructions": 111630,
+      "cells": 900
+    },
+    {
+      "case": "random87",
+      "length": 10,
+      "goal": [
+        9,
+        3
+      ],
+      "compiled_instructions": 98985,
+      "cells": 900
+    },
+    {
+      "case": "random88",
+      "length": 7,
+      "goal": [
+        1,
+        2
+      ],
+      "compiled_instructions": 91777,
+      "cells": 900
+    },
+    {
+      "case": "random89",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 124890,
+      "cells": 900
+    },
+    {
+      "case": "random90",
+      "length": 20,
+      "goal": [
+        2,
+        7
+      ],
+      "compiled_instructions": 110815,
+      "cells": 900
+    },
+    {
+      "case": "random91",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 69171,
+      "cells": 900
+    },
+    {
+      "case": "random92",
+      "length": 3,
+      "goal": [
+        2,
+        9
+      ],
+      "compiled_instructions": 70031,
+      "cells": 900
+    },
+    {
+      "case": "random93",
+      "length": 6,
+      "goal": [
+        1,
+        7
+      ],
+      "compiled_instructions": 78302,
+      "cells": 900
+    },
+    {
+      "case": "random94",
+      "length": 17,
+      "goal": [
+        13,
+        1
+      ],
+      "compiled_instructions": 114336,
+      "cells": 900
+    },
+    {
+      "case": "random95",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 115524,
+      "cells": 900
+    },
+    {
+      "case": "random96",
+      "length": 3,
+      "goal": [
+        13,
+        8
+      ],
+      "compiled_instructions": 73033,
+      "cells": 900
+    },
+    {
+      "case": "random97",
+      "length": 0,
+      "goal": null,
+      "compiled_instructions": 131350,
+      "cells": 900
+    },
+    {
+      "case": "random98",
+      "length": 1,
+      "goal": [
+        8,
+        11
+      ],
+      "compiled_instructions": 69798,
+      "cells": 900
+    },
+    {
+      "case": "random99",
+      "length": 18,
+      "goal": [
+        3,
+        14
+      ],
+      "compiled_instructions": 130828,
+      "cells": 900
+    }
+  ],
+  "compiled_setter_cases": 24,
+  "same_position_1000_updates_additional_scans": 0,
+  "linear_cost_map_builds": 0,
+  "linear_native_AStar_calls": 0,
+  "per_replan_cell_reads": 900,
+  "owned_cell_refs_balanced": true,
+  "queue_bounds_checked": true,
+  "actual_department_EX_tested": true,
+  "existing_transition_load_toggle_hooks_exact": true,
+  "save_schema_exact": true,
+  "native_performance_measured": false,
+  "native_gameplay_verified": false,
+  "verification_scope": "Exact compiled new helper instructions with native accessor/draw fixtures, independent shortest-distance oracle, actual shipped department maps. Not a native frame-time benchmark."
+}

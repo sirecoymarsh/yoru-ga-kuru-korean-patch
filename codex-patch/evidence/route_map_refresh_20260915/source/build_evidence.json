@@ -1,0 +1,30 @@
+{
+  "status": "ROUTE_MAP_REFRESH_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "09245281fe3bc7abcd7c67f39ff8457797df2484f99de7f8034e3c1563de8001",
+    "status": "ROUTE_CACHE_STATIC_PASS_NATIVE_PERFORMANCE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "39c55a8c8c5fadb77a235116a80c10798482313e72bfda50df5ea07d3766bf0e"
+  },
+  "files": {
+    "NightRemaster.ain": "552332f5dc6da24c07dd2f4a00531de2b3c0fb1fc1f39c8995baa464f61848f1"
+  },
+  "patched_function_ids": [
+    28638,
+    28754
+  ],
+  "changes": [
+    "Refresh after next-floor SetMapId returns, after native arrival coordinates and entrance events",
+    "Refresh at end of full minimap rebuild; invalidate cached result first only when route enabled"
+  ],
+  "old_CODE_MSG1_STR0_and_other_metadata_exact": true,
+  "search_and_goal_rules_unchanged": true,
+  "save_schema_and_other_game_files_unchanged": true,
+  "native_gameplay_verified": false,
+  "root_cause_status": "Rebuild lifecycle gap demonstrated statically; exact user next-floor symptom not reproduced in native runtime"
+}

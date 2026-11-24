@@ -1,0 +1,864 @@
+{
+ "status": "HOME_PANEL_PACT177_STAGED_NOT_INSTALLED",
+ "builder": "Claude Opus 5.5 (claude-opus-5-5)",
+ "source": {
+  "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+  "pact_sha256": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac"
+ },
+ "outputs": {
+  "original_pact_177.pactex": "3a37a81023d5c012a53fb4d716acf8cfadd24013c87e7bcdedb87f5e2105854a",
+  "pact_177_home.pactex": "e36a740bb3d80bf6894bb36d721fad71f635e73a346866d6cac904d03997e07f",
+  "NightRemasterPact.afa": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109"
+ },
+ "archive": {
+  "source_sha256": "f1a99eb3a37d6dd8a07c7ce1b1e1d2800974a773947447ef89d3e7e1714bdfac",
+  "candidate_sha256": "580cea9908a389a86c837eb9bd7d15f16765ef925826c0a086601da2e6b65109",
+  "original_entries_preserved": 190,
+  "replaced_ids": [
+   177
+  ],
+  "appended": [],
+  "wrapper": "AFA3",
+  "metadata_identity": "PASS (names/order/unknown fields)",
+  "payload_identity": "PASS (all untouched entries and exact replacement bytes)",
+  "new_archive": "P:\\AI\\Codex\\projects\\YoruGaKuru_flowchart_20260922\\ingame\\calendar_redesign_20261017\\candidate\\NightRemasterPact.afa"
+ },
+ "changed_entries": [
+  177
+ ],
+ "round_trip_exact": true,
+ "alice_ex_dump_parsed": true,
+ "made": [
+  "KR_HR_SecSave",
+  "KR_HR_EvLabel",
+  "KR_HR_EvValue",
+  "KR_HR_Story",
+  "KR_HR_SecAll",
+  "KR_HR_Name2",
+  "KR_HR_Pct2",
+  "KR_HR_Name3",
+  "KR_HR_Pct3",
+  "KR_HR_Name4",
+  "KR_HR_Pct4",
+  "KR_HR_Name5",
+  "KR_HR_Pct5",
+  "KR_HR_Name6",
+  "KR_HR_Pct6",
+  "KR_HR_Name7",
+  "KR_HR_Pct7",
+  "KR_HR_Name8",
+  "KR_HR_Pct8",
+  "KR_HR_AllName0",
+  "KR_HR_AllValue0",
+  "KR_HR_AllName1",
+  "KR_HR_AllValue1",
+  "KR_HR_AllName2",
+  "KR_HR_AllValue2",
+  "KR_HR_AllName3",
+  "KR_HR_AllValue3",
+  "KR_HR_CalText",
+  "KR_HR_EvBar",
+  "KR_HR_CalBox",
+  "KR_HR_Box2",
+  "KR_HR_Face2",
+  "KR_HR_Bar2",
+  "KR_HR_Box3",
+  "KR_HR_Face3",
+  "KR_HR_Bar3",
+  "KR_HR_Box4",
+  "KR_HR_Face4",
+  "KR_HR_Bar4",
+  "KR_HR_Box5",
+  "KR_HR_Face5",
+  "KR_HR_Bar5",
+  "KR_HR_Box6",
+  "KR_HR_Face6",
+  "KR_HR_Bar6",
+  "KR_HR_Box7",
+  "KR_HR_Face7",
+  "KR_HR_Bar7",
+  "KR_HR_Box8",
+  "KR_HR_Face8",
+  "KR_HR_Bar8",
+  "KR_HR_AllBar0",
+  "KR_HR_AllBar1",
+  "KR_HR_AllBar2",
+  "KR_HR_AllBar3"
+ ],
+ "hidden_at_start": [
+  "KR_HR_CalBox",
+  "KR_HR_CalText"
+ ],
+ "body_hidden": true,
+ "characters": [
+  {
+   "char": " ",
+   "kind": "cp932",
+   "bytes": "20"
+  },
+  {
+   "char": "C",
+   "kind": "cp932",
+   "bytes": "43"
+  },
+  {
+   "char": "G",
+   "kind": "cp932",
+   "bytes": "47"
+  },
+  {
+   "char": "나",
+   "kind": "proxy",
+   "bytes": "e9ab"
+  },
+  {
+   "char": "대",
+   "kind": "proxy",
+   "bytes": "e947"
+  },
+  {
+   "char": "더",
+   "kind": "proxy",
+   "bytes": "e8fc"
+  },
+  {
+   "char": "든",
+   "kind": "proxy",
+   "bytes": "e8ca"
+  },
+  {
+   "char": "딩",
+   "kind": "proxy",
+   "bytes": "e8bd"
+  },
+  {
+   "char": "린",
+   "kind": "proxy",
+   "bytes": "e7f4"
+  },
+  {
+   "char": "마",
+   "kind": "proxy",
+   "bytes": "e7ee"
+  },
+  {
+   "char": "모",
+   "kind": "proxy",
+   "bytes": "e7c4"
+  },
+  {
+   "char": "미",
+   "kind": "proxy",
+   "bytes": "e7aa"
+  },
+  {
+   "char": "벤",
+   "kind": "proxy",
+   "bytes": "e782"
+  },
+  {
+   "char": "브",
+   "kind": "proxy",
+   "bytes": "e75e"
+  },
+  {
+   "char": "사",
+   "kind": "proxy",
+   "bytes": "e6ec"
+  },
+  {
+   "char": "산",
+   "kind": "proxy",
+   "bytes": "e6ea"
+  },
+  {
+   "char": "상",
+   "kind": "proxy",
+   "bytes": "e6e3"
+  },
+  {
+   "char": "세",
+   "kind": "proxy",
+   "bytes": "e6ca"
+  },
+  {
+   "char": "시",
+   "kind": "proxy",
+   "bytes": "e695"
+  },
+  {
+   "char": "신",
+   "kind": "proxy",
+   "bytes": "e693"
+  },
+  {
+   "char": "엔",
+   "kind": "proxy",
+   "bytes": "e5e8"
+  },
+  {
+   "char": "와",
+   "kind": "proxy",
+   "bytes": "e5c9"
+  },
+  {
+   "char": "이",
+   "kind": "proxy",
+   "bytes": "e596"
+  },
+  {
+   "char": "즈",
+   "kind": "proxy",
+   "bytes": "e54e"
+  },
+  {
+   "char": "카",
+   "kind": "proxy",
+   "bytes": "e490"
+  },
+  {
+   "char": "캘",
+   "kind": "proxy",
+   "bytes": "9e9b"
+  },
+  {
+   "char": "코",
+   "kind": "proxy",
+   "bytes": "e46f"
+  },
+  {
+   "char": "쿄",
+   "kind": "proxy",
+   "bytes": "e464"
+  },
+  {
+   "char": "토",
+   "kind": "proxy",
+   "bytes": "e3ed"
+  },
+  {
+   "char": "트",
+   "kind": "proxy",
+   "bytes": "e3d9"
+  },
+  {
+   "char": "합",
+   "kind": "proxy",
+   "bytes": "e388"
+  },
+  {
+   "char": "호",
+   "kind": "proxy",
+   "bytes": "e367"
+  },
+  {
+   "char": "회",
+   "kind": "proxy",
+   "bytes": "e358"
+  }
+ ],
+ "glyphs": {
+  "faces": 17,
+  "chars": 33,
+  "nonblank": 32,
+  "equal_to_map_font": 30,
+  "compared": true
+ },
+ "rects": [
+  {
+   "name": "KR_HR_SecSave",
+   "kind": "text",
+   "rect": [
+    10,
+    52,
+    62.333333,
+    64.0
+   ],
+   "text": "이 세이브"
+  },
+  {
+   "name": "KR_HR_EvLabel",
+   "kind": "text",
+   "rect": [
+    10,
+    68,
+    50.5,
+    82.0
+   ],
+   "text": "이벤트"
+  },
+  {
+   "name": "KR_HR_EvValue",
+   "kind": "text",
+   "rect": [
+    104,
+    68,
+    104,
+    82.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_Story",
+   "kind": "text",
+   "rect": [
+    10,
+    98,
+    10,
+    112.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_SecAll",
+   "kind": "text",
+   "rect": [
+    10,
+    438,
+    102.833333,
+    450.0
+   ],
+   "text": "모든 세이브 합산"
+  },
+  {
+   "name": "KR_HR_Name2",
+   "kind": "text",
+   "rect": [
+    40,
+    129,
+    80.5,
+    143.0
+   ],
+   "text": "이즈미"
+  },
+  {
+   "name": "KR_HR_Pct2",
+   "kind": "text",
+   "rect": [
+    106,
+    130,
+    106,
+    143.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_Name3",
+   "kind": "text",
+   "rect": [
+    40,
+    173,
+    67.0,
+    187.0
+   ],
+   "text": "쿄카"
+  },
+  {
+   "name": "KR_HR_Pct3",
+   "kind": "text",
+   "rect": [
+    106,
+    174,
+    106,
+    187.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_Name4",
+   "kind": "text",
+   "rect": [
+    40,
+    217,
+    80.5,
+    231.0
+   ],
+   "text": "마나미"
+  },
+  {
+   "name": "KR_HR_Pct4",
+   "kind": "text",
+   "rect": [
+    106,
+    218,
+    106,
+    231.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_Name5",
+   "kind": "text",
+   "rect": [
+    40,
+    261,
+    80.5,
+    275.0
+   ],
+   "text": "마코토"
+  },
+  {
+   "name": "KR_HR_Pct5",
+   "kind": "text",
+   "rect": [
+    106,
+    262,
+    106,
+    275.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_Name6",
+   "kind": "text",
+   "rect": [
+    40,
+    305,
+    80.5,
+    319.0
+   ],
+   "text": "신카이"
+  },
+  {
+   "name": "KR_HR_Pct6",
+   "kind": "text",
+   "rect": [
+    106,
+    306,
+    106,
+    319.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_Name7",
+   "kind": "text",
+   "rect": [
+    40,
+    349,
+    94.0,
+    363.0
+   ],
+   "text": "호시카와"
+  },
+  {
+   "name": "KR_HR_Pct7",
+   "kind": "text",
+   "rect": [
+    106,
+    350,
+    106,
+    363.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_Name8",
+   "kind": "text",
+   "rect": [
+    40,
+    393,
+    80.5,
+    407.0
+   ],
+   "text": "모모세"
+  },
+  {
+   "name": "KR_HR_Pct8",
+   "kind": "text",
+   "rect": [
+    106,
+    394,
+    106,
+    407.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_AllName0",
+   "kind": "text",
+   "rect": [
+    10,
+    456,
+    35.5,
+    469.0
+   ],
+   "text": "대사"
+  },
+  {
+   "name": "KR_HR_AllValue0",
+   "kind": "text",
+   "rect": [
+    96,
+    456,
+    96,
+    469.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_AllName1",
+   "kind": "text",
+   "rect": [
+    10,
+    486,
+    31.125,
+    499.0
+   ],
+   "text": "CG"
+  },
+  {
+   "name": "KR_HR_AllValue1",
+   "kind": "text",
+   "rect": [
+    96,
+    486,
+    96,
+    499.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_AllName2",
+   "kind": "text",
+   "rect": [
+    10,
+    516,
+    35.5,
+    529.0
+   ],
+   "text": "회상"
+  },
+  {
+   "name": "KR_HR_AllValue2",
+   "kind": "text",
+   "rect": [
+    96,
+    516,
+    96,
+    529.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_AllName3",
+   "kind": "text",
+   "rect": [
+    10,
+    546,
+    35.5,
+    559.0
+   ],
+   "text": "엔딩"
+  },
+  {
+   "name": "KR_HR_AllValue3",
+   "kind": "text",
+   "rect": [
+    96,
+    546,
+    96,
+    559.0
+   ],
+   "text": ""
+  },
+  {
+   "name": "KR_HR_CalText",
+   "kind": "text",
+   "rect": [
+    38.25,
+    600.0,
+    121.75,
+    616.0
+   ],
+   "text": "이벤트 캘린더"
+  },
+  {
+   "name": "KR_HR_EvBar",
+   "kind": "bar",
+   "rect": [
+    10,
+    88,
+    150,
+    93
+   ]
+  },
+  {
+   "name": "KR_HR_CalBox",
+   "kind": "box",
+   "rect": [
+    6,
+    588,
+    154,
+    628
+   ]
+  },
+  {
+   "name": "KR_HR_Box2",
+   "kind": "box",
+   "rect": [
+    4,
+    124,
+    156,
+    164
+   ]
+  },
+  {
+   "name": "KR_HR_Face2",
+   "kind": "face",
+   "rect": [
+    8,
+    128,
+    34,
+    160
+   ]
+  },
+  {
+   "name": "KR_HR_Bar2",
+   "kind": "bar",
+   "rect": [
+    40,
+    152,
+    150,
+    157
+   ]
+  },
+  {
+   "name": "KR_HR_Box3",
+   "kind": "box",
+   "rect": [
+    4,
+    168,
+    156,
+    208
+   ]
+  },
+  {
+   "name": "KR_HR_Face3",
+   "kind": "face",
+   "rect": [
+    8,
+    172,
+    34,
+    204
+   ]
+  },
+  {
+   "name": "KR_HR_Bar3",
+   "kind": "bar",
+   "rect": [
+    40,
+    196,
+    150,
+    201
+   ]
+  },
+  {
+   "name": "KR_HR_Box4",
+   "kind": "box",
+   "rect": [
+    4,
+    212,
+    156,
+    252
+   ]
+  },
+  {
+   "name": "KR_HR_Face4",
+   "kind": "face",
+   "rect": [
+    8,
+    216,
+    34,
+    248
+   ]
+  },
+  {
+   "name": "KR_HR_Bar4",
+   "kind": "bar",
+   "rect": [
+    40,
+    240,
+    150,
+    245
+   ]
+  },
+  {
+   "name": "KR_HR_Box5",
+   "kind": "box",
+   "rect": [
+    4,
+    256,
+    156,
+    296
+   ]
+  },
+  {
+   "name": "KR_HR_Face5",
+   "kind": "face",
+   "rect": [
+    8,
+    260,
+    34,
+    292
+   ]
+  },
+  {
+   "name": "KR_HR_Bar5",
+   "kind": "bar",
+   "rect": [
+    40,
+    284,
+    150,
+    289
+   ]
+  },
+  {
+   "name": "KR_HR_Box6",
+   "kind": "box",
+   "rect": [
+    4,
+    300,
+    156,
+    340
+   ]
+  },
+  {
+   "name": "KR_HR_Face6",
+   "kind": "face",
+   "rect": [
+    8,
+    304,
+    34,
+    336
+   ]
+  },
+  {
+   "name": "KR_HR_Bar6",
+   "kind": "bar",
+   "rect": [
+    40,
+    328,
+    150,
+    333
+   ]
+  },
+  {
+   "name": "KR_HR_Box7",
+   "kind": "box",
+   "rect": [
+    4,
+    344,
+    156,
+    384
+   ]
+  },
+  {
+   "name": "KR_HR_Face7",
+   "kind": "face",
+   "rect": [
+    8,
+    348,
+    34,
+    380
+   ]
+  },
+  {
+   "name": "KR_HR_Bar7",
+   "kind": "bar",
+   "rect": [
+    40,
+    372,
+    150,
+    377
+   ]
+  },
+  {
+   "name": "KR_HR_Box8",
+   "kind": "box",
+   "rect": [
+    4,
+    388,
+    156,
+    428
+   ]
+  },
+  {
+   "name": "KR_HR_Face8",
+   "kind": "face",
+   "rect": [
+    8,
+    392,
+    34,
+    424
+   ]
+  },
+  {
+   "name": "KR_HR_Bar8",
+   "kind": "bar",
+   "rect": [
+    40,
+    416,
+    150,
+    421
+   ]
+  },
+  {
+   "name": "KR_HR_AllBar0",
+   "kind": "bar",
+   "rect": [
+    10,
+    475,
+    150,
+    479
+   ]
+  },
+  {
+   "name": "KR_HR_AllBar1",
+   "kind": "bar",
+   "rect": [
+    10,
+    505,
+    150,
+    509
+   ]
+  },
+  {
+   "name": "KR_HR_AllBar2",
+   "kind": "bar",
+   "rect": [
+    10,
+    535,
+    150,
+    539
+   ]
+  },
+  {
+   "name": "KR_HR_AllBar3",
+   "kind": "bar",
+   "rect": [
+    10,
+    565,
+    150,
+    569
+   ]
+  }
+ ],
+ "layout": {
+  "origin": [
+   0,
+   20
+  ],
+  "row_y0": 124,
+  "row_step": 44,
+  "row_h": 40,
+  "all_y0": 456,
+  "all_step": 30,
+  "cal": [
+   6,
+   588,
+   148,
+   40
+  ]
+ }
+}

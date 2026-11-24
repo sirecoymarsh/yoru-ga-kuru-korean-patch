@@ -1,0 +1,1573 @@
+{
+ "status": "independent_qa_pass",
+ "translator_model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5) - independent reviewer (not an author of these summaries)",
+ "reviewed_at": "2026-09-29T21:44:00.692400+09:00",
+ "method": "packets read end to end (JP meaning basis, KR spelling basis) before opening evidence/semantic_qa.json; criteria (a)-(g) of the coordinator brief; fixes change only the problem word",
+ "criteria": {
+  "a": "원문에 없는 사실·반응·장소·감정·추정",
+  "b": "행위자·상대 바뀜",
+  "c": "다른 장면·갈래 섞임",
+  "d": "결말·루트 확정·나중 사건 암시",
+  "e": "「주인공」 호칭·설치 한국어 표기",
+  "f": "현재형 1~2문장 ≤100자(길이는 기록만)",
+  "g": "성인 묘사 없이 서술"
+ },
+ "reviewed_events": 30,
+ "reviewed_japanese_messages": 11903,
+ "copy_of_rows": 25,
+ "source_sha256": "b5f52815c979cbbeb5b489ffff7a8f05b9eac21046546e9cceb92ccbfab4076a",
+ "summary_sha256_before": "7e11232d49e9d5b185f8b949a26ae01bdc7405079c32cf51d93f90fcadafdb06",
+ "summary_sha256_input_of_this_run": "7e11232d49e9d5b185f8b949a26ae01bdc7405079c32cf51d93f90fcadafdb06",
+ "summary_sha256_after": "108aaa9ed5e1ca2307419808248ee1aa3623a20fe1ace43723c054203dc0b7f1",
+ "findings": [
+  {
+   "no": 50408,
+   "message_id": 68823,
+   "severity": "minor",
+   "type": "(b) 행위자·대상 모호",
+   "before": "적의 정체를",
+   "after": "자신의 정체를",
+   "status": "fixed",
+   "note": "코이치가 드러내는 것은 제3의 적이 아니라 자기 자신이 적(코우야)이라는 사실이다(68823-68843). 「적의 정체를 드러낸다」는 코이치가 다른 누군가의 정체를 밝히는 것으로 읽힌다. 이름은 여전히 쓰지 않음."
+  },
+  {
+   "no": 50506,
+   "message_id": 71783,
+   "severity": "minor",
+   "type": "(a) 원문에 없는 동작 특정",
+   "before": "걷어찬",
+   "after": "때린",
+   "status": "fixed",
+   "note": "원문은 의성어 げしっ(71783)·どげしっ(71802)뿐이고, 같은 장면에서 주인공 스스로 그 행동을 「ぽかぽか殴れる」(71813, 설치 한국어 「퍽퍽 때려대는」)라고 부른다. 발로 찼다는 특정은 원문 근거가 없다. 집필자 미해결(의성어 해석)에 대한 독립 판단으로 반영."
+  }
+ ],
+ "findings_count": {
+  "total": 2,
+  "major": 0,
+  "minor": 2
+ },
+ "length_record": {
+  "min": 86,
+  "max": 99,
+  "over_85": 30,
+  "note": "회상 요약은 86~99자로 4월 중앙값(70)보다 길다 — 지시대로 길이는 고치지 않고 기록만."
+ },
+ "author_unresolved_judgments": [
+  {
+   "item": "E50506 의성어 해석",
+   "judgment": "수정함(걷어찬→때린). 근거는 findings 참조."
+  },
+  {
+   "item": "11/1 밤 계열 4장면(50505·50507·50510·50512)",
+   "judgment": "현 서술 유지가 옳다. 네 장면 모두 장면 안에서 꿈·환각이라고 밝히지 않으므로 꿈이라고 쓰면 (a) 원문 밖 추정이 된다. 원본 표기(11/1 밤)와 장면 속 시각(아침·오후·방과 후)이 어긋나는 것은 요약이 장면 내용을 따른 결과이며 결함 아님. 남는 것은 사용자 스포일러 노출 판단뿐(미열람 가림은 빌드 쪽 확인 사항)."
+  },
+  {
+   "item": "시간 경과 4장면(50112·50212·50310·50410)",
+   "judgment": "현 서술 유지. 50112·50212(반년 뒤)·50410(몇 달 뒤)은 각 장면 첫 줄 서술을 그대로 옮겼고, 50310은 장면 안에 「수개월」과 「반년」이 함께 나와 기간을 적지 않은 것이 맞다. 나중 사건 암시가 아니라 장면 안 사실."
+  }
+ ],
+ "unresolved": [
+  {
+   "no": null,
+   "type": "human_decision",
+   "item": "50505·50507·50510·50512(원본 11/1 밤 계열)은 장면 성격상 스포일러 수위가 높다. 요약 문장은 결함이 아니지만 미열람 칸 가림이 UI에서 지켜지는지는 요약 층 빌드 때 확인할 것."
+  }
+ ],
+ "copy_of_check": [
+  {
+   "team": "A",
+   "no": 50101,
+   "copy_of": 10001,
+   "memory_need": 10001,
+   "need_match": true,
+   "schedule_replay_of": 10001,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 242,
+   "source_lines_kr_nonempty": 127,
+   "source_owner_tabs": [
+    "4월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "4월",
+     "status": "source_qa_pass",
+     "summary_len": 100,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50103,
+   "copy_of": 10061,
+   "memory_need": 10061,
+   "need_match": true,
+   "schedule_replay_of": 10061,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 277,
+   "source_lines_kr_nonempty": 160,
+   "source_owner_tabs": [
+    "8월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "8월",
+     "status": "independent_qa_pass",
+     "summary_len": 100,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50104,
+   "copy_of": 10041,
+   "memory_need": 10041,
+   "need_match": true,
+   "schedule_replay_of": 10041,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 250,
+   "source_lines_kr_nonempty": 130,
+   "source_owner_tabs": [
+    "9월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "9월",
+     "status": "source_qa_pass",
+     "summary_len": 93,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50105,
+   "copy_of": 10081,
+   "memory_need": 10081,
+   "need_match": true,
+   "schedule_replay_of": 10081,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 94,
+   "source_lines_kr_nonempty": 57,
+   "source_owner_tabs": [
+    "8월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "8월",
+     "status": "independent_qa_pass",
+     "summary_len": 94,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50106,
+   "copy_of": 10101,
+   "memory_need": 10101,
+   "need_match": true,
+   "schedule_replay_of": 10101,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 284,
+   "source_lines_kr_nonempty": 143,
+   "source_owner_tabs": [
+    "10월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "10월",
+     "status": "source_qa_pass",
+     "summary_len": 94,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50107,
+   "copy_of": 10121,
+   "memory_need": 10121,
+   "need_match": true,
+   "schedule_replay_of": 10121,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 548,
+   "source_lines_kr_nonempty": 318,
+   "source_owner_tabs": [
+    "10월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "10월",
+     "status": "source_qa_pass",
+     "summary_len": 94,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50108,
+   "copy_of": 10501,
+   "memory_need": 10501,
+   "need_match": true,
+   "schedule_replay_of": 10501,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 315,
+   "source_lines_kr_nonempty": 216,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월A",
+     "status": "source_qa_pass",
+     "summary_len": 91,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50109,
+   "copy_of": 10201,
+   "memory_need": 10201,
+   "need_match": true,
+   "schedule_replay_of": 10201,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 401,
+   "source_lines_kr_nonempty": 235,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월A",
+     "status": "source_qa_pass",
+     "summary_len": 89,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50110,
+   "copy_of": 10202,
+   "memory_need": 10202,
+   "need_match": true,
+   "schedule_replay_of": 10202,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 240,
+   "source_lines_kr_nonempty": 136,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 96,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50201,
+   "copy_of": 20021,
+   "memory_need": 20021,
+   "need_match": true,
+   "schedule_replay_of": 20021,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 318,
+   "source_lines_kr_nonempty": 158,
+   "source_owner_tabs": [
+    "5월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "5월",
+     "status": "independent_qa_pass",
+     "summary_len": 95,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50206,
+   "copy_of": 20121,
+   "memory_need": 20121,
+   "need_match": true,
+   "schedule_replay_of": 20121,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 341,
+   "source_lines_kr_nonempty": 202,
+   "source_owner_tabs": [
+    "10월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "10월",
+     "status": "source_qa_pass",
+     "summary_len": 99,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50207,
+   "copy_of": 20101,
+   "memory_need": 20101,
+   "need_match": true,
+   "schedule_replay_of": 20101,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 274,
+   "source_lines_kr_nonempty": 153,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 95,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50208,
+   "copy_of": 20501,
+   "memory_need": 20501,
+   "need_match": true,
+   "schedule_replay_of": 20501,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 411,
+   "source_lines_kr_nonempty": 266,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 96,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50209,
+   "copy_of": 20141,
+   "memory_need": 20141,
+   "need_match": true,
+   "schedule_replay_of": 20141,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 1115,
+   "source_lines_kr_nonempty": 732,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월A",
+     "status": "source_qa_pass",
+     "summary_len": 87,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50210,
+   "copy_of": 20181,
+   "memory_need": 20181,
+   "need_match": true,
+   "schedule_replay_of": 20181,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 400,
+   "source_lines_kr_nonempty": 239,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 99,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50304,
+   "copy_of": 30121,
+   "memory_need": 30121,
+   "need_match": true,
+   "schedule_replay_of": 30121,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 391,
+   "source_lines_kr_nonempty": 200,
+   "source_owner_tabs": [
+    "10월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "10월",
+     "status": "source_qa_pass",
+     "summary_len": 93,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50305,
+   "copy_of": 30501,
+   "memory_need": 30501,
+   "need_match": true,
+   "schedule_replay_of": 30501,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 470,
+   "source_lines_kr_nonempty": 303,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 100,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50306,
+   "copy_of": 30081,
+   "memory_need": 30081,
+   "need_match": true,
+   "schedule_replay_of": 30081,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 1126,
+   "source_lines_kr_nonempty": 696,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월A",
+     "status": "source_qa_pass",
+     "summary_len": 91,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50307,
+   "copy_of": 30041,
+   "memory_need": 30041,
+   "need_match": true,
+   "schedule_replay_of": 30041,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 452,
+   "source_lines_kr_nonempty": 244,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 98,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50308,
+   "copy_of": 30101,
+   "memory_need": 30101,
+   "need_match": true,
+   "schedule_replay_of": 30101,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 608,
+   "source_lines_kr_nonempty": 396,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 98,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50403,
+   "copy_of": 40101,
+   "memory_need": 40101,
+   "need_match": true,
+   "schedule_replay_of": 40101,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 399,
+   "source_lines_kr_nonempty": 223,
+   "source_owner_tabs": [
+    "10월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "10월",
+     "status": "source_qa_pass",
+     "summary_len": 97,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50404,
+   "copy_of": 516,
+   "memory_need": 516,
+   "need_match": true,
+   "schedule_replay_of": 516,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 474,
+   "source_lines_kr_nonempty": 282,
+   "source_owner_tabs": [
+    "10월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "10월",
+     "status": "source_qa_pass",
+     "summary_len": 98,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50405,
+   "copy_of": 40121,
+   "memory_need": 40121,
+   "need_match": true,
+   "schedule_replay_of": 40121,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 387,
+   "source_lines_kr_nonempty": 201,
+   "source_owner_tabs": [
+    "10월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "10월",
+     "status": "source_qa_pass",
+     "summary_len": 89,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50406,
+   "copy_of": 40081,
+   "memory_need": 40081,
+   "need_match": true,
+   "schedule_replay_of": 40081,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 240,
+   "source_lines_kr_nonempty": 134,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월A",
+     "status": "source_qa_pass",
+     "summary_len": 96,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  },
+  {
+   "team": "A",
+   "no": 50407,
+   "copy_of": 40501,
+   "memory_need": 40501,
+   "need_match": true,
+   "schedule_replay_of": 40501,
+   "replay_of_match": true,
+   "packet_messages": 0,
+   "source_event_exists": true,
+   "source_event_messages": 361,
+   "source_lines_kr_nonempty": 238,
+   "source_owner_tabs": [
+    "11월"
+   ],
+   "source_summary_found_in": [
+    {
+     "folder": "11월B",
+     "status": "source_qa_pass",
+     "summary_len": 99,
+     "has_summary": true
+    }
+   ],
+   "state": "원본 요약 있음",
+   "ok": true
+  }
+ ],
+ "events": [
+  {
+   "no": 50102,
+   "verdict": "pass",
+   "read_messages": 433,
+   "read_range": [
+    62403,
+    62835
+   ],
+   "length": 96,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    62461,
+    62730,
+    62794,
+    62805
+   ],
+   "note": ""
+  },
+  {
+   "no": 50111,
+   "verdict": "pass",
+   "read_messages": 867,
+   "read_range": [
+    62836,
+    63702
+   ],
+   "length": 96,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    62869,
+    62966,
+    62977,
+    63026,
+    63035,
+    63499
+   ],
+   "note": "결전 전야(11/1 밤 계열 아님: 뉴타운 사건 단계). 성인 장면은 「밤을 함께 보낸다」로만 서술 — (g) 적합."
+  },
+  {
+   "no": 50112,
+   "verdict": "pass",
+   "read_messages": 233,
+   "read_range": [
+    63703,
+    63935
+   ],
+   "length": 86,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    63703,
+    63714,
+    63760,
+    63890,
+    63919
+   ],
+   "note": "「반년 뒤」는 장면 첫 줄 서술(63703)이라 장면 안 사실. 결말 확정 표현 없음."
+  },
+  {
+   "no": 50202,
+   "verdict": "pass",
+   "read_messages": 358,
+   "read_range": [
+    63936,
+    64293
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    63949,
+    64017,
+    64040,
+    64136,
+    64236
+   ],
+   "note": ""
+  },
+  {
+   "no": 50203,
+   "verdict": "pass",
+   "read_messages": 289,
+   "read_range": [
+    64294,
+    64582
+   ],
+   "length": 96,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    64349,
+    64392,
+    64491,
+    64493,
+    64558
+   ],
+   "note": ""
+  },
+  {
+   "no": 50204,
+   "verdict": "pass",
+   "read_messages": 622,
+   "read_range": [
+    64583,
+    65204
+   ],
+   "length": 97,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    64691,
+    64895,
+    65001,
+    65156,
+    65182
+   ],
+   "note": ""
+  },
+  {
+   "no": 50205,
+   "verdict": "pass",
+   "read_messages": 384,
+   "read_range": [
+    65205,
+    65588
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    65302,
+    65318,
+    65411,
+    65531,
+    65564
+   ],
+   "note": "「갈래 2」 장면 — 다른 갈래 내용 섞임 없음."
+  },
+  {
+   "no": 50211,
+   "verdict": "pass",
+   "read_messages": 273,
+   "read_range": [
+    65589,
+    65861
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    65630,
+    65731,
+    65781,
+    65791,
+    65840,
+    65842
+   ],
+   "note": ""
+  },
+  {
+   "no": 50212,
+   "verdict": "pass",
+   "read_messages": 386,
+   "read_range": [
+    65862,
+    66247
+   ],
+   "length": 97,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    65862,
+    66008,
+    66154,
+    66178,
+    66199
+   ],
+   "note": "「반년 뒤」는 장면 첫 줄 서술(65862)."
+  },
+  {
+   "no": 50301,
+   "verdict": "pass",
+   "read_messages": 329,
+   "read_range": [
+    66248,
+    66576
+   ],
+   "length": 93,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    66277,
+    66366,
+    66403,
+    66498,
+    66541
+   ],
+   "note": ""
+  },
+  {
+   "no": 50302,
+   "verdict": "pass",
+   "read_messages": 368,
+   "read_range": [
+    66577,
+    66944
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    66610,
+    66679,
+    66826,
+    66844,
+    66916
+   ],
+   "note": ""
+  },
+  {
+   "no": 50309,
+   "verdict": "pass",
+   "read_messages": 176,
+   "read_range": [
+    66945,
+    67120
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    66986,
+    67085,
+    67097,
+    67105
+   ],
+   "note": "결전 전야(뉴타운 사건 단계)."
+  },
+  {
+   "no": 50310,
+   "verdict": "pass",
+   "read_messages": 229,
+   "read_range": [
+    67121,
+    67349
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    67137,
+    67213,
+    67236,
+    67272,
+    67325
+   ],
+   "note": "장면 안에 「수개월」(67137)과 「반년」(67140) 서술이 함께 있다. 요약이 경과 기간을 적지 않은 것이 옳다."
+  },
+  {
+   "no": 50401,
+   "verdict": "pass",
+   "read_messages": 455,
+   "read_range": [
+    67350,
+    67804
+   ],
+   "length": 97,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    67451,
+    67622,
+    67637,
+    67792,
+    67801
+   ],
+   "note": ""
+  },
+  {
+   "no": 50402,
+   "verdict": "pass",
+   "read_messages": 291,
+   "read_range": [
+    67805,
+    68095
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    67859,
+    67894,
+    67900,
+    68038,
+    68084
+   ],
+   "note": "「갈래 1」 장면 — 다른 갈래 내용 섞임 없음."
+  },
+  {
+   "no": 50408,
+   "verdict": "fixed",
+   "read_messages": 946,
+   "read_range": [
+    68096,
+    69041
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    68200,
+    68446,
+    68461,
+    68696,
+    68823,
+    68832
+   ],
+   "note": ""
+  },
+  {
+   "no": 50409,
+   "verdict": "pass",
+   "read_messages": 580,
+   "read_range": [
+    69042,
+    69621
+   ],
+   "length": 97,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    69143,
+    69157,
+    69212,
+    69275,
+    69297
+   ],
+   "note": ""
+  },
+  {
+   "no": 50410,
+   "verdict": "pass",
+   "read_messages": 115,
+   "read_range": [
+    69622,
+    69736
+   ],
+   "length": 97,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    69622,
+    69637,
+    69687,
+    69703
+   ],
+   "note": "「몇 달 뒤」는 장면 첫 줄 서술(69622)."
+  },
+  {
+   "no": 50501,
+   "verdict": "pass",
+   "read_messages": 150,
+   "read_range": [
+    69737,
+    69886
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    69743,
+    69752,
+    69861,
+    69874
+   ],
+   "note": "「푸른 달」은 4월 승인 요약의 「푸른 달빛」과 같은 묘사(설치 용어 참된 달을 대신한 풀이) — 허용."
+  },
+  {
+   "no": 50502,
+   "verdict": "pass",
+   "read_messages": 227,
+   "read_range": [
+    69887,
+    70113
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    70007,
+    70009,
+    70069,
+    70102,
+    70103
+   ],
+   "note": "「사냥꾼」은 원문 狩ってる奴(70009)의 풀이. 설치 용어 카샤를 쓰지 않은 것은 게이트 규칙과 일치."
+  },
+  {
+   "no": 50503,
+   "verdict": "pass",
+   "read_messages": 186,
+   "read_range": [
+    70114,
+    70299
+   ],
+   "length": 94,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    70126,
+    70287,
+    70295,
+    70299
+   ],
+   "note": "성인 장면 — 「쾌락에 빠뜨린다」 수준으로만 서술, (g) 적합."
+  },
+  {
+   "no": 50504,
+   "verdict": "pass",
+   "read_messages": 605,
+   "read_range": [
+    70300,
+    70904
+   ],
+   "length": 91,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    70314,
+    70731,
+    70827,
+    70903
+   ],
+   "note": ""
+  },
+  {
+   "no": 50505,
+   "verdict": "pass",
+   "read_messages": 240,
+   "read_range": [
+    70905,
+    71144
+   ],
+   "length": 92,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    70925,
+    70994,
+    71042,
+    71097,
+    71137
+   ],
+   "note": "원본 11/1 밤 계열. 장면은 현실/환각을 밝히지 않는다(70985 「이유가 떠오르지 않는다」 정도) — 요약이 꿈이라고 단정하지 않은 것이 옳다."
+  },
+  {
+   "no": 50506,
+   "verdict": "fixed",
+   "read_messages": 713,
+   "read_range": [
+    71145,
+    71857
+   ],
+   "length": 93,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    71199,
+    71249,
+    71783,
+    71787,
+    71813,
+    71850
+   ],
+   "note": ""
+  },
+  {
+   "no": 50507,
+   "verdict": "pass",
+   "read_messages": 336,
+   "read_range": [
+    71858,
+    72193
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    71899,
+    71911,
+    71932,
+    71998,
+    72153,
+    72187
+   ],
+   "note": "원본 11/1 밤 계열이지만 장면 속 시각은 아침(71911) — 요약의 「아침에」는 장면 내용 그대로."
+  },
+  {
+   "no": 50508,
+   "verdict": "pass",
+   "read_messages": 643,
+   "read_range": [
+    72194,
+    72836
+   ],
+   "length": 93,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    72195,
+    72296,
+    72447,
+    72451,
+    72728
+   ],
+   "note": ""
+  },
+  {
+   "no": 50509,
+   "verdict": "pass",
+   "read_messages": 434,
+   "read_range": [
+    72837,
+    73270
+   ],
+   "length": 95,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    72850,
+    72858,
+    72957,
+    72976,
+    72994
+   ],
+   "note": "첫 문장이 총괄, 둘째 문장이 전개 — 사실 오류 아님."
+  },
+  {
+   "no": 50510,
+   "verdict": "pass",
+   "read_messages": 395,
+   "read_range": [
+    73271,
+    73665
+   ],
+   "length": 99,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    73287,
+    73316,
+    73318,
+    73654,
+    73657
+   ],
+   "note": "원본 11/1 밤 계열. 장면 속 시각은 수업 중 오후(73280)."
+  },
+  {
+   "no": 50511,
+   "verdict": "pass",
+   "read_messages": 348,
+   "read_range": [
+    73666,
+    74013
+   ],
+   "length": 95,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    73689,
+    73715,
+    73852,
+    73871,
+    74012
+   ],
+   "note": ""
+  },
+  {
+   "no": 50512,
+   "verdict": "pass",
+   "read_messages": 292,
+   "read_range": [
+    74014,
+    74305
+   ],
+   "length": 98,
+   "sentences": 2,
+   "checks": {
+    "a_source_only": "ok",
+    "b_actor": "ok",
+    "c_no_mixing": "ok",
+    "d_no_ending_or_later_event": "ok",
+    "e_protagonist_and_kr_names": "ok",
+    "f_present_1_2_le100": "ok",
+    "g_no_explicit_adult": "ok"
+   },
+   "anchors": [
+    74089,
+    74092,
+    74257,
+    74299
+   ],
+   "note": "원본 11/1 밤 계열. 장면 안에서 사건의 현실 여부를 밝히지 않음 — 요약도 단정하지 않음."
+  }
+ ],
+ "author_semantic_qa_compared_after_review": {
+  "file": "evidence/semantic_qa.json",
+  "result": "집필자 수정 4건(50211·50212·50401·50503)은 모두 원문과 맞는 쪽으로 반영돼 있음을 독립 판독으로 재확인. 집필자 미해결 50506은 이 검수에서 수정."
+ }
+}

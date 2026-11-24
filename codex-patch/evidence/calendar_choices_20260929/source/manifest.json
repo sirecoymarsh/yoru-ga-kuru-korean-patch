@@ -1,0 +1,57 @@
+{
+ "status": "STAGED_NATIVE_PENDING",
+ "files": {
+  "NightRemaster.ain": {
+   "sha256": "6681bc33dc97a99eb59a3280a3b53e505f09fb8aac7e8a1d84c0b64e0c9b08ac"
+  },
+  "winmm.dll": {
+   "sha256": "0df1aa37edae29a9eb878e8043779b620ba0a3de5ee450cd872a5eac9c1e495e"
+  }
+ },
+ "source_sha256": "acb3e7abefcd37d58dbc8ac7d6bc38c01c5bec7b5ee244580c2f62ce989cdb3c",
+ "forwarded": {
+  "KR_T19EvHead": "KR_R29Head",
+  "KR_T19EvShort": "KR_R29Short",
+  "KR_T19WhenFix": "KR_R29When",
+  "KR_T19CardCond": "KR_R29Cond",
+  "KR_T19StageCols": "KR_R29StageCols",
+  "KR_T19ChipCols": "KR_R29ChipCols"
+ },
+ "added_functions": {
+  "KR_R29HeadBase": 32790,
+  "KR_R29Head": 32791,
+  "KR_R29ShortBase": 32792,
+  "KR_R29Short": 32793,
+  "KR_R29WhenBase": 32794,
+  "KR_R29When": 32795,
+  "KR_R29CondBase": 32796,
+  "KR_R29Cond": 32797,
+  "KR_R29StageColsBase": 32798,
+  "KR_R29StageCols": 32799,
+  "KR_R29ChipColsBase": 32800,
+  "KR_R29ChipCols": 32801
+ },
+ "cloned_getters": {
+  "KR_R29HeadBase": "KR_T19EvHead",
+  "KR_R29ShortBase": "KR_T19EvShort",
+  "KR_R29WhenBase": "KR_T19WhenFix",
+  "KR_R29CondBase": "KR_T19CardCond",
+  "KR_R29StageColsBase": "KR_T19StageCols",
+  "KR_R29ChipColsBase": "KR_T19ChipCols"
+ },
+ "new_globals": 0,
+ "serialized_schema_changes": 0,
+ "old_code_prefix_exact": true,
+ "messages_exact": true,
+ "dll_unchanged": true,
+ "choice_label_sha256": "0f2cef07bf7d1bb1468f2b844f8b65e43e911893252f1d39252627441fcec392",
+ "changed_counts": {
+  "ev_head": 45,
+  "ev_short": 45,
+  "when_fix": 48,
+  "conds": 1,
+  "stage_cols": 12,
+  "chip_cols": 1
+ },
+ "translator_model": "Codex internal"
+}

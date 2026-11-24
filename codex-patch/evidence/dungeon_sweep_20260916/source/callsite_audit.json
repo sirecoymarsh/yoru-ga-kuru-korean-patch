@@ -1,0 +1,8 @@
+{
+  "L_DungeonManager::RunRundomDungeon": [],
+  "L_Calendar::NextDay": [],
+  "C_SceneDungeon@Run": [],
+  "SystemFlagManager::Get": [],
+  "SystemFlagManager::Set": [],
+  "L_BattleIncome::SettleOnlyMonsAtb": []
+}

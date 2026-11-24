@@ -1,0 +1,24 @@
+{
+  "time": "2026-09-15T21:20:46.005260+09:00",
+  "files": {
+    "NightRemaster.ain": "28b837397fc79edb89de826819cd8e9a8de077e1c21a7513b748be13fe5a7412",
+    "NightRemasterPact.afa": "fc0f8664cfd41fcac8405d7d009f9327f86b26e805936e321ad48ce90cef5308",
+    "NightRemasterEX.ex": "4da0a2baf60a7864c0faf3e9e47cd94cf753e4a8f8a3f95c6a44bf67789f8dc4"
+  },
+  "native_gameplay_verified": false,
+  "actual_save_reload_verified": false,
+  "status": "STATIC_REVIEW_PASS",
+  "reviewer": "/root/mod_tab_design_review",
+  "scope": "Independent read-only final-byte review of AIN, PACT, EX, reward and speed callbacks, formation preview and guarded publisher",
+  "resolved_findings": [
+    "Original pages KR_ModTab enabled; Mods page only KR_ModTab disabled and Remaster enabled"
+  ],
+  "checks": [
+    "12 allowed AIN functions only; original CODE and metadata preserved",
+    "29387 normalized instructions outside one-time preview identical",
+    "PACT changes117..126 plus185 only; other175 entries exact",
+    "EX block23 old9 rows preserved; new row routes to Asra/Mods",
+    "Department route31860 unchanged",
+    "Three-file rollback and metadata journal reviewed"
+  ]
+}

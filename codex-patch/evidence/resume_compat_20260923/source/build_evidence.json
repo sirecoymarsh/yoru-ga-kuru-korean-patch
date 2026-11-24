@@ -1,0 +1,37 @@
+{
+  "status": "RESUME_COMPAT_STAGED",
+  "source_pointer": {
+    "runtime": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\runtime",
+    "manifest": "P:\\AI\\Codex\\projects\\YoruGaKuru_KR_asset_opening_20260908\\ui_cumulative\\enemyscope_fbca7f090e72\\manifest.json",
+    "manifest_sha256": "e6f8c05d5f79e6081383efd0638e44a7791b757dd6f342ac58de1b5ff8625ae1",
+    "status": "PLAYER_TOOLS_INSTALLED_COMPILED_PASS_NATIVE_PENDING",
+    "runtime_verified": false,
+    "whole_ui_complete": false
+  },
+  "source_files": {
+    "NightRemaster.ain": "769d461aa51037eae34d48f7b15125ba6e8a4ae83126b17fb7b848ab41f9184c"
+  },
+  "files": {
+    "NightRemaster.ain": "f39c448723a1139673ae443da3cc10a27ccec5422df5fe0fa3258d580f09b635"
+  },
+  "patched_existing": [
+    21031,
+    28637,
+    28642,
+    28664
+  ],
+  "added_functions": {},
+  "relocated_switches": [
+    450,
+    451
+  ],
+  "MSG1_exact": true,
+  "STR0_exact": true,
+  "old_CODE_prefix_exact": true,
+  "save_schema_changes": 0,
+  "save_writes": 0,
+  "native_verified": false,
+  "supported_existing_resume_saves": 37,
+  "mapped_saved_frames": 950,
+  "scope": "Only recorded return offsets from the current 37 saves; not a universal external-save converter."
+}

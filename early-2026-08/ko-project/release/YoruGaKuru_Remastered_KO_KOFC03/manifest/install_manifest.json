@@ -1,0 +1,522 @@
+{
+  "schema": "yorugakuru.ko-patch.install-manifest.v1",
+  "created_at": "2026-08-01T22:44:32.278944+00:00",
+  "build_tag": "KOFC03",
+  "game": "夜が来る！-Square of the MOON- Remastered",
+  "source_language": "ja-JP",
+  "target_language": "ko-KR",
+  "translation_provider": "Codex internal model",
+  "runtime_strategy": "native CP949 plus FNL proxy; no locale emulator or runtime injector",
+  "save_isolation": "GameName=밤이 온다! -Square of the MOON- Remastered; SaveFolder=SaveData_KOFC02",
+  "korean_title_logo_reference": "official-style Korean cover supplied by the user",
+  "corner_logo_localized": true,
+  "source_candidate_manifest_sha256": "36ccbd0f77655999cb8a0764f553ba0c9ec7192f8ae22acf05d75c7a976fcde4",
+  "source_static_qa_sha256": "87f92cf6a7eb6baa80993052062fa455dd45952be35c06c8cfe4110831886ad3",
+  "file_count": 63,
+  "files": [
+    {
+      "path": "AliceStart.ini",
+      "role": "patched",
+      "original_size": 425,
+      "original_sha256": "cfceae231a1bf2587d4f364773208c5c763733cd4f5131d2d511f0dab1ee87fa",
+      "patched_size": 433,
+      "patched_sha256": "5f3de93ea764c49d246fff07c659916edefea84b8da12cf09da731a36d2c40b3"
+    },
+    {
+      "path": "Manual/01.html",
+      "role": "patched",
+      "original_size": 4040,
+      "original_sha256": "eda66653fb03ed22ee5e42e47df49ce6998d3e9f2fd05a90d2a7ab896d4c41b4",
+      "patched_size": 3831,
+      "patched_sha256": "8f791e8a53d53e84a960ba0684136c704e7e041cdae8b4555f09a55383edcbc0"
+    },
+    {
+      "path": "Manual/02.html",
+      "role": "patched",
+      "original_size": 3993,
+      "original_sha256": "6a0832ae5a675de64c64a1a66e84be70064503d0091d9b3359ccc8aa842fc036",
+      "patched_size": 3693,
+      "patched_sha256": "9891d03026ebbec848b1c1db4f1ed1239fafb7a50a9ae04559d50bddae7d6f5d"
+    },
+    {
+      "path": "Manual/03.html",
+      "role": "patched",
+      "original_size": 3898,
+      "original_sha256": "e7d7b27dff1772f810bbac4571f637ccf9e9b107802da1d9114a5f08b61438b7",
+      "patched_size": 3599,
+      "patched_sha256": "b44b5f9caf72658f1948efad810a5b915bafda2ab569e949154f2a599625444d"
+    },
+    {
+      "path": "Manual/04.html",
+      "role": "patched",
+      "original_size": 5826,
+      "original_sha256": "514c3d49fd219afcc6693171c62f3bfb89c9786cd05e034139684dd7be652cd5",
+      "patched_size": 5280,
+      "patched_sha256": "29b07f4f2c108a94d36053a564efaaee3ffe475891b9a7fd5302803766f78cbd"
+    },
+    {
+      "path": "Manual/05.html",
+      "role": "patched",
+      "original_size": 8682,
+      "original_sha256": "a4a907a015b4c883e1fd47b1b013b2cd3b21a4147eebca710dc67725260b16ba",
+      "patched_size": 7851,
+      "patched_sha256": "bebbb58e88b4deab7b0ae70ad0dbf1027c268a3615d4ebf684ea8aa7e3c519c0"
+    },
+    {
+      "path": "Manual/06.html",
+      "role": "patched",
+      "original_size": 16128,
+      "original_sha256": "afe6bb14f54b5b75b160844cfda56ec2182864f3605d9e8cd591b97a48024976",
+      "patched_size": 14610,
+      "patched_sha256": "b21d295ba118e4758858283e10281bf8f620b0512e6eb79359e14b35d7280e95"
+    },
+    {
+      "path": "Manual/07.html",
+      "role": "patched",
+      "original_size": 15662,
+      "original_sha256": "0dd5ca32aafe4291f49b6d223caef331a109a40b6426d7613ac6573d5022003c",
+      "patched_size": 14419,
+      "patched_sha256": "119b95e42a48db03b3cf051710e6645928e3e02dd20424043935666c6f19cade"
+    },
+    {
+      "path": "Manual/08.html",
+      "role": "patched",
+      "original_size": 4369,
+      "original_sha256": "b5d1fb9cc804b4e997f5483707f3b7119da85f2decb900d7855104691fbbc413",
+      "patched_size": 3994,
+      "patched_sha256": "22c52dc46a0934f605b1f1f27cff912a0c847629c93c0f09889b80efa14bd41b"
+    },
+    {
+      "path": "Manual/09.html",
+      "role": "patched",
+      "original_size": 4210,
+      "original_sha256": "b789141e6d8b600223f542a3e6c5590e16f520c20aeb95289f8cf7126ffdb45b",
+      "patched_size": 3810,
+      "patched_sha256": "74cd20e546a26c15bf44113e291687dab0caae6b88d34c7d9488d7b96b3bfff9"
+    },
+    {
+      "path": "Manual/10.html",
+      "role": "patched",
+      "original_size": 3321,
+      "original_sha256": "f1eafb191d2cbc555a7244814a488fc5715c83787f77e01e62a78aa0e57797a3",
+      "patched_size": 3070,
+      "patched_sha256": "f2d1b3135bddae9d1fac0dc11dde85bf9956859b051d604d94ccc3f0ed784f00"
+    },
+    {
+      "path": "Manual/config.html",
+      "role": "patched",
+      "original_size": 4696,
+      "original_sha256": "3a3011c882f288317c1696c796aac113006fcdbe8197ab3eb98a91517ae5cba4",
+      "patched_size": 4372,
+      "patched_sha256": "aafb31f3636e4c29596c2e51b4bd6df0e42da5cd1ac5d8406606d85864d80da7"
+    },
+    {
+      "path": "Manual/faq.html",
+      "role": "patched",
+      "original_size": 4200,
+      "original_sha256": "edba4c146255cba09d04f4a6378130950de7b23a8c4b71f3a8bf3a7312117fd2",
+      "patched_size": 3916,
+      "patched_sha256": "af024c737ae7d613d872ff697e4e4b02958b6c1db8c795cc179068221d0403b4"
+    },
+    {
+      "path": "Manual/img/bnr_yorugakurur.png",
+      "role": "patched",
+      "original_size": 15621,
+      "original_sha256": "246f71dc436a279ff4dce26db4c7bce3b26de718f17a72fdd21b84f0be67ea02",
+      "patched_size": 3898,
+      "patched_sha256": "7e3f720f8c89a3b9ce90e5eb5e4c8252f1f0d93510cc064c2cc15ea84e7e1b82"
+    },
+    {
+      "path": "Manual/img/ct.png",
+      "role": "patched",
+      "original_size": 3425,
+      "original_sha256": "44f728741403d8b8557fdbaa31527d30f54f4490d7107d770f59d651bdf3f51f",
+      "patched_size": 3027,
+      "patched_sha256": "6de35a65a20834640e21ca9554885c3ffc9ca2a1ac3e7156dbfddc9bcf2a4348"
+    },
+    {
+      "path": "Manual/img/ct_.png",
+      "role": "patched",
+      "original_size": 3533,
+      "original_sha256": "1720faefc898c0192d9ccf18f12ffdde110235b536793dda26099907c8a7236a",
+      "patched_size": 2947,
+      "patched_sha256": "9285ed6d422235ef9bd15b77873230cad8634a5b8ceb8e22333b5f123309a60c"
+    },
+    {
+      "path": "Manual/img/logo.png",
+      "role": "patched",
+      "original_size": 37668,
+      "original_sha256": "b3b51326655aafa326a7ce850dda13ca6d14f81c4cac7d78c52452d6851b5bd5",
+      "patched_size": 18556,
+      "patched_sha256": "5491f6463e7b8adb8551c46c966d8c293217095ba86631df47b5a28c87edcaa2"
+    },
+    {
+      "path": "Manual/img/pm02.png",
+      "role": "patched",
+      "original_size": 321790,
+      "original_sha256": "2b42fbbd1cf20f114ac89f6a3105573e498ea1c4a126080ba423f09f3e150604",
+      "patched_size": 28236,
+      "patched_sha256": "7bb28da9d91d61b1c5a994ee73693b167b7742a65f7826db44a41e07bf683266"
+    },
+    {
+      "path": "Manual/img/pm03.png",
+      "role": "patched",
+      "original_size": 41816,
+      "original_sha256": "0252622e27be47140360c0d7a8d7b30e5ae1584214478eac30810c35af322dc5",
+      "patched_size": 17042,
+      "patched_sha256": "da1dcbbd59405cc0d8d46078791a1796f0bce594f448d963ff885a8b90bce8c6"
+    },
+    {
+      "path": "Manual/img/pm04.png",
+      "role": "patched",
+      "original_size": 307941,
+      "original_sha256": "d46e9bdb18b13c742cb3a46a76494116e9c364d8cdf9e289718b20db6917b966",
+      "patched_size": 202883,
+      "patched_sha256": "3523f9d2bf6b046b3106633ace6b1c98dcf9af230c2f5d32d56bf83d83daa24b"
+    },
+    {
+      "path": "Manual/img/pm04_1c.png",
+      "role": "patched",
+      "original_size": 18917,
+      "original_sha256": "18c89779d3f92968f25efdaeb64554f6fc17436bc737447feee977b206ef536c",
+      "patched_size": 9451,
+      "patched_sha256": "0c27666b62c25dd56ab8fc62f39a331d8698c5ad240de6d395d4768623ab87eb"
+    },
+    {
+      "path": "Manual/img/pm04_1d.gif",
+      "role": "patched",
+      "original_size": 23845,
+      "original_sha256": "3621673fa07934c5a70bbf35c521fea9680585c24090ccdb2c0a5193a12fd7ee",
+      "patched_size": 13733,
+      "patched_sha256": "0bf322528edcd5fd18f6a35967d74519415cb799f8f57911cf91e111a2ae24fb"
+    },
+    {
+      "path": "Manual/img/pm05.png",
+      "role": "patched",
+      "original_size": 242448,
+      "original_sha256": "3ff8da23efec5c683749afdd8ba040e2f6789651eef0254215ad6891dfe407aa",
+      "patched_size": 25314,
+      "patched_sha256": "765058d2042d3f71569e801e459a874fc07e1b32641f27e3aa42ef7e25001304"
+    },
+    {
+      "path": "Manual/img/pm05_1a.png",
+      "role": "patched",
+      "original_size": 33108,
+      "original_sha256": "78111d3a835655e8fb79eba54a487f30814d3032415e357fb7edc624d1546fdb",
+      "patched_size": 3380,
+      "patched_sha256": "427eba0416ae1fdc0172d3046ccc3dc6166660b19ab812d36a26548e93651849"
+    },
+    {
+      "path": "Manual/img/pm05_1b.png",
+      "role": "patched",
+      "original_size": 387140,
+      "original_sha256": "e5cb74d616baec8bdcc78d8e444eaa3e1b65db209a8e2bb09638c5d0a18adf56",
+      "patched_size": 18895,
+      "patched_sha256": "c39ffbbb27a0930b2770ec4d7a55f69c9e7d17ebaa2994a1097e7d52d9bcea43"
+    },
+    {
+      "path": "Manual/img/pm05_1c.png",
+      "role": "patched",
+      "original_size": 74455,
+      "original_sha256": "56ff8afd8355443f75e9c11a42095509c6426cc9d94edf30faa11da62f9ee3b8",
+      "patched_size": 12630,
+      "patched_sha256": "6e031270f287b1e8a862e9c390612b73c0a260f2ac5acbea8ad3cc28791a1b8f"
+    },
+    {
+      "path": "Manual/img/pm05_1d.png",
+      "role": "patched",
+      "original_size": 334685,
+      "original_sha256": "0014deb4875b8a7f251b25a267c3d91510fd1ccc5fa2ca74989960e243e4587e",
+      "patched_size": 19868,
+      "patched_sha256": "ffea7af8be80bbfb9ab5f9d43b557a0e154e288f24c151d535207582e626b9c5"
+    },
+    {
+      "path": "Manual/img/pm05_1e.png",
+      "role": "patched",
+      "original_size": 432169,
+      "original_sha256": "5f963c4042b8b017fdc50628deab92875ad1f76064e053693b4d9c810c8c2975",
+      "patched_size": 23694,
+      "patched_sha256": "a282986a0c22b39bf315817377a20ba98d14bf0cf2a2719a345bac0c7a5b40d6"
+    },
+    {
+      "path": "Manual/img/pm05_1f.png",
+      "role": "patched",
+      "original_size": 193380,
+      "original_sha256": "34321a9ccc3c8b2e353eb1fdb57492dbae43584ed489a21cc5c29071a9974ab4",
+      "patched_size": 20797,
+      "patched_sha256": "642a75dd74950cb7cb995eea8a4443b016bbc677e7e8c32d7e0299ffcae744b7"
+    },
+    {
+      "path": "Manual/img/pm06_2a.png",
+      "role": "patched",
+      "original_size": 417252,
+      "original_sha256": "d4a4fcf7422529b0eb2e024ec1d59a51c1ee37f458f7adea0613ce86e8426c05",
+      "patched_size": 21588,
+      "patched_sha256": "49025aede0c62637c1b8781b3f58ebb5cc169be0510a2a297508bfb8e6cb7a23"
+    },
+    {
+      "path": "Manual/img/pm06_2b.png",
+      "role": "patched",
+      "original_size": 187819,
+      "original_sha256": "68baf858bde80903cd2e914fd9ad421f0722e62e57e7c6edde046bb58dc41d93",
+      "patched_size": 16920,
+      "patched_sha256": "e893cb53c4b747ef155589f2cfd9064ed1aad5c72155c1e7af3c934295919cdb"
+    },
+    {
+      "path": "Manual/img/pm06_2c.png",
+      "role": "patched",
+      "original_size": 344374,
+      "original_sha256": "1feb24a71f3a7dea9acb0e855e72fd87c349c0703e44d30b89d12fe851c053a4",
+      "patched_size": 17635,
+      "patched_sha256": "d5df044ddefe36ac4ce721b1598517377d878cd79cfcd2f5122bf5bb1ad3a3d6"
+    },
+    {
+      "path": "Manual/img/pm06_2d.png",
+      "role": "patched",
+      "original_size": 343048,
+      "original_sha256": "2317cad6897d1dafb2cba0169344db138115f5772c259c1a4c64b4a66c5e5bf0",
+      "patched_size": 14642,
+      "patched_sha256": "a23b0f499a0f8fe26e13d36d8c98288c803f668ca0462ad5d242327cc033f10c"
+    },
+    {
+      "path": "Manual/img/pm06_2e.png",
+      "role": "patched",
+      "original_size": 196084,
+      "original_sha256": "4bbf6cee8b8cea86577ce7c3cb015dd2850f93653123716208796779311daa14",
+      "patched_size": 21751,
+      "patched_sha256": "917fbeec5ee3728ad4369fd783020d06984f63bf19a2ad783cb9c057eb25792c"
+    },
+    {
+      "path": "Manual/img/pm06_3a.png",
+      "role": "patched",
+      "original_size": 320907,
+      "original_sha256": "3ae808c8131e8b5f3cd30757eb609ddf7bac12e6e7d714bad0e04823fedc6292",
+      "patched_size": 18702,
+      "patched_sha256": "147457a4c56a92c6c468a4eebc2191f8fe79af260720966abd82bdfe0ea67476"
+    },
+    {
+      "path": "Manual/img/pm06_3b.png",
+      "role": "patched",
+      "original_size": 319270,
+      "original_sha256": "61cb455e82a514bc7df7b378b6df4cacc7423cfec0069c7eaf0b9f81c2836ecb",
+      "patched_size": 19834,
+      "patched_sha256": "540a5bc5ac17830dba0fe5da7b3c4b3d80e84fd392494d46d0a3f8c877e5fef0"
+    },
+    {
+      "path": "Manual/img/pm06_4a.png",
+      "role": "patched",
+      "original_size": 82209,
+      "original_sha256": "e9db3799b1710433c51406cb37f0f31a3b3eaa54e4a6c1e12a983f285d756d37",
+      "patched_size": 14030,
+      "patched_sha256": "de89fe444f3baa4367a8c6598aa3d3b3db04698fa7e832ec7bae1c3df9183651"
+    },
+    {
+      "path": "Manual/img/pm07_1a.png",
+      "role": "patched",
+      "original_size": 399259,
+      "original_sha256": "fb1087c431a4b6a4c49a83bebfcafd6af04e548dcf8e515c49198a3c35fc7c16",
+      "patched_size": 19488,
+      "patched_sha256": "d6c8b1f160d940a54e9ec39ffbf7f2b3c97cb153f39400e902bfb3144dc0c75b"
+    },
+    {
+      "path": "Manual/img/pm07_1c.png",
+      "role": "patched",
+      "original_size": 380358,
+      "original_sha256": "f4816c3e7a84f1592ab2ea9d2ad3e440c6bd893580634cb314d3359b534dbc6f",
+      "patched_size": 344324,
+      "patched_sha256": "c5a1ae31ab5ce811b4fa95c51410bbd37ebc06fb00452e7ae5bb853dc8b490f4"
+    },
+    {
+      "path": "Manual/img/pm07_3_1b.png",
+      "role": "patched",
+      "original_size": 2372,
+      "original_sha256": "343f9f8042dc7b0012f05c807b50fbb8f76922ab21ed7373aee29653a6075477",
+      "patched_size": 959,
+      "patched_sha256": "3871c8362f20984526904d3937ff3cec16af032cead93e6028c0bbcd201b9c6a"
+    },
+    {
+      "path": "Manual/img/pm07_3_1c.png",
+      "role": "patched",
+      "original_size": 2114,
+      "original_sha256": "efbbe6964092be71da2403ae8824e5deba0f09cd838f2242fd6efb6aa24c42cb",
+      "patched_size": 953,
+      "patched_sha256": "ef68c7f625144aadcb2b2f09079797f3654b66886a438198173cf435d33a6323"
+    },
+    {
+      "path": "Manual/img/pm07_3_1d.png",
+      "role": "patched",
+      "original_size": 2480,
+      "original_sha256": "aba91576e44a4006889f112b2e27ebbb064215fb0425ac2685091d2beeec7c97",
+      "patched_size": 915,
+      "patched_sha256": "4f9ff2abb12853de0715044a183ad3771c9d79e1e004658477b8cc3ea483aad2"
+    },
+    {
+      "path": "Manual/img/pm07_3_1e.png",
+      "role": "patched",
+      "original_size": 2090,
+      "original_sha256": "f3d15ce8c31754a7b5ade08900c21138a3704dc3e5445631a8e5350d66385616",
+      "patched_size": 686,
+      "patched_sha256": "483fc62a6d7a883bb8a3eac0cf8afd141ae081f9badf7cef55a59721d4288506"
+    },
+    {
+      "path": "Manual/img/pm07_3_1f.png",
+      "role": "patched",
+      "original_size": 2641,
+      "original_sha256": "81b2aabe3ec1d5a12a822fb4d21db183892d588940fef001cabc5188c2581c59",
+      "patched_size": 810,
+      "patched_sha256": "a45d83317d55faa5f3fa339902fab8c8e412a307edbeba5cd06f73d061fc9d79"
+    },
+    {
+      "path": "Manual/img/pm07_3_1g.png",
+      "role": "patched",
+      "original_size": 2341,
+      "original_sha256": "61c1808cd56224b25e92ff51549108da78c6dc12de81935a3ad3d73104201afb",
+      "patched_size": 956,
+      "patched_sha256": "379607f92791fd4ededab0749868f579aae017d1fb927ef07410a1bb6c3d0e1d"
+    },
+    {
+      "path": "Manual/img/pm07_3a.png",
+      "role": "patched",
+      "original_size": 284694,
+      "original_sha256": "ddee3d31946b2948082e3cb0572a4b51a67e10fd2b332bc0d3683ead821aed23",
+      "patched_size": 17897,
+      "patched_sha256": "cd0575cea64807e5d800d29ddcae1b8cb6a9b920bbfb2dec75816367275ea4ec"
+    },
+    {
+      "path": "Manual/img/pm07_3b.png",
+      "role": "patched",
+      "original_size": 10362,
+      "original_sha256": "92be073e4fe41023907ff1d5272a79ee4b338f215f5c599352218cb665167669",
+      "patched_size": 4117,
+      "patched_sha256": "1a95f185a6f40cd1863aaf7710d07562bf59e3e81af2a147a6e3897e1d523656"
+    },
+    {
+      "path": "Manual/img/pm07_4_1a.png",
+      "role": "patched",
+      "original_size": 51539,
+      "original_sha256": "3879b9c96d101176a67e269a6e8ec780590af4313221ec2a51b0961318f6c68b",
+      "patched_size": 6714,
+      "patched_sha256": "24bf8ffec1205d0802bee9f72e08a9327d63fb7b52a47727dec395c44c3f6e6d"
+    },
+    {
+      "path": "Manual/img/pm08_1_1a.png",
+      "role": "patched",
+      "original_size": 75493,
+      "original_sha256": "46d8e4c1424b94a8896634b5563d6c556ee623eb9ef88de4fd86f2f29e024854",
+      "patched_size": 14993,
+      "patched_sha256": "7ba873e68f27b42bb39dfb5bd4259e7e96de13b03891fceb4872c1ccfa0fccb6"
+    },
+    {
+      "path": "Manual/index.css",
+      "role": "patched",
+      "original_size": 3436,
+      "original_sha256": "2cbf35de92eea1759cbed0571946e273d51fb063c662ccb37de89c88ba62b967",
+      "patched_size": 3356,
+      "patched_sha256": "0f4a41d987225fde1574136c320250410626ace0c31dd595a5a0cf91c0baa815"
+    },
+    {
+      "path": "Manual/index.html",
+      "role": "patched",
+      "original_size": 4402,
+      "original_sha256": "a9b9c9e2bc1dd74c7326a4c2e7588fb872b2988b8f27919858599f477018b5fd",
+      "patched_size": 4098,
+      "patched_sha256": "a38dce8cd459483cf54955a6675df29657a6e37ee30f69af36b8d48c0ec1e194"
+    },
+    {
+      "path": "Manual/pub.html",
+      "role": "patched",
+      "original_size": 3550,
+      "original_sha256": "be61a9b85e185acc581e1e44130afaadaa3516050d94b1eb404c16bb0429f88b",
+      "patched_size": 3329,
+      "patched_sha256": "5e5154cfd5ca3fd00fd82c3268b312fcc175e0443a5d15dea415bfb81d59cc28"
+    },
+    {
+      "path": "Manual/staff.html",
+      "role": "patched",
+      "original_size": 7260,
+      "original_sha256": "0e9d190dcd83d3dc54cddcffe41cc3c264546dbc13b5088c01c16b8b6e24ed82",
+      "patched_size": 6870,
+      "patched_sha256": "c6ac5e00c905dbeb6d0deb32e2ebe14c09ccbeb99ee8bd3d3ac1bc619cce4346"
+    },
+    {
+      "path": "Manual/startup.html",
+      "role": "patched",
+      "original_size": 14757,
+      "original_sha256": "0eea2eda7de2074aa3a2b8a93f889678fc292a76f0e076a9fea61d61f7a2cc89",
+      "patched_size": 12680,
+      "patched_sha256": "25d3b96b3297810eaa5d79e4b353c57481802ddcfc937b4badbe30a669a9bba5"
+    },
+    {
+      "path": "NightRemaster.ain",
+      "role": "patched",
+      "original_size": 3708209,
+      "original_sha256": "9261bad0dd0eadd42f53eca8eb86ca407f6ddf3f5be3bedf6a6d965acdf49c40",
+      "patched_size": 3759317,
+      "patched_sha256": "fd989e7ac3750f6bf5c04961124f270da2d9736689c211ffb5cedc1604f9f275"
+    },
+    {
+      "path": "NightRemaster.exe",
+      "role": "patched",
+      "original_size": 5214208,
+      "original_sha256": "5eec98452090e7df69d2c728aa695783913f1c439bbf6cda9d239e5751964e8c",
+      "patched_size": 5214208,
+      "patched_sha256": "7250430736c7640dd213c7148fbc37f7e9e8c73e647407625942c2edd74e572e"
+    },
+    {
+      "path": "NightRemasterCG.afa",
+      "role": "patched",
+      "original_size": 252052317,
+      "original_sha256": "99662ba4c822850303a2e6847c0dca59c2a8d49df1cb52a7d54dd792086c9adb",
+      "patched_size": 246483626,
+      "patched_sha256": "19f7dc8843dd8d3dcfe5428c7d61efcc0cbc90582322fc2677b6ab84dcb70582"
+    },
+    {
+      "path": "NightRemasterEX.ex",
+      "role": "patched",
+      "original_size": 63332,
+      "original_sha256": "b0eab64000fecf3ffe8117614276f7c8c09e6d011f72654d9b6fc63b27648899",
+      "patched_size": 58609,
+      "patched_sha256": "60bfc4b4a57b3d7010c62b082fac27c7565c33f343be6990de1223a1bde5487b"
+    },
+    {
+      "path": "NightRemasterFont.fnl",
+      "role": "patched",
+      "original_size": 258902794,
+      "original_sha256": "1942bfe1cd75690421aea94018c08071324a7ab7b34a2b32f1c1321ad1991591",
+      "patched_size": 286276385,
+      "patched_sha256": "975c278d247f9d7430c208a78eb511c182064fcbe21d2df8a57861ef678639dd"
+    },
+    {
+      "path": "NightRemasterPact.afa",
+      "role": "patched",
+      "original_size": 800789,
+      "original_sha256": "42092d8ec886a35c0c894594e0f7c227afaf120ed949dca416f395f2c59fd50e",
+      "patched_size": 910064,
+      "patched_sha256": "99149686df44c506210c59edd38c171e52df1654d2f32b47ca0b536536079d0f"
+    },
+    {
+      "path": "OpenSaveFolder.exe",
+      "role": "patched",
+      "original_size": 140288,
+      "original_sha256": "679227c8293d571c3cd1bacd4ad072921cbc2852fa71919b23fb7e60649e4ea3",
+      "patched_size": 140288,
+      "patched_sha256": "c05360b49706cdfe33bccf77b43d227b4cf769de980d618b8890af40a47be98a"
+    },
+    {
+      "path": "ResetConfig.exe",
+      "role": "patched",
+      "original_size": 144384,
+      "original_sha256": "924cef53f7326a014b7a561e1ea4c72f8ab3152c0878abf0ebe54b3fa14a2905",
+      "patched_size": 144384,
+      "patched_sha256": "c8950d8f16b3bb9591182ef191f5e92c1da86da19ae72df30afe55ebf323ca50"
+    },
+    {
+      "path": "Uninstaller.exe",
+      "role": "patched",
+      "original_size": 107008,
+      "original_sha256": "d5dd2eb34ddaac1ce71d37eb4fc59ced1836aad0aae8acb29f501e1e849f32db",
+      "patched_size": 107008,
+      "patched_sha256": "d63cd53c317d95dfd02041bd96bb4abd7046a33fb507e4ac50d66e46f08a191f"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source_census_sha256": "122b02b7332c19ce348b45360eb1d5f0ccb5d96597d351dcd347fbbab6824096",
+  "reviewed_entries": 1995,
+  "rows": [
+    {
+      "id": 485,
+      "name": "CG4014.qnt",
+      "finding": "先制攻撃 / First Attack"
+    },
+    {
+      "id": 981,
+      "name": "CG4013.pcf",
+      "finding": "不意打ち / Back Attack"
+    },
+    {
+      "id": 988,
+      "name": "CG5050.pcf",
+      "finding": "全滅"
+    },
+    {
+      "id": 1004,
+      "name": "CG5070.pcf",
+      "finding": "休憩中 / resting"
+    },
+    {
+      "id": 1318,
+      "name": "CG1541.qnt",
+      "finding": "Astronomy-room wall banner has Japanese brush lettering; book spines/covers also require native review."
+    },
+    {
+      "id": 1319,
+      "name": "CG1542.qnt",
+      "finding": "Astronomy-room wall banner has Japanese brush lettering; book spines/covers also require native review."
+    }
+  ],
+  "paired_status_banners": [
+    485,
+    981,
+    1004
+  ],
+  "unchanged_status_banner": {
+    "id": 988,
+    "reason": "全滅 has no English secondary line; keep existing 전멸."
+  },
+  "clubroom_scope": "Wall placard only, day and night. Japanese book spines remain outside this request.",
+  "unchanged_scope": "Command-button atlases and system menus are not paired encounter/status banners."
+}

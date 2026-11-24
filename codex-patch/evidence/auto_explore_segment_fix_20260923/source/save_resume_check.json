@@ -1,0 +1,5705 @@
+{
+  "saves": 37,
+  "frames": [
+    {
+      "file": "NightR01.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 28172,
+      "offset": 60,
+      "opcode": "JUMP 0x5c0ae6"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 30086,
+      "offset": 62,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 30112,
+      "offset": 36372,
+      "opcode": "MSG 0xec2"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 21031,
+      "offset": 800,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR01.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 28172,
+      "offset": 60,
+      "opcode": "JUMP 0x5c0ae6"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 30086,
+      "offset": 100,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 30113,
+      "offset": 14400,
+      "opcode": "MSG 0x1358"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 21031,
+      "offset": 800,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR02.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 30087,
+      "offset": 854,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 30095,
+      "offset": 128,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 26393,
+      "offset": 2700,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 26398,
+      "offset": 192,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 26397,
+      "offset": 78,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 30118,
+      "offset": 2130,
+      "opcode": "PUSH 0xcc"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 21031,
+      "offset": 800,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR03.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 30087,
+      "offset": 906,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 30097,
+      "offset": 252,
+      "opcode": "JUMP 0x6b84ce"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 28302,
+      "offset": 712,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 28312,
+      "offset": 1770,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 26430,
+      "offset": 220,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 30820,
+      "offset": 192,
+      "opcode": "PUSH 0xcb"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 21031,
+      "offset": 800,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR04.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 30093,
+      "offset": 900,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 27151,
+      "offset": 198,
+      "opcode": "JUMP 0x565c8a"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 28637,
+      "offset": 2468,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR05.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 30087,
+      "offset": 880,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 30096,
+      "offset": 128,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 26393,
+      "offset": 2764,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 26398,
+      "offset": 192,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 26397,
+      "offset": 78,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 30463,
+      "offset": 1128,
+      "opcode": "S_PUSH 0x0"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 21031,
+      "offset": 800,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR06.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 28542,
+      "offset": 922,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 28549,
+      "offset": 784,
+      "opcode": "IFNZ 0x6042de"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR07.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 30087,
+      "offset": 854,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 30095,
+      "offset": 230,
+      "opcode": "JUMP 0x6b8228"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 28302,
+      "offset": 204,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 31529,
+      "offset": 264,
+      "opcode": "IFNZ 0x5c847e"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 28307,
+      "offset": 152,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR08.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 30087,
+      "offset": 880,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 30096,
+      "offset": 128,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 26393,
+      "offset": 2796,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 26398,
+      "offset": 192,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 26397,
+      "offset": 78,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 30121,
+      "offset": 8760,
+      "opcode": "PUSH 0xfd"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 21031,
+      "offset": 800,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR09.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 30093,
+      "offset": 900,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 27151,
+      "offset": 198,
+      "opcode": "JUMP 0x565c8a"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 28637,
+      "offset": 2468,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR10.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 30087,
+      "offset": 854,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 30095,
+      "offset": 326,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 26393,
+      "offset": 2860,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 26398,
+      "offset": 192,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 26397,
+      "offset": 78,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 30123,
+      "offset": 456,
+      "opcode": "PUSH 0xc9"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 21031,
+      "offset": 800,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR11.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 28542,
+      "offset": 312,
+      "opcode": "IFNZ 0x6021e4"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR12.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 30087,
+      "offset": 406,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 30090,
+      "offset": 218,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 27152,
+      "offset": 330,
+      "opcode": "JUMP 0x565e1a"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 28637,
+      "offset": 2468,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR13.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 30087,
+      "offset": 406,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 30090,
+      "offset": 218,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 27152,
+      "offset": 330,
+      "opcode": "JUMP 0x565e1a"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 28637,
+      "offset": 2468,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR14.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 30087,
+      "offset": 406,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 30090,
+      "offset": 218,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 27152,
+      "offset": 330,
+      "opcode": "JUMP 0x565e1a"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28637,
+      "offset": 334,
+      "opcode": "JUMP 0xa59f90"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 9196,
+      "offset": 300,
+      "opcode": "JUMP 0x2ec1ee"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28642,
+      "offset": 1880,
+      "opcode": "JUMP 0xa5b8ac"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28664,
+      "offset": 4298,
+      "opcode": "JUMP 0xa5dd88"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 29176,
+      "offset": 512,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28875,
+      "offset": 80,
+      "opcode": "JUMP 0x62f2a0"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28881,
+      "offset": 50,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 30158,
+      "offset": 702,
+      "opcode": "S_PUSH 0x0"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 21031,
+      "offset": 818,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR15.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 28542,
+      "offset": 312,
+      "opcode": "IFNZ 0x6021e4"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR16.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 30093,
+      "offset": 900,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 27151,
+      "offset": 198,
+      "opcode": "JUMP 0x565c8a"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 28637,
+      "offset": 2468,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR17.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 28542,
+      "offset": 312,
+      "opcode": "IFNZ 0x6021e4"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR18.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 30093,
+      "offset": 900,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 27151,
+      "offset": 198,
+      "opcode": "JUMP 0x565c8a"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 28637,
+      "offset": 2468,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR19.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 30093,
+      "offset": 900,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 27151,
+      "offset": 198,
+      "opcode": "JUMP 0x565c8a"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 28637,
+      "offset": 2468,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR20.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 30093,
+      "offset": 900,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 27151,
+      "offset": 198,
+      "opcode": "JUMP 0x565c8a"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 28637,
+      "offset": 2468,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR21.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 30087,
+      "offset": 880,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 30096,
+      "offset": 128,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 26393,
+      "offset": 3212,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 26398,
+      "offset": 192,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 26397,
+      "offset": 78,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 30175,
+      "offset": 12776,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 27941,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 27978,
+      "offset": 114,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 21031,
+      "offset": 818,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR22.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 28542,
+      "offset": 922,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 28549,
+      "offset": 784,
+      "opcode": "IFNZ 0x6042de"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR23.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 28542,
+      "offset": 922,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 28549,
+      "offset": 784,
+      "opcode": "IFNZ 0x6042de"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR24.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 30087,
+      "offset": 880,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 30096,
+      "offset": 128,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 26393,
+      "offset": 3628,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 27152,
+      "offset": 330,
+      "opcode": "JUMP 0x565e1a"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28637,
+      "offset": 334,
+      "opcode": "JUMP 0xa59f90"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 9196,
+      "offset": 300,
+      "opcode": "JUMP 0x2ec1ee"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28642,
+      "offset": 1896,
+      "opcode": "JUMP 0xa5b8ac"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28664,
+      "offset": 4104,
+      "opcode": "JUMP 0xa5dc54"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 29176,
+      "offset": 298,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28933,
+      "offset": 40,
+      "opcode": "JUMP 0x6306f8"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28938,
+      "offset": 618,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 30205,
+      "offset": 16284,
+      "opcode": "PUSH 0x2bd"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 21031,
+      "offset": 818,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR25.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 28542,
+      "offset": 312,
+      "opcode": "IFNZ 0x6021e4"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR26.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 30087,
+      "offset": 462,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 30091,
+      "offset": 218,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 27152,
+      "offset": 330,
+      "opcode": "JUMP 0x565e1a"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 28637,
+      "offset": 2530,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR27.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 30087,
+      "offset": 906,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 30097,
+      "offset": 252,
+      "opcode": "JUMP 0x6b84ce"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 28302,
+      "offset": 712,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 28312,
+      "offset": 1770,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 26430,
+      "offset": 220,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 30514,
+      "offset": 3278,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 27941,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 27978,
+      "offset": 114,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 21031,
+      "offset": 818,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR28.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 30087,
+      "offset": 854,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 30095,
+      "offset": 326,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 26393,
+      "offset": 4544,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 26402,
+      "offset": 350,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 27152,
+      "offset": 330,
+      "opcode": "JUMP 0x565e1a"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 28637,
+      "offset": 334,
+      "opcode": "JUMP 0xa59f90"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 9196,
+      "offset": 300,
+      "opcode": "JUMP 0x2ec1ee"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 28642,
+      "offset": 1896,
+      "opcode": "JUMP 0xa5b8ac"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 28664,
+      "offset": 4104,
+      "opcode": "JUMP 0xa5dc54"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 29176,
+      "offset": 298,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 29048,
+      "offset": 290,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 30486,
+      "offset": 768,
+      "opcode": "MSG 0xc4ad"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 21031,
+      "offset": 818,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR29.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 30087,
+      "offset": 854,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 30095,
+      "offset": 128,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 26393,
+      "offset": 4810,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 26398,
+      "offset": 192,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 26397,
+      "offset": 78,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 26381,
+      "offset": 786,
+      "opcode": "JUMP 0x5375c0"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 30277,
+      "offset": 2754,
+      "opcode": "PUSH 0x1f8"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 6973,
+      "offset": 112,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 6924,
+      "offset": 6,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 7134,
+      "offset": 38,
+      "opcode": "CALLFUNC 0xdd8"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 7147,
+      "offset": 180,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 7055,
+      "offset": 284,
+      "opcode": "CALLFUNC 0x522b"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 24401,
+      "offset": 702,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 7878,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 9196,
+      "offset": 312,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 20992,
+      "offset": 24,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 21031,
+      "offset": 818,
+      "opcode": "JUMP 0xa5942a"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 9180,
+      "offset": 26,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 8730,
+      "offset": 78,
+      "opcode": "IFZ 0x2c79f0"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 8724,
+      "offset": 622,
+      "opcode": "JUMP 0x2c75be"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 24812,
+      "offset": 212,
+      "opcode": "JUMP 0x50f2fe"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 24750,
+      "offset": 114,
+      "opcode": "JUMP 0x2c5d66"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 24749,
+      "offset": 202,
+      "opcode": "JUMP 0x51871e"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 24750,
+      "offset": 76,
+      "opcode": "JUMP 0x2c5bea"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 7008,
+      "offset": 56,
+      "opcode": "JUMP 0x257e50"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 28106,
+      "offset": 12,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR30.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 28542,
+      "offset": 312,
+      "opcode": "IFNZ 0x6021e4"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR31.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 30087,
+      "offset": 854,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 30095,
+      "offset": 230,
+      "opcode": "JUMP 0x6b8228"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 28302,
+      "offset": 204,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 31529,
+      "offset": 264,
+      "opcode": "IFNZ 0x5c847e"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 28307,
+      "offset": 152,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR32.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 30093,
+      "offset": 434,
+      "opcode": "JUMP 0x6b7b24"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 28542,
+      "offset": 312,
+      "opcode": "IFNZ 0x6021e4"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 28552,
+      "offset": 112,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR33.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 30087,
+      "offset": 906,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 30097,
+      "offset": 252,
+      "opcode": "JUMP 0x6b84ce"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 28302,
+      "offset": 312,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 31531,
+      "offset": 212,
+      "opcode": "IFNZ 0x5c9062"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 28307,
+      "offset": 152,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR34.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 30087,
+      "offset": 854,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 30095,
+      "offset": 230,
+      "opcode": "JUMP 0x6b8228"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 28302,
+      "offset": 204,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 31529,
+      "offset": 264,
+      "opcode": "IFNZ 0x5c847e"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 28307,
+      "offset": 152,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR35.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 30087,
+      "offset": 828,
+      "opcode": "JUMP 0x6b674c"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 30093,
+      "offset": 900,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 27151,
+      "offset": 198,
+      "opcode": "JUMP 0x565c8a"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 28177,
+      "offset": 1618,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 28637,
+      "offset": 2530,
+      "opcode": "JUMP 0xa5a864"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 25977,
+      "offset": 128,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 29548,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 29550,
+      "offset": 446,
+      "opcode": "PUSH 0x1"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR36.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 6205,
+      "offset": 802,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 20590,
+      "offset": 1062,
+      "opcode": "JUMP 0x49a4d8"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 25730,
+      "offset": 254,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 27672,
+      "offset": 192,
+      "opcode": "SR_ASSIGN"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 28232,
+      "offset": 152,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 28172,
+      "offset": 182,
+      "opcode": "X_ASSIGN 0x1"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 30087,
+      "offset": 354,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 25976,
+      "offset": 142,
+      "opcode": "PUSHLOCALPAGE"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 29549,
+      "offset": 70,
+      "opcode": "POP"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 29551,
+      "offset": 106,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 29555,
+      "offset": 96,
+      "opcode": "PUSH 0x0"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 6160,
+      "offset": 36,
+      "opcode": "RETURN"
+    },
+    {
+      "file": "NightR999.asd",
+      "fid": 6240,
+      "offset": 84,
+      "opcode": "RETURN"
+    }
+  ]
+}
